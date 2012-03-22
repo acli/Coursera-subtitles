@@ -1800,7 +1800,7 @@ trying to improve our practices
 
 451
 00:15:31,011 --> 00:15:33,099
-But, having now lived with this 3 or 4 years myself
+But, having now lived with this for 3 or 4 years myself
 
 452
 00:15:33,099 --> 00:15:35,091
@@ -1848,7 +1848,7 @@ maybe a few tens of lines of code
 
 463
 00:15:54,043 --> 00:15:55,059
-I’m sure they’re right—
+I’m *sure* they’re right—
 
 464
 00:15:55,059 --> 00:15:56,061
@@ -2144,7 +2144,7 @@ that was *working*—you know, that was decent code—
 
 537
 00:18:26,087 --> 00:18:29,006
-and I started to write tests for it
+and I started trying to write tests for it
 
 538
 00:18:29,006 --> 00:18:31,019
