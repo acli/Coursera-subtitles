@@ -438,7 +438,7 @@ Let’s look at some other examples of feature-based models.
 
 109
 00:08:38,011 --> 00:08:40,091
-So this is the example from statistical physics.
+So this is an example from statistical physics.
 
 110
 00:08:40,091 --> 00:08:43,044
