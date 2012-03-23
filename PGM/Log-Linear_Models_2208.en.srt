@@ -24,7 +24,7 @@ Whereas, in the original representation of the unnormalized density
 
 7
 00:00:33,014 --> 00:00:39,018
-we defined P tilde as the product of factors Φi(Di),
+we defined P tilde as the product of factors φi(Di),
 
 8
 00:00:39,021 --> 00:00:42,030
@@ -116,7 +116,7 @@ Specifically lets look at how we might represent a simple table factor as a log 
 
 30
 00:02:17,070 --> 00:02:24,028
-So here’s a param, here’s a factor Φ, over two binary random variables X1 and X2.
+So here’s a param, here’s a factor φ, over two binary random variables X1 and X2.
 
 31
 00:02:24,028 --> 00:02:30,078
@@ -189,11 +189,11 @@ of w00 only in the case where X1 is zero and X2 is zero.
 
 48
 00:03:49,025 --> 00:04:00,048
-So we would have x of negative w00 when X1=0 and X2=0,
+So we would have exp of negative w00 when X1=0 and X2=0,
 
 49
 00:04:01,011 --> 00:04:12,003
-and we would have x of negative w01 when
+and we would have exp of negative w01 when
 X1=0 and X2=1, and so on and so forth.
 
 50
