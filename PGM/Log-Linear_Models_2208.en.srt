@@ -451,7 +451,7 @@ of variables.
 
 112
 00:08:48,077 --> 00:08:51,077
-It’s a pairwise Markov [network].
+It’s a pairwise Markov network.
 
 113
 00:08:53,012 --> 00:08:55,067
@@ -463,12 +463,12 @@ and basically gives us a coefficient for their products.
 
 115
 00:08:59,049 --> 00:09:03,050
-So now, this is the case where variables are in the end are binary,
+So now, this is a case where variables are in the end are binary,
 
 116
 00:09:03,050 --> 00:09:07,083
-but not in the space zero one that rather
-negative one of and positive one.
+but not in the space {0, 1} but rather
+negative one and positive one.
 
 117
 00:09:07,083 --> 00:09:10,031
