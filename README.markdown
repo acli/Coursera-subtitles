@@ -6,14 +6,14 @@ over to http://w.gniw.ca/?p=735
 List of videos:
 ==============
 
-(Needed UniversalSubtitles doesn’t provide a way to give you a
-list of all videos you have done)
+(Needed because UniversalSubtitles doesn’t provide a way to give
+you a list of all videos you have done)
 
 Saas:
-http://www.universalsubtitles.org/en/videos/vz9OvM97buqT/info/
+- http://www.universalsubtitles.org/en/videos/vz9OvM97buqT/info/
 
 PGM:
-http://www.universalsubtitles.org/fr/videos/JfejIomQXOV9/info/log-linear-models-2208/
+- http://www.universalsubtitles.org/fr/videos/JfejIomQXOV9/info/log-linear-models-2208/
 
 Things to watch out for if you want to work on Coursera’s subtitles:
 ===================================================================
