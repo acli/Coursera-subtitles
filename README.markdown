@@ -20,7 +20,7 @@ http://www.universalsubtitles.org/fr/videos/JfejIomQXOV9/info/log-linear-models-
 Things to watch out for if you want to work on Coursera’s subtitles:
 ===================================================================
 
-These are not obvious, and I found then out through the hard
+These are not obvious, and I found them out through the hard
 way, If you haven’t started yet, then it’d be better to know
 them before you start.
 
