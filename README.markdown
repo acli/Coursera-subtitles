@@ -29,12 +29,15 @@ them before you start.
 2. A corollary of the above is that if there are no subtitles
    when you start working, and still no subtitles when you
    finish, then be prepared that stanford-bot will overwrite
-   your work. When this happens just revert back to your version.
+   your work. When this happens just revert back to your version,
+   but only if your version is complete, i.e., only if it covers
+   100% of the video.
 
-3. Depending on how perfectionist you are, you might want to
-   throw away stanford-bot’s transcript, or at least reformat it
-   before using. The transcript that it generates have very
-   strange formatting that is very hard to work with, and the
+3. However, if stanford-bot’s transcript is already present before
+   you start, then depending on how perfectionist you are, you
+   might want to just throw away its transcript, or at least
+   reformat it before using. The transcript that it generates have
+   very strange formatting that is very hard to work with, and the
    subtitles are cut off at very illogical places which require
    a lot of work to fix. It can get so bad that it takes as long
    to try to fix it as to throw it away and start over.
