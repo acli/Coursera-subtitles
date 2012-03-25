@@ -11,16 +11,16 @@ you a list of all videos you have done)
 
 Transcribed from scratch:
 
-- http://www.universalsubtitles.org/en/videos/vz9OvM97buqT/info/
+- http://www.universalsubtitles.org/en/videos/vz9OvM97buqT/info/ (SaaS 5.8)
 
-Minor revisions to existing non-stanford-bot transcripts:
+Minor revisions to transcripts already revised by other students:
 
-- http://www.universalsubtitles.org/fr/videos/JfejIomQXOV9/info/
-- http://www.universalsubtitles.org/en/videos/tThIgKFLeJ7w/info/
+- http://www.universalsubtitles.org/fr/videos/JfejIomQXOV9/info/ (PGM)
+- http://www.universalsubtitles.org/en/videos/tThIgKFLeJ7w/info/ (models)
 
-Reformatting and QA (from stanford-bot’s transcript):
+Reformatting and QA of stanford-bot’s transcripts:
 
-- http://www.universalsubtitles.org/en/videos/ayR3VR8BXJdL/info/
+- http://www.universalsubtitles.org/en/videos/ayR3VR8BXJdL/info/ (models)
 
 Things to watch out for if you want to work on Coursera’s subtitles:
 ===================================================================
