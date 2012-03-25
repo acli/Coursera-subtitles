@@ -11,20 +11,48 @@
 use strict;
 use integer;
 
+sub THRES () { 79 }
+
 my $guessed_end_of_segment = '[\.\?!:;]"?';
 
 my $possibly_end_of_segment = '(' . $guessed_end_of_segment . ')\s';
 my $possibly_same_segment = '((?:(?!' . $guessed_end_of_segment . '\s).)*)';
 
+my $guessed_end_of_fragment = '[,]"?';
+
+my $possibly_end_of_fragment = '(' . $guessed_end_of_fragment . ')\s';
+my $possibly_same_fragment = '((?:(?!' . $guessed_end_of_fragment . '\s).)*)';
+
+my $guessed_start_of_shard = '\s((?:and|how|that|what|when|whether|why)\s)';
+
 sub fragmentize ($) {
     my($s) = @_;
-    # STUB
-    return ($s);
+
+    # We can't just use split, because that would require a variable-length
+    # lookbehind, which is not implemented.
+    my @fragments;
+    while ($s =~ /^$possibly_same_fragment$possibly_end_of_fragment(.*)$/) {
+	my $fragment = "$1$2";
+	$s = $3;
+	if (length $fragment > THRES) {
+	    my @shards;
+	    while ($fragment =~ /$guessed_start_of_shard/) {
+		push @shards, $`;
+		$fragment = "$1$'";
+	    }
+	    push @shards, $fragment if $fragment =~ /\S/;
+	    push @fragments, @shards;
+	} else {
+	    push @fragments, $fragment;
+	}
+    }
+    push @fragments, $s if $s =~ /\S/;
+    return @fragments;
 }
 
 sub dump_segment ($) {
     my($s) = @_;
-    for my $fragment ((length $s > 80)? fragmentize $s: $s) {
+    for my $fragment ((length $s > THRES)? fragmentize $s: $s) {
 	print "$fragment\n";
     }
 }
