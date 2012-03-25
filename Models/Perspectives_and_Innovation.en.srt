@@ -1,0 +1,1189 @@
+1
+00:00:00,000 --> 00:00:05,001
+Hi. In this lecture we're talking about
+problem solving. And we're talking about
+
+2
+00:00:05,001 --> 00:00:10,042
+the rule that diverse perspectives play in
+finding solutions to problems. So when you
+
+3
+00:00:10,042 --> 00:00:15,043
+think about a problem, perspective is how
+you represent it. So remember from the
+
+4
+00:00:15,043 --> 00:00:19,088
+previous lecture. We talked about
+landscapes. We talked about landscape
+
+5
+00:00:19,088 --> 00:00:24,065
+being able to represent the solutions
+along this axis and the value of the
+
+6
+00:00:24,065 --> 00:00:30,030
+solutions. As the, as the height. And so
+this is metaphorically a way to represent
+
+7
+00:00:30,030 --> 00:00:35,082
+how someone might think about solving a
+problem. Finding high points on their
+
+8
+00:00:35,082 --> 00:00:41,002
+landscape. What we want to do is take this
+metaphor and formalize it and part of the
+
+9
+00:00:41,002 --> 00:00:45,035
+reason for this course is to get Better
+lodge, I can be able to think through
+
+10
+00:00:45,035 --> 00:00:49,052
+things in a clear way. So I'm going to
+take this landscape metaphor and turn it
+
+11
+00:00:49,052 --> 00:00:53,053
+into a formal model. So how do we do it?
+The first thing we do is we formally
+
+12
+00:00:53,053 --> 00:00:57,092
+define what a perspective is. So we speak
+math to metaphor. So what a perspective is
+
+13
+00:00:57,092 --> 00:01:01,088
+going to be, is it's going to be a
+representation of all possible solutions.
+
+14
+00:01:01,088 --> 00:01:06,000
+So it's some encoding of the set of
+possible solutions to the problem. Once we
+
+15
+00:01:06,000 --> 00:01:09,096
+have that encoding of the set of possible
+solutions, then we can create our
+
+16
+00:01:09,096 --> 00:01:14,024
+landscape by just assigning a value to
+each one of those solutions. And that will
+
+17
+00:01:14,024 --> 00:01:18,073
+give us a landscape picture like you saw
+before. Now most of us are familiar with
+
+18
+00:01:18,073 --> 00:01:23,029
+perspectives, even though we don't know
+it. Let me give some examples. Remember
+
+19
+00:01:23,029 --> 00:01:27,067
+when we took seventh grade math? We
+learned about how to represent a point,
+
+20
+00:01:27,067 --> 00:01:32,018
+how to plot points. And we typically
+learned two ways to do it. The first way,
+
+21
+00:01:32,018 --> 00:01:36,079
+was Cartesian coordinates. So given a
+point, we would represent it by and X and
+
+22
+00:01:36,079 --> 00:01:41,035
+Y value in space. So, it might be five
+units, this would be the point, let's say
+
+23
+00:01:41,035 --> 00:01:46,004
+five, two, right? It's five units in the X
+direction, two units in the Y direction.
+
+24
+00:01:46,004 --> 00:01:50,004
+But we also learned another way to
+represent points, and that was Cartesian
+
+25
+00:01:50,004 --> 00:01:53,088
+coordinates. So we can take the same
+point, and say, well, there's a radius,
+
+26
+00:01:53,088 --> 00:01:58,031
+which is its distance from the origin, and
+then there's some angle theta, which says
+
+27
+00:01:58,031 --> 00:02:02,069
+how far we have to sweep out, in order to,
+you know, sweep that arc, radius out in
+
+28
+00:02:02,069 --> 00:02:06,096
+order to get to the point. So two totally
+reasonable ways to represent a point, X
+
+29
+00:02:06,096 --> 00:02:11,055
+and Y, R and theta. Cartesian, polar.
+Which is better? Well, [laugh], the
+
+30
+00:02:11,055 --> 00:02:16,094
+answer, it depends. Let me show you why.
+Suppose I wanted to describe this line, in
+
+31
+00:02:16,094 --> 00:02:22,016
+order to describe this line I should just
+use [inaudible] coordinates I can just say
+
+32
+00:02:22,016 --> 00:02:26,065
+Y=3 and X moves from two to five. It's
+really easy. [sound]. But suppose I wanna
+
+33
+00:02:26,065 --> 00:02:30,077
+describe this arc. If I wanna describe
+this arc, now Cartesian coordinates are
+
+34
+00:02:30,077 --> 00:02:34,072
+gonna be fairly complicated, and I'd be
+better off using polar coordinates.
+
+35
+00:02:34,072 --> 00:02:38,094
+Because the radius is fixed. And I just
+talked about how the radius is, you know,
+
+36
+00:02:38,094 --> 00:02:43,000
+there's this distance R, and theta just
+moves from, you know, A to B, let's say.
+
+37
+00:02:43,000 --> 00:02:47,016
+So depending on what I wanna do. If I
+wanna look at straight lines, I should use
+
+38
+00:02:47,016 --> 00:02:50,084
+Cartesian. And if I wanna look at arcs, I
+should probably use polar. So,
+
+39
+00:02:50,084 --> 00:02:55,022
+perspectives depend on the problem. Now
+let's think about where we want to go. We
+
+40
+00:02:55,022 --> 00:02:59,063
+want to talk about how perspectives help
+us find solutions to problems. And how
+
+41
+00:02:59,063 --> 00:03:04,015
+perspectives help us to be innovating.
+Well if you look at the history of science
+
+42
+00:03:04,015 --> 00:03:08,062
+a lot of great breakthroughs. You know, we
+think about Newton. You know, his theory
+
+43
+00:03:08,062 --> 00:03:12,097
+of gravity. You can think about people
+actually having new perspectives on old
+
+44
+00:03:12,097 --> 00:03:16,081
+problems. Let's take an example. So,
+Mendeleev. Came up with the periodic
+
+45
+00:03:16,081 --> 00:03:21,011
+table. In the periodic table he represents
+the elements by atomic weight. He's got
+
+46
+00:03:21,011 --> 00:03:25,041
+them in these different columns. In doing
+so, by organizing the elements by atomic
+
+47
+00:03:25,041 --> 00:03:29,061
+weight he found all sorts of structure.
+Right, so all the metals line one column,
+
+48
+00:03:29,061 --> 00:03:33,075
+stuff like that, right? Remember that from
+high school chemistry class. That's a
+
+49
+00:03:33,075 --> 00:03:37,079
+perspective, it's a representation of a
+set of possible elements. He could've
+
+50
+00:03:37,079 --> 00:03:41,061
+organized them alphabetically. But that
+wouldn't have made much sense. So
+
+51
+00:03:41,061 --> 00:03:45,037
+alphabetic representation wouldn't give us
+any structure. Atomic weight
+
+52
+00:03:45,037 --> 00:03:50,070
+representation gives us a lot of
+structure. In fact, when Mendeleev. You
+
+53
+00:03:50,070 --> 00:03:54,029
+know, wrote down all the elements that
+were around at the time, according to
+
+54
+00:03:54,029 --> 00:03:57,091
+atomic weight. There were gaps in his
+representation. There where holes for
+
+55
+00:03:57,091 --> 00:04:02,005
+elements that were missing. Those elements
+became scandium, gallium, and germanium.
+
+56
+00:04:02,005 --> 00:04:06,030
+They were eventually found ten to fifteen
+years later. After he'd written down the
+
+57
+00:04:06,030 --> 00:04:10,038
+periodic table, people went out and were
+able to find the missing elements. That
+
+58
+00:04:10,038 --> 00:04:14,075
+perspective, atomic way. Ended up being a
+very useful way to organize our thinking
+
+59
+00:04:14,075 --> 00:04:18,092
+about the elements. We do it all the time
+now. When you have any sort of task,
+
+60
+00:04:18,092 --> 00:04:23,014
+you'll find that you're actually using
+some sort of perspective. Suppose that
+
+61
+00:04:23,014 --> 00:04:27,037
+you're hiring someone. And you've got a
+bunch of recent college graduates who
+
+62
+00:04:27,037 --> 00:04:31,031
+apply for a job. And you've gotta think,
+okay, how do I organize all these
+
+63
+00:04:31,031 --> 00:04:35,053
+applicants, let's say, 500 applicants.
+Well, one thing you could do is you could
+
+64
+00:04:35,053 --> 00:04:40,003
+organize them by GPA. You could take the
+highest GPA down to the lowest GPA. That's
+
+65
+00:04:40,003 --> 00:04:44,031
+be one representation. And you might do
+that, right, if you valued competence or
+
+66
+00:04:44,031 --> 00:04:48,053
+achievement. But you might also value work
+ethic. And if that were the case you might
+
+67
+00:04:48,053 --> 00:04:52,030
+instead organize those same, you know,
+CV's or application files by how thick
+
+68
+00:04:52,030 --> 00:04:56,007
+they are. Their gonna feel like really
+think ones are people who work really,
+
+69
+00:04:56,007 --> 00:04:59,094
+really hard. They've accomplished a lot.
+Well, the third thing you might do is you
+
+70
+00:04:59,094 --> 00:05:03,082
+might value creativity. And you might say,
+"Well, let's put the ones that are sort of
+
+71
+00:05:03,082 --> 00:05:07,051
+most colorful, most interesting, over
+here. And the ones that are least colorful
+
+72
+00:05:07,051 --> 00:05:11,025
+and least interesting over here." That's
+the third way to do it. Now depending on
+
+73
+00:05:11,025 --> 00:05:15,012
+what you're hiring for, depending on who
+the applicants are, any one of these might
+
+74
+00:05:15,012 --> 00:05:18,095
+be fine. The only point I'm trying to make
+here is that there's different ways to
+
+75
+00:05:18,095 --> 00:05:22,079
+organize these applicants. In each one of
+those ways you organize, whether it's in
+
+76
+00:05:22,079 --> 00:05:26,079
+your head, or whether it's formally laying
+them out in some way. Is a perspective.
+
+77
+00:05:26,079 --> 00:05:31,070
+And those perspectives will determine how
+hard the problem will be for you. Let me
+
+78
+00:05:31,070 --> 00:05:36,062
+explain why. Now I wanna take, I wanna go
+back to the landscape metaphor. And when I
+
+79
+00:05:36,062 --> 00:05:41,031
+think of that landscape as being rugged,
+and by rugged I mean that it's not, it
+
+80
+00:05:41,031 --> 00:05:46,012
+doesn't look like a single peak. That
+there's lots of peaks on it. And I want to
+
+81
+00:05:46,012 --> 00:05:51,034
+formalize this notion of peaks. And I do
+so as follow. I'm going to define what I
+
+82
+00:05:51,034 --> 00:05:56,069
+call a local optima. A local optima is a
+point such that, if you look at the points
+
+83
+00:05:56,069 --> 00:06:01,046
+on either side of it, they're lower in
+value. So it's sort of a point that
+
+84
+00:06:01,046 --> 00:06:06,049
+locally is the highest possible value. So
+if I look at this particular rugged
+
+85
+00:06:06,049 --> 00:06:10,093
+landscape again, there's three local
+optima, one, two, three. So at any one of
+
+86
+00:06:10,093 --> 00:06:15,069
+these three points, I'd be stuck. I
+couldn't, if I looked to the left or to
+
+87
+00:06:15,069 --> 00:06:20,037
+the right, I wouldn't find a solution
+that's better. A perspective is gonna be,
+
+88
+00:06:20,037 --> 00:06:24,019
+a good perspective is gonna be a
+perspective that doesn't have many local
+
+89
+00:06:24,019 --> 00:06:28,026
+optima. A bad perspective is gonna be one
+that has a lot of local optima. Let me
+
+90
+00:06:28,026 --> 00:06:32,030
+give you an example, okay? So, suppose I'm
+coming up with a candy bar. Suppose I'm
+
+91
+00:06:32,030 --> 00:06:36,023
+tasked with coming up with a new candy
+bar. So I have my team of chefs make a
+
+92
+00:06:36,023 --> 00:06:40,001
+whole bunch of different, you know,
+confections for me to try, and I want to
+
+93
+00:06:40,001 --> 00:06:44,000
+find the very best one. So many of them,
+there's so many possibilities, not even
+
+94
+00:06:44,000 --> 00:06:48,035
+sure how to think about it. But one way to
+represent those candy bars might be by the
+
+95
+00:06:48,035 --> 00:06:52,054
+number of calories that they have. So I
+can organize all the different things they
+
+96
+00:06:52,054 --> 00:06:56,058
+make by number of calories. And if I did
+that, maybe I'd have three local optima.
+
+97
+00:06:56,058 --> 00:07:00,078
+So that's a reasonable way to represent
+these possible candy bars. Alternatively,
+
+98
+00:07:00,078 --> 00:07:05,028
+I might represent those candy bars by
+masticity, which is chew time. Like, how
+
+99
+00:07:05,028 --> 00:07:09,084
+long it takes to chew'em. So these would
+be the ones that maybe only take two
+
+100
+00:07:09,084 --> 00:07:14,034
+minutes to chew. And these may take twenty
+minutes to chew. Well, chew time is
+
+101
+00:07:14,034 --> 00:07:18,096
+probably not the best way to look at a
+candy bar. And so, as a result, I'm gonna
+
+102
+00:07:18,096 --> 00:07:23,017
+have a landscape with many, many more
+peaks. And so, because it's got many more
+
+103
+00:07:23,017 --> 00:07:26,084
+peaks, that's more places I could get
+stuck. So it's not as good of a way to
+
+104
+00:07:26,084 --> 00:07:30,042
+represent the possible solutions. It's not
+as good a perspective. The best
+
+105
+00:07:30,042 --> 00:07:34,043
+perspective would be what we call a Mount
+Fuji landscape, the ideal landscape that
+
+106
+00:07:34,043 --> 00:07:38,030
+just has one peak. And these are called
+Mount Fuji landscapes, because if you've
+
+107
+00:07:38,030 --> 00:07:42,031
+ever been to Japan, and you look at Mount
+Fuji, it looks pretty much like this. It's
+
+108
+00:07:42,031 --> 00:07:46,037
+actually not quite like this, there's like
+snow on the top. But for the most part, it
+
+109
+00:07:46,037 --> 00:07:50,014
+looks just like one giant cone. If you're
+on a Mount Fuji landscape, if you're
+
+110
+00:07:50,014 --> 00:07:53,099
+sitting at some point, you can always just
+climb your way. Right up to the top. So
+
+111
+00:07:53,099 --> 00:07:57,059
+these single peak landscapes are really
+good because, you've basically taken a
+
+112
+00:07:57,059 --> 00:08:03,004
+problem. And made it very, very simple.
+What would be an example of a Mount Fuji
+
+113
+00:08:03,004 --> 00:08:07,027
+landscape? I'm gonna take a famous
+example. So, a famous example comes from
+
+114
+00:08:07,027 --> 00:08:11,056
+scientific management, and due to
+Frederick Taylor. Taylor famously saw for
+
+115
+00:08:11,056 --> 00:08:16,014
+the optimal size of a shovel. So let's
+think about the shovel size landscape. So,
+
+116
+00:08:16,014 --> 00:08:20,042
+on this axis, I've got the size of the
+shovel. And on this axis, I've got the
+
+117
+00:08:20,042 --> 00:08:24,079
+value. What do I mean by the value? I
+don't mean how much I can sell the shovel
+
+118
+00:08:24,079 --> 00:08:28,099
+for, I mean it's like how useful the
+shovel is at the task. So let's suppose
+
+119
+00:08:28,099 --> 00:08:33,052
+we're shoveling coal and I want to think
+about how many pounds of coal can some
+
+120
+00:08:33,052 --> 00:08:38,022
+shovel in a day as a function of the size.
+So let's start out here where the size is
+
+121
+00:08:38,022 --> 00:08:42,058
+zero. So this is the size of the pan. If I
+have a shovel has a pan of size zero,
+
+122
+00:08:42,058 --> 00:08:46,087
+that's commonly known as a stick and we
+can. Get anything. We're not gonna shovel
+
+123
+00:08:46,087 --> 00:08:50,072
+anything with a stick. Well, if I make it
+bigger, you know, make it the size of,
+
+124
+00:08:50,072 --> 00:08:54,078
+maybe, like, a little spoon or something,
+then we can shovel a little bit. And as I
+
+125
+00:08:54,078 --> 00:08:58,037
+make the shovel bigger and bigger and
+bigger, we, whoever, my workers, can
+
+126
+00:08:58,037 --> 00:09:02,043
+shovel more and more coal. But at some
+point, the shovel's gonna get a little bit
+
+127
+00:09:02,043 --> 00:09:06,017
+too big. And it's gonna be too heavy to
+lift. And the worker's gonna get tired,
+
+128
+00:09:06,017 --> 00:09:09,055
+and I'll shovel, he'll shovel less and
+less and less and less. And then
+
+129
+00:09:09,055 --> 00:09:13,037
+eventually get to some point where the
+shovel's so big that he can't even lift
+
+130
+00:09:13,037 --> 00:09:17,018
+it, and it's as useless as the stick. So
+if I look at value in terms of how much
+
+131
+00:09:17,018 --> 00:09:21,004
+coal the person can shovel in a day is a
+function of the size of the shovel. I'm
+
+132
+00:09:21,004 --> 00:09:24,076
+gonna get a single peaked landscape.
+That's gonna be an easy problem to solve.
+
+133
+00:09:24,076 --> 00:09:30,007
+And this idea, that we could represent
+scientific problems in this way. Where
+
+134
+00:09:30,007 --> 00:09:34,018
+mechanical engineering comes in this way
+and then climb our way to peaks, is the
+
+135
+00:09:34,018 --> 00:09:38,014
+basis is something called scientific
+management and it was the idea was that
+
+136
+00:09:38,014 --> 00:09:42,014
+you could then by finding these high
+points on these landscapes, find possible
+
+137
+00:09:42,014 --> 00:09:46,010
+solutions. We're only going to find out a
+solution, right, for sure if you hill
+
+138
+00:09:46,010 --> 00:09:50,010
+climb like this if it's single peaked. If
+it's rugged and looks like this mess,
+
+139
+00:09:50,010 --> 00:09:53,095
+looks like Mount Fuji landscape you're
+fine, but if it looks like this miss,
+
+140
+00:09:53,095 --> 00:09:57,096
+mess, this city landscape, if you have a
+bad perspective, well then if you climb
+
+141
+00:09:57,096 --> 00:10:02,027
+hills you could get stuck. Just about
+anywhere, so what you'd like is you'd like
+
+142
+00:10:02,027 --> 00:10:07,000
+a Mount Fuji landscape and in the case of
+simple things like this shovel. That's
+
+143
+00:10:07,000 --> 00:10:11,069
+easy to get. Let me give you another
+example. This one's a lot of fun. This is
+
+144
+00:10:11,069 --> 00:10:16,008
+a favorite game of mine called Sum to
+fifteen and was developed by Herb Simon
+
+145
+00:10:16,008 --> 00:10:20,064
+who's a Nobel Prize winner in economics.
+And Sum to fifteen was developed to show
+
+146
+00:10:20,064 --> 00:10:25,020
+people why diverse perspectives are so
+useful and different ways of representing
+
+147
+00:10:25,020 --> 00:10:29,048
+a problem can make them easy, can make
+them like Mount Fuji or can make them
+
+148
+00:10:29,048 --> 00:10:33,087
+difficult. Okay? So here's how Sum to
+fifteen works. There's cards numbered from
+
+149
+00:10:33,087 --> 00:10:38,032
+one to nine face up on a table. There's
+nine cards in front of you. Each, there's
+
+150
+00:10:38,032 --> 00:10:43,064
+two players, each person. Takes turns,
+taking a card. Until all the cards are
+
+151
+00:10:43,064 --> 00:10:48,071
+gone possibly right, it could end sooner,
+if anybody ever holds three cards that add
+
+152
+00:10:48,071 --> 00:10:53,026
+up to exactly fifteen they win. That's the
+game. So release up to nine cards.
+
+153
+00:10:53,026 --> 00:10:58,015
+Alternate taking cards. If you ever get
+exactly three that sum to fifteen you win.
+
+154
+00:10:58,015 --> 00:11:02,086
+So let me show you a game. Here's a game
+between two people, call them Paul and
+
+155
+00:11:02,086 --> 00:11:07,048
+David. Paul goes first, now you'd think
+when you play this game the thing to do
+
+156
+00:11:07,048 --> 00:11:12,027
+would be to choose the five. Paul chooses
+the four, which is sort of an odd choice.
+
+157
+00:11:12,027 --> 00:11:17,045
+David goes next so he takes the five. Paul
+then takes the six. Now the six is a
+
+158
+00:11:17,045 --> 00:11:23,022
+strange choice because four plus six plus
+five equals fifteen. So it looks like
+
+159
+00:11:23,022 --> 00:11:29,036
+there is no way that he can win. Well this
+will be confusing to Doug. So Doug's gonna
+
+160
+00:11:29,036 --> 00:11:34,098
+take the eight. Now notice eight plus
+five, oops, equals thirteen. So that means
+
+161
+00:11:34,098 --> 00:11:40,082
+Paul has to take the two. So he takes the
+two. Well think about what happens next.
+
+162
+00:11:40,082 --> 00:11:46,037
+Four plus two is six, so if Doug doesn't
+take the nine, he's gonna lose. But six
+
+163
+00:11:46,037 --> 00:11:50,055
+plus two, is eight. So if Doug doesn't
+take the seven he's gonna lose. So what
+
+164
+00:11:50,055 --> 00:11:54,079
+you've got here, is that Paul's won. No
+matter what Doug does, Paul's gonna win
+
+165
+00:11:54,079 --> 00:11:59,001
+the game. Now this is a pretty tricky
+game, right? It was developed by a Nobel
+
+166
+00:11:59,001 --> 00:12:03,034
+Prize winner. You could imagine there's
+lots of strategy involved. I wanna show
+
+167
+00:12:03,034 --> 00:12:07,078
+you this game in a different perspective.
+Remember the magic square from seventh
+
+168
+00:12:07,078 --> 00:12:13,013
+grade math? Every row adds up to fifteen:
+eight+3+4, one+5+9, six+7+2. So does every
+
+169
+00:12:13,013 --> 00:12:18,094
+column: eight+1+6 sums up to fifteen;
+three+5+7 sums up to fifteen. And even the
+
+170
+00:12:18,094 --> 00:12:24,083
+diagonals: eight, five, two is fifteen;
+six, five, four is fifteen. Every row,
+
+171
+00:12:24,083 --> 00:12:31,030
+every column, every diagonal sum up to
+fifteen. Let me show you this game again
+
+172
+00:12:31,030 --> 00:12:38,003
+on the Magic Square. So, just a different
+perspective on sums of fifteen. Paul goes
+
+173
+00:12:38,003 --> 00:12:43,077
+first, and takes the four. Doug goes next
+and takes the five. Paul takes the six,
+
+174
+00:12:43,077 --> 00:12:49,024
+which is an odd choice, because now he
+can't win. Doug then takes the eight, Paul
+
+175
+00:12:49,024 --> 00:12:54,070
+blocks him with the two. But now it turns
+out, either the nine or seven will let
+
+176
+00:12:54,070 --> 00:13:00,038
+Paul win. What game is this? You're right,
+it's tic tac toe. Sum to fifteen is just
+
+177
+00:13:00,038 --> 00:13:04,054
+tic tac toe, but on a different
+perspective, using a different
+
+178
+00:13:04,054 --> 00:13:09,073
+perspective. So if you turn sum to
+fifteen, if you move the cards one to nine
+
+179
+00:13:09,073 --> 00:13:15,033
+and put them in the magic square, what you
+do is you create a Mount Fuji landscape.
+
+180
+00:13:15,033 --> 00:13:19,082
+In a sense, right? You make the problem
+really simple. So a lot of great
+
+181
+00:13:19,082 --> 00:13:23,074
+breakthroughs, like the periodic table,
+Newton's Theory of Gravity, those are
+
+182
+00:13:23,074 --> 00:13:27,071
+perspectives on problems that turned
+something that was really difficult to
+
+183
+00:13:27,071 --> 00:13:31,099
+figure out into something that suddenly
+makes a lot of sense. Very easy to see the
+
+184
+00:13:31,099 --> 00:13:35,065
+solution. At least it?s something I call
+in my book, one of my books, the
+
+185
+00:13:35,065 --> 00:13:39,056
+difference, I call this the savant
+existence theorem. For any problem that's
+
+186
+00:13:39,056 --> 00:13:43,048
+out there, there exists some way to
+represent it, so that you turn it into a
+
+187
+00:13:43,048 --> 00:13:47,039
+Mt. Fuji problem. Now, why is that? Well,
+it's actually fairly straightforward. All
+
+188
+00:13:47,039 --> 00:13:51,055
+you have to do is, you know, if you've got
+all the solutions here represented on this
+
+189
+00:13:51,055 --> 00:13:55,056
+thing, you put the very best one in the
+middle. And then put the worst ones at the
+
+190
+00:13:55,056 --> 00:13:59,038
+end. And then just sort of line up the
+solutions in [inaudible] A, so that you
+
+191
+00:13:59,038 --> 00:14:03,009
+turn it into a Mount Fuji. So it's very
+straightforward. Now the thing is, in
+
+192
+00:14:03,009 --> 00:14:06,081
+order to make the Mount Fuji, you'd
+already, you'd have to know the solution
+
+193
+00:14:06,081 --> 00:14:11,046
+already. This isn't a good way to solve
+problems but the point is, it exist. So
+
+194
+00:14:11,046 --> 00:14:16,039
+it's always the possible that someone
+could look at particular problem and said,
+
+195
+00:14:16,039 --> 00:14:21,014
+hey what if thing of it this way? And
+doing so turn something that was really
+
+196
+00:14:21,014 --> 00:14:26,078
+rugged into something now Fuji. Here is
+the flip side though. There is a ton of
+
+197
+00:14:26,078 --> 00:14:30,052
+bad perspectives. So just like there's
+these Mount Fuji perspectives, there's
+
+198
+00:14:30,052 --> 00:14:34,010
+also lots and lots of horrible ways to
+look at problems. Think about this.
+
+199
+00:14:34,010 --> 00:14:37,079
+Suppose I have just, you know, ten
+alternatives and I wanna think about what
+
+200
+00:14:37,079 --> 00:14:41,087
+are all the different ways I can just put
+them in a line. Well there's ten things I
+
+201
+00:14:41,087 --> 00:14:45,089
+could put first, nine things I could put
+second, eight things I could put third and
+
+202
+00:14:45,089 --> 00:14:49,068
+so on. So there's ten times nine times
+eight times seven times six times five
+
+203
+00:14:49,068 --> 00:14:53,080
+times four times three times two times one
+perspectives. Most of those. Are going to
+
+204
+00:14:53,080 --> 00:14:57,080
+not be very good. They're not going to
+organize this set of solutions in any
+
+205
+00:14:57,080 --> 00:15:02,017
+useful way. Particularly they're not going
+to, only a few of them are going to create
+
+206
+00:15:02,017 --> 00:15:06,028
+Mount Fujis. So we think about the value
+of perspective, what we get is, there's
+
+207
+00:15:06,028 --> 00:15:10,012
+really good ones out there. That
+insightful, smart people can come up with
+
+208
+00:15:10,012 --> 00:15:14,030
+really good representations of problem to
+make the landscapes less rugged. If we
+
+209
+00:15:14,030 --> 00:15:18,022
+just think about things in random ways,
+we're likely to get a landscape that's so
+
+210
+00:15:18,022 --> 00:15:22,014
+rugged that we're going to get stuck just
+about everywhere. We're not going to be
+
+211
+00:15:22,014 --> 00:15:25,067
+able to find good solutions to the
+problem. And we're going to get things
+
+212
+00:15:25,067 --> 00:15:29,049
+that look like domesticity landscape,
+where we're going to get things with lots
+
+213
+00:15:29,049 --> 00:15:33,045
+and lots of P. Let's move on now and talk
+about how we move on these landscapes. So
+
+214
+00:15:33,045 --> 00:15:36,093
+once I got our landscape, how do I find
+better solutions? Are there other
+
+215
+00:15:36,093 --> 00:15:40,065
+alternatives to just sort of climbing a
+hill? Because that hill climbing idea
+
+216
+00:15:40,065 --> 00:15:44,052
+really only works in one dimension. What
+if I've got all sorts of dimensions? How
+
+217
+00:15:44,052 --> 00:15:57,045
+do I think about. [sound]. So what have we
+learned? First thing we've learned is that
+
+218
+00:15:57,045 --> 00:16:01,064
+when you go about trying to solve a
+problem, when you encode it in some way,
+
+219
+00:16:01,064 --> 00:16:05,088
+that's a perspective. And a perspective
+creates peaks, right, it creates these
+
+220
+00:16:05,088 --> 00:16:10,030
+local optima. So a better perspective has
+fewer local optima. Worse perspectives
+
+221
+00:16:10,030 --> 00:16:14,071
+have lots of local optima. And if you
+think about how many perspectives are out
+
+222
+00:16:14,071 --> 00:16:18,067
+there, we just saw there's billions of
+them. Because there's billions of
+
+223
+00:16:18,067 --> 00:16:22,081
+perspectives, most of those probably
+aren't very useful. Some of them, though,
+
+224
+00:16:22,081 --> 00:16:26,075
+turn problems into Mount Fujis. And
+sometimes it takes a genius. It takes a
+
+225
+00:16:26,075 --> 00:16:31,012
+Newton, it takes a Mendeleev, to come up
+with a way of representing reality so that
+
+226
+00:16:31,012 --> 00:16:35,017
+something that was incredibly rugged
+becomes Mount Fuji like. Other times, if
+
+227
+00:16:35,017 --> 00:16:39,060
+you think about the size of a shovel, that
+problem most of us could probably figure
+
+228
+00:16:39,060 --> 00:16:44,002
+out a way to represent that problem just
+by shovel size, so that it becomes a Mount
+
+229
+00:16:44,002 --> 00:16:48,028
+Fuji. The big point is this. When we go
+about solving problems, the first thing we
+
+230
+00:16:48,028 --> 00:16:51,096
+do is we encode them. We have some
+representation of the problem. That
+
+231
+00:16:51,096 --> 00:16:55,075
+representation determines how hard the
+problem will be. If we represent.
+
+232
+00:16:55,075 --> 00:16:59,087
+[inaudible] Effectuated it's a Mount Fuji,
+it's easy. If we run it, represent it
+
+233
+00:16:59,087 --> 00:17:04,023
+sectionally with that masticity landscape,
+it's probably gonna be fairly hard. Where
+
+234
+00:17:04,023 --> 00:17:08,033
+we wanna go next, is we wanna talk about
+once we've got this representation of the
+
+235
+00:17:08,033 --> 00:17:12,012
+possible solutions, once we have that
+landscape, so to speak, how do we search
+
+236
+00:17:12,012 --> 00:17:15,076
+on that landscape? So one thing we've
+talked about was climbing hills. But
+
+237
+00:17:15,076 --> 00:17:19,076
+there's lots of different ways you can
+climb hills. That's what we'll talk about
+
+238
+00:17:19,076 --> 00:17:22,020
+next, the heuristics we use on a
+landscape. Thanks.
