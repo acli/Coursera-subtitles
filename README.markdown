@@ -9,11 +9,18 @@ List of videos:
 (Needed because UniversalSubtitles doesn’t provide a way to give
 you a list of all videos you have done)
 
-Saas:
+Transcribed from scratch:
+
 - http://www.universalsubtitles.org/en/videos/vz9OvM97buqT/info/
 
-PGM:
-- http://www.universalsubtitles.org/fr/videos/JfejIomQXOV9/info/log-linear-models-2208/
+Minor revisions to existing non-stanford-bot transcripts:
+
+- http://www.universalsubtitles.org/fr/videos/JfejIomQXOV9/info/
+- http://www.universalsubtitles.org/en/videos/ayR3VR8BXJdL/info/
+
+Reformatting and QA (from stanford-bot’s transcript):
+
+- http://www.universalsubtitles.org/en/videos/tThIgKFLeJ7w/info/
 
 Things to watch out for if you want to work on Coursera’s subtitles:
 ===================================================================
