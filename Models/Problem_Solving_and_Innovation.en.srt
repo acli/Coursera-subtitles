@@ -16,7 +16,7 @@ We're going to talk about the role that diversity plays in problem solving,
 
 5
 00:00:12,053 --> 00:00:16,039
-and were also going to talk about how ideas can get recombinded.
+and we’re also going to talk about how ideas can get recombined.
 
 6
 00:00:16,039 --> 00:00:21,060
@@ -224,7 +224,7 @@ designing a bycicle, or designing an addition to you house—
 
 57
 00:02:29,063 --> 00:02:32,076
-you have some way of representing the problem in your head.
+you have some way of representing that problem in your head.
 
 58
 00:02:32,076 --> 00:02:34,050
