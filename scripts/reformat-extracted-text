@@ -5,7 +5,19 @@
 # that is more sensible (in terms of line breaks) for use as subtitles.
 #
 # Apostrophes and quotation marks are left alone since I don't want to
-# deal with them in a script for now.
+# deal with them in a script at this moment.
+#
+# Notes:
+#
+# 1. This script assumes that its input has already been processed with
+#    extract-text-from-srt. In other words it can't deal with a real
+#    SRT file. The time codes must already been removed.
+#
+# 2. The script will not produce something that's 100% correct. For
+#    example it will treat all periods are end of segment markers if
+#    it is the period in "Mr." or "No.". You need to pull out vi and
+#    do some minimal post-processing before pasting the results back
+#    into Universal Subtitles.
 #
 
 use strict;
