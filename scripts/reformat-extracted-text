@@ -25,7 +25,18 @@ my $possibly_same_fragment = '((?:(?!' . $guessed_end_of_fragment . '\s).)*)';
 
 my $guessed_start_of_shard = '\s((?:and|how|that|what|when|whether|why)\s)';
 
-sub fragmentize ($) {
+sub break_into_shards ($) {
+    my($s) = @_;
+    my @shards;
+    while ($s =~ /$guessed_start_of_shard/) {
+	push @shards, $`;
+	$s = "$1$'";
+    }
+    push @shards, $s if $s =~ /\S/;
+    return @shards;
+}
+
+sub break_into_fragments ($) {
     my($s) = @_;
 
     # We can't just use split, because that would require a variable-length
@@ -35,13 +46,7 @@ sub fragmentize ($) {
 	my $fragment = "$1$2";
 	$s = $3;
 	if (length $fragment > THRES) {
-	    my @shards;
-	    while ($fragment =~ /$guessed_start_of_shard/) {
-		push @shards, $`;
-		$fragment = "$1$'";
-	    }
-	    push @shards, $fragment if $fragment =~ /\S/;
-	    push @fragments, @shards;
+	    push @fragments, break_into_shards $fragment;
 	} else {
 	    push @fragments, $fragment;
 	}
@@ -52,7 +57,7 @@ sub fragmentize ($) {
 
 sub dump_segment ($) {
     my($s) = @_;
-    for my $fragment ((length $s > THRES)? fragmentize $s: $s) {
+    for my $fragment ((length $s > THRES)? break_into_fragments $s: $s) {
 	print "$fragment\n";
     }
 }
