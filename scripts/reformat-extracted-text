@@ -2,7 +2,10 @@
 #
 # This script takes as standard input the extracted text from a
 # stanford-bot-generated SRT file, and reformats it into something
-# that is more sensible for use as subtitles.
+# that is more sensible (in terms of line breaks) for use as subtitles.
+#
+# Apostrophes and quotation marks are left alone since I don't want to
+# deal with them in a script for now.
 #
 
 use strict;
@@ -13,10 +16,17 @@ my $guessed_end_of_segment = '[\.\?!:;]"?';
 my $possibly_end_of_segment = '(' . $guessed_end_of_segment . ')\s';
 my $possibly_same_segment = '((?:(?!' . $guessed_end_of_segment . '\s).)*)';
 
+sub fragmentize ($) {
+    my($s) = @_;
+    # STUB
+    return ($s);
+}
+
 sub dump_segment ($) {
     my($s) = @_;
-    # This is sub-optimal, but will get the job done for now
-    print "$s\n";
+    for my $fragment ((length $s > 80)? fragmentize $s: $s) {
+	print "$fragment\n";
+    }
 }
 
 sub dump_extracted_text ($) {
