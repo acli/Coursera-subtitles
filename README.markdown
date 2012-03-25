@@ -16,11 +16,11 @@ Transcribed from scratch:
 Minor revisions to existing non-stanford-bot transcripts:
 
 - http://www.universalsubtitles.org/fr/videos/JfejIomQXOV9/info/
-- http://www.universalsubtitles.org/en/videos/ayR3VR8BXJdL/info/
+- http://www.universalsubtitles.org/en/videos/tThIgKFLeJ7w/info/
 
 Reformatting and QA (from stanford-bot’s transcript):
 
-- http://www.universalsubtitles.org/en/videos/tThIgKFLeJ7w/info/
+- http://www.universalsubtitles.org/en/videos/ayR3VR8BXJdL/info/
 
 Things to watch out for if you want to work on Coursera’s subtitles:
 ===================================================================
