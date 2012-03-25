@@ -1,0 +1,43 @@
+#!/usr/bin/perl
+#
+# This script takes as standard input the extracted text from a
+# stanford-bot-generated SRT file, and reformats it into something
+# that is more sensible for use as subtitles.
+#
+
+use strict;
+use integer;
+
+my $guessed_end_of_segment = '[\.\?!:;]"?';
+
+my $possibly_end_of_segment = '(' . $guessed_end_of_segment . ')\s';
+my $possibly_same_segment = '((?:(?!' . $guessed_end_of_segment . '\s).)*)';
+
+sub dump_segment ($) {
+    my($s) = @_;
+    # This is sub-optimal, but will get the job done for now
+    print "$s\n";
+}
+
+sub dump_extracted_text ($) {
+    my($s) = @_;
+    while ($s =~ /^$possibly_same_segment$possibly_end_of_segment(.*)$/s) {
+	$s = $3;
+	dump_segment "$1$2";
+    }
+    return $s;
+}
+
+my $buffer = '';
+for (;;) {
+    my $line = scalar <>;
+last unless defined $line;
+    chomp $line;
+    $buffer .= ' ' if $buffer;
+    $buffer .= $line;
+    while ($buffer =~ /$possibly_end_of_segment/) {
+	$buffer = dump_extracted_text $buffer;
+    }
+}
+$buffer = dump_extracted_text $buffer;
+dump_segment $buffer;
