@@ -1,0 +1,339 @@
+1
+00:00:01,056 --> 00:00:06,075
+Today we're gonna talk about spelling
+correction. Lots of applications make use
+
+2
+00:00:06,075 --> 00:00:11,062
+of spelling correction. For example, word
+processing, almost any modern word
+
+3
+00:00:11,062 --> 00:00:16,062
+processor will take a misspelled word like
+component with an A and give you
+
+4
+00:00:16,062 --> 00:00:22,007
+suggestions like component with an E and
+automatically replace it for you. Modern
+
+5
+00:00:22,007 --> 00:00:28,025
+search engines will not only flag an
+error. So, language spelled without a u,
+
+6
+00:00:28,025 --> 00:00:34,093
+here. But, give you, the results, as if
+you had spelled the word correctly. And,
+
+7
+00:00:34,093 --> 00:00:40,095
+modern phones additionally will
+automatically find misspelled words. Here,
+
+8
+00:00:40,095 --> 00:00:47,013
+I typed l-a-y-r, and it replaced it
+automatically, or suggests a replacement,
+
+9
+00:00:47,013 --> 00:00:52,025
+with late. We can distinguish a number of
+separate tasks and spelling correction.
+
+10
+00:00:52,025 --> 00:00:56,092
+One is the detection of the error itself.
+And then the correction of the error once
+
+11
+00:00:56,092 --> 00:01:01,030
+you've found it. And we can think about
+different kinds of correction. We might
+
+12
+00:01:01,030 --> 00:01:06,001
+automatically correct an error if we're
+positive that the error that we know the
+
+13
+00:01:06,001 --> 00:01:10,051
+right answer for the error. So H-T-E is a
+very common misspelling for the, and so
+
+14
+00:01:10,067 --> 00:01:14,089
+many word processors automatically correct
+H-T-E. We might suggest a single
+
+15
+00:01:14,089 --> 00:01:19,049
+correction if we're, there's only one very
+likely correction, or we might suggest a
+
+16
+00:01:19,049 --> 00:01:24,027
+whole list of corrections and let the user
+pick from among them. We distinguish two
+
+17
+00:01:24,027 --> 00:01:30,065
+different classes of spelling errors. Non
+word errors are errors in which the, what
+
+18
+00:01:30,065 --> 00:01:37,021
+the user types is not a word of English.
+So g-r-a-f-f-e a misspelling let's say for
+
+19
+00:01:37,021 --> 00:01:43,051
+giraffe is not a word of English. By
+contrast, real word errors. Are errors in
+
+20
+00:01:43,051 --> 00:01:49,058
+which then the resulting. [sound]
+Misspelling is actually a word of English
+
+21
+00:01:49,058 --> 00:01:54,086
+and that makes them somewhat harder to
+detect. And we can break up real word
+
+22
+00:01:54,086 --> 00:02:00,021
+errors into ones produced by really
+typographical processes. These were meant
+
+23
+00:02:00,021 --> 00:02:06,013
+to type three. And typed [inaudible] let's
+say. Or cognitive errors, where the user,
+
+24
+00:02:06,034 --> 00:02:11,099
+meant to type a word like [inaudible] and
+instead typed a homophone of a, of the
+
+25
+00:02:11,099 --> 00:02:16,036
+word, or \u201ct-o-o\u201d instead of
+[inaudible] And in both cases what, what's
+
+26
+00:02:16,036 --> 00:02:22,008
+produced is a real word of English, but by
+modeling the differences between these
+
+27
+00:02:22,008 --> 00:02:27,045
+kind of errors, we might come up with
+better ways of fixing them both. How
+
+28
+00:02:27,045 --> 00:02:33,052
+common are spelling errors? Depends a lot
+on the task. So in web queries, spelling
+
+29
+00:02:33,052 --> 00:02:38,095
+errors are extremely common. So
+practically one in four words in a web
+
+30
+00:02:38,095 --> 00:02:44,021
+query are likely to be misspelled. But in
+web processing tasks on phones it's much
+
+31
+00:02:44,021 --> 00:02:48,066
+harder to get an accurate number. So
+there's been a number of studies and most
+
+32
+00:02:48,066 --> 00:02:53,040
+of these studies are done by retyping. You
+give the user a passage to type and then
+
+33
+00:02:53,040 --> 00:02:57,091
+you measure how well they, they type it.
+And, of course, that's not quite the same
+
+34
+00:02:57,091 --> 00:03:02,059
+user's naturally writing messages or
+typing. Nonetheless If you ask users to
+
+35
+00:03:02,059 --> 00:03:06,098
+retype and you don't let them use the
+backspace key, they make about thirteen
+
+36
+00:03:06,098 --> 00:03:10,080
+percent of the words, thirteen percent of
+the words are in error. So indicating that
+
+37
+00:03:10,080 --> 00:03:16,002
+if, that a lot of words. They correct
+themselves with the backspace. If you let
+
+38
+00:03:16,002 --> 00:03:21,021
+them correct, now we're trying to
+experiment on a, on a p d a style phone
+
+39
+00:03:21,021 --> 00:03:25,085
+site, organizer, they'll correct about
+seven percent of the words themselves.
+
+40
+00:03:25,085 --> 00:03:30,084
+They'll still leave about two percent of
+the words uncorrected, on the organizer.
+
+41
+00:03:30,084 --> 00:03:35,096
+And, similar numbers on people doing
+retyping on a regular keyboard. So, the
+
+42
+00:03:35,096 --> 00:03:41,026
+numbers are about two percent where people
+typing. And probably a much higher number
+
+43
+00:03:41,026 --> 00:03:46,028
+for web queries and probably a much higher
+number for people texting. Are the kind of
+
+44
+00:03:46,028 --> 00:03:51,021
+spelling, spelling error [inaudible] that
+we see. How do we detect non word spelling
+
+45
+00:03:51,021 --> 00:03:56,002
+errors. The traditional way is just to use
+a large dictionary. Any word not in the
+
+46
+00:03:56,002 --> 00:04:00,059
+dictionary is an error. And, the larger
+the dictionary, it turns out the better
+
+47
+00:04:00,059 --> 00:04:04,070
+this works. For correcting these non-word
+spelling errors, we generate a set of
+
+48
+00:04:04,070 --> 00:04:08,062
+candidates that's real words that are
+similar to the error. And then we pick
+
+49
+00:04:08,062 --> 00:04:12,085
+whichever one is best. And we'll talk
+about the noisy-channel probability model
+
+50
+00:04:12,085 --> 00:04:17,002
+of how to do that. And it's also related
+to another method called the shortest
+
+51
+00:04:17,002 --> 00:04:20,094
+weighted [inaudible] distance myth. So we
+find the words that are not in the
+
+52
+00:04:20,094 --> 00:04:25,012
+dictionary. For each one, we generate a
+set of candidates. Those are going to be
+
+53
+00:04:25,012 --> 00:04:29,014
+real words that are similar, we'll talk
+about what similar means, to that error
+
+54
+00:04:29,014 --> 00:04:33,044
+and then we'll pick the best one. For real
+word spelling errors, the algorithm is
+
+55
+00:04:33,044 --> 00:04:37,064
+quite similar. Again, for each word we
+generate a candidate set. But now we do
+
+56
+00:04:37,064 --> 00:04:41,074
+this for every word in a sentence, not
+just the words that are not in some
+
+57
+00:04:41,074 --> 00:04:45,094
+dictionary. So real word spelling error
+correction, we don't use a dictionary
+
+58
+00:04:45,094 --> 00:04:50,024
+because of course the errors are in a
+dictionary. So that wouldn't help. So, for
+
+59
+00:04:50,024 --> 00:04:54,038
+every word, we generate a candidate set.
+So we might find candidate words with
+
+60
+00:04:54,038 --> 00:04:58,046
+similar pronunciations, we might find
+candidate words with similar spellings,
+
+61
+00:04:58,046 --> 00:05:02,075
+and depending on the algorithm, exactly.
+And it's very important that we're gonna
+
+62
+00:05:02,075 --> 00:05:07,016
+include the word itself, in the candidate
+set, because the every word might be a
+
+63
+00:05:07,016 --> 00:05:11,051
+misspelling of some other real word, or it
+might be the correct word. In fact, most
+
+64
+00:05:11,051 --> 00:05:15,059
+words are probably correct. So, for each
+candidate set of each possible error,
+
+65
+00:05:15,059 --> 00:05:19,073
+we're gonna include the word itself. And
+most of the time, in fact, we're gonna
+
+66
+00:05:19,073 --> 00:05:25,064
+pick that. And again, how we pick the
+words we might use the noisy channel
+
+67
+00:05:25,064 --> 00:05:32,024
+model. We might use a classifier, we'll
+talk about that so we'll discuss the
+
+68
+00:05:32,024 --> 00:05:38,042
+different methods of detecting these
+errors and correcting them in the next
