@@ -55,10 +55,6 @@ start.
    a lot of work to fix. It can get so bad that it takes as long
    to try to fix it as to throw it away and start over.
 
-   Note: I have written a couple of scripts to reformat the text
-   is this is what you decide you want to do. The scripts are in
-   the scripts directory of this repo.
-
 4. Do not use Universal Subtitles’ “upload transcript” function.
    Ever. That function is buggy and will screw up the revision
    history.  This is especially important if there are already
@@ -68,3 +64,7 @@ start.
 5. The accuracy of the English transcript is paramount. It is
    in fact extremely important to get it right, because it will
    be used as the basis for non-English subtitles.
+
+Note: A couple of scripts to faciliate step 3 can be found in
+the scripts directory of this repo.
+
