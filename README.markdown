@@ -26,6 +26,7 @@ Reformatting and QA of stanford-bot’s transcripts:
 TO DO:
 
 - http://www.universalsubtitles.org/fr/videos/VbaciFSlgnqW/en/227447/ (NLP) (5-1)
+- http://www.universalsubtitles.org/fr/videos/ZVF6pWv6LSlo/info/ (PGM) (2-8)
 
 Things to watch out for if you want to work on Coursera’s subtitles:
 ===================================================================

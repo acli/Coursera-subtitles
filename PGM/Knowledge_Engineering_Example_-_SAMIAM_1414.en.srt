@@ -1,0 +1,796 @@
+1
+00:00:00,000 --> 00:00:04,028
+So, now, let's look in an examples, in
+actual network, and try to see, what
+
+2
+00:00:06,075 --> 00:00:09,011
+the CPDs look like, what behavior we
+get, and how we might augment the network
+
+3
+00:00:09,016 --> 00:00:14,013
+to include additional things. Now, let
+me warn you right upfront, that this
+
+4
+00:00:14,013 --> 00:00:18,047
+is a baby network, it's not a real
+network, but, it's one that's useful to,
+
+5
+00:00:18,066 --> 00:00:23,073
+it's compact enough to look at, but, still
+interesting enough to get some non-trivial
+
+6
+00:00:23,073 --> 00:00:28,020
+behaviors. So, to explore the
+network, we're going to use a system
+
+7
+00:00:28,020 --> 00:00:32,036
+called, SAMIAM, it was produced by
+Darwiche and his group at UCLA, and, it's, nice,
+
+8
+00:00:32,036 --> 00:00:36,069
+because, it actually works on all sorts
+of different platforms. So it's usable
+
+9
+00:00:36,069 --> 00:00:40,060
+by pretty much everyone. So
+let's look at a particular problem.
+
+10
+00:00:40,060 --> 00:00:44,082
+Imagine that we're an insurance company
+and we're trying to decide for a person
+
+11
+00:00:44,082 --> 00:00:49,037
+who comes into the door whether to give
+them insurance or not. So the operative
+
+12
+00:00:49,037 --> 00:00:54,039
+aspect of making a decision is how much
+the policy is going to cost us. That is
+
+13
+00:00:54,039 --> 00:00:59,042
+how much we're going to have to pay over
+the course of the year to insure this
+
+14
+00:00:59,042 --> 00:01:04,057
+person. So let's, so there is a variable
+called cost, let's click on that to see
+
+15
+00:01:04,057 --> 00:01:09,049
+what properties that variable have. And we can
+see that in this case, we've decided to
+
+16
+00:01:09,049 --> 00:01:14,001
+only give two values to the cost variable,
+low and high. This is clearly a very
+
+17
+00:01:14,001 --> 00:01:18,071
+coarse-grained approximation and not
+one that we will use in practice. In reality
+
+18
+00:01:18,071 --> 00:01:23,041
+we will probably have this be a
+continuous variable whose mean depends on various
+
+19
+00:01:23,041 --> 00:01:28,016
+aspects of the model. But for the purposes
+of illustration, we're going to use this
+
+20
+00:01:28,016 --> 00:01:33,045
+discrete distribution that only has values: low and high. Okay, So now, lets build
+
+21
+00:01:33,045 --> 00:01:38,096
+up this network using the technique of
+expanding the conversation that we've
+
+22
+00:01:38,096 --> 00:01:44,076
+discussed before. And so what is most
+important determining factor as to the
+
+23
+00:01:44,076 --> 00:01:50,056
+cost of the insurance company has to pay?
+Well probably whether the person has
+
+24
+00:01:50,056 --> 00:01:56,009
+accidents and how severe they are. So.
+Here we have a network that has two
+
+25
+00:01:56,009 --> 00:02:02,073
+variables one is accident and one is cost.
+And in this case we decided to select
+
+26
+00:02:02,073 --> 00:02:09,009
+three possible values for the accident
+variable. None, Mild, and Severe and with
+
+27
+00:02:09,009 --> 00:02:14,086
+the percentages that you see, with the
+probabilities that you see listed. And
+
+28
+00:02:14,086 --> 00:02:20,070
+what you see down below is the cost
+variable. And lets open the CPD of the
+
+29
+00:02:20,080 --> 00:02:25,087
+cost variable given the accident variable. And we can see
+
+30
+00:02:25,087 --> 00:02:30,052
+that in this case, we have a conditional
+probability table, of, accident given
+
+31
+00:02:30,070 --> 00:02:35,041
+sorry, cost given accident, note
+this is, actually inverted from, the
+
+32
+00:02:35,041 --> 00:02:40,042
+notation we have used in the class before,
+because here, the conditioning cases are
+
+33
+00:02:40,042 --> 00:02:45,019
+columns, whereas, in the, examples
+that we've given have been rows,
+
+34
+00:02:45,019 --> 00:02:50,057
+but, that's okay, the same thing it's the
+same thing, just inverted. And so we see
+
+35
+00:02:50,057 --> 00:02:56,036
+for example, that is the person has no
+accident. The cost are very likely to be
+
+36
+00:02:56,036 --> 00:03:02,044
+very low.  Mild accidents incur different
+distributions over cost. And severe
+
+37
+00:03:02,044 --> 00:03:08,008
+accidents have probability of 0.9 of
+having high cost and 0.1 of having low
+
+38
+00:03:08,008 --> 00:03:13,027
+cost. So now, let's continue
+extending the conversation, and ask what
+
+39
+00:03:13,027 --> 00:03:18,033
+accident depends on. And it seems that,
+one of the obvious factors is whether the
+
+40
+00:03:18,033 --> 00:03:23,027
+person, is a good driver or not. And so we
+would expect driver quality to be a
+
+41
+00:03:23,027 --> 00:03:28,021
+parent of accident. But there is
+other things that also affect not just the
+
+42
+00:03:28,021 --> 00:03:32,090
+presence of an accident, but also the
+severity of the accident. So for example,
+
+43
+00:03:32,090 --> 00:03:37,095
+vehicle size, would affect both the
+severity of an accident because if you are
+
+44
+00:03:37,095 --> 00:03:42,072
+driving a large SUV then chances are you
+are not likely to be in an accident as
+
+45
+00:03:42,072 --> 00:03:47,066
+severe but it might also perhaps increase
+the chance of having an accident overall
+
+46
+00:03:47,066 --> 00:03:52,092
+because  maybe driving a large
+car is harder to handle. And then
+
+47
+00:03:52,092 --> 00:03:58,024
+vehicle year might affect the chances of
+an accident because of the presence or
+
+48
+00:03:58,024 --> 00:04:03,069
+absence of certain safety features like
+anti-lock brakes and airbags. So let's open
+
+49
+00:04:03,069 --> 00:04:08,081
+the CPD of accidents and see what that
+looks like now that we have all these
+
+50
+00:04:08,081 --> 00:04:13,086
+parents for it. And we can see here that
+we have these, in this case, eight
+
+51
+00:04:13,086 --> 00:04:19,025
+conditioning cases, after, correspond to
+three variables, two values each. And so
+
+52
+00:04:19,025 --> 00:04:24,017
+here just to look at one of the sample…, just as an example, distribution
+
+53
+00:04:24,017 --> 00:04:31,030
+for example. So, if this is a
+fairly new vehicle after 200 and
+
+54
+00:04:31,030 --> 00:04:36,051
+it's an SUV. The probability of having a
+severe accident is quite low. The
+
+55
+00:04:36,051 --> 00:04:43,011
+probability of having a mild accident is
+moderate and probability of having of no
+
+56
+00:04:43,011 --> 00:04:49,018
+accident is 0.85 whereas if you compare
+that to corresponding entry when we keep
+
+57
+00:04:49,018 --> 00:04:55,054
+everything fixed except that now it's a
+compact car, We see that the probability
+
+58
+00:04:55,054 --> 00:05:02,026
+of having a mild accident is, is lower.
+But the probability of having no accidents
+
+59
+00:05:02,026 --> 00:05:08,058
+is higher. Representing, different,
+driving, patterns, for example. Okay, so
+
+60
+00:05:08,058 --> 00:05:15,022
+with this, with this network, we can now
+start asking simple questions. So let's do
+
+61
+00:05:15,022 --> 00:05:20,066
+some example of causal inference. Let's
+instantiate for example, driving quality
+
+62
+00:05:20,066 --> 00:05:28,031
+to be good. And, bad. And we can see,
+that, well for bad driver the probability
+
+63
+00:05:28,031 --> 00:05:36,003
+of cost is 81, low cost is 81%. And for
+a good driver the probability of a low cost
+
+64
+00:05:36,003 --> 00:05:42,000
+of 87%. If we look at the accidents we can
+see that for a good driver there is a
+
+65
+00:05:42,000 --> 00:05:45,091
+probability of 87.5 percent of no
+accidents and ten percent of mild
+
+66
+00:05:45,091 --> 00:05:51,063
+accident. And the probability of no
+accident goes down for a bad driver. And
+
+67
+00:05:51,063 --> 00:05:55,082
+mild accident, and goes up and severe
+accidents also goes way up. Now, note that
+
+68
+00:05:55,082 --> 00:06:00,024
+many of these, differences are quite
+subtle. There's a difference of a couple
+
+69
+00:06:00,024 --> 00:06:04,032
+percent one way or the other. And you
+might think, if you were designing a
+
+70
+00:06:04,032 --> 00:06:08,068
+network, that you'd like these really,
+sort of, extreme probability changes when
+
+71
+00:06:08,068 --> 00:06:12,093
+you instantiate values. But, in many
+cases, that's not actually true. And these
+
+72
+00:06:12,093 --> 00:06:17,041
+subtle differences are actually quite
+significant for an insurance company that
+
+73
+00:06:17,041 --> 00:06:21,082
+insures hundreds of thousands of people. A
+couple of percentage points in the
+
+74
+00:06:21,082 --> 00:06:24,075
+probability of an accident can make a
+very big difference to one's
+
+75
+00:06:24,075 --> 00:06:29,007
+profitability. So now, let's think about
+how we would expand this network even
+
+76
+00:06:29,007 --> 00:06:34,006
+further. Vehicle size and vehicle year
+are, things that we're likely to observe
+
+77
+00:06:34,006 --> 00:06:38,081
+in the insurance forum. But driver quality
+is something that's very difficult to
+
+78
+00:06:38,081 --> 00:06:43,045
+observe. You can't go ask somebody, oh,
+are you a good driver? Because everyone's
+
+79
+00:06:43,045 --> 00:06:48,020
+gonna say, "sure, I'm the best driver ever!"
+And so, that's not going to be a very
+
+80
+00:06:48,020 --> 00:06:52,060
+useful question. So what more, what
+evidence do we have that we can observe
+
+81
+00:06:52,060 --> 00:06:57,013
+that might indicate to us the qual-, the,
+the value of the driver quality? One
+
+82
+00:06:57,013 --> 00:07:02,012
+obvious one is, one, is the person's
+driving record. That is, whether they've
+
+83
+00:07:02,012 --> 00:07:07,048
+had previous accidents or previous moving
+violations. So let's think about, adding a
+
+84
+00:07:07,048 --> 00:07:12,082
+variable that represents driving history.
+And so let's go ahead and produce that
+
+85
+00:07:12,082 --> 00:07:18,003
+variable, so we can click on this button
+that allows us to create a node. The node
+
+86
+00:07:18,003 --> 00:07:23,043
+is now called Variable1 so we'd have to
+give it a name. So for example we'll call
+
+87
+00:07:23,043 --> 00:07:30,063
+it DrivingHistory. And that's his
+identifier, and we also have the, the name
+
+88
+00:07:30,063 --> 00:07:36,076
+of the variable. Which is usually the
+same. And let's make that two values. Say
+
+89
+00:07:36,076 --> 00:07:44,052
+previous accident and no previous
+accidents. Now Where will we place this
+
+90
+00:07:44,052 --> 00:07:49,043
+variable in the network. One might
+initially think that the right thing to do
+
+91
+00:07:49,043 --> 00:07:54,033
+is  to place driving history as a
+parent of driver quality because if we
+
+92
+00:07:54,033 --> 00:07:58,057
+observe because driving history can
+influence our beliefs about driver
+
+93
+00:07:58,057 --> 00:08:03,047
+quality. Now, it's true that observing
+driving history changes our probability
+
+94
+00:08:03,047 --> 00:08:08,049
+and driver quality, but if you think about
+the actual causal structure of this
+
+95
+00:08:08,049 --> 00:08:13,064
+scenario, what we actually have is the
+driver quality is a causal factor of both
+
+96
+00:08:13,064 --> 00:08:18,060
+a previous accident as well as a
+subsequent accident. And so if we want to
+
+97
+00:08:18,060 --> 00:08:23,087
+maintain the intuitive causal structure of
+the domain, a more appropriate thing is
+
+98
+00:08:23,087 --> 00:08:28,099
+to add driving history as a
+child rather than parent of driver quality.
+
+99
+00:08:28,099 --> 00:08:34,010
+They might question why it
+matters and in this very simple example
+
+100
+00:08:34,030 --> 00:08:39,035
+the two models are in some sense equivalent and we could have placed it either
+
+101
+00:08:39,035 --> 00:08:44,059
+way except that the CPD for, driver
+quality given driving history might be a
+
+102
+00:08:44,059 --> 00:08:50,004
+little bit less intuitive. But if we had
+other indicators of driver quality, for
+
+103
+00:08:50,004 --> 00:08:55,062
+example a previous moving violation, then
+it actually makes a lot more sense to have
+
+104
+00:08:55,062 --> 00:09:00,095
+all these be children of driver quality as
+opposed to parents of driver quality.
+
+105
+00:09:01,064 --> 00:09:07,079
+Okay. So, so that shows us how we would
+add a variable into the network. And now,
+
+106
+00:09:07,079 --> 00:09:12,075
+let's go and open up a much larger network
+that includes these variables as well as
+
+107
+00:09:12,075 --> 00:09:17,047
+others. So, so let's look now at this
+larger network. And we can see that we've
+
+108
+00:09:17,047 --> 00:09:22,031
+added several different variables to the
+network. We've added attributes of the
+
+109
+00:09:22,031 --> 00:09:27,004
+vehicle. For example, whether the vehicle
+has antilock brakes and an airbag, which
+
+110
+00:09:27,004 --> 00:09:31,040
+is going to allow us to give more
+informative probabilities regarding the
+
+111
+00:09:31,040 --> 00:09:36,036
+accident. We've also introduced aspects of
+the driver, for example. Whether they've
+
+112
+00:09:36,036 --> 00:09:40,094
+had extra training, which is
+going to increase driving quality, whether
+
+113
+00:09:40,094 --> 00:09:45,091
+they're young or old, where the presumption
+is that younger people tend to be more
+
+114
+00:09:45,091 --> 00:09:50,058
+reckless drivers, and whether the driver
+is focused or more easily distracted,
+
+115
+00:09:50,058 --> 00:09:56,058
+which again is going to affect driving
+quality. Now we've, since personality type
+
+116
+00:09:56,058 --> 00:10:03,011
+is hard to observe, we added another
+variable which is a good student which
+
+117
+00:10:03,011 --> 00:10:11,060
+might indicate one's personality type. So
+let's open a, a CPD for that one. And so
+
+118
+00:10:11,060 --> 00:10:17,092
+we can see here, that for example, if you
+are a focused person who is young, you're
+
+119
+00:10:17,092 --> 00:10:24,024
+much more likely to be a good student.
+Much more so than if you are not a focused
+
+120
+00:10:24,024 --> 00:10:30,041
+person who is young. If you're old, you're
+just not very likely to be a student, and
+
+121
+00:10:30,041 --> 00:10:36,073
+so this probability basically says
+that if you're old, you're just not very
+
+122
+00:10:36,073 --> 00:10:42,082
+likely to be a student, and therefore, not
+likely to be a good student. So, so now,
+
+123
+00:10:42,082 --> 00:10:48,052
+that we've added all these variables
+to the network. Let's go ahead and run a
+
+124
+00:10:48,052 --> 00:10:54,029
+few queries to see what happens. And let's
+start by looking at the prior probability
+
+125
+00:10:54,029 --> 00:11:00,019
+of, accident, before we observe anything,
+so we can see that the probability of no
+
+126
+00:11:00,019 --> 00:11:04,093
+accident is about is about 79.5% The probability of severe
+
+127
+00:11:04,093 --> 00:11:10,050
+accident is about 3%. Now let's go
+ahead and tell, the system that we have a
+
+128
+00:11:10,050 --> 00:11:15,056
+good student at hand. So we're going to
+observe. That the student is a good
+
+129
+00:11:15,056 --> 00:11:20,085
+student, and let's see what happens. We
+can see surprisingly that even though we
+
+130
+00:11:20,085 --> 00:11:26,026
+observe that somebody is a good student,
+the probability of no accidents went down
+
+131
+00:11:26,026 --> 00:11:31,086
+from 79.5% to 78%, and the
+probability of severe accidents went up to
+
+132
+00:11:31,086 --> 00:11:36,094
+3.5,… to 3.67 percent. You
+might say, well, but I told you that it's
+
+133
+00:11:36,094 --> 00:11:42,015
+a good student, shouldn't the probability
+of accidents go down? So let's look at
+
+134
+00:11:42,015 --> 00:11:47,017
+some active trails in this graph. One
+active trail goes from good student to
+
+135
+00:11:47,017 --> 00:11:51,074
+focused, to driver quality, to
+accidents, and sure enough, that trail, if
+
+136
+00:11:51,074 --> 00:11:56,085
+we consider that trail in isolation, is
+probably going to make the probability of
+
+137
+00:11:56,085 --> 00:12:01,051
+no accident be higher. But, we have
+another active trail. We have the active
+
+138
+00:12:01,051 --> 00:12:06,046
+trail that goes from good student up to
+age. And then back down, through driver
+
+139
+00:12:06,046 --> 00:12:11,063
+quality. So, to see that, let's un-click
+good students and see what happens. Note
+
+140
+00:12:11,063 --> 00:12:16,023
+that the probability initially that the
+driver is young was 25% but, then
+
+141
+00:12:16,023 --> 00:12:21,027
+I, when I observed good students, it went
+up to nine, to close to 95%. And, that was
+
+142
+00:12:21,027 --> 00:12:27,074
+enough to counteract the influence along this more obvious active trail.
+
+143
+00:12:27,074 --> 00:12:34,051
+So, to demonstrate that this is indeed what's going on, let's
+
+144
+00:12:34,051 --> 00:12:40,037
+click on the fact and instantiate the
+fact that the student is young, and we can
+
+145
+00:12:40,037 --> 00:12:45,036
+see that the probability is severe
+accident went up to 3.7% and no
+
+146
+00:12:45,036 --> 00:12:51,014
+accident went down to a little bit shy of
+77%. And now let's observe good student
+
+147
+00:12:51,014 --> 00:12:58,014
+and see what happens. So now we observe
+good student, and. The probability of no
+
+148
+00:12:58,014 --> 00:13:07,095
+accident went down to 78%, as opposed to
+before when it was 77%. Now that, and the
+
+149
+00:13:07,095 --> 00:13:12,099
+reason for that is that we've now blocked
+this trail that goes from good student,
+
+150
+00:13:12,099 --> 00:13:17,065
+through age, to driver quality by
+observing this variable which blocks the
+
+151
+00:13:17,065 --> 00:13:22,095
+trail. So we can see the reasoning
+patterns in a Bayesian network are
+
+152
+00:13:22,095 --> 00:13:27,059
+sometimes subtle. And there are different
+trails that can effect things and
+
+153
+00:13:27,059 --> 00:13:32,000
+interact with each other in different
+ways. And so, it's useful to take the
+
+154
+00:13:32,000 --> 00:13:36,029
+model and play around with different
+queries and different combinations of
+
+155
+00:13:36,029 --> 00:13:40,053
+evidence, to understand the behavior of a
+network. And especially if you're
+
+156
+00:13:40,053 --> 00:13:45,028
+designing such a network for a particular
+application. It's useful to try out these
+
+157
+00:13:45,028 --> 00:13:50,015
+different queries, and see if the behavior
+that you get is the behavior that you want
+
+158
+00:13:50,015 --> 00:13:55,090
+to get. And if not, then you need to thing
+about, about. How do I modify this network
+
+159
+00:13:55,090 --> 00:14:02,046
+to get behavior that's more analogous to the desired behavior.
+ This network is available for
+
+160
+00:14:02,046 --> 00:14:08,033
+you to play with and you can try out
+different things and. See what behaviors
+
+161
+00:14:08,033 --> 00:14:12,013
+you get.
