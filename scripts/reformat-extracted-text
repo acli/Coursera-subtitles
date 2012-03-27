@@ -11,13 +11,13 @@
 #
 # 1. This script assumes that its input has already been processed with
 #    extract-text-from-srt. In other words it can't deal with a real
-#    SRT file. The time codes must already been removed.
+#    SRT file. The time codes must already have been removed.
 #
 # 2. The script will not produce something that's 100% correct. For
-#    example it will treat all periods are end of segment markers if
-#    it is the period in "Mr." or "No.". You need to pull out vi and
-#    do some minimal post-processing before pasting the results back
-#    into Universal Subtitles.
+#    example it will treat all periods as end of segment markers,
+#    even if it is the period in "Mr." or "No.". You need to pull out
+#    vi and do some minimal post-processing before pasting the results
+#    back into Universal Subtitles.
 #
 
 use strict;
