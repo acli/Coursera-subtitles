@@ -35,7 +35,7 @@ my $guessed_end_of_fragment = '[,]"?';
 my $possibly_end_of_fragment = '(' . $guessed_end_of_fragment . ')\s';
 my $possibly_same_fragment = '((?:(?!' . $guessed_end_of_fragment . '\s).)*)';
 
-my $guessed_start_of_shard = '\s((?:and|how|that|what|when|whether|why)\s)';
+my $guessed_start_of_shard = '\s((?:and|because|except that|for which|how|in which|that|what|when|whether|whose|why)\s)';
 
 sub break_into_shards ($) {
     my($s) = @_;
