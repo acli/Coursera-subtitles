@@ -15,7 +15,7 @@ Transcribed from scratch:
 
 Reformatting and QA of stanford-bot’s transcripts:
 
-- http://www.universalsubtitles.org/en/videos/ayR3VR8BXJdL/info/ (models)
+- http://www.universalsubtitles.org/en/videos/ayR3VR8BXJdL/info/ (models) (9-2)
 - http://www.universalsubtitles.org/fr/videos/4rCunfbLShfw/info/ (PGM) (1-1)
 
 Minor revisions to transcripts already revised by other students:
