@@ -1,0 +1,763 @@
+1
+00:00:00,000 --> 00:00:04,011
+Hi... Remember we were talking about
+problem solving. We talked about, when you
+
+2
+00:00:04,011 --> 00:00:08,001
+first solve a problem, what you do is come
+up with a perspective, a way of
+
+3
+00:00:08,001 --> 00:00:12,034
+representing the set of solutions. Then we
+talked about how you use heuristics to
+
+4
+00:00:12,034 --> 00:00:16,056
+search among those possible solutions,
+given your representation. And we've seen
+
+5
+00:00:16,056 --> 00:00:21,005
+how having lots of heuristics and diverse
+heuristics can help you find, look at more
+
+6
+00:00:21,005 --> 00:00:24,090
+points, and find, possibly find better
+solutions. What we wanna do in this
+
+7
+00:00:24,090 --> 00:00:28,096
+lecture, is combine those two ideas,
+perspectives plus heuristics, to show why
+
+8
+00:00:28,096 --> 00:00:33,010
+teams of people. Can often find solutions
+to problems that individuals can't. That
+
+9
+00:00:33,010 --> 00:00:37,015
+why teams are better. Now I say teams, I'm
+gonna use this in a very loose sense. I
+
+10
+00:00:37,015 --> 00:00:41,025
+don't necessarily mean, a team of people
+sitting in a room and brainstorming. That
+
+11
+00:00:41,025 --> 00:00:44,079
+sort of stuff. What I mean is, a
+collection of people, possibly you know,
+
+12
+00:00:44,079 --> 00:00:48,059
+working even over time. So even if it's
+something like your toaster on your
+
+13
+00:00:48,059 --> 00:00:52,068
+counter, you can think of that as being
+something that's been really consistently
+
+14
+00:00:52,068 --> 00:00:56,078
+and constantly improved upon by a team of
+people. So there's the person who first
+
+15
+00:00:56,078 --> 00:01:00,053
+invented the toaster. Then somebody
+improved it. Then somebody come up with
+
+16
+00:01:00,053 --> 00:01:04,084
+the crumb tray. Then somebody came up with
+the automatic shut off. And all sorts of
+
+17
+00:01:04,084 --> 00:01:09,064
+things, right? So a toaster consists of a
+whole bunch of improvements. And you can
+
+18
+00:01:09,064 --> 00:01:14,014
+think of that as being. That current
+solution we have is being something that
+
+19
+00:01:14,014 --> 00:01:18,078
+the team has come up with. So again, by
+team I don't necessarily mean a group all
+
+20
+00:01:18,078 --> 00:01:23,030
+working together and in some unit. You
+just need a collection of people. So how
+
+21
+00:01:23,030 --> 00:01:27,096
+does it work? Why are teams and why are
+groups of people better than individuals?
+
+22
+00:01:27,096 --> 00:01:32,073
+Well, let's go back and let's think about
+the, the candy bar example. Remember I had
+
+23
+00:01:32,073 --> 00:01:37,032
+one landscape, one perspective based on
+calories, and that had three local peaks,
+
+24
+00:01:37,032 --> 00:01:41,049
+right? And, well, let's represent those by
+A, B and C. And then I had another
+
+25
+00:01:41,049 --> 00:01:45,057
+landscape that was represented by
+masticity, and that had five peaks. And we
+
+26
+00:01:45,057 --> 00:01:49,081
+can call these, let's call these A, B, D,
+E and F. So, these are different than the
+
+27
+00:01:49,081 --> 00:01:54,005
+peaks for the caloric landscape. With the
+one exception. Notice for sure that A,
+
+28
+00:01:54,005 --> 00:01:58,068
+which is the best possible point, that has
+to be a point in the caloric landscape and
+
+29
+00:01:58,068 --> 00:02:03,009
+it's also gotta be a peak in the masticity
+landscape. And that's because it's the
+
+30
+00:02:03,009 --> 00:02:07,028
+best possible point. So it's the best
+possible point, it's gotta be a point in
+
+31
+00:02:07,028 --> 00:02:11,061
+every landscape. Now we can characterize
+these problem solvers. By their local
+
+32
+00:02:11,061 --> 00:02:16,096
+peaks, by their local optimum. So, the
+local optimum of the caloric landscape are
+
+33
+00:02:16,096 --> 00:02:21,097
+A, B, and C. The local optimum for the
+domesticity landscape are A, B, D, and F.
+
+34
+00:02:21,097 --> 00:02:26,041
+And we remember we said that the caloric
+landscape was a better landscape than the
+
+35
+00:02:26,041 --> 00:02:30,079
+masticity landscape. Because of the fact
+that it had fewer local optima. So one way
+
+36
+00:02:30,079 --> 00:02:35,012
+to figure out how good you are at solving
+a problem is how many local optima you
+
+37
+00:02:35,012 --> 00:02:39,007
+have given your perspective and your
+heuristic. Now here was something the
+
+38
+00:02:39,007 --> 00:02:43,029
+heuristic, right? Is just hill climbing.
+Let's go deeper. Cuz that's just a, that's
+
+39
+00:02:43,029 --> 00:02:47,067
+a fairly crude way of thinking about how
+good a problem solver is. We can actually
+
+40
+00:02:47,067 --> 00:02:52,019
+take into account, the average value of
+those peaks. So the piece where people get
+
+41
+00:02:52,019 --> 00:02:56,052
+stuck are A, B, C, D, E, and F. And we can
+assign a value to each of those. So
+
+42
+00:02:56,052 --> 00:03:01,044
+suppose the value of A is ten, B is eight,
+and so on. So A is the out local op, the A
+
+43
+00:03:01,044 --> 00:03:06,018
+is the global optimum, and some of these
+other peaks aren't so good. Well we can
+
+44
+00:03:06,018 --> 00:03:11,010
+usually can ask, what's the average value
+of a peak for the caloric problem solver?
+
+45
+00:03:11,010 --> 00:03:15,084
+So the problem solver who thinks in terms
+of the caloric perspective, then gets
+
+46
+00:03:15,084 --> 00:03:20,052
+stuck at A, B, and C. What's the average
+value? Well, A has a value of ten. B has a
+
+47
+00:03:20,052 --> 00:03:25,066
+value of eight. C has a value of six. And
+so, we're gonna give the abilities as the
+
+48
+00:03:25,066 --> 00:03:30,046
+average of those three peaks, which is
+eight. But if I look at the masticity
+
+49
+00:03:30,046 --> 00:03:35,034
+problem solver, they get stuck at, at A,
+B, D, E, and F. And those have values ten,
+
+50
+00:03:35,034 --> 00:03:40,015
+eight, six, two, and four. And the average
+of those is six. So when you think about
+
+51
+00:03:40,015 --> 00:03:44,078
+the ability of the masticity problem
+solver as being six. So not only did it
+
+52
+00:03:44,078 --> 00:03:49,089
+correct problems of our local optima. They
+had higher average values. This is another
+
+53
+00:03:49,089 --> 00:03:54,077
+reason why that person's a better problem
+solver. Let's think of them now, though,
+
+54
+00:03:54,077 --> 00:03:59,018
+as working as a team. I think, in the
+working as a team, the caloric problem
+
+55
+00:03:59,018 --> 00:04:03,067
+solver gets stuck at A, B, and C, the
+domesticity problem solver gets stuck at
+
+56
+00:04:03,067 --> 00:04:08,023
+A, B, D, E, and F. Let's suppose, first,
+[inaudible] problem solver works on the
+
+57
+00:04:08,023 --> 00:04:12,077
+problem first, and she gets stuck at B.
+She then passes the problem to the
+
+58
+00:04:12,077 --> 00:04:17,031
+[inaudible] problem solver. And the
+[inaudible] person says, well, you know
+
+59
+00:04:17,031 --> 00:04:22,005
+what? I can't help you, because B looks
+pretty good to me. Because B is also a
+
+60
+00:04:22,005 --> 00:04:27,004
+peak for him. Suppose instead, though,
+that the caloric problem solver gets stuck
+
+61
+00:04:27,004 --> 00:04:32,011
+at C. And she passes C on to the masticity
+problem solver. And now this masticity
+
+62
+00:04:32,011 --> 00:04:36,086
+person, C, if you notice, isn't anywhere
+in this list. C is [inaudible] optima.
+
+63
+00:04:36,086 --> 00:04:42,012
+That means that the masticity person can
+get from C to some other local optima. And
+
+64
+00:04:42,012 --> 00:04:46,086
+it's gotta be one that's better. Why does
+it have to be better? Because she's, this
+
+65
+00:04:46,086 --> 00:04:51,017
+person's hill climbing, if he's hill
+climbing, then he's got to be able to find
+
+66
+00:04:51,017 --> 00:04:55,032
+something that's better than C and that's
+going to be either A or B. So the
+
+67
+00:04:55,032 --> 00:04:59,086
+intersection of these local optima A and B
+are the only places where they can get
+
+68
+00:04:59,086 --> 00:05:04,024
+stuck. If, for example, the [inaudible]
+person went first and got stuck at E, then
+
+69
+00:05:04,024 --> 00:05:08,056
+the [inaudible] person could take E and
+get to someplace else, either A, B or C.
+
+70
+00:05:08,056 --> 00:05:13,058
+If she gets to A or B the masticity person
+is also stuck. If she gets to C, then the
+
+71
+00:05:13,058 --> 00:05:18,061
+masticity person can then in turn take it
+up to A or B so the only places that the
+
+72
+00:05:18,061 --> 00:05:23,033
+team can get stuck is A or B. If you make
+this form up called the intersection
+
+73
+00:05:23,033 --> 00:05:27,099
+property that the local optima for the
+team is the intersection of the local
+
+74
+00:05:27,099 --> 00:05:32,073
+optima for the individuals. So, if we look
+at the team, there's only two places the
+
+75
+00:05:32,073 --> 00:05:36,087
+team can get stuck, ten and A, and the
+average value there is nine. So, the
+
+76
+00:05:36,087 --> 00:05:41,044
+ability of the team is higher than the
+ability. Of either person. And the reason
+
+77
+00:05:41,044 --> 00:05:46,027
+why is because the team's local optima is
+the intersection of the local optima for
+
+78
+00:05:46,027 --> 00:05:50,093
+the individuals. So the reason why, then,
+we see over time products get better, the
+
+79
+00:05:50,093 --> 00:05:55,053
+reason why we see teams being really
+innovative, the reason why we see a lot of
+
+80
+00:05:55,053 --> 00:06:00,012
+science being done by teams of people is
+because the only place a team can get
+
+81
+00:06:00,012 --> 00:06:04,032
+stuck is where everybody on the team can
+get stuck. So this very simple model,
+
+82
+00:06:04,032 --> 00:06:08,015
+having perspectives and heuristics, can
+explain, why is it the case that teams are
+
+83
+00:06:08,015 --> 00:06:11,079
+so much better than individuals? And why,
+over time, we keep finding better and
+
+84
+00:06:11,079 --> 00:06:15,043
+better solutions to problems. It's not
+necessarily that we're getting smarter.
+
+85
+00:06:15,043 --> 00:06:19,017
+Now, it's true, we are coming up with new
+ways to represent problems. And we also
+
+86
+00:06:19,017 --> 00:06:22,081
+are coming up with all sorts of new
+heuristics all the time. We're developing
+
+87
+00:06:22,081 --> 00:06:26,045
+new ways to solve problems all the time.
+But another thing that's going on, is,
+
+88
+00:06:26,045 --> 00:06:29,090
+just because of the accumulation of so
+many different ways of looking at
+
+89
+00:06:29,090 --> 00:06:33,049
+problems, and so many different ways of
+trying to solve them, that we get the
+
+90
+00:06:33,049 --> 00:06:38,097
+intersection. Of all those peaks and that
+gives us better solutions. So here's the
+
+91
+00:06:38,097 --> 00:06:43,080
+big claim. The team can only get stuck at
+a solution that's a local optima for
+
+92
+00:06:43,080 --> 00:06:48,093
+everyone on the team. That means the team
+has to be better than the people in it. So
+
+93
+00:06:48,093 --> 00:06:54,001
+what we want, right, you want people with
+different local optima. You want people to
+
+94
+00:06:54,001 --> 00:06:59,003
+get stuck in different places. Well how do
+we get it? We don't. We've already looked
+
+95
+00:06:59,003 --> 00:07:03,059
+at this twice, right? We looked at it
+first perspective perspectives. So if you
+
+96
+00:07:03,059 --> 00:07:08,050
+coat it this way and I coat it this way,
+then we're going to get stuck in different
+
+97
+00:07:08,050 --> 00:07:13,017
+places. We also want people with different
+heuristics. If I look in this direction
+
+98
+00:07:13,017 --> 00:07:17,077
+and this direction, and you look in this
+direction and this direction, and we add
+
+99
+00:07:17,077 --> 00:07:22,032
+us together, we look in all four of those
+directions. So what we want, is we want
+
+100
+00:07:22,032 --> 00:07:26,098
+diverse perspectives, and we want diverse
+heuristics. And that diversity will give
+
+101
+00:07:26,098 --> 00:07:31,041
+us different local optima, and those
+different local optima will mean that we
+
+102
+00:07:31,041 --> 00:07:35,095
+take the intersections, and we end up with
+better points. That's sort of the big
+
+103
+00:07:35,095 --> 00:07:40,038
+idea. So if we take, again, let's play
+this out in more deals. And imagine we've
+
+104
+00:07:40,038 --> 00:07:44,040
+got these, just, here's this set of
+solutions. If one of us looks like this.
+
+105
+00:07:44,040 --> 00:07:48,059
+And one of us looks maybe two to the left.
+And one looks two down. And one looks to
+
+106
+00:07:48,059 --> 00:07:52,032
+the north, south, east and west. If we
+have all of these different, you know,
+
+107
+00:07:52,032 --> 00:07:56,056
+maybe one person looks two over this way,
+all these different heuristics looking at
+
+108
+00:07:56,056 --> 00:08:00,055
+the problem that means we're less likely
+to get stuck at the same point. Which
+
+109
+00:08:00,055 --> 00:08:04,064
+means the team is going to do better. Or,
+over time, society is going to do better
+
+110
+00:08:04,064 --> 00:08:09,043
+finding solutions to problems. This all
+seems really smooth and nice and great and
+
+111
+00:08:09,043 --> 00:08:14,039
+we've seen, teams are better, we see the
+value of diverse perspective, we see the
+
+112
+00:08:14,039 --> 00:08:19,028
+value of diverse heuristics. But what's
+missing? Cuz this seems highly stylized.
+
+113
+00:08:19,028 --> 00:08:24,017
+There's two things that I've left out.
+First one is [sound] right, we can write
+
+114
+00:08:24,017 --> 00:08:28,010
+this down as communication. I've assumed
+that when you've got a team solving a
+
+115
+00:08:28,010 --> 00:08:31,062
+problem that they can communicate their
+solutions to one another right away. Now
+
+116
+00:08:31,062 --> 00:08:35,031
+that's not always the case. There's a lot
+of misunderstandings going on and we might
+
+117
+00:08:35,031 --> 00:08:38,069
+not listen. I might just say, no I'm not
+listening. I'm not listening, right? And
+
+118
+00:08:38,069 --> 00:08:42,046
+no matter what you say we don't find a
+better solution. And think of something
+
+119
+00:08:42,046 --> 00:08:47,010
+like the toaster though, it's weird, we
+can communicate through the toaster. If I
+
+120
+00:08:47,010 --> 00:08:51,086
+come up with a better toaster and I make
+it, then you can look at my solution and
+
+121
+00:08:51,086 --> 00:08:56,062
+know what I've done and then you can add
+the crumb tray. So think about making an
+
+122
+00:08:56,062 --> 00:09:00,062
+artifact, the artifact itself, the
+artifact is the solution. That gets
+
+123
+00:09:00,062 --> 00:09:05,020
+communicated right away, but generally
+speaking communication can be a problem.
+
+124
+00:09:05,020 --> 00:09:10,058
+The other thing I've assumed is that.
+There is the possibilities that an error.
+
+125
+00:09:10,058 --> 00:09:15,019
+In interpreting the value of a solution.
+So, I'm assuming if somebody proposes a
+
+126
+00:09:15,019 --> 00:09:19,071
+solution and its better, we instantly know
+it. It's as if there's some sort of oracle
+
+127
+00:09:19,071 --> 00:09:23,026
+we can go to and say, oh yip, that's a
+better solution. That may not always be
+
+128
+00:09:23,026 --> 00:09:27,000
+the case. So it could be that I could do
+something really interesting and people
+
+129
+00:09:27,000 --> 00:09:30,079
+just think no, it's a bad idea. They make
+an error in terms of whether or not its
+
+130
+00:09:30,079 --> 00:09:34,062
+interesting thing or it could be that I
+propose something that's worse, and people
+
+131
+00:09:34,062 --> 00:09:38,050
+think oh that's a great idea and then we
+actually look and it's not a good idea. So
+
+132
+00:09:38,050 --> 00:09:41,096
+I've assumed there no errors in
+determining the value of the solution, and
+
+133
+00:09:41,096 --> 00:09:45,075
+when somebody proposes this solution, you
+know exactly what it's worth. That's not
+
+134
+00:09:45,075 --> 00:09:49,040
+always going to be the case. So it's won't
+always be true that there's perfect
+
+135
+00:09:49,040 --> 00:09:53,058
+communication in this perfect evaluation.
+So, in a Ricksher model, we could include
+
+136
+00:09:53,058 --> 00:09:58,011
+communication error. And that's going to
+hurt teams. And we can also include just
+
+137
+00:09:58,011 --> 00:10:02,036
+errant evaluation. That's also going to
+hurt teams. Even so, right, this power,
+
+138
+00:10:02,036 --> 00:10:06,043
+this model has shown us something fairly
+powerful, which is that diverse
+
+139
+00:10:06,043 --> 00:10:11,002
+representations of problems in diverse
+ways of coming up with solutions can make
+
+140
+00:10:11,002 --> 00:10:15,055
+teams of people better able at coming up
+with solutions than individuals. And it
+
+141
+00:10:15,055 --> 00:10:20,008
+also sort of told us where innovation is
+coming from, right? Innovation is coming
+
+142
+00:10:20,008 --> 00:10:24,055
+from different ways of seeing problems,
+and different ways of finding solutions.
+
+143
+00:10:24,055 --> 00:10:28,026
+There's a lot going on, right? And now,
+I've got this model of problem solving,
+
+144
+00:10:28,026 --> 00:10:32,017
+and when you think about people finding
+solutions to particular problems. Now we
+
+145
+00:10:32,017 --> 00:10:35,097
+want to step back a bit in the next
+lecture when I think about, what about
+
+146
+00:10:35,097 --> 00:10:39,072
+bigger things like designing a house,
+designing a car, designing a railway
+
+147
+00:10:39,072 --> 00:10:43,052
+system, designing a city, the bigger
+problems. Well, often times those bigger
+
+148
+00:10:43,052 --> 00:10:47,063
+problems, the solutions, you would think
+of a, like making a computer. The computer
+
+149
+00:10:47,063 --> 00:10:51,084
+may consist of the solutions to a whole
+bunch of sub-problems. So where we want to
+
+150
+00:10:51,084 --> 00:10:55,089
+go next is you want to talk about how we
+combine solutions to come up with new
+
+151
+00:10:55,089 --> 00:11:00,015
+solutions. And we'll see how that can even
+be used as an argument to where economic,
+
+152
+00:11:00,015 --> 00:11:04,011
+where economic growth comes from. It
+actually comes from individual solutions
+
+153
+00:11:04,011 --> 00:11:05,060
+being recombined. Okay, thanks.
