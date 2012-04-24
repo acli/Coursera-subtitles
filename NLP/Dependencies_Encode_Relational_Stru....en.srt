@@ -8,7 +8,7 @@ is a very natural representation for relation extraction applications.
 
 3
 00:00:10,070 --> 00:00:16,050
-One domain of which a lot of work has been done on relation extraction is in the biomedical text domain.
+One domain in which a lot of work has been done on relation extraction is in the biomedical text domain.
 
 4
 00:00:16,050 --> 00:00:19,040
@@ -152,7 +152,7 @@ And you can think of these function words as really functioning like case marker
 
 39
 00:03:07,010 --> 00:03:11,040
-So it’d seem more useful if we directly connected “based”–“LA”,
+So it’d seem more useful if we directly connected “based” and “LA”,
 
 40
 00:03:11,040 --> 00:03:15,003
