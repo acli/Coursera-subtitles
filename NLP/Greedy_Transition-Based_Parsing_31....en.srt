@@ -1,0 +1,658 @@
+1
+00:00:00,000 --> 00:00:04,045
+Okay, so let's have a look at some
+applications of Bayesian games now beyond
+
+2
+00:00:04,045 --> 00:00:08,073
+the conflict example that we had looked at
+before. And one of the areas that
+
+3
+00:00:08,090 --> 00:00:13,012
+understanding in incomplete information
+games has made a huge impact as in
+
+4
+00:00:13,012 --> 00:00:17,046
+understanding auctions and incentives to
+bid an auction. So let's have a look.
+
+5
+00:00:17,046 --> 00:00:22,019
+We'll start with a very simple version of
+auction and then we will actually look at
+
+6
+00:00:22,019 --> 00:00:26,070
+some more complicated versions of auctions
+and more realistic versions as we go
+
+7
+00:00:26,070 --> 00:00:31,061
+along. Let's start with a simple version.
+So we have two bidders. They're bidding
+
+8
+00:00:31,061 --> 00:00:38,035
+for painting and we'll look at what's
+known as a first price auction and we'll
+
+9
+00:00:38,035 --> 00:00:45,087
+think of a sealed bid auction okay so they
+each in this case have a value for the
+
+10
+00:00:45,087 --> 00:00:51,093
+painting so the type of the players is
+Theta I. And it, it just specifies how
+
+11
+00:00:51,093 --> 00:00:56,038
+much they're willing to pay for the
+painting. How much do they value the
+
+12
+00:00:56,038 --> 00:01:01,032
+painting? So, let's, keep things simple.
+Let's suppose that they have a value of
+
+13
+00:01:01,032 --> 00:01:06,002
+either two or three, say, dollars or
+thousands or millions, what-, whatever you
+
+14
+00:01:06,002 --> 00:01:10,048
+like. So they either value the, the
+painting at two or three. And, equal
+
+15
+00:01:10,048 --> 00:01:14,080
+likelihood. So there's a half a
+probability that they wake up, and they
+
+16
+00:01:14,080 --> 00:01:19,025
+think the painting's worth two. Half a
+probability that they wake up, the
+
+17
+00:01:19,025 --> 00:01:24,067
+painting's worth. Three, and we'll think
+of this as IID. So, if I wake up, and I
+
+18
+00:01:24,067 --> 00:01:30,038
+think the painting's worth two, the chance
+that the other proba-, the other person
+
+19
+00:01:30,038 --> 00:01:35,087
+thinks it's worth two or three is an even
+coin flip. So what I end thinking is
+
+20
+00:01:35,087 --> 00:01:41,065
+completely independent of whatever they
+like. How much they like the painting. So
+
+21
+00:01:41,065 --> 00:01:47,008
+our tastes are completely [inaudible] wake
+up, we decide how much we like the
+
+22
+00:01:47,008 --> 00:01:52,043
+painting. And now we have to put a bid in
+an envelope, and send it off to the
+
+23
+00:01:52,043 --> 00:01:58,016
+seller. So, first price auction. What does
+that mean? First price means the highest
+
+24
+00:01:58,016 --> 00:02:04,047
+bidder wins and they pay their bids, so
+first highest price is the winner and pays
+
+25
+00:02:04,047 --> 00:02:10,006
+that particular bid. Okay, so, let's think
+of a game now. We got a basing game. We
+
+26
+00:02:10,006 --> 00:02:16,009
+know what the types are. There are either
+two or three with equal prob ability, the
+
+27
+00:02:16,009 --> 00:02:22,000
+players have to bid in whole integers, and
+in this case in terms of specifying
+
+28
+00:02:22,000 --> 00:02:28,040
+payoffs it's quite simple what you pay off
+its how much you value the painting minus
+
+29
+00:02:28,040 --> 00:02:35,014
+how you pay so if you win the option
+you're going to get Theta I. Minus your
+
+30
+00:02:35,014 --> 00:02:42,097
+bid. If you lose you get zero right so the
+payoffs are going to depend on what the
+
+31
+00:02:42,097 --> 00:02:50,052
+actions are which will determine first of
+all if you end up having the highest bid
+
+32
+00:02:50,052 --> 00:02:56,055
+or not and what you get is. If you win,
+you get your, your, your value minus how
+
+33
+00:02:56,055 --> 00:03:01,048
+much you bid. If you lose, you just get
+zero. Okay? So this is a fully symmetric
+
+34
+00:03:01,048 --> 00:03:06,041
+world. So let's keep our life simple, and
+look for a symmetric equilibrium. And
+
+35
+00:03:06,041 --> 00:03:11,046
+we'll look for one in pure strategies. So
+what we need to do is specify, so in a
+
+36
+00:03:11,046 --> 00:03:16,023
+symmetric equilibrium, we. Have each
+player just we need to specify what they
+
+37
+00:03:16,023 --> 00:03:21,044
+would do if they had a value of three what
+they would do if they had a value of two
+
+38
+00:03:21,044 --> 00:03:26,040
+and so that no player would chose to
+change their bid if they were both bidding
+
+39
+00:03:26,040 --> 00:03:31,073
+that way so they're both happy maximizing
+their payoff, expected payoff. Given these
+
+40
+00:03:31,073 --> 00:03:38,079
+bids, if this was the situation. ... >>
+Well, let me just say a, a couple of words
+
+41
+00:03:38,079 --> 00:03:43,089
+about, you know, looking for equilibria,
+searching for equilibria in these kinds of
+
+42
+00:03:43,089 --> 00:03:48,043
+games, symmetric, asymmetric, and so
+forth. So, you know, th-, there's no easy
+
+43
+00:03:48,043 --> 00:03:53,035
+recipe for always finding equilibria. So,
+in worse case scenario is when you're
+
+44
+00:03:53,035 --> 00:03:57,096
+faced with games you might have to just
+actually, you know, exhaustively look
+
+45
+00:03:57,096 --> 00:04:02,020
+through what are all the possible
+combinations of strategies that are
+
+46
+00:04:02,020 --> 00:04:07,003
+possible. And, and solve and find out
+which ones are equilibria. Some. You know
+
+47
+00:04:07,003 --> 00:04:11,077
+it's, it's, it's [inaudible]. A little bit
+of an art in the sense that there are
+
+48
+00:04:11,077 --> 00:04:16,074
+things that we know about the structure of
+the games that give us hints as to how to
+
+49
+00:04:16,074 --> 00:04:20,089
+proceed. And here we have a fully
+symmetric setting. And fully symmetric
+
+50
+00:04:20,089 --> 00:04:25,015
+settings generally though exist a
+symmetric equilibrium at least when in
+
+51
+00:04:25,015 --> 00:04:29,071
+mixed strategies and sometimes in pure
+strategies so that's a useful starting
+
+52
+00:04:29,071 --> 00:04:34,056
+point. And then we can go through and use
+some logic to try and thin the field down
+
+53
+00:04:34,056 --> 00:04:39,017
+in terms of what we might be looking for.
+So it's a little bit like looking for
+
+54
+00:04:39,017 --> 00:04:44,005
+solutions to differential equations. There
+are different rules. Of thumb. There's
+
+55
+00:04:44,005 --> 00:04:50,030
+structure which helps you guess, how to
+proceed, but largely there's no easy and.
+
+56
+00:04:50,030 --> 00:04:55,019
+Set and however them, they're always going
+to find you know, equilibrium easily for
+
+57
+00:04:55,019 --> 00:04:59,091
+you. Sometimes you gonna have to struggle
+a lil bit and, and search through. But
+
+58
+00:04:59,091 --> 00:05:04,064
+here we have a nice simple setting. It's a
+symmetric setting. That gives us an idea
+
+59
+00:05:04,064 --> 00:05:09,019
+of what, how to proceed. So, we look for
+symmetric equilibrium, and basically what
+
+60
+00:05:09,019 --> 00:05:13,062
+we've to do is specify what should a
+person do and they're whenever value of
+
+61
+00:05:13,062 --> 00:05:19,098
+three what, how should they verify a value
+of two. Okay. So first of all, one thing
+
+62
+00:05:19,098 --> 00:05:24,093
+to note, so we, again, they, they have to
+bid whole integers we can try various
+
+63
+00:05:24,093 --> 00:05:29,088
+combinations. So you, you never want to
+bid more than your value, because then if
+
+64
+00:05:29,088 --> 00:05:34,077
+you end up winning, you're paying more
+than you value the, the object at. You're
+
+65
+00:05:34,077 --> 00:05:39,071
+going to be getting negative payouts.
+You're better off just not bidding at all
+
+66
+00:05:39,090 --> 00:05:45,031
+or bidding zero. So you, the second bid
+that we might. You'll consider is what if
+
+67
+00:05:45,031 --> 00:05:50,058
+you bid your actual value so if I have a
+value of three and I bid three then my
+
+68
+00:05:50,058 --> 00:05:55,085
+payoff is zero no matter what so if I lose
+I get a payoff of zero if I win I am
+
+69
+00:05:55,085 --> 00:06:01,038
+paying Theta I minus my bid right so if I
+win if I am bidding my value I'm going to
+
+70
+00:06:01,038 --> 00:06:05,098
+get zero. If these two things are equal,
+so in, in, in that case, my pay-off is
+
+71
+00:06:05,098 --> 00:06:10,066
+zero no matter what. So basically in, in a
+first-price auction, it's going to be in,
+
+72
+00:06:10,066 --> 00:06:15,022
+in players' interests to shade their bids.
+What does that mean? To, to bid less than
+
+73
+00:06:15,022 --> 00:06:19,073
+their value in hopes that, when they win
+the object, they're paying less than they
+
+74
+00:06:19,073 --> 00:06:24,001
+value it at, and they're getting some pay,
+positive pay-offs, okay? So, a natural
+
+75
+00:06:24,001 --> 00:06:28,041
+thing to try is that they're gonna bid,
+when their value is three, they're going
+
+76
+00:06:28,041 --> 00:06:33,019
+to bid something less than three, with, in
+hopes of winning some pay-off. And, when
+
+77
+00:06:33,019 --> 00:06:38,006
+their value i s two, they're going to bid
+less than. Too. So we can start by looking
+
+78
+00:06:38,006 --> 00:06:43,039
+for an equilibrium of that form. Well,
+that's an easy one to try. Let's try
+
+79
+00:06:43,039 --> 00:06:49,083
+bidding one below your value, in this case
+we'll bid when your values three bid two,
+
+80
+00:06:49,083 --> 00:06:56,012
+when your value is two bid one. So let's
+check. We just want to check if this is a
+
+81
+00:06:56,012 --> 00:07:02,010
+symmetric equilibrium. So if the other
+player is bidding according to this, if
+
+82
+00:07:02,010 --> 00:07:08,062
+theta I is three and the other player uses
+this strategy, what's my expected utility?
+
+83
+00:07:08,062 --> 00:07:14,016
+Well, if I build three. I'm getting, we,
+we already just went through this. I, I'm
+
+84
+00:07:14,016 --> 00:07:19,052
+always gonna get zero. So win or lose no
+matter what I'm gonna get a payoff of
+
+85
+00:07:19,052 --> 00:07:24,081
+zero. If I lose I get zero. If I, if I win
+I'm bidding my full value, I get nothing
+
+86
+00:07:24,081 --> 00:07:29,097
+out of it so that gives me a payoff of
+zero. If I bid two, what happens? Well,
+
+87
+00:07:29,097 --> 00:07:35,099
+when I do win. I'm going to get my value
+of three. The price I pay is two. So this
+
+88
+00:07:35,099 --> 00:07:41,044
+is the bid. This is my theta I, so my
+value is, is three minus two. What's the
+
+89
+00:07:41,044 --> 00:07:46,067
+probability that I win? Well the
+probability, there's a 50, 50 chance that
+
+90
+00:07:46,067 --> 00:07:52,055
+the other person is a low type or a high
+type. If their bidding according to this
+
+91
+00:07:52,055 --> 00:07:58,093
+function there's a half a probability that
+their going to bid. One and a half a
+
+92
+00:07:58,093 --> 00:08:05,070
+probability that they did two. So if I'm
+bidding two there's one half probability
+
+93
+00:08:05,070 --> 00:08:12,014
+that I win outright. And there's a half a
+chance that we tie. And if we tie, we have
+
+94
+00:08:12,014 --> 00:08:17,006
+the seller just flip a coin, and decide
+randomly who wins. So there's a half a
+
+95
+00:08:17,006 --> 00:08:22,005
+chance that we tie, and then a half a
+chance that I win the coin flip. So I end
+
+96
+00:08:22,005 --> 00:08:26,098
+up winning with a probability a quarter.
+So what's my overall value from this?
+
+97
+00:08:26,098 --> 00:08:32,062
+Three quarters. What would happen if I bid
+one instead? Well, if I bid one instead I
+
+98
+00:08:32,062 --> 00:08:38,002
+get a higher value here so when I do win,
+I'd end up with paying less. That's great.
+
+99
+00:08:38,002 --> 00:08:43,061
+I get the painting for less but the chance
+that I win is now only when I match, so if
+
+100
+00:08:43,061 --> 00:08:49,000
+I'm bidding one the only time I'm gonna
+win is when the other person bids one and
+
+101
+00:08:49,000 --> 00:08:54,050
+I win the coin flick. So there's a half a
+chance that the other person bids one, and
+
+102
+00:08:54,050 --> 00:08:59,068
+half a chance t hat they win the coin
+flip. Overall probability of a quarter. So
+
+103
+00:08:59,068 --> 00:09:04,086
+here, 3-1-2, a quarter. We end up with a
+value of one-half. So here, you know, I
+
+104
+00:09:04,086 --> 00:09:10,004
+end up, I'm better off bidding two than
+bidding one. And if I bid zero, well, I'm
+
+105
+00:09:10,004 --> 00:09:15,029
+never gonna win. The other person's always
+bidding above zero. I get a payoff of
+
+106
+00:09:15,029 --> 00:09:20,067
+zero. So here, my unique best response, if
+the other person is bidding according to
+
+107
+00:09:20,067 --> 00:09:28,025
+this unique best response. One Theta I is
+= three is to bid two right so if the
+
+108
+00:09:28,025 --> 00:09:35,016
+other person is bidding two and one in
+this manner then indeed when I have a
+
+109
+00:09:35,016 --> 00:09:42,005
+value of three then I do want to bid two
+so that holds together okay. So we also
+
+110
+00:09:42,005 --> 00:09:47,023
+need to check that the bid of one when
+your type is two is the best response, we
+
+111
+00:09:47,023 --> 00:09:52,029
+can go through there. Well what happens
+if, if I bid three, I'm bidding above my
+
+112
+00:09:52,029 --> 00:09:57,029
+value, so I'm going to get, whenever I
+win, I get a payoff of minus one and now
+
+113
+00:09:57,029 --> 00:10:02,016
+I'm outbidding the other player all the
+time so I'm going to win for sure. I'm
+
+114
+00:10:02,016 --> 00:10:08,059
+going to get a payoff of minus one. If I
+did too well. >> Win or lose, it doesn't
+
+115
+00:10:08,059 --> 00:10:13,065
+matter. I get zero because I'm always
+bidding, my full value so even when I win
+
+116
+00:10:13,065 --> 00:10:18,096
+I don't get anything. If I bid zero, I
+lose for sure, so the only really bid that
+
+117
+00:10:18,096 --> 00:10:23,084
+makes sense in this case is bidding one.
+Here, I get some positive value when I
+
+118
+00:10:23,084 --> 00:10:28,084
+win. I win with probably a quarter, right?
+I win when the other type is actually a
+
+119
+00:10:28,084 --> 00:10:34,015
+low type, also bidding one. And then I win
+the coin flip. So I end up with the value
+
+120
+00:10:34,015 --> 00:10:41,045
+of a quarter. So here, my unique best
+response. Is when Theta I is equal to two
+
+121
+00:10:41,045 --> 00:10:46,099
+to bid one. So indeed we've checked that
+if the other player's following these
+
+122
+00:10:46,099 --> 00:10:51,062
+strategies in fact I strictly care to
+follow these strategies these are my
+
+123
+00:10:51,062 --> 00:10:56,082
+unique best responses so this is an
+equilibrium and. It's a symmetric, pure
+
+124
+00:10:56,082 --> 00:11:01,037
+strategy Bayesian equilibrium. It's a
+strict equilibrium so it's a strong
+
+125
+00:11:01,037 --> 00:11:06,004
+equilibrium and so basically Bayesian
+equilibrium has given us an analysis of
+
+126
+00:11:06,004 --> 00:11:10,042
+this game which allows us to make
+predictions. In this case the better is
+
+127
+00:11:10,042 --> 00:11:15,063
+the low shade their values. How much lower
+than the value t hey bid so that here that
+
+128
+00:11:15,063 --> 00:11:20,012
+when your. Type three, you bid two. When
+you're type two, you bid one. This gives
+
+129
+00:11:20,012 --> 00:11:24,050
+us some idea of how things might work in
+an auction. We'll take a look at a little
+
+130
+00:11:24,050 --> 00:11:29,003
+more elaborate example of an auction next.
+That'll give us a little more insight into
+
+131
+00:11:29,003 --> 00:11:33,030
+what's going on. But this illustrates the
+basic definitions, and allows us to see
+
+132
+00:11:33,030 --> 00:11:34,032
+how things proceed.
