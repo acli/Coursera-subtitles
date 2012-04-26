@@ -1,0 +1,593 @@
+1
+00:00:00,015 --> 00:00:04,028
+Hi everyone. Welcome to our instructed
+chat. We thought we'd take the opportunity
+
+2
+00:00:04,028 --> 00:00:08,057
+to have a bit of a chance to check in with
+students and tell them a bit about the
+
+3
+00:00:08,057 --> 00:00:12,081
+cause and a couple of issues in the class.
+I'm Christopher Manning. And I'm Dan
+
+4
+00:00:12,081 --> 00:00:17,008
+Giraffeski. Okay. So, first of all, some
+people are just being, asking for some
+
+5
+00:00:17,008 --> 00:00:21,094
+statistics about the class. So let's just
+give some rough numbers for how things are
+
+6
+00:00:21,094 --> 00:00:26,045
+going. Maybe later in the class, we'll get
+a class survey up, and get a bit more
+
+7
+00:00:26,045 --> 00:00:30,056
+information. But the original
+registrations was about 60,000 people, and
+
+8
+00:00:30,056 --> 00:00:35,053
+about 40,000 people, created accounts. But
+then if you're actually wondering, like,
+
+9
+00:00:35,053 --> 00:00:39,087
+here we are at the end of week four. How
+many people are really doing stuff?
+
+10
+00:00:39,087 --> 00:00:44,072
+Watching all the videos or also doing the
+assignments. It seems like we've got about
+
+11
+00:00:44,072 --> 00:00:49,022
+6,000 people who are watching the videos
+each. Week and about 4,000 are submitting
+
+12
+00:00:49,022 --> 00:00:52,097
+the programming assignments. So that's
+pretty exciting number of you actually
+
+13
+00:00:52,097 --> 00:00:56,085
+doing the homework which is really great
+for us to see. Cool, So let's see,
+
+14
+00:00:56,085 --> 00:01:01,012
+There've also been a few questions about,
+you know, some of this stuff about the
+
+15
+00:01:01,012 --> 00:01:05,055
+policy of closing registrations and so on.
+Oh, yes, and so we, we're happy to tell
+
+16
+00:01:05,055 --> 00:01:10,009
+you that they've allowed us to open up all
+the videos now for previewing. So if your
+
+17
+00:01:10,009 --> 00:01:14,057
+friends aren't registered and you'd like
+them to be able to see the class, they can
+
+18
+00:01:14,057 --> 00:01:19,028
+actually watch all the videos and take the
+in-video quizzes just by clicking on the
+
+19
+00:01:19,028 --> 00:01:23,054
+home page, on the, on the preview. The, I
+guess there's a button called preview. So
+
+20
+00:01:23,054 --> 00:01:28,040
+have them check that out. And then there
+are a couple of issues that kind of, come
+
+21
+00:01:28,040 --> 00:01:33,004
+up quite a bit on the forum, which we
+think are really at the heart of how.
+
+22
+00:01:33,004 --> 00:01:37,023
+Modern natural language processing works,
+and there are important reasons why it
+
+23
+00:01:37,023 --> 00:01:41,047
+works this way, and we just thought we'd
+spend a little bit of time talking about,
+
+24
+00:01:41,047 --> 00:01:45,072
+and I think they're good to talk about,
+because there are things that are so much
+
+25
+00:01:45,072 --> 00:01:49,081
+second nature to us, that we normally
+don't think about them, because of course
+
+26
+00:01:49,081 --> 00:01:54,000
+you should do t hings this way, for tasks
+like natural language processing. But we
+
+27
+00:01:54,000 --> 00:01:59,000
+can see that for. Students coming to this
+for the first time in fact it's different
+
+28
+00:01:59,000 --> 00:02:04,017
+to most other things and can seem really
+confusing why things are the way they are
+
+29
+00:02:04,017 --> 00:02:09,028
+and so the first of these is this set up
+where we have training sets, div sets and
+
+30
+00:02:09,028 --> 00:02:14,038
+then hidden test sets. So I know at first
+some of you guys thought gee that's just
+
+31
+00:02:14,038 --> 00:02:19,049
+unfair. They are gonna grade us for four
+months on data that we've never seen, that
+
+32
+00:02:19,049 --> 00:02:24,078
+can't be reasonable nor nice to do things.
+But this set up is really at the heart and
+
+33
+00:02:24,078 --> 00:02:30,006
+soul of modern empirical natural language
+processing. So the whole Self Ed is, is
+
+34
+00:02:30,006 --> 00:02:35,053
+what we'd like to do is write algorithms
+that will work well on a new different
+
+35
+00:02:35,053 --> 00:02:41,013
+data in the future. So the idea is that
+you are building something like a sediment
+
+36
+00:02:41,013 --> 00:02:46,051
+classifier which is wanting to save a
+camera models of y foot not liked. But you
+
+37
+00:02:46,051 --> 00:02:50,088
+know, it's just not of interest whether it
+can give the right answers for the
+
+38
+00:02:50,088 --> 00:02:55,053
+collection of tweets that you build your
+model over. What's of interest is, is this
+
+39
+00:02:55,053 --> 00:03:00,027
+model gonna work well on the tweets that
+are posted next week. And that's the sense
+
+40
+00:03:00,027 --> 00:03:04,072
+in which we want to have a hidden test
+set. And in particular for the kind of
+
+41
+00:03:04,072 --> 00:03:09,046
+classifiers we build, it's really, really
+easy to get classifiers that work well on
+
+42
+00:03:09,046 --> 00:03:13,074
+the particular data that you're building
+on, them over. That by having rich
+
+43
+00:03:13,074 --> 00:03:18,043
+features, putting in matching conjunctions
+of terms, regular expressions with main
+
+44
+00:03:18,043 --> 00:03:22,093
+lists of all the names that you happen to
+see in the training data, that those
+
+45
+00:03:22,093 --> 00:03:27,033
+things will fit a particular set of
+training data really closely. And if you
+
+46
+00:03:27,033 --> 00:03:32,001
+keep on adding more and more features, you
+can make it if you want so you get the
+
+47
+00:03:32,001 --> 00:03:36,026
+training data 100. To send rights and well
+then you can test it out on dev data and
+
+48
+00:03:36,026 --> 00:03:40,020
+you know it's the extent of their stuff
+the stiffen in the dev date. Well if you
+
+49
+00:03:40,020 --> 00:03:44,005
+want to you could stop putting that in
+your classifiers as well and do really
+
+50
+00:03:44,005 --> 00:03:49,006
+well in the dev data. But, That stuff is
+not interesting unless you're producing a
+
+51
+00:03:49,006 --> 00:03:54,014
+system which will ac tually also work well
+on other data that you have never seen
+
+52
+00:03:54,014 --> 00:03:58,076
+before. And so what that means is that a
+lot of assessing nat-, natural language
+
+53
+00:03:58,076 --> 00:04:03,022
+processing systems is really about whether
+your models generalize. As to whether
+
+54
+00:04:03,022 --> 00:04:07,068
+you've built in important features of
+language and the way it is used, in such a
+
+55
+00:04:07,068 --> 00:04:12,019
+way that your systems will actually work
+on other sets of data in the future. And
+
+56
+00:04:12,019 --> 00:04:16,065
+maybe Dan can say a bit more about that,
+[inaudible], and how that works out with
+
+57
+00:04:16,065 --> 00:04:20,095
+the iii... Yeah, so, so at least one of
+you asked on the form, well, suppose I
+
+58
+00:04:20,095 --> 00:04:24,093
+just take. Let's say for, homework four.
+Suppose I take some names that were in the
+
+59
+00:04:24,093 --> 00:04:28,039
+depth set, and add them into my training
+set. It's a little bit cheating, but
+
+60
+00:04:28,039 --> 00:04:32,000
+wouldn't that be a good idea in general?
+And the reason why it's a bad idea is
+
+61
+00:04:32,000 --> 00:04:35,075
+that, although you'll do very well on the
+training set and depth set, you're gonna
+
+62
+00:04:35,075 --> 00:04:39,044
+train a feature and learn a weight for
+that feature that really over trusts your
+
+63
+00:04:39,044 --> 00:04:43,000
+list of names. It'll say, that list of
+names is fabulous, Because every name in
+
+64
+00:04:43,000 --> 00:04:46,077
+my training set. There it is in my little
+list of names. I'm going to assign that
+
+65
+00:04:46,077 --> 00:04:50,036
+feature a huge weight. Now I get to my
+test set, and all of my other features
+
+66
+00:04:50,036 --> 00:04:54,004
+have much lower weights, and we should
+have been trusting those other features,
+
+67
+00:04:54,004 --> 00:04:57,063
+because my name list doesn't have any the
+names in my test set. So it's very
+
+68
+00:04:57,063 --> 00:05:01,045
+important to be thinking about the test
+set and about generalization to data you
+
+69
+00:05:01,045 --> 00:05:06,053
+haven't seen. I want to say just a little
+bit more of the dangers of over fitting.
+
+70
+00:05:06,053 --> 00:05:11,077
+Cause this one really comes up both when
+you're doing research and in real life.
+
+71
+00:05:11,077 --> 00:05:17,083
+That what happens is, we're wanting to try
+and work out how well something performs
+
+72
+00:05:17,083 --> 00:05:23,082
+in truth. But if you have some fixed set
+of data that you're assessing performance
+
+73
+00:05:23,082 --> 00:05:29,043
+on, then what happens is, as you develop a
+system, you progressively. Overfit your
+
+74
+00:05:29,043 --> 00:05:34,042
+system to that particular set of data and
+so the numbers that you're getting are
+
+75
+00:05:34,042 --> 00:05:38,098
+unrealistically good. So the way that,
+that happens is that even if you say,
+
+76
+00:05:38,098 --> 00:05:43,072
+well, here's my, my set of dev data over
+ther E. I've never looked at it. I don't
+
+77
+00:05:43,072 --> 00:05:48,033
+know what names it contains. The natural
+inclination is, you try out various
+
+78
+00:05:48,033 --> 00:05:53,013
+models, you change the smoothing, you add
+more features, all the kinds of things
+
+79
+00:05:53,013 --> 00:05:58,024
+we've been talking about. And human nature
+is that when you make these changes, that
+
+80
+00:05:58,024 --> 00:06:03,008
+every time you make a change that. Lifts
+the numbers on your test set. You keep
+
+81
+00:06:03,008 --> 00:06:08,001
+that change. And every time you make a
+change that doesn't improve your numbers,
+
+82
+00:06:08,001 --> 00:06:12,056
+you drop that change. And well, the
+problem is that a lot of those changes
+
+83
+00:06:12,056 --> 00:06:17,080
+will just be making you do better on the
+dev set for no good reason That you're not
+
+84
+00:06:17,080 --> 00:06:22,092
+actually producing a system that's better.
+Data in the statistically significant way,
+
+85
+00:06:22,092 --> 00:06:27,074
+it's just the changes that you made happen
+to work on this one particular set of
+
+86
+00:06:27,074 --> 00:06:32,020
+data. And if you iterate over that twenty
+times, you then sort of, ten of the
+
+87
+00:06:32,020 --> 00:06:36,083
+changes work and you've pushed up your
+numbers on the depth set ten times but.
+
+88
+00:06:36,083 --> 00:06:41,073
+And maybe your sister is actually no
+better in fundamentals. And so the only
+
+89
+00:06:41,073 --> 00:06:46,094
+way to assess that is to have a separate
+set of final test data. That you can say,
+
+90
+00:06:46,094 --> 00:06:52,002
+well are their numbers better on this
+final test set? And in the ideal case you
+
+91
+00:06:52,002 --> 00:06:57,030
+only ever run once on that final test set.
+And you can then say it's a pretty good
+
+92
+00:06:57,030 --> 00:07:02,025
+measure of performance. Now in the real
+world you know, it tends to be that.
+
+93
+00:07:02,025 --> 00:07:06,079
+Things aren't quite that perfect 'cause,
+you know, you'll have make. Run one, the
+
+94
+00:07:06,079 --> 00:07:11,029
+one system, think it's good, run it on the
+final test set, and then suddenly you have
+
+95
+00:07:11,029 --> 00:07:15,052
+some ideas, some other things you could
+put in, and you do put them in, and they
+
+96
+00:07:15,052 --> 00:07:19,080
+work out on the desk set, so you think
+okay, I'll run it again, on the final test
+
+97
+00:07:19,080 --> 00:07:23,092
+set, and low and behold it goes up. And
+you know, to some extent everyone does
+
+98
+00:07:23,092 --> 00:07:28,047
+that a little bit, and then ends up using
+the test set two, or three, or four times,
+
+99
+00:07:28,047 --> 00:07:33,007
+but it's really important to realize that
+you know, if you stop doing That too much.
+
+100
+00:07:33,007 --> 00:07:37,089
+Well, then, again, you're just having this
+problem that you're over fitting to the
+
+101
+00:07:37,089 --> 00:07:42,071
+test set and that you're, reporting
+unrealistically good perf ormances. And so
+
+102
+00:07:42,071 --> 00:07:47,083
+that's one of the reasons that in the L-P
+community, that there's this really strong
+
+103
+00:07:47,083 --> 00:07:52,078
+tra-, tradition of having shared tasks.
+Where there's a task that's set up by some
+
+104
+00:07:52,078 --> 00:07:57,048
+organizers, in which they give out
+training data and people are meant to come
+
+105
+00:07:57,048 --> 00:08:02,032
+up with systems, which will then be run on
+fresh test data. And one of the things
+
+106
+00:08:02,032 --> 00:08:06,085
+that happens again and again in these
+competitions is that some things that
+
+107
+00:08:06,085 --> 00:08:11,056
+people have claimed worked well in papers,
+actually end up working terribly. And
+
+108
+00:08:11,056 --> 00:08:16,014
+there's just over and over again, a big
+difference shown between systems that
+
+109
+00:08:16,014 --> 00:08:21,002
+actually really work, when they're just
+run afresh on new data versus systems that
+
+110
+00:08:21,002 --> 00:08:25,055
+people manage to get to work on some
+particular data set, once they've spend
+
+111
+00:08:25,055 --> 00:08:30,031
+three months tweaking every parameter so
+that it works well on that data set. So
+
+112
+00:08:30,031 --> 00:08:34,038
+we've been, in general, very happy with
+you guy's participation of forms,
+
+113
+00:08:34,038 --> 00:08:39,004
+everybody's helping answer each other's
+questions and, and so it's great to see
+
+114
+00:08:39,004 --> 00:08:43,080
+everybody out there. We're on the forms as
+well. And so keep up that. Work and please
+
+115
+00:08:43,080 --> 00:08:48,069
+feel free to make suggestions, ask us
+questions. We try to take into account any
+
+116
+00:08:48,069 --> 00:08:53,045
+suggestions you make as we are recording
+videos and as we're modifying, fixing bugs
+
+117
+00:08:53,045 --> 00:08:57,072
+in probably homeworks and problem sets.
+Yeah, Thanks a lot, we've been really
+
+118
+00:08:57,072 --> 00:09:02,009
+enjoying this class. And we'll try and get
+in touch and do another one of these later
+
+119
+00:09:02,009 --> 00:09:02,082
+in the course.
