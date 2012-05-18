@@ -18,6 +18,7 @@ Reformatting and QA of stanford-bot’s transcripts:
 - http://www.universalsubtitles.org/en/videos/ayR3VR8BXJdL/info/ (models 9-2)
 - http://www.universalsubtitles.org/fr/videos/4rCunfbLShfw/info/ (PGM 1-1)
 - http://www.universalsubtitles.org/fr/videos/KUprgjyoAjfq/en/303905/ (NLP 17-3)
+- http://www.universalsubtitles.org/fr/videos/vPfFsyG2H2w1/en/321441/ (NLP chat II)
 
 Minor revisions to transcripts already revised by other students:
 
