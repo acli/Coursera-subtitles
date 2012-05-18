@@ -1,368 +1,331 @@
 1
-00:00:00,000 --> 00:00:04,055
-Hi, everyone. You know, that most of you
-still working really hard on the last
+00:00:00,000 --> 00:00:00,093
+Hi, everyone.
 
 2
-00:00:04,055 --> 00:00:08,083
-couple of assignments and problem sets but
-nevertheless now NOP class is coming to
+00:00:00,093 --> 00:00:05,078
+We know that most of you still working really hard on the last couple of assignments and problem sets
 
 3
-00:00:08,083 --> 00:00:12,085
-its close and so we thought we'll both
-update you on a few of the issues. And
+00:00:05,078 --> 00:00:12,035
+but nevertheless our NLP class is coming to its close and so we thought we’ll both update you on a few of the issues.
 
 4
-00:00:12,085 --> 00:00:17,003
-first of all, [inaudible] always interest
-in numbers so let's say it's just about
+00:00:12,035 --> 00:00:15,004
+And first of all, everyone is always interested in numbers
 
 5
-00:00:17,003 --> 00:00:21,081
-the numbers. So, it seems like. As we come
-in to week 7's material of the problem
+00:00:15,004 --> 00:00:17,029
+so let’s say a bit about the numbers.
 
 6
-00:00:21,081 --> 00:00:26,076
-that's in programming assignments. It
-seems like there are about 5,000 people
+00:00:17,029 --> 00:00:24,044
+So, it seems like, as we come into week 7’s material of the problem sets and programming assignments,
 
 7
-00:00:26,076 --> 00:00:31,072
-still actively watching the videos and
-about 2,000 people doing all the work at
+00:00:24,044 --> 00:00:28,041
+it seems like there are about 5,000 people still actively watching the videos
 
 8
-00:00:31,072 --> 00:00:36,061
-the home works. But that's, you know,
-overall has just been enormous amount of
+00:00:28,041 --> 00:00:32,042
+and about 2,000 people doing all the work of the homeworks.
 
 9
-00:00:36,061 --> 00:00:41,057
-stuff going on so it now have well over a
-million video views and all. Yeah, it's
+00:00:32,042 --> 00:00:37,018
+But that’s, you know, overall has just been enormous amount of stuff going on
 
 10
-00:00:41,057 --> 00:00:45,078
-very exciting. For homework six. The
-parsing homework was definitely our
+00:00:37,018 --> 00:00:40,062
+so it now have well over a million video views and all.
 
 11
-00:00:45,078 --> 00:00:49,083
-hardest homework so far and there were
-definitely problems with the codes being
+00:00:40,062 --> 00:00:43,018
+Yeah, it’s very exciting.
 
 12
-00:00:49,083 --> 00:00:54,013
-under commented so we appreciate very much
-those of you who helped out each other in
+00:00:43,020 --> 00:00:47,046
+Programming homework six, the parsing homework, was definitely our hardest homework so far
 
 13
-00:00:54,013 --> 00:00:58,011
-the forums and made things very clear for
-each other. Those of you who managed to
+00:00:47,046 --> 00:00:50,046
+and there were definitely problems with the code being under-commented
 
 14
-00:00:58,011 --> 00:01:01,064
-finish the homework have a lot to pull
-this so they got along out of it. But
+00:00:50,046 --> 00:00:56,067
+so we appreciate very much those of you who helped out each other in the forums and made things very clear for each other.
 
 15
-00:01:01,064 --> 00:01:05,036
-those of you who didn't have the time to,
-to do all of it. We encourage you to do
+00:00:56,067 --> 00:01:01,020
+Those of you who managed to finish the homework have told they got a lot out of it.
 
 16
-00:01:05,036 --> 00:01:09,012
-come back and do put them in homework
-seven and eight which are much easier than
+00:01:01,020 --> 00:01:04,036
+But those of you who didn’t have the time to do all of it,
 
 17
-00:01:09,012 --> 00:01:13,003
-homework six and should be a lot fun as
-well. One of the things that some people
+00:01:04,036 --> 00:01:07,031
+we encourage you to do come back and do programming homework seven and eight
 
 18
-00:01:13,003 --> 00:01:17,016
-have been asking about is, hey, can we
-take those great passes that we did write
+00:01:07,031 --> 00:01:11,017
+which are much easier than homework six and should be a lot fun as well.
 
 19
-00:01:17,016 --> 00:01:21,024
-for [inaudible] assignment six and keep on
-working on them by posting them on
+00:01:11,017 --> 00:01:14,052
+One of the things that some people have been asking about is,
 
 20
-00:01:21,024 --> 00:01:25,031
-[inaudible] or some of the site like that.
-There is a slight problem with that
+00:01:14,052 --> 00:01:18,083
+“Hey, can we take those great parsers that we did write for programming assignment six
 
 21
-00:01:25,031 --> 00:01:29,033
-because, you know, we are hoping that
-we're gonna do this cause again sometime
+00:01:18,083 --> 00:01:23,076
+and keep on working on them by posting them on Github or some other site like that?”
 
 22
-00:01:29,033 --> 00:01:33,046
-in the future and we'd like to be have to
-reuse some of the assignments so I'd
+00:01:23,076 --> 00:01:26,096
+There is a slight problem with that because, you know,
 
 23
-00:01:33,046 --> 00:01:38,001
-really prefer that they're just that great
-solutions to all the assignments sitting
+00:01:26,096 --> 00:01:29,094
+we are hoping that we’ll be able to do this cause again sometime in the future
 
 24
-00:01:38,001 --> 00:01:42,019
-on the open web and to keep some of that
-stuff on the forum sites for the class.
+00:01:29,094 --> 00:01:32,027
+and we’d like to be able to reuse some of the assignments
 
 25
-00:01:42,019 --> 00:01:47,009
-So, it's great that people. Want to keep
-exploring and doing better things for NOP
+00:01:32,027 --> 00:01:37,072
+so I’d really prefer that there just aren’t great solutions to all the assignments sitting on the open web
 
 26
-00:01:47,029 --> 00:01:51,057
-but. We really think this probably a be
-tter idea for you to pick out one of the
+00:01:37,072 --> 00:01:41,086
+and to keep some of that stuff on the forum sites for the class.
 
 27
-00:01:51,057 --> 00:01:55,087
-several open source NLP frameworks that
-out there and look at ways in which you
+00:01:41,086 --> 00:01:46,052
+So, it’s great that people want to keep exploring and doing better things for NLP
 
 28
-00:01:55,087 --> 00:01:59,090
-can contribute to that because that both
-doesn't sort of conflict with our
+00:01:46,052 --> 00:01:53,074
+but we’d really think it’s probably a better idea for you to pick out one of the several open source NLP frameworks that’re out there
 
 29
-00:01:59,090 --> 00:02:04,031
-assignments but actually gonna be more
-useful for you and people around the world
+00:01:53,074 --> 00:01:56,097
+and look at ways in which you can contribute to that
 
 30
-00:02:04,031 --> 00:02:08,072
-in general if you're helping along these
-open source frameworks. So there are good
+00:01:56,097 --> 00:01:59,036
+because that both doesn’t sort of conflict with our assignments
 
 31
-00:02:08,072 --> 00:02:12,096
-ones, the Python and LTK is the best known
-one and there are several well-known,
+00:01:59,036 --> 00:02:03,059
+but actually going to be more useful for you and people around the world in general
 
 32
-00:02:12,096 --> 00:02:17,021
-Java, NLP Open Source Frameworks which
-certainly includes our own stand for NLP
+00:02:03,059 --> 00:02:05,094
+if you’re helping along these open source frameworks.
 
 33
-00:02:17,021 --> 00:02:21,078
-tools but also other things like Open NLP,
-the Gate NLP Framework. [inaudible] I'll
+00:02:05,094 --> 00:02:09,058
+So there are good ones — For Python NLTK is the best-known one;
 
 34
-00:02:21,078 --> 00:02:27,083
-just [inaudible] out there [inaudible]
-out. Okay and that. Rings up the issue of
+00:02:09,058 --> 00:02:13,035
+and there are several well-known Java NLP open source frameworks
 
 35
-00:02:27,083 --> 00:02:32,010
-all, what's gonna happen with this class
-website after the class ends. It is gonna
+00:02:13,035 --> 00:02:16,050
+which certainly includes our own Stanford NLP tools
 
 36
-00:02:32,010 --> 00:02:36,043
-stay open and available and all you guys
-will be have to keep on looking at stuff
+00:02:16,050 --> 00:02:20,063
+but also other things like OpenNLP, the GATE NLP Framework;
 
 37
-00:02:36,043 --> 00:02:40,060
-and referencing things and even beyond
-that, what we're also gonna have is this
+00:02:20,063 --> 00:02:24,020
+components: UIMA — a bunch of stuff out there if you look around.
 
 38
-00:02:40,060 --> 00:02:44,082
-gonna be available in the Archive Mode.
-So, people who haven't been registered in
+00:02:24,020 --> 00:02:31,060
+Okay and that brings up the issue of what’s going to happen with this class website after the class ends.
 
 39
-00:02:44,082 --> 00:02:49,015
-the class, you also have to look at the
-content in terms of the videos that are up
+00:02:31,060 --> 00:02:33,080
+It is going to stay open and available
 
 40
-00:02:49,015 --> 00:02:53,047
-there and they are not program and the
-assignments which were entertainment gonna
+00:02:33,080 --> 00:02:37,065
+and all you guys will be able to keep on looking at stuff and referencing things
 
 41
-00:02:53,047 --> 00:02:57,086
-keep to the people who were enrolled in
-the class. But you shouldn't worry about
+00:02:37,065 --> 00:02:43,002
+and even beyond that, what we’re also going to have is this going to be available in an archive mode.
 
 42
-00:02:57,086 --> 00:03:01,081
-things going away. Yes and those of you
-who are enrolled, can still, the formal
+00:02:43,002 --> 00:02:46,015
+So, people who haven’t been registered in the class
 
 43
-00:03:01,081 --> 00:03:05,093
-stay up, we encourage you to continue to
-talk to each other in the forms. Those of
+00:02:46,015 --> 00:02:50,022
+will also be able to look at the content in terms of the videos that are up there
 
 44
-00:03:05,093 --> 00:03:09,073
-you who never got to finish some of the
-home works, keep working on the home
+00:02:50,022 --> 00:02:56,002
+but not the programming assignments which we are kind of going to keep to the people who were enrolled in the class.
 
 45
-00:03:09,073 --> 00:03:13,086
-works, go ahead and post them the site
-will stay up and then. For, for new people
+00:02:56,002 --> 00:02:58,038
+But you shouldn’t worry about things going away.
 
 46
-00:03:13,086 --> 00:03:18,004
-who will eventually be teaching the class
-again but meanwhile we'll be leaving the
+00:02:58,038 --> 00:03:00,041
+Yes and those of you who are enrolled can still —
 
 47
-00:03:18,004 --> 00:03:22,002
-videos up so if your friends wanna watch
-the videos, we encourage that. And then
+00:03:00,041 --> 00:03:02,041
+the forums will stay up —
 
 48
-00:03:22,002 --> 00:03:28,012
-eventually we'll actually teach the class
-again. In fact for. Everybody has been
+00:03:02,041 --> 00:03:05,037
+we encourage you to continue to talk to each other on the forums.
 
 49
-00:03:28,012 --> 00:03:31,091
-really helpful on the forums that, we
-mentioned this earlier about helping
+00:03:05,037 --> 00:03:07,081
+Those of you who never got to finish some of the homeworks,
 
 50
-00:03:31,091 --> 00:03:35,095
-people out with, with the code, helping
-people out with basic NLP. It's been very
+00:03:07,081 --> 00:03:09,031
+keep working on the homeworks,
 
 51
-00:03:35,095 --> 00:03:39,084
-supportive community and we really
-appreciate that and we think it's really
+00:03:09,031 --> 00:03:12,002
+go ahead and post them the site will stay up and then.
 
 52
-00:03:39,084 --> 00:03:43,057
-great. We'd like help from you in
-suggesting, you have already given us
+00:03:12,002 --> 00:03:16,005
+For new people we will eventually be teaching the class again
 
 53
-00:03:43,057 --> 00:03:47,092
-suggestions for next year but I put up a,
-a forum just now that we'd like you give
+00:03:16,005 --> 00:03:18,029
+but meanwhile we’ll be leaving the videos up
 
 54
-00:03:47,092 --> 00:03:52,012
-us specific suggestions about ways we can
-make the course better for next year. We
+00:03:18,029 --> 00:03:21,006
+so if your friends want to watch the videos, we encourage that.
 
 55
-00:03:52,012 --> 00:03:56,006
-know Homework six is one of them but
-there's lot of suggestions you've given.
+00:03:21,006 --> 00:03:23,062
+And then eventually we’ll actually teach the class again.
 
 56
-00:03:56,021 --> 00:04:00,049
-About improving the problem sets or other
-reading material we can suggest or
+00:03:23,062 --> 00:03:32,023
+In fact for everybody that’s been really helpful on the forums that,
 
 57
-00:04:00,049 --> 00:04:04,092
-anything else that will help us improve
-our course for the second time we teach it
+00:03:32,023 --> 00:03:33,086
+we mentioned this earlier about helping people out with the code,
 
 58
-00:04:04,092 --> 00:04:10,078
-that would be great. We all have dreams of
-the future where there are computers with
+00:03:33,086 --> 00:03:36,015
+helping people out with basic NLP.
 
 59
-00:04:10,078 --> 00:04:15,064
-full natural language understanding in and
-our research we still variously hoped to
+00:03:36,015 --> 00:03:39,096
+It’s been very supportive community and we really appreciate that and we think it’s really great.
 
 60
-00:04:15,064 --> 00:04:20,015
-work to those goals but in terms of the
-practical NLP does applies around the
+00:03:39,096 --> 00:03:42,080
+We’d like help from you in suggesting —
 
 61
-00:04:20,015 --> 00:04:24,089
-world at the moment, really you guys are
-just seeing the ton of the stuff that you
+00:03:42,080 --> 00:03:46,098
+you have already given us suggestions for next year but I’ve put up a forum just now
 
 62
-00:04:24,089 --> 00:04:28,036
-actually used. Things like fix
-classifiers, building sequence
+00:03:46,098 --> 00:03:52,043
+that we’d like you to give us specific suggestions about ways we can make the course better for next year.
 
 63
-00:04:28,036 --> 00:04:32,099
-classifiers, [inaudible] and other things,
-parsers questions answering, machine
+00:03:52,043 --> 00:03:53,090
+We know Homework six is one of them
 
 64
-00:04:32,099 --> 00:04:37,079
-techniques. So, really should feel good if
-you made your way through this class that
+00:03:53,090 --> 00:04:00,084
+but there’s lot of suggestions you’ve given about improving the problem sets or other reading material we can suggest
 
 65
-00:04:37,079 --> 00:04:42,088
-you confident practitioner of the kind of
-[inaudible]. Techniques, the leading to a
+00:04:00,084 --> 00:04:03,055
+or anything else that will help us improve our course for the second time we teach it
 
 66
-00:04:42,088 --> 00:04:47,096
-new cost of more intelligent language
-wielding computer applications and so we
+00:04:03,055 --> 00:04:05,074
+that would be great.
 
 67
-00:04:47,096 --> 00:04:53,017
-hope that you'll be able to take these
-ideas and knowledge and they'll often. And
+00:04:06,035 --> 00:04:12,086
+We all have dreams of the future where there are computers with full natural language understanding
 
 68
-00:04:53,017 --> 00:04:58,026
-go often apply them in many different
-places including this world now by human
+00:04:12,086 --> 00:04:16,047
+and in our research we still variously hoped to work to those goals
 
 69
-00:04:58,026 --> 00:05:03,064
-language material is just everywhere over
-the web as part of the new move to the. >>
+00:04:16,047 --> 00:04:21,099
+but in terms of the practical NLP that’s applied around the world at the moment,
 
 70
-00:05:03,064 --> 00:05:07,060
-Content authoring and social computing
-that's going on everywhere. So much of
+00:04:21,099 --> 00:04:25,039
+really you guys are just seeing the ton of the stuff that are actually used.
 
 71
-00:05:07,060 --> 00:05:11,091
-that is about language use so now you have
-a good tool kit to be able to go off and
+00:04:25,039 --> 00:04:30,058
+Things like text classifiers, building sequence classifiers, named entities and other things,
 
 72
-00:05:11,091 --> 00:05:16,023
-do things with that material and we hope
-that you'll be able to find good things to
+00:04:30,058 --> 00:04:34,052
+parsers, questions answering, machine techniques,…
 
 73
-00:05:16,023 --> 00:05:20,044
-do. >> Yeah. Thanks for taking the class
-and look forward to seeing you wherever
+00:04:34,052 --> 00:04:37,042
+So you really should feel good if you’ve made your way through this class
 
 74
-00:05:20,044 --> 00:05:23,012
-and whenever we see you. Thanks a lot.
+00:04:37,042 --> 00:04:41,097
+that you are a competent practitioner of the kind of useful NLP techniques
+
+75
+00:04:41,097 --> 00:04:47,051
+that’re leading to a new class of more intelligent language-wielding computer applications
+
+76
+00:04:47,051 --> 00:04:51,041
+and so we hope that you’ll be able to take these ideas and knowledge
+
+77
+00:04:51,041 --> 00:04:56,022
+and go often apply them in many different places.
+
+78
+00:04:56,022 --> 00:05:01,048
+We clearly in this world now by human language material is just everywhere over the web
+
+79
+00:05:01,048 --> 00:05:07,097
+as part of the new move to the content authoring and social computing that’s going on everywhere.
+
+80
+00:05:07,097 --> 00:05:13,008
+So much of that is about language use so now you have a good toolkit to be able to go off and do things with that material
+
+81
+00:05:13,008 --> 00:05:16,001
+and we hope that you’ll be able to find good things to do.
+
+82
+00:05:16,001 --> 00:05:21,015
+Yeah. Thanks for taking the class and look forward to seeing you wherever and whenever we see you.
+
+83
+00:05:21,015 --> 99:59:59,000
+Thanks a lot.
