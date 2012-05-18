@@ -88,7 +88,7 @@ There is a slight problem with that because, you know,
 
 23
 00:01:26,096 --> 00:01:29,094
-we are hoping that we’ll be able to do this cause again sometime in the future
+we are hoping that we’ll be able to do this course again some time in the future
 
 24
 00:01:29,094 --> 00:01:32,027
@@ -107,225 +107,241 @@ and to keep some of that stuff on the forum sites for the class.
 So, it’s great that people want to keep exploring and doing better things for NLP
 
 28
-00:01:46,052 --> 00:01:53,074
-but we’d really think it’s probably a better idea for you to pick out one of the several open source NLP frameworks that’re out there
+00:01:46,052 --> 00:01:50,013
+but we’d really think it’s probably a better idea for you
 
 29
+00:01:50,013 --> 00:01:53,074
+to pick out one of the several open source NLP frameworks that’re out there
+
+30
 00:01:53,074 --> 00:01:56,097
 and look at ways in which you can contribute to that
 
-30
-00:01:56,097 --> 00:01:59,036
-because that both doesn’t sort of conflict with our assignments
-
 31
-00:01:59,036 --> 00:02:03,059
-but actually going to be more useful for you and people around the world in general
+00:01:56,097 --> 00:01:59,036
+’cause that both doesn’t sort of conflict with our assignments
 
 32
+00:01:59,036 --> 00:02:03,059
+but that’s actually going to be more useful for you and people around the world in general
+
+33
 00:02:03,059 --> 00:02:05,094
 if you’re helping along these open source frameworks.
 
-33
+34
 00:02:05,094 --> 00:02:09,058
 So there are good ones — For Python NLTK is the best-known one;
 
-34
+35
 00:02:09,058 --> 00:02:13,035
 and there are several well-known Java NLP open source frameworks
 
-35
+36
 00:02:13,035 --> 00:02:16,050
 which certainly includes our own Stanford NLP tools
 
-36
+37
 00:02:16,050 --> 00:02:20,063
 but also other things like OpenNLP, the GATE NLP Framework;
 
-37
+38
 00:02:20,063 --> 00:02:24,020
 components: UIMA — a bunch of stuff out there if you look around.
 
-38
+39
 00:02:24,020 --> 00:02:31,060
 Okay and that brings up the issue of what’s going to happen with this class website after the class ends.
 
-39
+40
 00:02:31,060 --> 00:02:33,080
 It is going to stay open and available
 
-40
+41
 00:02:33,080 --> 00:02:37,065
 and all you guys will be able to keep on looking at stuff and referencing things
 
-41
+42
 00:02:37,065 --> 00:02:43,002
 and even beyond that, what we’re also going to have is this going to be available in an archive mode.
 
-42
+43
 00:02:43,002 --> 00:02:46,015
 So, people who haven’t been registered in the class
 
-43
+44
 00:02:46,015 --> 00:02:50,022
 will also be able to look at the content in terms of the videos that are up there
 
-44
-00:02:50,022 --> 00:02:56,002
-but not the programming assignments which we are kind of going to keep to the people who were enrolled in the class.
-
 45
+00:02:50,022 --> 00:02:52,060
+but not the programming assignments
+
+46
+00:02:52,060 --> 00:02:56,002
+which we are kind of going to keep to the people who were enrolled in the class.
+
+47
 00:02:56,002 --> 00:02:58,038
 But you shouldn’t worry about things going away.
 
-46
+48
 00:02:58,038 --> 00:03:00,041
 Yes and those of you who are enrolled can still —
 
-47
+49
 00:03:00,041 --> 00:03:02,041
-the forums will stay up —
+the forum will stay up —
 
-48
+50
 00:03:02,041 --> 00:03:05,037
 we encourage you to continue to talk to each other on the forums.
 
-49
+51
 00:03:05,037 --> 00:03:07,081
 Those of you who never got to finish some of the homeworks,
 
-50
+52
 00:03:07,081 --> 00:03:09,031
 keep working on the homeworks,
 
-51
-00:03:09,031 --> 00:03:12,002
-go ahead and post them the site will stay up and then.
-
-52
-00:03:12,002 --> 00:03:16,005
-For new people we will eventually be teaching the class again
-
 53
+00:03:09,031 --> 00:03:11,073
+go ahead and post them. The site will stay up.
+
+54
+00:03:11,073 --> 00:03:16,005
+And then for new people we will eventually be teaching the class again
+
+55
 00:03:16,005 --> 00:03:18,029
 but meanwhile we’ll be leaving the videos up
 
-54
+56
 00:03:18,029 --> 00:03:21,006
 so if your friends want to watch the videos, we encourage that.
 
-55
-00:03:21,006 --> 00:03:23,062
+57
+00:03:21,006 --> 00:03:24,058
 And then eventually we’ll actually teach the class again.
 
-56
-00:03:23,062 --> 00:03:32,023
-In fact for everybody that’s been really helpful on the forums that,
-
-57
-00:03:32,023 --> 00:03:33,086
-we mentioned this earlier about helping people out with the code,
-
 58
-00:03:33,086 --> 00:03:36,015
-helping people out with basic NLP.
+00:03:24,058 --> 00:03:29,074
+In fact for everybody, it’s been really helpful on the forums there —
 
 59
-00:03:36,015 --> 00:03:39,096
-It’s been very supportive community and we really appreciate that and we think it’s really great.
+00:03:29,074 --> 00:03:33,047
+we mentioned this earlier about helping people out with the code,
 
 60
+00:03:33,047 --> 00:03:35,092
+helping people out with basic NLP.
+
+61
+00:03:35,092 --> 00:03:39,096
+It’s been very supportive community and we really appreciate that and we think it’s really great.
+
+62
 00:03:39,096 --> 00:03:42,080
 We’d like help from you in suggesting —
 
-61
+63
 00:03:42,080 --> 00:03:46,098
 you have already given us suggestions for next year but I’ve put up a forum just now
 
-62
-00:03:46,098 --> 00:03:52,043
-that we’d like you to give us specific suggestions about ways we can make the course better for next year.
-
-63
-00:03:52,043 --> 00:03:53,090
-We know Homework six is one of them
-
 64
-00:03:53,090 --> 00:04:00,084
-but there’s lot of suggestions you’ve given about improving the problem sets or other reading material we can suggest
+00:03:46,098 --> 00:03:51,092
+that we’d like you, give us specific suggestions about ways we can make the course better for next year.
 
 65
-00:04:00,084 --> 00:04:03,055
-or anything else that will help us improve our course for the second time we teach it
+00:03:51,092 --> 00:03:53,081
+We know Homework six is one of them
 
 66
+00:03:53,081 --> 00:03:57,037
+but there’s lot of suggestions you’ve given about improving the problem sets
+
+67
+00:03:57,037 --> 00:03:59,090
+or other reading material we can suggest
+
+68
+00:03:59,092 --> 00:04:03,055
+or anything else that will help us improve our course for the second time we teach it
+
+69
 00:04:03,055 --> 00:04:05,074
 that would be great.
 
-67
+70
 00:04:06,035 --> 00:04:12,086
 We all have dreams of the future where there are computers with full natural language understanding
 
-68
+71
 00:04:12,086 --> 00:04:16,047
 and in our research we still variously hoped to work to those goals
 
-69
+72
 00:04:16,047 --> 00:04:21,099
-but in terms of the practical NLP that’s applied around the world at the moment,
+but in terms of the practical NLP that’s deployed around the world at the moment,
 
-70
+73
 00:04:21,099 --> 00:04:25,039
 really you guys are just seeing the ton of the stuff that are actually used.
 
-71
+74
 00:04:25,039 --> 00:04:30,058
 Things like text classifiers, building sequence classifiers, named entities and other things,
 
-72
+75
 00:04:30,058 --> 00:04:34,052
 parsers, questions answering, machine techniques,…
 
-73
+76
 00:04:34,052 --> 00:04:37,042
 So you really should feel good if you’ve made your way through this class
 
-74
+77
 00:04:37,042 --> 00:04:41,097
 that you are a competent practitioner of the kind of useful NLP techniques
 
-75
+78
 00:04:41,097 --> 00:04:47,051
 that’re leading to a new class of more intelligent language-wielding computer applications
 
-76
-00:04:47,051 --> 00:04:51,041
-and so we hope that you’ll be able to take these ideas and knowledge
-
-77
-00:04:51,041 --> 00:04:56,022
-and go often apply them in many different places.
-
-78
-00:04:56,022 --> 00:05:01,048
-We clearly in this world now by human language material is just everywhere over the web
-
 79
-00:05:01,048 --> 00:05:07,097
-as part of the new move to the content authoring and social computing that’s going on everywhere.
+00:04:47,051 --> 00:04:51,018
+and so we hope that you’ll be able to take these ideas and knowledge,
 
 80
-00:05:07,097 --> 00:05:13,008
-So much of that is about language use so now you have a good toolkit to be able to go off and do things with that material
+00:04:51,018 --> 00:04:56,022
+and go off and apply them in many different places.
 
 81
+00:04:56,022 --> 00:05:01,048
+We clearly are in this world now where human language material is just everywhere over the web
+
+82
+00:05:01,048 --> 00:05:06,092
+as part of the new move to the content authoring and social computing that’s going on everywhere.
+
+83
+00:05:06,092 --> 00:05:09,037
+So much of that is about language use.
+
+84
+00:05:09,037 --> 00:05:13,008
+So now you have a good toolkit to be able to go off and do things with that material
+
+85
 00:05:13,008 --> 00:05:16,001
 and we hope that you’ll be able to find good things to do.
 
-82
+86
 00:05:16,001 --> 00:05:21,015
 Yeah. Thanks for taking the class and look forward to seeing you wherever and whenever we see you.
 
-83
+87
 00:05:21,015 --> 99:59:59,000
 Thanks a lot.
