@@ -20,6 +20,10 @@ Reformatting and QA of stanford-bot’s transcripts:
 - http://www.universalsubtitles.org/fr/videos/KUprgjyoAjfq/en/303905/ (NLP 17-3)
 - http://www.universalsubtitles.org/fr/videos/vPfFsyG2H2w1/en/321441/ (NLP chat II)
 
+QA of other transcriptionist’s work:
+
+- http://www.universalsubtitles.org/fr/videos/ZEW0CIMyUoft/en/324971/ (HCI 1.1)
+
 Minor revisions to transcripts already revised by other students:
 
 - http://www.universalsubtitles.org/fr/videos/ZVF6pWv6LSlo/info/ (PGM) (2-8)
