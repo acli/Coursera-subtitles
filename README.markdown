@@ -29,6 +29,7 @@ Minor revisions to transcripts already revised by other students:
 TO DO:
 
 - http://www.universalsubtitles.org/fr/videos/VbaciFSlgnqW/en/227447/ (NLP) (5-1)
+- http://www.universalsubtitles.org/fr/videos/MQpvCWmjNXXC/en/226619/ (NLP) (4-8)
 
 Things to watch out for if you want to work on Coursera’s subtitles:
 ===================================================================
