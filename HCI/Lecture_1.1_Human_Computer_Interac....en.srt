@@ -1,263 +1,263 @@
 1
-00:00:01,024 --> 00:00:04,075
-Hi, I am Scott Klemmer, I'm an associate professor
+00:00:01,024 --> 00:00:04,050
+Hi, I am Scott Klemmer, I’m an associate professor of computer science,
 
 2
-00:00:04,075 --> 00:00:09,003
-of computer Science. Now I'd like to welcome you this online class, introducing Human-computer interaction
+00:00:04,050 --> 00:00:08,071
+and I’d like to welcome you this online class, introducing human-computer interaction.
 
 3
-00:00:09,003 --> 00:00:13,022
-This online class is based on the class I've been teaching in Standford for several years now
+00:00:08,071 --> 00:00:13,001
+This online class is based on the class I’ve been teaching in Stanford for several years now,
 
 4
-00:00:13,022 --> 00:00:17,037
-and sinthesyzes materials from a number of sources
+00:00:13,001 --> 00:00:16,036
+and it synthesizes materials from a number of sources.
 
 5
-00:00:17,085 --> 00:00:21,014
-First and foremost is the human, the person using the  system
+00:00:17,048 --> 00:00:20,080
+First and foremost is the human, the person that’s using the system
 
 6
-00:00:21,014 --> 00:00:23,075
-and the other people the work and communicate with.
+00:00:20,080 --> 00:00:23,007
+and the other people that they work and communicate with.
 
 7
-00:00:24,027 --> 00:00:27,011
-Then you got the computer, that's the machine and the networking machine
+00:00:23,056 --> 00:00:27,011
+Then you got the computer, that’s the machine and the networked-up machine that runs the system.
 
 8
-00:00:27,011 --> 00:00:31,005
-And then you got the interface that represents the systems to the user
+00:00:27,011 --> 00:00:30,066
+And then you got the interface that represents the system to the user.
 
 9
-00:00:31,005 --> 00:00:35,064
+00:00:30,066 --> 00:00:35,064
 HCI is the design, implementation and evaluation of user interfaces.
 
 10
 00:00:35,064 --> 00:00:39,048
-This course is gonna teach you a set of tools for doing this effectively.
+This course is going to teach you a set of tools for doing this effectively.
 
 11
 00:00:39,048 --> 00:00:43,091
-At the outside of the desing project,we often don't know what the problem is
+At the onset of the desing project, we often don’t know what the problem is
 
 12
-00:00:43,091 --> 00:00:48,013
-or what the space of possibilities might be, let along with the solution should be.
+00:00:43,091 --> 00:00:47,074
+or what the space of possibilities might be, let alone what the solution should be.
 
 13
-00:00:48,013 --> 00:00:51,017
-Consequently, real world design is often iterative
+00:00:47,074 --> 00:00:50,079
+Consequently, real-world design is often iterative,
 
 14
-00:00:51,017 --> 00:00:53,083
-fed fast so you can succeed sooner.
+00:00:50,079 --> 00:00:53,046
+failed fast so you can succeed sooner.
 
 15
-00:00:53,083 --> 00:00:57,030
-often the benefits from trying and comparing options.
+00:00:53,046 --> 00:00:56,096
+Often it benefits from trying and comparing options.
 
 16
-00:00:57,030 --> 00:01:01,018
-Finally, it's important to focus on the people who are gonna user your system.
+00:00:56,096 --> 00:01:01,018
+Finally, it’s important to focus on the people who are going to use your system.
 
 17
-00:01:01,018 --> 00:01:05,074
-Good design brings people joy, it helps people do things that we care about,
+00:01:01,018 --> 00:01:05,045
+Good design brings people joy: it helps people do things that we care about,
 
 18
-00:01:05,074 --> 00:01:08,068
+00:01:05,045 --> 00:01:08,005
 and helps us connect people that we care about.
 
 19
-00:01:08,068 --> 00:01:13,004
-Good user interface design have a tremendous impact on both individual's ability to accomplish things
+00:01:08,005 --> 00:01:13,004
+Good user interfaces can have a tremendous impact on both [the] individual’s ability to accomplish things,
 
 20
 00:01:13,004 --> 00:01:15,082
-and the societies. Graphical user interfaces help
+and societies’. Graphical user interfaces help
 
 21
-00:01:15,082 --> 00:01:18,080
-with computing a hundreds of millions of tasks.
+00:01:15,082 --> 00:01:18,040
+with computing a hundreds of millions of tasks,
 
 22
-00:01:18,080 --> 00:01:23,048
-Enabling us to do things like create documents, and share photo and connect with family
+00:01:18,040 --> 00:01:22,097
+enabling us to do things like create documents, and share photo and connect with family
 
 23
-00:01:23,048 --> 00:01:25,047
+00:01:22,097 --> 00:01:24,096
 and find information.
 
 24
-00:01:25,050 --> 00:01:30,009
-Bad design is frustrating and cost lives, medical devices, airplane accidents
+00:01:24,096 --> 00:01:30,009
+Bad design is frustrating and cost lives: medical devices, airplane accidents
 
 25
 00:01:30,009 --> 00:01:35,045
 and nuclear disasters are just three domains where bad user interfaces and software errors
 
 26
-00:01:35,045 --> 00:01:38,069
+00:01:35,045 --> 00:01:38,040
 have caused serious injury and many deaths.
 
 27
-00:01:38,070 --> 00:01:41,077
+00:01:38,040 --> 00:01:41,077
 These are big ticket items that take a lot of time to produce.
 
 28
-00:01:42,000 --> 00:01:45,077
+00:01:42,000 --> 00:01:44,096
 What really gets me is that many of these interface problems
 
 29
-00:01:45,077 --> 00:01:47,060
+00:01:44,096 --> 00:01:47,011
 could have easily been avoided.
 
 30
-00:01:47,060 --> 00:01:53,068
-Fixing these problems follow...requires following just basic principles like consistency and feedback
+00:01:47,011 --> 00:01:53,050
+Fixing these problems requires following just basic principles like consistency and feedback.
 
 31
 00:01:53,068 --> 00:01:56,063
-If effective principles for interface design were widly known
+If effective principles for interface design were widely known
 
 32
-00:01:56,063 --> 00:02:00,022
+00:01:56,063 --> 00:01:59,079
 some of these disasters might have been avoided.
 
 33
-00:02:00,076 --> 00:02:03,065
+00:02:00,033 --> 00:02:03,065
 This is one of the reasons that I created this course.
 
 34
 00:02:03,065 --> 00:02:08,014
-Bad desing causes problems and degrades people quality of life in many smaller raise too.
+Bad design causes problems and degrades people[’s] quality of life in many smaller ways too.
 
 35
-00:02:08,031 --> 00:02:11,069
+00:02:08,031 --> 00:02:11,010
 Think of all the time that you waste on your bank's website
 
 36
-00:02:11,069 --> 00:02:16,012
+00:02:11,010 --> 00:02:16,012
 or trying to figure out why the wifi doesn't work, or trying to set something on your digital camera.
 
 37
-00:02:16,012 --> 00:02:19,070
+00:02:17,008 --> 00:02:19,065
 Let's say these frustrations take
 
 38
-00:02:20,011 --> 00:02:25,026
-10 minutes a day for the average american. With 300 million people in America alone
+00:02:19,065 --> 00:02:22,034
+10 minutes a day for the average American.
 
 39
-00:02:25,026 --> 00:02:28,059
-that's 3 billion person minutes a day.
+00:02:22,034 --> 00:02:28,024
+With 300 million people in America alone, that’s 3 billion person-minutes a day.
 
 40
-00:02:28,059 --> 00:02:31,025
-or 18 billion person hours a year.
+00:02:28,024 --> 00:02:31,012
+or 18 billion person-hours a year.
 
 41
-00:02:32,016 --> 00:02:34,095
-That's a lot of time that we can spend making the world a better place.
+00:02:31,065 --> 00:02:34,095
+That's a lot of time that we could’ve spent making the world a better place.
 
 42
-00:02:35,023 --> 00:02:39,007
-Often times, the best interfaces become invisible to us.
+00:02:35,023 --> 00:02:38,084
+Oftentimes, the best interfaces become invisible to us.
 
 43
-00:02:39,007 --> 00:02:43,086
-When an interface becomes automatic by practice, by design and most often by a combination
+00:02:38,084 --> 00:02:43,086
+When an interface becomes automatic by practice, by design and most often by a combination,
 
 44
 00:02:43,086 --> 00:02:47,095
-our attention sheds from manipulating an interface to accomplishing a task.
+our attention shifts from manipulating an interface to accomplishing a task.
 
 45
 00:02:47,095 --> 00:02:51,021
-It's kind of like a blind person who has practice working with a can.
+It’s kind of like a blind person who has practiced working with a cane.
 
 46
 00:02:51,021 --> 00:02:55,030
-After hours of practice they no longer feel the can
+After all those hours of practice, they no longer feel the cane.
 
 47
 00:02:55,030 --> 00:02:59,064
-their sensory perception is at the end of the can experiencing the world.
+Their sensory perception is at the end of the cane, experiencing the world.
 
 48
-00:02:59,064 --> 00:03:04,006
+00:02:59,064 --> 00:03:03,082
 That attentional shift is what happens when an interface becomes intuitive.
 
 49
-00:03:04,006 --> 00:03:07,067
-Designing great user interfaces requires enormous creativity,
+00:03:03,082 --> 00:03:08,035
+Designing great user interfaces requires enormous creativity and a lot of hard work.
 
 50
-00:03:07,067 --> 00:03:10,064
-and a lot of hard work. But designing pretty good user interface
+00:03:08,035 --> 00:03:11,071
+But designing pretty good user interface is pretty easy
 
 51
-00:03:10,064 --> 00:03:14,062
-is pretty easy if you know some methods, techniques and principles.
+00:03:11,071 --> 00:03:15,034
+if you know some methods, techniques and principles. I’ll show how.
 
 52
-00:03:14,062 --> 00:03:18,097
-I'll show how, summarize this introduction, in this course
+00:03:16,025 --> 00:03:18,034
+Summarize this introduction:
 
 53
-00:03:18,097 --> 00:03:23,028
-you're gonna learn a process where people's tasks, goals and values drive development.
+00:03:18,034 --> 00:03:22,096
+In this course you're going to learn a process where people’s tasks, goals and values drive development.
 
 54
-00:03:23,028 --> 00:03:27,084
-You're gonna learn to work with users throughout the process, to assess decisions
+00:03:22,096 --> 00:03:26,033
+You’re going to learn to work with users throughout the process;
 
 55
-00:03:27,084 --> 00:03:31,024
-from the vantage point of users, their work and their environment.
+00:03:26,033 --> 00:03:31,024
+to assess decisions from the vantage point of users, their work and their environment;
 
 56
 00:03:31,024 --> 00:03:36,058
-To pay attention to people's abilities and situations, and to talk to the actual experts.
+to pay attention to people's abilities and situation; and to talk to the actual experts.
 
 57
-00:03:36,058 --> 00:03:40,064
-You'll learn to talk with a variety of users, both regular and extreme users.
+00:03:36,058 --> 00:03:42,052
+You'll learn to talk with a variety of users — both regular and extreme users — and a wide variety of stakeholders.
 
 58
-00:03:40,064 --> 00:03:45,058
-And a wide variety of stakeholders, as my colleague John Zimmerman reminded me recently,
+00:03:42,052 --> 00:03:45,058
+As my colleague John Zimmerman reminded me recently,
 
 59
 00:03:45,058 --> 00:03:49,068
-users are just one of the many stakeholders on the design process
+users are just one of the many stakeholders in the design process.
 
 60
-00:03:49,068 --> 00:03:54,059
-Other stakeholders matter too...helping ES development, and cost of production
+00:03:49,068 --> 00:03:56,011
+Other stakeholders matter too, helping ease development and costs of production, support maintenance,…
 
 61
-00:03:54,059 --> 00:04:00,028
-support maintenance. In designing for people, don't forget the other pieces of the puzzle.
+00:03:56,011 --> 00:04:00,028
+In designing for people, don't forget the other pieces of the puzzle.
 
 62
-00:04:01,073 --> 00:04:05,086
-In creating this class, I integrated materials from a lot of sources.
+00:04:01,073 --> 00:04:05,062
+In creating this class, I’ve integrated materials from a lot of sources,
 
 63
-00:04:05,086 --> 00:04:09,006
-including classics like James Landay, books like Don Noman's
+00:04:05,062 --> 00:04:09,006
+including classes like James Landay’s, books like Don Noman’s
 
 64
-00:04:09,006 --> 00:04:12,090
-and papers like from the CHI Conferences
+00:04:09,006 --> 00:04:12,000
+and papers like from the CHI Conferences.
 
 65
-00:04:12,090 --> 00:04:14,086
-For those who'd like to learn more I put
+00:04:12,018 --> 00:04:14,014
+For those who'd like to learn more,
 
 66
-00:04:14,086 --> 99:59:59,000
-a further reading slide at the end of many of my lectures.
+00:04:14,014 --> 00:04:17,055
+I’ve put a Further Reading slide at the end of many of my lectures.
