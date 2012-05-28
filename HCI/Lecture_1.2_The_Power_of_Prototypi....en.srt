@@ -1,41 +1,41 @@
 1
-00:00:00,070 --> 00:00:05,016
+00:00:00,070 --> 00:00:04,087
 In my opinion, the single most important idea that you could get out of this class
 
 2
-00:00:05,016 --> 00:00:10,042
+00:00:04,087 --> 00:00:10,042
 is the idea that prototyping is a tremendously valuable strategy for effective design.
 
 3
-00:00:10,042 --> 00:00:15,090
+00:00:10,042 --> 00:00:15,023
 In this video, I’ll introduce what I mean by prototyping and why I think it is so tremendously important.
 
 4
-00:00:15,090 --> 00:00:20,073
+00:00:15,023 --> 00:00:20,026
 This is going to serve as a framing for later videos that we’ll use to introduce concrete techniques.
 
 5
-00:00:21,060 --> 00:00:25,007
+00:00:21,035 --> 00:00:24,055
 In this class, when we talk about prototyping, what we mean is
 
 6
-00:00:25,007 --> 00:00:29,085
-rapidly creating an approximation of a design idea so that you can quickly get feedback in them.
+00:00:24,055 --> 00:00:29,085
+rapidly creating an approximation of a design idea so that you can quickly get feedback and learn.
 
 7
 00:00:29,085 --> 00:00:35,024
 Prototyping is the pivotal activity in structured  innovation, collaboration and creativity in design.
 
 8
-00:00:35,024 --> 00:00:39,021
+00:00:35,024 --> 00:00:39,001
 Prototypes embody design hypotheses and enable designers to get feedback.
 
 9
-00:00:39,021 --> 00:00:43,039
+00:00:39,001 --> 00:00:42,073
 It’s what Donald Schon calls “a reflective conversation with materials”.
 
 10
-00:00:43,039 --> 00:00:48,002
+00:00:42,073 --> 00:00:48,002
 By trying things out and learning — from that exploration — you are able to improve your design
 
 11
@@ -71,11 +71,11 @@ These can be users in an interactive system. They can even be yourself.
 And the role of the prototype in this communication is it serves as a common ground
 
 19
-00:01:25,016 --> 00:01:30,005
+00:01:25,016 --> 00:01:29,071
 to help people understand really concretely what everybody is talking about.
 
 20
-00:01:30,005 --> 00:01:33,089
+00:01:29,073 --> 00:01:33,089
 Here’s an example of what I mean by a prototype, courtesy of the design firm IDEO:
 
 21
@@ -95,15 +95,15 @@ because they offered new opportunities for being able to review and edit your ph
 that wasn’t possible with the film camera.
 
 25
-00:01:51,065 --> 00:01:57,051
-IDEO was tasked [inaudible] to make sense of possible interactions that you could do on a digital camera
+00:01:51,065 --> 00:01:57,025
+IDEO was tasked with a way to make sense of possible interactions that you could do on a digital camera
 
 26
-00:01:57,051 --> 00:02:01,063
+00:01:57,025 --> 00:02:01,014
 and to render those on a concrete user interface.
 
 27
-00:02:01,063 --> 00:02:06,068
+00:02:01,014 --> 00:02:06,068
 What they came up with ultimately became this: the Kodak DC-210 digital camera.
 
 28
@@ -123,12 +123,12 @@ It also has a dial here for several modes, and a zoom controller right here.
 Now let’s look at the prototype on the screen:
 
 32
-00:02:21,057 --> 00:02:24,087
+00:02:21,057 --> 00:02:25,013
 You’ll probably notice some similarities but also some differences.
 
 33
-00:02:24,087 --> 00:02:29,068
-The prototype on the screen and final product both have buttons.
+00:02:25,013 --> 00:02:29,068
+The prototype on the screen and the final product both have buttons.
 
 34
 00:02:29,068 --> 00:02:34,018
@@ -143,11 +143,11 @@ However, there’re also some important differences between this prototype and t
 The first one is that the prototype is a lot bigger:
 
 37
-00:02:41,088 --> 00:02:46,050
+00:02:41,088 --> 00:02:45,097
 In order to be able to build a version quickly, they couldn’t make everything miniturized.
 
 38
-00:02:46,050 --> 00:02:51,050
+00:02:45,097 --> 00:02:51,050
 So it takes more a lot more physical space; the layout is similar but the scale has changed.
 
 39
@@ -159,27 +159,27 @@ Second, one of the most important things about a digital camera is that you be a
 This prototype camera here had an umbilical cord going back to a Macintosh
 
 41
-00:03:01,043 --> 00:03:05,005
+00:03:01,043 --> 00:03:04,057
 that actually ran all of the computations and interactions,
 
 42
-00:03:05,005 --> 00:03:07,073
-so there were no computations on the device itself.
+00:03:04,059 --> 00:03:07,073
+so there were no computation on the device itself.
 
 43
-00:03:07,073 --> 00:03:13,027
+00:03:07,073 --> 00:03:12,062
 And finally, this was a prototype of a digital camera where you couldn’t take pictures.
 
 44
-00:03:13,027 --> 00:03:16,047
+00:03:12,062 --> 00:03:16,047
 There’s no lens; there’s no photographic elements in this prototype;
 
 45
-00:03:16,047 --> 00:03:23,034
+00:03:16,047 --> 00:03:23,003
 it’s purely a way to understand better the back of camera interactions for reviewing and editing photos.
 
 46
-00:03:23,034 --> 00:03:26,000
+00:03:23,003 --> 00:03:26,000
 And I think this is a really important point about prototypes:
 
 47
@@ -211,12 +211,12 @@ and the things that you don’t know, that you never got to think about — thos
 And what’s valuable about prototyping is it helps you to get feedback quickly,
 
 54
-00:03:58,082 --> 00:04:02,012
+00:03:58,082 --> 00:04:01,084
 so you don’t spend time heading down the wrong path.
 
 55
-00:04:02,012 --> 00:04:06,089
-If you’ve ever taken an art class, you’d know the experience of sketching before you make a painting.
+00:04:01,084 --> 00:04:06,089
+If you’ve ever taken an art class, you’ll know the experience of sketching before you make a painting.
 
 56
 00:04:06,089 --> 00:04:09,093
@@ -235,11 +235,11 @@ at being able to estimate the space of possible outcomes.
 We often consider far fewer options than are actually likely to happen.
 
 60
-00:04:22,057 --> 00:04:26,093
+00:04:22,057 --> 00:04:26,059
 And this is just as true in the financial world as it is in the creative world.
 
 61
-00:04:26,093 --> 00:04:32,036
+00:04:26,059 --> 00:04:32,036
 For any complex system, whether it is finance or design, the interactions of all these ingredients
 
 62
@@ -247,11 +247,11 @@ For any complex system, whether it is finance or design, the interactions of all
 far dominate the things that you can easily predict, and consequently our intuitions are often wrong.
 
 63
-00:04:38,094 --> 00:04:42,062
+00:04:38,094 --> 00:04:42,041
 The strategy that we are going to teach you in this class is to encourage you to focus on
 
 64
-00:04:42,062 --> 00:04:47,038
+00:04:42,041 --> 00:04:47,038
 the goals of the design rather than to think about a particular design itself
 
 65
@@ -303,27 +303,27 @@ And then you might narrow in for a little while.
 Then you might consider some alternatives and narrow in.
 
 77
-00:05:36,060 --> 00:05:42,065
+00:05:36,060 --> 00:05:41,099
 And this alternating flair and focus is a hallmark of an effective design process.
 
 78
-00:05:42,065 --> 00:05:45,049
+00:05:41,099 --> 00:05:45,049
 Later on in the design, as you get toward the final product,
 
 79
-00:05:45,049 --> 00:05:51,049
+00:05:45,049 --> 00:05:51,014
 you’re  going to be thinking about  small variations like fonts or colours or micro changes in layout.
 
 80
-00:05:51,049 --> 00:05:54,052
+00:05:51,014 --> 00:05:54,052
 Early on you might be thinking about much broader ideas like:
 
 81
-00:05:54,052 --> 00:05:58,006
+00:05:54,052 --> 00:05:57,082
 Is this going to be a mobile service or a desktop service?
 
 82
-00:05:58,006 --> 00:06:01,016
+00:05:57,082 --> 00:06:01,016
 And what kind of thing is this going to be anyhow?
 
 83
@@ -424,22 +424,22 @@ And yet another kind of prototype prototypes the role —
 
 107
 00:08:05,001 --> 00:08:08,063
-“What might the experience in using this interactive system be like?”
+“What might the experience of using this interactive system be like?”
 
 108
-00:08:08,063 --> 00:08:13,011
+00:08:08,063 --> 00:08:12,096
 This course will teach you a number of strategies that cover a bit of each of these categories.
 
 109
-00:08:13,011 --> 00:08:16,012
+00:08:12,096 --> 00:08:15,060
 You can plot a prototype in two dimensions.
 
 110
-00:08:16,012 --> 00:08:18,098
-You can think about how much you learn from that prototype,
+00:08:15,060 --> 00:08:18,064
+You can think about how much you’ll learn from that prototype,
 
 111
-00:08:18,098 --> 00:08:21,038
+00:08:18,064 --> 00:08:21,038
 and you can think about how long it took you to create it.
 
 112
@@ -483,19 +483,19 @@ He is one of America’s foremost industrial designers.
 And he is standing inside of one of the very first Boeing cross-country airplanes.
 
 122
-00:09:03,037 --> 00:09:10,021
+00:09:03,037 --> 00:09:09,059
 And what he’s doing is taking a look at the interior design that his company did for Boeing,
 
 123
-00:09:10,021 --> 00:09:12,090
-and they still work with Boeing to this day.
+00:09:09,059 --> 00:09:12,090
+(and they still work with Boeing to this day).
 
 124
-00:09:12,090 --> 00:09:18,008
+00:09:12,090 --> 00:09:17,074
 What’s notable here is that you’ve got an interior of an aircraft, but there’s no aircraft!
 
 125
-00:09:18,008 --> 00:09:25,017
+00:09:17,074 --> 00:09:25,017
 This is all mocked up in a warehouse. It’s the experience of an airplane without the airplane.
 
 126
@@ -584,7 +584,7 @@ when it was creating its first mouse.
 
 147
 00:11:15,049 --> 00:11:21,005
-There are a number of formal alternatives that it explored — symmetric versus assymetric designs,
+There are a number of form alternatives that it explored — symmetric versus assymetric designs,
 
 148
 00:11:21,005 --> 00:11:25,024
@@ -687,19 +687,19 @@ Altogether, what this means is that you want to create a design process
 where you’re making your biggest changes early,
 
 173
-00:13:27,043 --> 00:13:32,034
-and as you build momentum with users, you’re continuing to refine, and adapt,
+00:13:27,043 --> 00:13:31,041
+and as you build momentum with users, you’re continuing to refine,
 
 174
-00:13:32,034 --> 00:13:35,039
-and tweak, and improve your system as it goes on.
+00:13:31,041 --> 00:13:34,077
+and adapt, and tweak, and improve your system as it goes on.
 
 175
-00:13:37,016 --> 00:13:41,040
+00:13:36,079 --> 00:13:41,007
 I think I can sum up the introductory message of this framing video in one sentence:
 
 176
-00:13:41,040 --> 00:13:47,018
+00:13:41,007 --> 00:13:47,018
 It’s that “prototypes are questions; ask lots of them.”
 
 177
