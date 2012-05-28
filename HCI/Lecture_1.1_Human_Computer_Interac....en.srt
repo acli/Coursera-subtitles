@@ -24,7 +24,7 @@ and the other people that they work and communicate with.
 
 7
 00:00:23,056 --> 00:00:27,011
-Then you got the computer, that’s the machine and the networked-up machine that runs the system.
+Then you got the computer, that’s the machine and the networked-up machines that run the system.
 
 8
 00:00:27,011 --> 00:00:30,066
@@ -92,7 +92,7 @@ and find information.
 
 24
 00:01:24,096 --> 00:01:30,009
-Bad design is frustrating and cost lives: medical devices, airplane accidents
+Bad design is frustrating and costs lives: medical devices, airplane accidents
 
 25
 00:01:30,009 --> 00:01:35,045
@@ -128,7 +128,7 @@ some of these disasters might have been avoided.
 
 33
 00:02:00,033 --> 00:02:03,065
-This is one of the reasons that I created this course.
+This is one of the major reasons that I created this course.
 
 34
 00:02:03,065 --> 00:02:08,014
