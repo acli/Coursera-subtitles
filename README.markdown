@@ -12,6 +12,7 @@ you a list of all videos you have done)
 Transcribed from scratch:
 
 - http://www.universalsubtitles.org/en/videos/vz9OvM97buqT/info/ (SaaS 5.8)
+- http://www.universalsubtitles.org/fr/videos/RqPMqHtxcsbA/en/325911/ (HCI 1.2)
 
 Reformatting and QA of stanford-bot’s transcripts:
 

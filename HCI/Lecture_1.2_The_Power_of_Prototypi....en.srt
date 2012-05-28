@@ -1,0 +1,707 @@
+1
+00:00:00,070 --> 00:00:05,016
+In my opinion, the single most important idea that you could get out of this class
+
+2
+00:00:05,016 --> 00:00:10,042
+is the idea that prototyping is a tremendously valuable strategy for effective design.
+
+3
+00:00:10,042 --> 00:00:15,090
+In this video, I’ll introduce what I mean by prototyping and why I think it is so tremendously important.
+
+4
+00:00:15,090 --> 00:00:20,073
+This is going to serve as a framing for later videos that we’ll use to introduce concrete techniques.
+
+5
+00:00:21,060 --> 00:00:25,007
+In this class, when we talk about prototyping, what we mean is
+
+6
+00:00:25,007 --> 00:00:29,085
+rapidly creating an approximation of a design idea so that you can quickly get feedback in them.
+
+7
+00:00:29,085 --> 00:00:35,024
+Prototyping is the pivotal activity in structured  innovation, collaboration and creativity in design.
+
+8
+00:00:35,024 --> 00:00:39,021
+Prototypes embody design hypotheses and enable designers to get feedback.
+
+9
+00:00:39,021 --> 00:00:43,039
+It’s what Donald Schon calls “a reflective conversation with materials”.
+
+10
+00:00:43,039 --> 00:00:48,002
+By trying things out and learning — from that exploration — you are able to improve your design
+
+11
+00:00:48,002 --> 00:00:52,014
+and be able to gain insights that you otherwise may not have.
+
+12
+00:00:52,014 --> 00:00:57,008
+It’s important to remember that the goal in prototyping is not the artefact; it’s feedback:
+
+13
+00:00:57,008 --> 00:01:02,004
+Build some prototypes, try them out, and usually you’d learn to try to learn the next [inaudible].
+
+14
+00:01:02,004 --> 00:01:06,004
+One way to think about a prototype is that it’s a question rendered as an artefact.
+
+15
+00:01:06,004 --> 00:01:11,024
+It’s something that you make as a way of communicating with other stakeholders:
+
+16
+00:01:11,024 --> 00:01:15,070
+These can be clients. These can be other people on your design team.
+
+17
+00:01:15,070 --> 00:01:19,086
+These can be users in an interactive system. They can even be yourself.
+
+18
+00:01:19,086 --> 00:01:25,016
+And the role of the prototype in this communication is it serves as a common ground
+
+19
+00:01:25,016 --> 00:01:30,005
+to help people understand really concretely what everybody is talking about.
+
+20
+00:01:30,005 --> 00:01:33,089
+Here’s an example of what I mean by a prototype, courtesy of the design firm IDEO:
+
+21
+00:01:33,089 --> 00:01:41,015
+In the mid-90’s, Kodak approached IDEO, asking them to help design an early consumer digital camera.
+
+22
+00:01:41,015 --> 00:01:44,018
+Digital cameras were a very interesting technology,
+
+23
+00:01:44,018 --> 00:01:49,062
+because they offered new opportunities for being able to review and edit your photos on the camera
+
+24
+00:01:49,062 --> 00:01:51,065
+that wasn’t possible with the film camera.
+
+25
+00:01:51,065 --> 00:01:57,051
+IDEO was tasked [inaudible] to make sense of possible interactions that you could do on a digital camera
+
+26
+00:01:57,051 --> 00:02:01,063
+and to render those on a concrete user interface.
+
+27
+00:02:01,063 --> 00:02:06,068
+What they came up with ultimately became this: the Kodak DC-210 digital camera.
+
+28
+00:02:06,068 --> 00:02:09,026
+Here’s the user interface on the back:
+
+29
+00:02:09,026 --> 00:02:13,034
+There’s a screen and several buttons for being able to naigate through the photographs.
+
+30
+00:02:13,034 --> 00:02:18,095
+It also has a dial here for several modes, and a zoom controller right here.
+
+31
+00:02:18,095 --> 00:02:21,057
+Now let’s look at the prototype on the screen:
+
+32
+00:02:21,057 --> 00:02:24,087
+You’ll probably notice some similarities but also some differences.
+
+33
+00:02:24,087 --> 00:02:29,068
+The prototype on the screen and final product both have buttons.
+
+34
+00:02:29,068 --> 00:02:34,018
+They have a screen. They are of similar functionalities in this case.
+
+35
+00:02:34,018 --> 00:02:39,093
+However, there’re also some important differences between this prototype and this final version.
+
+36
+00:02:39,093 --> 00:02:41,088
+The first one is that the prototype is a lot bigger:
+
+37
+00:02:41,088 --> 00:02:46,050
+In order to be able to build a version quickly, they couldn’t make everything miniturized.
+
+38
+00:02:46,050 --> 00:02:51,050
+So it takes more a lot more physical space; the layout is similar but the scale has changed.
+
+39
+00:02:51,050 --> 00:02:56,051
+Second, one of the most important things about a digital camera is that you be able to take it with you as it is mobile;
+
+40
+00:02:57,068 --> 00:03:01,043
+This prototype camera here had an umbilical cord going back to a Macintosh
+
+41
+00:03:01,043 --> 00:03:05,005
+that actually ran all of the computations and interactions,
+
+42
+00:03:05,005 --> 00:03:07,073
+so there were no computations on the device itself.
+
+43
+00:03:07,073 --> 00:03:13,027
+And finally, this was a prototype of a digital camera where you couldn’t take pictures.
+
+44
+00:03:13,027 --> 00:03:16,047
+There’s no lens; there’s no photographic elements in this prototype;
+
+45
+00:03:16,047 --> 00:03:23,034
+it’s purely a way to understand better the back of camera interactions for reviewing and editing photos.
+
+46
+00:03:23,034 --> 00:03:26,000
+And I think this is a really important point about prototypes:
+
+47
+00:03:26,000 --> 00:03:31,071
+It’s that prototypes nearly always are and ought to be incomplete.
+
+48
+00:03:32,082 --> 00:03:35,004
+To pop back up from that example:
+
+49
+00:03:35,004 --> 00:03:40,012
+Prototyping is a strategy for efficiently dealing with things that are hard to predict.
+
+50
+00:03:40,012 --> 00:03:43,014
+And these hard-to-predict things are both
+
+51
+00:03:43,014 --> 00:03:49,007
+things that you wonder whether there’ll be an issue but don’t know what the answers’s going to be — your “known unknowns —
+
+52
+00:03:49,007 --> 00:03:54,086
+and the things that you don’t know, that you never got to think about — those are your “unknown unknowns”.
+
+53
+00:03:54,086 --> 00:03:58,082
+And what’s valuable about prototyping is it helps you to get feedback quickly,
+
+54
+00:03:58,082 --> 00:04:02,012
+so you don’t spend time heading down the wrong path.
+
+55
+00:04:02,012 --> 00:04:06,089
+If you’ve ever taken an art class, you’d know the experience of sketching before you make a painting.
+
+56
+00:04:06,089 --> 00:04:09,093
+It’s not just for novices: Picasso did the same thing.
+
+57
+00:04:09,093 --> 00:04:14,065
+One of the things that we know about human psychology is that people are notoriously bad
+
+58
+00:04:14,065 --> 00:04:18,030
+at being able to estimate the space of possible outcomes.
+
+59
+00:04:18,030 --> 00:04:22,057
+We often consider far fewer options than are actually likely to happen.
+
+60
+00:04:22,057 --> 00:04:26,093
+And this is just as true in the financial world as it is in the creative world.
+
+61
+00:04:26,093 --> 00:04:32,036
+For any complex system, whether it is finance or design, the interactions of all these ingredients
+
+62
+00:04:32,036 --> 00:04:38,037
+far dominate the things that you can easily predict, and consequently our intuitions are often wrong.
+
+63
+00:04:38,094 --> 00:04:42,062
+The strategy that we are going to teach you in this class is to encourage you to focus on
+
+64
+00:04:42,062 --> 00:04:47,038
+the goals of the design rather than to think about a particular design itself
+
+65
+00:04:47,038 --> 00:04:50,090
+and trying to railroad that strategy forward.
+
+66
+00:04:50,090 --> 00:04:54,024
+A classic novice error is to come up with one idea for a design:
+
+67
+00:04:54,024 --> 00:04:59,053
+You think you’ve got something that’s super cool and just keep arguing for that particular option.
+
+68
+00:04:59,053 --> 00:05:02,080
+Instead of having that concrete thing you want to argue for,
+
+69
+00:05:02,080 --> 00:05:07,050
+think about what you hope to achieve with that design idea — what’s your goal there.
+
+70
+00:05:08,038 --> 00:05:14,063
+In this class we’re going to teach how to set goals early and evolve them and revise your design using data.
+
+71
+00:05:14,063 --> 00:05:19,011
+As Bill Buxton points out in his excellent book « Sketching User Interfaces »,
+
+72
+00:05:19,011 --> 00:05:23,028
+the kinds of alternatives that you’re going to consider at different points of the design process
+
+73
+00:05:23,028 --> 00:05:25,015
+are going to be different.
+
+74
+00:05:25,015 --> 00:05:30,000
+Early on, you may be thinking about a really broad range of possibilities.
+
+75
+00:05:30,071 --> 00:05:33,077
+And then you might narrow in for a little while.
+
+76
+00:05:33,077 --> 00:05:36,060
+Then you might consider some alternatives and narrow in.
+
+77
+00:05:36,060 --> 00:05:42,065
+And this alternating flair and focus is a hallmark of an effective design process.
+
+78
+00:05:42,065 --> 00:05:45,049
+Later on in the design, as you get toward the final product,
+
+79
+00:05:45,049 --> 00:05:51,049
+you’re  going to be thinking about  small variations like fonts or colours or micro changes in layout.
+
+80
+00:05:51,049 --> 00:05:54,052
+Early on you might be thinking about much broader ideas like:
+
+81
+00:05:54,052 --> 00:05:58,006
+Is this going to be a mobile service or a desktop service?
+
+82
+00:05:58,006 --> 00:06:01,016
+And what kind of thing is this going to be anyhow?
+
+83
+00:06:01,016 --> 00:06:08,013
+Recognizing the need for and value of this oscillation can help you prepare for an effective design process.
+
+84
+00:06:08,013 --> 00:06:13,035
+The Palm Pilot’s design process provides us with a wonderful example of prototyping.
+
+85
+00:06:13,035 --> 00:06:18,071
+The Palm Pilot was one of the first digital PDA’s — personal digital assistants —
+
+86
+00:06:18,071 --> 00:06:24,004
+and it helped you handle your to-do lists, and calendar, and contact information and notes.
+
+87
+00:06:25,013 --> 00:06:30,056
+Its lead inventor was Jeff Hawkins; and Jeff, when he first envisioned the Palm Pilot,
+
+88
+00:06:30,056 --> 00:06:37,011
+one of the first things that he did was create a block of wood that was the size of the device that he envisioned.
+
+89
+00:06:37,011 --> 00:06:42,067
+And what he would do is carry this block of wood around with him and he would use it as if it were a real device:
+
+90
+00:06:42,067 --> 00:06:48,047
+So he would tap on it and enter information, add contacts, record things in his calendar,
+
+91
+00:06:48,047 --> 00:06:53,022
+take notes, furiously scribbling the whole time.
+
+92
+00:06:53,022 --> 00:06:56,058
+So what did Jeff and his team learn from this prototype?
+
+93
+00:06:56,058 --> 00:07:01,087
+Well, they obviously didn’t learn anything about the silicone or the battery life or anything of the Palm Pilot
+
+94
+00:07:01,087 --> 00:07:04,003
+because the whole thing was made out of wood!
+
+95
+00:07:04,003 --> 00:07:08,011
+What they learned was about the form factor, and what we can see here
+
+96
+00:07:08,011 --> 00:07:14,019
+is that this was a great example of the rights and roles that a prototype can play in the design process.
+
+97
+00:07:14,019 --> 00:07:20,010
+A prototype should not be required to be complete; it’s going to be incomplete in strategic and important ways.
+
+98
+00:07:20,050 --> 00:07:26,026
+It should be easy to change — Don’t like the size of your Palm Pilot? Just cut it off a different size!
+
+99
+00:07:26,086 --> 00:07:28,068
+And finally, it should get to retire:
+
+100
+00:07:28,068 --> 00:07:34,070
+That, when you move on to a later phase in the design process, you no longer need the early prototypes.
+
+101
+00:07:35,032 --> 00:07:39,080
+Given that we are in a class about designing computer systems and we’re talking about a block of wood,
+
+102
+00:07:39,080 --> 00:07:46,028
+you might reasonably ask, “What’s going on here?” or maybe, “What is it that prototypes prototype?”
+
+103
+00:07:46,028 --> 00:07:50,052
+And the answer is that there are several things that a prototype can prototype.
+
+104
+00:07:50,052 --> 00:07:56,026
+One kind of prototype prototypes the feel — “What does this look like?”
+
+105
+00:07:56,026 --> 00:08:01,039
+Another kind prototypes the implementation — “What might this work like?”
+
+106
+00:08:01,039 --> 00:08:05,001
+And yet another kind of prototype prototypes the role —
+
+107
+00:08:05,001 --> 00:08:08,063
+“What might the experience in using this interactive system be like?”
+
+108
+00:08:08,063 --> 00:08:13,011
+This course will teach you a number of strategies that cover a bit of each of these categories.
+
+109
+00:08:13,011 --> 00:08:16,012
+You can plot a prototype in two dimensions.
+
+110
+00:08:16,012 --> 00:08:18,098
+You can think about how much you learn from that prototype,
+
+111
+00:08:18,098 --> 00:08:21,038
+and you can think about how long it took you to create it.
+
+112
+00:08:21,038 --> 00:08:24,046
+And what you want to able to do, especially early on in the design process,
+
+113
+00:08:24,046 --> 00:08:28,063
+is to be able to maximize the amount of learning that you are being able to get from  that prototype,
+
+114
+00:08:28,063 --> 00:08:31,071
+and minimize the amount of time that it is going to take you to create it,
+
+115
+00:08:32,038 --> 00:08:35,066
+because — remember — a prototype is going to be incomplete,
+
+116
+00:08:35,066 --> 00:08:39,048
+and it’s going to be something that you are going to get rid of most likely at some point in the process,
+
+117
+00:08:39,048 --> 00:08:44,024
+and so there’s no point in sinking a lot of time into something that you’re soon going to throw away.
+
+118
+00:08:45,088 --> 00:08:50,047
+Prototyping is not just for small things. In your prototyping you can think big — really big.
+
+119
+00:08:50,047 --> 00:08:54,015
+Here’s an example from Walter Dorwin Teague, this guy right here.
+
+120
+00:08:54,077 --> 00:08:58,034
+He is one of America’s foremost industrial designers.
+
+121
+00:08:58,034 --> 00:09:03,037
+And he is standing inside of one of the very first Boeing cross-country airplanes.
+
+122
+00:09:03,037 --> 00:09:10,021
+And what he’s doing is taking a look at the interior design that his company did for Boeing,
+
+123
+00:09:10,021 --> 00:09:12,090
+and they still work with Boeing to this day.
+
+124
+00:09:12,090 --> 00:09:18,008
+What’s notable here is that you’ve got an interior of an aircraft, but there’s no aircraft!
+
+125
+00:09:18,008 --> 00:09:25,017
+This is all mocked up in a warehouse. It’s the experience of an airplane without the airplane.
+
+126
+00:09:25,017 --> 00:09:30,087
+In creating this prototype, they brought in a number of users, and had people come on with luggage
+
+127
+00:09:30,087 --> 00:09:36,089
+and try out the experience of the airplane, where they would sit down, take their seats for the length
+
+128
+00:09:36,089 --> 00:09:42,012
+of a cross-country flight, and flight attendants would come through to offer them food and other amenities,
+
+129
+00:09:42,012 --> 00:09:45,015
+and you could see things like “Are the aisles wide enough?”,
+
+130
+00:09:45,015 --> 00:09:50,066
+“Are the seats comfortable?”, “Will the luggage racks carry the luggage that’s necessary?”
+
+131
+00:09:50,066 --> 00:09:55,042
+Walter Teague wasn’t the only industrial designer to be able to use these large prototypes of scale.
+
+132
+00:09:55,042 --> 00:10:00,079
+Many of the designers creating ocean-going vessels tried the same strategy
+
+133
+00:10:00,079 --> 00:10:07,061
+of prototyping interiors in warehouses, and in fact as Walter Isaacson’s biography of Steve Jobs  reports,
+
+134
+00:10:07,061 --> 00:10:13,034
+when Apple was creating its first retail stores, they got some warehouse space outside of San Jose,
+
+135
+00:10:13,034 --> 00:10:19,090
+and every week went to a fake retail store to try out the retail experience in advance of first opening,
+
+136
+00:10:19,090 --> 00:10:25,067
+and one of the things that that biography reports about the retail experience at Apple was,
+
+137
+00:10:25,067 --> 00:10:32,002
+by the virtue of prototyping it and trying out different configurations of the store, the Apple team realized
+
+138
+00:10:32,002 --> 00:10:39,029
+that the stores can be configured around activities — such as music — rather than around individual products,
+
+139
+00:10:39,029 --> 00:10:43,082
+and this significantly changed the layout of the Apple Stores prior to their opening.
+
+140
+00:10:44,069 --> 00:10:48,067
+Linus Pauling may be the premier chemist in the 20th century.
+
+141
+00:10:48,067 --> 00:10:53,013
+He was awarded the Nobel Prize for his work on describing the nature of chemical bonds.
+
+142
+00:10:53,013 --> 00:10:56,090
+What his work philosophy shares with that of professional designers
+
+143
+00:10:56,090 --> 00:11:02,071
+is the practice of trying out multiple alternative ideas, approaches, and solution strategies.
+
+144
+00:11:02,071 --> 00:11:06,080
+As he says here, “The best way to have a good idea is to have a lot of ideas.”
+
+145
+00:11:07,022 --> 00:11:12,066
+And we see that here in a hundred different prototypes that the design firm IDEO produced for Microsoft
+
+146
+00:11:12,066 --> 00:11:15,049
+when it was creating its first mouse.
+
+147
+00:11:15,049 --> 00:11:21,005
+There are a number of formal alternatives that it explored — symmetric versus assymetric designs,
+
+148
+00:11:21,005 --> 00:11:25,024
+ones that emphasize ergonomics versus others that emphasize style —
+
+149
+00:11:25,024 --> 00:11:29,016
+and being able to see all of these alternatives and hold them in one’s hand
+
+150
+00:11:29,016 --> 00:11:33,085
+helped Microsoft figure out which design was the best fit for it to release the mouse with.
+
+151
+00:11:34,049 --> 00:11:39,091
+For the geeks in the audience: You can think about this kind of rapid prototyping strategy that we’re talking about
+
+152
+00:11:39,091 --> 00:11:45,018
+as being kind of like simulated annealing, where you have a space of possible options,
+
+153
+00:11:48,007 --> 00:11:53,068
+some of them better than the others, and what often happens with serial iterative deisgn
+
+154
+00:11:53,068 --> 00:11:56,080
+is that you can hillclimb to the best one.
+
+155
+00:11:56,080 --> 00:11:58,090
+But local improvement isn’t enough:
+
+156
+00:11:58,090 --> 00:12:04,038
+You need to be able to hop around the design space and try wildly different  alternatives.
+
+157
+00:12:04,038 --> 00:12:07,032
+That way you can find the global maximum.
+
+158
+00:12:07,032 --> 00:12:12,054
+When you’re creating a prototyping strategy, it’s important to think about the cost of change over time.
+
+159
+00:12:12,054 --> 00:12:18,081
+For physical products —— like a car, a toaster —, the cost of making changes rises dramatically over time
+
+160
+00:12:18,081 --> 00:12:23,039
+throughout the design process, and even more significantly upon release.
+
+161
+00:12:24,065 --> 00:12:30,031
+With desktop software that gets distributed on, say, a CDROM, the cost rises aren’t quite so dramatic,
+
+162
+00:12:30,031 --> 00:12:35,065
+but it’s still pretty significant, harder to make changes as you go throughout the design process,
+
+163
+00:12:35,065 --> 00:12:39,009
+and much more difficult once you’ve shipped it out to consumers.
+
+164
+00:12:41,079 --> 00:12:47,032
+Web sites, and other forms of software as a service, make it much easier to make changes over time.
+
+165
+00:12:49,091 --> 00:12:55,026
+But the costs and difficulty of making changes is still increasing for a number of reasons.
+
+166
+00:12:55,026 --> 00:13:00,063
+One of the most important is that people get used to a particular piece of software over time.
+
+167
+00:13:00,063 --> 00:13:05,072
+And so even if you could change it easily, you’d upset and confuse a significant user base.
+
+168
+00:13:05,072 --> 00:13:11,072
+The same is true for developers [of] any software that has API’s that people are writing applications on top of.
+
+169
+00:13:11,072 --> 00:13:16,066
+Once people get used to it, or have built things that rely on a piece of software,
+
+170
+00:13:16,066 --> 00:13:19,019
+it becomes more difficult to change.
+
+171
+00:13:19,019 --> 00:13:22,050
+Altogether, what this means is that you want to create a design process
+
+172
+00:13:22,050 --> 00:13:25,043
+where you’re making your biggest changes early,
+
+173
+00:13:27,043 --> 00:13:32,034
+and as you build momentum with users, you’re continuing to refine, and adapt,
+
+174
+00:13:32,034 --> 00:13:35,039
+and tweak, and improve your system as it goes on.
+
+175
+00:13:37,016 --> 00:13:41,040
+I think I can sum up the introductory message of this framing video in one sentence:
+
+176
+00:13:41,040 --> 00:13:47,018
+It’s that “prototypes are questions; ask lots of them.”
+
+177
+00:13:47,018 --> 00:13:50,055
+We’ll see you next time.

@@ -40,7 +40,7 @@ This course is going to teach you a set of tools for doing this effectively.
 
 11
 00:00:39,048 --> 00:00:43,091
-At the onset of the desing project, we often don’t know what the problem is
+At the onset of the design project, we often don’t know what the problem is
 
 12
 00:00:43,091 --> 00:00:47,074
