@@ -1,135 +1,711 @@
 1
-99:59:59,000 --> 99:59:59,000
-what we are going to talk about in this next lecture is observing people
+00:00:00,021 --> 00:00:07,037
+What we’re going to talk about in this next lecture is observing people to discover their needs, goals, and values.
 
 2
-99:59:59,000 --> 99:59:59,000
-to discover their needs goals and values
+00:00:07,037 --> 00:00:14,047
+One effective starting point for designing new technology is to clearly identify an existing problem or need.
 
 3
-99:59:59,000 --> 99:59:59,000
-one effective starting point for designing new technology is to clearly
+00:00:14,047 --> 00:00:21,058
+And that’s because finding a big problem and need often yield[s] important untapped opportunities for design.
 
 4
-99:59:59,000 --> 99:59:59,000
-identify an existing problem or need
+00:00:21,058 --> 00:00:26,030
+Observing people can also help you build empathy and think from their point of view,
 
 5
-99:59:59,000 --> 99:59:59,000
-and that's because the needs often reveal important untapped opportunities
+00:00:26,030 --> 00:00:30,077
+to stand in someone elses shoes or maybe to wear someone else’s gloves.
 
 6
-99:59:59,000 --> 99:59:59,000
-observing people often helps you build empathy
+00:00:30,077 --> 00:00:34,096
+Mike Kuniavsky is a colleague of mine and a design consultant and author.
 
 7
-99:59:59,000 --> 99:59:59,000
-and think from their point of view
+00:00:34,096 --> 00:00:36,097
+When we were talking about the role of fieldwork and design,
 
 8
-99:59:59,000 --> 99:59:59,000
-to stand in someone elses shoes or maybe wear someone elses gloves
+00:00:36,097 --> 00:00:41,057
+he gave me the example of an electronics firm that makes devices for truckers.
 
 9
-99:59:59,000 --> 99:59:59,000
-mike (kinyovsky?) is a colleague of mine
+00:00:42,007 --> 00:00:44,074
+Apparently, the systems were underused
 
 10
-99:59:59,000 --> 99:59:59,000
-and consultant and author
+00:00:44,074 --> 00:00:48,075
+and sometimes, when responses were provided, they were pretty minimal.
 
 11
-99:59:59,000 --> 99:59:59,000
-when we were talking about the roll of fieldwork and design
+00:00:49,053 --> 00:00:52,092
+These mobile devices had small physical keyboards.
 
 12
-99:59:59,000 --> 99:59:59,000
-he gave me the example of an electronics firm that makes
+00:00:52,092 --> 00:00:57,019
+When the designers went into the field and spent time with the truckers that used them,
 
 13
-99:59:59,000 --> 99:59:59,000
-devices for truckers
+00:00:57,019 --> 00:01:00,063
+they found that many truckers had big hands and wore bulky gloves,
 
 14
-99:59:59,000 --> 99:59:59,000
-apparently the systems were underused and sometimes
+00:01:00,063 --> 00:01:04,051
+making it near impossible to use the tiny keys.
 
 15
-99:59:59,000 --> 99:59:59,000
-when responses were provided they were minimal
+00:01:04,051 --> 00:01:07,071
+The resulting redesign featured a large touch screen.
 
 16
-99:59:59,000 --> 99:59:59,000
-these mobile devices had small physical keyboards
+00:01:07,071 --> 00:01:13,034
+This interface provided common responses with one click, as opposed to lots of typing.
 
 17
-99:59:59,000 --> 99:59:59,000
-when the designers went into the field and spent time with
+00:01:13,034 --> 00:01:17,005
+And the dynamical display made it possible to have big buttons
 
 18
-99:59:59,000 --> 99:59:59,000
-the truckers that used them they found that many
+00:01:17,005 --> 00:01:21,083
+and a stylus was introduced for precision input when that was necessary.
 
 19
-99:59:59,000 --> 99:59:59,000
-truckers had big hands and bulky gloves making it impossible
+00:01:21,083 --> 00:01:25,071
+From this example you can see the wisdom of something attributed to Yogi Berra,
 
 20
-99:59:59,000 --> 99:59:59,000
-to use the tiny keys
+00:01:25,071 --> 00:01:29,015
+that “you can observe a lot just by watching.”
 
 21
-99:59:59,000 --> 99:59:59,000
-the resulting redesign featured a large touch screen
+00:01:29,015 --> 00:01:32,017
+What we’re going to talk about today is participant observation techniques,
 
 22
-99:59:59,000 --> 99:59:59,000
-this interface provided common responses with one click
+00:01:32,017 --> 00:01:34,012
+for standing in someone else’s shoes.
 
 23
-99:59:59,000 --> 99:59:59,000
-as opposed to lots of typing
+00:01:34,012 --> 00:01:38,084
+Of course, observing people isn’t the only way to begin designing an effective user interface.
 
 24
-99:59:59,000 --> 99:59:59,000
-and the (dynamic?) display made it possible to have
+00:01:38,084 --> 00:01:41,042
+Great designs emerge through all sorts of approaches.
 
 25
-99:59:59,000 --> 99:59:59,000
-big buttons and a stylus was introduced for precision input
+00:01:41,042 --> 00:01:48,034
+That said, it's often a good strategy to begin your design process by attuning yourself to your users.
 
 26
-99:59:59,000 --> 99:59:59,000
-when that was necessary
+00:01:48,034 --> 00:01:51,037
+The techniques in this lecture are inspired by the fieldwork strategies
 
 27
-99:59:59,000 --> 99:59:59,000
-from this example you can see the wisdom of something
+00:01:51,037 --> 00:01:54,079
+that anthropologists use to learn about and document culture.
 
 28
-99:59:59,000 --> 99:59:59,000
-attributed to yogi berra, that you can observe a lot just by watching
+00:01:54,079 --> 00:01:59,006
+In 1914, Bronisław Malinowski travelled to Papua New Guinea,
 
 29
-99:59:59,000 --> 99:59:59,000
-what we're going to talk about today is participant observation techniques
+00:01:59,006 --> 00:02:02,088
+where he conducted fieldwork at Mailu in the Trobriand Islands.
 
 30
-99:59:59,000 --> 99:59:59,000
-for standing in someone elses shoes
+00:02:02,088 --> 00:02:05,054
+While he is there, World War I breaks out.
 
 31
-99:59:59,000 --> 99:59:59,000
-of course observing is not the only way to begin designing an effect user interface
+00:02:05,054 --> 00:02:10,091
+He has two options: either hang out in the Trobriand Islands, or face internment.
 
 32
-99:59:59,000 --> 99:59:59,000
-great design emerge through all sorts of approaches
+00:02:10,091 --> 00:02:14,014
+I think you can guess which option he picked.
 
 33
-99:59:59,000 --> 99:59:59,000
-that said, it's often a good strategy to begin your design process
+00:02:14,016 --> 00:02:17,091
+During this period, he developed the practices of participant observation
 
 34
-99:59:59,000 --> 99:59:59,000
-by attuning yourself to your users
+00:02:17,091 --> 00:02:21,013
+which remain a hallmark of ethnographic research to this day.
+
+35
+00:02:21,013 --> 00:02:26,068
+In this photograph, Malinowski is being taught to play a stringed instrument.
+
+36
+00:02:26,070 --> 00:02:32,020
+The picture of Malinowski is a wonderful illustration of what Genevieve Bell calls “Deep Hanging Out”:
+
+37
+00:02:32,020 --> 00:02:35,072
+By spending time with people doing their work and living their lives,
+
+38
+00:02:35,072 --> 00:02:40,061
+you can get beyond the surface things that people say, to learn about what they actually do.
+
+39
+00:02:40,061 --> 00:02:44,066
+If you’ve had lived in another country, I bet you’ve found out all sorts of things
+
+40
+00:02:44,066 --> 00:02:49,020
+that are normal to the people that lived there and completely unfamiliar to you.
+
+41
+00:02:49,020 --> 00:02:52,051
+But you don’t to go that far, or even go anywhere,
+
+42
+00:02:52,051 --> 00:02:57,003
+to begin to recognize the beautiful complexity of culture.
+
+43
+00:02:57,003 --> 00:02:59,008
+It’s all around us.
+
+44
+00:02:59,008 --> 00:03:03,009
+For example, being a student requires an enormous amount of practical knowledge
+
+45
+00:03:03,009 --> 00:03:09,036
+and constitutes a large number of practices that you enact every day and are rarely conscious of
+
+46
+00:03:09,036 --> 00:03:12,098
+precisely because it’s such an everyday behaviour.
+
+47
+00:03:12,098 --> 00:03:16,022
+But if someone were to  be suddenly  dropped into being a student,
+
+48
+00:03:16,022 --> 00:03:21,003
+with no knowledge of what student life was like, they’d have all sorts of trouble.
+
+49
+00:03:21,003 --> 00:03:26,044
+Furthermore, much like the intuitions that we’d build up when we learn to play musical instruments,
+
+50
+00:03:26,044 --> 00:03:32,001
+there’s all sorts of stuff that we do as part of our everyday behaviour that’s really tough to articulate.
+
+51
+00:03:32,001 --> 00:03:38,068
+So, what we’re going to hopefully learn by participant observation in this class is five key things:
+
+52
+00:03:38,068 --> 00:03:42,097
+First, what do people do now? What’s the baseline that we’re starting from?
+
+53
+00:03:42,097 --> 00:03:45,080
+Second, what values and goals do people have?
+
+54
+00:03:45,080 --> 00:03:49,059
+Most often we’ll want to build technologies that align with what people care about
+
+55
+00:03:49,059 --> 00:03:51,093
+and what they hope to accomplish.
+
+56
+00:03:51,093 --> 00:03:54,074
+And by that I don’t mean literally building what people asked for
+
+57
+00:03:54,074 --> 00:03:58,053
+because people often don’t know, especially for disruptive technologies.
+
+58
+00:03:58,053 --> 00:04:01,066
+Rather, what I’m talking about is designing technologies
+
+59
+00:04:01,066 --> 00:04:05,030
+that will weave themselves into the fabric of people’s everyday lives.
+
+60
+00:04:05,030 --> 00:04:08,082
+Even if they introduce new concepts and functionality.
+
+61
+00:04:08,082 --> 00:04:13,086
+Third, we’re going to look at how these particular activities are embedded in a larger ecology of behaviours.
+
+62
+00:04:13,086 --> 00:04:20,012
+For example, we might be tasked with designing a better technology for a bus or subway.
+
+63
+00:04:20,012 --> 00:04:23,049
+Of course, for any individual bus or subway user,
+
+64
+00:04:23,049 --> 00:04:28,030
+the bus or subway segment is just one piece of a larger activity —
+
+65
+00:04:28,030 --> 00:04:33,010
+like getting to a friend’s house, or commuting to work, or going to the grocery store —
+
+66
+00:04:33,010 --> 00:04:36,090
+and, by understanding the constraints and goals of that larger activity,
+
+67
+00:04:36,090 --> 00:04:42,075
+you may come up with ideas that you wouldn’t have if you were just thinking about the bus ride more narrowly,
+
+68
+00:04:42,075 --> 00:04:46,053
+like, “What leads somebody to select or not select the bus?”
+
+69
+00:04:47,032 --> 00:04:51,073
+Even if your original design brief was about improving the literal bus,
+
+70
+00:04:51,073 --> 00:04:55,080
+what you might end up with, as a designer, is something more broad,
+
+71
+00:04:55,080 --> 00:05:02,004
+like creating a mobile application that helps people figure out when a bus is coming or nearby,
+
+72
+00:05:02,004 --> 00:05:05,073
+or the best way to get from one destination to another.
+
+73
+00:05:05,073 --> 00:05:09,066
+Taking this broader view can help you be more effective as a designer,
+
+74
+00:05:09,066 --> 00:05:13,081
+by helping [you] design from the larger activity that people are engaged in.
+
+75
+00:05:13,081 --> 00:05:16,039
+And designing for that activity can often take you
+
+76
+00:05:16,039 --> 00:05:20,006
+away from the narrower brief that you originally began with.
+
+77
+00:05:20,006 --> 00:05:24,011
+Fourth, what are similarities and differences that you can find across people?
+
+78
+00:05:24,011 --> 00:05:31,004
+In our bus example, a low mobility user might care enormously about the accessibility of the bus.
+
+79
+00:05:31,004 --> 00:05:34,060
+Somebody else may be primarily concerned with costs.
+
+80
+00:05:34,060 --> 00:05:40,011
+And somebody else still may be primarily concerned with efficiency in getting there.
+
+81
+00:05:40,011 --> 00:05:42,090
+One of my favourite examples of participant observation
+
+82
+00:05:42,090 --> 00:05:46,093
+comes from Jack Whalen and colleagues at Xerox PARC.
+
+83
+00:05:46,093 --> 00:05:51,032
+They were studying a call centre for photocopier repair,
+
+84
+00:05:51,032 --> 00:05:54,085
+so these were people who field questions for technicians,
+
+85
+00:05:54,085 --> 00:06:00,062
+and, over the telephone, help them work through troubleshooting broken photocopiers.
+
+86
+00:06:00,062 --> 00:06:04,020
+Doing this over the phone can be extremely difficult.
+
+87
+00:06:04,020 --> 00:06:07,090
+What Whalen and colleagues found was that, as you might expect,
+
+88
+00:06:07,090 --> 00:06:13,032
+the most proficient person in this copier repair centre was the person who’d been the longest.
+
+89
+00:06:13,032 --> 00:06:16,077
+It was the skill that they’d built up over a period of time.
+
+90
+00:06:16,077 --> 00:06:23,007
+What’s interesting is that the second most effective person at this repair centre was not the  person
+
+91
+00:06:23,007 --> 00:06:30,031
+who’d been the second longest, but rather the person who’d sat next to the person who had been the longest.
+
+92
+00:06:30,031 --> 00:06:36,039
+What they realized was that, by sitting next to an expert, these repair technicians were able
+
+93
+00:06:36,039 --> 00:06:44,002
+to pick  up all of the informal skills of doing repair work that aren’t written down in manuals anywhere.
+
+94
+00:06:44,002 --> 00:06:49,093
+And it’s this apprenticeship model that helped somebody really excel in their job.
+
+95
+00:06:49,093 --> 00:06:55,064
+One effective strategy for learning about the work  practices of your users is to apprentice yourself.
+
+96
+00:06:55,064 --> 00:07:03,055
+For example, my former PhD student Ron Yeh did his dissertation on software tools for field biologists,
+
+97
+00:07:03,055 --> 00:07:08,040
+and as part his dissertation research, Ron in essence became a deputy field biologist.
+
+98
+00:07:08,040 --> 00:07:12,064
+He trained as a docent  up at the Jasper Ridge Preserve near Stanford,
+
+99
+00:07:12,064 --> 00:07:15,093
+and he accompanied a field biology group with them
+
+100
+00:07:15,093 --> 00:07:20,006
+on their field site trips to places like the Mexican rainforest.
+
+101
+00:07:20,006 --> 00:07:24,011
+So you can see another advantage of doing technology design
+
+102
+00:07:24,011 --> 00:07:27,045
+is you get to go to a lot of fun places too, sometimes.
+
+103
+00:07:27,045 --> 00:07:31,084
+Even, say, you’re interested in making a better supermarket checkout system,
+
+104
+00:07:31,084 --> 00:07:37,055
+you might apprentice as a clerk, and one of the things you’d learn from that is the different workarounds
+
+105
+00:07:37,055 --> 00:07:40,088
+that clerks do as part of their daily activities.
+
+106
+00:07:40,088 --> 00:07:44,031
+Being a good apprentice is an interactive process.
+
+107
+00:07:44,031 --> 00:07:49,008
+To get going, you’d want to set up a partnership with the people that you’re working with.
+
+108
+00:07:49,008 --> 00:07:53,071
+And, of course, you’ll probably get some formal training — that’s the process part of the job.
+
+109
+00:07:53,071 --> 00:07:56,068
+Often, that formal training includes a bunch of asides,
+
+110
+00:07:56,068 --> 00:08:00,001
+if you’re getting trained by somebody who currently does that job.
+
+111
+00:08:00,001 --> 00:08:03,097
+And those asides are the [inaudible] that happens as part of the job.
+
+112
+00:08:03,097 --> 00:08:10,024
+Definitely, once you actually get involved, you’ll realize all of the everyday hacks and workarounds.
+
+113
+00:08:10,024 --> 00:08:13,081
+If you see something that catches your eye, it can be important to validate that
+
+114
+00:08:13,081 --> 00:08:18,034
+with those that you’re working with, and so you can reflect things  that you back to people,
+
+115
+00:08:18,034 --> 00:08:22,035
+and that can help you understand why those things are being done.
+
+116
+00:08:22,035 --> 00:08:26,051
+Pay attention to all of the artefacts that compose part of people’s work,
+
+117
+00:08:26,051 --> 00:08:31,090
+and in particular look at ways that people have hacked their equipment  to make their work  more effective.
+
+118
+00:08:31,090 --> 00:08:34,092
+One of my favourite examples of this is Post-It notes.
+
+119
+00:08:34,092 --> 00:08:40,033
+Think about a fax machine or some other piece of equipment that has Post-It notes all over it,
+
+120
+00:08:40,033 --> 00:08:42,044
+reminding people how to use stuff.
+
+121
+00:08:42,044 --> 00:08:45,068
+That’s a great example of an opportunity for innovation.
+
+122
+00:08:45,068 --> 00:08:51,089
+Or, for example, in my recording setup here, I have a note that I have made myself,
+
+123
+00:08:51,089 --> 00:08:56,058
+to turn off the DropBox files syncing software when we record.
+
+124
+00:08:56,058 --> 00:09:00,029
+DropBox is a great way to keep all of the machines that we use up-to-date,
+
+125
+00:09:00,029 --> 00:09:04,017
+but it sometimes seems to interfere with the video recording,
+
+126
+00:09:04,017 --> 00:09:06,003
+so I’ve left myself a note.
+
+127
+00:09:06,003 --> 00:09:10,071
+You could see that as an opportunity for redesign, to, for example, turn off file syncing automatically
+
+128
+00:09:10,071 --> 00:09:13,078
+while  video recording is under way.
+
+129
+00:09:13,078 --> 00:09:17,021
+In particular, errors can be a real goldmine.
+
+130
+00:09:17,021 --> 00:09:22,093
+And what’s interesting is that often I think that when somebody can’t figure out how to use technology,
+
+131
+00:09:22,093 --> 00:09:29,007
+it can be [easy] to assume that it’s just ’cause they’re stupid or they don’t know  what they’re doing,
+
+132
+00:09:29,007 --> 00:09:35,018
+and that attitude is, I think, less pervasive than it used to be, but still quite common,
+
+133
+00:09:35,018 --> 00:09:39,019
+that the development team often looks down the nose of the users.
+
+134
+00:09:39,019 --> 00:09:43,084
+And one of the most effective ways I have ever seen to combat seen is in the 1980’s:
+
+135
+00:09:43,084 --> 00:09:49,071
+an anthropologist named Lucy Suchman worked with Xerox PARC to study photocopier usage.
+
+136
+00:09:49,071 --> 00:09:52,045
+And one of the things that she did was she produced a video
+
+137
+00:09:52,045 --> 00:09:59,064
+of two people trying to produce a double-sided copy of 50 pages of paper.
+
+138
+00:09:59,064 --> 00:10:02,022
+You’ll see this video here.
+
+139
+00:10:03,030 --> 00:10:05,036
+(There’s a bunch of buttons here.
+
+140
+00:10:05,036 --> 00:10:10,044
+So, “Output paper tray”, “Copy mode”, “1-sided”.
+
+141
+00:10:10,047 --> 00:10:14,072
+We want “2-sided copies”
+
+142
+00:10:14,072 --> 00:10:17,032
+“Unload top-paper tray”
+
+143
+00:10:17,032 --> 00:10:22,013
+[fast-forward gibberish]
+
+144
+00:10:22,013 --> 00:10:23,091
+That’s only the half of it, right?
+
+145
+00:10:23,094 --> 00:10:28,015
+I only got the… [inaudible]
+
+146
+00:10:28,015 --> 00:10:34,049
+Ok, 49 must be on the other side.
+
+147
+00:10:34,049 --> 00:10:36,065
+Hahahaha!)
+
+148
+00:10:36,065 --> 00:10:40,035
+This video has become a legend here in the human-computer interaction field.
+
+149
+00:10:40,035 --> 00:10:43,076
+We’ve just a short clip out of what’s a much longer video,
+
+150
+00:10:43,076 --> 00:10:48,087
+and, legend has it that when this video was shown, the executives said, well, you know,
+
+151
+00:10:48,087 --> 00:10:53,048
+“Those users are just dumb. They don’t know what they’re talking about. They don’t know what they’re doing.”
+
+152
+00:10:53,048 --> 00:10:59,009
+And, at that moment, Lucy Suchman and John Seely Brown who collaborated with her on this work,
+
+153
+00:10:59,009 --> 00:11:04,044
+gave their review, which is that those two users were Allen Newell and Ron Kaplan,
+
+154
+00:11:04,044 --> 00:11:07,098
+two of Xerox’s premier research scientists.
+
+155
+00:11:07,098 --> 00:11:10,094
+They were giants of computer science research, and,
+
+156
+00:11:10,094 --> 00:11:14,022
+in this way, you couldn’t  say it was because they didn’t know how to use technology.
+
+157
+00:11:14,022 --> 00:11:19,076
+All of a sudden, it made you  realize that if you are unfamiliar with a particular piece of technology,
+
+158
+00:11:19,076 --> 00:11:22,080
+that stuff  could be  a lot more difficult,
+
+159
+00:11:22,080 --> 00:11:27,008
+and that led Xerox to help focus more strongly on the user interface.
+
+160
+00:11:28,000 --> 00:11:33,045
+What we’ve talked throughout this lecture is the difference between what people say and what people do,
+
+161
+00:11:33,045 --> 00:11:37,099
+and I’d like to close by giving  you an example from Walmart.
+
+162
+00:11:37,099 --> 00:11:41,077
+A couple of years ago, in a survey, Walmart asked its customers
+
+163
+00:11:41,077 --> 00:11:46,066
+whether they would like the aisles to be less cluttered.
+
+164
+00:11:46,066 --> 00:11:50,011
+I bet you can guess what the response is: “Yes!”
+
+165
+00:11:50,011 --> 00:11:54,062
+I think anybody, if asked that way, would say “I’d love the aisles to be less cluttered!”
+
+166
+00:11:54,062 --> 00:12:02,013
+So, very diligently, in response to the survey results that Walmart got, they decluttered their aisles.
+
+167
+00:12:02,013 --> 00:12:07,050
+As this news article reports, Walmart spent  hundreds of  dollars decluttering its aisles,
+
+168
+00:12:07,050 --> 00:12:09,093
+removing inventory, cleaning things up.
+
+169
+00:12:09,093 --> 00:12:13,091
+And what happened is that they lost a billion dollars in sales.
+
+170
+00:12:13,091 --> 00:12:17,093
+This seems surprising — they  did exactly what people asked. Right?
+
+171
+00:12:17,093 --> 00:12:24,095
+But Walmart made two mistakes that, after taking this class you’ll be able to avoid.
+
+172
+00:12:24,095 --> 00:12:29,074
+The first is that they paid attention to what people said, rather than what they did.
+
+173
+00:12:29,074 --> 00:12:36,026
+The second is that their survey asked a leading question, “Would you like the aisles less cluttered?”
+
+174
+00:12:36,026 --> 00:12:39,081
+Put together, this gave them a direction
+
+175
+00:12:39,081 --> 00:12:44,021
+that was exactly the opposite of what turned out to be the most effective.
+
+176
+00:12:44,021 --> 00:12:47,044
+I hope these techniques that we’ve covered today in these examples will help you
+
+177
+00:12:47,044 --> 00:12:50,029
+as you do your needfinding in your project assignment.
+
+178
+00:12:50,029 --> 00:12:55,077
+And, if you’re curious and would like to learn more, here’s a few resources that you can use.
