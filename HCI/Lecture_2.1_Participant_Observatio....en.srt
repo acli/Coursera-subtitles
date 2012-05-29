@@ -1,0 +1,135 @@
+1
+99:59:59,000 --> 99:59:59,000
+what we are going to talk about in this next lecture is observing people
+
+2
+99:59:59,000 --> 99:59:59,000
+to discover their needs goals and values
+
+3
+99:59:59,000 --> 99:59:59,000
+one effective starting point for designing new technology is to clearly
+
+4
+99:59:59,000 --> 99:59:59,000
+identify an existing problem or need
+
+5
+99:59:59,000 --> 99:59:59,000
+and that's because the needs often reveal important untapped opportunities
+
+6
+99:59:59,000 --> 99:59:59,000
+observing people often helps you build empathy
+
+7
+99:59:59,000 --> 99:59:59,000
+and think from their point of view
+
+8
+99:59:59,000 --> 99:59:59,000
+to stand in someone elses shoes or maybe wear someone elses gloves
+
+9
+99:59:59,000 --> 99:59:59,000
+mike (kinyovsky?) is a colleague of mine
+
+10
+99:59:59,000 --> 99:59:59,000
+and consultant and author
+
+11
+99:59:59,000 --> 99:59:59,000
+when we were talking about the roll of fieldwork and design
+
+12
+99:59:59,000 --> 99:59:59,000
+he gave me the example of an electronics firm that makes
+
+13
+99:59:59,000 --> 99:59:59,000
+devices for truckers
+
+14
+99:59:59,000 --> 99:59:59,000
+apparently the systems were underused and sometimes
+
+15
+99:59:59,000 --> 99:59:59,000
+when responses were provided they were minimal
+
+16
+99:59:59,000 --> 99:59:59,000
+these mobile devices had small physical keyboards
+
+17
+99:59:59,000 --> 99:59:59,000
+when the designers went into the field and spent time with
+
+18
+99:59:59,000 --> 99:59:59,000
+the truckers that used them they found that many
+
+19
+99:59:59,000 --> 99:59:59,000
+truckers had big hands and bulky gloves making it impossible
+
+20
+99:59:59,000 --> 99:59:59,000
+to use the tiny keys
+
+21
+99:59:59,000 --> 99:59:59,000
+the resulting redesign featured a large touch screen
+
+22
+99:59:59,000 --> 99:59:59,000
+this interface provided common responses with one click
+
+23
+99:59:59,000 --> 99:59:59,000
+as opposed to lots of typing
+
+24
+99:59:59,000 --> 99:59:59,000
+and the (dynamic?) display made it possible to have
+
+25
+99:59:59,000 --> 99:59:59,000
+big buttons and a stylus was introduced for precision input
+
+26
+99:59:59,000 --> 99:59:59,000
+when that was necessary
+
+27
+99:59:59,000 --> 99:59:59,000
+from this example you can see the wisdom of something
+
+28
+99:59:59,000 --> 99:59:59,000
+attributed to yogi berra, that you can observe a lot just by watching
+
+29
+99:59:59,000 --> 99:59:59,000
+what we're going to talk about today is participant observation techniques
+
+30
+99:59:59,000 --> 99:59:59,000
+for standing in someone elses shoes
+
+31
+99:59:59,000 --> 99:59:59,000
+of course observing is not the only way to begin designing an effect user interface
+
+32
+99:59:59,000 --> 99:59:59,000
+great design emerge through all sorts of approaches
+
+33
+99:59:59,000 --> 99:59:59,000
+that said, it's often a good strategy to begin your design process
+
+34
+99:59:59,000 --> 99:59:59,000
+by attuning yourself to your users
