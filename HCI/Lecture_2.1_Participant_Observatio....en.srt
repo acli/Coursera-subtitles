@@ -24,7 +24,7 @@ Observing people can also help you build empathy and think from their point of v
 
 7
 00:00:26,030 --> 00:00:30,077
-to stand in someone elses shoes or maybe to wear someone else’s gloves.
+to stand in someone elses shoes — or maybe to wear someone else’s gloves.
 
 8
 00:00:30,077 --> 00:00:34,096
@@ -72,7 +72,7 @@ This interface provided common responses with one click, as opposed to lots of t
 
 19
 00:01:13,034 --> 00:01:17,005
-And the dynamical display made it possible to have big buttons
+And the dynamic display made it possible to have big buttons
 
 20
 00:01:17,005 --> 00:01:21,083
