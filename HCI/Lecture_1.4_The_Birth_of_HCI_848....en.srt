@@ -1,0 +1,483 @@
+1
+00:00:01,054 --> 00:00:04,062
+How did the field of human-computer interaction get started?
+
+2
+00:00:04,062 --> 00:00:10,046
+One good place to begin our story is in July of 1945, when Vannevar Bush wrote
+
+3
+00:00:10,046 --> 00:00:16,050
+an article for the Atlantic Monthly, later reprinted in Life, called “As We May Think”.
+
+4
+00:00:16,050 --> 00:00:22,001
+Today, technology has mostly augmented people’s physical abilities;
+
+5
+00:00:22,001 --> 00:00:29,019
+Bush outlined a vision for information technologies that augmented people’s intellectual abilities.
+
+6
+00:00:29,019 --> 00:00:33,002
+Who is this guy? What’s his deal? And what led to his press in his vision?
+
+7
+00:00:33,002 --> 00:00:36,099
+Bush was vice-president and dean of engineering at MIT in the 1930’s,
+
+8
+00:00:36,099 --> 00:00:39,072
+where, incidentally, he was Fred Terman’s advisor.
+
+9
+00:00:39,072 --> 00:00:42,065
+Terman went on to become dean of engineering at Stanford
+
+10
+00:00:42,065 --> 00:00:45,072
+and in the eyes of many the father of Silicon Valley.
+
+11
+00:00:45,072 --> 00:00:48,086
+In 1939, Vannevar Bush moved to Washington.
+
+12
+00:00:48,086 --> 00:00:51,072
+He’s a leading scientific policy maker
+
+13
+00:00:51,072 --> 00:00:53,082
+He directs a lot of the government funding,
+
+14
+00:00:53,082 --> 00:00:58,074
+and indeed creates and is instrumental in setting up large-scale university research.
+
+15
+00:00:58,074 --> 00:01:03,052
+This administrative effort eventually leads to the creation of the National Science Foundation and ARPA,
+
+16
+00:01:03,052 --> 00:01:07,009
+institutionalizing government-funded scientific research.
+
+17
+00:01:07,009 --> 00:01:10,078
+The goal of this article, written in the final months of World War II, is to ask
+
+18
+00:01:10,078 --> 00:01:15,091
+“What can government-funded scientists do to create a better world in peace time?”
+
+19
+00:01:15,091 --> 00:01:19,007
+and his vision was a strongly human-centred one.
+
+20
+00:01:19,007 --> 00:01:23,045
+Bush wrote of a future interactive desk; he calls the system Memex.
+
+21
+00:01:23,045 --> 00:01:28,051
+The idea is that all of the world’s information would be available on the knowledge worker’s desktop.
+
+22
+00:01:28,051 --> 00:01:34,094
+Key to the Memex idea was effective user interfaces for information storage and retrieval.
+
+23
+00:01:34,094 --> 00:01:39,041
+Remember, this is 1945, so there aren’t yet practical digital computers —
+
+24
+00:01:39,041 --> 00:01:44,094
+the first room-scale digital computers were just being built, and the idea was to use microfiche —
+
+25
+00:01:44,094 --> 00:01:47,089
+high density film — to store everything!
+
+26
+00:01:47,089 --> 00:01:51,097
+Even more impressive, Bush’s Memex vision invents hypertext:
+
+27
+00:01:51,097 --> 00:01:56,068
+he has this idea that people could author trails through this information store,
+
+28
+00:01:56,068 --> 00:02:00,014
+save them for later use, and share them with others.
+
+29
+00:02:00,014 --> 00:02:04,028
+But you’re not always at your desk, right? You want technology to come with you.
+
+30
+00:02:04,028 --> 00:02:07,098
+And knowledge workers need to produce content as well as consume it.
+
+31
+00:02:07,098 --> 00:02:11,041
+And the world isn’t just textual; it’s also visual.
+
+32
+00:02:11,041 --> 00:02:14,056
+So Bush imagined that, in the future, you’d wear a camera,
+
+33
+00:02:14,056 --> 00:02:19,025
+right in the centre of your head, like a third eye, and use it to capture stuff.
+
+34
+00:02:19,025 --> 00:02:23,004
+And he worked out a design that made it as easy as possible to take pictures,
+
+35
+00:02:23,004 --> 00:02:26,009
+so there’re no dials or settings to fiddle with.
+
+36
+00:02:26,009 --> 00:02:32,041
+As with the Memex desk, the details turned out differently; but the core vision was right on target.
+
+37
+00:02:32,041 --> 00:02:36,053
+Today, for example, there are more than a billion camera phones that people carry with them.
+
+38
+00:02:36,053 --> 00:02:41,092
+The programmable digital computers that soon follow, like the ENIACS on here,
+
+39
+00:02:41,092 --> 00:02:44,034
+were a huge technological lead-forward.
+
+40
+00:02:44,034 --> 00:02:48,058
+But, as you can see from the wires, the user interface left a lot to be desired.
+
+41
+00:02:48,058 --> 00:02:53,057
+The idea of providing a more effective interface to computers has a long and storied history,
+
+42
+00:02:53,057 --> 00:02:58,062
+beginning with Grace Hopper’s invention in the early 1950’s of the first compiler.
+
+43
+00:02:58,062 --> 00:03:01,072
+What’s inspirational for me is that she conceptualized
+
+44
+00:03:01,072 --> 00:03:06,071
+how improved tools could provide a much wider audience with access  to computation.
+
+45
+00:03:06,071 --> 00:03:10,026
+In the intervening years, good programming environments for the desktop and Web
+
+46
+00:03:10,026 --> 00:03:14,098
+enabled legions of developers to create the content that helped put a PC on every desk.
+
+47
+00:03:14,098 --> 00:03:20,053
+It’s a long path from the Grace Hopper’s visionary work on the compiler to the graphical user interface.
+
+48
+00:03:20,053 --> 00:03:23,099
+There are three key highlights I’d like to share with you along the way.
+
+49
+00:03:23,099 --> 00:03:29,094
+The seeds of direct manipulation were sown at MIT at Lincoln Labs by Ivan Sutherland.
+
+50
+00:03:29,094 --> 00:03:33,058
+The key innovation of the graphical user interface is that the user’s input
+
+51
+00:03:33,058 --> 00:03:36,064
+is performed directly on top of the system’s output.
+
+52
+00:03:36,064 --> 00:03:43,032
+This input-on-output directness makes the interface much easier to understand and much more intuitive.
+
+53
+00:03:43,032 --> 00:03:49,038
+This input-on-output directness makes the system much easier to understand and feel more intuitive.
+
+54
+00:03:49,038 --> 00:03:55,042
+In the case of Sutherland’s Sketchpad, the input was a light pen and the output was an oscilloscope.
+
+55
+00:03:55,042 --> 00:03:58,084
+Here’s a short clip of the system in action:
+
+56
+00:03:58,084 --> 00:04:01,097
+(You can see, we have several unusal pieces of input-output equipment here.
+
+57
+00:04:01,097 --> 00:04:06,042
+We have a scope, and these are unusual at the time.
+
+58
+00:04:06,042 --> 00:04:10,021
+And pushbuttons. Toggle switches.
+
+59
+00:04:10,021 --> 00:04:12,012
+We have several other related devices.
+
+60
+00:04:12,012 --> 00:04:17,039
+This made the TX-2 a fine candidate for the Sketchpad devlepments back in 1961.
+
+61
+00:04:17,039 --> 00:04:23,051
+As I draw my art of say… on the scope, it reinforces what I have in mind.
+
+62
+00:04:23,051 --> 00:04:26,051
+This is in general part of the design process.)
+
+63
+00:04:26,051 --> 00:04:30,051
+The next major stop on our journey is the creation of the mouse and hypertext;
+
+64
+00:04:30,051 --> 00:04:32,078
+these are key foundations for the Web.
+
+65
+00:04:32,078 --> 00:04:36,048
+In 1945, Doug Engelbart was a navy radar technician.
+
+66
+00:04:36,048 --> 00:04:39,025
+Engelbart spent his monotonous years in the Philippines.
+
+67
+00:04:39,025 --> 00:04:45,071
+In the library, he found a copy of the magazine Life; It reprinted Bush’s Atlantic Monthly article.
+
+68
+00:04:45,071 --> 00:04:51,028
+As John Markov writes, the idea of a device that could extend the power of the human mind
+
+69
+00:04:51,028 --> 00:04:54,025
+left Engelbart awestruck.
+
+70
+00:04:54,025 --> 00:04:58,088
+He had a vision. It took a long time, but eventually he got some funding and set to work.
+
+71
+00:04:58,088 --> 00:05:04,024
+And what Doug Engelbart came up with, he showed to the world in his famous 1968 demo.
+
+72
+00:05:04,024 --> 00:05:11,005
+(The research program that I’m going to describe to you is quickly characterizable by saying,
+
+73
+00:05:11,005 --> 00:05:18,001
+if, in your office, you, as an intellectual worker, were supplied with a computer display,
+
+74
+00:05:18,001 --> 00:05:22,050
+backed up by a computer that was alive for you all day,
+
+75
+00:05:22,050 --> 00:05:25,055
+and was infinitely responsive to the reaction you have,
+
+76
+00:05:25,055 --> 00:05:27,072
+how much value will you derive from that?
+
+77
+00:05:27,072 --> 00:05:30,082
+And in a second you’ll see the screen and it’s working.
+
+78
+00:05:30,082 --> 00:05:36,028
+And the way the tracking spot moves in conjunction with movements of that mouse.)
+
+79
+00:05:36,028 --> 00:05:40,061
+Engelbart’s mouse worked with two orthogonal wheels.
+
+80
+00:05:40,061 --> 00:05:47,037
+Each was a potentiometer, a variable resistor, like  stereos commonly have for a volume knob.
+
+81
+00:05:47,037 --> 00:05:50,055
+So you get about 300° of a turn and that’s it.
+
+82
+00:05:50,055 --> 00:05:55,011
+Its usable parameter provided about 5 inches of motion in each direction.
+
+83
+00:05:55,011 --> 00:05:58,038
+After the 1968 demo, Doug takes a show on the road.
+
+84
+00:05:58,038 --> 00:06:02,058
+He travels the country with a 16-millimetre Bell & Howell projector.
+
+85
+00:06:02,058 --> 00:06:06,071
+Ivan Sutherland had recently joined the faculty at the University  of Utah.
+
+86
+00:06:06,071 --> 00:06:14,014
+Doug comes to visit and shows the demo, and in the audience is Ivan’s PhD student Alan Kay.
+
+87
+00:06:14,014 --> 00:06:16,017
+Alan has been dreaming of a personal computer.
+
+88
+00:06:16,017 --> 00:06:21,005
+He sees Engelbart’s video and his eyes bugged out — they have the same dream.
+
+89
+00:06:21,005 --> 00:06:24,010
+After his PhD, Alan moved to the Stanford AI Lab,
+
+90
+00:06:24,010 --> 00:06:27,034
+where John McCarthy’s group has an early time-sharing system,
+
+91
+00:06:27,034 --> 00:06:31,061
+maybe the place in the world where every person had their own terminal.
+
+92
+00:06:31,061 --> 00:06:35,098
+From there, he moves to Xerox PARC, where he fleshes out his vision of a Dynabook.
+
+93
+00:06:35,098 --> 00:06:40,077
+Here is a picture of the prototype that Alan made in the early 1970’s.
+
+94
+00:06:40,077 --> 00:06:42,076
+This isn’t a functioning computer at all;
+
+95
+00:06:42,076 --> 00:06:46,079
+it’s made out of carboard; it’s a prototype designed to communicate a vision.
+
+96
+00:06:46,079 --> 00:06:50,088
+With this vision in hand, Alan Kay and his colleagues at Xerox PARC start building
+
+97
+00:06:50,088 --> 00:06:54,040
+the foundation of the first real graphical user interface.
+
+98
+00:06:54,040 --> 00:06:57,097
+It took them a decade to get it all together, to get it ready to ship.
+
+99
+00:06:57,097 --> 00:07:01,052
+Xerox released the STAR computing system in 1981.
+
+100
+00:07:01,052 --> 00:07:07,000
+The STAR featured a bitmapped display, a window-based graphical user interface, icons, folders,
+
+101
+00:07:07,000 --> 00:07:12,035
+mice, ethernet network, file servers, print servers, and email.
+
+102
+00:07:12,035 --> 00:07:14,082
+This next clip shows the fruit of their labour:
+
+103
+00:07:14,082 --> 00:07:20,018
+(The display screen shows your working environment; we call this the desktop.
+
+104
+00:07:20,018 --> 00:07:24,096
+Using the Move key, you can arrange your desktop in any way you like.
+
+105
+00:07:24,096 --> 00:07:29,095
+Making a copy of one of these blank documents is like turning a sheet off a pad of paper.
+
+106
+00:07:29,095 --> 00:07:33,025
+The [inaudible] of users to make their own form pads
+
+107
+00:07:33,025 --> 00:07:36,066
+is one example of the usatibility [sic] built into the system.
+
+108
+00:07:36,066 --> 00:07:39,084
+The screen closely approximates the appearance of a printed page.
+
+109
+00:07:39,084 --> 00:07:46,054
+And I’m going to copy it into this upper document, and the new paragraph will appear here.
+
+110
+00:07:46,054 --> 00:07:52,031
+This is a little window that lets me set the various parameters of the paragraph.)
+
+111
+00:07:52,031 --> 00:07:57,074
+When the STAR shipped, this was almost four decades after Vannevar Bush’s vision,
+
+112
+00:07:57,074 --> 00:08:03,051
+three decades after Grace Hopper’s compiler, two decades after Doug Engelbart’s first functioning system,
+
+113
+00:08:03,051 --> 00:08:09,080
+and a decade after Alan Kay set off to work building this computer, inspired by the Dynabook ideas.
+
+114
+00:08:09,080 --> 00:08:14,062
+This is an example of what Bill Buxton calls “the ‘Long Nose’ of Innovation”,
+
+115
+00:08:14,062 --> 00:08:17,007
+that the early ideas behind a new technology paradigm
+
+116
+00:08:17,007 --> 00:08:22,087
+are often seeded decades before the major commercial adoption.
+
+117
+00:08:22,087 --> 00:08:26,028
+I’m sharing this history as we begin this course for a couple  of reasons:
+
+118
+00:08:26,028 --> 00:08:31,054
+First, seeing seminal work reminds me that good ideas are often klunkier early on.
+
+119
+00:08:31,054 --> 00:08:36,001
+Second, as Johnny Lee and Bill Buxton point out, if you are looking for a good future product,
+
+120
+00:08:36,001 --> 00:08:42,052
+the seeds you need may already be out there in rough form, waiting for you to polish it and do a diamond.
+
+121
+00:08:42,052 --> 99:59:59,000
+Third, I just think these early systems are totally awesome and it’s really inspiring.
