@@ -1,0 +1,579 @@
+1
+00:00:02,022 --> 00:00:08,039
+In addition to gaining insights from
+observing people, It's also valuable to
+
+2
+00:00:08,039 --> 00:00:14,097
+interview them, ask them about their
+experiences directly. The first step in
+
+3
+00:00:14,097 --> 00:00:21,088
+setting up an interview is deciding who it
+is that you're going to interview. It may
+
+4
+00:00:21,088 --> 00:00:28,006
+seem obvious but The most important thing
+is to get people who are representative of
+
+5
+00:00:28,006 --> 00:00:33,083
+the target users of your system. Who are
+the people who are going to be using your
+
+6
+00:00:33,083 --> 00:00:38,089
+system? Talk to them, Now they maybe
+current users of a similar system if
+
+7
+00:00:38,089 --> 00:00:44,081
+you're creating a better something. You'll
+likely find current users and you'll want
+
+8
+00:00:44,081 --> 00:00:50,009
+to learn what they care about, what
+problems they see. They might also be
+
+9
+00:00:50,009 --> 00:00:56,099
+nonusers. So, one reason that you might be
+building your technology is to broaden the
+
+10
+00:00:56,099 --> 00:01:03,056
+set of people that can do a certain task
+and in that case you wanna talk to the
+
+11
+00:01:03,056 --> 00:01:10,012
+nonusers. Learn about what barriers you
+see learn about what their goals are. Say
+
+12
+00:01:10,012 --> 00:01:16,077
+for example, you're designing a lecture
+support system. Who would you interview in
+
+13
+00:01:16,077 --> 00:01:23,073
+this case? There's a lot of stake holders.
+You might pick the Teacher you might pick
+
+14
+00:01:23,073 --> 00:01:29,009
+The students you might also pick, the
+teaching staff. Maybe the department
+
+15
+00:01:29,009 --> 00:01:34,061
+administrators that are responsible for
+making sure the grading is handled
+
+16
+00:01:34,061 --> 00:01:40,042
+properly. Maybe even the parents. It's
+important to get different types of users.
+
+17
+00:01:40,042 --> 00:01:46,081
+So, you might have both freshman and a PhD
+student. You might have a domestic student
+
+18
+00:01:46,081 --> 00:01:52,069
+and an international student. Somebody
+that's in major and out of major, stronger
+
+19
+00:01:52,069 --> 00:01:58,050
+and weaker students, There are lots of
+different kinds of users. You can't get
+
+20
+00:01:58,050 --> 00:02:04,051
+them all but you wanna find several
+different people who are representative of
+
+21
+00:02:04,051 --> 00:02:12,051
+major user groups and talk to them. How do
+you find these people? Well, one great
+
+22
+00:02:12,051 --> 00:02:19,047
+strategy if you're in the US is to use
+Craigslist. You can also reach out through
+
+23
+00:02:19,047 --> 00:02:24,071
+friends and family, your social network is
+a powerful tool for finding, finding
+
+24
+00:02:24,071 --> 00:02:30,014
+people to interview. That doesn't just
+mean or even primarily mean interview your
+
+25
+00:02:30,014 --> 00:02:35,058
+sister, it means ask your sister who she
+might know or ask your friend to put you
+
+26
+00:02:35,058 --> 00:02:42,085
+in touch with people they might know. It's
+quite likely that you'll need to pay
+
+27
+00:02:42,085 --> 00:02:48,059
+people. In bay area on Craigslist,
+somewhere in the land of 50 to 100 bucks
+
+28
+00:02:48,059 --> 00:02:54,044
+per interview seems to be the going rate.
+This gets cheaper if you can have less
+
+29
+00:02:54,044 --> 00:02:59,099
+specialized users. Also, the amount that
+you'll need to pay people depends on what
+
+30
+00:02:59,099 --> 00:03:05,053
+they believe it's going to be used for. If
+you can convey that in some way you're
+
+31
+00:03:05,053 --> 00:03:10,080
+making the world a better place, people
+may be willing to offer their time for
+
+32
+00:03:10,080 --> 00:03:16,013
+free even. On the other hand if they
+believe that something will be used for a
+
+33
+00:03:16,013 --> 00:03:21,088
+profit they'll likely want a fair wage for
+their time. If you're [inaudible] project
+
+34
+00:03:21,088 --> 00:03:27,080
+and don't have enough money to really pay
+people. One thing you can do is offer a
+
+35
+00:03:27,080 --> 00:03:32,078
+token of appreciation. People often
+appreciate a small thoughtful gift that
+
+36
+00:03:32,078 --> 00:03:37,056
+they can actually use like a gift
+certificate or some sort, then they do
+
+37
+00:03:37,056 --> 00:03:43,014
+cash. For example, a couple of years ago I
+have spoken to a local high school and the
+
+38
+00:03:43,014 --> 00:03:48,075
+students gave me a gift certificate to a
+coffee shop. Now, the amount of money
+
+39
+00:03:48,075 --> 00:03:53,053
+there was, was not much But and then,
+every time I travel, I could go in the
+
+40
+00:03:53,053 --> 00:03:59,004
+coffee shop in the airport and get a cup
+of coffee and reminded me of that group of
+
+41
+00:03:59,004 --> 00:04:08,066
+children and the thoughtfulness. Sometimes
+especially early on the design project, it
+
+42
+00:04:08,066 --> 00:04:15,031
+can be difficult to get a hold of exactly
+the users that you believe will eventually
+
+43
+00:04:15,031 --> 00:04:21,056
+be the target. In this case don't give up
+completely and interview nobody. Do the
+
+44
+00:04:21,056 --> 00:04:27,065
+best you can, approximate if necessary.
+For example, if you are designing a system
+
+45
+00:04:27,065 --> 00:04:33,020
+for doctors early on the project, you
+might need to satisfy and use medical
+
+46
+00:04:33,020 --> 00:04:38,083
+students instead of doctors or if you are
+working on something for software
+
+47
+00:04:38,083 --> 00:04:46,048
+engineers, you might get Computer Science
+students. Not ideal, better than nothing.
+
+48
+00:04:49,001 --> 00:04:55,098
+I've been teaching and doing research in,
+computer reaction for about fifteen years
+
+49
+00:04:55,098 --> 00:05:02,087
+now and I can't tell you how many times
+I've talked to students or others who say
+
+50
+00:05:02,087 --> 00:05:09,000
+that. There's nothing to be found that for
+the problem that they're tackling. >> It's
+
+51
+00:05:09,000 --> 00:05:13,089
+either possible or obvious; it's very
+rarely t he case that there is nothing
+
+52
+00:05:13,089 --> 00:05:19,010
+new. The more Monday in the domain, the
+more creative you need to be. If you don't
+
+53
+00:05:19,010 --> 00:05:23,091
+believe me, Malcolm Gladwell the writer,
+has a wonderful explanation in the
+
+54
+00:05:23,091 --> 00:05:29,045
+introduction to his new book of collective
+stories What the Dog Said. >> The trick to
+
+55
+00:05:29,045 --> 00:05:34,079
+finding ideas is to convince yourself that
+everyone and everything has a story to
+
+56
+00:05:34,079 --> 00:05:39,086
+tell. I say trick but what I really mean
+is challenge because it's a very hard
+
+57
+00:05:39,086 --> 00:05:44,031
+thing to do. Shampoo doesn't seem
+interesting. Well, damn it. It must be and
+
+58
+00:05:44,031 --> 00:05:48,099
+if it isn't, I have to believe that it
+will ultimately leave me somewhere that
+
+59
+00:05:48,099 --> 00:05:53,088
+is. Another trick to finding ideas is
+figuring out the difference between power
+
+60
+00:05:53,088 --> 00:05:58,090
+and knowledge. You don't start at the top
+if you want to find the story. You start
+
+61
+00:05:58,090 --> 00:06:04,005
+in the middle because it's the people in
+the middle who did the actual work in the
+
+62
+00:06:04,005 --> 00:06:09,007
+world. My friend Dave would tell me about
+catch up is a middle guy. He's worked on
+
+63
+00:06:09,007 --> 00:06:13,081
+catsup, that's how he knows about it.
+People at the top are self-conscious about
+
+64
+00:06:13,081 --> 00:06:18,023
+what they say and rightfully so because
+they have position and privilege to
+
+65
+00:06:18,023 --> 00:06:22,082
+protect and self-consciousness is the
+enemy of interestingness. In The Pitchman
+
+66
+00:06:22,082 --> 00:06:27,042
+you'll meet Arnold Morris, who gave me the
+pitch for the Dial-O-Matic vegetable
+
+67
+00:06:27,042 --> 00:06:32,060
+slicer one summer day in his kitchen on
+the Jersey Shore. Come on over, folks. I'm
+
+68
+00:06:32,060 --> 00:06:38,004
+going to show you the most amazing slicing
+machine you have ever seen in your life,
+
+69
+00:06:38,004 --> 00:06:42,082
+he began. He picked up a package of
+barbecue spices and used it as a prop.
+
+70
+00:06:42,082 --> 00:06:48,019
+Take a look at this; he held it in the air
+as if he were holding up a Tiffany vase.
+
+71
+00:06:48,019 --> 00:06:52,077
+That's where you find stories, in
+someone's kitchen on the Jersey Shore.
+
+72
+00:06:54,072 --> 00:07:00,066
+What makes a good question when you're
+interviewing? Let's look an example and
+
+73
+00:07:00,066 --> 00:07:06,075
+you can decide whether you think this is a
+good question. Our question is, is the
+
+74
+00:07:06,075 --> 00:07:14,017
+daily update an important feature to you?
+My guess when asked a question like this
+
+75
+00:07:14,017 --> 00:07:19,052
+is that most users would say yes. It's
+kind of a leading question. Most people
+
+76
+00:07:19,052 --> 00:07:25,016
+when asked to some things important, sure
+why not. What's at stake, why would you
+
+77
+00:07:25,016 --> 00:07:31,001
+say n O? If you wanted to learn about the
+daily update, or just an observation might
+
+78
+00:07:31,001 --> 00:07:37,001
+be a lot more effective because you could
+see whether people actually use the daily
+
+79
+00:07:37,001 --> 00:07:42,079
+update or you might even use log files as
+a way of driving your questions. So, for
+
+80
+00:07:42,079 --> 00:07:48,043
+example, you might ask somebody, I see
+from the log that you have never used the
+
+81
+00:07:48,043 --> 00:07:53,098
+daily update, why is that? Tell me more,
+Especially early on. The more open ended
+
+82
+00:07:53,098 --> 00:08:07,026
+your questions are. The more interesting
+answers that you'll get, Remember back to
+
+83
+00:08:07,026 --> 00:08:12,003
+our Walmart example, they asked the
+leading question. Would you like stories
+
+84
+00:08:12,003 --> 00:08:17,024
+with less clutter? The answer of course is
+yes but it may not be what people would
+
+85
+00:08:17,024 --> 00:08:23,072
+actually want. Here's another example of a
+question. What would you like in a tool?
+
+86
+00:08:24,036 --> 00:08:30,092
+The problem with this question at least as
+a beginning or primary question is that
+
+87
+00:08:30,092 --> 00:08:37,017
+users are experts in their own lives.
+They're not experts in design, that's your
+
+88
+00:08:37,017 --> 00:08:42,094
+role so people may not know what to say.
+There's a famous fable in design
+
+89
+00:08:42,094 --> 00:08:49,003
+attributed to Henry Ford where he says
+that, if I ask people what they wanted,
+
+90
+00:08:49,003 --> 00:08:55,045
+and they [inaudible], what they had say
+they want is a faster horse. And of course
+
+91
+00:08:55,045 --> 00:09:01,049
+we know that the designers use the
+possibility of the car but users may not
+
+92
+00:09:01,049 --> 00:09:09,031
+know about that yet. Instead, It's more
+valuable to ask users about their own
+
+93
+00:09:09,031 --> 00:09:16,091
+lives and their own goals. That's what
+people are expert in. Here are three other
+
+94
+00:09:16,091 --> 00:09:23,022
+types of questions to avoid because people
+aren't very good at self report for them.
+
+95
+00:09:23,022 --> 00:09:29,022
+Asking people what they would do or like
+or want in a hypothetical scenario, too
+
+96
+00:09:29,022 --> 00:09:35,094
+hard to know. Asking us how often we do
+things. We often lie to ourselves. For
+
+97
+00:09:35,094 --> 00:09:42,047
+example, how often do you exercise? Most
+people overestimating their answer to the
+
+98
+00:09:42,047 --> 00:09:48,092
+question, Other questions about how
+they're similar, This works better if you
+
+99
+00:09:48,092 --> 00:09:55,014
+can make things concrete. How much do I
+exercise in, in a typical week? Not very
+
+100
+00:09:55,014 --> 00:10:01,031
+reliable, How much did I exercise this
+week? Well, unlikely to give more truthful
+
+101
+00:10:01,031 --> 00:10:07,033
+answer to that one. It's more concrete,
+and more recent in my memory. I suggest
+
+102
+00:10:07,033 --> 00:10:13,082
+also avoiding asking peopl e how much they
+like things on an absolute scale. What is
+
+103
+00:10:13,082 --> 00:10:19,097
+seven mean. Finally avoid binary
+questions, Things that have a yes or no
+
+104
+00:10:19,097 --> 00:10:26,023
+answer. Do you like grape fruit? Yes. Not
+a very interesting interview so what are
+
+105
+00:10:26,023 --> 00:10:32,018
+good questions. Especially at the
+beginning of an interview I recommend open
+
+106
+00:10:32,018 --> 00:10:38,049
+ended questions. After asking the
+question, give somebody a chance to
+
+107
+00:10:38,049 --> 00:10:49,018
+respond. A little of silence is golden.
+When I first try to teaching, I made a
+
+108
+00:10:49,018 --> 00:10:54,090
+mistake that a lot of young teachers make.
+I would ask the class for a question and
+
+109
+00:10:54,090 --> 00:11:00,070
+after seventeen milliseconds when nobody
+had answered I would jump in and offer the
+
+110
+00:11:00,070 --> 00:11:06,022
+question myself. I trained the students
+that they needed to be part of the class,
+
+111
+00:11:06,062 --> 00:11:11,098
+That I would always answer every question.
+There is no reason to participate. One of
+
+112
+00:11:11,098 --> 00:11:17,021
+my colleagues taught me to wait a little
+longer, And it's amazing even in quiet
+
+113
+00:11:17,021 --> 00:11:22,037
+classrooms before students are used to
+interacting. Let a few seconds of silence
+
+114
+00:11:22,037 --> 00:11:27,060
+happen and people will start to try them
+in. The same is true with interviews. You
+
+115
+00:11:27,060 --> 00:11:32,032
+may get a quick answer first. Let some
+silence happen. After a few seconds,
+
+116
+00:11:32,032 --> 00:11:36,084
+you'll hear the second story. And the
+second story is often a lot more
