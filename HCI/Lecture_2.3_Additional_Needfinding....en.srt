@@ -1,0 +1,603 @@
+1
+00:00:00,095 --> 00:00:05,080
+In addition to participant observation and structured interviews,
+
+2
+00:00:05,080 --> 00:00:09,063
+there are other ways that you can forage for design insights.
+
+3
+00:00:09,063 --> 00:00:13,082
+For example, what do you do when the behaviour that you are interested in
+
+4
+00:00:13,082 --> 00:00:19,076
+happens over a long period of time, or is sporadic, or both?
+
+5
+00:00:19,076 --> 00:00:22,007
+Interviews are hard for the same reason.
+
+6
+00:00:22,007 --> 00:00:28,019
+One effective solution in places like this is for the participant to do the capturing themselves.
+
+7
+00:00:29,015 --> 00:00:34,034
+One common class of technique for doing this is what I call diary studies.
+
+8
+00:00:34,034 --> 00:00:41,019
+In this technique, you give people a diary that they complete at a specific time or interval,
+
+9
+00:00:41,019 --> 00:00:45,022
+for example every evening or at every meal.
+
+10
+00:00:45,022 --> 00:00:51,042
+In general, diary studies are used to record a specific piece of information,
+
+11
+00:00:51,042 --> 00:00:55,044
+like “how happy you feel” or “what you ate.”
+
+12
+00:00:55,044 --> 00:01:00,004
+Often the diary has some sort of structure to help you complete that efficiently.
+
+13
+00:01:00,004 --> 00:01:06,063
+You can use normal old paper, text journals; you can use still or video cameras;
+
+14
+00:01:06,063 --> 00:01:11,086
+you can have audio recording — whatever is appropriate for the task that you’re trying to capture.
+
+15
+00:01:11,086 --> 00:01:15,029
+In selecting from among the different media that you can use for capturing,
+
+16
+00:01:15,029 --> 00:01:23,022
+like video versus audio versus text versus photos; analog versus digital; pay attention to the context.
+
+17
+00:01:23,022 --> 00:01:26,068
+If you’ll like to capture information about somebody’s mobile phone,
+
+18
+00:01:26,068 --> 00:01:32,014
+maybe you’d give them a piece of paper with some structure on it, like a couple of scales
+
+19
+00:01:32,014 --> 00:01:37,083
+that they’d keep with them on their phone, so, that way, whenever they pull out their phone,
+
+20
+00:01:37,083 --> 00:01:42,055
+the diary entry that you’d like them to fill out is right there with it too.
+
+21
+00:01:42,055 --> 00:01:50,048
+In some cases, an audio recorder will be the easiest way to get people to actually record information
+
+22
+00:01:50,048 --> 00:01:54,047
+at the relevant time, like maybe if somebody’s driving.
+
+23
+00:01:54,047 --> 00:01:59,046
+In other cases, like during a lecture, speaking out loud might be inappropriate,
+
+24
+00:01:59,046 --> 00:02:03,007
+and so you’ll want to have somebody have marks on paper.
+
+25
+00:02:03,007 --> 00:02:09,075
+One of the appealing features of diary studies is that they can scale a lot better than direct observation.
+
+26
+00:02:09,075 --> 00:02:16,037
+Direct observation is limited by the amount of time that you can spend with the participants;
+
+27
+00:02:16,037 --> 00:02:21,006
+with a diary study, you’re only limited by the amount of materials that you can give out
+
+28
+00:02:21,006 --> 00:02:23,078
+or that you can aggregate later on.
+
+29
+00:02:23,078 --> 00:02:28,063
+The most important piece of design for creating an effective diary study
+
+30
+00:02:28,063 --> 00:02:33,001
+is to have the entry be as frictionless as possible.
+
+31
+00:02:33,001 --> 00:02:38,031
+The easier it is for participants to mark down the information that you’re interested in,
+
+32
+00:02:38,031 --> 00:02:41,040
+the higher quality the results that you’re going to get.
+
+33
+00:02:41,040 --> 00:02:46,074
+With a diary study, like any user interface, the results that you’ll get will be best
+
+34
+00:02:46,074 --> 00:02:50,042
+if you offered people some training and some practice.
+
+35
+00:02:50,042 --> 00:02:56,069
+Also, any time you’re changing people’s behaviour, like asking them to record into a diary,
+
+36
+00:02:56,069 --> 00:03:00,067
+they’ll do it for a while, and then it’s easy to fall off the wagon and forget,
+
+37
+00:03:00,067 --> 00:03:04,033
+and so you may want to follow up with people and remind them,
+
+38
+00:03:04,033 --> 00:03:08,070
+and that reminding brings us to our next technique, which is called “experience sampling.”
+
+39
+00:03:08,070 --> 00:03:15,017
+The idea behind experience sampling is to “beep” people at some regular interval,
+
+40
+00:03:15,017 --> 00:03:19,080
+and have them write down a key piece of information at that time.
+
+41
+00:03:19,080 --> 00:03:22,017
+Sometimes these are also called “pager studies”,
+
+42
+00:03:22,017 --> 00:03:26,072
+because many of the early studies in the 80’s and 90’s used pagers,
+
+43
+00:03:26,072 --> 00:03:33,000
+and an appeal of doing a pager study is that the participants don’t need to remember
+
+44
+00:03:33,000 --> 00:03:35,032
+because you’re actively reminding them.
+
+45
+00:03:35,032 --> 00:03:38,022
+They’re often coupled with some kind of diary,
+
+46
+00:03:38,022 --> 00:03:41,057
+so the paper beeps — or now it might be your mobile phone —
+
+47
+00:03:41,057 --> 00:03:44,059
+and then there’s a structured form that you’d fill in.
+
+48
+00:03:44,059 --> 00:03:48,064
+And these are, again, used for things like “How happy do you feel?”,
+
+49
+00:03:48,064 --> 00:03:51,044
+“What’s your energy level?”, “Where are you?”
+
+50
+00:03:51,044 --> 00:03:57,053
+Sometimes these take the form of a psychometric scale; other times these are more open-ended questions.
+
+51
+00:03:57,053 --> 00:04:02,040
+On the research front, technologies like wireless sensor networks are expanding the possibilities
+
+52
+00:04:02,040 --> 00:04:04,059
+for what the triggers can be
+
+53
+00:04:04,059 --> 00:04:08,051
+and for what kinds of information can be automatically or semi-automatically recorded.
+
+54
+00:04:08,051 --> 00:04:15,084
+Experience sampling, like diary studies, is useful for aggregating information across lots of people,
+
+55
+00:04:15,084 --> 00:04:19,081
+like, “Are there times of day that make people more or less happy?”
+
+56
+00:04:19,081 --> 00:04:27,001
+It’s easiest for you, as the researcher, if this information can be filled in in some digital form,
+
+57
+00:04:27,001 --> 00:04:31,021
+like a survey, so it can be automatically aggregated.
+
+58
+00:04:31,021 --> 00:04:36,083
+But sometimes, for practical reasons, paper will be the most ubiquitous tool out there,
+
+59
+00:04:36,083 --> 00:04:42,000
+and in that case, go with whatever you can to get people to actually fill it out.
+
+60
+00:04:42,000 --> 00:04:44,091
+In the techniques that we’ve talked about so far,
+
+61
+00:04:44,091 --> 00:04:49,017
+it’s the designer that ultimately comes up with the design ideas,
+
+62
+00:04:49,017 --> 00:04:54,051
+and the user’s behaviour serves as the father for that ideation.
+
+63
+00:04:54,051 --> 00:04:58,034
+Users can also be a great source of design ideas themselves,
+
+64
+00:04:58,034 --> 00:05:01,045
+especially advanced users or “lead users”.
+
+65
+00:05:01,045 --> 00:05:07,002
+And Eric von Hippel at MIT has been the champion of this approach for several decades.
+
+66
+00:05:07,002 --> 00:05:09,012
+He’s in the left of this picture,
+
+67
+00:05:09,012 --> 00:05:14,012
+and he’s hanging out with Dr. Nathaniel Sims at Mass. General Hospital at Boston.
+
+68
+00:05:14,012 --> 00:05:16,051
+Dr. Sims is an anesthesiologist.
+
+69
+00:05:16,051 --> 00:05:19,035
+Like almost anybody in almost any work environment,
+
+70
+00:05:19,035 --> 00:05:23,011
+he finds some of the tools that he has to use frustrating.
+
+71
+00:05:23,011 --> 00:05:25,097
+But he went one step further than most:
+
+72
+00:05:25,097 --> 00:05:30,057
+For example, when he needed to carry around a number of different medical devices,
+
+73
+00:05:30,057 --> 00:05:36,045
+he created for himself a carrying rack that could easily hold all of them at once,
+
+74
+00:05:36,045 --> 00:05:39,049
+so they can be moved around the hospital more efficiently.
+
+75
+00:05:39,049 --> 00:05:44,011
+He’s picked up several patents for his work over his career, including this device here,
+
+76
+00:05:44,011 --> 00:05:46,072
+which is called the “Nat rack”.
+
+77
+00:05:46,072 --> 00:05:50,061
+Lead users in all sorts of domains come up with clever solutions,
+
+78
+00:05:50,061 --> 00:05:56,037
+and one role of designers is to help lead users turn their individual solutions
+
+79
+00:05:56,037 --> 00:05:59,036
+into something that’s more generally useful.
+
+80
+00:05:59,036 --> 00:06:05,013
+And, in this way, lead users become a sort of distributed creation engine
+
+81
+00:06:05,013 --> 00:06:08,049
+who can collaborate with designers to bring products to market.
+
+82
+00:06:08,049 --> 00:06:14,091
+Lead user innovation works best when the reason that there’s not a better solution out there
+
+83
+00:06:14,091 --> 00:06:21,000
+is primarily because designers don’t understand what the user needs are,
+
+84
+00:06:21,000 --> 00:06:24,048
+or the context is shifting really rapidly.
+
+85
+00:06:24,048 --> 00:06:27,064
+And so, for example, Eric von Hippel has shown how
+
+86
+00:06:27,064 --> 00:06:33,000
+in places like surfng and snowboarding or other extreme sports that move quickly,
+
+87
+00:06:33,000 --> 00:06:37,074
+changing your equipment is not all that difficult, but things are fast-paced,
+
+88
+00:06:37,074 --> 00:06:44,020
+and so, to be able to do new tricks, people will modify their equipment to suit their needs.
+
+89
+00:06:44,020 --> 00:06:49,012
+Lead user innovation works less well when the necessary piece of information
+
+90
+00:06:49,012 --> 00:06:53,090
+is some kind of process knowledge, or a better factory, or something like that.
+
+91
+00:06:53,090 --> 00:06:58,043
+Related to lead users are what we might call “extreme users”.
+
+92
+00:06:58,043 --> 00:07:01,023
+Think about something like email.
+
+93
+00:07:01,023 --> 00:07:05,017
+All of us get a lot of email, but some of us get a lot more than others.
+
+94
+00:07:05,017 --> 00:07:09,062
+Those people who get a whole lot of email, far more than the average person,
+
+95
+00:07:09,062 --> 00:07:12,043
+they’re extreme users from the vantage point of email.
+
+96
+00:07:12,043 --> 00:07:16,074
+And we can often learn things from those extreme users —
+
+97
+00:07:16,074 --> 00:07:20,025
+how they handle thousands of messages a day, for example —
+
+98
+00:07:20,025 --> 00:07:26,074
+that we might then be able to encapsulate and make available to all users and help everyone.
+
+99
+00:07:26,074 --> 00:07:30,035
+Extreme users can be extreme in almost any direction,
+
+100
+00:07:30,035 --> 00:07:35,094
+and so people who have interesting professions are often a good source for extreme users.
+
+101
+00:07:35,094 --> 00:07:41,077
+One can be an extreme as a technophile, or one might be an extreme as a technophobe.
+
+102
+00:07:41,077 --> 00:07:47,026
+And so the person in the log cabin in Vermont, who checks email once a month,
+
+103
+00:07:47,026 --> 00:07:56,028
+might be as useful an extreme user as the CEO in Silicon Valley who gets thousands of messages a day.
+
+104
+00:07:56,028 --> 00:08:04,086
+While lead users and extreme users can often provide valuable design ideas  that transfer more broadly,
+
+105
+00:08:04,086 --> 00:08:10,091
+it’s not automatically the case, and, in fact, sometimes the extreme users are extreme
+
+106
+00:08:10,091 --> 00:08:14,018
+because they’re not the actual users.
+
+107
+00:08:14,018 --> 00:08:18,033
+Make sure you keep in mind the actual people that you’re designing for.
+
+108
+00:08:18,033 --> 00:08:22,045
+You do all this great design work at the beginning to learn what users need.
+
+109
+00:08:22,045 --> 00:08:27,006
+How do you keep their needs in mind throughout the entire design process?
+
+110
+00:08:27,006 --> 00:08:31,055
+How do you not lose track of these insights that you captured early on?
+
+111
+00:08:31,055 --> 00:08:38,047
+One great strategy for distilling the insights from participant observation, or interviews,
+
+112
+00:08:38,047 --> 00:08:43,008
+diary studies, experience sampling — any of the techniques you choose —
+
+113
+00:08:43,008 --> 00:08:52,042
+is to create from those insights “personas”, who are abstract users who represent what you’ve found
+
+114
+00:08:52,042 --> 00:08:55,038
+when you went out and looked at real users.
+
+115
+00:08:55,038 --> 00:09:00,014
+So, a persona is a model of a person; they’re an example.
+
+116
+00:09:00,014 --> 00:09:04,040
+They’re not any one human being, but they are concrete.
+
+117
+00:09:04,040 --> 00:09:10,030
+So, a persona is going to include demographic information, and also their motivation —
+
+118
+00:09:10,030 --> 00:09:15,082
+Why do they want to use the system that you’re creating? What would make them not use it?
+
+119
+00:09:15,082 --> 00:09:21,028
+What are their beliefs? What are their intentions? What are their behaviours? and what are their goals?
+
+120
+00:09:21,028 --> 00:09:29,090
+What often happens in a design process is that one design member of the team want to build something,
+
+121
+00:09:29,090 --> 00:09:36,072
+and so they’ll make up a story about why that particular thing might be useful to somebody.
+
+122
+00:09:36,072 --> 00:09:41,050
+A persona keeps you grounded. You can say, “How would Steve use this?”
+
+123
+00:09:41,050 --> 00:09:48,046
+or, “Would this additional feature fit with Steve’s desire for a minimalist system?”
+
+124
+00:09:48,046 --> 00:09:53,066
+To make these personas real, it’s nice to have a picture or a photo.
+
+125
+00:09:53,066 --> 00:09:59,062
+In fact you can use stock photography, or one of the photographs from your needfinding
+
+126
+00:09:59,062 --> 00:10:01,094
+to anchor that persona visually.
+
+127
+00:10:01,094 --> 00:10:06,078
+Make sure to give your persona a name, give them an occupation, and a background.
+
+128
+00:10:06,078 --> 00:10:11,022
+They should have some hopes and dreams. Give them a story to tell.
+
+129
+00:10:11,022 --> 00:10:14,069
+They should really come alive and feel like a real human being.
+
+130
+00:10:14,069 --> 00:10:21,028
+It’s easier to be empathic towards a particular person than a generic one,
+
+131
+00:10:21,028 --> 00:10:23,020
+and that’s how personas help:
+
+132
+00:10:23,020 --> 00:10:28,013
+By knowing what a persona thinks, does, and feels, it helps you build empathy;
+
+133
+00:10:28,013 --> 00:10:32,054
+it helps you understand the states of mind, the emotions, the philosophy,
+
+134
+00:10:32,054 --> 00:10:35,058
+the beliefs, the point of view of that user.
+
+135
+00:10:35,058 --> 00:10:41,056
+Personas also keep designs coherent and consistent over time,
+
+136
+00:10:41,056 --> 00:10:45,025
+rather than a scattered-shot agglomeration of features.
+
+137
+00:10:45,025 --> 00:10:52,036
+And, perhaps most importantly, the empathy that you’d build by designing for a particular persona
+
+138
+00:10:52,036 --> 00:10:56,004
+can often lead to insights that you wouldn’t otherwise have,
+
+139
+00:10:56,004 --> 00:10:58,096
+and this gives you new design opportunities
+
+140
+00:10:58,096 --> 00:11:03,097
+and can help you be more innovative than existing solutions that are out there.
+
+141
+00:11:04,096 --> 00:11:10,052
+We’ve talked about several strategies for engaging the people to come out with new design ideas.
+
+142
+00:11:10,052 --> 00:11:16,068
+This is the best way that I know how to reliably come up with innovative ideas.
+
+143
+00:11:16,068 --> 00:11:21,080
+But that doesn’t mean that every single design has to work this way —
+
+144
+00:11:21,080 --> 00:11:24,050
+every design process has to work this way —
+
+145
+00:11:24,050 --> 00:11:29,000
+and it doesn’t mean that, automatically, if you failed to follow this design process,
+
+146
+00:11:29,000 --> 00:11:31,063
+then your design is automatically bad.
+
+147
+00:11:31,063 --> 00:11:37,066
+It’s not like, if your startup goes public, the SEC, on its filing forms will ask you
+
+148
+00:11:37,066 --> 00:11:41,015
+“Did you follow a rigorous needfinding process?”
+
+149
+00:11:41,015 --> 00:11:44,080
+Ultimately, what people are excited about is the design,
+
+150
+00:11:44,080 --> 00:11:51,090
+and all I’m offering here is a set of tools that will help you, with the best odds that I know of,
+
+151
+00:11:51,090 --> 99:59:59,000
+give you as as great a design as you can get.
