@@ -91,12 +91,12 @@ Key to the Memex idea was effective user interfaces for information storage and 
 Remember, this is 1945, so there aren’t yet practical digital computers —
 
 24
-00:01:39,041 --> 00:01:44,094
-the first room-scale digital computers were just being built, and the idea was to use microfiche —
+00:01:39,041 --> 00:01:42,059
+the first room-scale digital computers were just being built —
 
 25
-00:01:44,094 --> 00:01:47,089
-high density film — to store everything!
+00:01:42,059 --> 00:01:47,089
+and the idea was to use microfiche — high density film — to store everything!
 
 26
 00:01:47,089 --> 00:01:51,097
@@ -123,11 +123,11 @@ And knowledge workers need to produce content as well as consume it.
 And the world isn’t just textual; it’s also visual.
 
 32
-00:02:11,041 --> 00:02:14,056
+00:02:11,041 --> 00:02:14,041
 So Bush imagined that, in the future, you’d wear a camera,
 
 33
-00:02:14,056 --> 00:02:19,025
+00:02:14,041 --> 00:02:19,025
 right in the centre of your head, like a third eye, and use it to capture stuff.
 
 34
@@ -476,7 +476,7 @@ Second, as Johnny Lee and Bill Buxton point out, if you are looking for a good f
 
 120
 00:08:36,001 --> 00:08:42,052
-the seeds you need may already be out there in rough form, waiting for you to polish it and do a diamond.
+the seeds you need may already be out there in rough form, waiting for you to polish it into a diamond.
 
 121
 00:08:42,052 --> 99:59:59,000
