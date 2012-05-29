@@ -115,565 +115,613 @@ through network effects and things like that.
 To give you a flavour of this, I’d like to quickly run through some common types of empiracal research in HCI.
 
 30
-00:02:08,053 --> 00:02:14,002
-The examples I’ll show are mostly published work of one sort or another, because that’s the easiest stuff to share.
+00:02:08,053 --> 00:02:11,074
+The examples I’ll show are mostly published work of one sort or another,
 
 31
+00:02:11,074 --> 00:02:14,002
+because that’s the easiest stuff to share.
+
+32
 00:02:14,002 --> 00:02:18,065
 If you have good examples from current systems out in the world, post them to the forum!
 
-32
+33
 00:02:18,065 --> 00:02:21,012
 I keep an archive of user interface examples,
 
-33
+34
 00:02:21,012 --> 00:02:24,043
 and I and the other students would love to see what you can come up with.
 
-34
+35
 00:02:24,043 --> 00:02:27,017
 One way to learn about the user experience of a design
 
-35
+36
 00:02:27,017 --> 00:02:30,081
 is to bring people into your lab or office and have them try it out.
 
-36
+37
 00:02:30,081 --> 00:02:32,097
 We often call these usability studies.
 
-37
+38
 00:02:32,097 --> 00:02:37,045
 This “watch someone use my interface” approach is a common one in HCI.
 
-38
+39
 00:02:37,045 --> 00:02:43,062
 This basic strategy for traditional user-centred design is to iteratively bring people
 
-39
+40
 00:02:43,062 --> 00:02:48,022
 into your lab or office until you run out of time. And then release.
 
-40
+41
 00:02:48,022 --> 00:02:52,031
 And, if you had deep pockets, these rooms had a one-way glass mirror,
 
-41
+42
 00:02:52,031 --> 00:02:54,068
 and the development team was on the other side.
 
-42
-00:02:54,068 --> 00:02:59,024
-In a leaner environment, this may be just bring in people into your dorm room orffice.
-
 43
+00:02:54,068 --> 00:02:59,024
+In a leaner environment, this may be just bring in people into your dorm room office.
+
+44
 00:02:59,024 --> 00:03:01,067
 You’ll learn a huge amount by doing this.
 
-44
-00:03:01,067 --> 00:03:07,073
-Every single time that I or a student, friend, or colleague has watched somebody use a new interactive system,
-
 45
+00:03:01,067 --> 00:03:04,070
+Every single time that I or a student, friend, or colleague
+
+46
+00:03:04,070 --> 00:03:07,073
+has watched somebody use a new interactive system,
+
+47
 00:03:07,073 --> 00:03:14,018
 we learn something, [as,] as designers we get blinders to systems’ quirks, bugs, and false assumptions.
 
-46
+48
 00:03:15,030 --> 00:03:19,056
 However, there are some major shortcomings to this approach.
 
-47
+49
 00:03:19,056 --> 00:03:24,012
 In particular, the setting probably isn’t very ecologically valid.
 
-48
+50
 00:03:24,012 --> 00:03:29,046
 In the real world, people may have different tasks, goals, motivations, and physical settings
 
-49
+51
 00:03:29,046 --> 00:03:32,028
 than your office or lab.
 
-50
+52
 00:03:32,028 --> 00:03:35,035
 This can be especially true for user interfaces that you think people might  use on the go,
 
-51
+53
 00:03:35,035 --> 00:03:38,040
 like at a bus stop or while waiting in line.
 
-52
+54
 00:03:38,040 --> 00:03:40,082
 Second, there can be a “please me” experimental bias,
 
-53
+55
 00:03:40,082 --> 00:03:44,012
 where  when you bring somebody in to try out a user interface,
 
-54
+56
 00:03:44,012 --> 00:03:47,033
 they know that they’re trying out the technology that you developed
 
-55
-00:03:47,033 --> 00:03:54,059
-and so they may work harder or be nicer than they would if they had to use it without the constraints of a lab setup
+57
+00:03:47,033 --> 00:03:50,096
+and so they may work harder or be nicer
 
-56
+58
+00:03:50,096 --> 00:03:54,059
+than they would if they had to use it without the constraints of a lab setup
+
+59
 00:03:54,059 --> 00:03:58,049
 with the person who developed it watching right over them.
 
-57
+60
 00:03:58,049 --> 00:04:03,033
 Third, in its most basic form where you’re just trying out just one  user interface, there is no comparison point.
 
-58
+61
 00:04:03,033 --> 00:04:09,017
 So while you can track when people laugh, or swear, or smile with joy,
 
-59
+62
 00:04:09,017 --> 00:04:12,045
 you won’t know whether they would’ve laugh more, or sworn less, or smiled more
 
-60
+63
 00:04:12,045 --> 00:04:14,097
 if you’d had a different user interface.
 
-61
+64
 00:04:14,097 --> 00:04:18,017
 And finally it requires bringing people to your physical location.
 
-62
+65
 00:04:18,017 --> 00:04:20,059
 This is often a whole lot easier than a lot of people think.
 
-63
+66
 00:04:20,059 --> 00:04:23,084
 It can be a psychological burden, even if nothing else.
 
-64
+67
 00:04:24,030 --> 00:04:28,017
 A very different way of getting feedback from people is to use a survey.
 
-65
-00:04:28,017 --> 00:04:34,012
-Here is an example of a survey that I got recently from San Francisco asking about different street light designs.
+68
+00:04:28,017 --> 00:04:31,014
+Here is an example of a survey that I got recently from San Francisco
 
-66
+69
+00:04:31,014 --> 00:04:34,012
+asking about different street light designs.
+
+70
 00:04:34,012 --> 00:04:38,015
 Surveys are great because you can quickly get feedback from a large number of responses.
 
-67
+71
 00:04:38,015 --> 00:04:41,035
 And it’s relatively easy to compare multiple alternatives.
 
-68
+72
 00:04:41,035 --> 00:04:44,038
 You can also automatically tally the results.
 
-69
+73
 00:04:44,038 --> 00:04:48,038
 You don’t even need to build anything; you can just show screen shots or mock-ups.
 
-70
+74
 00:04:48,038 --> 00:04:50,053
 One of the things that I’ve learned the hard way, though,
 
-71
+75
 00:04:50,053 --> 00:04:55,014
 is the difference between what people say they’re going to do and what they actually do.
 
-72
+76
 00:04:55,014 --> 00:04:59,002
 Ask people how often they exercise and you’ll probably get a much more optimistic answer
 
-73
+77
 00:04:59,002 --> 00:05:02,005
 than how often they really do exercise.
 
-74
+78
 00:05:02,005 --> 00:05:05,017
 The same holds for the street light example here.
 
-75
+79
 00:05:05,017 --> 00:05:08,099
 Try to imagine what a number of different street light designs might be
 
-76
-00:05:08,099 --> 00:05:15,038
-is really different than actually observing them on the street and having them become part of normal everyday life.
+80
+00:05:08,099 --> 00:05:12,019
+is really different than actually observing them on the street
 
-77
+81
+00:05:12,019 --> 00:05:15,038
+and having them become part of normal everyday life.
+
+82
 00:05:15,038 --> 00:05:18,008
 Still, it can be valuable to get feedback.
 
-78
+83
 00:05:18,008 --> 00:05:20,043
 Another type of responder strategy is focus groups.
 
-79
+84
 00:05:20,043 --> 00:05:26,004
 In a focus group, you’ll gather together a small group of people to discuss a design or idea.
 
-80
+85
 00:05:26,004 --> 00:05:31,037
 The fact that focus groups involve a group of people is a double-edged sword.
 
-81
+86
 00:05:31,037 --> 00:05:37,054
 On one hand, you can get people to tease out of their colleagues things that they might not have thought
 
-82
+87
 00:05:37,054 --> 00:05:44,057
 to say on their own; on the other hand, for a variety of psychological reasons, people may be inclined
 
-83
+88
 00:05:44,057 --> 00:05:48,077
 to say polite things or generate answers completely on the spot
 
-84
+89
 00:05:48,077 --> 00:05:53,078
 that are totally uncorrelated with what they believe or what they would actually do.
 
-85
+90
 00:05:54,066 --> 00:05:59,098
 Focus groups can be a particularly problematic method when you are looking at trying to gather data
 
-86
+91
 00:05:59,098 --> 00:06:04,013
 about taboo topics or about cultural biases.
 
-87
+92
 00:06:04,013 --> 00:06:06,072
 With those caveats — right now we’re just making a laundry list, and —
 
-88
+93
 00:06:06,072 --> 00:06:12,031
 I think that focus groups, like almost any  other method, can play an important role in your toolbelt.
 
-89
+94
 00:06:13,041 --> 00:06:16,057
 Our third category of techniques is to get feedback from experts.
 
-90
+95
 00:06:16,057 --> 00:06:22,090
 For example, in this class we’re going to do  a bunch of peer critique for your weekly project assignments.
 
-91
+96
 00:06:22,090 --> 00:06:25,036
 In addition to having users try your interface,
 
-92
+97
 00:06:25,036 --> 00:06:29,077
 it can be important to eat your own dog food and use the tools that you built yourself.
 
-93
+98
 00:06:29,077 --> 00:06:35,006
 When you are getting feedback from experts, it can often be helpful to have some kind of structured format,
 
-94
+99
 00:06:35,006 --> 00:06:38,055
 much like the rubrics you’ll see in your project assignments.
 
-95
+100
 00:06:38,055 --> 00:06:44,088
 And, for getting feedback on user interfaces, one common approach to this  structured feedback
 
-96
+101
 00:06:44,088 --> 00:06:48,038
 is called heuristic evaluation, and you’ll learn how to do that in this class;
 
-97
+102
 00:06:48,038 --> 00:06:51,005
 it’s pioneered by Jacob Nielson.
 
-98
+103
 00:06:51,005 --> 00:06:53,049
 Our next genre is comparative experiments:
 
-99
+104
 00:06:53,049 --> 00:06:57,056
 taking two or more distinct options and comparing their performance to each other.
 
-100
+105
 00:06:57,056 --> 00:07:00,018
 These comparisons can take place in lots of different ways:
 
-101
+106
 00:07:00,018 --> 00:07:04,006
 They can be in the lab; they can be in the field; they can be online.
 
-102
+107
 00:07:04,006 --> 00:07:06,054
 These experiments can be more-or-less controlled,
 
-103
+108
 00:07:06,054 --> 00:07:10,012
 and they can take place over shorter or longer durations.
 
-104
-00:07:10,012 --> 00:07:15,065
-What you’re trying to learn here is which option is the more effective, and, more often,
+109
+00:07:10,012 --> 00:07:14,023
+What you’re trying to learn here is which option is the more effective,
 
-105
-00:07:15,065 --> 00:07:21,042
-what are the active ingredients, what are the variables that matter in creating the user experience that you seek.
+110
+00:07:14,023 --> 00:07:16,099
+and, more often, what are the active ingredients,
 
-106
+111
+00:07:16,099 --> 00:07:21,042
+what are the variables that matter in creating the user experience that you seek.
+
+112
 00:07:22,000 --> 00:07:26,071
 Here’s an example: My former PhD student Joel Brandt, and his colleague at Adobe,
 
-107
+113
 00:07:26,071 --> 00:07:30,084
 ran a number of studies comparing help interfaces for programmers.
 
-108
+114
 00:07:32,013 --> 00:07:38,031
 In particular they compared a more traditional search-style user interface for finding programming help
 
-109
+115
 00:07:38,031 --> 00:07:43,044
 with a search interface that integrated programming help directly into your environment.
 
-110
+116
 00:07:43,044 --> 00:07:46,097
 By running these comparisons they were able to see how programmers’ behaviour differed
 
-111
+117
 00:07:46,097 --> 00:07:50,058
 based on the changing help user interface.
 
-112
+118
 00:07:50,058 --> 00:07:53,069
 Comparative experiments have an advantage over surveys
 
-113
+119
 00:07:53,069 --> 00:07:57,023
 in that you get to see the actual behaviour as opposed to self report,
 
-114
+120
 00:07:57,023 --> 00:08:02,032
 and they can be better than usability studies because you’re comparing multiple alternatives.
 
-115
+121
 00:08:02,032 --> 00:08:06,078
 This enables you to see what works better or worse, or at least what works different.
 
-116
+122
 00:08:06,078 --> 00:08:10,036
 I find that comparative feedback is also often much more actionable.
 
-117
+123
 00:08:11,016 --> 00:08:13,093
 However, if you are running controlled experiments online,
 
-118
+124
 00:08:13,093 --> 00:08:18,007
 you don’t get to see much about the person on the other side of the screen.
 
-119
+125
 00:08:18,007 --> 00:08:20,077
 And if you are inviting people into your office or lab,
 
-120
+126
 00:08:20,077 --> 00:08:24,011
 the behaviour you’re measuring might not be very realistic.
 
-121
+127
 00:08:24,011 --> 00:08:30,028
 If realistic longitudinal behaviour is what you’re after, participant observation may be the approach for you.
 
-122
+128
 00:08:30,028 --> 00:08:36,041
 This approach is just what it sounds like: observing what people actually do in their actual work environment.
 
-123
+129
 00:08:36,041 --> 00:08:40,022
 And this more long-term evaluation can be important for uncovering things
 
-124
+130
 00:08:40,022 --> 00:08:44,013
 that you might not see in shorter term, more controlled scenarios.
 
-125
+131
 00:08:44,013 --> 00:08:48,001
 For example, my colleagues Bob Sutton and Andrew Hargadon studied brainstorming.
 
-126
-00:08:48,001 --> 00:08:54,040
-The prior literature on brainstorming had focused mostly on questions like “Do people come up with more ideas?”
+132
+00:08:48,001 --> 00:08:51,065
+The prior literature on brainstorming had focused mostly on questions like
 
-127
-00:08:54,040 --> 00:09:00,051
-What Bob and Andrew realized by going into the field was that brainstorming served a number of other functions also,
+133
+00:08:51,065 --> 00:08:54,040
+“Do people come up with more ideas?”
 
-128
+134
+00:08:54,040 --> 00:08:56,082
+What Bob and Andrew realized by going into the field
+
+135
+00:08:56,082 --> 00:09:00,051
+was that brainstorming served a number of other functions also,
+
+136
 00:09:00,051 --> 00:09:05,036
 like, for example, brainstorming provides a way for members of the design team
 
-129
+137
 00:09:05,036 --> 00:09:08,008
 to demonstrate their creativity to their peers;
 
-130
+138
 00:09:08,008 --> 00:09:13,021
 it allows them to pass along knowledge that then can be reused in other projects;
 
-131
+139
 00:09:13,021 --> 00:09:19,005
 and it creates a fun, exciting environment that people like to work in and that clients like to participate in.
 
-132
+140
 00:09:19,005 --> 00:09:22,020
 In a real ecosystem, all of these things are important,
 
-133
+141
 00:09:22,020 --> 00:09:25,051
 in addition to just having the ideas that people come up with.
 
-134
+142
 00:09:26,019 --> 00:09:32,090
 Nearly all experiments seek to build a theory on some level — I don’t mean anything fancy by this,
 
-135
+143
 00:09:32,090 --> 00:09:37,030
 just that we take some things to be more relevant, and other things less relevant.
 
-136
-00:09:37,030 --> 00:09:43,006
-We might, for example, assume that the ordering of search results may play an important role in what people click on,
+144
+00:09:37,030 --> 00:09:39,025
+We might, for example, assume
 
-137
-00:09:43,006 --> 00:09:49,076
-but that the batting average of the Detroit Tigers doesn’t, unless, of course, somebody’s searching for baseball.
+145
+00:09:39,025 --> 00:09:43,006
+that the ordering of search results may play an important role in what people click on,
 
-138
+146
+00:09:43,006 --> 00:09:46,041
+but that the batting average of the Detroit Tigers doesn’t,
+
+147
+00:09:46,041 --> 00:09:49,076
+unless, of course, somebody’s searching for baseball.
+
+148
 00:09:49,076 --> 00:09:55,009
 If you have a theory that sufficiently, formal mathematically that you may make predictions,
 
-139
+149
 00:09:55,009 --> 00:10:00,003
 then you can compare alternative interfaces using that model, without having to bring people in.
 
-140
+150
 00:10:00,003 --> 00:10:05,057
 And we’ll go over that in this class a little bit, with respect to input models.
 
-141
+151
 00:10:05,057 --> 00:10:10,007
 This makes it possible to try out a number of alternatives really fast.
 
-142
-00:10:10,007 --> 00:10:16,037
-Consequently, when people use simulations it’s often in conjunction with something like Monte Carlo optimization.
+152
+00:10:10,007 --> 00:10:12,028
+Consequently, when people use simulations,
 
-143
+153
+00:10:12,028 --> 00:10:16,037
+it’s often in conjunction with something like Monte Carlo optimization.
+
+154
 00:10:16,037 --> 00:10:19,093
 One example of this can be found in the ShapeWriter system,
 
-144
+155
 00:10:19,093 --> 00:10:22,073
 where Shuman Zhai and colleagues figured out how to build a keyboard
 
-145
+156
 00:10:22,073 --> 00:10:26,012
 where people could enter an entire word in a single stroke.
 
-146
+157
 00:10:26,012 --> 00:10:31,024
 They were able to do this with the benefit of formal models and optimization-based approaches.
 
-147
+158
 00:10:31,024 --> 00:10:34,040
 Simulation has mostly been used for input techniques
 
-148
+159
 00:10:34,040 --> 00:10:39,079
 because people’s motor performance is probably the most well-quantified area of HCI.
 
-149
+160
 00:10:39,079 --> 00:10:42,070
 And, while we won’t get much to it in this intro course,
 
-150
+161
 00:10:42,070 --> 00:10:46,026
 simulation can also be used for higher-level cognitive tasks;
 
-151
-00:10:46,026 --> 00:10:51,052
-for example, Pete Pirolli and colleagues at PARC had built impressive models of people’s web-searching behaviour.
+162
+00:10:46,026 --> 00:10:48,049
+for example, Pete Pirolli and colleagues at PARC
 
-152
+163
+00:10:48,049 --> 00:10:51,052
+had built impressive models of people’s web-searching behaviour.
+
+164
 00:10:52,046 --> 00:10:57,025
 These models enable them to estimate, for example, which links somebody is most likely to click on
 
-153
+165
 00:10:57,025 --> 00:11:00,023
 by looking at the relevant link texts.
 
-154
+166
 00:11:00,023 --> 00:11:05,007
 That’s our whirlwind tour of a number of empirical methods that this class will introduce.
 
-155
+167
 00:11:05,007 --> 00:11:09,048
 You’ll want to pick the right method for the right task, and here’s some issues to consider:
 
-156
+168
 00:11:09,048 --> 00:11:13,018
 If you did it again, would you get the same thing?
 
-157
+169
 00:11:13,018 --> 00:11:18,054
 Another is generalizability and realism — Does this hold for people other than 18-year-old
 
-158
+170
 00:11:18,054 --> 00:11:23,013
 upper-middle-class students who are doing this for course credit or a gift certificate?
 
-159
+171
 00:11:23,013 --> 00:11:28,054
 Is this behaviour also what you’d see in the real world, or only in a more stilted lab environment?
 
-160
+172
 00:11:28,054 --> 00:11:30,086
 Comparisons are important, because they can tell you
 
-161
+173
 00:11:30,087 --> 00:11:34,035
 how the user experience would change with different interface choices,
 
-162
+174
 00:11:34,035 --> 00:11:38,055
 as opposed to just a “people liked it” study.
 
-163
+175
 00:11:38,055 --> 00:11:42,078
 It’s also important to think about how to achieve how these insights efficiently,
 
-164
+176
 00:11:42,078 --> 00:11:48,074
 and not chew up a lot of resources, especially when your goal is practical.
 
-165
+177
 00:11:48,074 --> 00:11:54,025
 My experience as a designer, researcher, teacher, consultant, advisor and mentor has taught me
 
-166
+178
 00:11:54,025 --> 00:12:01,033
 that evaluating designs with people is both easier and more valuable than many people expect,
 
-167
+179
 00:12:01,033 --> 00:12:04,070
 and there’s an incredible lightbulb moment that happens
 
-168
+180
 00:12:04,070 --> 00:12:08,083
 when you actually get designs in front of people and see how they use them.
 
-169
+181
 00:12:08,083 --> 00:12:12,094
 So, to sum up this video, I’d like to ask what could be the most important question:
 
-170
+182
 00:12:12,094 --> 99:59:59,000
 “What do you want to learn?”
