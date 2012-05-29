@@ -20,19 +20,19 @@ but the most important thing is to get people who are representative of the targ
 
 6
 00:00:29,083 --> 00:00:32,091
-who are the people who are going to be using your system —
+who are the people who are going to be using your system.
 
 7
 00:00:32,091 --> 00:00:34,048
-talk to them.
+Talk to them!
 
 8
 00:00:34,048 --> 00:00:41,065
-Now they may be current users of a similar system if you’re creating a better something.
+Now they may be current users of a similar system if you’re creating a better something,
 
 9
 00:00:41,065 --> 00:00:47,013
-You’ll likely find current users and you’ll want to learn what they care about,
+you’ll likely find current users and you’ll want to learn what they care about,
 
 10
 00:00:47,013 --> 00:00:49,023
@@ -43,485 +43,525 @@ what problems they see.
 They might also be non-users.
 
 12
-00:00:51,072 --> 00:01:01,042
-So, one reason that you might be building your technology is to broaden the set of people that can do a certain task
+00:00:51,072 --> 00:00:56,057
+So, one reason that you might be building your technology
 
 13
+00:00:56,057 --> 00:01:01,042
+is to broaden the set of people that can do a certain task
+
+14
 00:01:01,042 --> 00:01:04,076
 and in that case you’ll want to talk to the non-users.
 
-14
+15
 00:01:04,076 --> 00:01:09,081
 Learn about what barriers you see, learn about what their goals are.
 
-15
+16
 00:01:09,081 --> 00:01:13,076
 Say, for example, you’re designing a lecture support system.
 
-16
+17
 00:01:13,076 --> 00:01:16,073
 Who would you interview in this case?
 
-17
+18
 00:01:17,038 --> 00:01:23,037
 There’s a lot of stakeholders: You might pick the teacher.
 
-18
+19
 00:01:23,037 --> 00:01:27,066
 You might pick the students. You might also pick the teaching staff.
 
-19
+20
 00:01:27,066 --> 00:01:35,095
 Maybe the department administrators that are responsible for making sure the grading is handled properly.
 
-20
+21
 00:01:35,095 --> 00:01:37,045
 Maybe even the parents.
 
-21
+22
 00:01:37,045 --> 00:01:39,058
 It’s important to get different types of users.
 
-22
+23
 00:01:39,058 --> 00:01:44,063
 So, you might have both the freshman and a PhD student.
 
-23
+24
 00:01:44,063 --> 00:01:49,016
 You might have a domestic student and an international student.
 
-24
+25
 00:01:49,016 --> 00:01:51,078
 Somebody that’s in major and out of major.
 
-25
+26
 00:01:51,078 --> 00:01:53,096
 Stronger and weaker students.
 
-26
+27
 00:01:53,096 --> 00:01:57,004
 There are a lot of different kinds of users.
 
-27
+28
 00:01:57,004 --> 00:02:02,092
 You can’t get them all, but you’ll want to find several different people
 
-28
+29
 00:02:02,092 --> 00:02:07,062
 who are representative of major user groups, and talk to them.
 
-29
+30
 00:02:08,069 --> 00:02:10,068
 How can you find these people?
 
-30
-00:02:10,068 --> 00:02:17,035
-Well, one great strategy if you’re in the US is to use Craigslist.
-
 31
+00:02:10,068 --> 00:02:17,035
+Well, one great strategy, if you’re in the US, is to use Craigslist.
+
+32
 00:02:17,037 --> 00:02:20,052
 You can also reach out through friends and family.
 
-32
+33
 00:02:20,052 --> 00:02:24,055
 Your social network is a powerful tool for finding people to interview.
 
-33
+34
 00:02:24,055 --> 00:02:30,038
 That doesn’t just mean or even primarily mean “interview your sister”;
 
-34
-00:02:30,038 --> 00:02:33,056
-it means ask your sister whom she might know
-
 35
-00:02:33,056 --> 00:02:39,002
-or ask your friend to put you in touch with people they might know.
+00:02:30,038 --> 00:02:33,056
+it means “ask your sister whom she might know”
 
 36
+00:02:33,056 --> 00:02:39,002
+or “ask your friend to put you in touch with people they might know.”
+
+37
 00:02:39,002 --> 00:02:42,054
 It’s quite likely that you’ll need to pay people.
 
-37
-00:02:43,005 --> 00:02:51,047
-In the Bay Area, on Craigslist, somewhere in the land of 50 to 100 bucks for an interview seems to be the going rate.
-
 38
+00:02:43,005 --> 00:02:45,055
+In the Bay Area, on Craigslist,
+
+39
+00:02:45,055 --> 00:02:51,047
+somewhere in the land of 50 to 100 bucks for an interview seems to be the going rate.
+
+40
 00:02:51,047 --> 00:02:57,008
 This gets cheaper if you can have less specialized users.
 
-39
+41
 00:02:57,008 --> 00:03:03,035
 Also, the amount that you’ll need to pay people depends on what they believe is going to be used for.
 
-40
+42
 00:03:03,035 --> 00:03:07,036
 If you can convey that in some way you’re making the world a better place,
 
-41
+43
 00:03:07,036 --> 00:03:11,072
 people may be willing to offer their time for free, even.
 
-42
-00:03:11,072 --> 00:03:19,071
-On the other hand, if they believe that something will be used for a profit, they’ll likely want a fair wage for their time.
+44
+00:03:11,072 --> 00:03:15,071
+On the other hand, if they believe that something will be used for a profit,
 
-43
+45
+00:03:15,071 --> 00:03:19,071
+they’ll likely want a fair wage for their time.
+
+46
 00:03:19,071 --> 00:03:25,048
 If you’re a skunkworks project and don’t have enough money to really pay people,
 
-44
+47
 00:03:25,050 --> 00:03:29,041
 one thing that you can do is offer a token of appreciation.
 
-45
+48
 00:03:29,041 --> 00:03:36,053
 People often appreciate a small thoughtful gift that they can actually use, like a gift certificate or some sort,
 
-46
+49
 00:03:36,053 --> 00:03:38,093
 than they do cash.
 
-47
+50
 00:03:38,093 --> 00:03:42,054
 For example, a couple of years ago I’ve spoken at a local high school
 
-48
+51
 00:03:42,054 --> 00:03:47,015
 and the students gave me a gift certificate to a coffee shop.
 
-49
+52
 00:03:47,015 --> 00:03:53,038
 Now, the amount of money there was not much; but I meant that every time I travelled,
 
-50
+53
 00:03:53,038 --> 00:03:56,066
 I could go in the coffee shop in the airport and get a cup of coffee
 
-51
+54
 00:03:56,068 --> 00:04:01,015
 and it reminded me of that group of students and their thoughtfulness.
 
-52
+55
 00:04:04,057 --> 00:04:08,076
 Sometimes, especially early on the design project,
 
-53
+56
 00:04:08,076 --> 00:04:15,054
 it can be difficult to get a hold of exactly the users that you believe will eventually be the target.
 
-54
+57
 00:04:15,054 --> 00:04:20,005
 In this case don’t give up completely and interview nobody.
 
-55
+58
 00:04:20,005 --> 00:04:24,095
 Do the best you can; approximate if necessary.
 
-56
+59
 00:04:24,095 --> 00:04:28,059
 For example, if you are designing a system for doctors,
 
-57
+60
 00:04:28,059 --> 00:04:36,083
 early on the project, you might need to sacrifice and use medical students instead of doctors.
 
-58
+61
 00:04:36,083 --> 00:04:42,078
 Or if you are working on something for software engineers, you might get computer science students.
 
-59
+62
 00:04:42,078 --> 00:04:46,067
 Not ideal; better than nothing.
 
-60
+63
 00:04:48,067 --> 00:04:54,097
 I’ve been teaching and doing research in human-computer interaction for about 15 years now
 
-61
+64
 00:04:54,097 --> 00:05:05,027
 and I can’t tell you how many times I’ve talked to students or others who say that there’s nothing to be found,
 
-62
+65
 00:05:05,027 --> 00:05:11,074
 that, for the problem that they’re tackling, it’s either possible or obvious.
 
-63
+66
 00:05:11,074 --> 00:05:14,071
 It’s very rarely the case that there is nothing new.
 
-64
+67
 00:05:14,071 --> 00:05:18,081
 The more mundane the domain, the more creative you need to be.
 
-65
+68
 00:05:18,081 --> 00:05:22,002
 If you don’t believe me, Malcolm Gladwell the writer
 
-66
+69
 00:05:22,002 --> 00:05:28,093
 has a wonderful explanation in the introduction to his new book of collective stories « What the Dog [Saw] ».
 
-67
+70
 00:05:28,093 --> 00:05:35,059
 “The trick to finding ideas is to convince yourself that everyone and everything has a story to tell.
 
-68
+71
 00:05:35,059 --> 00:05:40,090
 I say trick, but what I really mean is challenge, because it’s a very hard thing to do.
 
-69
+72
 00:05:40,090 --> 00:05:45,010
 Shampoo doesn’t seem interesting? Well, dammit, it must be, and if it isn’t,
 
-70
+73
 00:05:45,010 --> 00:05:48,089
-I have to believe that it will ultimately lead me somewhere [sic] that is.”
+I have to believe that it will ultimately lead me [to something] that is.”
 
-71
+74
 00:05:48,089 --> 00:05:54,050
 “The other trick to finding ideas is figuring out the difference between power and knowledge.
 
-72
+75
 00:05:54,050 --> 00:05:58,021
 You don’t start at the top if you want to find the story.
 
-73
+76
 00:05:58,021 --> 00:06:04,020
 You start in the middle, because it’s the people in the middle who do the actual work in the world.
 
-74
+77
 00:06:04,020 --> 00:06:07,071
 My friend Dave, who taught me about ketchup, is a middle guy.
 
-75
+78
 00:06:07,071 --> 00:06:11,012
 He’s worked on ketchup. That’s how he knows about it.
 
-76
-00:06:11,012 --> 00:06:16,036
+79
+00:06:11,012 --> 00:06:15,073
 People at the top are self-conscious about what they say (and rightfully so)
 
-77
-00:06:16,036 --> 00:06:22,083
-because they have position and privilege to protect — and self consciousness is the enemy of ‘interestingness.’”
-
-78
-00:06:22,083 --> 00:06:25,014
-“In ‘The Pitchman’ you’ll meet Arnold Morris,
-
-79
-00:06:25,014 --> 00:06:30,060
-who gave me the pitch for the ‘Dial-O-Matic’ vegetable slicer one summer day in his kitchen on the Jersey Shore:
-
 80
-00:06:30,060 --> 00:06:36,088
-‘Come on over, folks. I’m going to show you the most amazing slicing machine you have ever seen in your life,’
+00:06:15,073 --> 00:06:18,058
+because they have position and privilege to protect —
 
 81
-00:06:36,088 --> 00:06:42,064
-he began. He picked up a package of barbecue spices and used it as a prop.
+00:06:18,059 --> 00:06:22,054
+and self consciousness is the enemy of ‘interestingness.’”
 
 82
+00:06:22,054 --> 00:06:25,066
+“In ‘The Pitchman’ you’ll meet Arnold Morris, who gave me the pitch
+
+83
+00:06:25,066 --> 00:06:30,060
+for the ‘Dial-O-Matic’ vegetable slicer one summer day in his kitchen on the Jersey Shore:
+
+84
+00:06:30,060 --> 00:06:32,077
+‘Come on over, folks.
+
+85
+00:06:32,077 --> 00:06:36,088
+I’m going to show you the most amazing slicing machine you have ever seen in your life,’ he began.
+
+86
+00:06:36,088 --> 00:06:42,064
+He picked up a package of barbecue spices and used it as a prop.
+
+87
 00:06:42,064 --> 00:06:48,030
 ‘Take a look at this!’ He held it in the air as if he were holding up a Tiffany vase.
 
-83
+88
 00:06:48,030 --> 00:06:53,007
 That’s where you find stories, in someone’s kitchen on the Jersey Shore.”
 
-84
+89
 00:06:54,079 --> 00:06:58,000
 What makes a good question when you’re interviewing?
 
-85
+90
 00:06:58,000 --> 00:07:04,048
 Let’s look an example and you can decide whether you think this is a good question.
 
-86
+91
 00:07:04,048 --> 00:07:11,076
 Our question is: “Is the daily update an important feature to you?”
 
-87
+92
 00:07:11,076 --> 00:07:16,060
 My guess when asked a question like this is that most users would say “Yes.”
 
-88
+93
 00:07:16,060 --> 00:07:18,096
 It’s kind of a leading question.
 
-89
-00:07:18,096 --> 00:07:25,031
-Most people when asked of some things important, “Sure, why not?” What’s at stake? Why would you say no?
+94
+00:07:18,096 --> 00:07:22,061
+Most people, when asked if something’s important, “Sure, why not?”
 
-90
-00:07:25,031 --> 00:07:31,011
+95
+00:07:22,061 --> 00:07:24,059
+What’s at stake? Why would you say no?
+
+96
+00:07:24,059 --> 00:07:30,082
 If you wanted to learn about the daily update, participant observation might be a lot more effective
 
-91
-00:07:31,011 --> 00:07:35,089
+97
+00:07:30,082 --> 00:07:35,089
 because you could see whether people actually use the daily update
 
-92
+98
 00:07:35,089 --> 00:07:39,067
 or you might even use log files as a way of driving your questions.
 
-93
+99
 00:07:39,067 --> 00:07:48,042
 So, for example, you might ask somebody, “I see from the log that you’ve never used the daily update.
 
-94
+100
 00:07:48,042 --> 00:07:50,076
 Why is that? Tell me more.”
 
-95
+101
 00:07:50,076 --> 00:07:58,023
 Especially early on, the more open-ended your questions are, the more interesting the answers that you’ll get.
 
-96
+102
 00:08:06,040 --> 00:08:10,078
 Remember — back to our Walmart example — they asked a leading question:
 
-97
+103
 00:08:10,078 --> 00:08:13,038
 “Would you like stories with less clutter?”
 
-98
+104
 00:08:13,038 --> 00:08:18,017
 The answer, of course, is “yes”, but it may not be what people would actually want.
 
-99
+105
 00:08:19,026 --> 00:08:24,034
 Here’s another example of a question: “What would you like in a tool?”
 
-100
-00:08:24,034 --> 00:08:33,052
-The problem with this question, at least as a beginning or primary question, is that users are experts in their own lives.
+106
+00:08:24,034 --> 00:08:29,098
+The problem with this question, at least as a beginning or primary question,
 
-101
+107
+00:08:29,098 --> 00:08:33,052
+is that users are experts in their own lives.
+
+108
 00:08:33,052 --> 00:08:40,081
 They’re not experts in design — that’s your role — so people may not know what to say.
 
-102
+109
 00:08:40,081 --> 00:08:45,029
 There’s a famous fable in design attributed to Henry Ford where he says that,
 
-103
-00:08:45,029 --> 00:08:54,018
-“if I asked people what they wanted in the age of the horse and buggy, what they’d say they want is a faster horse.”
+110
+00:08:45,029 --> 00:08:49,073
+“if I asked people what they wanted in the age of the horse and buggy,
 
-104
-00:08:54,018 --> 00:09:03,054
-And of course we know that the designers used the possibility of the car, but users may not know about that yet.
+111
+00:08:49,073 --> 00:08:54,018
+what they’d say they want is a faster horse.”
 
-105
+112
+00:08:54,018 --> 00:08:58,086
+And of course we know that the designers used the possibility of the car,
+
+113
+00:08:58,086 --> 00:09:03,054
+but users may not know about that yet.
+
+114
 00:09:03,054 --> 00:09:11,011
 Instead, it’s more valuable to ask users about their own lives and their own goals.
 
-106
+115
 00:09:11,011 --> 00:09:14,000
 That’s what people are experts in.
 
-107
+116
 00:09:14,096 --> 00:09:22,092
 Here are three other types of questions to avoid because people aren’t very good at self report for them;
 
-108
+117
 00:09:22,092 --> 00:09:29,081
 Asking people what they would do or like or want in a hypothetical scenario — too hard to know.
 
-109
+118
 00:09:31,058 --> 00:09:36,044
 Asking us how often we do things — We often lie to ourselves.
 
-110
+119
 00:09:36,044 --> 00:09:42,086
 For example, “How often do you exercise?” Most people overestimate in their answer to that question.
 
-111
+120
 00:09:44,024 --> 00:09:50,060
 Other questions about how are things similar. This works better if you can make things concrete.
 
-112
+121
 00:09:50,060 --> 00:09:56,069
 “How much do I exercise in a typical week?” — Not very reliable.
 
-113
+122
 00:09:56,069 --> 00:10:02,073
 “How much did I exercise this week?” Well, I’m likely to give more truthful answer to that one.
 
-114
+123
 00:10:02,073 --> 00:10:06,086
 It’s more concrete, and more recent in my memory.
 
-115
-00:10:06,086 --> 00:10:15,027
-I suggest also avoiding asking people how much they like things on an absolute scale — What does seven mean?
+124
+00:10:06,086 --> 00:10:11,080
+I suggest also avoiding asking people how much they like things on an absolute scale:
 
-116
+125
+00:10:11,080 --> 00:10:15,027
+What does “seven” mean?
+
+126
 00:10:15,027 --> 00:10:20,011
 Finally, avoid binary questions, things that have a yes or no answer.
 
-117
+127
 00:10:20,011 --> 00:10:24,093
 “Do you like grapefruit?” – “Yes.” Not a very interesting interview.
 
-118
+128
 00:10:25,019 --> 00:10:28,023
 So what are good questions?
 
-119
+129
 00:10:28,023 --> 00:10:33,097
 Especially at the beginning of an interview, I recommend open-ended questions.
 
-120
+130
 00:10:33,097 --> 00:10:38,076
 After asking the question, give somebody a chance to respond.
 
-121
+131
 00:10:38,076 --> 00:10:42,035
 A little bit of silence is golden.
 
-122
+132
 00:10:46,008 --> 00:10:52,063
 When I first started teaching, I made a mistake that a lot of young teachers make:
 
-123
+133
 00:10:52,063 --> 00:10:58,051
 I would ask the class for a question, and after 17 milliseconds, when nobody had answered,
 
-124
+134
 00:10:58,051 --> 00:11:01,040
 I would jump in and offer the question myself.
 
-125
+135
 00:11:01,040 --> 00:11:09,001
 I trained the students that they didn’t need to be part of the class, that I would always answer every question.
 
-126
+136
 00:11:09,001 --> 00:11:11,065
 There is no reason to participate.
 
-127
+137
 00:11:11,065 --> 00:11:14,073
 One of my colleagues taught me to wait a little longer.
 
-128
+138
 00:11:14,073 --> 00:11:20,022
 And it’s amazing, even in a quiet classroom, before students are used to interacting,
 
-129
+139
 00:11:20,022 --> 00:11:23,089
 let those few seconds of silence happen and people will start to chime in.
 
-130
+140
 00:11:23,091 --> 00:11:26,043
 The same is true in interviews.
 
-131
+141
 00:11:26,043 --> 00:11:31,041
 You may get a quick answer at first. Let some silence happen.
 
-132
+142
 00:11:31,041 --> 99:59:59,000
 After a few seconds, you’ll hear the second story. And the second story is often a lot more interesting.
