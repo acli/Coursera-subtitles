@@ -184,7 +184,7 @@ enabled legions of developers to create the content that helped put a PC on ever
 
 47
 00:03:14,098 --> 00:03:20,053
-It’s a long path from the Grace Hopper’s visionary work on the compiler to the graphical user interface.
+It’s a long path from Grace Hopper’s visionary work on the compiler to the graphical user interface.
 
 48
 00:03:20,053 --> 00:03:23,099
