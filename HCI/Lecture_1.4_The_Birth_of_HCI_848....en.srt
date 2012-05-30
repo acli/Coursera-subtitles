@@ -76,7 +76,7 @@ and his vision was a strongly human-centred one.
 
 20
 00:01:19,007 --> 00:01:23,045
-Bush wrote of a future interactive desk; he calls the system Memex.
+Bush wrote of a future interactive desk; he calls the system “memex.”
 
 21
 00:01:23,045 --> 00:01:28,051
@@ -84,7 +84,7 @@ The idea is that all of the world’s information would be available on the know
 
 22
 00:01:28,051 --> 00:01:34,094
-Key to the Memex idea was effective user interfaces for information storage and retrieval.
+Key to the memex idea was effective user interfaces for information storage and retrieval.
 
 23
 00:01:34,094 --> 00:01:39,041
@@ -100,7 +100,7 @@ and the idea was to use microfiche — high density film — to store everything
 
 26
 00:01:47,089 --> 00:01:51,097
-Even more impressive, Bush’s Memex vision invents hypertext:
+Even more impressive, Bush’s memex vision invents hypertext:
 
 27
 00:01:51,097 --> 00:01:56,068
@@ -140,7 +140,7 @@ so there’re no dials or settings to fiddle with.
 
 36
 00:02:26,009 --> 00:02:32,041
-As with the Memex desk, the details turned out differently; but the core vision was right on target.
+As with the memex desk, the details turned out differently; but the core vision was right on target.
 
 37
 00:02:32,041 --> 00:02:36,053
