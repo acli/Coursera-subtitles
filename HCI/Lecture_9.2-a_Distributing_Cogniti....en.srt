@@ -1,0 +1,884 @@
+1
+00:00:03,037 --> 00:00:09,027
+There are several different ways that
+interfaces can help people think more
+
+2
+00:00:09,027 --> 00:00:14,083
+fluently by distributing the cognition
+into artifacts in the world. When
+
+3
+00:00:14,083 --> 00:00:19,034
+interfaces help people distributed
+cognition, it can encourage
+
+4
+00:00:19,034 --> 00:00:25,044
+experimentation, it can scaffold learning
+and reduce errors through redundancy. It
+
+5
+00:00:25,044 --> 00:00:31,062
+can show only the differences that matter,
+it can convert small calculation into fast
+
+6
+00:00:31,062 --> 00:00:36,086
+perception, it can support chunking
+specially by experts, it can increase
+
+7
+00:00:36,086 --> 00:00:42,067
+efficiency of interactions and it can
+facilitate collaboration. Let's go through
+
+8
+00:00:42,067 --> 00:00:51,007
+this one at a time. Here's now a video
+game that, that many of you all know. This
+
+9
+00:00:51,007 --> 00:00:56,096
+is the Tetris video game And there was a
+very clever study that David Koresh and
+
+10
+00:00:56,096 --> 00:01:02,082
+Paul Maglio at UC San Diego ran where they
+looked at Tetris players playing Tetris
+
+11
+00:01:02,082 --> 00:01:07,056
+and what they found was really
+interesting. In textures as you may know
+
+12
+00:01:07,056 --> 00:01:12,001
+you can use keys to move objects
+surrounding the screen and at a certain
+
+13
+00:01:12,001 --> 00:01:17,012
+point you can hit the space bar that drop
+the object and try and get a row of field
+
+14
+00:01:17,012 --> 00:01:21,087
+blocks. Moving and rotating pieces on the
+screen may seem like a waste of time
+
+15
+00:01:21,087 --> 00:01:27,005
+because you have a limited amount of time
+before the block hits the bottom so how do
+
+16
+00:01:27,005 --> 00:01:33,025
+you use that most efficiently? It turns
+out that people move the block around the
+
+17
+00:01:33,025 --> 00:01:39,086
+screen more than they in some purely
+theoretical sense need to so in essence,
+
+18
+00:01:39,086 --> 00:01:46,037
+I'm trying out different places that the
+blocks could go. Maybe this is just for
+
+19
+00:01:46,037 --> 00:01:51,097
+novices that when you're learning Tetris
+you need to feel things out but as you
+
+20
+00:01:51,097 --> 00:01:57,001
+become more of an expert that's no longer
+the case, exactly the opposite.
+
+21
+00:01:57,001 --> 00:02:02,082
+[inaudible] found that experts actually
+rely more heavily on moving objects on the
+
+22
+00:02:02,082 --> 00:02:07,039
+world. And what they were doing is they
+were distributing the cognitive effort of
+
+23
+00:02:07,039 --> 00:02:12,003
+what if scenarios. What if I place it over
+here or what if I place it over there? You
+
+24
+00:02:12,003 --> 00:02:17,002
+absolutely can do that in your mind But it
+turns that in this case, for most people
+
+25
+00:02:17,002 --> 00:02:22,012
+it's cheaper to do it out in the world to
+be able to turn the cognitive task of
+
+26
+00:02:22,012 --> 00:02:26,084
+reasoning about all of the what if
+scenarios into a perceptual task of, oh
+
+27
+00:02:26,084 --> 00:02:31,069
+yeah, that block would work perfectly
+right there. It saves you the effort of
+
+28
+00:02:31,069 --> 00:02:37,024
+having two in particular mentally rotate
+to different pieces to figure out how they
+
+29
+00:02:37,024 --> 00:02:42,078
+would fit into the screen. Here's another
+example from the learning sciences. There
+
+30
+00:02:42,078 --> 00:02:48,005
+are called Montesorri Blocks. And what we
+have here are beads that provide a
+
+31
+00:02:48,005 --> 00:02:53,025
+physical representation or number
+specially for young children. Numbers are
+
+32
+00:02:53,025 --> 00:02:58,087
+really abstract concepts difficult to, to
+get your head around and these physical
+
+33
+00:02:58,087 --> 00:03:04,021
+[inaudible] can help the addition,
+multiplication and other simple arithmetic
+
+34
+00:03:04,021 --> 00:03:10,038
+operation. So, for example if I'm gonna
+take three And multiplied y three to get
+
+35
+00:03:10,038 --> 00:03:15,071
+three squared. Well I can see that I have
+three by three, I have a square and I can
+
+36
+00:03:15,071 --> 00:03:20,050
+see that it's compost of nine bids and
+there other multiplication options that
+
+37
+00:03:20,050 --> 00:03:25,053
+you could with these also and by having
+this redundant information by taking an
+
+38
+00:03:25,053 --> 00:03:30,050
+abstract concept and redefining it and
+making it concrete it can help scaffold
+
+39
+00:03:30,050 --> 00:03:36,028
+learning and reduce errors. The Montessori
+Blocks example and the Tetris example show
+
+40
+00:03:36,028 --> 00:03:41,092
+us the power of providing a visual or
+physical instantiation of abstract ideas.
+
+41
+00:03:41,092 --> 00:03:47,041
+So what makes a good representation of
+this sort? Well, it, you should show the
+
+42
+00:03:47,041 --> 00:03:52,063
+information that you need and nothing
+else. And, what these representation
+
+43
+00:03:52,063 --> 00:03:58,062
+should do is it should enable to kinds of
+tasks that users wanna do like comparison
+
+44
+00:03:58,062 --> 00:04:04,012
+and exploration and problem solving. And
+if that's seem to abstract or maybe
+
+45
+00:04:04,012 --> 00:04:10,012
+obvious, let's take a look at this example
+from the London Underground. This subway
+
+46
+00:04:10,012 --> 00:04:15,098
+map was introduced about a century ago and
+it was one of the very first maps to
+
+47
+00:04:15,098 --> 00:04:21,091
+introduce a brand new idea in map design
+of abstracting the layout of the tracks
+
+48
+00:04:21,091 --> 00:04:27,022
+from the underlying physical geography.
+This London subway map, The map would show
+
+49
+00:04:27,022 --> 00:04:32,012
+what the geography was and so long things
+were long and short things were short and
+
+50
+00:04:32,012 --> 00:04:36,086
+if it the tracks wandered because that's
+the way that it works and the tracks on
+
+51
+00:04:36,086 --> 00:04:41,000
+the map would wander because that's the
+way things worked. And with the
+
+52
+00:04:41,000 --> 00:04:45,087
+underground map designers realized was
+that. The most common task for subway
+
+53
+00:04:45,087 --> 00:04:51,040
+writers is to figure out how to get from
+point A to point B and all of these
+
+54
+00:04:51,040 --> 00:04:57,043
+additional details of faithfulness to the
+underlying topology was getting in the way
+
+55
+00:04:57,043 --> 00:05:02,096
+of that A to B task more than it was
+helping it. And so what they did is they
+
+56
+00:05:02,096 --> 00:05:08,027
+stripped that a lot of that unnecessary
+detail turning this into vertical,
+
+57
+00:05:08,027 --> 00:05:13,066
+diagonal, and horizontal lines. So there
+are some representation between the layout
+
+58
+00:05:13,066 --> 00:05:18,076
+on the map and the lay out on the real
+world. North is north, and South is south,
+
+59
+00:05:18,076 --> 00:05:23,074
+and things roughly head in the direction
+that they do in the real world but the
+
+60
+00:05:23,074 --> 00:05:28,085
+detail is stripped out and this makes it
+much easier to be able to figure out how
+
+61
+00:05:28,085 --> 00:05:34,001
+to get between connections. Another thing
+that they did is they introduced a century
+
+62
+00:05:34,001 --> 00:05:39,011
+later we would call a focus plus context
+representation for the map. In the center
+
+63
+00:05:39,011 --> 00:05:43,097
+of London, the subway stations are very
+densely packed so that area is expanded
+
+64
+00:05:43,097 --> 00:05:48,076
+out. It consumes more of the map real
+estate. As you get out toward the suburbs,
+
+65
+00:05:48,076 --> 00:05:53,032
+the stations are fewer and further
+between. As oppose to that taking up 90
+
+66
+00:05:53,032 --> 00:05:57,050
+percent of the map because it's 90 percent
+of the space. Those stations are actually
+
+67
+00:05:57,050 --> 00:06:02,079
+scorned because if you know you need to go
+Northeast to a particular station then the
+
+68
+00:06:02,079 --> 00:06:07,088
+exact distance is involved are most of the
+time less relevant. Now of course with
+
+69
+00:06:07,088 --> 00:06:13,030
+constitutes of good representation is a
+course task specific and so what you can
+
+70
+00:06:13,030 --> 00:06:18,066
+see is that by making some task easier
+like getting from A to B when you know A
+
+71
+00:06:18,066 --> 00:06:23,082
+and B or being able to navigate the center
+of London more effectively. You've
+
+72
+00:06:23,082 --> 00:06:28,085
+compromised other tasks and so for
+somebody who may need to make decisions
+
+73
+00:06:28,085 --> 00:06:34,071
+about what's tough to get off at based on
+some underlying Topography or another task
+
+74
+00:06:34,071 --> 00:06:39,098
+that's compromised is by virtue of the
+distance between the stations on the map
+
+75
+00:06:39,098 --> 00:06:45,010
+not lining up between the distances
+between the stations in the world. You can
+
+76
+00:06:45,010 --> 00:06:50,067
+make poor judgments about what's close and
+what's far in the center you may believe
+
+77
+00:06:50,067 --> 00:06:55,067
+things are far, far apart when they are
+really close and on the suburbs, you may
+
+78
+00:06:55,067 --> 00:07:00,035
+believe from the map that things are
+closer than they actually are And so
+
+79
+00:07:00,035 --> 00:07:05,067
+nearly all representation design is about
+fitness to task. Here's a temperature map
+
+80
+00:07:05,067 --> 00:07:11,015
+from the weather underground. It shows the
+temperature at each location at bay area,
+
+81
+00:07:11,015 --> 00:07:16,024
+geo-referenced so that the temperature
+number is placed right on top of that
+
+82
+00:07:16,024 --> 00:07:20,069
+physical location. What do you think the
+benefits and drawbacks of this
+
+83
+00:07:20,069 --> 00:07:32,025
+representation? What's it good for and
+what's it a problem for. If you know the
+
+84
+00:07:32,025 --> 00:07:37,032
+physical coordinate that you'd like, the
+temperature for say for example what
+
+85
+00:07:37,032 --> 00:07:42,078
+temperature is it along the coast and I
+don't care or don't know the exact name of
+
+86
+00:07:42,078 --> 00:07:49,036
+the town. This works incredibly well. It's
+also a reasonable interface in some sense
+
+87
+00:07:49,036 --> 00:07:54,087
+for trying to get a [inaudible] of what
+are the temperatures like in the area over
+
+88
+00:07:54,087 --> 00:07:59,079
+all I could see for example. As I head
+inland the temperature tends to get
+
+89
+00:07:59,079 --> 00:08:06,035
+warmer. There are a lot of ways in which
+we could make this better so right now
+
+90
+00:08:06,035 --> 00:08:12,066
+every temperature is shown identically no
+matter what temperature it is which means
+
+91
+00:08:12,066 --> 00:08:18,045
+it's hard to scan. I have to read every
+single temperature one by one. I could
+
+92
+00:08:18,045 --> 00:08:24,031
+make this better if instead I had the
+temperature number somehow the color or
+
+93
+00:08:24,031 --> 00:08:31,071
+size of the temperature, number correspond
+to the weather, But if we're going to
+
+94
+00:08:31,071 --> 00:08:37,098
+start mapping the variables of the map to
+something like color, we need to be
+
+95
+00:08:37,098 --> 00:08:43,035
+careful to get it right. This is an
+example that comes from Edward Tufte. His
+
+96
+00:08:43,035 --> 00:08:48,080
+books on Visual Design and the Graphical
+representations of data are fantastic and
+
+97
+00:08:48,080 --> 00:08:55,026
+I strongly encourage you to read them. In
+this map, we see how a computer scientist
+
+98
+00:08:55,026 --> 00:09:02,021
+might make a mapping for Japan. This is
+showing the height above or below sea
+
+99
+00:09:02,021 --> 00:09:09,069
+level as color and what you can see is the
+depth below sea level is represented by
+
+100
+00:09:09,069 --> 00:09:16,019
+the color spectrum Roy G. By now, one of
+the challenges of hue is that it's not an
+
+101
+00:09:16,019 --> 00:09:22,027
+additive representation. So, so it's not
+really a strong ordering that we give to
+
+102
+00:09:22,027 --> 00:09:28,050
+the colors perceptually. Its substitute of
+representation that red and yellow are
+
+103
+00:09:28,050 --> 00:09:34,007
+qualitativ ely different but we don't
+automatically have a more than or less
+
+104
+00:09:34,007 --> 00:09:40,000
+than relationship between the two, Another
+problem on this representation is, it's
+
+105
+00:09:40,000 --> 00:09:45,042
+very difficult by gland to tell what's
+higher and what's lower in the sea.
+
+106
+00:09:45,042 --> 00:09:54,050
+Conversely the individual isosurfaces, the
+individual Chunks of this particular depth
+
+107
+00:09:54,050 --> 00:10:00,070
+really pop out like to me for example, the
+yellow depth pops out very strongly and
+
+108
+00:10:00,070 --> 00:10:06,089
+that shape really comes to the attention
+for which if you are making a rock and
+
+109
+00:10:06,089 --> 00:10:12,055
+roll poster for the Fillmore would be
+awesome but if you're trying to get a
+
+110
+00:10:12,055 --> 00:10:18,030
+sense of the contour of the sea, what
+become salient to you, the outlines for
+
+111
+00:10:18,030 --> 00:10:23,056
+what's 400 meters below sea level. It
+probably just not that relevant so how
+
+112
+00:10:23,056 --> 00:10:29,001
+could we continue our theme of using color
+as representational queue but how that be
+
+113
+00:10:29,001 --> 00:10:34,040
+more meaningful than you might see in this
+case where we're mapping it to the color
+
+114
+00:10:34,040 --> 00:10:39,091
+spectrum. And here's Edward Tufte's
+redesign which I think is much better.
+
+115
+00:10:39,091 --> 00:10:45,044
+There's a couple of things that I really
+like about the representation here. The
+
+116
+00:10:45,044 --> 00:10:51,010
+first one is the all of the things that
+are above sea level are brown, are kind of
+
+117
+00:10:51,010 --> 00:10:56,062
+an earth tone. So, we're leveraging our
+intuitions about physical world and using
+
+118
+00:10:56,062 --> 00:11:02,028
+that metaphorically for the map. So, the
+land colored stuff is and similarly all of
+
+119
+00:11:02,028 --> 00:11:08,076
+the water is blue, the water-colored stuff
+is water. And further more we can see how
+
+120
+00:11:08,076 --> 00:11:15,088
+the intensity or the luminance of that
+color blue changes with depth and the
+
+121
+00:11:15,088 --> 00:11:22,015
+deeper blues are darker blues. Which
+corresponds to our physical intuitions and
+
+122
+00:11:22,015 --> 00:11:27,047
+of course, water doesn't really get that
+much darker at that kind of depth that
+
+123
+00:11:27,047 --> 00:11:32,072
+we're talking about here. Our intuition
+about darker colors being deeper comes
+
+124
+00:11:32,072 --> 00:11:38,010
+from much shallower depths but the idea,
+you can leverage this thing that we all
+
+125
+00:11:38,010 --> 00:11:43,055
+know that water right by the shore is, is
+a paler color and as you get more of it,
+
+126
+00:11:43,055 --> 00:11:48,093
+it, it gets darker. So, this is a really
+wonderful way to see that these darker
+
+127
+00:11:48,093 --> 00:11:54,072
+areas here are deeper than the shallow
+areas here. With the lower underground
+
+128
+00:11:54,072 --> 00:12:00,026
+map, we saw how the representation of the
+map, what makes a good representation was
+
+129
+00:12:00,026 --> 00:12:06,055
+intrinsically tied up with the task that
+the user is doing. Similarly, what makes a
+
+130
+00:12:06,055 --> 00:12:12,001
+good representation is also dependent on
+what a user's expertise is. And a
+
+131
+00:12:12,001 --> 00:12:18,022
+wonderful example of this comes from Herb
+Simon and David Chase in the early 1970s.
+
+132
+00:12:18,022 --> 00:12:24,050
+They were looking at chess as an exemplar
+domain for trying to understand expertise.
+
+133
+00:12:24,050 --> 00:12:30,077
+One of the things that they observed was
+that expert chess players were much better
+
+134
+00:12:30,077 --> 00:12:36,085
+at being able to remember the
+configuration of a chess board. You can
+
+135
+00:12:36,085 --> 00:12:42,078
+imagine a couple hypotheses for this. So,
+one of them would be experts were born
+
+136
+00:12:42,078 --> 00:12:48,041
+with a better memory for that kind of
+thing or similarly, experts by virtue of
+
+137
+00:12:48,041 --> 00:12:54,026
+their ten thousand hours of training have
+trained themselves up to build up that
+
+138
+00:12:54,026 --> 00:13:00,004
+muscle and be very good at remembering
+that kind of thing. Now this turns out to
+
+139
+00:13:00,004 --> 00:13:05,083
+be the case. Experts are much better at
+remembering a configuration of the board.
+
+140
+00:13:05,083 --> 00:13:14,025
+[sound] But only if it's an actual game so
+if the configuration of the chest board is
+
+141
+00:13:14,025 --> 00:13:20,019
+the configuration of the chest board could
+be exports to a fantastic job of
+
+142
+00:13:20,019 --> 00:13:26,060
+remembering But if you arranged the pieces
+on the board in a way that chest plate
+
+143
+00:13:26,060 --> 00:13:32,054
+could not ever achieve, the experts
+actually do know better than analysis at
+
+144
+00:13:32,054 --> 00:13:38,041
+all. And so what we're seeing is that the
+ability of experts to chunk things and
+
+145
+00:13:38,041 --> 00:13:44,033
+have higher memory capacity is because
+they are able to leverage their knowledge
+
+146
+00:13:44,033 --> 00:13:50,003
+about the domain. Game design or user
+interface design are both concerned with
+
+147
+00:13:50,003 --> 00:13:55,014
+how easy or hard is it for a user to
+accomplish a particular task. The
+
+148
+00:13:55,014 --> 00:14:01,013
+difference is often designers wanna make
+it hard, the right hard and the interface
+
+149
+00:14:01,013 --> 00:14:07,002
+game designers wanna make it that things
+easy And so we can learn from this chest
+
+150
+00:14:07,002 --> 00:14:12,000
+example and we can ask the question to
+interface designers, can we make
+
+151
+00:14:12,000 --> 00:14:17,054
+interfaces more chunkable? Can we make
+interactions that can be accomplished in
+
+152
+00:14:17,054 --> 00:14:23,029
+one chunk? And therefore replace a lower
+load on our memory and make it easier for
+
+153
+00:14:23,029 --> 00:14:28,091
+users to work with. A great example of
+this comes from Bill Buxton who looked at
+
+154
+00:14:28,091 --> 00:14:34,064
+being abl e to move text between locations
+on a document. And in a common desktop
+
+155
+00:14:34,064 --> 00:14:41,009
+user interface today one common operation
+will either keyboard short cuter and menu
+
+156
+00:14:41,009 --> 00:14:47,017
+command to cut some texts and then you
+move the cursor to a new location and you
+
+157
+00:14:47,017 --> 00:14:52,054
+paste that text. That's three different
+operations and in between, if you got
+
+158
+00:14:52,054 --> 00:14:57,014
+interrupted, you might forget what's in
+the copy [inaudible]. In fact, I'm sure
+
+159
+00:14:57,014 --> 00:15:02,090
+that happened to all of us at some point.
+What Bobston realized is what if you could
+
+160
+00:15:02,090 --> 00:15:09,060
+turn all of these to a gesture user
+interface in the one command. So, maybe I
+
+161
+00:15:09,060 --> 00:15:16,076
+could grab a text that I want. Draw a new
+location and drop it right there. That's
+
+162
+00:15:16,076 --> 00:15:22,037
+being much better There's never a time
+where I could be interrupted and loose
+
+163
+00:15:22,037 --> 00:15:27,075
+state because all of the state is
+maintained in this continuous gesture.
+
+164
+00:15:27,075 --> 00:15:33,087
+We've all heard the saying that pictures
+worth ten thousand words. As interface
+
+165
+00:15:33,087 --> 00:15:40,000
+designers, we're tasked with the project
+of representing the information to the
+
+166
+00:15:40,000 --> 00:15:45,090
+user and one task that we commonly have to
+deal with is, should we represent
+
+167
+00:15:45,090 --> 00:15:51,026
+information usually? Or should we
+represent information textually. The
+
+168
+00:15:51,026 --> 00:15:57,008
+answer of course is it depends but one
+time when representing information
+
+169
+00:15:57,008 --> 00:16:03,045
+visually can be much more effective is
+when you can convert slow reasoning tasks
+
+170
+00:16:03,045 --> 00:16:09,082
+into fast perception tasks by virtue of
+making them visually salient. We saw that
+
+171
+00:16:09,082 --> 00:16:16,004
+with the map example. In that case, both
+the colorings of the map were visual. But
+
+172
+00:16:16,004 --> 00:16:20,099
+one, it was much easier to just add a
+glance understand what's going on in good
+
+173
+00:16:20,099 --> 00:16:26,007
+coloring. And the fore coloring, you have
+the reason about it much more slowly and
+
+174
+00:16:26,007 --> 00:16:31,001
+the wrong things kept popping out. If you
+think about a table of numbers, it can
+
+175
+00:16:31,001 --> 00:16:36,002
+often be difficult to see trends whereas
+if you represent that same information
+
+176
+00:16:36,002 --> 00:16:40,059
+visually, it can often pop out what the
+high points, the low points, trends,
+
+177
+00:16:40,059 --> 00:16:44,098
+outlines, all of that becomes salient and
+automatically visible to you.
