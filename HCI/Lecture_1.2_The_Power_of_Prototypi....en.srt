@@ -48,7 +48,7 @@ It’s important to remember that the goal in prototyping is not the artefact; i
 
 13
 00:00:57,008 --> 00:01:02,004
-Build some prototypes, try them out, and usually you’d learn to try to learn the next [inaudible].
+Build some prototypes, try them out, and usually you’d learn to try to in the next design.
 
 14
 00:01:02,004 --> 00:01:06,004
