@@ -39,11 +39,11 @@ for example every evening or at every meal.
 In general, diary studies are used to record a specific piece of information,
 
 11
-00:00:51,042 --> 00:00:55,044
+00:00:51,042 --> 00:00:55,023
 like “how happy you feel” or “what you ate.”
 
 12
-00:00:55,044 --> 00:01:00,004
+00:00:55,023 --> 00:01:00,004
 Often the diary has some sort of structure to help you complete that efficiently.
 
 13
@@ -56,11 +56,11 @@ you can have audio recording — whatever is appropriate for the task that you�
 
 15
 00:01:11,086 --> 00:01:15,029
-In selecting from among the different media that you can use for capturing,
+In selecting from among the different media that you can use for capturing —
 
 16
 00:01:15,029 --> 00:01:23,022
-like video versus audio versus text versus photos; analog versus digital; pay attention to the context.
+like video versus audio versus text versus photos, analog versus digital — pay attention to the context.
 
 17
 00:01:23,022 --> 00:01:26,068
@@ -79,39 +79,39 @@ that they’d keep with them on their phone, so, that way, whenever they pull ou
 the diary entry that you’d like them to fill out is right there with it too.
 
 21
-00:01:42,055 --> 00:01:50,048
-In some cases, an audio recorder will be the easiest way to get people to actually record information
+00:01:42,055 --> 00:01:48,056
+In some cases, an audio recorder will be the easiest way to get people
 
 22
-00:01:50,048 --> 00:01:54,047
-at the relevant time, like maybe if somebody’s driving.
+00:01:48,056 --> 00:01:54,047
+to actually record information at the relevant time, like maybe if somebody’s driving.
 
 23
-00:01:54,047 --> 00:01:59,046
+00:01:54,047 --> 00:01:59,032
 In other cases, like during a lecture, speaking out loud might be inappropriate,
 
 24
-00:01:59,046 --> 00:02:03,007
+00:01:59,032 --> 00:02:03,007
 and so you’ll want to have somebody have marks on paper.
 
 25
-00:02:03,007 --> 00:02:09,075
+00:02:03,007 --> 00:02:10,015
 One of the appealing features of diary studies is that they can scale a lot better than direct observation.
 
 26
-00:02:09,075 --> 00:02:16,037
-Direct observation is limited by the amount of time that you can spend with the participants;
+00:02:10,015 --> 00:02:16,002
+Direct observation is limited by the amount of time that *you* can spend with the participants;
 
 27
-00:02:16,037 --> 00:02:21,006
+00:02:16,003 --> 00:02:21,006
 with a diary study, you’re only limited by the amount of materials that you can give out
 
 28
-00:02:21,006 --> 00:02:23,078
+00:02:21,006 --> 00:02:23,098
 or that you can aggregate later on.
 
 29
-00:02:23,078 --> 00:02:28,063
+00:02:23,098 --> 00:02:28,063
 The most important piece of design for creating an effective diary study
 
 30
@@ -123,16 +123,16 @@ is to have the entry be as frictionless as possible.
 The easier it is for participants to mark down the information that you’re interested in,
 
 32
-00:02:38,031 --> 00:02:41,040
+00:02:38,031 --> 00:02:40,083
 the higher quality the results that you’re going to get.
 
 33
-00:02:41,040 --> 00:02:46,074
-With a diary study, like any user interface, the results that you’ll get will be best
+00:02:40,083 --> 00:02:44,027
+With a diary study, like any user interface,
 
 34
-00:02:46,074 --> 00:02:50,042
-if you offered people some training and some practice.
+00:02:44,027 --> 00:02:50,042
+the results that you’ll get will be best if you offered people some training and some practice.
 
 35
 00:02:50,042 --> 00:02:56,069
@@ -215,11 +215,11 @@ and for what kinds of information can be automatically or semi-automatically rec
 Experience sampling, like diary studies, is useful for aggregating information across lots of people,
 
 55
-00:04:15,084 --> 00:04:19,081
+00:04:15,084 --> 00:04:19,060
 like, “Are there times of day that make people more or less happy?”
 
 56
-00:04:19,081 --> 00:04:27,001
+00:04:19,060 --> 00:04:27,001
 It’s easiest for you, as the researcher, if this information can be filled in in some digital form,
 
 57
@@ -231,15 +231,15 @@ like a survey, so it can be automatically aggregated.
 But sometimes, for practical reasons, paper will be the most ubiquitous tool out there,
 
 59
-00:04:36,083 --> 00:04:42,000
+00:04:36,083 --> 00:04:41,037
 and in that case, go with whatever you can to get people to actually fill it out.
 
 60
-00:04:42,000 --> 00:04:44,091
+00:04:42,020 --> 00:04:45,030
 In the techniques that we’ve talked about so far,
 
 61
-00:04:44,091 --> 00:04:49,017
+00:04:45,030 --> 00:04:49,017
 it’s the designer that ultimately comes up with the design ideas,
 
 62
@@ -259,12 +259,12 @@ especially advanced users or “lead users”.
 And Eric von Hippel at MIT has been the champion of this approach for several decades.
 
 66
-00:05:07,002 --> 00:05:09,012
+00:05:07,002 --> 00:05:08,086
 He’s in the left of this picture,
 
 67
-00:05:09,012 --> 00:05:14,012
-and he’s hanging out with Dr. Nathaniel Sims at Mass. General Hospital at Boston.
+00:05:08,086 --> 00:05:14,012
+and he’s hanging out with Dr. Nathaniel Sims at Mass. General Hospital in Boston.
 
 68
 00:05:14,012 --> 00:05:16,051
