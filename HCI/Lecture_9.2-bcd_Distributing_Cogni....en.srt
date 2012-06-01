@@ -1,0 +1,724 @@
+1
+00:00:02,002 --> 00:00:07,058
+We've all heard the saying that a picture
+is worth ten thousand words. This idea of
+
+2
+00:00:07,058 --> 00:00:13,008
+worth is interesting because it implies
+some kind of interchangeability. There are
+
+3
+00:00:13,008 --> 00:00:17,058
+some rate at which you can convert one
+representation into another
+
+4
+00:00:17,058 --> 00:00:25,042
+representation. How might we establish
+that interchangeability. One type of
+
+5
+00:00:25,042 --> 00:00:29,049
+interchange ability is informational
+equipment. Two representations are
+
+6
+00:00:29,049 --> 00:00:34,002
+informationally equivalent if all the
+information is present in one, can also be
+
+7
+00:00:34,002 --> 00:00:39,091
+inferred from the other But just because
+the same information is theoretically
+
+8
+00:00:39,091 --> 00:00:46,058
+inferable doesn't mean it will take the
+same required effort to extract it. Some
+
+9
+00:00:46,058 --> 00:00:51,072
+representations require more steps to
+computing inference. And the difference in
+
+10
+00:00:51,072 --> 00:00:56,081
+the perceivers computational effort
+presents both challenges and opportunities
+
+11
+00:00:56,081 --> 00:01:02,042
+for you as a designer. Let's look at an
+example. Eight percent a pair of parallel
+
+12
+00:01:02,042 --> 00:01:10,019
+lines is cut by a transversal. This cut
+generates eight angles. From the sentence,
+
+13
+00:01:10,019 --> 00:01:15,064
+it's difficult to reason about which pairs
+form the alternate interior angles. And in
+
+14
+00:01:15,064 --> 00:01:20,076
+fact if you to try, you'll find yourself
+creating a mental image of two parallel
+
+15
+00:01:20,076 --> 00:01:27,019
+lines cut by a transversal. With the
+diagram like this however, the sentence in
+
+16
+00:01:27,019 --> 00:01:32,068
+the diagram are informationally equivalent
+but computationally different for the
+
+17
+00:01:32,068 --> 00:01:37,070
+perceiver. One major benefit of the
+graphical user interface over the command
+
+18
+00:01:37,070 --> 00:01:42,030
+line is that the graphical user interface
+enables many common actions to be
+
+19
+00:01:42,030 --> 00:01:48,018
+perception tasks requiring little
+inference. So far we've seen a number of
+
+20
+00:01:48,018 --> 00:01:53,021
+examples of how distributed cognition can
+help individual work. Distributing how
+
+21
+00:01:53,021 --> 00:01:58,004
+ignition can also have powerful benefits
+for group report and just to give you a,
+
+22
+00:01:58,004 --> 00:02:02,057
+a, a quick sense of what this might be
+like. I'll give you an example from Ed
+
+23
+00:02:02,057 --> 00:02:07,070
+Hushon's research on airplane cockpits.
+One of the things that observed is that
+
+24
+00:02:07,070 --> 00:02:12,081
+the artifacts in the cockpit help
+coordinate action between the multiple
+
+25
+00:02:12,081 --> 00:02:18,047
+people that work there, the pilots. And so
+for example, one, one instance of this is
+
+26
+00:02:18,047 --> 00:02:24,013
+the is the speed dial Where our landing
+and takeoff. It's incre dibly important to
+
+27
+00:02:24,013 --> 00:02:29,008
+have the speed, be accurate because you
+are at the most critical part of the, the
+
+28
+00:02:29,008 --> 00:02:33,079
+airplane. Your close to the ground, the
+wings are designed for [inaudible]
+
+29
+00:02:33,079 --> 00:02:39,012
+designed primarily for going long and very
+high and the shape of the wings have to be
+
+30
+00:02:39,012 --> 00:02:44,019
+changed to accommodate the lowest speed
+that is required for landing and takeoff
+
+31
+00:02:44,020 --> 00:02:49,028
+and so, the multiple pilots on the large
+airplane need to coordinate their efforts
+
+32
+00:02:49,028 --> 00:02:54,030
+and in several important ways. There are
+several plastic indicators called bugs.
+
+33
+00:02:54,030 --> 00:03:00,013
+Around the perimeter of this speedometer
+and the pilots can manually set those bugs
+
+34
+00:03:00,013 --> 00:03:06,018
+to do things like mark where a speed what
+events will cause a change in the, certain
+
+35
+00:03:06,018 --> 00:03:11,075
+cause of change in the wing settings and
+other things like that and what's nice
+
+36
+00:03:11,075 --> 00:03:17,066
+about these bugs is that they are visible
+not just to the pilot that set them but to
+
+37
+00:03:17,066 --> 00:03:23,065
+everybody else in the cockpit also And so,
+by remembering the by Making it triggers
+
+38
+00:03:23,065 --> 00:03:29,036
+for what will caused changes in action
+manifest to everybody. These artifacts can
+
+39
+00:03:29,036 --> 00:03:40,077
+help coordinate collaboration and increase
+safety in cockpit situations. So, what was
+
+40
+00:03:40,077 --> 00:03:44,085
+seen here is that when interface is
+helping people distribute cognition, it
+
+41
+00:03:44,085 --> 00:03:49,026
+can encourage experimentation like we saw
+in Tetris. It can scuttled learning and
+
+42
+00:03:49,026 --> 00:03:53,046
+reduce air, it's like we saw with the
+[inaudible] blocks. It can show only the
+
+43
+00:03:53,046 --> 00:03:57,043
+differences that matter like in the
+[inaudible] on the ground map. It can
+
+44
+00:03:57,043 --> 00:04:01,040
+convert slow calculation in the fast
+perception like we saw with the map
+
+45
+00:04:01,040 --> 00:04:05,087
+coloring. It can support trunking
+especially by experts as we saw with the
+
+46
+00:04:05,087 --> 00:04:10,060
+chess and with gesture interfaces. It can
+increase efficiency as we saw with
+
+47
+00:04:10,060 --> 00:04:15,058
+diagrammatic representations and it can
+facilitate collaboration like we saw in
+
+48
+00:04:15,058 --> 00:04:20,019
+the cockpit. Given all of these benefits
+of good representations, it's kinda
+
+49
+00:04:20,019 --> 00:04:24,086
+surprising that a whole lot of actual
+interfaces that are out there offer a
+
+50
+00:04:24,086 --> 00:04:29,089
+really crummy job at being able to help
+people distribute their cognitive efforts.
+
+51
+00:04:29,089 --> 00:04:34,067
+So I call these four representations
+common but deadly. Let's take a look at a
+
+52
+00:04:34,067 --> 00:04:39,069
+couple of them. Here's one. I was at a
+symposium at IBM a couple of years ago. To
+
+53
+00:04:39,069 --> 00:04:44,035
+get on their Wi-Fi network, I needed to
+enter a password. And, I typed in a
+
+54
+00:04:44,035 --> 00:04:49,079
+password that I thought would be just fine
+and the Wi-Fi system told me, the password
+
+55
+00:04:49,079 --> 00:04:55,036
+you typed is not valid. Please change.
+What do I need to change it to? The, all
+
+56
+00:04:55,036 --> 00:05:00,061
+passwords often have different
+requirements like mixtures of upper and
+
+57
+00:05:00,061 --> 00:05:06,090
+lower case letters. The absence of numbers
+or special modifier keys and, there's no
+
+58
+00:05:06,090 --> 00:05:12,060
+way for me to know from the screen what
+the problem with the password that I
+
+59
+00:05:12,060 --> 00:05:17,021
+entered was. This representation would
+obviously be a heck of a lot better if,
+
+60
+00:05:17,021 --> 00:05:21,062
+when I entered the password, it said, you
+need a password that is at least ten
+
+61
+00:05:21,062 --> 00:05:26,020
+characters long and they contain the
+mixture of upper and lower case characters
+
+62
+00:05:26,020 --> 00:05:30,090
+or that has at least one number. And that
+could be validated the first time that I
+
+63
+00:05:30,090 --> 00:05:35,054
+check in the new password as supposed
+[inaudible] till I type in both and hit Go
+
+64
+00:05:35,054 --> 00:05:40,080
+and it says, uh-uh. Here's another
+example, NASA invited me to give a talk in
+
+65
+00:05:40,080 --> 00:05:46,020
+an event they had in San Francisco a year
+or so ago and the registration for this
+
+66
+00:05:46,020 --> 00:05:51,013
+event was, this, this is the web form from
+it and I, I thought I registered. I
+
+67
+00:05:51,013 --> 00:05:56,072
+clicked Go and after hitting Next, it said
+you must fill out all registered fields.
+
+68
+00:05:56,072 --> 00:06:02,044
+You can see that at the top of the screen
+right here and totally frustrating if you
+
+69
+00:06:02,044 --> 00:06:07,098
+try and register because you [inaudible]
+well. Which one did I miss? It would be a
+
+70
+00:06:07,098 --> 00:06:13,072
+lot more effective if for example you
+could highlight the things that you it
+
+71
+00:06:13,072 --> 00:06:19,060
+thinks you need to fill out or it could
+create a smaller form that has only parts
+
+72
+00:06:19,060 --> 00:06:25,049
+that you missed the last time around and
+says here is the one thing you needed to
+
+73
+00:06:25,049 --> 00:06:31,079
+fill that out before continuing. Here's
+another example. This, this from BBEdit
+
+74
+00:06:31,079 --> 00:06:37,081
+and it when I tried to save it says,
+document encoding mismatched. The document
+
+75
+00:06:37,081 --> 00:06:44,005
+contains data which describes its encoding
+as UTFA. But the encoding has been set to
+
+76
+00:06:44,005 --> 00:06:49,084
+western, I saw Latin one and I have two
+options here. One of them is cancel and
+
+77
+00:06:49,084 --> 00:06:55,033
+another one is save anyway. But the
+actions that I'd lik e to be able to do
+
+78
+00:06:55,033 --> 00:07:04,079
+are probably something like. Make
+everything UTF8 or make everything at one
+
+79
+00:07:04,079 --> 00:07:10,047
+or. A computer tell me which of these is
+probably makes more sense, help me choose
+
+80
+00:07:10,047 --> 00:07:15,095
+between these or it doesn't matter but the
+information that I need to be able to make
+
+81
+00:07:15,095 --> 00:07:20,092
+a decision simply isn't present in the
+user interface, dialog box is should be
+
+82
+00:07:20,092 --> 00:07:26,015
+action oriented. They should help guide
+towards users towards what their next step
+
+83
+00:07:26,015 --> 00:07:31,025
+is likely to be and you should provide
+them with the information that they need
+
+84
+00:07:31,025 --> 00:07:36,045
+in order to be able to accomplish that
+next step. Here's an interface that I
+
+85
+00:07:36,045 --> 00:07:42,043
+think is intentionally design to be
+sub-optimal. Here we have the eBay funding
+
+86
+00:07:42,043 --> 00:07:49,040
+confirmation page and If you look at this
+page, what you'll see is if you I switched
+
+87
+00:07:49,040 --> 00:07:55,003
+to a credit card and it says, before you
+go to credit card we're gonna give you
+
+88
+00:07:55,003 --> 00:08:00,053
+this, this prompt that, that ask you to
+verify that and, and eBay and PayPal do
+
+89
+00:08:00,053 --> 00:08:06,016
+this of course because they make use more
+money if you see the bank account as
+
+90
+00:08:06,016 --> 00:08:11,084
+supposed you pay through credit card
+transaction fee. And so down at the bottom
+
+91
+00:08:11,084 --> 00:08:18,005
+here it offers you two buttons. One of
+them is pay with bank account and the
+
+92
+00:08:18,005 --> 00:08:25,066
+other one was pad with credit card. Good
+action are in the titles, I really like
+
+93
+00:08:25,066 --> 00:08:32,047
+that part of this user interface. And what
+you see is that the account that they want
+
+94
+00:08:32,047 --> 00:08:38,017
+you to pick is, is made nice and bright
+and the account that you probably want is
+
+95
+00:08:38,017 --> 00:08:43,033
+dimmed out as if it's inactive. Is this is
+a good user interface or bad user
+
+96
+00:08:43,033 --> 00:08:48,006
+interface? Well, user-experience is
+probably somewhat degraded. Paypal's
+
+97
+00:08:48,006 --> 00:08:53,031
+profit significant increases and in a lot
+of real world situations, you need them,
+
+98
+00:08:53,031 --> 00:08:58,056
+you may need to make this trade off. I, I
+think that more globally there are other
+
+99
+00:08:58,056 --> 00:09:03,087
+ways that you could address this but I
+thought this was an interesting example of
+
+100
+00:09:03,087 --> 00:09:09,026
+the interaction design that sacrificed
+some user experience in order to achieve
+
+101
+00:09:09,026 --> 00:09:13,099
+higher profits. Hard to say whether it's
+worth it. Here's a dialog box for
+
+102
+00:09:13,099 --> 00:09:19,013
+exporting a picture. We want to save that
+to JPEG and the dialog box is notifying us
+
+103
+00:09:19,013 --> 00:09:24,017
+that this JPEG al ready exist. And you got
+a couple of options so one thing that like
+
+104
+00:09:24,017 --> 00:09:29,028
+about thing that I like about this future
+interface is that you get buttons that are
+
+105
+00:09:29,028 --> 00:09:34,039
+really action oriented here, that's great.
+A challenge is, how do I know whether I
+
+106
+00:09:34,039 --> 00:09:39,047
+want this file or not? I mean, what is
+l1010235.jpg. It would make a lot more
+
+107
+00:09:39,047 --> 00:09:45,051
+sense if this dialog box showed me an icon
+of here's what here's what this picture is
+
+108
+00:09:45,051 --> 00:09:51,020
+and that way I could have a better sense
+of whether I wanted to override it or skip
+
+109
+00:09:51,020 --> 00:09:56,080
+this operation or give it a brand new
+unique name. Here's an example from
+
+110
+00:09:56,080 --> 00:10:02,051
+Microsoft Outlook. This is a duplicate
+contact detected dialog box and it says
+
+111
+00:10:02,051 --> 00:10:08,029
+that he, you know the there's some
+information here that already exist in
+
+112
+00:10:08,029 --> 00:10:14,044
+your contact. Do you wanna update it or do
+you want to add this as a new contact. The
+
+113
+00:10:14,044 --> 00:10:20,008
+difficulty of course is, I don't know
+what's in that contact right now and so
+
+114
+00:10:20,008 --> 00:10:25,086
+this is not a decision that I can make
+from looking at this dialog box on its
+
+115
+00:10:25,086 --> 00:10:31,037
+own. I can of course click open existing
+contact to show me that information but
+
+116
+00:10:31,037 --> 00:10:36,063
+that's one extra step down the line.
+Microsoft improves this in a subsequent
+
+117
+00:10:36,063 --> 00:10:41,062
+version of Outlook. This dialog box is
+probably still more complicated that it
+
+118
+00:10:41,062 --> 00:10:46,080
+really needs to be. I think it could be
+streamline significantly but what it does
+
+119
+00:10:46,080 --> 00:10:51,078
+do is it shows me the two things that I
+really need to know. The first of this
+
+120
+00:10:51,078 --> 00:10:56,096
+what the final outcome of the process is
+gonna look like. So after we merge these
+
+121
+00:10:56,096 --> 00:11:02,014
+things, here's what you'll get. And the
+other thing it's gonna show me is here the
+
+122
+00:11:02,014 --> 00:11:07,091
+piece of information that we're gonna
+change in order to make that happen. One
+
+123
+00:11:07,091 --> 00:11:13,087
+way that I think this dialog box could be
+stream line is that, well it shows that
+
+124
+00:11:13,087 --> 00:11:19,076
+the new, the final [inaudible] information
+this way and it gives us the, so I can
+
+125
+00:11:19,076 --> 00:11:25,005
+change this or happening here. The old
+contact information is shown in a
+
+126
+00:11:25,005 --> 00:11:30,068
+completely different format and so it's
+difficult to compare. If you believe that
+
+127
+00:11:30,068 --> 00:11:35,018
+you don't need to see that information
+because the relevance that certain here,
+
+128
+00:11:35,018 --> 00:11:39,085
+well then, just don't include this. If on
+the other h and you decide that we do need
+
+129
+00:11:39,085 --> 00:11:44,052
+to show the old version because you may
+wanna keep it, you know in that case it
+
+130
+00:11:44,052 --> 00:11:49,002
+probably make it a lot more sense to show
+it in the manner that's parallel with
+
+131
+00:11:49,002 --> 00:11:54,068
+these other two boxes. What we've covered
+in this past two lectures is understanding
+
+132
+00:11:54,068 --> 00:11:59,060
+of the theoretical foundations of how the
+representation of information And have
+
+133
+00:11:59,060 --> 00:12:04,068
+tremendous consequences in terms of the
+user experience of the system. I think
+
+134
+00:12:04,068 --> 00:12:10,008
+this is one of the most interesting topics
+in all of ACI. And if you find this area
+
+135
+00:12:10,008 --> 00:12:15,016
+as interesting as I did, there is a couple
+of books that I can recommend to go
+
+136
+00:12:15,016 --> 00:12:20,024
+further here. One of them is Herb Simons,
+the science of the artificial. It is a
+
+137
+00:12:20,024 --> 00:12:25,078
+great monograph written several decades
+now about the Role of design and science
+
+138
+00:12:25,078 --> 00:12:31,010
+and about the nature of mental
+representations really interesting book.
+
+139
+00:12:31,032 --> 00:12:37,009
+Another one here is Ed Hutchins' book,
+Cognition in the Wild which lays out a
+
+140
+00:12:37,009 --> 00:12:43,039
+foundation for distributed cognition. And
+describes as work in airplanes and then
+
+141
+00:12:43,039 --> 00:12:49,061
+and on naval ships. [sound]. And the last
+we have here is Don Norman's book, Things
+
+142
+00:12:49,061 --> 00:12:55,045
+That Makes Us Smart. Which is a, a great
+book about a lot of cognitive science
+
+143
+00:12:55,045 --> 00:13:01,015
+research and distributive cognition and
+the roles of representation in cognition
+
+144
+00:13:01,015 --> 00:13:06,077
+and this is one of the sources of, of
+several of the examples in this lecture
+
+145
+00:13:06,077 --> 00:13:10,086
+like as what these other books too. I'll
+see you next time.
