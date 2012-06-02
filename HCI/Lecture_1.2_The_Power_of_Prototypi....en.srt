@@ -224,11 +224,11 @@ It’s not just for novices: Picasso did the same thing.
 
 57
 00:04:09,093 --> 00:04:14,065
-One of the things that we know about human psychology is that people are notoriously bad
+One of the things that we know about human psychology is that
 
 58
 00:04:14,065 --> 00:04:18,030
-at being able to estimate the space of possible outcomes.
+people are notoriously bad at being able to estimate the space of possible outcomes.
 
 59
 00:04:18,030 --> 00:04:22,057
