@@ -1,0 +1,799 @@
+1
+00:00:01,093 --> 00:00:09,001
+In this video, we are going to talk about mental models, and the questions that we are going to tackle here are:
+
+2
+00:00:09,001 --> 00:00:15,018
+“What makes an interface learnable?“ and “What leads to errors that people make in user interfaces?”
+
+3
+00:00:15,018 --> 00:00:19,099
+And to do that, I’d again like to start with an example from the physical world.
+
+4
+00:00:19,099 --> 00:00:23,058
+Here we are outside the Computer Science building at Stanford.
+
+5
+00:00:23,058 --> 00:00:28,000
+And what I’d like to show you is an example of a user interface error.
+
+6
+00:00:28,000 --> 00:00:34,013
+It’s really simple one: Our department and its front door has two doors.
+
+7
+00:00:37,008 --> 00:00:44,096
+It both have exactly the same handle on them. However, the door on the right never actually opens.
+
+8
+00:00:44,096 --> 00:00:53,088
+So, if I go to use this door right here, 24-hours-a-day 7-days-a-week it never works — it’s locked!
+
+9
+00:00:53,088 --> 00:00:58,063
+So why does it have the same handle as the other that does open?
+
+10
+00:00:58,063 --> 00:01:03,057
+And you can see right here that a whole lot of people have tried using this handle.
+
+11
+00:01:03,057 --> 00:01:06,035
+In fact, faculty who have been around for years
+
+12
+00:01:06,035 --> 00:01:11,042
+still often make the mistake of grabbing the wrong door.
+
+13
+00:01:11,042 --> 00:01:14,099
+This would be a whole lot better if this door had no handle here.
+
+14
+00:01:14,099 --> 00:01:17,091
+You could still exit — you can see this part right here —
+
+15
+00:01:17,091 --> 00:01:23,025
+but if want to enter, you would know where to grab and which door to use.
+
+16
+00:01:24,057 --> 00:01:26,045
+Let’s say you’ve got a refrigerator,
+
+17
+00:01:26,045 --> 00:01:31,031
+and the problem is that he freezer is too cold, but the fridge is all just right.
+
+18
+00:01:31,031 --> 00:01:35,058
+This refrigerator has two dials: One of them is labelled A through E,
+
+19
+00:01:35,058 --> 00:01:39,008
+the other is labelled with numbers, 3 through 7.
+
+20
+00:01:39,008 --> 00:01:41,000
+and there’s an instruction manual
+
+21
+00:01:41,000 --> 00:01:45,061
+that lists combinations of letters and numbers for different settings of food.
+
+22
+00:01:45,061 --> 00:01:52,080
+So what do we do to have the refrigerator stay the same, but the freezer to be less cold?
+
+23
+00:01:54,083 --> 00:01:59,054
+Well, the action is going to depend on the mental model that you have of the system:
+
+24
+00:01:59,054 --> 00:02:03,022
+One reasonable model that you could have is that there are two cooling units,
+
+25
+00:02:03,022 --> 00:02:06,008
+and there’s one dial that controls each of the units.
+
+26
+00:02:06,008 --> 00:02:08,041
+And, in that case, what you would want to do
+
+27
+00:02:08,041 --> 00:02:13,046
+is [to] figure out which of those is connected to the freezer and tweak that dial.
+
+28
+00:02:13,046 --> 00:02:18,048
+[It] turns out that’s not actually how it works: That there’s only  one cooling unit in this refrigerator,
+
+29
+00:02:18,048 --> 00:02:22,032
+and then it has a splitter which controls the proportion of cold air
+
+30
+00:02:22,032 --> 00:02:26,030
+that goes into either the refrigerator or the freezer.
+
+31
+00:02:26,030 --> 00:02:29,034
+And so, if you’d like to be abe to change only one of the two chambers —
+
+32
+00:02:29,034 --> 00:02:32,009
+in this case: make our freezer less cold —
+
+33
+00:02:32,009 --> 00:02:34,082
+what you have to do is [to] move both of the dials —
+
+34
+00:02:34,082 --> 00:02:38,022
+dial back the total amount of coldness going into the refrigerator,
+
+35
+00:02:38,022 --> 00:02:40,064
+and then change the fraction
+
+36
+00:02:40,064 --> 00:02:45,076
+so that the fridge still gets the cold air that it needs but the freezer is getting less.
+
+37
+00:02:45,076 --> 00:02:50,087
+If a lot of users misunderstand the functions of these two dials and get them wrong,
+
+38
+00:02:50,087 --> 00:02:55,025
+then I think it’s fair to say that this is a poor user interface.
+
+39
+00:02:56,051 --> 00:02:59,028
+There’s a lot of ways that you could fix this.
+
+40
+00:02:59,028 --> 00:03:08,073
+Pause the video and think of a few of how you might make this refrigerator interface better.
+
+41
+00:03:08,073 --> 00:03:11,015
+Here’s a couple that I came up with:
+
+42
+00:03:11,015 --> 00:03:17,031
+One is if the user believes that one dial controls the fridge and the other dial controls the freezer,
+
+43
+00:03:17,031 --> 00:03:20,016
+you could have the functionality of the system work that way —
+
+44
+00:03:20,016 --> 00:03:24,011
+that you’d have two blowers, one for each.
+
+45
+00:03:24,011 --> 00:03:29,012
+You could also *simulate* two blowers, by having computation in the middle
+
+46
+00:03:29,012 --> 00:03:33,070
+and still have the dials connected one for each of the two.
+
+47
+00:03:33,070 --> 00:03:36,061
+Alternatively, if you *really* felt like it was essential
+
+48
+00:03:36,061 --> 00:03:43,014
+to have the “total cold plus changing the fraction” model,
+
+49
+00:03:43,014 --> 00:03:48,010
+which is probably not as good a user interface but might be needed for cost reasons,
+
+50
+00:03:48,010 --> 00:03:50,082
+in that way you could think of a way to have
+
+51
+00:03:50,082 --> 00:03:58,046
+a diagram or other kind of cue that would explain better what was going on rather than cryptic text.
+
+52
+00:03:58,046 --> 00:04:04,038
+In all of those cases, the goal is for the user interface to beacon to the user
+
+53
+00:04:04,038 --> 00:04:10,017
+what the mental model that they should think about the system  with is.
+
+54
+00:04:10,017 --> 00:04:15,097
+And, of course, as you interact with the system more, your model becomes more sophisticated.
+
+55
+00:04:15,097 --> 00:04:19,029
+But there’s a big pitfall and a danger of being a designer:
+
+56
+00:04:19,029 --> 00:04:24,007
+You’ve spent so much time with the system that you know it works under the hood
+
+57
+00:04:24,007 --> 00:04:26,098
+and you how you imagine other people will think about it.
+
+58
+00:04:26,098 --> 00:04:32,055
+But your expertise can be crippling: The mental model that you expect users to have —
+
+59
+00:04:32,055 --> 00:04:36,086
+you expect it to be the same as yours — just often doesn’t pan out in practice.
+
+60
+00:04:36,086 --> 00:04:41,031
+And that’s one of the reasons why it’s really important to get real people  who are not the designers
+
+61
+00:04:41,031 --> 00:04:43,097
+in front of interfaces as soon as possible —
+
+62
+00:04:43,097 --> 00:04:49,037
+to help you discover those differences between your mental model and theirs.
+
+63
+00:04:49,037 --> 00:04:53,085
+And the benefits of aligning the user and designer mental models are obvious:
+
+64
+00:04:53,085 --> 00:04:57,074
+Because when you have this mismatch, that can often lead to slow performance,
+
+65
+00:04:57,074 --> 00:05:02,008
+or errors, and frustration on the part of the user.
+
+66
+00:05:02,008 --> 00:05:06,009
+Where do these mental models come from? Well, that’s a fascinating question,
+
+67
+00:05:06,009 --> 00:05:11,006
+and one that deserves a longer answer than I can offer in this short video.
+
+68
+00:05:11,006 --> 00:05:14,035
+But I can say a few things to get you started:
+
+69
+00:05:14,035 --> 00:05:17,082
+The first is that people reason about new interfaces
+
+70
+00:05:17,082 --> 00:05:21,064
+by analogy to old interfaces that they’re more familiar with.
+
+71
+00:05:21,064 --> 00:05:26,020
+And when can leverage that — when you can figure out what people are familiar with —
+
+72
+00:05:26,020 --> 00:05:29,096
+and use those metaphors intentionally in the construction of new interfaces,
+
+73
+00:05:29,096 --> 00:05:32,019
+you’ll often be really successful.
+
+74
+00:05:32,019 --> 00:05:36,082
+So, for example, if you can say that a word processor is like a typewriter,
+
+75
+00:05:36,082 --> 00:05:43,065
+then people will transfer their believes and skills with the typewriter over to the new word processor.
+
+76
+00:05:43,065 --> 00:05:49,001
+The models that we build that guide our action: We have about our behaviour, of other people’s,
+
+77
+00:05:49,001 --> 00:05:54,017
+of objects, of software — really anything and anybody that we interact with.
+
+78
+00:05:54,017 --> 00:05:57,051
+But that’s not to say that everything is tidy and organized upstairs:
+
+79
+00:05:57,051 --> 00:06:02,054
+Our mental models are incomplete; they’re inconsistent; they change over time;
+
+80
+00:06:02,054 --> 00:06:05,060
+and they’re often rife with superstition.
+
+81
+00:06:05,060 --> 00:06:07,086
+The second thing that I’d like to talk about today
+
+82
+00:06:07,086 --> 00:06:13,017
+is two important different kinds of errors that are based on the user’s mental model.
+
+83
+00:06:13,095 --> 00:06:19,015
+The second thing that I’d like to do today is to distinguish two important categories of errors
+
+84
+00:06:19,015 --> 00:06:25,089
+that are based on differences in what the user’s mental model is about what they believe.
+
+85
+00:06:25,089 --> 00:06:28,049
+The first category is a slip.
+
+86
+00:06:28,049 --> 00:06:37,043
+With a slip, you have the right model of how a system works, but you just accidentally do the wrong thing.
+
+87
+00:06:37,043 --> 00:06:47,044
+So, if I go to reach for one button and press another — just by a motor error — that would be a slip..
+
+88
+00:06:47,044 --> 00:06:52,081
+On the other hand, a mistake is when I do what I intend to do,
+
+89
+00:06:52,081 --> 00:06:57,029
+but I have the wrong model of what I ought to do.
+
+90
+00:06:57,029 --> 00:07:02,089
+So, if I’m driving, and I think that I ought to take this highway exit to get [to] where I need to go,
+
+91
+00:07:02,089 --> 00:07:09,017
+and I take it exactly as I intend to, but I was wrong in my belief, that would be a mistake.
+
+92
+00:07:09,017 --> 00:07:16,010
+And, as a designer, you’ll correct these two kinds of errors — or prevent them — in your design differently.
+
+93
+00:07:16,010 --> 00:07:20,098
+Slips you’ll most often try to prevent by improving the ergonomics
+
+94
+00:07:20,098 --> 00:07:23,067
+or visual design of the user interface —
+
+95
+00:07:23,067 --> 00:07:26,081
+spread things out so it’s less likely that you’ll hit the wrong thing;
+
+96
+00:07:26,081 --> 00:07:29,002
+make targets bigger.
+
+97
+00:07:29,002 --> 00:07:33,050
+With mistakes, on the other hand, what you’ll need to do is [to] provide better feedback,
+
+98
+00:07:33,050 --> 00:07:36,003
+or make clear what the options are.
+
+99
+00:07:36,003 --> 00:07:38,043
+So, limit the number of mistakes that you [could] make.
+
+100
+00:07:38,043 --> 00:07:43,085
+You’ll want to improve the user’s ability to perceive the avoidances of your software:
+
+101
+00:07:43,085 --> 00:07:47,081
+Make it clear to them what is possible to do.
+
+102
+00:07:47,081 --> 00:07:51,014
+Here we have an interface that led to a lot of user errors.
+
+103
+00:07:51,014 --> 00:07:57,032
+This is a ballot from Palm Beach County, Florida during the 2000 presidential election in the US.
+
+104
+00:07:57,032 --> 00:07:59,072
+There were two major party candidates —
+
+105
+00:07:59,072 --> 00:08:04,072
+the Republican candidate George Bush and the Democratic candidate Al Gore.
+
+106
+00:08:04,072 --> 00:08:08,046
+Across the nation they were, overall, running neck-in-neck.
+
+107
+00:08:08,046 --> 00:08:14,022
+There were also eight other candidates, to each gathered a smaller fraction of the vote.
+
+108
+00:08:14,022 --> 00:08:20,092
+A user’s vote was recorded by a hole being punched out along the centreline of the ballot.
+
+109
+00:08:20,092 --> 00:08:23,080
+It appears that, due to bad user interface design,
+
+110
+00:08:23,080 --> 00:08:27,034
+people who intended to vote for one of the candidates, Al Gore,
+
+111
+00:08:27,034 --> 00:08:36,035
+instead, accidentally pressed the hole corresponding to a different candidate, Pat Buchanan.
+
+112
+00:08:36,035 --> 00:08:41,051
+While we’ll never know for sure, the data suggested that this is probably the case.
+
+113
+00:08:41,051 --> 00:08:47,006
+So, the people who vvoted in Palm Beach County using this ballot style,
+
+114
+00:08:47,006 --> 00:08:52,052
+about 0.85% of the votes were for Pat Buchanan.
+
+115
+00:08:52,052 --> 00:08:56,080
+However, people who voted absentee, using a different style of ballot,
+
+116
+00:08:56,080 --> 00:09:00,028
+had a much lower rate of votes for Pat Buchanan,
+
+117
+00:09:00,028 --> 00:09:07,050
+and the reason appears to be that this hole in the middle right here was ambiguous —
+
+118
+00:09:07,050 --> 00:09:13,013
+Yes, there’s an arrow pointing to it from the right, but it kind of lines up to the spot on the left.
+
+119
+00:09:13,013 --> 00:09:15,066
+So, it appears that for about 0.6% of voters,
+
+120
+00:09:15,066 --> 00:09:21,084
+they thought that that second hole corresponded to Al Gore rather than Pat Buchanan.
+
+121
+00:09:21,084 --> 00:09:27,008
+And the question for you is: Is this a slip? or is this a mistake?
+
+122
+00:09:27,008 --> 00:09:30,020
+These erroneous votes are the result of a mistake,
+
+123
+00:09:30,020 --> 00:09:34,096
+because voters performed the manual operation that they intended to perform —
+
+124
+00:09:34,096 --> 00:09:37,047
+punching that second hole —
+
+125
+00:09:37,047 --> 00:09:43,047
+however, they had the wrong mental model about what punching that second hole meant.
+
+126
+00:09:43,047 --> 00:09:47,020
+WIth better user interface design, it could have been clear
+
+127
+00:09:47,020 --> 00:09:54,033
+which of these was the hole that corresponded to a Democratic candidate versus the Reform candidate.
+
+128
+00:09:54,033 --> 00:09:59,085
+Another important lesson to learn from the butterfly ballot problem is that of consistency:
+
+129
+00:09:59,085 --> 00:10:07,030
+Whenever we reuse designs that are already successful, we are less likely to make accidental mistakes.
+
+130
+00:10:07,030 --> 00:10:11,011
+By contrast, as happens with a lot of voting systems,
+
+131
+00:10:11,011 --> 00:10:14,001
+when every county makes their own voting system
+
+132
+00:10:14,001 --> 00:10:18,002
+— or at least there’s broad diversity in the voting systems used —
+
+133
+00:10:18,002 --> 00:10:22,038
+it’s much more likely that usability bugs will crop up.
+
+134
+00:10:22,038 --> 00:10:27,088
+And so one way that we could fix this would be to have a nationwide standard voting system
+
+135
+00:10:27,088 --> 00:10:31,035
+where everybody votes using the same user interface.
+
+136
+00:10:31,035 --> 00:10:38,023
+One appealing option for a nationwide voting system would be to use electronic voting.
+
+137
+00:10:38,023 --> 00:10:43,002
+If we were to build a better user interface for voting, what would it be?
+
+138
+00:10:43,002 --> 00:10:45,096
+Well, given that we’re in a computer science class,
+
+139
+00:10:45,096 --> 00:10:51,036
+one natural suggestion to offer up would be electronic voting.
+
+140
+00:10:51,036 --> 00:10:55,016
+And electronic voting certainly has some very clear appeals:
+
+141
+00:10:55,017 --> 00:11:00,034
+For example, it is much easier to internationalize to many different languages;
+
+142
+00:11:00,034 --> 00:11:03,057
+You can have pictures of candidates to make things clear;
+
+143
+00:11:03,057 --> 00:11:07,005
+You can have a touch screen so that you have direct manipulation.
+
+144
+00:11:07,005 --> 00:11:11,087
+All of these are important and good advantages to electronic voting.
+
+145
+00:11:11,087 --> 00:11:15,077
+However, as David Dill in the Verified Voting Foundation point[s] out,
+
+146
+00:11:15,077 --> 00:11:18,055
+there’s one major problem with electronic voting:
+
+147
+00:11:18,055 --> 00:11:23,052
+How do you know that the machine recorded the vote that you intended?
+
+148
+00:11:23,052 --> 00:11:28,031
+And their proposed solution to this user interface problem is really clever:
+
+149
+00:11:28,031 --> 00:11:36,059
+What they proposed is that the machine print out a paper receipt of the vote that you cast;
+
+150
+00:11:36,059 --> 00:11:41,092
+however, you don’t get to take the receipt with you, because that would run the risk of vote-buying.
+
+151
+00:11:41,092 --> 00:11:47,030
+Instead, that receipt falls behind a glass or plastic clear pane,
+
+152
+00:11:47,030 --> 00:11:52,064
+and so you can see it being printed out, and you can see it go into a bin,
+
+153
+00:11:52,064 --> 00:11:55,093
+and it’s stored there for the purposes of recount.
+
+154
+00:11:55,093 --> 00:12:00,098
+That way, you can always manually verify the computer-generated tally.
+
+155
+00:12:00,098 --> 00:12:06,050
+The butterfly ballot costs problems because the representation was really confusing —
+
+156
+00:12:06,050 --> 00:12:10,060
+What lined up with what was hard to figure out.
+
+157
+00:12:10,060 --> 00:12:13,048
+Here’s an example that’s much better:
+
+158
+00:12:13,048 --> 00:12:18,067
+This is a seat user interface for an automobile that employs a “world in miniature” strategy.
+
+159
+00:12:18,067 --> 00:12:22,027
+It offers controls for manipulating parts of the seat,
+
+160
+00:12:22,027 --> 00:12:26,012
+and the interface for doing that is a miniature seat itself.
+
+161
+00:12:26,012 --> 00:12:33,022
+So, if you’d like to move the headrest back, you can move the miniature headrest back.
+
+162
+00:12:33,022 --> 00:12:38,092
+By having this clear mapping, users are much less likely to make errors.
+
+163
+00:12:38,092 --> 00:12:44,004
+So far, we’ve seen how direct manipulation enables users to behave with much more expertise
+
+164
+00:12:44,004 --> 00:12:47,068
+by leveraging familiar real-world metaphors.
+
+165
+00:12:47,068 --> 00:12:53,029
+This “directness in real-world” metaphor — like “to move a slider you move a slider” —
+
+166
+00:12:53,029 --> 00:12:59,045
+helps give users a good idea of how each object works and how to control it.
+
+167
+00:12:59,045 --> 00:13:05,039
+And also, the interface’s physical form discloses what functionality it provides.
+
+168
+00:13:05,039 --> 00:13:08,093
+So this is all great, right? Well, here’s the challenge:
+
+169
+00:13:08,093 --> 00:13:14,093
+The reason that we have technology and software as opposed to the real world that we used to have
+
+170
+00:13:14,093 --> 00:13:17,072
+is that we want to be able to do something new!
+
+171
+00:13:17,072 --> 00:13:21,075
+So, the reason that have a digital slider as opposed to a physical slider
+
+172
+00:13:21,075 --> 00:13:27,041
+is that, at least somewhere in the system, there’s some kind of new functionality being offered.
+
+173
+00:13:27,042 --> 00:13:29,059
+And so, as Jonathan Grudin points out,
+
+174
+00:13:29,059 --> 00:13:33,073
+if technology is providing an advantage — if there is this new functionality —
+
+175
+00:13:33,073 --> 00:13:38,050
+at some point, the correspondance to the real world has to break down.
+
+176
+00:13:39,009 --> 00:13:46,022
+So this gap between the new technology and the current practice is necessarily going to be there.
+
+177
+00:13:46,022 --> 00:13:51,052
+But your goal, as a designer, is to minimize this distance as much as possible.
+
+178
+00:13:51,084 --> 00:13:54,033
+One of my favourite examples of a user interface
+
+179
+00:13:54,033 --> 00:14:00,088
+that has this property of offering new functionality but minimizing the distance to current practice
+
+180
+00:14:00,088 --> 00:14:04,010
+is the system for DJ’s called “Final Scratch.”
+
+181
+00:14:04,010 --> 00:14:06,067
+This is a photograph that [inaudible] Hartman took,
+
+182
+00:14:06,067 --> 00:14:11,086
+and what you see here is that the DJ is operating two turntables,
+
+183
+00:14:11,086 --> 00:14:15,022
+much as one would do with normal vinyl.
+
+184
+00:14:15,022 --> 00:14:21,006
+The difference is that this is special vinyl: It has a code on the record,
+
+185
+00:14:21,006 --> 00:14:28,047
+and that code is being used to control a Linux system that you see on the laptop off on the left.
+
+186
+00:14:28,047 --> 00:14:33,007
+And so, as opposed to the record playing music that’s piped out to the speakers,
+
+187
+00:14:33,007 --> 00:14:38,055
+the record plays a code to the computer, and the computer plays the music to the speakers.
+
+188
+00:14:39,055 --> 00:14:43,049
+So why is this a good idea? Well, there’s a couple of reasons:
+
+189
+00:14:43,049 --> 00:14:48,047
+One, it means you can play anything, not just something that’s been produced into vinyl.
+
+190
+00:14:48,047 --> 00:14:52,040
+Another one is that you only have to carry two record[s], not 200.
+
+191
+00:14:52,040 --> 00:14:55,049
+And, more generally, it gives you all of the benefits of digital music
+
+192
+00:14:55,049 --> 00:14:58,085
+like, you can produce it in the morning and play it that evening —
+
+193
+00:14:58,085 --> 00:15:02,044
+you don’t have to wait several months for production to happen.
+
+194
+00:15:02,044 --> 00:15:04,077
+When used well, physical interfaces
+
+195
+00:15:04,077 --> 00:15:10,027
+that leverage people’s dexterity, manual abilities, and intuitions about the physical world
+
+196
+00:15:10,027 --> 00:15:12,095
+can be incredibly powerful.
+
+197
+00:15:12,095 --> 00:15:16,055
+These physical interfaces can also yield an experience that’s more fun to watch,
+
+198
+00:15:16,055 --> 00:15:19,097
+which, if you’re a DJ, is really important.
+
+199
+00:15:19,097 --> 00:15:22,000
+And, finally, here’s some resources
+
+200
+00:15:22,000 --> 00:15:29,037
+if you’d like to learn about mental models, errors, and butterfly ballots.
