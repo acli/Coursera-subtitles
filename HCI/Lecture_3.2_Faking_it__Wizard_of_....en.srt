@@ -1,0 +1,847 @@
+1
+00:00:01,036 --> 00:00:04,034
+There’s an intrinsic tension in design:
+
+2
+00:00:04,034 --> 00:00:09,055
+On one hand, you’ll want to be able to get feedback from people as soon as you possibly can.
+
+3
+00:00:09,055 --> 00:00:15,061
+On the other, [inaudible garbled audio].
+
+4
+00:00:15,061 --> 00:00:19,037
+You’ve learned how to rapidly prototype things with paper prototyping.
+
+5
+00:00:19,037 --> 00:00:23,085
+And today what we’re going to talk about is how you can test rapid prototypes with users.
+
+6
+00:00:24,085 --> 00:00:26,066
+So, imagine for a moment —
+
+7
+00:00:26,066 --> 00:00:31,074
+What if it was possible to create an interactive application without writing much or any code
+
+8
+00:00:31,074 --> 00:00:35,094
+and get feedback on that interactive application quickly?
+
+9
+00:00:35,094 --> 00:00:40,075
+I think that’s a pretty powerful dream, and, like Dorothy learned  in « The Wizard of Oz »,
+
+10
+00:00:40,075 --> 00:00:45,070
+dreams can be really powerful, and, sometimes, they can even come true.
+
+11
+00:00:45,070 --> 00:00:49,026
+And there’s something else that Dorothy learned that we’re going to use in the lecture:
+
+12
+00:00:49,026 --> 00:00:51,046
+If you’ve seen the movie « The Wizard of Oz », you’ll know that
+
+13
+00:00:51,046 --> 00:00:54,069
+when Dorothy and her compatriots arrived in the Emerald City,
+
+14
+00:00:54,069 --> 00:00:58,074
+they saw a big giant wizard that was really scary and freaked them out.
+
+15
+00:00:59,063 --> 00:01:03,049
+But eventually they learned that that wizard was just a little man behind a curtain,
+
+16
+00:01:04,007 --> 00:01:08,044
+and the ability of that little man behind the curtain to put on a big realistic show
+
+17
+00:01:08,044 --> 00:01:13,035
+that, to the visitors to the Emerald City, seemed completely real and immersive,
+
+18
+00:01:13,035 --> 00:01:17,052
+is exactly what we’re going to accomplish with this video’s prototyping technique.
+
+19
+00:01:18,081 --> 00:01:20,057
+So, the idea behind Wizard-of-Oz Prototyping
+
+20
+00:01:20,057 --> 00:01:24,037
+is that we’re going to simulate interactive behaviour and machine functionality
+
+21
+00:01:24,037 --> 00:01:28,090
+by having a human operator manipulate the levers behind the scenes.
+
+22
+00:01:29,057 --> 00:01:32,059
+If you want to get a sense for just how this realistic this can be,
+
+23
+00:01:32,059 --> 00:01:36,038
+watch our friend from « Seinfeld » call a “Movie Phone application”
+
+24
+00:01:36,039 --> 00:01:39,097
+to try and find out when and where movies are playing.
+
+25
+00:01:40,074 --> 00:01:44,053
+(Hello, and welcome to Movie Phone.
+
+26
+00:01:44,053 --> 00:01:48,065
+If you know the name of the movie you’d like to see, press 1.
+
+27
+00:01:48,065 --> 00:01:50,048
+[beep] C’mon, c’mon…
+
+28
+00:01:50,048 --> 00:01:56,015
+Using the touch-tone keypad, please enter the first three letters of the movie title, now!
+
+29
+00:01:56,015 --> 00:01:58,017
+[beep, beep]
+
+30
+00:01:58,017 --> 00:02:05,079
+You’ve selected « Agent Zero ». If that’s correct, press 1.
+
+31
+00:02:05,079 --> 00:02:07,075
+What?!
+
+32
+00:02:07,075 --> 00:02:09,084
+Ugh…)
+
+33
+00:02:09,084 --> 00:02:13,046
+So George thinks that he’s calling this automated Movie Phone application,
+
+34
+00:02:13,046 --> 00:02:17,030
+but it turns out that, behind the scenes, it’s just Kramer who’s playing a wizard
+
+35
+00:02:17,030 --> 00:02:20,006
+and behaving as if he were the machine.
+
+36
+00:02:20,006 --> 00:02:23,087
+To be honest,  he’s not very good — I think that you’d all be able to do better!
+
+37
+00:02:24,063 --> 00:02:28,004
+Wizard of Oz techniques got their start with speech user interfaces.
+
+38
+00:02:28,004 --> 00:02:34,035
+The term “Wizard of Oz” was coined by Jeff Kelly in his PhD dissertation around 1980.
+
+39
+00:02:34,035 --> 00:02:36,044
+And Jeff’s setup at John Hopkins
+
+40
+00:02:36,044 --> 00:02:40,010
+actually bore more of a resemblance to the Wizard of Oz than you might first imagine;
+
+41
+00:02:40,010 --> 00:02:45,077
+so, in addition to some one-way mirrors and things like that, there literally was a curtain
+
+42
+00:02:45,077 --> 00:02:50,087
+separating Jeff, as the wizard, from the participants that were using the speech user interfaces.
+
+43
+00:02:50,087 --> 00:02:55,017
+And these Wizard-of-Oz prototypes were really important for understanding
+
+44
+00:02:55,017 --> 00:03:01,036
+what would be an effective speech user interface, because, at the time, the recognition algorithms weren’t very good,
+
+45
+00:03:01,036 --> 00:03:03,025
+but we knew they were going to get better.
+
+46
+00:03:03,025 --> 00:03:05,073
+And Jeff asked the very important questions of:
+
+47
+00:03:05,073 --> 00:03:10,076
+“If we get the recognition to the point  where it was effective, what will the user interaction be?
+
+48
+00:03:10,076 --> 00:03:13,061
+And what kind of strategies might be [the]  most effective?”
+
+49
+00:03:13,062 --> 00:03:17,008
+So the Wizard of Oz enabled Jeff to time-travel
+
+50
+00:03:17,008 --> 00:03:20,062
+into a future where speech recognition technology worked better,
+
+51
+00:03:20,062 --> 00:03:24,032
+to try and understand what the user experience issues of that domain would be.
+
+52
+00:03:25,086 --> 00:03:29,037
+In general, a Wizard-of-Oz prototype comprises a couple of pieces:
+
+53
+00:03:29,037 --> 00:03:33,036
+First, you’ve got some kind of user interface that you’re delivering to the user
+
+54
+00:03:33,036 --> 00:03:41,078
+which feels-ish like a user interface — even if  it’s sketches or custom-spoken words.
+
+55
+00:03:41,078 --> 00:03:47,003
+And, at the same time, there’s not any or much code that goes behind it —
+
+56
+00:03:47,003 --> 00:03:53,085
+the code and interactivity [that] is being created is a mirage from a human.
+
+57
+00:03:53,085 --> 00:03:57,056
+Sometimes there’s a user interface that the wizard has,
+
+58
+00:03:57,056 --> 00:04:00,065
+which they cobbled together to make life better for them —
+
+59
+00:04:00,065 --> 00:04:05,048
+and in fact back in 2000 colleagues at Berkeley and I built a system called Suede,
+
+60
+00:04:05,048 --> 00:04:09,032
+which helped automate Wizard-of-Oz testing and speech user interfaces.
+
+61
+00:04:09,032 --> 00:04:15,051
+Wizard-of-Oz prototypes make sense when it’s faster and cheapter and easier than building the real thing,
+
+62
+00:04:15,051 --> 00:04:20,046
+and that’s going to be especially true any time you have recognition-based interfaces,
+
+63
+00:04:20,046 --> 00:04:23,076
+or personalization that’s custom to a user.
+
+64
+00:04:24,049 --> 00:04:28,087
+This tradeoff of whether it’s cheaper and faster and easier is also going to depend on your abilities:
+
+65
+00:04:28,087 --> 00:04:33,029
+There will be some things that you know how to do quickly and easily and thenyou might just implement;
+
+66
+00:04:33,029 --> 00:04:37,060
+and there’s other things that may be more difficult or more time-consuming for you,
+
+67
+00:04:37,060 --> 00:04:40,004
+and those you’ll choose to Wizard-of-Oz.
+
+68
+00:04:40,064 --> 00:04:46,019
+Wizard-of-Oz prototypes, like any other kind of prototype, can be higher or lower fidelity.
+
+69
+00:04:46,019 --> 00:04:48,072
+And there’s some important tradeoffs here —
+
+70
+00:04:48,072 --> 00:04:53,008
+The higher fidelity the prototype, the more it feels like the real thing to users —
+
+71
+00:04:53,008 --> 00:04:58,098
+In fact, sometimes you can build an interface that people don’t even know is being powered by a wizard,
+
+72
+00:04:58,098 --> 00:05:04,003
+as in the famous story of the mechanical Turk, who is inside a chess machine.
+
+73
+00:05:04,046 --> 00:05:09,020
+However, making a high-fidelity user interface is going to take a lot of time,
+
+74
+00:05:09,020 --> 00:05:15,002
+and users may be more reluctant to critique a user interface that’s really high-fidelity,
+
+75
+00:05:15,002 --> 00:05:20,060
+and so, early on, I recommend quick-and-dirty paper prototypes being the most powerful  thing
+
+76
+00:05:20,060 --> 00:05:22,051
+to use for Wizard-of-Oz tests.
+
+77
+00:05:22,051 --> 00:05:25,059
+Because users will feel like they can give you any kind of feedback;
+
+78
+00:05:25,059 --> 00:05:28,027
+it’s clear you haven’t put a lot of time into it yet,
+
+79
+00:05:28,027 --> 00:05:33,011
+and it’s fast for you to make, and so you actually haven’t a lot time into it yet.
+
+80
+00:05:33,077 --> 00:05:37,021
+A few years ago, my friend Sep Kamvar created a company called Aardvark,
+
+81
+00:05:37,021 --> 00:05:39,092
+which is a social search engine.
+
+82
+00:05:39,092 --> 00:05:45,049
+It was really good at helping you use your social network to find answers from other people.
+
+83
+00:05:45,097 --> 00:05:50,057
+So the way it works is you ask a question via instant message, via Google chat;
+
+84
+00:05:50,057 --> 00:05:55,062
+and it’s going to be automatically routed to a friend of yours, or a friend of a friend,
+
+85
+00:05:55,062 --> 00:05:58,060
+who has the expertise to answer that question.
+
+86
+00:05:58,060 --> 00:06:04,033
+One of the hard parts about building a service like this is: How do you do the routing?
+
+87
+00:06:04,033 --> 00:06:08,001
+Eventually they figured out an algorithm to do this; but to bootstrap that —
+
+88
+00:06:08,001 --> 00:06:10,038
+both to figure out what algorithm to build,
+
+89
+00:06:10,038 --> 00:06:15,022
+and to get a user experience going before they had built anything —
+
+90
+00:06:15,022 --> 00:06:17,071
+they had a Wizard-of-Oz prototype.
+
+91
+00:06:17,071 --> 00:06:21,047
+So the way that worked was that Aardvark employees would get the question,
+
+92
+00:06:21,047 --> 00:06:25,033
+and they would manually select the person that was going to get routed to.
+
+93
+00:06:25,033 --> 00:06:29,020
+Damon Horowitz, the co-founder of Aardvark, put it this way in a conference:
+
+94
+00:06:29,020 --> 00:06:33,092
+he said that, “If people like it in this super-crappy form, then it’s worth building,
+
+95
+00:06:33,092 --> 00:06:38,026
+because they’ll like it even more when we build the real thing!”
+
+96
+00:06:38,027 --> 00:06:43,070
+So, if you want to be like Kramer or Aardvark, how can you make a wizard-powered prototype?
+
+97
+00:06:43,070 --> 00:06:46,073
+Here’s a sketch of what you’ll need to do in five easy steps:
+
+98
+00:06:47,024 --> 00:06:49,058
+First, figure out what scenarios you’re going to support.
+
+99
+00:06:49,058 --> 00:06:54,036
+It’s a lot of easier to build a Wizard-of-Oz prototype for a limited set of functionality.
+
+100
+00:06:54,084 --> 00:06:56,037
+I like Wizard-of=Oz prototypes
+
+101
+00:06:56,037 --> 00:06:59,089
+because it forces you to figure out what should happen in response to human behaviour.
+
+102
+00:07:00,084 --> 00:07:03,071
+Then, put together some kind of user interface skeleton —
+
+103
+00:07:03,071 --> 00:07:06,023
+the things that the end users are going to see.
+
+104
+00:07:06,059 --> 00:07:11,026
+Third, if you need to, develop the “hooks” for the wizard [to] input if you’re going to have a remote wizard
+
+105
+00:07:11,026 --> 00:07:15,027
+or if they’re going to control some software functionality from behind the scenes.
+
+106
+00:07:16,004 --> 00:07:17,048
+Fourth, and as part of this,
+
+107
+00:07:17,048 --> 00:07:21,049
+you’ll need to figure out exactly what kind of input the wizard is allowed to offer:
+
+108
+00:07:21,049 --> 00:07:26,084
+Are they going to be selecting from a menu of options? offering free response? speaking text?
+
+109
+00:07:26,084 --> 00:07:31,022
+Will you give them a decision tree that controls their behaviour?
+
+110
+00:07:31,022 --> 00:07:33,061
+or you’re going let them be more free-form?
+
+111
+00:07:33,061 --> 00:07:36,091
+If you have a paper prototype, their role is going to pretty manual —
+
+112
+00:07:36,091 --> 00:07:40,088
+adding widgets and moving sliders, and making the interface go.
+
+113
+00:07:41,073 --> 00:07:43,074
+When you’re doing this, it’s important to remember that,
+
+114
+00:07:43,074 --> 00:07:49,057
+ultimately, the functionality that you’re wizarding now is ultimately going to be replaced with a computer,
+
+115
+00:07:49,057 --> 00:07:53,081
+and so at some point down the line, you will have to build some software to make it go.
+
+116
+00:07:53,081 --> 00:07:58,077
+And that’s important, because it can be easy to fake stuff that’s not possible to ever happen.
+
+117
+00:07:59,046 --> 00:08:03,042
+And, last, as with any prototype that you’re going to test with people,
+
+118
+00:08:03,042 --> 00:08:07,017
+practice it first with a friend or a colleague to get the hang of both doing the wizard —
+
+119
+00:08:07,017 --> 00:08:10,009
+it’s a very different kind of interaction than you may be used to —
+
+120
+00:08:10,009 --> 00:08:15,044
+and also, figuring out what scenarios are most effective, what instructions you’ll need to give people.
+
+121
+00:08:15,044 --> 00:08:19,082
+Get out the easy bugs in the user interface before you bring in real users.
+
+122
+00:08:20,030 --> 00:08:25,064
+And now you’re ready to run the user interface: Like I said, you’ll want to practice with a friend at first.
+
+123
+00:08:27,037 --> 00:08:32,011
+Once you’ve got the really obvious kinks out, and when you’ve got your patter down and the tasks ready,
+
+124
+00:08:32,011 --> 00:08:35,017
+then it’s time to recruit some people to come in and try out your prototype.
+
+125
+00:08:35,017 --> 00:08:41,056
+You can even go to places like train stations, or airports, or city street corners, or coffee shops
+
+126
+00:08:41,056 --> 00:08:45,081
+as a way of going to the people who might be using your system.
+
+127
+00:08:47,022 --> 00:08:50,042
+In a Wizard-of-Oz prototype, there’s two roles:
+
+128
+00:08:50,042 --> 00:08:53,027
+you’ve got a facilitator who’s going to talk to the user,
+
+129
+00:08:53,027 --> 00:08:55,087
+and you’ve got a wizard who’s going to manipulate the prototype.
+
+130
+00:08:55,087 --> 00:09:00,009
+If you have the luxury of a team, it’s helpful if there are two different people,
+
+131
+00:09:00,009 --> 00:09:03,074
+in part because your mind is going to be full of all the things that you’ll have to do,
+
+132
+00:09:03,074 --> 00:09:08,069
+and if you separate these roles, each person can concentrate more, do a better job,
+
+133
+00:09:08,069 --> 00:09:13,056
+and you have two sets of eyes looking at what the person’s doing, so you can learn more.
+
+134
+00:09:14,058 --> 00:09:18,092
+But can do this yourself if you need to — these can be one person doing two roles.
+
+135
+00:09:19,059 --> 00:09:22,037
+If you’re trying to convince somebody that this is actually is a real system,
+
+136
+00:09:22,037 --> 00:09:27,003
+then you’ll want your wizard to be hidden or remote somehow, like the Aardvark example.
+
+137
+00:09:27,035 --> 00:09:29,049
+And think about how you’d like to get feedback from users —
+
+138
+00:09:29,049 --> 00:09:33,047
+this is something that we’ll touch on several times more throughout this course.
+
+139
+00:09:33,047 --> 00:09:36,098
+For now, think about whether you’d like to get think-aloud feedback —
+
+140
+00:09:36,098 --> 00:09:39,091
+which is, when the person’s using the prototype,
+
+141
+00:09:39,091 --> 00:09:45,043
+have them speak aloud what it is that’s going through their mind, what decisions they’re making and why,
+
+142
+00:09:45,043 --> 00:09:51,001
+what they’re confused by when they run up against things that they can’t figure out what to do.
+
+143
+00:09:51,072 --> 00:09:58,011
+This think-aloud protocol is great for getting stuff that otherwise you might not know or learn.
+
+144
+00:09:58,011 --> 00:10:03,006
+However, as you can imagine, thinking aloud can change how people interact with the prototype.
+
+145
+00:10:03,006 --> 00:10:07,032
+So, if think-aloud is too distracting, you can ask people  at the end of the study
+
+146
+00:10:07,032 --> 00:10:09,086
+what was going through their mind and what they were thinking about —
+
+147
+00:10:09,086 --> 00:10:11,082
+that’s called a retrospective approach.
+
+148
+00:10:11,082 --> 00:10:14,040
+If you like, you can even show them the video of them using it.
+
+149
+00:10:14,040 --> 00:10:18,071
+You can then say things like, “When you got stuck here, what was the issue?”
+
+150
+00:10:19,060 --> 00:10:24,005
+Third, if you have specific things that you’d like to make sure that your interface does well,
+
+151
+00:10:24,005 --> 00:10:30,015
+you can have categories of problems or heuristics that you asked your users to pay attention to.
+
+152
+00:10:30,015 --> 00:10:34,062
+And heuristic evaluation is something that we’re going to talk more about later in this course also.
+
+153
+00:10:35,049 --> 00:10:38,006
+Once you’re all done, make sure to thank people for their time.
+
+154
+00:10:38,006 --> 00:10:43,016
+You may want to give them a gift certificate, or ice-cream, or some other kind of thank-you.
+
+155
+00:10:44,020 --> 00:10:49,071
+And, if you haven’t yet told them that there’s actually a wizard behind the scenes operating the user interface,
+
+156
+00:10:49,071 --> 00:10:52,031
+the end of the experiment is probably a really good time to that —
+
+157
+00:10:52,031 --> 00:10:54,075
+You’ll want to make sure to be honest with people.
+
+158
+00:10:54,075 --> 00:10:57,097
+You can use wizards throughout the entire development of your software,
+
+159
+00:10:57,097 --> 00:10:59,094
+not just at the very beginning.
+
+160
+00:10:59,094 --> 00:11:06,006
+And so, if you have the fully-functional software here, and over time you move towards there,
+
+161
+00:11:06,006 --> 00:11:10,027
+you can use wizards to fill in the gap of whatever is not built at that time.
+
+162
+00:11:10,027 --> 00:11:13,052
+So, the wizard may do all of the interactions at the very beginning,
+
+163
+00:11:13,052 --> 00:11:16,020
+and then, as you get closer  and closer to a final project,
+
+164
+00:11:16,020 --> 00:11:19,091
+you can have it just fill in only the parts that aren’t done yet.
+
+165
+00:11:20,044 --> 00:11:24,004
+As you can see, there’s a lot to like about Wizard-of-Oz prototypes:
+
+166
+00:11:24,046 --> 00:11:27,079
+They can be really fast to make, which makes them cheaper,
+
+167
+00:11:27,079 --> 00:11:31,012
+and it also means you get to  turn the crank on iteration more.
+
+168
+00:11:32,042 --> 00:11:35,061
+Because they are quick, you can rapidly create multiple alternatives.
+
+169
+00:11:35,061 --> 00:11:39,007
+And you decide that you want the “implementation” to work differently,
+
+170
+00:11:39,007 --> 00:11:42,064
+you just give your wizard different instructions; there’s no code to rewrite.
+
+171
+00:11:43,055 --> 00:11:49,000
+Because it is in a sense interactive, it is more real and you get better feedback than just from paper prototyping,
+
+172
+00:11:49,000 --> 00:11:52,013
+although using paper prototypes as the substrate for a wizard
+
+173
+00:11:52,013 --> 00:11:55,072
+is an excellent strategy early on in the design process.
+
+174
+00:11:56,030 --> 00:12:00,086
+It’s a great way to get feedback about bugs and problems with your user interface design.
+
+175
+00:12:00,086 --> 00:12:05,016
+Every single user interface that I’ve ever built, or that I’ve seen built,
+
+176
+00:12:05,016 --> 00:12:08,059
+or that students of mine have ever built, has had bugs early on.
+
+177
+00:12:08,059 --> 00:12:11,032
+It’s too hard to get right the first time.
+
+178
+00:12:11,032 --> 00:12:15,054
+You’re going to iterate and fail fast, so that you can succeed sooner.
+
+179
+00:12:15,054 --> 00:12:18,091
+And a Wizard of Oz is a great tool to be able to do that.
+
+180
+00:12:20,005 --> 00:12:22,054
+Because you’re getting feedback from users early,
+
+181
+00:12:22,054 --> 00:12:26,043
+it’s a great way to place people at the centre of the development process.
+
+182
+00:12:27,000 --> 00:12:29,091
+It’s also really wonderful for forward-looking applications
+
+183
+00:12:29,091 --> 00:12:34,060
+as we start to think about how sensors and cameras and other futuristic technologies
+
+184
+00:12:34,060 --> 00:12:37,021
+might enable other new kinds of user interfaces.
+
+185
+00:12:37,021 --> 00:12:42,023
+You can imagine these now by building Wizard-of-Oz prototypes.
+
+186
+00:12:42,052 --> 00:12:46,002
+And lastly, strange as it may sound, you actually learn a lot
+
+187
+00:12:46,002 --> 00:12:50,012
+about what your application logic of your interface ought to be, and what makes sense
+
+188
+00:12:50,012 --> 00:12:54,026
+by playing the wizard and embodying that role in the system.
+
+189
+00:12:54,099 --> 00:12:58,028
+But there are some disadvantages too:
+
+190
+00:12:58,028 --> 00:13:03,017
+It can be easy to gloss over errors in technology that will ultimately come back to bite you —
+
+191
+00:13:03,017 --> 00:13:06,064
+like speech recognition systems for example.
+
+192
+00:13:06,065 --> 00:13:11,063
+If, at the end of the day, you’re going to have bugs in your speech system,
+
+193
+00:13:11,063 --> 00:13:14,044
+you’ll want to make sure that your Wizard-of-Oz prototype encodes
+
+194
+00:13:14,044 --> 00:13:16,088
+what happens when the speech reco[gnition]s screws up.
+
+195
+00:13:16,088 --> 00:13:20,005
+Don’t assume it’s going to work perfectly all the time.
+
+196
+00:13:20,005 --> 00:13:24,071
+’Cause if you’re not careful, you can end up simulating a technology that doesn’t exist and may never.
+
+197
+00:13:25,039 --> 00:13:27,080
+People, for better or for worse, are inconsistent,
+
+198
+00:13:27,080 --> 00:13:32,088
+and, to get them to play the wizard role, can require training, so that’s a ramp-up time.
+
+199
+00:13:32,088 --> 00:13:35,099
+And because you have to have a physical human there to run it,
+
+200
+00:13:35,099 --> 00:13:38,019
+your runtime efficiency is slower,
+
+201
+00:13:38,019 --> 00:13:42,015
+and it can be more exhausting for the people that are playing the wizard role.
+
+202
+00:13:42,015 --> 00:13:46,098
+Wizards are great for some kind[s] of functionality, like Kramer did with the speech user interface.
+
+203
+00:13:46,098 --> 00:13:51,037
+But other stuff, it’s harder to figure out what you can do with a wizard interface,
+
+204
+00:13:51,037 --> 00:13:56,023
+and it may not be quite as effective — it may be klunkier.
+
+205
+00:13:56,023 --> 00:13:57,096
+Or it might be simply be inappropriate —
+
+206
+00:13:57,096 --> 00:14:05,084
+there’re some situations where having a wizard around may not be ok.
+
+207
+00:14:05,084 --> 00:14:09,009
+All in all, I think wizards are an incredibly powerful technique,
+
+208
+00:14:09,009 --> 00:14:11,052
+and a really fun one to stretch your creativity.
+
+209
+00:14:11,052 --> 00:14:17,007
+What kinds of new user interfaces can you imagine by creating a Wizard-of-Oz prototype?
+
+210
+00:14:17,007 --> 00:14:19,076
+I’d like to thank Stephen Dow in creating this lecture —
+
+211
+00:14:19,076 --> 00:14:24,046
+I drew on a lot of the materials that’s he’s used in writing and speaking about Wizard-of-Oz prototypes.
+
+212
+00:14:24,046 --> 00:14:30,091
+And if you’re interested in learning more about wizards, you can see these resources here.

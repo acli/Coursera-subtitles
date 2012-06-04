@@ -16,6 +16,9 @@ Transcribed from scratch:
 - http://www.universalsubtitles.org/fr/videos/hZbYw3S5emvp/en/325638/ (HCI 1.3)
 - http://www.universalsubtitles.org/fr/videos/tJCi1dIa5lBJ/en/326521/ (HCI 1.4)
 - http://www.universalsubtitles.org/fr/videos/xOoOaLfas4Mz/en/327172/ (HCI 2.3)
+- http://www.universalsubtitles.org/fr/videos/Ccd5NxCIzc3v/en/328862/ (HCI 3.1)
+- http://www.universalsubtitles.org/fr/videos/x1HgL7TWQEkw/en/329248/ (HCI 3.2)
+
 
 Reformatting and QA of stanford-bot’s transcripts:
 
