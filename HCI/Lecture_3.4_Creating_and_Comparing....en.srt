@@ -1,533 +1,451 @@
 1
-00:00:00,084 --> 00:00:05,058
-In this video I would like to talk about
-the power of creating and comparing
+00:00:01,027 --> 00:00:06,030
+In this video I’d like to talk about the power of creating and comparing alternatives.
 
 2
-00:00:05,058 --> 00:00:10,075
-alternatives And to do that I'm going to
-share some research that Steven Dow did as
+00:00:06,030 --> 00:00:08,072
+And to do that I’m going to share some research
 
 3
-00:00:10,075 --> 00:00:15,034
-a post doctoral scholar with me at
-Stanford University. When you're
+00:00:08,072 --> 00:00:13,057
+that Steven Dow did as a postdoctoral scholar with me at Stanford University.
 
 4
-00:00:15,034 --> 00:00:20,081
-designing, does it make more sense to go
-for quality and try to come up with the
+00:00:14,074 --> 00:00:21,093
+When you’re designing, does it make more sense to go for quality and try to come up with the best possible design?
 
 5
-00:00:20,081 --> 00:00:26,049
-best possible design? Or does it make more
-sense to go for quantity first as a, as a
+00:00:21,093 --> 00:00:29,013
+Or does it make more sense to go for quantity first as a path to try and learn and understand?
 
 6
-00:00:26,049 --> 00:00:31,034
-path to try and learn and understand?
-There's a story that Bayles and Orland
+00:00:29,013 --> 00:00:34,096
+There’s a story that Bayles and Orland tell about an art teacher who divides the class in half,
 
 7
-00:00:31,034 --> 00:00:36,015
-tell about an art teacher who divides the
-class in half, and he tells one half of
+00:00:34,096 --> 00:00:37,004
+and he tells one half of the class,
 
 8
-00:00:36,015 --> 00:00:40,060
-the class, you're going to be graded
-exclusively on the quality of the very
+00:00:37,004 --> 00:00:42,077
+“You’re going to be graded exclusively on the quality of the very best thing that you make.”
 
 9
-00:00:40,060 --> 00:00:45,022
-best thing that you make. He tells the
-other half of the class; you're going to
+00:00:42,077 --> 00:00:44,055
+He tells the other half of the class,
 
 10
-00:00:45,022 --> 00:00:49,097
-be graded on the quantity of things that
-you make. Doesn't matter how good it is,
+00:00:44,055 --> 00:00:48,028
+“You’re going to be graded on the quantity of things that you make.
 
 11
-00:00:49,097 --> 00:00:54,074
-all that matters is how much that you make
-And what this teacher found was that while
+00:00:48,028 --> 00:00:52,044
+Doesn’t matter how good it is; all that matters is how much that you make.”
 
 12
-00:00:54,074 --> 00:00:58,091
-the quantity group was busily churning our
-piles of work and learning from their
+00:00:52,044 --> 00:00:57,079
+And what this teacher found was that while the quantity group was busily churning our piles of work —
 
 13
-00:00:58,091 --> 00:01:03,003
-mistakes, the quality group sat around
-theorizing, and at the end of the day they
+00:00:57,079 --> 00:00:59,084
+and learning from their mistakes —
 
 14
-00:01:03,003 --> 00:01:07,036
-had little more to show for their efforts
-than grandiose theories and piles of dead
+00:00:59,084 --> 00:01:02,061
+the quality group sat around theorizing, and at the end of the day
 
 15
-00:01:07,036 --> 00:01:12,024
-clay. So this gives us some intuition that
-rapidly producing many alternatives has a
+00:01:02,061 --> 00:01:07,070
+they had little more to show for their efforts than grandiose theories and piles of dead clay.
 
 16
-00:01:12,024 --> 00:01:17,010
-lot of value. And to explore this further,
-Steven and I had people create, [sound],
+00:01:07,070 --> 00:01:14,009
+So this gives us some intuition that rapidly producing many alternatives has a lot of value.
 
 17
-00:01:17,010 --> 00:01:21,055
-egg drop devices. You may have done this
-when you were in high school. If you
+00:01:14,009 --> 00:01:19,009
+And to explore this further, Steven and I had people create egg drop devices.
 
 18
-00:01:21,055 --> 00:01:26,035
-haven't, it's a lot of fun, and I suggest
-trying it out And what you can do with an
+00:01:19,009 --> 00:01:21,009
+You may have done this when you were in high school.
 
 19
-00:01:26,035 --> 00:01:30,074
-egg drop device, we're building a
-contraption that will protect an egg from
+00:01:21,009 --> 00:01:23,089
+If you haven’t, it’s a lot of fun, and I suggest trying it out.
 
 20
-00:01:30,074 --> 00:01:35,025
-a fall. Here we threw one out my third
-story office window and low and behold,
+00:01:23,089 --> 00:01:25,070
+And what you can do with an egg drop device,
 
 21
-00:01:35,025 --> 00:01:40,035
-the egg survives. And we tested a whole
-bunch of people in variance of this design
+00:01:25,070 --> 00:01:30,028
+is you’re building a contraption that will protect an egg from a fall.
 
 22
-00:01:40,035 --> 00:01:45,015
-and people come up with all sorts of
-stuff. They come up with good ideas, and
+00:01:30,028 --> 00:01:36,043
+Here we threw one out my third-story office window and, lo and behold, the egg survives.
 
 23
-00:01:45,015 --> 00:01:50,001
-bad ideas, and creative solutions, and
-really unimaginative ones And one thing
+00:01:36,043 --> 00:01:42,008
+And we tested a whole bunch of people in variance of this design and people come up with all sorts of stuff.
 
 24
-00:01:50,001 --> 00:01:55,031
-that is really interesting is that in
-aggregate people often pick one idea early
+00:01:42,008 --> 00:01:47,058
+They come up with good ideas, and bad ideas, and creative solutions, and really unimaginative ones.
 
 25
-00:01:55,031 --> 00:01:59,041
-on and they stick with it to their
-detriment. So here is a couple
+00:01:47,058 --> 00:01:50,045
+And one thing that is really interesting is that,
 
 26
-00:01:59,041 --> 00:02:03,095
-participants talking about that
-experience. >> Y ou know, no, I don't know
+00:01:50,045 --> 00:01:58,047
+in aggregate, people often pick one idea early on, and they stick with it to their detriment.
 
 27
-00:02:03,095 --> 00:02:09,032
-for some reason this is this seems to be
-the only idea. [inaudible] There needs to
+00:01:58,047 --> 00:02:02,058
+And so here is a couple participants talking about that experience.
 
 28
-00:02:09,032 --> 00:02:14,035
-be a platform and then it's good for
-cushion as possible with the materials. I,
+00:02:02,058 --> 00:02:07,039
+(No, I don’t know, for some reason this is… this seems to be the only idea,
 
 29
-00:02:14,035 --> 00:02:19,091
-I don't see any, any other way. >> I move,
-not a very good outside the box thinker. I
+00:02:07,039 --> 00:02:12,016
+in that there needs to be a platform and then it’s going to cushion, if possible, with the materials.
 
 30
-00:02:19,091 --> 00:02:25,040
-kind of just had one idea and I was going
-to try and make it work. >> I kind of went
+00:02:12,016 --> 00:02:14,028
+I… I don’t see any, any other way.
 
 31
-00:02:25,040 --> 00:02:30,076
-with the whole parachute idea, and what I
-had from the beginning so. >> [inaudible]
+00:02:14,028 --> 00:02:21,097
+>> I’m not a very good outside-the-box thinker, so I kind of just had one idea and I was going to try and make it work.
 
 32
-00:02:30,076 --> 00:02:36,032
-This is the best approach for such a
-design. What we see here is an example of
+00:02:21,097 --> 00:02:27,051
+>> I kind of went with the whole parachute idea, and what I had from the beginning. So.
 
 33
-00:02:36,032 --> 00:02:42,027
-a Karl Duncker called Functional Fixation.
-In a number of experiments that he ran in
+00:02:27,051 --> 00:02:33,024
+>> This is the best approach for such a design.)
 
 34
-00:02:42,027 --> 00:02:48,008
-the 1940's he gave people tasks like this
-Attach the candle to the wall such that
+00:02:34,017 --> 00:02:38,097
+What we see here is an example of what Karl Duncker called “functional fixation.”
 
 35
-00:02:48,008 --> 00:02:53,003
-none of the wax drips on the table. Ten,
-twenty percent of the people figure it
+00:02:38,097 --> 00:02:44,058
+In a number of experiments that he ran in the 1940’s he gave people tasks like this:
 
 36
-00:02:53,003 --> 00:03:04,024
-out. Take a moment and see if you can
-figure it out. [sound] The solution, as a
+00:02:44,058 --> 00:02:50,010
+“Attach the candle to the wall such that none of the wax drips on the table.”
 
 37
-00:03:04,024 --> 00:03:10,017
-couple of you have got, but many people
-didn't. Is to take the box that holds the
+00:02:50,010 --> 00:02:53,035
+Ten, twenty percent of the people figured it out.
 
 38
-00:03:10,017 --> 00:03:15,053
-tacks and use that as a container for the
-candle. That'll protect the wax from
+00:02:53,035 --> 00:03:03,024
+Take a moment and see if you can figure it out.
 
 39
-00:03:15,053 --> 00:03:20,047
-dripping on the table. And what's
-interesting about this, is that, because
+00:03:03,024 --> 00:03:07,066
+The solution — as a couple of you have got, but I bet many people didn’t —
 
 40
-00:03:20,047 --> 00:03:26,024
-the tacks are in the box, we don't see the
-box. If you give people the exact same set
+00:03:07,066 --> 00:03:13,049
+is to take the box that holds the tacks and use that as a container for the candle.
 
 41
-00:03:26,024 --> 00:03:31,080
-up, where the tacks are outside the box,
-all of a sudden the box becomes obviously
+00:03:13,049 --> 00:03:16,061
+That will protect the wax from dripping on the table.
 
 42
-00:03:31,080 --> 00:03:37,009
-available as a resource and nearly
-everybody solves exactly the same problem.
+00:03:16,061 --> 00:03:24,023
+And what’s interesting about this is that, because the tacks are in a box, we don’t see the box.
 
 43
-00:03:37,009 --> 00:03:41,014
-So Stephen and I set off and tried to
-figure out whether we could augment
+00:03:24,023 --> 00:03:29,063
+If you give people the exact same set up, where the tacks are outside the box,
 
 44
-00:03:41,014 --> 00:03:45,053
-people's design process to get them to
-explore more alternatives. And one of the
+00:03:29,063 --> 00:03:33,085
+all of a sudden the box becomes obviously available as a resource
 
 45
-00:03:45,053 --> 00:03:49,091
-things that we did, is we forced people to
-come up with multiple alternatives in
+00:03:33,085 --> 00:03:37,007
+and nearly everybody solves exactly the same problem.
 
 46
-00:03:49,091 --> 00:03:53,086
-parallel. We call this parallel
-prototyping, and in this particular study
+00:03:37,007 --> 00:03:39,046
+So Stephen and I set off and tried to figure out
 
 47
-00:03:53,086 --> 00:03:59,028
-we had people design graphical
-advertisements for the web. So, we're
+00:03:39,046 --> 00:03:44,078
+whether we could augment people’s design process to get them to explore more alternatives.
 
 48
-00:03:59,028 --> 00:04:03,073
-going to get, put people in one of two
-conditions. You're either going to be in a
+00:03:44,078 --> 00:03:49,053
+And one of the things that we did, is we forced people to come up with multiple alternatives in parallel.
 
 49
-00:04:03,073 --> 00:04:07,090
-serial condition, where you iteratively
-create six prototypes from start to
+00:03:49,053 --> 00:03:52,016
+We call this parallel prototyping,
 
 50
-00:04:07,090 --> 00:04:12,002
-finish, or in a parallel condition, where
-you create three alternatives, get
+00:03:52,016 --> 00:03:58,065
+and in this particular study we had people design graphical advertisements for the web.
 
 51
-00:04:12,002 --> 00:04:16,008
-feedback, create two more, get feedback,
-and then make a final one. I should
+00:03:58,065 --> 00:04:01,050
+So, we’re going to put people in one of two conditions:
 
 52
-00:04:16,008 --> 00:04:20,054
-clarify that the amount of time that was
-available was exactly the same in both
+00:04:01,050 --> 00:04:07,082
+You’re either going to be in a serial condition, where you iteratively create six prototypes from start to finish;
 
 53
-00:04:20,054 --> 00:04:25,004
-conditions, and in both conditions, people
-got exactly the same amount of feedback.
+00:04:07,082 --> 00:04:13,063
+or in a parallel condition, where you create three alternatives, get feedback, create two more,
 
 54
-00:04:25,004 --> 00:04:31,042
-The only difference is when and how they
-got it And again people come up with all
+00:04:13,063 --> 00:04:16,008
+get feedback, and then make a final one.
 
 55
-00:04:31,042 --> 00:04:37,025
-sorts of stuff. Creative ideas and crummy
-ideas, well executed and poorly executed,
+00:04:16,008 --> 00:04:20,083
+I should clarify that the amount of time that was available was exactly the same in both conditions,
 
 56
-00:04:37,025 --> 00:04:43,016
-and overall we're able to measure, using
-web analytics, the click-through rate that
+00:04:20,083 --> 00:04:24,050
+and in both conditions people got exactly the same amount of feedback.
 
 57
-00:04:43,016 --> 00:04:49,020
-people clicked on these advertisements and
-so, over the past several years we've run
+00:04:24,050 --> 00:04:27,063
+The only difference is when and how they got it.
 
 58
-00:04:49,020 --> 00:04:54,054
-millions of advertisements out on the web.
-And what we see in aggregate is that
+00:04:29,035 --> 00:04:33,070
+And, again, people come up with all sorts of stuff: Creative ideas and crummy ideas,
 
 59
-00:04:54,054 --> 00:04:59,023
-participants that got a parallel design
-medicine, who were forced to create
+00:04:33,070 --> 00:04:41,092
+well executed and poorly executed, and, overall, we’re able to measure, using web analytics,
 
 60
-00:04:59,023 --> 00:05:04,018
-multiple alternatives in parallel, had a
-higher click-through rate. The ads they
+00:04:41,092 --> 00:04:46,061
+the click-through rate that people clicked on these advertisements.
 
 61
-00:05:04,018 --> 00:05:09,018
-created were clicked on more than ads in
-the serial condition, and not only that.
+00:04:46,061 --> 00:04:52,058
+And so, over the past several years, we’ve run millions of advertisements out on the web.
 
 62
-00:05:09,018 --> 00:05:14,008
-But the people who clicked on those ads
-and then went to the site subsequently,
+00:04:52,058 --> 00:04:57,086
+And what we see, in aggregate, is that participants who got a parallel design medicine —
 
 63
-00:05:14,008 --> 00:05:19,023
-spent a whole lot more time on that site
-and what this is telling us is that we're
+00:04:57,086 --> 00:05:02,080
+who were forced to create multiple alternatives in parallel — had a higher click-through rate:
 
 64
-00:05:19,023 --> 00:05:24,056
-getting the right people through to those
-ads. We also had experts, both advertising
+00:05:02,080 --> 00:05:07,016
+The ads they created were clicked on more than ads in the serial condition.
 
 65
-00:05:24,056 --> 00:05:28,072
-professionals and clients for this
-website; rate the quality of the
+00:05:07,016 --> 00:05:13,024
+And not only that, but the people who clicked on those ads and then went to the site subsequently
 
 66
-00:05:28,072 --> 00:05:33,068
-advertisements and the experts also rated
-the quality of the parallel ads to be
+00:05:13,024 --> 00:05:16,032
+spent a whole lot more time on that site
 
 67
-00:05:33,068 --> 00:05:38,060
-higher. And then we had the ads rated by a
-crowd online for the diversity of the ads.
+00:05:16,032 --> 00:05:21,050
+and what this is telling us is that we’re getting the right people through to those ads.
 
 68
-00:05:38,060 --> 00:05:43,025
-And what we see is that the ads in the
-parallel condition are also more diverse.
+00:05:22,003 --> 00:05:27,079
+We also had experts — both advertising professionals and clients for this website —
 
 69
-00:05:43,074 --> 00:05:50,042
-And so why does a parallel approach yield
-better results? I think one of the
+00:05:27,079 --> 00:05:34,017
+rate the quality of the advertisements and the experts also rated the quality of the parallel ads to be higher.
 
 70
-00:05:50,042 --> 00:05:54,085
-important things that creating multiple
-alternatives in parallel does, is it
+00:05:34,017 --> 00:05:38,072
+And then we had the ads rated by a crowd online for the diversity of the ads.
 
 71
-00:05:54,085 --> 00:05:59,051
-separates your ego from the thing that you
-make. If I have only one idea and you
+00:05:38,072 --> 00:05:42,059
+And what we see is that the ads in the parallel condition are also more diverse.
 
 72
-00:05:59,051 --> 00:06:03,094
-critique it, I am going to treat that as
-feedback about me. Whereas if I have
+00:05:44,033 --> 00:05:48,062
+And so why does a parallel approach yield better results?
 
 73
-00:06:03,094 --> 00:06:08,037
-multiple different ideas and I get a
-critique about them, I can see that its
+00:05:49,037 --> 00:05:53,075
+I think one of the important things that creating multiple alternatives in parallel does,
 
 74
-00:06:08,037 --> 00:06:12,039
-feedback about the ideas, and not a
-referendum on me as a person, Also,
+00:05:53,075 --> 00:05:56,090
+is it separates your ego from the thing that you make.
 
 75
-00:06:12,039 --> 00:06:16,062
-automatically, by creating multiple
-alternatives, people are inspired to
+00:05:56,090 --> 00:06:02,065
+If I have only one idea and you critique it, I’m going to treat that as feedback about me;
 
 76
-00:06:16,062 --> 00:06:21,039
-compare what they've created and try and
-transfer what they've learned from one
+00:06:02,065 --> 00:06:06,041
+whereas if I have multiple different ideas and I get critique about them,
 
 77
-00:06:21,039 --> 00:06:26,031
-design as they go forward in the future
-And we see this transfer across a wide
+00:06:06,041 --> 00:06:12,014
+I can see that its feedback about the ideas and not a referendum on me as a person,
 
 78
-00:06:26,031 --> 00:06:31,065
-variety of domains. For example, in Dedra
-Genter's research on business negotiation,
+00:06:12,014 --> 00:06:18,008
+Also, automatically, by creating multiple alternatives, people are inspired to compare what they’ve created
 
 79
-00:06:31,065 --> 00:06:37,032
-she had participants, read business school
-cases, and she either had people read the
+00:06:18,008 --> 00:06:23,021
+and try and transfer what they’ve learned from one design as they go forward in the future.
 
 80
-00:06:37,032 --> 00:06:42,066
-cases one at a time, and think about each
-individually, or she had people read them
+00:06:24,002 --> 00:06:27,017
+And we see this transfer across a wide variety of domains.
 
 81
-00:06:42,066 --> 00:06:48,037
-two at a time and compare them. And what
-she found was that having people compare
+00:06:27,017 --> 00:06:30,084
+For example, in Dedre Gentner’s research on business negotiation,
 
 82
-00:06:48,037 --> 00:06:54,051
-two cases to be able to contrast them and
-see similarities yielded to a three-fold
+00:06:30,084 --> 00:06:34,052
+she had participants read business school cases,
 
 83
-00:06:54,051 --> 00:07:00,065
-increase in the amount of wisdom that they
-were able to get out of those cases and
+00:06:34,052 --> 00:06:40,028
+and she either had people read the cases one at a time and think about each individually,
 
 84
-00:07:00,065 --> 00:07:06,007
-transfer to a new negotiation task. So,
-what we got out of this is that, maybe
+00:06:40,028 --> 00:06:44,055
+or she had people read them two at a time and compare them.
 
 85
-00:07:06,007 --> 00:07:11,025
-there's some big benefits of creating
-multiple alternatives Especially for
+00:06:44,055 --> 00:06:49,021
+And what she found was that having people compare two cases —
 
 86
-00:07:11,025 --> 00:07:16,065
-design teams and not just for individual
-design. So the next experiment we ran
+00:06:49,021 --> 00:06:53,005
+to be able to contrast them and see similarities —
 
 87
-00:07:16,065 --> 00:07:22,099
-looked at sharing multiple alternatives.
-Same basic idea we have a new client this
+00:06:53,005 --> 00:06:58,080
+yielded to a three-fold increase in the amount of wisdom that they were able to get
 
 88
-00:07:22,099 --> 00:07:28,053
-time And we're going to have people either
-create and share multiple, create and
+00:06:58,080 --> 00:07:04,050
+out of those cases and transfer to a new negotiation task.
 
 89
-00:07:28,053 --> 00:07:34,007
-share their best, or create and share only
-one. Participants came up with lots of
+00:07:04,050 --> 00:07:10,040
+So, what we got out of this is that maybe there’s some big benefits of creating multiple alternatives,
 
 90
-00:07:34,007 --> 00:07:39,041
-different designs. And that you can see is
-that the share multiple condition
+00:07:10,040 --> 00:07:13,097
+especially for design teams and not just for individual design.
 
 91
-00:07:39,041 --> 00:07:44,005
-drastically outperforms the other two
-conditions. So being able to create and
+00:07:13,097 --> 00:07:18,092
+So the next experiment we ran looked at sharing multiple alternatives.
 
 92
-00:07:44,005 --> 00:07:48,087
-share multiple designs has especially
-significant benefits for teams. And there
+00:07:20,006 --> 00:07:23,084
+Same basic idea — we have a new client this time.
 
 93
-00:07:48,087 --> 00:07:54,034
-are a number of reasons for this. I'd like
-to point out one in particular, which is
+00:07:23,084 --> 00:07:27,004
+And we’re going to have people either create and share multiple,
 
 94
-00:07:54,034 --> 00:07:59,047
-the increase in group rapport. When we
-asked people how they felt about their
+00:07:27,004 --> 00:07:29,042
+create multiple and share their best,
 
 95
-00:07:59,047 --> 00:08:04,074
-teammate, both before and after the task.
-In the create and share one conditions,
+00:07:29,042 --> 00:07:32,031
+or create and share only one.
 
 96
-00:08:04,074 --> 00:08:10,014
-people felt worse about their teammate
-afterwards. The single design approach can
+00:07:32,031 --> 00:07:35,075
+Participants came up with lots of different designs.
 
 97
-00:08:10,014 --> 00:08:14,094
-create enmity between teammates, and
-hostility, Whereas, when creating and
+00:07:35,075 --> 00:07:42,032
+And [what] you can see is that the “share multiple” condition drastically outperforms the other two conditions.
 
 98
-00:08:14,094 --> 00:08:20,007
-sharing multiple designs, people felt
-better about their teammates afterwards.
+00:07:42,032 --> 00:07:48,025
+So being able to create and share multiple designs has especially significant benefits for teams.
 
 99
-00:08:20,050 --> 00:08:24,092
-One important benefit of sharing multiple
-designs, both with users and with
+00:07:48,025 --> 00:07:50,082
+And there are a number of reasons for this.
 
 100
-00:08:24,092 --> 00:08:29,082
-designers, is that alternatives provide a
-vocabulary for talking about the space of
+00:07:50,082 --> 00:07:55,011
+I’d like to point out one in particular, which is the increase in group rapport.
 
 101
-00:08:29,082 --> 00:08:33,083
-possible designs. As [inaudible] and
-colleagues showed, this could be
+00:07:55,011 --> 00:07:59,074
+When we asked people how they felt about their teammate, both before and after the task,
 
 102
-00:08:33,083 --> 00:08:38,014
-especially valuable for users because
-users don't know what the space of
+00:07:59,074 --> 00:08:06,078
+in the create- and share-one conditions, people felt worse about their teammate afterwards —
 
 103
-00:08:38,014 --> 00:08:42,010
-possible designs is. And so having
-multiple alternatives gives this
+00:08:06,078 --> 00:08:13,090
+the single design approach can create enmity between teammates, and hostility —
 
 104
-00:08:42,010 --> 00:08:46,036
-vocabulary. I hope that today's lecture
-has provided you with the conceptual tools
+00:08:13,090 --> 00:08:19,040
+whereas, when creating and sharing multiple designs, people felt better about their teammates afterwards.
 
 105
-00:08:46,036 --> 00:08:50,022
-for why it's valuable to create many
-different alternatives And I hope that
+00:08:20,046 --> 00:08:25,028
+One important benefit of sharing multiple designs, both with users and with designers,
 
 106
-00:08:50,022 --> 00:08:54,034
-this will be really useful for you as you
-go about your design projects. I'll see
+00:08:25,028 --> 00:08:30,089
+is that alternatives provide a vocabulary for talking about the space of possible designs.
 
 107
-00:08:54,034 --> 00:08:55,005
-you next time.
+00:08:30,089 --> 00:08:35,007
+As Tohidi and colleagues showed, this could be especially valuable for users
+
+108
+00:08:35,007 --> 00:08:38,022
+because users don’t know what the space of possible designs is.
+
+109
+00:08:38,022 --> 00:08:42,040
+And so having multiple alternatives gives this vocabulary.
+
+110
+00:08:43,026 --> 00:08:46,055
+I hope that today’s lecture has provided you with the conceptual tools
+
+111
+00:08:46,055 --> 00:08:49,049
+for why it’s valuable to create many different alternatives.
+
+112
+00:08:49,049 --> 00:08:53,030
+And I hope that this will be really useful for you as you go about your design projects.
+
+113
+00:08:53,030 --> 00:08:56,064
+I’ll see you next time.

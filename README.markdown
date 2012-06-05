@@ -30,7 +30,7 @@ Reformatting and QA of stanford-bot’s transcripts:
 - http://www.universalsubtitles.org/fr/videos/vPfFsyG2H2w1/en/321441/ (NLP chat II)
 - http://www.universalsubtitles.org/fr/videos/8qWn2qbDGOHI/en/325003/ (HCI 2.2)
 - http://www.universalsubtitles.org/fr/videos/FZdagnyVGlGX/en/329585/ (HCI 3.3)
-- http://www.universalsubtitles.org/fr/videos/wB9UdDAP8a5X/en/329502/ (HCI 3.4) - in progress
+- http://www.universalsubtitles.org/fr/videos/wB9UdDAP8a5X/en/329502/ (HCI 3.4)
 - http://www.universalsubtitles.org/fr/videos/4e1VKeiCW3BD/en/325004/ (HCI 9.1)
 - http://www.universalsubtitles.org/fr/videos/J4g1fGjMz6BN/en/325002/ (HCI 9.2a)
 - http://www.universalsubtitles.org/fr/videos/GMB76WUpPRAc/en/325001/ (HCI 9.2bcd)
