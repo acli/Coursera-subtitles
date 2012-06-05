@@ -1,9 +1,9 @@
 1
-00:00:01,047 --> 00:00:08,050
+00:00:01,033 --> 00:00:08,072
 The key innovation of the graphic user interface is that input is performed directly on top of output.
 
 2
-00:00:08,050 --> 00:00:14,043
+00:00:08,072 --> 00:00:14,043
 Today, we’re going to explore what makes an interface easy, hard, or “natural,”
 
 3
@@ -503,213 +503,221 @@ the graphical interface does a much better job in terms of visibility, feedback,
 In either interface style, Undo is possible,
 
 127
-00:12:37,012 --> 00:12:46,028
-although the GUI generally does a better job of exposing when Undo is available and what undoing will actually do.
+00:12:37,012 --> 00:12:42,030
+although the GUI generally does a better job of exposing when Undo is available
 
 128
+00:12:42,030 --> 00:12:46,028
+and what undoing will actually do.
+
+129
 00:12:48,049 --> 00:12:53,020
 One place that a graphical interface really shines is in terms of discoverability —
 
-129
+130
 00:12:53,020 --> 00:12:58,087
 you can leaf through every single menu in a system, and see all of the operations that are there;
 
-130
+131
 00:12:58,087 --> 00:13:00,054
 with a command-line interface,
 
-131
+132
 00:13:00,054 --> 00:13:07,028
 there’s really no way to know what’s the full set of operations that you could possible type into a terminal.
 
-132
+133
 00:13:07,028 --> 00:13:11,075
 There’s no mater list.
 
-133
+134
 00:13:11,075 --> 00:13:17,038
 In terms of reliability, either interface style can be made to be reliable.
 
-134
+135
 00:13:19,067 --> 00:13:22,050
 “But how can this be?” some of you may be saying,
 
-135
+136
 00:13:22,050 --> 00:13:27,004
 “The command-line interface can be  so much better sometimes!”
 
-136
+137
 00:13:27,004 --> 00:13:29,096
 And it is!
 
-137
+138
 00:13:29,096 --> 00:13:31,019
 When is that?
 
-138
-00:13:31,019 --> 00:13:39,074
-The command-line interface works better when the indirection that it offers is a benefit rather than a drawback.
-
 139
+00:13:31,019 --> 00:13:33,048
+The command-line interface works better
+
+140
+00:13:33,048 --> 00:13:39,074
+when the indirection that it offers is a benefit rather than a drawback.
+
+141
 00:13:39,074 --> 00:13:43,028
 And in fact that indirection that it offers is a  kind of abstraction,
 
-140
+142
 00:13:43,028 --> 00:13:45,069
 and that’s what gives programming its power,
 
-141
+143
 00:13:45,069 --> 00:13:51,018
 and so the command-line interface, like programming — because in some way it kind of is programming —
 
-142
+144
 00:13:51,018 --> 00:13:59,055
 gets its power when you can express stuff more abstractly and thereby do work more efficiently.
 
-143
+145
 00:13:59,055 --> 00:14:06,055
 So, for example, moving all of the files that match a certain set of criteria from one place to another,
 
-144
+146
 00:14:06,055 --> 00:14:11,030
 that can sometimes be more efficiently accomplished with a command line.
 
-145
+147
 00:14:11,030 --> 00:14:16,035
 And even that wonderful discoverability of the graphical user interface has a dark side:
 
-146
+148
 00:14:16,086 --> 00:14:19,076
 This is a picture from my colleague Takeo Igarashi.
 
-147
+149
 00:14:19,076 --> 00:14:25,087
 Takeo made this picture by turning on all of the menu bars in a certain version of Microsoft [PowerPoint].
 
-148
+150
 00:14:25,087 --> 00:14:32,013
 And you can see that, on his laptop screen, all of those menu bars crowded things out so much
 
-149
+151
 00:14:32,013 --> 00:14:35,094
 that there was almost no screen left over for the slides.
 
-150
+152
 00:14:35,094 --> 00:14:41,032
 So, is this interface discoverable? Absolutely! All of the functionality is right there.
 
-151
+153
 00:14:41,032 --> 00:14:45,086
 But you pay a cost in terms of screen real estate.
 
-152
+154
 00:14:45,086 --> 00:14:50,009
 In this introductory course, we won’t have a chance to talk much about gestural interfaces.
 
-153
+155
 00:14:50,009 --> 00:14:54,006
 But, given their recent popularity, and tablet interfaces, game controllers,
 
-154
+156
 00:14:54,006 --> 00:15:00,042
 and movies like « the Minority Report », I want to conclude today’s lecture with an eye to the future:
 
-155
+157
 00:15:00,042 --> 00:15:04,045
 Gestural interfaces offer a wonderful solution to menu creep,
 
-156
+158
 00:15:04,045 --> 00:15:08,044
 in that they don’t take up any permanent screen real estate.
 
-157
+159
 00:15:08,044 --> 00:15:13,063
 The downside, of course, is that they are non–self-disclosing —
 
-158
+160
 00:15:13,063 --> 00:15:17,086
 you don’t know what functionality might be available.
 
-159
+161
 00:15:17,086 --> 00:15:24,090
 And, at their best, gestural interfaces can be even more direct than their graphical user interface counterpart.
 
-160
+162
 00:15:24,090 --> 00:15:31,016
 In recent years, I’ve watched in amazement at people of all ages and from all backgrounds
 
-161
+163
 00:15:31,016 --> 00:15:35,068
 have figured out how to use tablet computers really effectively.
 
-162
+164
 00:15:35,068 --> 00:15:39,009
 And the directness, I think, is one big reason for that.
 
-163
+165
 00:15:39,009 --> 00:15:42,015
 Learning to use a mouse is actually kind of a big deal:
 
-164
+166
 00:15:42,015 --> 00:15:44,043
 Once you’ve got the hang of it you forget that,
 
-165
+167
 00:15:44,043 --> 00:15:46,090
 but there *is* this indirectness that you’ll have to learn
 
-166
+168
 00:15:46,090 --> 00:15:51,000
 that what you’re doing over here matters over here.
 
-167
+169
 00:15:51,000 --> 00:15:56,025
 With a tablet, the thing that you touch is the thing that you’re interacting with.
 
-168
+170
 00:15:56,025 --> 00:16:02,062
 And the best gestures in these interfaces, like pinching to zoom, just feels so natural —
 
-169
+171
 00:16:02,062 --> 00:16:09,042
 the metaphor is very clear, the feedback is immediate, the outcome is predictable.
 
-170
+172
 00:16:09,042 --> 00:16:14,015
 In other cases, when the mapping is more arbitrary or harder to guess,
 
-171
+173
 00:16:14,015 --> 00:16:16,067
 I think these interfaces are less effective.
 
-172
+174
 00:16:16,067 --> 00:16:23,090
 For example, if I swipe with four fingers, that will bring up a menu bar on an iPad.
 
-173
+175
 00:16:23,090 --> 00:16:27,054
 How on earth would I ever figure that out?
 
-174
+176
 00:16:27,054 --> 00:16:32,054
 So, in gestural interfaces, like in all others, things work best when the feedback is clear,
 
-175
+177
 00:16:32,054 --> 00:16:37,074
 and the interface provides cues through metaphors or visual signals
 
-176
+178
 00:16:37,074 --> 00:16:41,078
 that help you know what you can do within the user interface.
 
-177
+179
 00:16:41,078 --> 00:16:45,089
 To learn more about direct manipulation interfaces and the psychology of design,
 
-178
+180
 00:16:45,089 --> 00:16:50,029
 I strongly recommend Don Norman’s book « The Design of Everyday Things ».
 
-179
+181
 00:16:50,029 --> 00:16:53,017
 We’ll see you next time.
