@@ -1,0 +1,715 @@
+1
+00:00:01,047 --> 00:00:08,050
+The key innovation of the graphic user interface is that input is performed directly on top of output.
+
+2
+00:00:08,050 --> 00:00:14,043
+Today, we’re going to explore what makes an interface easy, hard, or “natural,”
+
+3
+00:00:14,043 --> 00:00:21,018
+and we’re going to do it by starting with something really simple: a measuring cup.
+
+4
+00:00:21,018 --> 00:00:25,003
+It has a user interface: it’s got label readout here.
+
+5
+00:00:25,003 --> 00:00:28,091
+There’s a task: Fill up a liquid to a desired amount.
+
+6
+00:00:28,091 --> 00:00:33,058
+So, how might you be able to  improve this standard measuring cup design here?
+
+7
+00:00:33,058 --> 00:00:35,086
+What kind of things can you think of?
+
+8
+00:00:35,086 --> 00:00:39,036
+OXO is a company that sells kitchen utencils.
+
+9
+00:00:39,036 --> 00:00:45,087
+At the Gel Conference in 2008, OXO’s Alex Lee talked about their measuring cup:
+
+10
+00:00:45,087 --> 00:00:48,085
+The first prototype came unsolicited in the mail;
+
+11
+00:00:48,085 --> 00:00:54,060
+it inspired them to go out into the field and ask people about problems with their measuring cups
+
+12
+00:00:54,060 --> 00:00:56,081
+and suggestions for improvements.
+
+13
+00:00:56,081 --> 00:01:02,091
+They got things like: “It’s sometimes slippery” or “The handle gets hot”.
+
+14
+00:01:02,091 --> 00:01:05,086
+Nobody complained about the measuring part;
+
+15
+00:01:05,086 --> 00:01:11,035
+but, when they watched people measure things, they would do this:
+
+16
+00:01:11,035 --> 00:01:13,078
+Grab some liquid;
+
+17
+00:01:13,078 --> 00:01:18,046
+Pour it in;
+
+18
+00:01:18,046 --> 00:01:23,033
+Hold it up;
+
+19
+00:01:23,033 --> 00:01:26,020
+Pour some more in;
+
+20
+00:01:26,020 --> 00:01:29,004
+Hold it up;
+
+21
+00:01:29,004 --> 00:01:31,020
+Pour a little more;
+
+22
+00:01:31,020 --> 00:01:34,096
+There we go!
+
+23
+00:01:37,045 --> 00:01:39,094
+This stuttered-step measurement seems kind of inelegant,
+
+24
+00:01:39,094 --> 00:01:48,096
+so, to address this, OXO released a design with a clever insight: The numbers are visible from above.
+
+25
+00:01:48,096 --> 00:01:53,068
+This provides continuous interactive feedback on your actions.
+
+26
+00:01:57,060 --> 00:02:02,056
+Pour once; and when you get to the right level, you can see it directly and stop.
+
+27
+00:02:03,091 --> 00:02:08,015
+It’s a great design in lots of ways, but there’s still some room for further improvement.
+
+28
+00:02:08,015 --> 00:02:14,030
+For starters, the numbers that are written are sideways from the reader’s perspective.
+
+29
+00:02:14,030 --> 00:02:19,060
+Not a huge deal, but still, it’s kind of like when you have to tip your head to look at a table.
+
+30
+00:02:19,060 --> 00:02:24,042
+And also — some of you may like this, but I’ve always found this ridge here to be a little inelegant:
+
+31
+00:02:24,042 --> 00:02:30,024
+This feels like a medical device more than something that belongs in the kitchen.
+
+32
+00:02:30,024 --> 00:02:37,022
+And, when I went to the grocery store today, I actually found this measuring cup by Pyrex:
+
+33
+00:02:37,022 --> 00:02:44,046
+It takes the insight from the OXO measuring cup — that you can measure from above —
+
+34
+00:02:44,046 --> 00:02:46,035
+and improves upon it in two ways:
+
+35
+00:02:46,035 --> 00:02:52,052
+The first is that the numbers right here are readable from the reader’s perspective.
+
+36
+00:02:52,052 --> 00:02:58,003
+Hold it in the right hand if you want ounces, or in your left hand if you want millilitres.
+
+37
+00:02:58,003 --> 00:03:03,072
+The second is that, for me at least, this design is a whole lot cleaner and nicer-looking.
+
+38
+00:03:06,084 --> 00:03:10,013
+So, in this humble story of a better measuring cup,
+
+39
+00:03:10,013 --> 00:03:16,008
+Alex Lee at OXO has provided us with four important lessons about human-centred design.
+
+40
+00:03:16,094 --> 00:03:19,077
+There’s a common story that the carmaker Henry Ford once said,
+
+41
+00:03:19,077 --> 00:03:26,039
+“If I asked people what they wanted, they would have said ‘a faster horse.’”
+
+42
+00:03:26,039 --> 00:03:33,016
+[It] turns out that they probably didn’t say that — it’s probably made up — but it makes a good point.
+
+43
+00:03:33,016 --> 00:03:36,046
+Our first lesson is that  in both transit and in cookware,
+
+44
+00:03:36,046 --> 00:03:41,086
+simply asking people what they want can often miss important opportunities.
+
+45
+00:03:41,086 --> 00:03:46,021
+The second is that you can find these problems and opportunities — like poor ergonomics —
+
+46
+00:03:46,021 --> 00:03:50,058
+by going out into the field and discovering what people actually do.
+
+47
+00:03:50,058 --> 00:03:56,045
+And, third, you can get extra power out of this observation by bringing prototypes along with you.
+
+48
+00:03:56,045 --> 00:03:59,099
+Fourth, the world is full of people tinkering in their garage,
+
+49
+00:03:59,099 --> 00:04:05,066
+and everyone wins when the stars align to bring those things into the world.
+
+50
+00:04:05,066 --> 00:04:10,099
+With measuring cups, like user interfaces, you can think of there as being two steps:
+
+51
+00:04:10,099 --> 00:04:18,060
+The first is having some action.
+
+52
+00:04:18,060 --> 00:04:22,001
+And the second is evaluating the outcome.
+
+53
+00:04:22,001 --> 00:04:27,065
+At each of these steps, you, as a designer, has an opportunity for success or for failure.
+
+54
+00:04:27,065 --> 00:04:33,096
+In our first step, what you have to cross is the gulf of execution:
+
+55
+00:04:33,096 --> 00:04:37,037
+How does the user know what to do?
+
+56
+00:04:38,033 --> 00:04:43,041
+And the gulf that you have to help the user cross is the gulf of evaluation:
+
+57
+00:04:43,041 --> 00:04:46,033
+How does the user know what happened?
+
+58
+00:04:46,072 --> 00:04:50,084
+My sketch here is based on a diagram that my colleague Bill Verplank often uses.
+
+59
+00:04:51,055 --> 00:04:59,022
+As a designer, here are six powerful questions that you can ask to ascertain what challenges may arise:
+
+60
+00:04:59,022 --> 00:05:04,040
+How usually can someone determine the function of a device, or what actions are possible?
+
+61
+00:05:05,035 --> 00:05:10,054
+And then, how can I determine the mapping from their goals to their physical movements —
+
+62
+00:05:10,054 --> 00:05:13,067
+what they actually do with the user interface?
+
+63
+00:05:15,045 --> 00:05:20,028
+Once they have the plan, how usually can they execute that action?
+
+64
+00:05:21,037 --> 00:05:27,042
+And, after they’ve executed that action, how usually can they tell what state the system is in
+
+65
+00:05:27,042 --> 00:05:30,040
+or whether it’s in a desired state?
+
+66
+00:05:30,080 --> 00:05:34,076
+And, more generally, can they figure out the mapping  between the system state
+
+67
+00:05:34,076 --> 00:05:37,041
+and what they should interpret that to mean?
+
+68
+00:05:38,021 --> 00:05:42,083
+And, as a designer, here’s several things that you can do to actually make these easier:
+
+69
+00:05:42,084 --> 00:05:48,025
+The first and simplest is, if there’s functionality that a system can do,
+
+70
+00:05:48,025 --> 00:05:52,027
+the best way to communicate that to the user is to put that on the screen —
+
+71
+00:05:52,027 --> 00:05:54,099
+make it visible in one way or another.
+
+72
+00:05:54,099 --> 00:05:59,086
+And, if it’s in the physical world, give it a handle, or knob, or button.
+
+73
+00:05:59,086 --> 00:06:03,084
+These cues to action are called “affordances”.
+
+74
+00:06:03,084 --> 00:06:09,005
+Second, provide users with clear, continuous feedback, so they know exactly what’s happening.
+
+75
+00:06:09,005 --> 00:06:15,060
+Third, all things equal, be consistent with existing standards, platform conventions, and other idioms.
+
+76
+00:06:15,060 --> 00:06:21,077
+Fourth, whenever you can, make it possible for people to back up, through Undo or some other mechanism:
+
+77
+00:06:22,062 --> 00:06:25,064
+Very few things should be permanent and irreversible.
+
+78
+00:06:25,064 --> 00:06:28,089
+A benefit of having all operations being non-destructive
+
+79
+00:06:28,089 --> 00:06:32,048
+is that it also enables users to explore and try out things;
+
+80
+00:06:32,048 --> 00:06:34,097
+and especially in creative applications,
+
+81
+00:06:34,097 --> 00:06:39,085
+you see that people will try down branches and use Undo to come back.
+
+82
+00:06:40,028 --> 00:06:47,014
+Fifth, provide a systematic way for people to discover all of the functionality available in an application.
+
+83
+00:06:47,014 --> 00:06:50,012
+If you watched somebody use a new website, for example,
+
+84
+00:06:50,012 --> 00:06:53,095
+one thing that you might see them do when they’re trying to figure out how to navigate it,
+
+85
+00:06:53,095 --> 00:07:00,002
+is [to] roll over all the menu bars, to see what every option that’s out there is.
+
+86
+00:07:00,049 --> 00:07:04,069
+And, finally, reliable software *is* a usability issue:
+
+87
+00:07:04,069 --> 00:07:09,097
+The thing that’s supposed to happen should [happen]; and random stuff that isn’t, shouldn’t.
+
+88
+00:07:09,097 --> 00:07:13,092
+I know that reliability is easier said than done, but it’s still really important;
+
+89
+00:07:13,092 --> 00:07:18,066
+and a lot of the interfaces that people really like have this property of reliability.
+
+90
+00:07:18,066 --> 00:07:23,058
+So, now that we have these new conceptual tools of a gulf of execution and evaluation —
+
+91
+00:07:23,058 --> 00:07:29,056
+of knowing what you can do and whether what you’ve wanted is what happened —
+
+92
+00:07:29,056 --> 00:07:33,097
+let’s take a look at a video that Bill Moggridge and colleagues at IDEO put together
+
+93
+00:07:33,097 --> 00:07:38,074
+about someone trying to buy a soda from a vending machine in Japan
+
+94
+00:07:38,074 --> 00:07:41,061
+using their mobile phone.
+
+95
+00:07:41,061 --> 00:07:45,067
+While you’re watching this video, think about what’s causing the breakdowns,
+
+96
+00:07:45,067 --> 00:07:53,040
+and how you might fix them by using the bullet points that we’ve outlined in this lecture today.
+
+97
+00:10:26,058 --> 00:10:29,011
+We started out today looking at physical products,
+
+98
+00:10:29,011 --> 00:10:32,087
+and we moved on to explore smart products and mobile phones.
+
+99
+00:10:32,087 --> 00:10:38,082
+Now let’s think about what direct manipulation and the gulfs of execution and evalution mean
+
+100
+00:10:38,082 --> 00:10:41,023
+for building software.
+
+101
+00:10:41,023 --> 00:10:46,003
+What’s better? A command line or a graphical user interface?
+
+102
+00:10:46,003 --> 00:10:49,044
+Well, I think the answer is going to have to be “it depends.”
+
+103
+00:10:49,044 --> 00:10:53,056
+Nearly every design is good for something and bad for something else.
+
+104
+00:10:53,056 --> 00:10:59,041
+But let’s try to figure out what makes them different: think about moving a file between two folders.
+
+105
+00:10:59,041 --> 00:11:04,074
+On a graphical user interface, you simply pick it up in one location, and drop it in another:
+
+106
+00:11:04,074 --> 00:11:09,077
+You have continuous feedback about what’s happening.
+
+107
+00:11:09,077 --> 00:11:13,083
+All of the objects that are of interest to you are available onscreen,
+
+108
+00:11:13,083 --> 00:11:18,052
+and you can simply point at what you want — “input on output”.
+
+109
+00:11:18,052 --> 00:11:24,030
+With a command line, you have to know, a priori, what the name of the command that is that you’d like to use.
+
+110
+00:11:24,030 --> 00:11:29,010
+You also have to remember the syntax for using that move command
+
+111
+00:11:29,010 --> 00:11:32,037
+there’s minimal feedback about whether the operators that you’re dealing with —
+
+112
+00:11:32,037 --> 00:11:36,046
+like files or folders — are actually available,
+
+113
+00:11:36,046 --> 00:11:41,021
+and there’s not much in confirmation that you’ve moved it ultimately to the right place —
+
+114
+00:11:41,021 --> 00:11:44,086
+it can be easy to make errors.
+
+115
+00:11:44,086 --> 00:11:49,010
+What we see with the graphical interface is the power of direct manipulation —
+
+116
+00:11:49,010 --> 00:11:54,015
+immediate feedback on all actions, continuous representations of the objects,
+
+117
+00:11:54,015 --> 00:11:58,020
+and they leverage metaphors that we have from the physical world.
+
+118
+00:11:58,020 --> 00:12:01,036
+These metaphors are especially important when you’re learning a new interface,
+
+119
+00:12:01,036 --> 00:12:04,021
+and so when the graphical interface was first released,
+
+120
+00:12:04,021 --> 00:12:09,069
+being able to rely on what people knew about desks, folders, and files was really helpful;
+
+121
+00:12:09,069 --> 00:12:14,071
+those become less valuable once you’ve become accustomed to the computer world.
+
+122
+00:12:14,071 --> 00:12:17,089
+So, give some thought to which of these principles hold
+
+123
+00:12:17,089 --> 00:12:21,077
+for both the command-line interface and the graphical interface.
+
+124
+00:12:22,094 --> 00:12:23,089
+From my perspective,
+
+125
+00:12:23,089 --> 00:12:30,085
+the graphical interface does a much better job in terms of visibility, feedback, and consistency.
+
+126
+00:12:34,029 --> 00:12:37,012
+In either interface style, Undo is possible,
+
+127
+00:12:37,012 --> 00:12:46,028
+although the GUI generally does a better job of exposing when Undo is available and what undoing will actually do.
+
+128
+00:12:48,049 --> 00:12:53,020
+One place that a graphical interface really shines is in terms of discoverability —
+
+129
+00:12:53,020 --> 00:12:58,087
+you can leaf through every single menu in a system, and see all of the operations that are there;
+
+130
+00:12:58,087 --> 00:13:00,054
+with a command-line interface,
+
+131
+00:13:00,054 --> 00:13:07,028
+there’s really no way to know what’s the full set of operations that you could possible type into a terminal.
+
+132
+00:13:07,028 --> 00:13:11,075
+There’s no mater list.
+
+133
+00:13:11,075 --> 00:13:17,038
+In terms of reliability, either interface style can be made to be reliable.
+
+134
+00:13:19,067 --> 00:13:22,050
+“But how can this be?” some of you may be saying,
+
+135
+00:13:22,050 --> 00:13:27,004
+“The command-line interface can be  so much better sometimes!”
+
+136
+00:13:27,004 --> 00:13:29,096
+And it is!
+
+137
+00:13:29,096 --> 00:13:31,019
+When is that?
+
+138
+00:13:31,019 --> 00:13:39,074
+The command-line interface works better when the indirection that it offers is a benefit rather than a drawback.
+
+139
+00:13:39,074 --> 00:13:43,028
+And in fact that indirection that it offers is a  kind of abstraction,
+
+140
+00:13:43,028 --> 00:13:45,069
+and that’s what gives programming its power,
+
+141
+00:13:45,069 --> 00:13:51,018
+and so the command-line interface, like programming — because in some way it kind of is programming —
+
+142
+00:13:51,018 --> 00:13:59,055
+gets its power when you can express stuff more abstractly and thereby do work more efficiently.
+
+143
+00:13:59,055 --> 00:14:06,055
+So, for example, moving all of the files that match a certain set of criteria from one place to another,
+
+144
+00:14:06,055 --> 00:14:11,030
+that can sometimes be more efficiently accomplished with a command line.
+
+145
+00:14:11,030 --> 00:14:16,035
+And even that wonderful discoverability of the graphical user interface has a dark side:
+
+146
+00:14:16,086 --> 00:14:19,076
+This is a picture from my colleague Takeo Igarashi.
+
+147
+00:14:19,076 --> 00:14:25,087
+Takeo made this picture by turning on all of the menu bars in a certain version of Microsoft [PowerPoint].
+
+148
+00:14:25,087 --> 00:14:32,013
+And you can see that, on his laptop screen, all of those menu bars crowded things out so much
+
+149
+00:14:32,013 --> 00:14:35,094
+that there was almost no screen left over for the slides.
+
+150
+00:14:35,094 --> 00:14:41,032
+So, is this interface discoverable? Absolutely! All of the functionality is right there.
+
+151
+00:14:41,032 --> 00:14:45,086
+But you pay a cost in terms of screen real estate.
+
+152
+00:14:45,086 --> 00:14:50,009
+In this introductory course, we won’t have a chance to talk much about gestural interfaces.
+
+153
+00:14:50,009 --> 00:14:54,006
+But, given their recent popularity, and tablet interfaces, game controllers,
+
+154
+00:14:54,006 --> 00:15:00,042
+and movies like « the Minority Report », I want to conclude today’s lecture with an eye to the future:
+
+155
+00:15:00,042 --> 00:15:04,045
+Gestural interfaces offer a wonderful solution to menu creep,
+
+156
+00:15:04,045 --> 00:15:08,044
+in that they don’t take up any permanent screen real estate.
+
+157
+00:15:08,044 --> 00:15:13,063
+The downside, of course, is that they are non–self-disclosing —
+
+158
+00:15:13,063 --> 00:15:17,086
+you don’t know what functionality might be available.
+
+159
+00:15:17,086 --> 00:15:24,090
+And, at their best, gestural interfaces can be even more direct than their graphical user interface counterpart.
+
+160
+00:15:24,090 --> 00:15:31,016
+In recent years, I’ve watched in amazement at people of all ages and from all backgrounds
+
+161
+00:15:31,016 --> 00:15:35,068
+have figured out how to use tablet computers really effectively.
+
+162
+00:15:35,068 --> 00:15:39,009
+And the directness, I think, is one big reason for that.
+
+163
+00:15:39,009 --> 00:15:42,015
+Learning to use a mouse is actually kind of a big deal:
+
+164
+00:15:42,015 --> 00:15:44,043
+Once you’ve got the hang of it you forget that,
+
+165
+00:15:44,043 --> 00:15:46,090
+but there *is* this indirectness that you’ll have to learn
+
+166
+00:15:46,090 --> 00:15:51,000
+that what you’re doing over here matters over here.
+
+167
+00:15:51,000 --> 00:15:56,025
+With a tablet, the thing that you touch is the thing that you’re interacting with.
+
+168
+00:15:56,025 --> 00:16:02,062
+And the best gestures in these interfaces, like pinching to zoom, just feels so natural —
+
+169
+00:16:02,062 --> 00:16:09,042
+the metaphor is very clear, the feedback is immediate, the outcome is predictable.
+
+170
+00:16:09,042 --> 00:16:14,015
+In other cases, when the mapping is more arbitrary or harder to guess,
+
+171
+00:16:14,015 --> 00:16:16,067
+I think these interfaces are less effective.
+
+172
+00:16:16,067 --> 00:16:23,090
+For example, if I swipe with four fingers, that will bring up a menu bar on an iPad.
+
+173
+00:16:23,090 --> 00:16:27,054
+How on earth would I ever figure that out?
+
+174
+00:16:27,054 --> 00:16:32,054
+So, in gestural interfaces, like in all others, things work best when the feedback is clear,
+
+175
+00:16:32,054 --> 00:16:37,074
+and the interface provides cues through metaphors or visual signals
+
+176
+00:16:37,074 --> 00:16:41,078
+that help you know what you can do within the user interface.
+
+177
+00:16:41,078 --> 00:16:45,089
+To learn more about direct manipulation interfaces and the psychology of design,
+
+178
+00:16:45,089 --> 00:16:50,029
+I strongly recommend Don Norman’s book « The Design of Everyday Things ».
+
+179
+00:16:50,029 --> 00:16:53,017
+We’ll see you next time.

@@ -396,7 +396,7 @@ So, limit the number of mistakes that you [could] make.
 
 100
 00:07:38,043 --> 00:07:43,085
-You’ll want to improve the user’s ability to perceive the avoidances of your software:
+You’ll want to improve the user’s ability to perceive the affordances of your software:
 
 101
 00:07:43,085 --> 00:07:47,081
