@@ -35,633 +35,649 @@ Achieving this harmony can be difficult
 because it’s easy to get sucked into implementation details and miss the forest for the trees.
 
 10
-00:00:40,032 --> 00:00:47,010
-One of the best ways of ensuring that a coherent, human-centered vision drives your design and your design team
+00:00:40,032 --> 00:00:43,071
+One of the best ways of ensuring that a coherent, human-centered vision
 
 11
+00:00:43,071 --> 00:00:47,010
+drives your design and your design team
+
+12
 00:00:47,010 --> 00:00:52,025
 is to create a video prototype showing what you imagine it’ll be like to use your system.
 
-12
+13
 00:00:52,025 --> 00:00:55,008
 It’s also a lot of fun.
 
-13
+14
 00:00:55,008 --> 00:00:58,002
 To give you a sense of what I mean by this,
 
-14
+15
 00:00:58,002 --> 00:01:03,037
 I’d like to show you a video prototype that the walkabout team created at Stanford.
 
-15
+16
 00:01:04,051 --> 00:01:05,095
 (It’s time to go!
 
-16
+17
 00:01:05,095 --> 00:01:12,025
 With the click of a button, Carissa sets Walkabout in motion on her iPhone.
 
-17
+18
 00:01:12,025 --> 00:01:15,028
 She doesn’t have a lot of time for exercise in her day,
 
-18
+19
 00:01:15,028 --> 00:01:19,018
 but she likes to stay healthy by walking to and from her destinations.
 
-19
+20
 00:01:19,018 --> 00:01:21,044
 She’s got a couple of minutes before the bus comes,
 
-20
+21
 00:01:21,044 --> 00:01:24,095
 so she sits down to check her Walkabout progress.
 
-21
+22
 00:01:24,095 --> 00:01:30,072
 Walkabout counts the steps that she makes in her everyday life and converts them into a personal journey.
 
-22
+23
 00:01:30,072 --> 00:01:35,005
 Carissa is taking a personal journey up Mount Everest.
 
-23
+24
 00:01:35,005 --> 00:01:38,033
 She’s at 28,000 feet, about to reach the Hillary Step,
 
-24
+25
 00:01:38,033 --> 00:01:41,087
 and she decides to take a look around.
 
-25
+26
 00:01:41,087 --> 00:01:44,089
 Ryan’s feeling competitive.
 
-26
+27
 00:01:44,089 --> 00:01:49,098
 He pulls up Walkabout and challenges his friend Brendon to a walk-off:
 
-27
+28
 00:01:49,098 --> 00:01:54,062
 Whoever gets the most steps by the end of the day wins.
 
-28
+29
 00:01:54,062 --> 00:01:59,092
 Brendon decides he’s ready to accept the challenge.
 
-29
+30
 00:01:59,092 --> 00:02:06,021
 As he heads off to his next class, he has to decide whether or not he’s going to take the elevator.
 
-30
+31
 00:02:06,021 --> 00:02:10,034
 He checks his Walkabout competition and sees that Ryan is in the lead.
 
-31
+32
 00:02:10,067 --> 00:02:13,067
 Brendon heads up the stairs.
 
-32
+33
 00:02:13,067 --> 00:02:17,015
 Should Ryan take the long way to work, or the short way?
 
-33
+34
 00:02:17,015 --> 00:02:21,053
 With more at stake than there used to be, he sets off.
 
-34
+35
 00:02:21,053 --> 00:02:26,097
 Carissa checks her phone: She’s been invited to a step-off for Obama.
 
-35
+36
 00:02:26,097 --> 00:02:30,057
 She’s happy to track her steps for a good cause.
 
-36
+37
 00:02:30,057 --> 00:02:36,000
 Ryan’s also been invited to the step-off; he decides to join too.
 
-37
+38
 00:02:36,000 --> 00:02:40,005
 Everyone’s steps are accumulated cooperatively.
 
-38
+39
 00:02:40,005 --> 00:02:43,001
 Joining up is a no-brainer for Brendon.
 
-39
+40
 00:02:43,001 --> 00:02:48,046
 He decides to post a group Walkabout status on his Facebook page.
 
-40
+41
 00:02:48,046 --> 00:02:53,086
 Walkabout: Small steps can lead to big change and big fun!
 
-41
+42
 00:02:55,058 --> 00:02:57,053
 Walkabout / an iPhone application by: / Carissa Carter / Ryan Mason / Brendon Wypich)
 
-42
+43
 00:03:00,070 --> 00:03:05,050
 Video prototypes offer four really important benefits for your design process.
 
-43
+44
 00:03:05,050 --> 00:03:09,082
 First, they can be really cheap and fast to make.
 
-44
+45
 00:03:09,082 --> 00:03:12,096
 Second, they serve as great communication tools.
 
-45
+46
 00:03:12,096 --> 00:03:16,080
 Among other things, it’s a wonderful way of showing the context of use,
 
-46
+47
 00:03:16,080 --> 00:03:20,063
 so that your entire design team can get on that same page.
 
-47
+48
 00:03:20,063 --> 00:03:26,090
 And because it’s a standalone video, it’s an explanation of your design ideas that’s completely portable
 
-48
+49
 00:03:26,090 --> 00:03:30,081
 and that anybody, anytime can call up and look at.
 
-49
+50
 00:03:31,088 --> 00:03:35,014
 I also really like using video prototypes as a spec for a development team
 
-50
+51
 00:03:35,014 --> 00:03:39,065
 where you can say “any interface that accomplishes this goal is a good interface.”
 
-51
+52
 00:03:39,065 --> 00:03:43,015
 And these videos can make the interface design decisions come alive
 
-52
+53
 00:03:43,015 --> 00:03:47,039
 a lot more than a written long-word documentation.
 
-53
+54
 00:03:47,039 --> 00:03:53,097
 And finally, video prototypes force you to tie all of your interface design decisions to actual user tasks.
 
-54
+55
 00:03:54,053 --> 00:03:58,049
 This helps you align, orient, and prioritize your interface choices.
 
-55
+56
 00:03:58,049 --> 00:04:00,056
 And it makes sure you have a complete interface:
 
-56
+57
 00:04:00,056 --> 00:04:05,082
 Do you have all of the elements that somebody would need to accomplish the task that they’d like to?
 
-57
+58
 00:04:05,082 --> 00:04:07,086
 and also that there’s nothing extra?
 
-58
+59
 00:04:07,086 --> 00:04:10,019
 In the development process it’s really easy to find
 
-59
+60
 00:04:10,019 --> 00:04:14,082
 all sorts of bells and whistles and shiny things that you want to be able to add into the system.
 
-60
+61
 00:04:14,082 --> 00:04:17,054
 And if it ultimately doesn’t help people accomplish goals,
 
-61
+62
 00:04:17,054 --> 00:04:23,070
 a video prototype can be a great way to remind yourself that maybe it’s best to leave it out.
 
-62
+63
 00:04:23,070 --> 00:04:27,069
 You can use video prototyping throughout your design lifecycle.
 
-63
+64
 00:04:27,069 --> 00:04:31,012
 Really early on, when you’re first just starting to think around ideas,
 
-64
+65
 00:04:31,012 --> 00:04:36,025
 you can use video prototypes as a brainstorming aid, and these can take just a few minutes.
 
-65
+66
 00:04:36,025 --> 00:04:43,031
 You can take paper prototypes that you’ve built and, in an hour or two, put together a video really quickly.
 
-66
+67
 00:04:43,031 --> 00:04:45,003
 Or, if you have a design idea
 
-67
+68
 00:04:45,003 --> 00:04:49,034
 that you really need to get a lot of support behind from a large organization
 
-68
+69
 00:04:49,034 --> 00:04:51,075
 to sell something to management or investors,
 
-69
+70
 00:04:51,075 --> 00:04:57,088
 you can make a really slick video prototype as a way of selling and explaining your ideas.
 
-70
-00:04:57,088 --> 00:05:00,061
-A great example of this is Apple’s Knowledge Navigator
-
 71
-00:05:00,061 --> 00:05:08,005
-which, 20 years ago, introduced a number of ideas for a vision of a future smarter, more adaptive user interface.
+00:04:57,088 --> 00:05:01,063
+A great example of this is Apple’s Knowledge Navigator, which, 20 years ago,
 
 72
+00:05:01,063 --> 00:05:08,005
+introduced a number of ideas for a vision of a future smarter, more adaptive user interface.
+
+73
 00:05:08,005 --> 00:05:13,027
 And while it can be appealing to try and channel your inner Steven Spielberg and make a big-budget epic film,
 
-73
+74
 00:05:13,027 --> 00:05:17,024
 a lot of my favorite uses of video prototypes comes early in the design process,
 
-74
+75
 00:05:17,024 --> 00:05:22,050
 where you’re using video as a way of communicating to the design team and debating design ideas.
 
-75
-00:05:22,050 --> 00:05:29,061
-And in a lot of cases, you’ll use your paper prototypes as the interface that the video prototype is elaborating on.
-
 76
+00:05:22,050 --> 00:05:25,049
+And in a lot of cases, you’ll use your paper prototypes
+
+77
+00:05:25,049 --> 00:05:29,061
+as the interface that the video prototype is elaborating on.
+
+78
 00:05:29,061 --> 00:05:32,005
 Here’s a great example of that that Lisa Seaman made
 
-77
+79
 00:05:32,006 --> 00:05:35,092
 when she was working on a smart energy-monitoring system at Stanford.
 
-78
+80
 00:05:37,041 --> 00:05:41,034
 (Abby Dinkenspiel is an economics professor at Stanford.
 
-79
+81
 00:05:41,034 --> 00:05:45,001
 She cares about her energy usage, but it’s not to the extent of her actions.
 
-80
+82
 00:05:45,001 --> 00:05:47,004
 She receives a monthly energy bill,
 
-81
+83
 00:05:47,004 --> 00:05:51,037
 but there’s little information about which activities or devices consume the most energy.
 
-82
+84
 00:05:51,037 --> 00:05:56,029
 She wants to be able to identify problem spots and correct them as best as possible.
 
-83
+85
 00:06:00,011 --> 00:06:05,081
 Using her home monitoring system, Abby’s able to see how much electricity each of her appliances is using.
 
-84
+86
 00:06:05,081 --> 00:06:11,043
 Starting in the kitchen, she’s able to compare the usage of each of her appliances to the national average.
 
-85
+87
 00:06:11,043 --> 00:06:16,022
 She’s also able to look at the other rooms of the house, check her progress statistics,
 
-86
+88
 00:06:16,022 --> 00:06:20,037
 and talk to her energy-saving buddy.
 
-87
+89
 00:06:23,098 --> 00:06:27,036
 Through the console, she is able to look at other rooms in her house.
 
-88
+90
 00:06:27,036 --> 00:06:30,067
 The house schematic shows where each of her appliances is located.
 
-89
+91
 00:06:30,067 --> 00:06:35,061
 She is also able to individually target rooms like the library, bathroom, bedroom and living room
 
-90
+92
 00:06:35,061 --> 00:06:38,051
 to see how much energy she is using in each.
 
-91
+93
 00:06:38,051 --> 00:06:42,031
 She’s able to select one — such as the bathroom — and control the devices.
 
-92
+94
 00:06:42,031 --> 00:06:46,085
 Here she can set the shower time, so that the hot water will gradually turn off after ten minutes.
 
-93
+95
 00:06:46,085 --> 00:06:51,072
 Abby is also able to check her home monitoring system remotely while she is in the office.
 
-94
-00:06:51,072 --> 00:06:57,054
-She can go to a personal website and access device info, check her progress, and chat with her energy saving buddy.
+96
+00:06:51,072 --> 00:06:54,038
+She can go to a personal website and access device info,
 
-95
+97
+00:06:54,038 --> 00:06:57,054
+check her progress, and chat with her energy saving buddy.
+
+98
 00:06:57,054 --> 00:07:01,051
 She’s also able to control her devices via a smartphone
 
-96
+99
 00:07:01,051 --> 00:07:05,089
 in case she happens to leave the lights on or the air conditioning.
 
-97
+100
 00:07:06,015 --> 00:07:08,055
 With access to neighborhood consumption patterns,
 
-98
+101
 00:07:08,055 --> 00:07:12,042
 consumers can accurately compare their energy consumption to their neighbors.
 
-99
+102
 00:07:12,042 --> 00:07:17,099
 Neighborhoods can band together in the fight to reduce their collective carbon footprint.
 
-100
+103
 00:07:18,083 --> 00:07:21,012
 Another energy-saving tool is the buddy system,
 
-101
+104
 00:07:21,012 --> 00:07:24,083
 where you enlist a friend, colleague, or online friend to save energy together.
 
-102
+105
 00:07:24,083 --> 00:07:30,032
 This is a good way to check progress and motivate each other in a positive yet competitive way.
 
-103
+106
 00:07:31,006 --> 00:07:36,012
 Stanford University / Initiative for a Sustainable Future)
 
-104
+107
 00:07:37,000 --> 00:07:39,019
 So what do you put in a video prototype?
 
-105
+108
 00:07:40,009 --> 00:07:45,052
 Like a storyboard, you’ll want to make sure that the video prototype shows the entire task,
 
-106
+109
 00:07:45,052 --> 00:07:50,004
 including the upfront motivation, and the success outcome at the end.
 
-107
+110
 00:07:50,004 --> 00:07:53,038
 Establishing shots and narrative at the beginning can really help with this.
 
-108
+111
 00:07:53,038 --> 00:07:58,024
 For example, in the Walkabout video, Carissa begins by saying, “it’s time to go.”
 
-109
+112
 00:07:58,024 --> 00:08:03,028
 That introduces the task: She needs to head somewhere, and Walkabout is reminding her to walk.
 
-110
+113
 00:08:03,096 --> 00:08:09,000
 Video prototypes are also a great time for you to take what you learned in the field and put it to use.
 
-111
+114
 00:08:09,000 --> 00:08:13,072
 Draw on the tasks that you observed and elaborate on them when making your prototype.
 
-112
+115
 00:08:13,072 --> 00:08:17,065
 When you think about the task that you want your system to perform especially well,
 
-113
+116
 00:08:17,065 --> 00:08:20,098
 those are things that you should showcase in the video prototype.
 
-114
+117
 00:08:20,098 --> 00:08:24,015
 And in this way a video prototype is a great way
 
-115
+118
 00:08:24,015 --> 00:08:29,079
 of figuring out what your minimal viable product is for something you’ll want to release —
 
-116
+119
 00:08:29,079 --> 00:08:32,081
 In the video, in the minimum viable product;
 
-117
+120
 00:08:32,081 --> 00:08:35,086
 Not in the video, doesn’t need to be in the first round.
 
-118
+121
 00:08:35,086 --> 00:08:40,079
 As you can see in making these prototypes, you’re making important and consequential design decisions.
 
-119
+122
 00:08:40,079 --> 00:08:44,009
 And in this way — making and viewing these prototypes —
 
-120
+123
 00:08:44,009 --> 00:08:49,073
 changes what the design teams argue about and I think do so in a really good way.
 
-121
+124
 00:08:49,073 --> 00:08:51,079
 Alright, you’re on board and ready to go.
 
-122
+125
 00:08:51,079 --> 00:08:53,028
 How do you do it?
 
-123
+126
 00:08:53,028 --> 00:08:56,079
 Well the first thing to do, like anything, start with an outline.
 
-124
+127
 00:08:56,079 --> 00:09:02,021
 Plan out your shots, what the video prototype is going to show and how the tasks will accomplish that.
 
-125
+128
 00:09:02,021 --> 00:09:06,044
 You can use the storyboards that you’d made to help you do that; those will be really valuable here.
 
-126
+129
 00:09:06,044 --> 00:09:08,051
 It’s also fine to extemporize.
 
-127
+130
 00:09:08,051 --> 00:09:12,093
 Turn on the camera. Make up a bunch of stuff. See what happens.
 
-128
+131
 00:09:12,093 --> 00:09:16,086
 Don’t worry about a fancy camera: It doesn’t matter; It’s not that important.
 
-129
+132
 00:09:16,086 --> 00:09:20,063
 And in fact, fancy gadgets can often be a distraction here,
 
-130
+133
 00:09:20,063 --> 00:09:24,037
 because it’s easy to spend a lot of time on the production side of things.
 
-131
+134
 00:09:24,037 --> 00:09:27,063
 If you, or anyone you know, has a a camera phone,
 
-132
+135
 00:09:27,063 --> 00:09:32,003
 you’ve got the equipment that you need probably to make a video prototype.
 
-133
+136
 00:09:32,003 --> 00:09:34,052
 The other main ingredients you’ll need of course are people:
 
-134
+137
 00:09:34,052 --> 00:09:37,059
 Get your friends to be actors or you can be actors yourself.
 
-135
+138
 00:09:37,059 --> 00:09:41,005
 Great way to build to build empathy with the people that’ll use your system.
 
-136
+139
 00:09:41,005 --> 00:09:42,040
 And you’ll need a real location.
 
-137
+140
 00:09:42,040 --> 00:09:47,070
 Its fun to shoot these out in the world, or wherever you think people will be using your system.
 
-138
+141
 00:09:47,070 --> 00:09:51,003
 And I can’t emphasize enough how the goal of a video prototype
 
-139
+142
 00:09:51,003 --> 00:09:56,070
 is really about the message and story that you’re trying to get across, and not about high production values,
 
-140
+143
 00:09:56,070 --> 00:10:00,055
 because it really is easy to spend far too long on that.
 
-141
+144
 00:10:00,097 --> 00:10:03,059
 When planning your prototype, think about a couple of things:
 
-142
+145
 00:10:03,059 --> 00:10:05,078
 One of the most important ones is:
 
-143
+146
 00:10:05,078 --> 00:10:10,034
 Are you going to make it with audio, or make it silent movie style?
 
-144
+147
 00:10:10,034 --> 00:10:16,072
 A big advantage of having it be silent movie style, is that audio can just be a pain to deal with.
 
-145
+148
 00:10:16,072 --> 00:10:23,097
 You can make title cards on sheets of paper at home, so, you can use these to title the scenes.
 
-146
+149
 00:10:23,097 --> 00:10:27,073
 And you can also use things like Post-It notes to communicate stuff about your users —
 
-147
+150
 00:10:27,073 --> 00:10:31,017
 so, give people a name tag that has their name, or role,
 
-148
+151
 00:10:31,017 --> 00:10:34,042
 or something that the audience ought to know about what they care about.
 
-149
+152
 00:10:34,042 --> 00:10:36,094
 As we talked about, the interface can be anything you want —
 
-150
+153
 00:10:36,094 --> 00:10:43,006
 You can make a paper prototype, or digital mockups; or, if you have code, go with that;
 
-151
+154
 00:10:43,006 --> 00:10:45,029
 or the interface can even be invisible.
 
-152
+155
 00:10:45,029 --> 00:10:49,035
 So for example, if I was going to build a presentation tool interface,
 
-153
+156
 00:10:49,035 --> 00:10:54,094
 you could show me working at this tablet right here, without actually showing any of what I see on the screen,
 
-154
+157
 00:10:54,094 --> 00:10:56,077
 and I really like that as a strategy
 
-155
+158
 00:10:56,077 --> 00:11:01,082
 because it absolutely emphasizes what the person using the system can accomplish.
 
-156
-00:11:01,082 --> 00:11:07,071
+159
+00:11:01,082 --> 00:11:07,058
 And then later, you can think about  “What UI would we need to enable them to do that?”
 
-157
-00:11:07,071 --> 00:11:13,058
-And finally, if I can give you one tip that will make this a whole lot more fun and save you a whole lot more time:
+160
+00:11:07,058 --> 00:11:09,063
+And finally, if I can give you one tip
 
-158
+161
+00:11:09,063 --> 00:11:13,058
+that will make this a whole lot more fun and save you a whole lot more time:
+
+162
 00:11:13,058 --> 00:11:19,010
 Edit as little as possible because editing is hugely time-consuming.
 
-159
+163
 00:11:19,010 --> 00:11:22,031
 My TA for this class, Robbie, knows that far too well.
 
-160
+164
 00:11:22,031 --> 00:11:25,062
 If you can, do the whole thing in one take, and if that’s not reasonable,
 
-161
+165
 00:11:25,062 --> 00:11:30,022
 just use the pause button in your camera to be able to do your in-camera editing,
 
-162
+166
 00:11:30,022 --> 00:11:32,003
 and you’re off and running.
 
-163
+167
 00:11:32,003 --> 00:11:34,069
 For more information, see Wendy Mackay’s material.
 
-164
+168
 00:11:34,069 --> 00:11:39,039
 She’s done a lot of work on video prototyping over the years and has a lot of great suggestions.
 
-165
+169
 00:11:39,039 --> 00:11:42,050
 I’d also like to thank her because a lot of the stuff that I shared with you today
 
-166
+170
 00:11:42,050 --> 00:11:45,064
 is based on her teaching of this stuff over the years.
 
-167
-00:11:45,065 --> 99:59:59,000
+171
+00:11:45,065 --> 00:11:49,075
 Have fun!
