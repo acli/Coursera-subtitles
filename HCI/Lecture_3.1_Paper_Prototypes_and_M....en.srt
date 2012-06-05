@@ -71,649 +71,665 @@ and moving on to digital mockups.
 One of the easiest mistakes to make in interface design
 
 19
-00:01:11,079 --> 00:01:18,077
+00:01:11,079 --> 00:01:18,058
 is to focus on the user interface before you focused on the tasks that the interface’s going to support.
 
 20
-00:01:18,077 --> 00:01:26,071
-And, if you got one thing out of storyboarding, the piece to understand is that storyboarding is all about tasks.
+00:01:18,058 --> 00:01:21,065
+And, if you got one thing out of storyboarding,
 
 21
+00:01:21,065 --> 00:01:26,071
+the piece to understand is that storyboarding is all about tasks.
+
+22
 00:01:26,071 --> 00:01:33,063
 Here’s an example from the “Lifealyfics” project team from my Stanford HCI class in the Fall of 2011.
 
-22
+23
 00:01:33,063 --> 00:01:36,074
 They were interested in user interfaces for behaviour tracking,
 
-23
+24
 00:01:36,074 --> 00:01:39,094
 and here are a couple of the early storyboards that they produced.
 
-24
+25
 00:01:39,094 --> 00:01:41,063
 What’s nice about a storyboard is
 
-25
+26
 00:01:41,063 --> 00:01:46,071
 in just a few panels you can convey what the user interface will help a person accomplish.
 
-26
+27
 00:01:46,071 --> 00:01:51,030
 And a good storyboard is nearly always going to have an actual person in there.
 
-27
+28
 00:01:51,030 --> 00:01:55,020
 Another thing that you can see in these storyboards is that they communicate flow:
 
-28
+29
 00:01:55,020 --> 00:02:00,013
 Much like a comic strip, it’s showing what’s happening at key points in time.
 
-29
+30
 00:02:00,013 --> 00:02:05,017
 One of the biggest worries about creating storyboards is that they’d tell me “Ugh, I can’t draw!”
 
-30
+31
 00:02:05,017 --> 00:02:09,083
 But storyboarding isn’t about beautiful drawing; it’s about communicating ideas,
 
-31
+32
 00:02:09,083 --> 00:02:14,028
 and I think that *everyone* can learn how to visually communicate ideas.
 
-32
+33
 00:02:14,028 --> 00:02:20,032
 In some ways, bad drawing is actually an asset, because then all you can do is focus on the content.
 
-33
+34
 00:02:20,032 --> 00:02:25,026
 I said that good storyboards nearly always include a person who’s actually using the interface,
 
-34
+35
 00:02:25,026 --> 00:02:30,000
 and so, to get you started, I’d like to teach you my favourite trick for storyboarding.
 
-35
+36
 00:02:30,000 --> 00:02:34,081
 I learnt this from Bill Verplank. Bill and I taught together at Stanford for several years.
 
-36
-00:02:34,081 --> 00:02:40,067
+37
+00:02:34,081 --> 00:02:40,090
 And Bill, [inaudible] for generations, has taught people how to draw “Star People”, and it goes like this:
 
-37
-00:02:40,068 --> 00:02:41,047
+38
+00:02:40,090 --> 00:02:41,086
 [Professor Klemmer starts drawing a “star person”]
 
-38
+39
 00:02:43,004 --> 00:02:46,094
 We call it a “star person” because the body of the person is kind of like a star,
 
-39
+40
 00:02:46,094 --> 00:02:51,059
 and you can have them doing all sorts of things, so somebody can be holding something,
 
-40
+41
 00:02:51,059 --> 00:02:58,045
 or they can be reaching up to touch maybe something on a big screen.
 
-41
+42
 00:02:58,045 --> 00:03:01,030
 You can add any dynamics that you want.
 
-42
+43
 00:03:01,030 --> 00:03:04,037
 If you need to, you can show where people are looking.
 
-43
+44
 00:03:04,037 --> 00:03:06,077
 If you want, you can distinguish different people in the scenes —
 
-44
+45
 00:03:06,077 --> 00:03:14,050
 so you can colour them in a little bit, or you can add a sheriff’s badge.
 
-45
+46
 00:03:15,064 --> 00:03:17,097
 And, when you put it all together, you can get something like this.
 
-46
+47
 00:03:17,097 --> 00:03:22,095
 These are some images from the storyboarding guide that we’ve linked from your assignment.
 
-47
+48
 00:03:22,095 --> 00:03:27,011
 One of the very first things a storyboard should do is to illustrate a goal.
 
-48
+49
 00:03:27,011 --> 00:03:30,099
 Like in this storyboard, it’s “Let’s check out places in SF!”
 
-49
+50
 00:03:30,099 --> 00:03:35,005
 You can show how a task unfolds, and here you can see some “star people”,
 
-50
+51
 00:03:35,005 --> 00:03:39,024
 and they’re explaining what they’re doing, so here they’s saying “Here we’re in San Francisco.”
 
-51
+52
 00:03:39,024 --> 00:03:43,056
 And by the end of the storyboard you’ll want to show how they accomplished what their goal was,
 
-52
+53
 00:03:43,056 --> 00:03:48,099
 or, in some other way, have a satisfactory outcome at the end of the storyboard.
 
-53
+54
 00:03:49,052 --> 00:03:50,097
 And as a mall shows,
 
-54
+55
 00:03:50,097 --> 00:03:55,068
 even with a really simple visual language, there’s a whole lot you can do to get your point across.
 
-55
+56
 00:03:56,011 --> 00:03:58,023
 So, storyboards should accomplish three things:
 
-56
+57
 00:03:58,023 --> 00:04:02,015
 First, it should accomplish the setting: Who are the people involved?
 
-57
+58
 00:04:02,015 --> 00:04:05,081
 what’s the environment? and what tasks are they trying to do?
 
-58
+59
 00:04:05,081 --> 00:04:12,053
 Next, it should show the sequence: What are the steps that they do to accomplish the task? —
 
-59
+60
 00:04:12,053 --> 00:04:17,021
 Not necessarily what user interface’s  exactly where the buttons and widgets are,
 
-60
+61
 00:04:17,021 --> 00:04:23,028
 but what role the user interface plays in helping them get their goal achieved.
 
-61
+62
 00:04:23,028 --> 00:04:28,071
 And one the the first steps is going to be: What leads somebody to use the app?
 
-62
+63
 00:04:28,071 --> 00:04:34,047
 In the mall’s example, that began with somebody saying “Let’s check out places in San Francisco!”
 
-63
-00:04:34,047 --> 00:04:37,098
+64
+00:04:34,047 --> 00:04:38,004
 That’s the springboard that clearly motivates people to go to the application.
 
-64
-00:04:37,098 --> 00:04:46,073
+65
+00:04:38,004 --> 00:04:46,062
 And then your app can easily and clearly show what’s the task that the idea you have is supporting.
 
-65
-00:04:46,073 --> 00:04:49,061
+66
+00:04:46,062 --> 00:04:49,061
 And then finally, at the end, you’ve got the satisfaction —
 
-66
-00:04:49,061 --> 00:04:53,043
+67
+00:04:49,061 --> 00:04:53,028
 How does what motivated them to use the app in the first place,
 
-67
-00:04:53,043 --> 00:04:58,045
+68
+00:04:53,028 --> 00:04:58,063
 how does that connect to their achieving that in the end of the sequence?
 
-68
-00:04:58,045 --> 00:05:02,012
+69
+00:04:58,063 --> 00:05:02,012
 Questions your storyboard can help you think about are:
 
-69
-00:05:02,012 --> 00:05:06,089
+70
+00:05:02,012 --> 00:05:06,081
 “What is it that enables people to accomplish, and what need does your application fill?”
 
-70
-00:05:06,089 --> 00:05:10,039
+71
+00:05:06,081 --> 00:05:10,031
 I really like storyboards for their holistic focus;
 
-71
-00:05:10,039 --> 00:05:17,061
-it enables you to think through how you might support a task without committing to a particular user interface —
-
 72
+00:05:10,031 --> 00:05:14,010
+it enables you to think through how you might support a task
+
+73
+00:05:14,010 --> 00:05:17,061
+without committing to a particular user interface —
+
+74
 00:05:17,061 --> 00:05:23,020
 that’s the magic, and this is especially important when you’re designing as a team,
 
-73
+75
 00:05:23,020 --> 00:05:29,020
 because the idea that’s in your head may or may not be the same as the idea that’s in somebody else’s head.
 
-74
+76
 00:05:29,020 --> 00:05:33,009
 Or, you may have this great idea, but people don’t know what you’re talking about yet.
 
-75
+77
 00:05:33,009 --> 00:05:38,027
 Once you’ve got it out on paper and concrete, it makes it much easier for poeple to have common ground,
 
-76
+78
 00:05:38,027 --> 00:05:41,001
 and agree on how to move forward.
 
-77
+79
 00:05:41,001 --> 00:05:44,087
 When you’re storyboarding, I suggest imposing extremely harsh time limits on yourself,
 
-78
+80
 00:05:44,087 --> 00:05:47,072
 like 10 minutes for a storyboard.
 
-79
+81
 00:05:47,072 --> 00:05:52,089
 It can be easy to try and get everything beautiful even if you’re sketching out with pen and paper,
 
-80
+82
 00:05:52,089 --> 00:05:54,082
 but that’s not the point!
 
-81
+83
 00:05:54,082 --> 00:05:58,016
 Once you’ve got a rough idea of what your application’s going to accomplish,
 
-82
+84
 00:05:58,016 --> 00:06:00,095
 you can start to think about how you’re going to implement that,
 
-83
+85
 00:06:00,095 --> 00:06:04,084
 and by implement I mean “What’s it going to look and feel like to the user?
 
-84
+86
 00:06:04,084 --> 00:06:07,037
 What’s the actual user interface is going to be?”
 
-85
+87
 00:06:07,037 --> 00:06:10,055
 And for figuring out the user interface at an early stage,
 
-86
+88
 00:06:10,055 --> 00:06:15,040
 the very best technique that I know is to use paper prototyping.
 
-87
+89
 00:06:15,040 --> 00:06:18,009
 Paper prototyping is exactly what it sounds like:
 
-88
+90
 00:06:18,009 --> 00:06:23,037
 You’re going  to make a mockup of the user interface, and, instead of doing it on the computer,
 
-89
+91
 00:06:23,037 --> 00:06:27,078
 which can take a lot of time and encourage you to try to get it beautiful and exact,
 
-90
+92
 00:06:27,078 --> 00:06:32,073
 you’re going to use paper, Post-It notes, and markers, to sketch things out really quickly.
 
-91
+93
 00:06:32,073 --> 00:06:36,002
 Here’s an example, it’s again from the “Lifealyfics” team.
 
-92
+94
 00:06:36,002 --> 00:06:39,038
 These are the paper prototypes that they made:
 
-93
+95
 00:06:39,039 --> 00:06:40,076
 (Lifealyfics / Discover What Makes You Happy / (Begin)
 
-94
+96
 00:06:40,076 --> 00:06:42,006
 Here’s How It Works / 1. We’ll send you random texts throughout the day, at the frequency you select. / 2. You input your [illegible] and activity / (Then What?)
 
-95
+97
 00:06:42,006 --> 00:06:43,039
 3. At the end of the week, we’ll send you your results, and you’ll realize what makes you happy and fulfilled! / (Start)
 
-96
+98
 00:06:43,039 --> 00:06:46,003
 Step 1 of 3 / Enter phone number [text field] / (Next)
 
-97
+99
 00:06:46,005 --> 00:06:48,022
 The more texts you respond to, the more accurate your personal graph will be! / How many texts per day do you want to receive? [dropdown]
 
-98
+100
 00:06:48,022 --> 00:06:49,053
 Step 2 of 3 / How many times per day do you want to get a text?
 
-99
+101
 00:06:49,053 --> 00:06:50,082
 Step 2 of 3 / How many times per day do you want to get a text? / (Next)
 
-100
+102
 00:06:50,082 --> 00:06:53,016
 Step 3 of 3 / Earliest text: [dropdown] / Latest text: [dropdown] / (Next) )
 
-101
+103
 00:07:07,004 --> 00:07:10,058
 Here’s some tips for making effective paper prototypes:
 
-102
+104
 00:07:10,058 --> 00:07:13,024
 First, store all your materials in one place.
 
-103
+105
 00:07:13,024 --> 00:07:20,052
 You’re going to want to get a bucket of markers, maybe some Post-It notes or index cards.
 
-104
+106
 00:07:20,052 --> 00:07:26,018
 If you’ve got a mobile device that you’re simulating, you might even make a mockup of something like that,
 
-105
+107
 00:07:26,018 --> 00:07:29,016
 and you can slide in and out different interface widgets.
 
-106
-00:07:29,078 --> 00:07:32,060
+108
+00:07:29,065 --> 00:07:32,060
 Just like the storyboards, it’s important to work quickly.
 
-107
-00:07:32,060 --> 00:07:38,029
-And if you had a widget that you’re going to use a lot of — like  radio buttons or sliders or something like that —
+109
+00:07:32,060 --> 00:07:34,073
+And if you had a widget that you’re going to use a lot of —
 
-108
+110
+00:07:34,073 --> 00:07:38,029
+like  radio buttons or sliders or something like that —
+
+111
 00:07:38,030 --> 00:07:41,023
 sometimes it can be faster to photocopy them on a photocopier,
 
-109
+112
 00:07:41,023 --> 00:07:48,082
 so you can  make one version and then photocopy it to have a whole bunch.
 
-110
+113
 00:07:48,082 --> 00:07:52,058
 Sometimes, good paper prototyping is kind of like playing make-believe as a kid.
 
-111
+114
 00:07:52,058 --> 00:07:56,024
 So, if you’ve got something that’s complicated or highly interactive,
 
-112
+115
 00:07:56,024 --> 00:07:58,030
 you can just imagine what it would be like,
 
-113
+116
 00:07:58,030 --> 00:08:02,069
 and so you can role-play that out with the person who’s trying out your application.
 
-114
+117
 00:08:02,088 --> 00:08:05,056
 It can be helpful to have a frame to put your interface widgets in.
 
-115
+118
 00:08:05,056 --> 00:08:07,083
 Here we have a mobile frame.
 
-116
+119
 00:08:07,083 --> 00:08:12,034
 You can also stick things right on the device itself,
 
-117
+120
 00:08:12,034 --> 00:08:16,051
 So, if you want to make a mobile screen shot here,…
 
-118
+121
 00:08:21,094 --> 00:08:24,084
 Mobile user interface!
 
-119
+122
 00:08:25,055 --> 00:08:30,050
 Or, if you have a desktop user interface, you can take, like, a 11-by-14  sheet of poster board
 
-120
+123
 00:08:30,050 --> 00:08:32,076
 and put all  of your elements on that.
 
-121
+124
 00:08:32,076 --> 00:08:36,021
 Good paper prototyping is also like collage — you can mix and match fidelities.
 
-122
+125
 00:08:36,021 --> 00:08:41,023
 So you can use printouts of actual screen shots; draw and annotate on top of that —
 
-123
+126
 00:08:41,023 --> 00:08:43,098
 anything that you want that can get your point quickly.
 
-124
+127
 00:08:43,098 --> 00:08:46,078
 And to help the person who’s trying out the prototype
 
-125
+128
 00:08:46,078 --> 00:08:51,043
 make the conceptual leap between the sketch on paper and an interactive system,
 
-126
+129
 00:08:51,043 --> 00:08:55,033
 you can add in a little widgets and chrome of your user interface
 
-127
+130
 00:08:55,033 --> 00:08:58,012
 to convey that it’s part of a larger operating system.
 
-128
+131
 00:08:58,012 --> 00:09:01,083
 Paper prototyping is not only fast and efficient;
 
-129
+132
 00:09:01,083 --> 00:09:08,018
 it’s also really fun, and you can get really creative in figuring out different ways to convey interactions.
 
-130
+133
 00:09:08,018 --> 00:09:12,095
 If you’ve got layers in your user interface, you can use transparencies as a way of showing them.
 
-131
+134
 00:09:13,086 --> 00:09:16,054
 If you have popup menus, you can make the back sticky,
 
-132
+135
 00:09:16,054 --> 00:09:20,055
 so that can stay on the right place on top of the main interface.
 
-133
+136
 00:09:20,055 --> 00:09:23,009
 You [can] use any kind of marker or pen you want;
 
-134
+137
 00:09:23,009 --> 00:09:29,019
 you can have things be coloured, [or] just black-and-white — Anything you can think of.
 
-135
+138
 00:09:29,019 --> 00:09:37,001
 You can use poster board (like this), or cardboard, index cards, foamcore —
 
-136
+139
 00:09:37,001 --> 00:09:40,076
 anything you want as a backing material.
 
-137
+140
 00:09:40,076 --> 00:09:43,072
 Things like tape are handy to have around.
 
-138
+141
 00:09:43,072 --> 00:09:49,000
 If you’d like to be able to have repeatable user input, you can use whiteboard markers or transparency pens,
 
-139
+142
 00:09:49,000 --> 00:09:53,014
 and have a whiteboard or a sheet or transparency that the user input goes on,
 
-140
+143
 00:09:53,014 --> 00:09:55,081
 and then you can take it away when you’re done.
 
-141
+144
 00:09:55,081 --> 00:10:00,064
 To be able to add structure to your user interface, you can have  line widths of different thicknesses.
 
-142
+145
 00:10:00,064 --> 00:10:07,044
 So, you can have a thicker line that’s for the major elements, and a thinner line for the minor elements.
 
-143
+146
 00:10:09,031 --> 00:10:15,012
 And you can have a stack or either Post-It notes or index cards to show the tab panes of your user interface.
 
-144
+147
 00:10:15,012 --> 00:10:19,039
 So, the different layers can be on sheets beneath.
 
-145
+148
 00:10:19,039 --> 00:10:22,034
 Here you can see a wonderful widget from the “Lifealyfics”   team,
 
-146
+149
 00:10:22,034 --> 00:10:27,001
 where they’ve created a sliding window inside a mobile phone mockup
 
-147
+150
 00:10:27,001 --> 00:10:32,023
 as a way of conveying how something would change over time and in response to user input.
 
-148
+151
 00:10:32,023 --> 00:10:35,092
 The other thing that I’m going to show here, and I’ll touch on several times in this course,
 
-149
+152
 00:10:35,092 --> 00:10:39,033
 is the importance of trying out multiple different alternative prototypes
 
-150
+153
 00:10:39,033 --> 00:10:42,019
 as a way of getting more valuable feedback from the user.
 
-151
+154
 00:10:42,019 --> 00:10:48,037
 So, here are different ways that you could present the data that a live logging  system is gathering.
 
-152
+155
 00:10:48,037 --> 00:10:52,039
 Another reason I really like paper prototyping is that *everybody* can be involved.
 
-153
+156
 00:10:52,039 --> 00:10:57,066
 So, if you try out designs with users, give them a pen and have them modify the interface!
 
-154
+157
 00:10:57,066 --> 00:11:01,017
 Or if they’ve got stuck or think something is weird,
 
-155
+158
 00:11:01,017 --> 00:11:05,021
 grab a sheet of paper and make any modifications that you need.
 
-156
+159
 00:11:05,021 --> 00:11:11,005
 You can bring paper prototyping tools into the boardroom, you can bring to clients —
 
-157
-00:11:11,005 --> 00:11:16,016
-any of the stakeholders that are involved in user interface design, you  can get them involved in paper prototyping.
+160
+00:11:11,005 --> 00:11:13,060
+any of the stakeholders that are involved in user interface design,
 
-158
+161
+00:11:13,060 --> 00:11:16,016
+you can get them involved in paper prototyping.
+
+162
 00:11:16,016 --> 00:11:18,068
 That helps them get their ideas into the system
 
-159
+163
 00:11:18,068 --> 00:11:22,044
 and empowers them to play a more active role in the design process.
 
-160
+164
 00:11:22,044 --> 00:11:28,042
 Once you’re ready to move on from paper prototyping,  a useful next step can be to make a digital mockup.
 
-161
+165
 00:11:28,042 --> 00:11:30,028
 Here’s an example of some mockups
 
-162
+166
 00:11:30,028 --> 00:11:35,093
 that my research team made for a collaboration with anesthesiologists in the medical school at Stanford.
 
-163
+167
 00:11:36,067 --> 00:11:38,046
 The first thing I’d like to point out about this
 
-164
+168
 00:11:38,046 --> 00:11:42,023
 is that you can see that a lot more time went into this digital mockup
 
-165
+169
 00:11:42,023 --> 00:11:45,040
 than into the paper prototypes that we’ve been talking about so far.
 
-166
+170
 00:11:45,040 --> 00:11:49,010
 And that’s one of the reasons why I think paper prototyping is so important.
 
-167
+171
 00:11:49,010 --> 00:11:53,002
 But there does come a time where you’ll want to get more specific about pixels,
 
-168
+172
 00:11:53,002 --> 00:11:56,080
 and that’s when digital mockups can play an important role.
 
-169
+173
 00:11:56,080 --> 00:12:02,013
 As your prototypes increase in fidelity — from storyboards, to paper prototypes, to digital mockups —
 
-170
+174
 00:12:02,013 --> 00:12:07,008
 the kinds of evaluation and feedback that you’re going  to  get from people are going to evolve also.
 
-171
+175
 00:12:07,008 --> 00:12:10,043
 So, early on, you might be talking about scenarios with people.
 
-172
+176
 00:12:10,043 --> 00:12:12,024
 And then, with the paper prototype,
 
-173
+177
 00:12:12,024 --> 00:12:16,075
 you might be running these informal “Try these out, here’s three alternatives” tests.
 
-174
+178
 00:12:17,029 --> 00:12:21,018
 These prototypes can also be useful for critiques within your design team.
 
-175
+179
 00:12:21,018 --> 00:12:23,075
 And as you get to higher and higher fidelity mockups,
 
-176
+180
 00:12:23,075 --> 00:12:28,046
 you can have the opportunity to get to more formal experimentation techniques.
 
-177
+181
 00:12:29,037 --> 00:12:32,085
 Rapid prototyping techniques are probably the most valuable weapon you’ll have
 
-178
+182
 00:12:32,085 --> 00:12:34,086
 in a human-centred design process.
 
-179
+183
 00:12:34,086 --> 00:12:38,058
 And if you’re interested in learning more, here are some resources that I recommend.
 
-180
+184
 00:12:38,058 --> 00:12:41,052
 I’ll see you next time.
