@@ -1,0 +1,815 @@
+1
+00:00:04,067 --> 00:00:12,088
+People are remarkable in all sorts of ways, but our attention in short-term memory are limited resources.
+
+2
+00:00:12,088 --> 00:00:15,003
+Fortunately, there’s hope.
+
+3
+00:00:15,003 --> 00:00:21,092
+The representations provided by language, gesture, drawings, and objects help us communicate and reason.
+
+4
+00:00:21,092 --> 00:00:29,037
+And, importantly for design, different representations can facilitate or hinder different thoughts.
+
+5
+00:00:29,037 --> 00:00:31,098
+The insight of today’s lecture is:
+
+6
+00:00:31,098 --> 00:00:36,012
+The ways in which we [inaudible] in the world organize and represent ideas
+
+7
+00:00:36,012 --> 00:00:41,021
+can have a drastic impact on our cognitive abilities, for better and for worse.
+
+8
+00:00:41,021 --> 00:00:45,085
+Things can help us think and you can leverage this as a designer.
+
+9
+00:00:45,085 --> 00:00:50,093
+Let’s start with an example that comes from Don Norman and Jiajie Zhang:
+
+10
+00:00:50,093 --> 00:00:57,048
+It’s a really strange diner, and in this diner the wait staff is not so good.
+
+11
+00:00:57,048 --> 00:01:04,086
+And the three people at the diner ordered oranges but they ended up on the wrong plates.
+
+12
+00:01:04,086 --> 00:01:12,070
+And your job — you can try this at home — is to help sort out which orange belongs on which plate.
+
+13
+00:01:12,070 --> 00:01:16,048
+And so, the way that the Oranges Puzzle works
+
+14
+00:01:16,048 --> 00:01:22,054
+is you need to order the oranges by size: largest to smallest, left to right.
+
+15
+00:01:22,054 --> 00:01:25,044
+Only one orange can be transferred at a time.
+
+16
+00:01:25,044 --> 00:01:29,082
+An orange can only be transferred to a plate on which it’ll be in the largest.
+
+17
+00:01:29,082 --> 00:01:34,001
+And only the largest orange on a plate can be transferred to another plate.
+
+18
+00:01:34,001 --> 00:01:35,095
+And so, I have three oranges here.
+
+19
+00:01:35,095 --> 00:01:42,031
+Our recording got a little bit delayed because somebody ate this little orange
+
+20
+00:01:42,031 --> 00:01:45,003
+so I had to go back to the market and get another one.
+
+21
+00:01:45,003 --> 00:01:48,009
+But we have an orange now and let me show you how this works.
+
+22
+00:01:48,009 --> 00:01:50,021
+So, I’m going to lay this out.
+
+23
+00:01:54,017 --> 00:01:55,053
+I’ve my diner coffee…
+
+24
+00:02:07,090 --> 00:02:11,026
+Here you have the three oranges as delivered by the wait staff.
+
+25
+00:02:11,026 --> 00:02:12,088
+And you can see they’re in the wrong order —
+
+26
+00:02:12,088 --> 00:02:16,000
+The largest one’s in the middle, and the middle one’s over here,
+
+27
+00:02:16,000 --> 00:02:19,030
+and the smallest one, which needs to be over here, is over on this side.
+
+28
+00:02:19,030 --> 00:02:23,013
+And so, to help save these diners,
+
+29
+00:02:23,013 --> 00:02:29,021
+one of the TA’s for the HCI online class, Alex, is going to come and sort this out.
+
+30
+00:02:32,015 --> 00:02:37,029
+>> Oh man, seems very difficult.  So I have to only transfer one orange at a time, right?
+
+31
+00:02:37,029 --> 00:02:38,017
+>> One orange at a time.
+
+32
+00:02:38,017 --> 00:02:41,002
+>> And I can only put in to the biggest plate.
+
+33
+00:02:41,002 --> 00:02:43,086
+>> It has to be the largest orange on the plate.
+
+34
+00:02:43,086 --> 00:02:47,007
+>> Okay. So, can I transfer this here?
+
+35
+00:02:47,007 --> 00:02:48,085
+>> No, ’cause then it won’t be the largest orange.
+
+36
+00:02:48,085 --> 00:02:50,085
+>> Okay. So, can I transfer it here?
+
+37
+00:02:50,085 --> 00:02:51,040
+>> You bet!
+
+38
+00:02:51,040 --> 00:02:53,051
+>> Okay. And then can I transfer this one over here?
+
+39
+00:02:53,051 --> 00:02:54,033
+>> Sure!
+
+40
+00:02:54,033 --> 00:02:55,053
+>> And then this one here?
+
+41
+00:02:55,053 --> 00:02:57,009
+>> You got it! Well done!
+
+42
+00:02:57,009 --> 00:02:59,038
+>> Thank you!
+
+43
+00:03:00,068 --> 00:03:07,020
+>> And there’s a couple other diners who’s got similar orders; they all wanted bagels, and…
+
+44
+00:03:12,042 --> 00:03:15,071
+So, their first course is oranges; the second course is going to be bagels.
+
+45
+00:03:18,072 --> 00:03:23,025
+The real bagels puzzle is “Why you can’t get a decent bagel in California?”
+
+46
+00:03:23,025 --> 00:03:27,088
+But the Bagels Puzzle that we have for today is a little bit different:
+
+47
+00:03:27,088 --> 00:03:33,006
+So, we have our largest bagel, medium bagel, smallest bagel.
+
+48
+00:03:33,006 --> 00:03:38,070
+So, the plan is the same, except with the bagels, you have the ability to stack them:
+
+49
+00:03:38,070 --> 00:03:45,085
+You can out a larger bagel on top of a smaller bagel, but not a smaller bagel on top of a larger one.
+
+50
+00:03:45,085 --> 00:03:51,041
+And so, at any point in time, just like the oranges, it needs to be the largest one on the plate.
+
+51
+00:03:51,041 --> 00:03:55,056
+And these are in reverse order, and Alex is going to help us again,
+
+52
+00:03:55,056 --> 00:04:01,088
+rearranging the bagels so that the largest is on the left and the smallest is on the right.
+
+53
+00:04:09,047 --> 00:04:11,096
+>> Cool. So it has to be the largest, right?
+
+54
+00:04:11,096 --> 00:04:12,084
+>> Largest on the left.
+
+55
+00:04:12,084 --> 00:04:14,008
+>> So I can move this one here?
+
+56
+00:04:14,008 --> 00:04:14,087
+>> You got it!
+
+57
+00:04:14,087 --> 00:04:15,094
+>> I can move this one here?
+
+58
+00:04:15,094 --> 00:04:16,065
+>> Yup!
+
+59
+00:04:16,065 --> 00:04:18,056
+>> And I can move this one here?
+
+60
+00:04:18,056 --> 00:04:20,051
+>> Yup! There you go, well done!
+
+61
+00:04:21,023 --> 00:04:25,056
+Now all of our diners are happy — presuming of course, these are New York bagels,
+
+62
+00:04:25,056 --> 00:04:28,013
+which they are not, but that’s close enough for now.
+
+63
+00:04:28,013 --> 00:04:30,049
+So, that’s our bagels game for today.
+
+64
+00:04:30,049 --> 00:04:32,024
+You can try these at home, and what you see
+
+65
+00:04:32,024 --> 00:04:41,069
+is the fact that the bagels represent some of the constraints of the problem in the physical structure
+
+66
+00:04:41,069 --> 00:04:44,008
+makes it much easier to remember the state:
+
+67
+00:04:44,008 --> 00:04:49,057
+You don’t have to remember which of these two bagels is larger and therefore movable
+
+68
+00:04:49,057 --> 00:04:51,035
+because the larger on is on top —
+
+69
+00:04:51,035 --> 00:04:54,045
+you’re not going to move this medium-sized bagel; it’s underneath.
+
+70
+00:04:54,045 --> 00:04:56,006
+And that makes it all a lot easier —
+
+71
+00:04:56,006 --> 00:05:02,068
+when a representation of a problem enforces the constraints and the rules of the problem.
+
+72
+00:05:02,068 --> 00:05:07,092
+And you can think of this a lot of ways, like, when you leave your keys by the door
+
+73
+00:05:07,092 --> 00:05:11,078
+so that right as you walk out the door, you bring your keys with you.
+
+74
+00:05:11,078 --> 00:05:16,050
+That’s a way of structuring the physical world to serve as a reminder
+
+75
+00:05:16,050 --> 00:05:23,061
+and to embed the constraints that you need —to leave with your keys — in the physical space itself.
+
+76
+00:05:23,061 --> 00:05:27,067
+And, as some of you may have realized, you can think of these as being Towers of Hanoi.
+
+77
+00:05:27,067 --> 00:05:29,034
+And what’s interesting thing about this —
+
+78
+00:05:29,034 --> 00:05:36,043
+Towers of Hanoi is the kid’s game where you can move circles between pegs — that look a lot like bagels.
+
+79
+00:05:36,043 --> 00:05:42,080
+And what we’ve done is we’ve turned this Towers of Hanoi game into something where the rules are the same;
+
+80
+00:05:42,080 --> 00:05:45,000
+it’s just the representation has changed.
+
+81
+00:05:45,000 --> 00:05:49,035
+And let’s play a game — we’re going to play a card game now.
+
+82
+00:05:49,035 --> 00:05:51,021
+Two players.
+
+83
+00:05:51,021 --> 00:05:58,031
+Each of you is going to draw a number, one at a time such that you have three numbers that add up to 15.
+
+84
+00:05:58,031 --> 00:06:04,060
+And your draw is without replacement; so, if I’ve picked five, that’s no longer available.
+
+85
+00:06:04,060 --> 00:06:10,008
+For example, if I was able to get four, five, and six,
+
+86
+00:06:10,008 --> 00:06:14,062
+together those add up to fifteen, and that would be a winning hand.
+
+87
+00:06:14,062 --> 00:06:24,047
+So, let’s say for example, I pick five for starters, and the other player picks six.
+
+88
+00:06:24,047 --> 00:06:38,011
+So I pick three, and the other player picks two, and then I pick seven.
+
+89
+00:06:38,011 --> 00:06:41,065
+That would be a winning hand.
+
+90
+00:06:41,065 --> 00:06:48,085
+And, this is hard enough for one player. As you can see, it’s even harder to try and play both sides.
+
+91
+00:06:48,085 --> 00:06:50,084
+So we can make this a little bit easier.
+
+92
+00:06:50,084 --> 00:06:56,078
+So let’s say, instead of having it be numbers imaginary in our head,
+
+93
+00:06:56,078 --> 00:06:59,089
+we’ll do the same thing, but with playing cards.
+
+94
+00:06:59,089 --> 00:07:05,098
+And so I’m going to be able to have the numbers one through nine here — or ace through nine.
+
+95
+00:07:05,098 --> 00:07:09,051
+So, here we have the playing cards, ace through nine.
+
+96
+00:07:09,051 --> 00:07:14,006
+And again, two players, and this time we can lay ’em out in the table.
+
+97
+00:07:14,006 --> 00:07:18,065
+So I’ll lay these out so I can see ’em.
+
+98
+00:07:18,065 --> 00:07:27,071
+And again, start out by picking five, And the other player might pick six, and so I’ll go three.
+
+99
+00:07:27,071 --> 00:07:30,077
+And at this point — especially [as] the other player can see my numbers —
+
+100
+00:07:30,077 --> 00:07:36,006
+they’ll know that seven is what I want next, so they’re going to go seven,
+
+101
+00:07:36,006 --> 00:07:39,051
+and I’ll go two to prevent their 15.
+
+102
+00:07:39,051 --> 00:07:43,024
+And — alright, now they’re going to head off in another [tactic]…
+
+103
+00:07:43,024 --> 00:07:47,038
+So… maybe we can do…
+
+104
+00:07:52,041 --> 00:07:58,042
+Let’s try this: one. I haven’t thought it through, but that might help.
+
+105
+00:07:58,042 --> 00:08:04,006
+And at this point, I start to wonder whether this is going to work.
+
+106
+00:08:04,006 --> 00:08:11,072
+So, take — I’m not really playing here — but I’ll take nine — 12, 14… almost…
+
+107
+00:08:11,072 --> 00:08:20,050
+and it’s kind of nothing you can do at this point, and so… No dice!
+
+108
+00:08:20,050 --> 00:08:26,015
+A lot easier, especially early on, but still somewhat challenging.
+
+109
+00:08:26,015 --> 00:08:31,028
+Let’s play another game. We’ll pick an easier this time. How about Tic Tac Toe?
+
+110
+00:08:31,028 --> 00:08:37,047
+So, this is pretty easy. I think many of you know this game: So we can do x’s and o’s.
+
+111
+00:08:37,047 --> 00:08:52,031
+Somebody can go x, and somebody can go o. We can do x, and o, and x, and o, and x wins.
+
+112
+00:08:52,031 --> 00:08:57,061
+That game is a whole lot faster than either of the two cards we play,
+
+113
+00:08:57,061 --> 00:09:04,004
+but what might shock you is that these two games are isomorphs.
+
+114
+00:09:04,004 --> 00:09:10,008
+So I can fill in the numbers one through nine and have them be exactly equivalent to our card game.
+
+115
+00:09:21,011 --> 00:09:26,076
+Any row or diagonal that adds to fifteen also produces a winning game in Tic Tac Toe.
+
+116
+00:09:26,076 --> 00:09:33,094
+So for example, I can pick this right column, that’s 15, 15, all the way through.
+
+117
+00:09:33,094 --> 00:09:39,045
+And what we see from this is that the way that you represent the problem —
+
+118
+00:09:39,045 --> 00:09:44,059
+drawing numbers in our head, cards on the table or numbers in a grid —
+
+119
+00:09:44,059 --> 00:09:52,019
+has drastic influences on our ability to solve that problem fluently and to see alternate solutions
+
+120
+00:09:52,019 --> 00:09:56,030
+and to be able to coordinate our action with another person.
+
+121
+00:09:56,030 --> 00:10:02,019
+And this is why Herb Simon, the famous artificial intelligence and cognitive science researcher,
+
+122
+00:10:02,019 --> 00:10:08,071
+writes that “Solving a problem simply means representing it so as to make the solution transparent.”
+
+123
+00:10:08,071 --> 00:10:11,065
+For example, if you think about proofs in mathematics,
+
+124
+00:10:11,065 --> 00:10:16,045
+what’s true at the end of the proof is also true at the beginning.
+
+125
+00:10:16,045 --> 00:10:19,020
+The only thing that’s changed along the way
+
+126
+00:10:19,020 --> 00:10:28,047
+is that the fact that the proof is indeed true has been rendered clear to the reader.
+
+127
+00:10:28,047 --> 00:10:35,023
+Why were the Oranges Puzzle and the number selection game so difficult?
+
+128
+00:10:35,023 --> 00:10:39,036
+It’s because both of them tax our working memory —
+
+129
+00:10:39,036 --> 00:10:45,017
+we had to keep in mind what moves are possible, what numbers we held,
+
+130
+00:10:45,017 --> 00:10:51,023
+what the other person was thinking and maybe doing — and that was a lot to keep in mind all at once.
+
+131
+00:10:51,023 --> 00:10:56,079
+Human beings are incredible in all sorts of ways; working memory is not one of them.
+
+132
+00:10:56,079 --> 00:11:00,074
+And one of the most important things that we can do with user interfaces
+
+133
+00:11:00,074 --> 00:11:05,010
+by embedding the constraints of the problem in the user interface itself
+
+134
+00:11:05,010 --> 00:11:12,086
+is to offload working memory so that those limited resources become available for other people.
+
+135
+00:11:12,086 --> 00:11:19,026
+You may have heard the famous “seven plus or minus two” as a limit of working memory,
+
+136
+00:11:19,026 --> 00:11:25,079
+that we can keep seven plus or minus two things available at any point in time.
+
+137
+00:11:25,079 --> 00:11:33,069
+And that’s not exactly true — the real story is a bit more complicated —
+
+138
+00:11:33,069 --> 00:11:38,031
+but if you want to have a rule of thumb to work with as a designer,
+
+139
+00:11:38,031 --> 00:11:41,099
+I suggest two plus or minus two —
+
+140
+00:11:41,099 --> 00:11:50,007
+that basically don’t require users to keep anything in mind that you can possibly put on the screen.
+
+141
+00:11:50,007 --> 00:11:55,040
+So far the examples that we’ve looked at — oranges, bagels, cards, Tic Tac Toe —
+
+142
+00:11:55,040 --> 00:11:57,033
+are kind of toy problems.
+
+143
+00:11:57,033 --> 00:12:02,057
+And, you know, they may make for some good entertainment at a dinner party
+
+144
+00:12:02,057 --> 00:12:05,091
+but it’s not real-world stuff.
+
+145
+00:12:08,096 --> 00:12:13,068
+They demonstrate, however, principles of the power of distributing cognition —
+
+146
+00:12:13,068 --> 00:12:16,085
+That absolutely have real world impact.
+
+147
+00:12:16,085 --> 00:12:21,028
+One great example of this is that task management system Getting Things Done.
+
+148
+00:12:21,028 --> 00:12:25,068
+It’s very much designed in the principles of distributing cognition in mind.
+
+149
+00:12:25,068 --> 00:12:31,063
+So, for example, one of the rules of the Getting Things Done system is that
+
+150
+00:12:31,063 --> 00:12:34,001
+whenever something comes to your mind that you need to do,
+
+151
+00:12:34,001 --> 00:12:37,080
+the first thing you do is write it down — somewhere, anywhere.
+
+152
+00:12:37,080 --> 00:12:41,029
+And the reason for that is that if you have something in mind
+
+153
+00:12:41,029 --> 00:12:44,075
+that needs to be completed and you haven’t written it down yet,
+
+154
+00:12:44,075 --> 00:12:50,052
+you’re spending a lot of cycles of working memory, remembering to “I need to do my laundry”,
+
+155
+00:12:50,052 --> 00:12:52,098
+the same thing — “I need to do my laundry”, “I need to do my laundry”…
+
+156
+00:12:52,098 --> 00:12:57,032
+and that’s chewing up resources that could be better deployed elsewhere.
+
+157
+00:12:57,032 --> 00:13:02,012
+“Write it down” gets it out of your mind, and you can move on.
+
+158
+00:13:02,012 --> 00:13:11,027
+One of the words that people toss around all the time in terms of effective user interfaces
+
+159
+00:13:11,027 --> 00:13:14,065
+is that “this user interface is ‘natural.’”
+
+160
+00:13:14,065 --> 00:13:18,004
+And when we say that, we mean a couple of different things,
+
+161
+00:13:18,004 --> 00:13:23,065
+but one of the things that we mean [that] we can see in our example of the oranges and the bagels
+
+162
+00:13:23,065 --> 00:13:31,009
+[is] that the bagels, as a task, is more natural — because the properties of the representation —
+
+163
+00:13:31,009 --> 00:13:38,078
+bagels can stack — matches the properties of the thing that’s being represented.
+
+164
+00:13:38,078 --> 00:13:45,075
+One of my user interfaces for this perspective is the Proteus indigestible pill.
+
+165
+00:13:45,075 --> 00:13:49,072
+This is a pill that, when you swallow it,
+
+166
+00:13:49,072 --> 00:13:59,006
+it sends out a little signal so that your phone — or the Internet — knows that you’ve taken this pill.
+
+167
+00:13:59,006 --> 00:14:09,038
+And the ability of keeping track of whether you’ve taken the pill or not automatically, by virtue of taking the pill,
+
+168
+00:14:09,038 --> 00:14:11,018
+is a really natural user interface —
+
+169
+00:14:11,018 --> 00:14:20,008
+the ingestion act serves both to take the pill and to mark that you have done so.
+
+170
+00:14:20,008 --> 00:14:26,002
+There’s another example of a really natural interaction in this system which is
+
+171
+00:14:26,002 --> 00:14:32,032
+that, in addition to the pill, there’s a transmitter that you need to stick to your body.
+
+172
+00:14:32,032 --> 00:14:37,032
+And the transmitter has a limited battery life.
+
+173
+00:14:37,032 --> 00:14:39,073
+So, how do you turn the transmitter on?
+
+174
+00:14:39,073 --> 00:14:44,039
+It’s a Band-aid-like system, and the way that you turn on the transmitter is
+
+175
+00:14:44,039 --> 00:14:49,010
+you peel back the Band-aid bandage, and that turns it on.
+
+176
+00:14:49,010 --> 00:14:53,024
+And so, again, that action that you need to do to stick it on yourself
+
+177
+00:14:53,024 --> 00:14:57,088
+is exactly the same action that you use to turn the [transmitter] on.
+
+178
+00:14:57,088 --> 00:15:04,040
+And so by integrating the necessary step with the step that’s easy to forget,
+
+179
+00:15:04,040 --> 00:15:07,087
+you don’t forget the step anymore.
+
+180
+00:15:07,087 --> 00:15:11,078
+So let’s bring this back to normal user interfaces.
+
+181
+00:15:11,078 --> 00:15:16,058
+Here’s an example of the Print dialog on a Macintosh.
+
+182
+00:15:16,058 --> 00:15:23,026
+And one of the things that you can see here is that there’s a world-in-miniature strategy in this Print dialog box.
+
+183
+00:15:23,026 --> 00:15:29,069
+So, if I want to look at the Stanford Academic Calendar, I can print that here.
+
+184
+00:15:29,069 --> 00:15:32,013
+And, what we’re going to look at is:
+
+185
+00:15:32,013 --> 00:15:40,029
+here’s our world in miniature, where we see the entire legal-sized page shown inside the dialog box.
+
+186
+00:15:40,029 --> 00:15:42,063
+And one of the things that that makes clear
+
+187
+00:15:42,063 --> 00:15:48,077
+is that I’m not going to be able to fit the top and the bottom of the page on a letter-sized page
+
+188
+00:15:48,077 --> 00:15:53,075
+because a letter sized page is three inches shorter than a legal page,
+
+189
+00:15:53,075 --> 00:15:58,071
+and so consequently, you know, it’s probably not something I want to do.
+
+190
+00:15:58,071 --> 00:16:04,038
+And, one of the things that I like about this is that by showing you the world in miniature,
+
+191
+00:16:04,038 --> 00:16:11,001
+the challenges of working that you’ve got to decide here become much clearer.
+
+192
+00:16:11,001 --> 00:16:17,039
+Here’s another example; this is from Microsoft Word, and what we can see here is —
+
+193
+00:16:17,039 --> 00:16:23,017
+I’m again about to print this, and the dialog box that I get from word says
+
+194
+00:16:23,017 --> 00:16:31,057
+“A footer of section 1 is set outside the printable area of the page.  Do you want to continue?”
+
+195
+00:16:31,057 --> 00:16:37,064
+And I can click Yes or I can click No.
+
+196
+00:16:37,064 --> 00:16:41,068
+Now, in order to answer this problem, I need to know:
+
+197
+00:16:41,068 --> 00:16:48,082
+is it just that the bounding box of the footer is outside what the printer can print and so it’s irrelevant
+
+198
+00:16:48,082 --> 00:16:53,096
+or is there actually content that I need that won’t be printed?
+
+199
+00:16:53,096 --> 00:16:55,059
+None of that is available from this dialog box,
+
+200
+00:16:55,059 --> 00:16:57,062
+and so, unlike the previous print dialog
+
+201
+00:16:57,062 --> 00:17:01,024
+where we saw the world in miniature and could see what was being cut off,
+
+202
+00:17:01,024 --> 00:17:03,080
+here we have no idea what’s being cut off,
+
+203
+00:17:03,080 --> 00:17:07,029
+and consequently, this is a much less effective user interface.
+
+204
+00:17:08,010 --> 00:17:12,019
+And that’s the end of part one.
