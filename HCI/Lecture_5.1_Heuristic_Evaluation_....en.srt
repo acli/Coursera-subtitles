@@ -1,0 +1,71 @@
+1
+00:00:00,032 --> 00:00:05,077
+In this video we are going to introduce a technique called Heuristic Evaluation.
+
+2
+00:00:05,077 --> 00:00:11,047
+As we talked about at the beginning of the course, there’s lots of different ways to evaluate software.
+
+3
+00:00:11,047 --> 00:00:14,058
+One that you might be most familiar with is empirical methods,
+
+4
+00:00:14,058 --> 00:00:19,045
+where, of some level of formality, you have actual people trying out your software.
+
+5
+00:00:19,045 --> 00:00:25,029
+It’s also possible to have formal methods, where you’re building a model
+
+6
+00:00:25,029 --> 00:00:28,019
+of how people behave in a particular situation,
+
+7
+00:00:28,019 --> 00:00:32,020
+and that enables you to predict how different user interfaces will work.
+
+8
+00:00:32,020 --> 00:00:36,027
+Or, if you can’t build a closed-form formal model,
+
+9
+00:00:36,027 --> 00:00:40,046
+you can also try out your interface with simulation and have automated tests —
+
+10
+00:00:40,046 --> 00:00:44,082
+that can detect usability bugs and effective designs.
+
+11
+00:00:44,082 --> 00:00:49,075
+This works especially well for low-level stuff; it’s harder to do for higher-level stuff.
+
+12
+00:00:49,075 --> 00:00:52,093
+And what we’re going to tal about today is critique-based approaches,
+
+13
+00:00:52,093 --> 00:01:00,005
+where people are giving you feedback directly, based on their expertise or a set of heuristics.
+
+14
+00:01:00,005 --> 00:01:03,024
+As any of you who have ever taken an art or design class know,
+
+15
+00:01:03,024 --> 00:01:06,072
+peer critique can be an incredibly effective form of feedback,
+
+16
+00:01:06,072 --> 00:01:09,024
+and it can make you make your designs even better.
+
+17
+00:01:09,024 --> 00:01:12,095
+You can get peer critique  really at any stage of your design process,
+
+18
+00:01:12,095 --> 00:01:16,079
+but I’d like to highlight a couple that can be particularly valuable.
