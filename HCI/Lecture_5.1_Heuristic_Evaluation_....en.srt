@@ -44,7 +44,7 @@ This works especially well for low-level stuff; it’s harder to do for higher-l
 
 12
 00:00:49,075 --> 00:00:52,093
-And what we’re going to tal about today is critique-based approaches,
+And what we’re going to talk about today is critique-based approaches,
 
 13
 00:00:52,093 --> 00:01:00,005
