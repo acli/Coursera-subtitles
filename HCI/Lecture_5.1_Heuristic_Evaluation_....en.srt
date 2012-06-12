@@ -1,86 +1,78 @@
 1
-00:00:00,000 --> 00:00:06,023
-In this video we're gonna introduce a
-technique called heuristic evaluation. As
+00:00:00,032 --> 00:00:05,077
+In this video we are going to introduce a technique called Heuristic Evaluation.
 
 2
-00:00:06,023 --> 00:00:10,084
-we talked about in the beginning of the
-course, there's lots of different ways to
+00:00:05,077 --> 00:00:11,047
+As we talked about at the beginning of the course, there’s lots of different ways to evaluate software.
 
 3
-00:00:10,084 --> 00:00:15,029
-evaluate software. One that you may be
-most familiar with is empirical methods,
+00:00:11,047 --> 00:00:14,058
+One that you might be most familiar with is empirical methods,
 
 4
-00:00:15,029 --> 00:00:19,085
-where a, some level of formality, you have
-actual people trying out your software.
+00:00:14,058 --> 00:00:19,045
+where, of some level of formality, you have actual people trying out your software.
 
 5
-00:00:20,039 --> 00:00:25,042
-It's also possible to have formal methods
-where you are building a model of how
+00:00:19,045 --> 00:00:25,029
+It’s also possible to have formal methods, where you’re building a model
 
 6
-00:00:25,042 --> 00:00:30,019
-people behave to a particular situation,
-and that enables you to predict how
+00:00:25,029 --> 00:00:28,019
+of how people behave in a particular situation,
 
 7
-00:00:30,019 --> 00:00:35,060
-different user interfaces will work Or if
-you can't build a closed form formal model
+00:00:28,019 --> 00:00:32,020
+and that enables you to predict how different user interfaces will work.
 
 8
-00:00:35,060 --> 00:00:40,087
-you can also try out your interface with
-simulation and have automated tests that
+00:00:32,020 --> 00:00:36,027
+Or, if you can’t build a closed-form formal model,
 
 9
-00:00:40,087 --> 00:00:45,095
-can detect usability bugs and effective
-designs. This works especially well for
+00:00:36,027 --> 00:00:40,046
+you can also try out your interface with simulation and have automated tests —
 
 10
-00:00:45,095 --> 00:00:51,009
-low level stuff. It's harder to do with
-high level stuff. What were going to talk
+00:00:40,046 --> 00:00:44,082
+that can detect usability bugs and effective designs.
 
 11
-00:00:51,009 --> 00:00:56,010
-about today is critique based approaches
-where people are giving you feedback
+00:00:44,082 --> 00:00:49,075
+This works especially well for low-level stuff; it’s harder to do for higher-level stuff.
 
 12
-00:00:56,010 --> 00:01:01,031
-directly based on their expertise or a set
-of heuristics as any of you who have ever
+00:00:49,075 --> 00:00:52,093
+And what we’re going to tal about today is critique-based approaches,
 
 13
-00:01:01,031 --> 00:01:05,066
-taken an art or design class know, peer
-critique can be an incredibly effective
+00:00:52,093 --> 00:01:00,005
+where people are giving you feedback directly, based on their expertise or a set of heuristics.
 
 14
-00:01:05,066 --> 00:01:10,030
-form of feedback And it can help you make
-your designs even better. You can get peer
+00:01:00,005 --> 00:01:03,024
+As any of you who have ever taken an art or design class know,
 
 15
-00:01:10,030 --> 00:01:14,059
-critique really at any stage of a design
-process, but I'd like to highlight a
+00:01:03,024 --> 00:01:06,072
+peer critique can be an incredibly effective form of feedback,
 
 16
-00:01:14,059 --> 00:01:18,071
-couple that I think, it can be
-particularly valuable. First, it's really
+00:01:06,072 --> 00:01:09,024
+and it can make you make your designs even better.
+
+17
+00:01:09,024 --> 00:01:12,095
+You can get peer critique  really at any stage of your design process,
+
+18
+00:01:12,095 --> 00:01:16,079
+but I’d like to highlight a couple that can be particularly valuable.
 
 17
 00:01:18,071 --> 00:01:23,039
-valuable to get peer critique before user
+First, it's really valuable to get peer critique before user
 testing, because that helps not waste your
 
 18
