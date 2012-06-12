@@ -1,0 +1,559 @@
+1
+00:00:01,089 --> 00:00:05,096
+Let’s take a look at the atoms of visual design: letterforms.
+
+2
+00:00:05,096 --> 00:00:09,080
+This is the letter R, typeset in Gill Sans.
+
+3
+00:00:09,080 --> 00:00:14,000
+Gill Sans was designed by Eric Gill and released in 1928.
+
+4
+00:00:14,000 --> 00:00:17,058
+There’s a couple of things that I’d like to point out about this letter right here:
+
+5
+00:00:17,058 --> 00:00:23,023
+One of them is that it has the perceptual characteristic of consistent weight all throughout;
+
+6
+00:00:23,023 --> 00:00:28,016
+however, the actual thickness of the letter varies considerably over different parts.
+
+7
+00:00:28,016 --> 00:00:30,099
+So, if you look at some points of the letter, like the bottom,
+
+8
+00:00:33,081 --> 00:00:38,000
+you can see that they are much thicker than at other points in the letter.
+
+9
+00:00:41,028 --> 00:00:47,048
+And what you see in these atoms is exactly what you’ll see throughout the entirety of graphic design,
+
+10
+00:00:47,048 --> 00:00:50,051
+which is that we’re going for something that feels perceptually balanced —
+
+11
+00:00:50,051 --> 00:00:56,047
+or may have perceptual uniformity — when the actuality may be quite different.
+
+12
+00:00:56,047 --> 00:01:03,067
+This letter was also my first assignment as a graphic design student at the Rhode Island School of Design:
+
+13
+00:01:03,067 --> 00:01:09,099
+We had to draw this letter, one foot high, in black paint, on a white background.
+
+14
+00:01:09,099 --> 00:01:14,051
+It may seem like a silly exercise, but it’s a great way to understand intimately
+
+15
+00:01:14,051 --> 00:01:17,014
+the curves and strokes of the letterform,
+
+16
+00:01:17,014 --> 00:01:20,037
+and it’s also really good at training both your eye and training your hand;
+
+17
+00:01:20,037 --> 00:01:25,058
+Maybe it’s also a hazing ritual that I’ve just post-hoc rationalized.
+
+18
+00:01:25,058 --> 00:01:32,002
+Anyhow, moving along, let’s look at the different parts of a typeface.
+
+19
+00:01:32,002 --> 00:01:38,006
+One term you may be familiar with from using on your computer is the point size or the font size.
+
+20
+00:01:38,006 --> 00:01:40,059
+And what’s notable about this is
+
+21
+00:01:40,059 --> 00:01:46,032
+it seems like a number that ought to be set in stone and consistent across all typefaces,
+
+22
+00:01:46,032 --> 00:01:48,001
+but it’s really not.
+
+23
+00:01:48,001 --> 00:01:53,001
+Most of our terminology from typefaces come from when they were set in lead,
+
+24
+00:01:53,001 --> 00:02:00,005
+and the point size of a typeface really just means the height of the lead block that the type was set in,
+
+25
+00:02:00,005 --> 00:02:07,030
+which has some relationship to the actual letter size, but is not completely consistent.
+
+26
+00:02:10,016 --> 00:02:12,036
+For example, you can see, for the same point size,
+
+27
+00:02:12,036 --> 00:02:16,023
+here’s a letter S in Gill Sans, and a letter S in Calibri,
+
+28
+00:02:16,023 --> 00:02:25,070
+and you can that the Calibri S is lower than the Gill Sans S.
+
+29
+00:02:25,070 --> 00:02:29,001
+Our second term is leading.
+
+30
+00:02:29,001 --> 00:02:33,001
+If we have solid blocks of lead that form the letter,
+
+31
+00:02:33,001 --> 00:02:39,016
+the spacing that we get between the lines was achieved by  putting thin strips of lead in between the lines,
+
+32
+00:02:39,016 --> 00:02:41,097
+and that was called the leading.
+
+33
+00:02:41,097 --> 00:02:47,019
+It’s customary to have 20% of your font size as your leading;
+
+34
+00:02:47,019 --> 00:02:51,015
+and so, if in your word processor you’ve set 10-point type,
+
+35
+00:02:51,015 --> 00:02:59,036
+it will usually automatically add an extra 2 points of spacing to put 12 points in between each line.
+
+36
+00:02:59,036 --> 00:03:05,045
+The height of the lowercase letters is called the x-height, from the “x”.
+
+37
+00:03:05,045 --> 00:03:10,032
+Some typefaces have a higher x-height, like Lucida Bright or Georgia;
+
+38
+00:03:10,032 --> 00:03:14,029
+other typefaces have a lower x-height, like Baskerville.
+
+39
+00:03:14,029 --> 00:03:16,085
+And this is important in design — especially online —
+
+40
+00:03:16,085 --> 00:03:23,074
+because typefaces that have a higher x-height will be easier to read at smaller point sizes
+
+41
+00:03:23,074 --> 00:03:27,082
+and on low resolution devices like most screens.
+
+42
+00:03:27,082 --> 00:03:32,017
+Conversely, typefaces with a low x-height, like Baskerville, are used
+
+43
+00:03:32,017 --> 00:03:37,049
+when you’re trying to give elegance, or a “bella park” feel to something.
+
+44
+00:03:37,049 --> 00:03:41,058
+And sprouting up and dropping down from the x-height are the ascenders —
+
+45
+00:03:41,058 --> 00:03:45,006
+like the top stem of the h and the dot of the i —,
+
+46
+00:03:45,006 --> 00:03:49,098
+and the descenders — like the y, p, g.
+
+47
+00:03:49,098 --> 00:03:55,076
+In general, a typeface that has a low x-height will tend to have long ascenders and descenders,
+
+48
+00:03:55,076 --> 00:04:05,000
+and a typeface that has a tall x-height will tend to have more squashed ascenders and descenders.
+
+49
+00:04:05,000 --> 00:04:08,079
+Typefaces can also vary in their weight.
+
+50
+00:04:08,079 --> 00:04:16,013
+So here have an example of light on the left, regular or roman in the middle, and bold on the right.
+
+51
+00:04:16,013 --> 00:04:19,087
+Sometimes you’ll see weights in between like demibold or semibold,
+
+52
+00:04:19,087 --> 00:04:23,081
+and, even to the further to the right of bold, you’ll see black.
+
+53
+00:04:23,081 --> 00:04:25,094
+Number six on the list are serifs.
+
+54
+00:04:25,094 --> 00:04:33,070
+Serifs are the doohiggies on the end of letters that give them that chiselled look.
+
+55
+00:04:33,070 --> 00:04:35,044
+[There are] a couple more that are bonus:
+
+56
+00:04:35,044 --> 00:04:39,091
+Some faces (typefaces) will also include small caps — which are exactly what they sound like,
+
+57
+00:04:39,091 --> 00:04:42,022
+smaller versions of capital[s and] numbers.
+
+58
+00:04:42,022 --> 00:04:45,038
+These can be used as headers, or they can also be used
+
+59
+00:04:45,038 --> 00:04:50,034
+to put acronyms and other capital texts inside a block of body text.
+
+60
+00:04:51,054 --> 00:04:54,002
+And one thing that you may not know is —
+
+61
+00:04:54,002 --> 00:04:58,086
+just like letters come in uppercase and lowercase, numbers do too.
+
+62
+00:04:59,077 --> 00:05:01,094
+These numbers, set in Neutraface,
+
+63
+00:05:01,094 --> 00:05:06,027
+provide an example an example of something that has just small ascenders and descenders.
+
+64
+00:05:06,027 --> 00:05:09,093
+In some cases these can be more dramatic.
+
+65
+00:05:09,093 --> 00:05:11,037
+Lowercase numbers are useful
+
+66
+00:05:11,037 --> 00:05:17,001
+when you want numbers to fit in with a larger block of text and not stand out.
+
+67
+00:05:17,001 --> 00:05:20,048
+One of the most common questions I get asked about graphic design is:
+
+68
+00:05:20,048 --> 00:05:22,060
+“Which typeface should I use?”
+
+69
+00:05:22,060 --> 00:05:24,063
+And a lot of people have heard a story
+
+70
+00:05:24,063 --> 00:05:28,082
+where serif typefaces are generally recommended for body text
+
+71
+00:05:28,082 --> 00:05:32,077
+and sans serif typefaces are recommended for headers.
+
+72
+00:05:32,077 --> 00:05:37,048
+And that’s, on the whole, not bad advice.
+
+73
+00:05:37,048 --> 00:05:41,075
+There is an often-repeated claim that the reason that this is a good heuristic
+
+74
+00:05:41,075 --> 00:05:47,005
+is because serif typefaces, with those doohiggies at the end,
+
+75
+00:05:47,005 --> 00:05:52,052
+give your eyes something to latch onto, and consequently they are easier to read.
+
+76
+00:05:52,052 --> 00:05:55,054
+It’s an interesting hypothesis.
+
+77
+00:05:55,054 --> 00:05:58,007
+So I looked into this a little bit for all of you,
+
+78
+00:05:58,007 --> 00:06:00,082
+and there’s some challenges in trying to figure this out.
+
+79
+00:06:00,082 --> 00:06:07,088
+For starters, individual differences in readers dwarf any manipulation effects of the typeface.
+
+80
+00:06:07,088 --> 00:06:10,019
+Like, some people read a whole lot faster than others.
+
+81
+00:06:10,019 --> 00:06:16,033
+And so it’s difficult to measure differences in the readability of typefaces.
+
+82
+00:06:16,033 --> 00:06:19,081
+Also, reading requires familiarity:
+
+83
+00:06:19,081 --> 00:06:23,076
+It’s not like we’re born knowing what a letter R looks like; we need to practice.
+
+84
+00:06:23,076 --> 00:06:28,037
+And so if you learn with one style of the letter R, you’ll probably be faster with that one;
+
+85
+00:06:28,037 --> 00:06:33,024
+and if you learn with another style of the letter R, you’ll be faster with that one.
+
+86
+00:06:34,090 --> 00:06:38,000
+If even when we got past all those challenges,
+
+87
+00:06:38,000 --> 00:06:41,026
+it can be a little bit difficult to figure out exactly how you should measure  this.
+
+88
+00:06:42,079 --> 00:06:48,018
+Well, I can’t go so far as to say that the serif hypothesis is definitively untrue;
+
+89
+00:06:48,018 --> 00:06:53,026
+what I can say is that there’s a lot of evidence to support that it actually is real.
+
+90
+00:06:53,026 --> 00:06:56,094
+And Alex Poole does a great job of describing this on his web site:
+
+91
+00:06:57,098 --> 00:07:03,047
+He writes that “What initially seemed a neat dichotomous question of serif versus sans serif
+
+92
+00:07:03,047 --> 00:07:07,071
+has resulted in a body of research consisting of weak claims and counter-claims,
+
+93
+00:07:07,071 --> 00:07:10,038
+and study after study with findings of ‘no difference’.
+
+94
+00:07:10,038 --> 00:07:13,096
+Is it the case that more than one hundred years of research
+
+95
+00:07:13,096 --> 00:07:16,069
+has been marred by repeated methodological flaws,
+
+96
+00:07:16,069 --> 00:07:21,041
+or are serifs simply a typographical ‘red herring’?”
+
+97
+00:07:21,041 --> 00:07:26,035
+It does seem that mixed-case type like you get in a sentence — upper and lower mixed together —
+
+98
+00:07:26,035 --> 00:07:29,065
+is faster to read than all caps, presumably because
+
+99
+00:07:29,065 --> 00:07:34,088
+you get greater vertical variation with the ascenders and descenders in lowercase letters,
+
+100
+00:07:34,088 --> 00:07:39,019
+and that gives your eye more information as it’s reading.
+
+101
+00:07:39,019 --> 00:07:45,083
+Also, in general, proportional fonts seem to be faster than monospaced fonts, like a typewriter.
+
+102
+00:07:45,083 --> 00:07:52,035
+So, typewriter fonts — slower to read — That stuff only matters if you have to read a whole lot.
+
+103
+00:07:52,035 --> 00:08:00,085
+But the simplest summary is that, in practice, legibility simply amounts to what you’re accustomed to.
+
+104
+00:08:00,085 --> 00:08:03,024
+What do these words say? The bottom half is obscured.
+
+105
+00:08:04,072 --> 00:08:08,058
+As many of you’ve guessed, “I am a jelly donut”.
+
+106
+00:08:09,011 --> 00:08:12,010
+How about this? Here the top half is obscured.
+
+107
+00:08:13,050 --> 00:08:15,054
+Seems a little harder?
+
+108
+00:08:15,054 --> 00:08:19,027
+“jfk spoke in berlin.”
+
+109
+00:08:19,027 --> 00:08:25,053
+Turns out that more information seems to be encoded in the top half of text than in the bottom half.
+
+110
+00:08:25,053 --> 00:08:27,050
+And what does this say?
+
+111
+00:08:27,050 --> 00:08:32,026
+[I] bet many of you saw it as “THE CAT”,
+
+112
+00:08:32,026 --> 00:08:36,039
+and fewer people, “TAE CHT”.
+
+113
+00:08:36,039 --> 00:08:42,025
+And that’s because expectation plays a really important role in what we read.
+
+114
+00:08:42,025 --> 00:08:44,029
+And if you’re really perceptive,
+
+115
+00:08:44,029 --> 00:08:53,018
+you may have realized that those two middle letters are actually exactly the same letter,
+
+116
+00:08:53,018 --> 00:08:57,051
+so the only difference is what you’re expecting to see in each case.
+
+117
+00:08:57,051 --> 00:09:01,055
+Your prior probability influences your interpretation.
+
+118
+00:09:01,055 --> 00:09:07,017
+So, if you put all that together and return to our original question of “Which typeface should I use”,
+
+119
+00:09:07,017 --> 00:09:09,078
+the answer is “It depends.”
+
+120
+00:09:09,078 --> 00:09:16,013
+If you’re putting down a long block of text, it’s best to use a typeface will be familiar with;
+
+121
+00:09:16,013 --> 00:09:21,055
+and if you’re working online, use something that has a relatively high x-height.
+
+122
+00:09:21,055 --> 00:09:25,084
+On the other hand, if you’re making a logo or a sign,
+
+123
+00:09:25,084 --> 00:09:29,046
+or something that’s short and intended to be dramatic,
+
+124
+00:09:29,046 --> 00:09:33,001
+then you probably want to use something a little bit funkier as your typeface —
+
+125
+00:09:33,001 --> 00:09:38,020
+something that’s going to catch attention and be unique, memorable.
+
+126
+00:09:38,020 --> 00:09:43,010
+And typefaces — like everything in life — build up reputation.
+
+127
+00:09:43,010 --> 00:09:47,017
+So, over time, certain typefaces come to mean certain things.
+
+128
+00:09:47,017 --> 00:09:51,018
+And here’s a great example from Hoefler and Frere-Jones, writing on their blog.
+
+129
+00:09:51,018 --> 00:09:56,033
+They talk about how Baskerville seems like it’s out of a literary magazine
+
+130
+00:09:56,033 --> 00:10:03,071
+and Optima seems to remind us of cheap 1950’s hygiene products.
+
+131
+00:10:03,071 --> 00:10:08,009
+Here are two easy exercises you can use to improve your typographical eye:
+
+132
+00:10:08,009 --> 00:10:14,046
+The first one is: Look around you for all of the different ways that the same typeface gets deployed;
+
+133
+00:10:14,046 --> 00:10:17,044
+that will give you a sense of its range.
+
+134
+00:10:17,044 --> 00:10:21,019
+The second one is: Look at how the same text,
+
+135
+00:10:21,019 --> 00:10:26,046
+with different typefaces, really changes its meaning.
+
+136
+00:10:26,046 --> 00:10:30,033
+In this class we have a lot of ground to cover quickly,
+
+137
+00:10:30,033 --> 00:10:33,071
+and so unfortunately we can’t spend too much time on typography;
+
+138
+00:10:33,071 --> 00:10:36,056
+but it’s a fascinating subject, and if you’d like to learn more about this,
+
+139
+00:10:36,056 --> 00:10:42,035
+there are many great books and design resources online, and they’re growing rapidly.
+
+140
+00:10:42,035 --> 00:10:44,067
+Here are just a few that I think are particularly good.
