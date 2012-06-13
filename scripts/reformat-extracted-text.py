@@ -48,9 +48,20 @@ def reformat_input(f):
   # including missing periods at the end of sentences.
   # Try to make some guesses in an attempt to fix *that*.
   #
-  source = re.sub(r'([^\.]) (Also|And|Because|But|Here|Or)\b', r'\1. \2', source)
+  # If it's a period followed by a double quote,
+  # theoretically we shouldn't need to do anything.
+  # But NLTK gets confused (?!) so we still have to add a period...
+  #
+  source = re.sub(r'([^\.]) (Also|And|Because|But|Here|Or)\b', \
+		  r'\1. \2', source)
+
+  #
+  # This is for NLTK. Hard to believe. But true :P
+  #
+  source = re.sub(r'([\.!\?]")(\s)', r'\1.\2', source)
 
   for s in sent_detector.tokenize(source):
+    s = re.sub(r'([\.!\?]"?)\.', r'\1', s)
     print "INPUT=%s\n" % s
 
 def main(args):
