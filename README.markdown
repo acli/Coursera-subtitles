@@ -10,7 +10,7 @@ In the `scripts` directory you will find two scripts:
 
 - `reformat-extracted-text` attempts to reformat the output of
   `extract-text-from-srt` so that the subtitles will make more
-  sense for people who speaks English; this is also sent to
+  sense for people who speak English; this is also sent to
   standard output.
 
 The canonical way to run this is to feed `extract-text-from-srt`
