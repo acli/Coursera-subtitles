@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf8 -*-
 #
-# THIS IS AN EXPERIMENTAL REWRITE - IT IS NOT WORKING YET!
+# THIS IS AN EXPERIMENTAL REWRITE - IT IS NOT WORKING TOO WELL YET!
 #
 # This script takes as standard input the extracted text from a
 # stanford-bot-generated SRT file, and reformats it into something
@@ -20,8 +20,9 @@
 #    attempt to split at correct sentence boundaries using the NLTK
 #    Punkt tokenizer; however, because stanford-bot's output sometimes
 #    contains missing periods and other bugs, the tokenization does not
-#    always produce correct results and so you will still need to do a
-#    manual review.
+#    always produce correct results. Also, sentences can be extremely
+#    long that we still need to find a way to split those. For these
+#    reasons you will still need to do a manual review.
 #
 
 import sys
