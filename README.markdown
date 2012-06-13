@@ -13,6 +13,13 @@ In the `scripts` directory you will find two scripts:
   sense for people who speak English; this is also sent to
   standard output.
 
+- `reformat-extracted-text.py` attempts to reformat an actual SRT
+  file (or the output of `extract-text-from-srt`) so that the
+  subtitles will make more sense for people who speak English;
+  this is also sent to standard output. This is an experimental
+  rewrite that uses NLTK in an attempt to get more accurate in
+  the splits.
+
 The canonical way to run this is to feed `extract-text-from-srt`
 an SRT file that you got from Amara, then pipe this to
 `reformat-extracted-text` and then redirect this to a text file.
