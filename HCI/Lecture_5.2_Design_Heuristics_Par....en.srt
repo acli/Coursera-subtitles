@@ -47,933 +47,961 @@ I keep a big file of interfaces that I think are effective or have problems,
 and it’s a good activity — I encourage you to do the same thing.
 
 13
-00:00:56,041 --> 00:01:02,028
-For any voyeurs out there, you’ll get a sense of interfaces that I’ve stumbled across over the last several years —
+00:00:56,041 --> 00:00:59,007
+For any voyeurs out there, you’ll get a sense of interfaces
 
 14
+00:00:59,007 --> 00:01:02,028
+that I’ve stumbled across over the last several years —
+
+15
 00:01:02,028 --> 00:01:04,030
 not a very exciting list, but, hey.
 
-15
-00:01:04,030 --> 00:01:10,085
-And all of these interfaces are things that may come up again when we talk about visual design and other principles.
-
 16
+00:01:04,030 --> 00:01:07,057
+And all of these interfaces are things that may come up again
+
+17
+00:01:07,057 --> 00:01:10,085
+when we talk about visual design and other principles.
+
+18
 00:01:10,085 --> 00:01:15,076
 So some of these screen shots you’ll see multiple times in this class.
 
-17
+19
 00:01:15,076 --> 00:01:21,069
 Finally, I’d like to emphasize that we really want to focus on narrow issues in these user interfaces.
 
-18
+20
 00:01:21,069 --> 00:01:26,004
 And I’m not going to talk about whether the broader ecosystem
 
-19
+21
 00:01:26,004 --> 00:01:29,088
 that the particular thing we’re looking at is effective or not.
 
-20
+22
 00:01:29,088 --> 00:01:35,073
 So, we may point out flaws in interfaces that are on the whole exemplary,
 
-21
+23
 00:01:35,073 --> 00:01:42,054
 or we may point out successes in interfaces that are on the whole not quite so good.
 
-22
+24
 00:01:42,054 --> 00:01:46,004
 And finally, because I’ve gathered these screen shots over a number of years,
 
-23
+25
 00:01:46,004 --> 00:01:48,064
 many of these interfaces no longer look like this.
 
-24
+26
 00:01:48,064 --> 00:01:55,077
 The point is not the current state of an interface, but rather the didactical of teaching you a principle.
 
-25
+27
 00:01:56,026 --> 00:01:59,031
 Here are the ten design heuristics that we’re going to talk about.
 
-26
+28
 00:01:59,031 --> 00:02:01,018
 Some of these names are mine.
 
-27
+29
 00:02:01,018 --> 00:02:05,016
 The principles are based on Jakob Nielsen’s work in heuristic evaluation;
 
-28
+30
 00:02:05,016 --> 00:02:10,048
 I’ve simply relabeled a few of them to make them, I think, clearer and shorter.
 
-29
+31
 00:02:12,035 --> 00:02:14,011
 And so let’s jump in.
 
-30
+32
 00:02:14,011 --> 00:02:17,025
 The first of these principles is “show system status.”
 
-31
+33
 00:02:17,025 --> 00:02:20,095
 I think one of the most important things you can do in user interface design
 
-32
+34
 00:02:20,095 --> 00:02:28,080
 is provide excellent feedback about where the system is and where the user is in a larger interaction flow.
 
-33
+35
 00:02:28,080 --> 00:02:34,006
 One important thing to provide feedback about is where the user is in time.
 
-34
+36
 00:02:34,006 --> 00:02:39,048
 If you have an interactive system where the response time is less than a second or so,
 
-35
+37
 00:02:39,048 --> 00:02:43,034
 there is no need to have intermediate feedback: It just feels interactive.
 
-36
+38
 00:02:43,034 --> 00:02:48,036
 As you get to something that’s on the order of a second or a couple of seconds,
 
-37
+39
 00:02:48,036 --> 00:02:53,038
 it becomes important to provide some kind of feedback that an activity is underway.
 
-38
+40
 00:02:53,038 --> 00:02:56,059
 You can think of this as hourglass or a spinning ball,
 
-39
+41
 00:02:56,059 --> 00:02:59,080
 and if you get to something that’s more than a couple of seconds,
 
-40
+42
 00:02:59,080 --> 00:03:05,019
 it’s useful to show progress of how far along in an activity that user is.
 
-41
+43
 00:03:05,019 --> 00:03:09,002
 Here we see an example from an installation of a piece of software.
 
-42
+44
 00:03:09,002 --> 00:03:15,001
 And you can see the same thing if you ask a user to fill out a survey or when they’re completing their taxes,
 
-43
+45
 00:03:15,001 --> 00:03:20,028
 or any other process that takes a long time or may require multiple steps of input.
 
-44
+46
 00:03:20,028 --> 00:03:27,021
 You’ll want to give people feedback about how far through the system is and how far through they are.
 
-45
+47
 00:03:29,049 --> 00:03:35,009
 Second important category of things to provide feedback about and to show to the user is space.
 
-46
+48
 00:03:35,009 --> 00:03:41,076
 Here’s a screen shot from Gmail which notifies me that I was out of the space allocated to me
 
-47
+49
 00:03:41,076 --> 00:03:46,025
 and that means that I need to do something about it.
 
-48
+50
 00:03:46,025 --> 00:03:50,004
 The third important thing to show people feedback about is change.
 
-49
+51
 00:03:50,004 --> 00:03:54,046
 Here we have a dialog box that says, “You’ve changed this document.
 
-50
+52
 00:03:54,046 --> 00:03:57,048
 Do you want to save those changes or don’t save them.”
 
-51
+53
 00:03:57,048 --> 00:04:00,061
 Our fourth category is action. Here’s a stoplight.
 
-52
+54
 00:04:00,061 --> 00:04:04,020
 So the red light means stop; the green light means go.
 
-53
+55
 00:04:04,020 --> 00:04:10,018
 And I like this user interface, because it uses a redundant coding to provide feedback to the user.
 
-54
+56
 00:04:10,018 --> 00:04:15,036
 So the red light is not only using red as a color, but it’s up at the top of the screen;
 
-55
+57
 00:04:15,036 --> 00:04:18,081
 and the green light is also always at the bottom.
 
-56
+58
 00:04:18,081 --> 00:04:23,092
 And this consistency in the dual coding both makes it faster to recognize
 
-57
+59
 00:04:23,092 --> 00:04:27,002
 and it helps work for a broader class of users —
 
-58
+60
 00:04:27,002 --> 00:04:32,021
 for example, not all users may be able to distinguish red from green.
 
-59
+61
 00:04:32,021 --> 00:04:37,038
 Especially in an online world, it can be important to show feedback about next steps.
 
-60
+62
 00:04:37,038 --> 00:04:41,061
 Here’s a screen shot from Amazon that says “Your message was sent to the seller
 
-61
+63
 00:04:41,061 --> 00:04:44,071
 and a copy was sent to the email address of your account.
 
-62
+64
 00:04:44,071 --> 00:04:47,067
 The seller will respond to you directly via email.”
 
-63
+65
 00:04:47,067 --> 00:04:51,055
 So we’re letting the user know what’s going to happen next.
 
-64
+66
 00:04:51,055 --> 00:04:55,094
 That’s important because otherwise you can wonder, “Was the message actually sent?”
 
-65
+67
 00:04:55,094 --> 00:04:58,016
 or, “Did anybody get it?”
 
-66
+68
 00:04:58,016 --> 00:05:00,098
 or “When they receive it, what are they going to do?”
 
-67
+69
 00:05:00,098 --> 00:05:05,058
 This lays out very clearly what has happened and what will happen next.
 
-68
+70
 00:05:05,058 --> 00:05:08,088
 And after you’ve crossed time, space, change, actions, and next steps,
 
-69
+71
 00:05:08,088 --> 00:05:11,093
 the last thing that you’ll want to show is completion.
 
-70
+72
 00:05:11,093 --> 00:05:14,071
 I also like this dialog box because it’s funny.
 
-71
+73
 00:05:14,071 --> 00:05:17,094
 And a little bit of humor can be really effective in user interfaces.
 
-72
+74
 00:05:17,094 --> 00:05:22,096
 Our second heuristic is to use familiar metaphors and language.
 
-73
+75
 00:05:22,096 --> 00:05:28,001
 And often this can mean trying to provide a match in the interface
 
-74
+76
 00:05:28,001 --> 00:05:31,089
 with things that people are familiar with from their real-world experience.
 
-75
+77
 00:05:31,089 --> 00:05:35,017
 This also means speak the user’s language,
 
-76
+78
 00:05:35,017 --> 00:05:39,071
 and follow conventions that they’re familiar with both in the online world and in the real world.
 
-77
+79
 00:05:39,071 --> 00:05:43,035
 One important kind of familiarity is metaphors.
 
-78
+80
 00:05:43,035 --> 00:05:50,015
 In this interface, I want to call your attention to the world in miniature that’s being used in the print dialog box,
 
-79
+81
 00:05:50,015 --> 00:05:54,060
 and that’s an effective user interface, because it makes very clear
 
-80
+82
 00:05:54,060 --> 00:06:00,074
 which pieces of the page are going to to be cropped, and which pieces of the page are going to to be printed.
 
-81
+83
 00:06:00,074 --> 00:06:04,069
 In general, one of the successes of the graphical user interface
 
-82
+84
 00:06:04,069 --> 00:06:10,086
 is that it leverages a lot of real-world metaphors, like desktop and trash and files and folders.
 
-83
+85
 00:06:10,086 --> 00:06:18,018
 And if these are activities that users are familiar with, it can help bring them into a new online world.
 
-84
+86
 00:06:18,018 --> 00:06:23,063
 Now over the last 25 years, as more and more people have gotten accustomed to computing,
 
-85
+87
 00:06:23,063 --> 00:06:29,000
 some of those real-world metaphors have fallen away and newer ones have developed.
 
-86
+88
 00:06:29,000 --> 00:06:36,052
 Remember that the reader of your interface is going to be a user and not your colleague, boss, or lawyer.
 
-87
+89
 00:06:36,052 --> 00:06:43,009
 And consequently, work hard to identify terms and language that will be familiar to them.
 
-88
+90
 00:06:43,009 --> 00:06:45,087
 Here’s a screenshot from a student loan website.
 
-89
+91
 00:06:45,087 --> 00:06:50,016
 And it uses two terms that at least I was unfamiliar with —
 
-90
+92
 00:06:50,016 --> 00:06:54,044
 It talked about me being I already enrolled in “Electronic Correspondence.”
 
-91
+93
 00:06:54,044 --> 00:07:00,050
 And it said that I was not eligible for “Electronic Bill Presentment.”
 
-92
+94
 00:07:00,050 --> 00:07:05,046
 What it really means by this, I think, is just “email,” and so it should say that.
 
-93
+95
 00:07:05,046 --> 00:07:12,000
 And I don’t think of myself as being “enrolled” in an “email correspondence service.”
 
-94
+96
 00:07:12,000 --> 00:07:16,042
 It would be nicer if it just said “We’re sending you email.”
 
-95
+97
 00:07:16,042 --> 00:07:22,049
 And there’s some fine print about why I’m not eligible for “Electronic Bill Presentment.”
 
-96
+98
 00:07:22,049 --> 00:07:27,079
 It would be much clearer if, for starters, it actually identified the reason:
 
-97
+99
 00:07:27,079 --> 00:07:33,017
 in my particular case this has passed a log-in wall, and so it knows the reason.
 
-98
+100
 00:07:33,017 --> 00:07:37,069
 And it would be nicer if it was able to use more common terms,
 
-99
+101
 00:07:37,069 --> 00:07:46,063
 like “We’re unable to send you bills and email because,” maybe, “we don’t have an address on file.”
 
-100
+102
 00:07:46,063 --> 00:07:49,062
 And it’s important to use familiar categories.
 
-101
+103
 00:07:49,062 --> 00:07:55,040
 Here’s an example from a Visa website that asks users to select a state.
 
-102
+104
 00:07:55,040 --> 00:08:00,087
 And, I got a kick out of it because there are more than 50 states here —
 
-103
+105
 00:08:00,087 --> 00:08:06,017
 in fact, there’s a separate listing for Northern California and Southern California.
 
-104
-00:08:06,017 --> 00:08:12,092
-And many people in San Francisco might wish that Northern California and Southern California were different states;
+106
+00:08:06,017 --> 00:08:09,054
+And many people in San Francisco might wish
 
-105
+107
+00:08:09,054 --> 00:08:12,092
+that Northern California and Southern California were different states;
+
+108
 00:08:12,092 --> 00:08:18,067
 and for many people, which of those they live in or believe they live in is clear.
 
-106
+109
 00:08:18,067 --> 00:08:25,016
 But for some users, this may be ambiguous, and it would probably be simpler if you just selected California
 
-107
+110
 00:08:25,016 --> 00:08:29,069
 and then the system decided whether it use its Southern California routing
 
-108
+111
 00:08:29,069 --> 00:08:34,022
 or Northern California routing, based on the address that you provide later.
 
-109
+112
 00:08:34,022 --> 00:08:40,035
 And it’s important that the choices that you offer to people are things that they’re likely to be familiar with.
 
-110
+113
 00:08:40,035 --> 00:08:46,036
 Here is a dialog box that says that “You have a document encoding mismatch.
 
-111
+114
 00:08:46,036 --> 00:08:52,055
 You’ve got a document which describes itself as being UTF-8, no BOM.
 
-112
+115
 00:08:52,055 --> 00:08:57,002
 But, the encoding has been set to Western, ISO Latin-1.
 
-113
-00:08:57,002 --> 00:09:05,071
-Now this is a developer tool, and so it’s reasonable to expect some fluency with things that are under the hood —
+116
+00:08:57,002 --> 00:09:00,089
+Now this is a developer tool,
 
-114
+117
+00:09:00,089 --> 00:09:05,071
+and so it’s reasonable to expect some fluency with things that are under the hood —
+
+118
 00:09:05,071 --> 00:09:12,090
 like, users may in general be familiar with the idea that there are different character sets for documents —
 
-115
+119
 00:09:12,090 --> 00:09:21,080
 but users may be not familiar with what exactly the difference is between UTF-8 no BOM and ISO Latin-1,
 
-116
+120
 00:09:21,080 --> 00:09:29,004
 or which of them they should select, or how exactly they should go about fixing this problem.
 
-117
+121
 00:09:29,004 --> 00:09:36,005
 One way that this interface could be improved is beaconing what the most common solution is likely to be.
 
-118
+122
 00:09:36,005 --> 00:09:41,047
 Our third heuristic is user control and freedom, and this is going to encompass a number of things —
 
-119
+123
 00:09:41,047 --> 00:09:48,072
 like exits for mistaken choices, the ability to undo and redo, not forcing people down fixed paths.
 
-120
+124
 00:09:48,072 --> 00:09:52,027
 I think of this heuristic as being about making sure
 
-121
+125
 00:09:52,027 --> 00:09:58,006
 that the amount of control and freedom is appropriate for the users and appropriate for the tasks.
 
-122
+126
 00:09:58,006 --> 00:10:03,012
 So for example, if you have an interface that somebody’s only going to use once,
 
-123
+127
 00:10:03,012 --> 00:10:06,083
 a relatively constrained wizard may actually be a good solution.
 
-124
+128
 00:10:06,083 --> 00:10:09,096
 However, you may also want a way for users
 
-125
+129
 00:10:09,096 --> 00:10:15,046
 to break out of that constrained wizard if they know what they’re doing and are more expert,
 
-126
+130
 00:10:15,046 --> 00:10:21,001
 or have an uncommon or unique activity that they need to accomplish.
 
-127
+131
 00:10:21,001 --> 00:10:24,087
 Here’s an example from a conference registration site,
 
-128
+132
 00:10:24,087 --> 00:10:30,018
 and what you can see is that there’s a Continue button, but no Back button.
 
-129
+133
 00:10:30,018 --> 00:10:37,003
 Here’s an interface that provides more control and freedom in the context of browsing for airline tickets.
 
-130
+134
 00:10:37,003 --> 00:10:41,037
 What you see here is that there are a number of different ways
 
-131
+135
 00:10:41,037 --> 00:10:46,011
 in which the user can browse through the space of possible information.
 
-132
-00:10:46,011 --> 00:10:53,053
-In particular you can see this calendar widget in the top left which shows you the fares for every day of that month.
+136
+00:10:46,011 --> 00:10:49,065
+In particular you can see this calendar widget in the top left
 
-133
+137
+00:10:49,065 --> 00:10:53,053
+which shows you the fares for every day of that month.
+
+138
 00:10:53,053 --> 00:10:59,087
 And this ability to preview what’s likely to be down a particular path is really valuable
 
-134
+139
 00:10:59,087 --> 00:11:06,020
 in helping people make decisions and know what options are available to them.
 
-135
+140
 00:11:06,020 --> 00:11:09,030
 Our fourth heuristic is consistency and standards.
 
-136
+141
 00:11:09,030 --> 00:11:12,021
 And this includes things like consistent layout.
 
-137
+142
 00:11:12,021 --> 00:11:19,092
 Here’s a screenshot of a very old set of dialog box options from Microsoft’s Visual Basic.
 
-138
+143
 00:11:19,092 --> 00:11:22,093
 This is many years old at this point.
 
-139
+144
 00:11:22,093 --> 00:11:28,083
 It’s pedagogically useful, because there are four different options for where the same set of buttons could be.
 
-140
+145
 00:11:28,083 --> 00:11:32,092
 And probably, applications will be easiest to learn
 
-141
+146
 00:11:32,092 --> 00:11:38,097
 if users can come to expect that the same buttons will always be in the same locations.
 
-142
+147
 00:11:38,097 --> 00:11:41,076
 We talked already about familiar language.
 
-143
+148
 00:11:41,076 --> 00:11:44,081
 It’s also important to be consistent in your use of language.
 
-144
+149
 00:11:44,081 --> 00:11:49,063
 And one thing that I’ve seen on the forums is, in teaching this class,
 
-145
+150
 00:11:49,063 --> 00:11:54,080
 whenever we’ve used terms interchangeably, that’s often been a source of confusion.
 
-146
+151
 00:11:54,080 --> 00:11:57,059
 And you can see that in this web site.
 
-147
+152
 00:11:57,059 --> 00:12:03,074
 I arrived at this screen because I wanted to get help with a USB cellular modem that I had,
 
-148
+153
 00:12:03,074 --> 00:12:09,090
 and I couldn’t figure out which of these categories was most likely to be the right one.
 
-149
+154
 00:12:09,090 --> 00:12:16,013
 My guess is that these categories were generated based on organizational chart for the business
 
-150
+155
 00:12:16,013 --> 00:12:20,068
 rather than based on the user’s conceptual model of what they cared about.
 
-151
+156
 00:12:20,068 --> 00:12:24,087
 So, for example, national access and broadband access
 
-152
+157
 00:12:24,087 --> 00:12:30,017
 may be different parts of a business and have different management structures;
 
-153
-00:12:30,017 --> 00:12:39,011
-but from a user’s perspective, they may not know whether the mobile device they have is in one category or the other.
+158
+00:12:30,017 --> 00:12:33,087
+but from a user’s perspective, they may not know
 
-154
+159
+00:12:33,087 --> 00:12:39,011
+whether the mobile device they have is in one category or the other.
+
+160
 00:12:39,011 --> 00:12:41,067
 So how do you solve this naming problem?
 
-155
+161
 00:12:41,067 --> 00:12:47,016
 Because I think that, once you get familiar with your own products and designs,
 
-156
+162
 00:12:47,016 --> 00:12:50,075
 it’s easy to refer to them using the terms that you’re familiar with.
 
-157
+163
 00:12:50,075 --> 00:12:56,001
 And, to some extent, eventually training people up on these terms will be useful for everyone.
 
-158
+164
 00:12:56,001 --> 00:13:00,067
 However, you’ll often want to elicit what terminology users use naturally
 
-159
+165
 00:13:00,067 --> 00:13:03,046
 and ensure sure that you use that consistency.
 
-160
+166
 00:13:03,046 --> 00:13:06,043
 This is actually a case where field work, or focus groups,
 
-161
+167
 00:13:06,043 --> 00:13:09,040
 or other kinds of direct user engagement can be really valuable,
 
-162
+168
 00:13:09,040 --> 00:13:15,035
 and you can ask people how they would describe certain things that they might want to get help with.
 
-163
+169
 00:13:15,035 --> 00:13:20,028
 Another thing that you can do is if you prefer a more web-based strategy,
 
-164
+170
 00:13:20,028 --> 00:13:25,096
 you can have a category initially that you call Other, and let people type in whatever they want.
 
-165
+171
 00:13:25,096 --> 00:13:29,096
 And then you can look at the set of responses that come in for Other,
 
-166
+172
 00:13:29,096 --> 00:13:36,048
 and use that to generate umbrellas terms that may be more user centered in terms of the language they use.
 
-167
-00:13:36,048 --> 00:13:40,072
-Here is a screenshot of a license repair utility, and it has a warning
+173
+00:13:36,048 --> 00:13:41,014
+Here is a screenshot of a license repair utility, and it has a warning about the fact
 
-168
-00:13:40,072 --> 00:13:48,040
-about the fact that you’ll need to close all other Adobe applications before proceeding with the license repair utility.
+174
+00:13:41,014 --> 00:13:47,038
+that you’ll need to close all other Adobe applications before proceeding with the license repair utility.
 
-169
-00:13:48,040 --> 00:13:54,094
+175
+00:13:47,038 --> 00:13:54,094
 It’s a reasonable constraint, and it says, “Do you wish to…” blank — I have blocked it out.
 
-170
+176
 00:13:54,094 --> 00:13:58,063
 “Yes” or “No?”
 
-171
+177
 00:13:58,064 --> 00:14:03,057
 My guess is that a good fraction of you — maybe even most of you —
 
-172
+178
 00:14:03,057 --> 00:14:09,059
 would guess that [for] “Do you wish to…” the next thing would be “continue.”
 
-173
+179
 00:14:09,059 --> 00:14:12,092
 And so you might press Yes.
 
-174
+180
 00:14:12,092 --> 00:14:16,032
 However, what we actually have here is “Do you wish to cancel.”
 
-175
+181
 00:14:16,032 --> 00:14:20,014
 And so, if you pressed Yes to continue.
 
-176
+182
 00:14:20,014 --> 00:14:23,015
 It’s going to drop you out of the application and you’ll wonder what happened.
 
-177
+183
 00:14:23,015 --> 00:14:26,003
 Or if you pressed No, with the intent to cancel,
 
-178
+184
 00:14:26,003 --> 00:14:30,000
 you’ll actually continue, and you may run into problems.
 
-179
+185
 00:14:30,000 --> 00:14:35,069
 In this particular case, one way that you can solve this problem about what Yes or No or OK or Cancel mean
 
-180
+186
 00:14:35,069 --> 00:14:40,092
 is to replace Yes, No, OK and Cancel with more specific options.
 
-181
+187
 00:14:40,092 --> 00:14:44,034
 So here we see a dialog box where the options are very clear:
 
-182
+188
 00:14:44,034 --> 00:14:50,099
 One button says “Keep .do” as the extension name; the other one says “Use .pdf”.
 
-183
+189
 00:14:50,099 --> 00:14:55,049
 And this is much clearer then OK and Cancel, or Yes and No.
 
-184
+190
 00:14:55,049 --> 00:15:00,092
 Our fifth heuristic is about preventing errors, and there are lots of errors that are easy to make,
 
-185
+191
 00:15:00,092 --> 00:15:05,000
 and there are lots of ways that your interface can help people prevent them.
 
-186
+192
 00:15:05,000 --> 00:15:09,010
 The first kind of error to prevent people from making is data loss.
 
-187
+193
 00:15:09,010 --> 00:15:13,097
 Here we have a dialog box that says “This file already exists,”
 
-188
+194
 00:15:13,097 --> 00:15:19,063
 and it follows our message of having concrete button names — That’s good.
 
-189
+195
 00:15:19,064 --> 00:15:23,022
 However, I don’t know what that file looks like.
 
-190
+196
 00:15:23,022 --> 00:15:29,066
 If it offered me a preview, it’s much less likely that I would mistake what that file is.
 
-191
+197
 00:15:29,066 --> 00:15:34,044
 In addition to preventing data loss, you can also prevent cluttering duplicates.
 
-192
+198
 00:15:34,044 --> 00:15:37,002
 Here’s a screenshot that helpfully notifies you that
 
-193
+199
 00:15:37,002 --> 00:15:41,023
 this may be a duplicate paper that you’re trying to import into a library.
 
-194
+200
 00:15:41,023 --> 00:15:44,059
 So it says, “Hey, you’ve already got this on your computer.”
 
-195
-00:15:44,059 --> 00:15:54,078
-And so far as it goes, that’s great; but what I want to know is, is what it thinks is a duplicate actually a duplicate?
+201
+00:15:44,059 --> 00:15:50,069
+And so far as it goes, that’s great; but what I want to know is:
 
-196
-00:15:54,078 --> 00:16:00,092
+202
+00:15:50,069 --> 00:15:55,042
+Is what it thinks is a duplicate actually a duplicate?
+
+203
+00:15:55,042 --> 00:16:00,092
 And so one button that ought to be available here and that isn’t, and that would help me prevent errors,
 
-197
+204
 00:16:00,092 --> 00:16:04,087
 is by having of way of previewing what it believes the duplicate file to be,
 
-198
+205
 00:16:04,087 --> 00:16:08,081
 and allows me to compare the two files, side by side.
 
-199
+206
 00:16:08,081 --> 00:16:12,057
 Here’s a dialog box that says “You have unsaved data.
 
-200
+207
 00:16:12,057 --> 00:16:18,030
 Click OK to go back and save, or click Cancel to continue.”
 
-201
+208
 00:16:18,030 --> 00:16:22,073
 There’s a couple of problems here: For starters, we’ve got the “click Cancel to continue,”
 
-202
+209
 00:16:22,073 --> 00:16:28,046
 which I think may confuse many people, and they’ll consequently lose their unsaved data.
 
-203
+210
 00:16:28,046 --> 00:16:34,093
 Also, why isn’t Save one of the options on the dialog box? That would make a lot more sense.
 
-204
+211
 00:16:34,093 --> 00:16:37,077
 There are many ways we could redesign this dialog box.
 
-205
+212
 00:16:37,077 --> 00:16:43,008
 You could think about automatically saving things, or many other more drastic solutions.
 
-206
+213
 00:16:43,008 --> 00:16:51,009
 A simple solution that we can make here is to relabel this first button to be — call this…
 
-207
+214
 00:16:51,009 --> 00:16:55,089
 “Save,” and the other button we might call…
 
-208
+215
 00:16:55,089 --> 00:17:03,072
 “Don’t Save, Just continue.”
 
-209
+216
 00:17:03,072 --> 00:17:08,043
 And we will probably want the “Save” button to be the default action.
 
-210
+217
 00:17:08,043 --> 00:17:11,084
 One of the great advantages of a graphical user interface
 
-211
+218
 00:17:11,084 --> 00:17:17,063
 is that it can leverage its visual structure to enforce that users provide well-formed input
 
-212
+219
 00:17:17,063 --> 00:17:20,091
 and to remind them about what parameters are necessary.
 
-213
+220
 00:17:20,091 --> 00:17:24,095
 So this, for example, is the Find dialog box in Apple’s Keynote,
 
-214
+221
 00:17:24,095 --> 00:17:29,073
 and you can contrast that with the Find command in the terminal.
 
-215
+222
 00:17:29,073 --> 00:17:38,042
 In the graphical case, anything you can type into the dialog box will be a reasonable query to search for;
 
-216
+223
 00:17:38,042 --> 00:17:42,003
 it’s impossible to have incorrect syntax.
 
-217
+224
 00:17:42,003 --> 00:17:46,079
 However, in the terminal case, you have to remember every time what exactly the syntax is.
 
-218
+225
 00:17:46,079 --> 00:17:50,092
 Now the terminal has lots of power and is great in lots of ways.
 
-219
+226
 00:17:50,092 --> 00:17:57,006
 But the ability to make errors in terms of your syntax is one of its drawbacks.
 
-220
+227
 00:17:57,006 --> 00:18:01,018
 But that doesn’t mean that just because you have a graphical interface,
 
-221
+228
 00:18:01,018 --> 00:18:04,051
 it automatically will have this property of preventing errors.
 
-222
+229
 00:18:04,051 --> 00:18:08,055
 This is an example of a scheduling system, and the task that we’re midstream on
 
-223
+230
 00:18:08,055 --> 00:18:12,094
 is trying to schedule a weekly meeting into a conference room.
 
-224
+231
 00:18:12,094 --> 00:18:19,040
 And there are some things that you need to fill out that it has explicit dropdowns for, like time and room.
 
-225
+232
 00:18:19,040 --> 00:18:25,000
 However, the day field is required; it won’t let you schedule for every day..
 
-226
+233
 00:18:25,000 --> 00:18:28,099
 But it doesn’t provide much in the way of widgets to do that;
 
-227
+234
 00:18:28,099 --> 00:18:32,070
 and so if the user is in a hurry, they might forget to enter a day
 
-228
+235
 00:18:32,070 --> 00:18:37,024
 and it’ll give an error like this that says “No day is specified.”
 
-229
+236
 00:18:37,024 --> 00:18:44,040
 And what’s shocking is when you get to this point, it doesn’t give you a chance to specify the day.
 
-230
+237
 00:18:44,040 --> 00:18:48,083
 So, there are several ways that we might simply revise this interface.
 
-231
+238
 00:18:48,083 --> 00:18:53,095
 One is that we might make the day selection widget clearer and more salient.
 
-232
+239
 00:18:53,095 --> 00:18:59,079
 And the other thing is, if somehow somebody forgets to specify a day,
 
-233
+240
 00:18:59,079 --> 00:19:05,027
 the next thing that we show them would be an option to select which of the days that we want,
 
-234
+241
 00:19:05,027 --> 00:19:08,028
 as opposed to just saying, “No, I’m sorry you did it wrong.”
 
-235
+242
 00:19:08,028 --> 00:19:12,084
 And it’s not clear at this point how you would go back or start over to modify.
 
-236
+243
 00:19:12,084 --> 00:19:17,031
 Here’s an example of a search system that provides unnecessary constraints.
 
-237
+244
 00:19:17,031 --> 00:19:22,060
 I was searching for my colleague Dan Olson’s book, so I typed Olson into the search field, and Enter.
 
-238
+245
 00:19:22,060 --> 00:19:27,035
 And I was hoping that it would give me a list of books, and I could select from among them.
 
-239
+246
 00:19:27,035 --> 00:19:33,024
 However, it says, “No, I’m sorry, you must select a catalog to begin your search in.”
 
-240
+247
 00:19:33,024 --> 00:19:38,092
 There are a number of implementation reasons why it might be preferable to select a catalog.
 
-241
+248
 00:19:38,092 --> 00:19:44,032
 And in fact, once we get going, I may even want to narrow by catalog to improve the quality of my options.
 
-242
+249
 00:19:44,032 --> 00:19:48,085
 But it doesn’t seem like you should need to select a catalog to get started —
 
-243
+250
 00:19:48,085 --> 00:19:51,075
 at least give me some results based on any input.
 
-244
+251
 00:19:51,075 --> 00:19:57,094
 That’s one thing that I think search systems, when implemented well, do a fantastic job of.
 
-245
+252
 00:19:57,094 --> 00:20:02,000
 We’ll continue our tour of the heuristics in the next video.
