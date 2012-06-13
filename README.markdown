@@ -1,3 +1,29 @@
+What is this:
+============
+
+In the `scripts` directory you will find two scripts:
+
+- `extract-text-from-srt` strips out time codes and outputs the
+  results to standard output. This is a sed script that has been
+  written on MacOS X and I haven’t tested it on other systems
+  (not even Linux).
+
+- `reformat-extracted-text` attempts to reformat the output of
+  `extract-text-from-srt` so that the subtitles will make more
+  sense for people who speaks English; this is also sent to
+  standard output.
+
+The canonical way to run this is to feed `extract-text-from-srt`
+an SRT file that you got from Amara, then pipe this to
+`reformat-extracted-text` and then redirect this to a text file.
+Then you can proofread the text file, copy-and-paste it back to
+Amara (restarting step 1), and then continue on to steps 2 through 4.
+
+Note that `reformat-extracted-text` is not a particularly
+intelligent piece of software. You *will* need to check it,
+but in general what it gives you should at least be better than
+stock stanford-bot (Cogi) output.
+
 Things to watch out for if you want to work on Coursera’s subtitles:
 ===================================================================
 
