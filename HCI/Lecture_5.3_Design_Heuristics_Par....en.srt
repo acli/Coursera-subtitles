@@ -1,0 +1,954 @@
+1
+00:00:01,002 --> 00:00:05,057
+Let's continue our journey of these design
+heuristics. Before we do, I'd like to
+
+2
+00:00:05,057 --> 00:00:10,013
+remind you that many of the interfaces
+that we're gonna look at could fit into
+
+3
+00:00:10,013 --> 00:00:14,039
+multiple different multiple heuristics,
+and the most important thing is to
+
+4
+00:00:14,039 --> 00:00:19,018
+identify the problem. If you identify and
+fix the problem, the label is of secondary
+
+5
+00:00:19,018 --> 00:00:26,061
+importance. Our next heuristic is
+recognition over recall. Create interfaces
+
+6
+00:00:26,061 --> 00:00:32,030
+that make objects, actions, options, and
+directions visible or easily retrievable
+
+7
+00:00:32,030 --> 00:00:38,007
+And one of my favorite examples of this is
+any time you see a post it note, that
+
+8
+00:00:38,007 --> 00:00:43,040
+probably means that the relevant
+information isn't as ready at hand as it
+
+9
+00:00:43,040 --> 00:00:49,045
+ought to be. Here's a photograph I took of
+one of our lunch meetings. And here you
+
+10
+00:00:49,045 --> 00:00:55,044
+can see we have shwarma and felafel. They
+each have a number on them And we have a
+
+11
+00:00:55,044 --> 00:01:01,099
+code that's used to distinguish which
+number means which kind of sandwich And of
+
+12
+00:01:01,099 --> 00:01:06,013
+course, the reason for this is that
+someone spent all their time making these
+
+13
+00:01:06,013 --> 00:01:10,032
+delicious, and didn't take the time to
+write out the whole label on it. So it's
+
+14
+00:01:10,032 --> 00:01:14,062
+understandable and fixable But, from an
+interface design perspective, it would be
+
+15
+00:01:14,062 --> 00:01:19,002
+faster to find the chicken shawarma if it
+was direc-, written directly on there, as
+
+16
+00:01:19,002 --> 00:01:26,014
+opposed to in code. [sound]. [sound]
+Here's a screen shot of a ticket-buying
+
+17
+00:01:26,014 --> 00:01:31,006
+website, and what you can see is that it
+gives you a couple of options like buy
+
+18
+00:01:31,006 --> 00:01:35,067
+tickets for today or for a future day.
+There's a couple of problems from a
+
+19
+00:01:35,067 --> 00:01:40,066
+heuristics perspective with this screen
+For starters, and we'll get to this in a
+
+20
+00:01:40,066 --> 00:01:45,075
+little bit, the layout is kind of all over
+the place But also the thing that we're
+
+21
+00:01:45,075 --> 00:01:50,066
+going to look at here is the fact that we
+have this intermediate screen which I
+
+22
+00:01:50,066 --> 00:01:55,052
+think could be done away with, with clever
+design. It, for example, brings you to a
+
+23
+00:01:55,052 --> 00:02:00,049
+page that offers up show times for today
+and offers you a dialogue box to switch
+
+24
+00:02:00,049 --> 00:02:06,051
+the day. By setting up reasonable defaults
+you can avoid extra hurdles In addition to
+
+25
+00:02:06,051 --> 00:02:11,065
+leading with reasonable defaults; it can
+be valuable to provide previews. This is a
+
+26
+00:02:11,065 --> 00:02:16,028
+screen shot of a web design too l where
+there are many templates available.
+
+27
+00:02:16,028 --> 00:02:21,055
+However, all of the templates are shown in
+textural listing, which is not well suited
+
+28
+00:02:21,055 --> 00:02:26,062
+for the task. You have to think through
+whether that's what you want, and that's a
+
+29
+00:02:26,062 --> 00:02:32,007
+difficult thing to do reliably By contrast
+this is a different web design tool that
+
+30
+00:02:32,007 --> 00:02:37,021
+offers previews of all of the templates
+available, and it's much simpler to see if
+
+31
+00:02:37,021 --> 00:02:44,040
+that's the design that you'd like. Next
+up, flexibility and efficiency And simple
+
+32
+00:02:44,040 --> 00:02:49,099
+and straight forward example of this is to
+provide keyboard accelerator shortcuts and
+
+33
+00:02:49,099 --> 00:02:55,016
+similar things like that for experts. This
+is the view menu of the Firefox web
+
+34
+00:02:55,016 --> 00:03:00,028
+browser And this is a great example of
+offering flexibility and support for
+
+35
+00:03:00,028 --> 00:03:04,099
+experts in two ways. First, we can see
+that there are keyboard shortcuts
+
+36
+00:03:04,099 --> 00:03:10,058
+available And second, the view source menu
+will let you retrieve the page source of
+
+37
+00:03:10,058 --> 00:03:15,063
+any page you're looking at. So you can
+look under the hood, not something that
+
+38
+00:03:15,063 --> 00:03:20,091
+most people want to do, valuable for
+experts. This is the Expedia hotel search,
+
+39
+00:03:20,091 --> 00:03:25,077
+and it does a really nice job of making
+the common cases quite easy to get to.
+
+40
+00:03:25,077 --> 00:03:30,069
+Popular cities are shown with a radio
+button But also, if you'd like to go to a
+
+41
+00:03:30,069 --> 00:03:35,067
+less popular city, there's a free entry
+field that you can type in anything that
+
+42
+00:03:35,067 --> 00:03:40,090
+you want. And so this is a nice example of
+defaults with options. Flexible interfaces
+
+43
+00:03:40,090 --> 00:03:46,007
+can also foreground and push rather than
+ambient information. This is a screen shot
+
+44
+00:03:46,007 --> 00:03:51,018
+of busy cow, which will allow you to view
+the weather forecast on your weekly view
+
+45
+00:03:51,018 --> 00:03:57,009
+of your calendar. Here's another example
+of productivity in the user interface.
+
+46
+00:03:57,009 --> 00:04:01,096
+This is Google's email. Which, if you
+click spam on a recipient that it knows
+
+47
+00:04:01,096 --> 00:04:07,022
+how to unsubscribe you from, it will offer
+the opportunity to directly unsubscribe
+
+48
+00:04:07,022 --> 00:04:12,078
+you from that email as well And I think
+this is an example of how, if you're going
+
+49
+00:04:12,078 --> 00:04:17,087
+to be proactive in an interface, you need
+to do it well And offer a clear,
+
+50
+00:04:17,087 --> 00:04:23,052
+immediate, task-relevant benefit. People
+generally don't like proactive interfaces
+
+51
+00:04:23,052 --> 00:04:28,043
+that distract, break flow, or provide
+irrelevant info rmation. Another nice
+
+52
+00:04:28,043 --> 00:04:33,053
+example of support for richer use is to
+offer recommendations on a particular page
+
+53
+00:04:33,053 --> 00:04:38,062
+And so here you can see if you like this
+one beverage here are other beverages you
+
+54
+00:04:38,062 --> 00:04:46,019
+might like [sound] and again, if you're
+gonna offer recommendations, or other
+
+55
+00:04:46,019 --> 00:04:50,075
+kinds of pro activity, keep it relevant.
+This is an example from Amazon of
+
+56
+00:04:50,075 --> 00:04:55,075
+discussion for a, for products that are
+almost entirely unrelated to the product
+
+57
+00:04:55,075 --> 00:05:01,012
+that is being shown And it just distracts
+from the user's main goal. Mostly they're
+
+58
+00:05:01,012 --> 00:05:06,012
+wondering why on Earth did these things
+end up at the bottom of some completely
+
+59
+00:05:06,012 --> 00:05:12,008
+unrelated webpage And finally, flexibility
+can be incredibly valuable. It is possible
+
+60
+00:05:12,008 --> 00:05:18,030
+to go overboard. This is a photograph from
+Bill Moggridge who shows an interview with
+
+61
+00:05:18,030 --> 00:05:23,087
+a user who had hacked their remote control
+to limit it to just the relevant
+
+62
+00:05:23,087 --> 00:05:29,050
+functionality that they needed. And so,
+flexibility can sometimes be a tension
+
+63
+00:05:29,050 --> 00:05:37,094
+with minimalism. Our eighth heuristic is
+aesthetic and minimalist design. When
+
+64
+00:05:37,094 --> 00:05:43,045
+people view your webpage for example,
+they're viewing it on a screen, and so
+
+65
+00:05:43,045 --> 00:05:48,055
+they see not the entire page But one
+screen's worth at a given time. What they
+
+66
+00:05:48,055 --> 00:05:53,032
+see is what's called above the fold. It
+comes from newspapers. Here's an example
+
+67
+00:05:53,032 --> 00:05:57,067
+of a screen where the relevant
+information, what the weather forecast is,
+
+68
+00:05:57,067 --> 00:06:02,050
+is not even visible anywhere above the
+fold. Everything above the fold is all of
+
+69
+00:06:02,050 --> 00:06:07,034
+the chrome and extra stuff But the core
+information you have to scroll down for
+
+70
+00:06:07,034 --> 00:06:12,023
+And to the extent that you're trying to
+optimize for user experience, it would be
+
+71
+00:06:12,023 --> 00:06:21,012
+better to have the core information above
+the fold. As we'll talk about in visual
+
+72
+00:06:21,012 --> 00:06:26,022
+design, if you're gonna use color and
+other cues, have them mean something, and
+
+73
+00:06:26,022 --> 00:06:31,032
+do so judiciously. Here's an example of a
+check out page that's using lots of
+
+74
+00:06:31,032 --> 00:06:36,094
+different colors, and has a real cacophony
+in terms of its hierarchical organization
+
+75
+00:06:36,094 --> 00:06:43,040
+on screen, for no apparent purpose And
+here's a screen shot from Goggle's help
+
+76
+00:06:43,040 --> 00:06:48,030
+system. Google is often thought of as an
+example of minimalist design and they
+
+77
+00:06:48,030 --> 00:06:53,020
+often do this quit e well. I wanted to
+show one example where, I think, some more
+
+78
+00:06:53,020 --> 00:06:58,010
+information could be stripped out, or
+rather some more noise could be stripped
+
+79
+00:06:58,010 --> 00:07:03,041
+out And what I'm looking at in particular
+is this stuff here, where all of the Table
+
+80
+00:07:03,041 --> 00:07:09,028
+boarders and other stuff are what you most
+see, whereas, what you actually most care
+
+81
+00:07:09,028 --> 00:07:14,087
+about, is the data in the survey, and, so,
+if you get rid of, all of the extra lines,
+
+82
+00:07:14,087 --> 00:07:20,031
+and chart junk, it could be clear to see,
+the parts that you carried most about.
+
+83
+00:07:20,031 --> 00:07:25,082
+Here's a log in screen that I think does a
+nice job in keeping the email address in
+
+84
+00:07:25,082 --> 00:07:31,006
+one place because it's right up to here
+and then you get to say whether or not
+
+85
+00:07:31,006 --> 00:07:36,011
+you're a returning customer or a new
+customer. If you're a returning customer
+
+86
+00:07:36,011 --> 00:07:41,055
+you enter your password or if you're a new
+customer, like the screen shows here, you
+
+87
+00:07:41,055 --> 00:07:48,002
+create a new password and then type it in
+and go on from there By contrast, this
+
+88
+00:07:48,002 --> 00:07:52,099
+flight search website has the exact same
+information, number of stops, in two
+
+89
+00:07:52,099 --> 00:07:58,015
+separate places And it's possible that
+this increased clarity. However, there is
+
+90
+00:07:58,015 --> 00:08:03,051
+a cost of complexity, and there's also a
+cost of vertical screen real estate, where
+
+91
+00:08:03,051 --> 00:08:08,067
+by listing the same thing twice, you're
+pushing other stuff down. Often by being
+
+92
+00:08:08,067 --> 00:08:13,096
+dynamic about what you show or figuring
+out how to show things just once, you can
+
+93
+00:08:13,096 --> 00:08:19,032
+have all of the relevant information fit
+more clearly and in a less cluttered way
+
+94
+00:08:19,032 --> 00:08:25,058
+on the screen. One of the easiest conceits
+to make as a design team is that the
+
+95
+00:08:25,058 --> 00:08:30,067
+people using your site will care as deeply
+and will want to spend as much time Using
+
+96
+00:08:30,067 --> 00:08:35,006
+the site as you've spent building the site
+And so it can be easy to have feature
+
+97
+00:08:35,006 --> 00:08:39,045
+creep and lots of bells and whistles and
+do dads But that's not necessarily what
+
+98
+00:08:39,045 --> 00:08:43,056
+people want. Here's an example of a
+student loan website that offers you the
+
+99
+00:08:43,056 --> 00:08:47,074
+ability to add widgets to your home
+screen. Now this is the kind of site that
+
+100
+00:08:47,074 --> 00:08:52,012
+you log into probably a couple times a
+year? [laugh] It's not likely to be a site
+
+101
+00:08:52,012 --> 00:08:57,069
+that you're going to want to [inaudible]
+with all sorts of gadgets. Next let's talk
+
+102
+00:08:57,069 --> 00:09:04,006
+about helping users recog nize diagnose
+and recover from errors. One of the first
+
+103
+00:09:04,006 --> 00:09:10,059
+steps of doing this is making the problem
+clearer, here's a hotel reservation site
+
+104
+00:09:10,059 --> 00:09:18,085
+where all it says is: mistake, month,
+back. It's hard to know what to do. Here's
+
+105
+00:09:18,085 --> 00:09:23,073
+one that's a little bit better. It's a
+registration site for an event. And what
+
+106
+00:09:23,073 --> 00:09:28,086
+we see here is that it says you must fill
+out all the required fields. Okay, that's
+
+107
+00:09:28,086 --> 00:09:34,011
+a little better But which fields didn't I
+fill out? This page is screens and screens
+
+108
+00:09:34,011 --> 00:09:39,018
+long. There's lots and lots of things that
+need to be checked. Which of the myriad
+
+109
+00:09:39,018 --> 00:09:44,037
+things on this page did I forget to check?
+Maybe you could show me just a page that
+
+110
+00:09:44,037 --> 00:09:49,069
+has the one or two things forgotten rather
+than the whole pile of stuff and force me
+
+111
+00:09:49,069 --> 00:09:55,090
+to scroll through it again. Here's a
+dialogue box that shows the error and
+
+112
+00:09:55,090 --> 00:10:01,009
+explains it clearly, but it doesn't offer
+you much in terms of solving the problem.
+
+113
+00:10:01,009 --> 00:10:05,090
+It says that there's not enough space on
+your iPod, too bad. A more effective
+
+114
+00:10:05,090 --> 00:10:10,090
+solution would be to offer some view into
+what's taking up all the space, or to
+
+115
+00:10:10,090 --> 00:10:15,097
+offer reasonable ways of limiting the
+amount of media that you're trying to put
+
+116
+00:10:15,097 --> 00:10:20,084
+on the device so that it can all fit And
+in this particular case, more recent
+
+117
+00:10:20,084 --> 00:10:25,081
+versions of this application handle this
+problem better. A common mistake in
+
+118
+00:10:25,081 --> 00:10:31,058
+writing error messages is to offer one
+dialogue box for all of the possibilities.
+
+119
+00:10:31,080 --> 00:10:37,064
+Here's a screen shot of trying to open a
+file where it doesn't know the file type.
+
+120
+00:10:37,064 --> 00:10:42,091
+And it says, the application that you
+chose, null, could not found. Check the
+
+121
+00:10:42,091 --> 00:10:48,038
+file name, or choose another application.
+Well this would be a whole lot better if
+
+122
+00:10:48,058 --> 00:10:53,094
+we were speaking the user's language. Null
+may not be the best choice And also if we
+
+123
+00:10:53,094 --> 00:11:00,000
+offered up a reasonable application for
+that file type. A lot of common tasks on
+
+124
+00:11:00,000 --> 00:11:05,045
+the web are search based tasks. So here's
+a screenshot from searching for a flight.
+
+125
+00:11:05,045 --> 00:11:10,061
+Where the constraint specified yielded no
+possible solution For complex search
+
+126
+00:11:10,061 --> 00:11:15,031
+tasks. If a user specifies an unreasonable
+set of constraints, one of the most
+
+127
+00:11:15,031 --> 00:11:20,019
+powerful things that you can do as a des
+igner is to offer a relaxation of those
+
+128
+00:11:20,019 --> 00:11:25,020
+constraints that makes this more workable.
+Many years ago, I worked with Chuck Rich
+
+129
+00:11:25,020 --> 00:11:30,009
+at Mitsubishi Research in Boston And he
+was working on a research system called
+
+130
+00:11:30,009 --> 00:11:34,042
+Collagen that would find ways to
+intelligently relax these constraints.
+
+131
+00:11:34,042 --> 00:11:39,013
+Among other things, to help users get
+their work done better. And this kind of
+
+132
+00:11:39,013 --> 00:11:44,022
+smart relaxation can be a really powerful
+technique. I wanted to end talking about
+
+133
+00:11:44,022 --> 00:11:49,037
+errors on a good note. Here's a web
+browser dialogue box that lets you know if
+
+134
+00:11:49,037 --> 00:11:54,028
+you go to a URL that it believes to be
+suspect, it will let you know that you
+
+135
+00:11:54,028 --> 00:11:59,050
+probably don't wanna be here And it offers
+to get you outta here and explain more
+
+136
+00:11:59,050 --> 00:12:03,076
+about why this webpage was blocked.
+There's probably future further
+
+137
+00:12:03,076 --> 00:12:09,011
+innovations that could happen in this kind
+of error work But I think that this is a
+
+138
+00:12:09,011 --> 00:12:14,024
+pretty good darn start and a lot better
+than the way things used to be And that
+
+139
+00:12:14,024 --> 00:12:20,070
+brings us to our last heuristic, which is
+better help and documentation. It can be
+
+140
+00:12:20,070 --> 00:12:25,070
+easy to think about help as somebody
+else's problem and not part of the real
+
+141
+00:12:25,070 --> 00:12:31,002
+App. Fortunately, I think on the web, help
+and documents have become more integrated.
+
+142
+00:12:31,002 --> 00:12:35,088
+One of my favorite examples for this is
+learning programming systems where
+
+143
+00:12:35,088 --> 00:12:41,001
+websites like PHP, .NET can help you learn
+programming systems by providing new
+
+144
+00:12:41,001 --> 00:12:46,029
+examples. Here is another example driven
+strategy from UPS's website. It offers you
+
+145
+00:12:46,029 --> 00:12:50,093
+the opportunity to subscribe to a number
+of mailing lists And if you wonder what
+
+146
+00:12:50,093 --> 00:12:55,028
+each of these mailing lists might give
+you; on another screen I watched them
+
+147
+00:12:55,028 --> 00:12:59,086
+together here. It will show you examples
+from each of those mailing lists of the
+
+148
+00:12:59,086 --> 00:13:04,066
+content you are likely to receive. That's
+a really powerful kind of preview strategy
+
+149
+00:13:04,066 --> 00:13:09,041
+And here is an example of a print dialogue
+box to tell you what the problem is, but
+
+150
+00:13:09,041 --> 00:13:15,032
+doesn't help you find the solution. For
+starters, I think somebody wants to know,
+
+151
+00:13:15,032 --> 00:13:20,029
+is the stuff that's outside the margins
+relevant? Is it just formally outside the
+
+152
+00:13:20,029 --> 00:13:25,007
+margins, but nothing's actually getting
+cut off, or is there important document p
+
+153
+00:13:25,007 --> 00:13:30,017
+arts that I care about that are being cut
+off from the page? And, what do you think
+
+154
+00:13:30,017 --> 00:13:34,089
+the most reasonable path is to solving
+this problem? Should I change the page
+
+155
+00:13:34,089 --> 00:13:39,048
+size, or orientation, or move the header
+and footer? Help me solve it. Here's a
+
+156
+00:13:39,048 --> 00:13:43,078
+dialogue box for the photo merge feature
+of Adobe's Photoshop elements, which is a
+
+157
+00:13:43,078 --> 00:13:47,088
+very cool feature if you set it up right.
+However you need to specify multiple
+
+158
+00:13:47,088 --> 00:13:52,014
+photos as input from the project bin And
+this is something that the dialogue box
+
+159
+00:13:52,014 --> 00:13:56,055
+actually could do a better job of leading
+you through. It could then say let me show
+
+160
+00:13:56,055 --> 00:14:01,021
+you and it could highlight the project bin
+on the screen or something like that. Here
+
+161
+00:14:01,021 --> 00:14:06,091
+are two screenshots from eBay Unless we
+have an interesting approach, where eBay
+
+162
+00:14:06,091 --> 00:14:11,069
+has built its own internal messaging
+system. And if for the sake of argument we
+
+163
+00:14:11,069 --> 00:14:16,053
+decide that the right thing to do, and
+that the internal messaging is better than
+
+164
+00:14:16,053 --> 00:14:21,050
+directly responding to email. I'm not sure
+about that, but we'll go with it for now.
+
+165
+00:14:21,050 --> 00:14:25,098
+They've done a clever thing, which is,
+when you reply, the reply mail address
+
+166
+00:14:25,098 --> 00:14:30,052
+says, hey, use the yellow button, and in
+the middle of replying it you can see,
+
+167
+00:14:30,052 --> 00:14:35,024
+oops, I made a mistake. That's right I
+need to use the internal messaging system.
+
+168
+00:14:35,024 --> 00:14:41,036
+It's an interesting hack And here's
+another screenshot from e-bay on the right
+
+169
+00:14:41,036 --> 00:14:46,023
+hand side where when new functionality is
+introduced for example the ability to
+
+170
+00:14:46,023 --> 00:14:50,079
+compare multiple options in your card it
+can call that out inside the user
+
+171
+00:14:50,079 --> 00:14:55,023
+interface And I think the ability to
+combine help directly into the user
+
+172
+00:14:55,023 --> 00:15:00,004
+interface is one of the most exciting
+advances in this area And it's something
+
+173
+00:15:00,004 --> 00:15:05,027
+that was last common in previous desktop
+applications And here's an example that I
+
+174
+00:15:05,027 --> 00:15:10,032
+think is interesting. This is the
+un-subscription dialogue box for a mailing
+
+175
+00:15:10,032 --> 00:15:15,069
+list, and if you click, I receive too many
+emails, it says wait, you can change the
+
+176
+00:15:15,069 --> 00:15:21,000
+frequency, and you have the opportunity to
+receive mailing list mails at a less
+
+177
+00:15:21,000 --> 00:15:26,051
+frequent interval. I think that this is an
+actually a really nice solution, because
+
+178
+00:15:26,051 --> 00:15:31,037
+sometimes you want to receive some mail,
+but not too much. In other cases, maybe
+
+179
+00:15:31,037 --> 00:15:35,046
+you'll view this as harassing and you'll
+wish that you could just be done with this
+
+180
+00:15:35,046 --> 00:15:39,022
+task quickly, but in either case, I
+thought it was an interesting and creative
+
+181
+00:15:39,022 --> 00:16:16,032
+solution. [inaudible] If nobody needs to
+know the terms of the licensing agreement
+
+182
+00:16:16,032 --> 00:16:21,009
+that's very reasonable But my hunch is
+that the reason these things exist is
+
+183
+00:16:21,009 --> 00:16:26,042
+because they have consequence of some sort
+the user should probably be informed about
+
+184
+00:16:26,042 --> 00:16:31,075
+And so if you're designing a site that has
+terms for users think about is there a way
+
+185
+00:16:31,075 --> 00:16:36,064
+that you can at least summarize what the
+key things somebody's agreeing to are
+
+186
+00:16:36,064 --> 00:16:41,066
+Without having them click through it or
+having never even seen or read a lick of
+
+187
+00:16:41,066 --> 00:16:46,010
+the agreement at all And to close on a
+positive note, one nice thing that you can
+
+188
+00:16:46,010 --> 00:16:50,001
+do with help on a website is to help
+people have fun Filling out forms can
+
+189
+00:16:50,001 --> 00:16:54,013
+often be really boring, and here's an
+example from a hotel website where one of
+
+190
+00:16:54,013 --> 00:16:58,005
+the options has a little joke on the
+inside and so that, and so that bit of
+
+191
+00:16:58,005 --> 00:17:00,039
+levity can help increase the user
+experience.
