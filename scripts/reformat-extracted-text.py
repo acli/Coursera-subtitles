@@ -20,8 +20,8 @@
 #    attempt to split at correct sentence boundaries using the NLTK
 #    Punkt tokenizer; however, because stanford-bot's output sometimes
 #    contains missing periods and other bugs, the tokenization does not
-#    always produce correct results and so you will still need to review
-#    it.
+#    always produce correct results and so you will still need to do a
+#    manual review.
 #
 
 import sys
@@ -34,6 +34,11 @@ def reformat_input(f):
   source = ' '.join(map(str.strip, f.readlines()))
   source = re.sub(r'\s+', r' ', source)
   source = re.sub(r"'", r'’', source)
+
+  #
+  # stanford-bot favours extremely colloquial forms;
+  # this is decidedly inappropriate for lectures.
+  #
   source = re.sub(r'\bcuz\b', r'’cause', source)
   source = re.sub(r'\bgonna\b', r'going to', source)
   source = re.sub(r'\bwanna\b', r'want to', source)
