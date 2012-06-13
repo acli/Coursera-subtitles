@@ -44,7 +44,7 @@ upload the *same* SRT file back onto Amara. This will reactivate
 the “Modify these subtitles” link and allow you to continue
 with your subtitling.
 
-(updated June 12, 2012)
+(updated June 13, 2012)
 
 These are not obvious, and I found them out the hard way, If you
 haven’t started yet, then it’d be better to know them before you
@@ -70,11 +70,12 @@ start.
    a lot of work to fix. It can get so bad that it takes as long
    to try to fix it as to throw it away and start over.
 
-4. Do not use Universal Subtitles’ “upload transcript” function.
-   Ever. That function is buggy and will screw up the revision
-   history.  This is especially important if there are already
-   subtitles in other languages; if you use “upload transcript”
-   you will regret it.
+4. Avoid Universal Subtitles’ “upload transcript” function,
+   and do not use it if *anyone* has uploaded a translation.
+   Otherwise you will screw up the revision history and you
+   will regret it afterwards.
+   (Note that uploading an SRT of a *translation* is, however,
+    apparently safe.)
 
 5. The accuracy of the English transcript is paramount. It is
    in fact extremely important to get it right, because it will
@@ -86,7 +87,7 @@ the scripts directory of this repo.
 List of videos:
 ==============
 
-(Needed back when UniversalSubtitles didn’t provide a way to give
+(Needed back when Universal Subtitles didn’t provide a way to give
 you a list of all videos you have done)
 
 Here are a collection of all the subtitles I have done or QA’d
