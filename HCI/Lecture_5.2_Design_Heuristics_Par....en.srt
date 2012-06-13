@@ -1,1138 +1,744 @@
 1
-00:00:00,000 --> 00:00:04,099
-So far we've talked a lot about strategies
-and techniques for designing user
+00:00:00,000 --> 00:00:08,763
+So far we’ve talked a lot about strategies and techniques for designing user interfaces and we’ve talked a little bit about high-level principles.
 
 2
-00:00:04,099 --> 00:00:10,036
-interfaces and we've talked a little bit
-about high level principals. What I'd like
+00:00:08,763 --> 00:00:16,227
+What I’d like to do now is to kind of dive deep and get down to brass tacks and talk about a number of concrete examples.
 
 3
-00:00:10,036 --> 00:00:15,081
-to do now is to kind of dive deep and get
-down to brass tax and talk about a number
+00:00:16,227 --> 00:00:20,407
+And so these lectures are going to offer two benefits simultaneously:
 
 4
-00:00:15,081 --> 00:00:20,047
-of concrete examples And so these lectures
-are gonna offer two benefits
+00:00:20,407 --> 00:00:31,676
+First, what I’d like to do in these next couple of lectures is introduce a set of design heuristics for identifying interface errors and strategies for correcting them.
 
 5
-00:00:20,047 --> 00:00:25,092
-simultaneously. First, what I'd like to do
-in these next couple lectures is introduce
+00:00:31,676 --> 00:00:42,362
+Second, I’d like to walk you through a number of examples of actual user interfaces, and talk about particular ways in which they’re successful or have problems.
 
 6
-00:00:25,092 --> 00:00:31,004
-a set of design heuristics for identifying
-interface errors and strategies for
+00:00:42,362 --> 00:00:46,682
+Now, these are all screen shots that I’ve gathered over several years.
 
 7
-00:00:31,004 --> 00:00:36,052
-correcting them. Second, I'd like to walk
-you through a number of examples of actual
+00:00:46,682 --> 00:00:53,629
+And I keep a big file of interfaces that I think are effective or that have problems, and it’s a good activity —
 
 8
-00:00:36,052 --> 00:00:42,002
-user interfaces, and talk about particular
-ways in which they're successful or have
+00:00:53,629 --> 00:00:55,797
+I encourage you to do the same thing.
 
 9
-00:00:42,002 --> 00:00:47,045
-problems. Now, these are all screen shots
-that I've gathered over several years And
+00:00:55,797 --> 00:01:02,290
+For any voyeurs out there, you’ll get a sense of interfaces that I’ve stumbled across over the last several years —
 
 10
-00:00:47,045 --> 00:00:52,003
-I keep a big file of, Interfaces that I
-think are, are effective or that have
+00:01:02,290 --> 00:01:04,306
+not a very exciting list, but, hey.
 
 11
-00:00:52,003 --> 00:00:56,076
-problems, and it's a good activity. I
-encourage you to do the same thing. For
+00:01:04,306 --> 00:01:10,900
+And all of these interfaces are things that may come up again when we talk about visual design and other principles.
 
 12
-00:00:56,076 --> 00:01:01,030
-any voyeurs out there, you'll get a sense
-of interfaces that I've stumbled across
+00:01:10,900 --> 00:01:14,872
+So some of these screen shots you’ll see multiple times in this class.
 
 13
-00:01:01,030 --> 00:01:05,062
-over the last several years. It's not a
-very exciting list, but, hey And all of
+00:01:14,872 --> 00:01:21,694
+Finally, I’d like to emphasize that we really want to focus on narrow issues in these user interfaces.
 
 14
-00:01:05,062 --> 00:01:10,033
-these interfaces are things that may come
-up again when we talk about visual design
+00:01:21,694 --> 00:01:30,159
+And I’m not going to talk about whether the broader ecosystem that the particular thing we’re looking at is effective or not.
 
 15
-00:01:10,033 --> 00:01:14,082
-and other principles. So some of these
-screen shots you'll see multiple times in
+00:01:30,159 --> 00:01:36,040
+So, we may point out flaws in interfaces that are on the whole exemplary,
 
 16
-00:01:14,082 --> 00:01:20,009
-this class. Finally, I'd like to emphasize
-that we really wanna focus on narrow
+00:01:36,040 --> 00:01:41,734
+or we may point out successes in interfaces that are on the whole not quite so good.
 
 17
-00:01:20,009 --> 00:01:25,071
-issues in these user interfaces And I'm
-not gonna talk about whether the broader
+00:01:41,734 --> 00:01:49,034
+And finally, because I’ve gathered these screen shots over a number of years, many of these interfaces no longer look like this.
 
 18
-00:01:25,071 --> 00:01:31,020
-ecosystem that the particular thing we're
-looking at is effective or not. So, we
+00:01:49,034 --> 00:01:56,051
+The point is not the current state of an interface, but rather the didactical of teaching you a principle.
 
 19
-00:01:31,020 --> 00:01:36,040
-point, we may point out flaws in
-interfaces that are on the whole exemplary
+00:01:56,051 --> 00:02:00,023
+Here are the ten design heuristics that we’re going to talk about.
 
 20
-00:01:36,040 --> 00:01:41,068
-Or we may point out successes in
-interfaces that are on the whole not quite
+00:02:00,023 --> 00:02:01,954
+Some of these names are mine.
 
 21
-00:01:41,068 --> 00:01:46,064
-so good And finally, because I've gathered
-these screen shots over a number of years,
+00:02:01,954 --> 00:02:05,383
+The principles are based on Jakob Nielsen’s work in heuristic evaluation;
 
 22
-00:01:46,064 --> 00:01:51,021
-many of these interfaces no longer look
-like this. The point is not the current
+00:02:05,383 --> 00:02:10,481
+I’ve simply relabeled a few of them to make them, I think, clearer and shorter.
 
 23
-00:01:51,021 --> 00:01:55,056
-state of an interface, but rather the
-didactical of teaching your principle.
+00:02:10,481 --> 00:02:12,671
+And so let’s jump in.
 
 24
-00:01:56,051 --> 00:02:01,021
-Here are the ten design heuristics that
-we're going to talk about. Some of these
+00:02:12,671 --> 00:02:16,613
+The first of these principles is “show system status.”
 
 25
-00:02:01,021 --> 00:02:05,073
-names are mine. The principles are based
-on Jacob Nielson's work, in heuristic
+00:02:16,613 --> 00:02:28,802
+I think one of the most important things you can do in user interface design is provide excellent feedback about where the system is and where the user is in a larger interaction flow.
 
 26
-00:02:05,073 --> 00:02:10,043
-evaluation. I've simply relabele d a few
-of them to make them, I think, clearer and
+00:02:28,802 --> 00:02:34,062
+One important thing to provide feedback about is where the user is in time.
 
 27
-00:02:10,043 --> 00:02:17,052
-shorter And so let's jump in. The first of
-these principles is show system status. I
+00:02:34,062 --> 00:02:42,101
+If you have an interactive system where the response time is less than a second or so, there is no need to have intermediate feedback:
 
 28
-00:02:17,052 --> 00:02:23,014
-think one of the most important things you
-can do in user interface design is provide
+00:02:42,101 --> 00:02:43,348
+It just feels interactive.
 
 29
-00:02:23,014 --> 00:02:28,030
-excellent feedback about where the system
-is and where the user is in a larger
+00:02:43,348 --> 00:02:53,390
+As you get to something that’s on the order of a second or a couple of seconds, it becomes important to provide some kind of feedback that an activity is underway.
 
 30
-00:02:28,030 --> 00:02:33,060
-interaction flow. One important thing to
-provide feedback about is where the user
+00:02:53,390 --> 00:03:05,657
+You can think of this as hourglass or a spinning ball, and if you get to something that’s more than a couple of seconds, it’s useful to show progress of how far or long in an activity that user is.
 
 31
-00:02:33,060 --> 00:02:38,071
-is in time. If you have an interactive
-system where the response time is less
+00:03:05,657 --> 00:03:09,023
+Here we see an example of installation of a piece of software.
 
 32
-00:02:38,071 --> 00:02:43,037
-than a second or so, there is no need to
-have intermediate feedback. It just feels
+00:03:09,023 --> 00:03:21,012
+And you can see the same thing if you ask a user to fill out a survey or when they’re completing their taxes, or any other process that takes a long time or may require multiple steps of input.
 
 33
-00:02:43,037 --> 00:02:48,020
-interactive. As you get something gets on
-the order of a second or a couple of
+00:03:21,012 --> 00:03:35,098
+You’ll want to give people feedback about how far through the system is and how far through they are. Second important category of things to provide feedback about and to show to the user is space.
 
 34
-00:02:48,020 --> 00:02:53,035
-seconds, it becomes important to provide
-some kind of feedback that an activity is
+00:03:35,098 --> 00:03:46,252
+Here’s a screen shot from Gmail which notifies me that I was out of the space allocated to me and that means that I need to do something about it.
 
 35
-00:02:53,035 --> 00:02:58,006
-underway. You can think of this as
-hour-glass or a spinning-ball, and if you
+00:03:46,252 --> 00:03:49,907
+The third important thing to show people feedback about is change.
 
 36
-00:02:58,006 --> 00:03:03,002
-get to something more than a couple of
-seconds, it's useful to show progress of
+00:03:49,907 --> 00:03:58,883
+Here we have a dialog box that says, “You’ve changed this document, do you want to save those changes or don’t save them.” Our fourth category is action.
 
 37
-00:03:03,002 --> 00:03:08,023
-how far or long in activity that user is.
-Here we see an example of installation of
+00:03:58,883 --> 00:03:59,954
+Here’s a stoplight.
 
 38
-00:03:08,023 --> 00:03:13,026
-a piece of software And you can see the
-same thing if you ask a user to fill out a
+00:03:59,954 --> 00:04:09,398
+So the red light means stop, the green light means go. And I like this user interface, because it uses a redundant coding to provide feedback to the user.
 
 39
-00:03:13,026 --> 00:03:18,006
-survey or when they're completing their
-taxes, or any other process that takes a
+00:04:09,398 --> 00:04:19,201
+So the red light is not only using red as a color, but it is up at the top of the screen; and the green light is also always at the bottom.
 
 40
-00:03:18,006 --> 00:03:23,016
-long time or may require multiple steps of
-input. You'll want to give people feedback
+00:04:19,201 --> 00:04:26,730
+In this consistency in the dual coding, both makes it faster to recognize and it helps work for a broader class of users —
 
 41
-00:03:23,016 --> 00:03:30,093
-about how far through the system is and
-how far through they are Second important
+00:04:26,730 --> 00:04:32,214
+for example, not all users may be able to distinguish red from green.
 
 42
-00:03:30,093 --> 00:03:35,098
-category of things to provide feedback
-about and to show to the user is space.
+00:04:32,214 --> 00:04:37,388
+Especially in an online world, it can be important to show feedback about next steps.
 
 43
-00:03:35,098 --> 00:03:41,002
-Here's a screen shot from Gmail which
-notified me that I was out of the space
+00:04:37,388 --> 00:04:45,467
+Here’s a screen shot from Amazon that says “Your message was sent to the seller and a copy was sent to the email address of your account.
 
 44
-00:03:41,002 --> 00:03:47,017
-allocated to me and that means that I need
-to do something about it. The third
+00:04:45,467 --> 00:04:48,088
+The seller will respond to you directly via email.”
 
 45
-00:03:47,017 --> 00:03:51,072
-important thing to show feed, people
-feedback about is change. Here we have a
+00:04:48,088 --> 00:04:52,065
+So we’re letting the user know what’s going to happen next.
 
 46
-00:03:51,072 --> 00:03:56,027
-dialogue box that says, you've changed
-this document, do you wanna save those
+00:04:52,065 --> 00:04:56,673
+That’s important because otherwise you can wonder, “Was the message actually sent?”
 
 47
-00:03:56,027 --> 00:04:01,032
-changes or don't save them Our [inaudible]
-action. Here's a stoplight. So the red
+00:04:56,673 --> 00:04:58,162
+or, “Did anybody get it?”
 
 48
-00:04:01,032 --> 00:04:06,078
-light means stop, the green light means go
-and I like this user interface, because it
+00:04:58,162 --> 00:05:01,198
+or “When they receive it, what are they going to do?”
 
 49
-00:04:06,078 --> 00:04:11,071
-uses a redundant coding to provide
-feedback to the user. So the red light is
+00:05:01,198 --> 00:05:05,584
+This lays out very clearly what has happened and what will happen next.
 
 50
-00:04:11,071 --> 00:04:17,003
-not only using red as a color, but it is
-up at the top of the screen and the green
+00:05:05,584 --> 00:05:08,884
+And after you’ve crossed time, space, change, actions, and next steps.
 
 51
-00:04:17,003 --> 00:04:22,035
-light is also always at the bottom. In
-this cons istency in the dual coding both
+00:05:08,884 --> 00:05:11,304
+The last thing you want to show is completion.
 
 52
-00:04:22,035 --> 00:04:27,054
-makes it faster to recognize and it helps
-work for a broader class of users. For
+00:05:11,304 --> 00:05:13,734
+I also like this dialog box because it’s funny.
 
 53
-00:04:27,054 --> 00:04:33,085
-example, not all users may be able to
-distinguish red from green. Especially in
+00:05:13,734 --> 00:05:17,927
+And a little bit of humor can be really effective in user interfaces.
 
 54
-00:04:33,085 --> 00:04:38,055
-an online world it can be important to
-show feedback about next steps. Here's a
+00:05:17,927 --> 00:05:30,540
+Our second heuristic is to use familiar metaphors and language. And often this can mean trying to provide a match in the interface with things that people are familiar with from their real-world experience.
 
 55
-00:04:38,055 --> 00:04:43,037
-screen shot from Amazon that says your
-message was sent to the seller and a copy
+00:05:30,540 --> 00:05:39,716
+This also means speak the user’s language, and follow conventions that they’re familiar with both in the online world and in the real world.
 
 56
-00:04:43,037 --> 00:04:47,095
-was sent to the email address of your
-account. The seller will respond to you
+00:05:39,716 --> 00:05:42,525
+One important kind of familiarity is metaphors.
 
 57
-00:04:47,095 --> 00:04:52,065
-directly via email. So we're letting the
-user know what is going to happen next.
+00:05:42,525 --> 00:06:00,749
+In this interface, I want to call your attention to the world in miniature that’s being used in the print dialog box, and that’s an effective user interface, because it makes very clear which pieces of the page are going to to be cropped, and which pieces of the page are going to to be printed.
 
 58
-00:04:52,065 --> 00:04:57,058
-That's important because otherwise you can
-wonder, was the message actually sent? Or,
+00:06:00,749 --> 00:06:10,866
+In general, one of the successes of the graphical user interface is that it leverages a lot of real-world metaphors, like desktop and trash and files and folders.
 
 59
-00:04:57,058 --> 00:05:02,034
-did anybody get it? Or when they receive
-it what are they gonna do? This lays out
+00:06:10,866 --> 00:06:17,324
+And if these are activities that users are familiar with, it can help bring them into a new online world.
 
 60
-00:05:02,034 --> 00:05:07,015
-very clearly what has happened and what
-will happen next And after you've crossed
+00:06:17,324 --> 00:06:29,081
+Now over the last 25 years, as more and more people have gotten accustomed to computing, some of those real-world metaphors have fallen away and newer ones have developed.
 
 61
-00:05:07,015 --> 00:05:11,034
-time, space, change actions and next
-steps. The last thing you wanna show is
+00:06:29,081 --> 00:06:35,554
+Remember that the reader of your interface is going to be a user and not your colleague, boss, or lawyer.
 
 62
-00:05:11,034 --> 00:05:15,087
-completion. I also like this dialogue box
-because it's funny And a little bit of
+00:06:35,554 --> 00:06:42,252
+And consequently, work hard to identify terms and language that will be familiar to them.
 
 63
-00:05:15,087 --> 00:05:20,060
-humor can be really effective in user
-interfaces. Our second heuristic is to use
+00:06:42,252 --> 00:06:45,444
+Here’s a screenshot from a student loan website.
 
 64
-00:05:20,060 --> 00:05:25,096
-familiar metaphors and language, and often
-this can mean trying to provide a match in
+00:06:45,444 --> 00:06:54,449
+And it uses two terms that at least I was unfamiliar with — It talked about me being I already enrolled in “Electronic Correspondence.”
 
 65
-00:05:25,096 --> 00:05:30,088
-the interface with things that people are
-familiar with from their real-world
+00:06:54,449 --> 00:06:59,796
+And it said that I was not eligible for “Electronic Bill Presentment.”
 
 66
-00:05:30,088 --> 00:05:35,068
-experience. This also means speak the
-user's language, and follow conventions
+00:06:59,796 --> 00:07:03,899
+What it really means by this I think is just email,
 
 67
-00:05:35,068 --> 00:05:40,059
-that they're familiar with both in the
-online world and in the real world. One
+00:07:03,899 --> 00:07:10,929
+and so it should say that. And I don’t think of myself as being enrolled in an email correspondence service.
 
 68
-00:05:40,059 --> 00:05:45,001
-important kind of familiarity is
-metaphors. In this interface, I want to
+00:07:10,929 --> 00:07:14,361
+It would be nicer if it just said,
 
 69
-00:05:45,001 --> 00:05:49,081
-call your attention to the world in
-miniature that's being used in the print
+00:07:14,361 --> 00:07:22,498
+“We’re sending you email.” And there’s some fine print about why I’m not eligible for electronic bill presentment.
 
 70
-00:05:49,081 --> 00:05:54,079
-dialogue box, and that's an effective user
-interface because it makes very clear
+00:07:22,498 --> 00:07:33,524
+It would be much clearer if, for starters, it actually identified the reason: in my particular case this has passed a log-in wall, so it knows the reason.
 
 71
-00:05:54,079 --> 00:05:59,089
-which pieces of the page are gonna to be
-cropped and which pieces of the page are
+00:07:33,524 --> 00:07:39,572
+And it would be nicer if was able to use more common terms, like
 
 72
-00:05:59,089 --> 00:06:04,083
-gonna to be printed. In general, one of
-the successes of the graphical user
+00:07:39,572 --> 00:07:46,637
+“We’re unable to send you bills and email because,” maybe, “we don’t have an address on file.”
 
 73
-00:06:04,083 --> 00:06:09,081
-interface is that it leverages a lot of
-real world metaphors like desktop and
+00:07:46,637 --> 00:07:49,630
+And it’s important to use familiar categories.
 
 74
-00:06:09,081 --> 00:06:14,090
-trash and files and folders And if these
-are activities that users are familiar
+00:07:49,630 --> 00:07:55,048
+Here’s an example from a Visa website that asks users to select a state.
 
 75
-00:06:14,090 --> 00:06:19,094
-with, it can help bring them into a new
-online world. Now over the last 25 years
+00:07:55,048 --> 00:07:58,689
+And, I got a kick out of it because there are
 
 76
-00:06:19,094 --> 00:06:24,065
-as more and more people have gotten
-accustomed to computing, some of those
+00:07:58,689 --> 00:08:00,866
+more than 50 states here —
 
 77
-00:06:24,065 --> 00:06:30,000
-real world metaphors have fallen away and
-newer ones have developed. Remember that
+00:08:00,866 --> 00:08:06,173
+in fact, there’s a separate listing for Northern California and Southern California.
 
 78
-00:06:30,000 --> 00:06:35,096
-the reader of your interface is going to
-be a user and not your colleague, boss, or
+00:08:06,173 --> 00:08:18,840
+And many people in San Francisco might wish that Northern California and Southern California were different states; and for many people, which of those they live in or believe they live in is clear.
 
 79
-00:06:35,096 --> 00:06:41,055
-lawyer And consequently, work hard to
-identify terms in language that will be
+00:08:18,840 --> 00:08:34,228
+But for some users, this may be ambiguous, and it would probably be simpler if you just selected California and then the system decided whether it use its Southern California routing or Northern California routing based on the address that you provide later.
 
 80
-00:06:41,055 --> 00:06:47,044
-familiar to them. Here's a screenshot from
-a student loan website And it uses two
+00:08:34,228 --> 00:08:37,999
+And it’s important that the choices that you offer
 
 81
-00:06:47,044 --> 00:06:53,069
-terms that at least I was unfamiliar with
-It talked about me being hourly enrolled
+00:08:37,999 --> 00:08:42,416
+to people are things that they’re likely to be familiar with.
 
 82
-00:06:53,069 --> 00:06:59,050
-in electronic correspondence And it said
-that I was not eligible for electronic
+00:08:42,416 --> 00:08:47,798
+Here is a dialog box that says that “You have a document encoding mismatch.
 
 83
-00:06:59,050 --> 00:07:05,024
-bill presentment. What it really means by
-this I think is just email And so it
+00:08:47,798 --> 00:08:53,138
+You’ve got a document which describes itself as being UTF-8, no BOM.
 
 84
-00:07:05,024 --> 00:07:10,071
-should say that and I don't think of
-myself as being enrolled in an email
+00:08:53,138 --> 00:08:57,021
+But, the encoding has been set to Western ISO Latin-1.
 
 85
-00:07:10,071 --> 00:07:16,078
-correspondence service. It would be nicer
-if it just said. We're sending you email,
+00:08:57,021 --> 00:09:13,119
+Now this is a developer tool and so it’s reasonable to expect some fluency with things that are under the hood, like users may in general be familiar with the idea that there are different character sets for documents.
 
 86
-00:07:16,078 --> 00:07:22,037
-and there's some fine print about why I'm
-not eligible for electronic bill
+00:09:13,119 --> 00:09:29,044
+But users maybe not familiar with what exactly the difference is between UTF-8 no BOM and ISO Latin-1; or which of them they should select; or how exactly they should go about fixing this problem.
 
 87
-00:07:22,037 --> 00:07:28,033
-presentment. It would be much clearer if,
-for starters, it actually identified the
+00:09:29,044 --> 00:09:36,052
+One way that this interface could be improved is beaconing what the most common solution is likely to be.
 
 88
-00:07:28,033 --> 00:07:33,092
-reason in my particular case this has
-passed a log in wall, so it knows the
+00:09:36,052 --> 00:09:48,723
+A third heuristic is user control and freedom, and this is going to encompass a number of things — like exits for mistaken choices, the ability to undo and redo, not forcing people down fixed paths.
 
 89
-00:07:33,092 --> 00:07:40,013
-reason And it would be nicer if were able
-to us more common terms, like. We're
+00:09:48,723 --> 00:09:58,068
+I think of this heuristic as being about making sure that the amount of control and freedom is appropriate for the users and appropriate for the tasks.
 
 90
-00:07:40,013 --> 00:07:47,056
-unable to send you bills and email because
-Maybe we don't have an address on file And
+00:09:58,068 --> 00:10:06,837
+So for example, if you have an interface that somebody’s only going to use once, a relatively constrained wizard may actually be a good solution.
 
 91
-00:07:47,056 --> 00:07:53,062
-it's important to use familiar categories.
-Here's an example from a Visa website that
+00:10:06,837 --> 00:10:15,464
+However, you may also want a way for users to break out of that constrained wizard if they know what they’re doing and are more expert,
 
 92
-00:07:53,062 --> 00:07:59,026
-asks users to select a state And, I got a
-kick out of it because there are. More
+00:10:15,464 --> 00:10:21,017
+or have an uncommon or unique activity that they need to accomplish.
 
 93
-00:07:59,026 --> 00:08:05,015
-than 50 states here. In fact, there's a
-separate listing for northern California
+00:10:21,017 --> 00:10:30,182
+Here’s an example from a conference registration site, and what you can see is that there’s a Continue button, but no Back button.
 
 94
-00:08:05,015 --> 00:08:10,037
-and southern California And many people in
-San Francisco might wish that Northern
+00:10:30,182 --> 00:10:37,040
+Here’s an interface that provides more control and freedom in the context of browsing for airline tickets.
 
 95
-00:08:10,037 --> 00:08:15,018
-California and Southern California were
-different states and for many people,
+00:10:37,040 --> 00:10:46,113
+What you see here is that there are a number of different ways in which the user can browse through the space of possible information.
 
 96
-00:08:15,018 --> 00:08:20,017
-which of those they live in or believe
-they live in is clear But for some users,
+00:10:46,113 --> 00:10:54,457
+In particular you can see this calendar widget in the top left which shows you the fares for every day of that month.
 
 97
-00:08:20,017 --> 00:08:25,029
-this maybe ambiguous and it would probably
-be simpler if you just elected California
+00:10:54,457 --> 00:11:06,208
+And this ability to preview what’s likely to be down a particular path is really valuable in helping people make decisions and know what options are available to them.
 
 98
-00:08:25,029 --> 00:08:30,004
-and then the system decided whether it use
-its Southern California routing or
+00:11:06,208 --> 00:11:09,304
+Our fourth heuristic is consistency and standards.
 
 99
-00:08:30,004 --> 00:08:35,003
-Northern California Routing based on the
-address that you provide later. And it's
+00:11:09,304 --> 00:11:12,210
+And this includes things like consistent layout.
 
 100
-00:08:35,003 --> 00:08:41,004
-important that the choices that you offer.
-To people, are things that they're likely
+00:11:12,210 --> 00:11:19,264
+Here’s a screenshot of a very old set of dialog box options from Microsoft’s Visual Basic.
 
 101
-00:08:41,004 --> 00:08:47,020
-to be familiar with. Here, is a dialogue
-box that says that you have a document and
+00:11:19,264 --> 00:11:22,933
+This is many years old at this point.
 
 102
-00:08:47,020 --> 00:08:52,079
-coding mismatch. You're, you've got a d
-ocument which describes itself as being
+00:11:22,933 --> 00:11:30,248
+It’s pedagogically useful, because there are four different options for where the same set of buttons could be.
 
 103
-00:08:52,079 --> 00:08:58,092
-Utf-8 no BOM But, the encoding has been
-set, to Western Iso Latin one. Now this is
+00:11:30,248 --> 00:11:38,977
+And probably, applications will be easiest to learn if users can come to expect that the same buttons will always be in the same locations.
 
 104
-00:08:58,092 --> 00:09:05,016
-a developer tool and so it's reasonable to
-expect some fluency with things that are
+00:11:38,977 --> 00:11:41,287
+We talked already about familiar language.
 
 105
-00:09:05,016 --> 00:09:11,004
-under the hood like users may in general,
-be familiar with the idea that there are
+00:11:41,287 --> 00:11:45,398
+It’s also important to be consistent in your use of language.
 
 106
-00:09:11,004 --> 00:09:16,086
-different character sets for documents.
-But users maybe not familiar with what
+00:11:45,398 --> 00:11:55,095
+And one thing that I’ve seen on the forums is, in teaching this class, whenever we’ve used terms interchangeably, that’s often been a source of confusion.
 
 107
-00:09:16,086 --> 00:09:22,067
-exactly the difference is between UTF8
-[inaudible] and Iso Latin one or which of
+00:11:55,095 --> 00:11:57,750
+And you can see that in this web site.
 
 108
-00:09:22,067 --> 00:09:28,041
-them they should select, or how exactly
-they should go about fixing this problem.
+00:11:57,750 --> 00:12:09,901
+I arrived at this screen because I wanted to get help with a USB cellular modem that I had, and I couldn’t figure out which of these categories was most likely to be the right one.
 
 109
-00:09:29,044 --> 00:09:34,062
-One way that this interface could be
-improved is beaconing what the most common
+00:12:09,901 --> 00:12:22,375
+My guess is that these categories were generated based on organizational chart for the business rather than based on the user’s conceptual model of what they care about.
 
 110
-00:09:34,062 --> 00:09:40,032
-solution is likely to be. A third here is
-to [inaudible] user control and freedom
+00:12:22,375 --> 00:12:31,063
+So, for example, national access and broadband access may be different parts of business and have different management structures.
 
 111
-00:09:40,032 --> 00:09:45,049
-and this is gonna encompass a number of
-things like exits for mistaken choices The
+00:12:31,063 --> 00:12:39,115
+But from user’s perspective, they may not know whether the mobile device they have is of one category or the other.
 
 112
-00:09:45,049 --> 00:09:50,073
-ability to undo and redo, not forcing
-people down fixed paths. I think of this
+00:12:39,115 --> 00:12:41,491
+So how do you solve this naming problem?
 
 113
-00:09:50,073 --> 00:09:55,062
-heuristic as being about making sure that
-the amount of control and freedom is
+00:12:41,491 --> 00:12:49,985
+Because I think that, once you get familiar with your own products and designs, it’s easy to refer to them using the terms that you’re familiar with.
 
 114
-00:09:55,062 --> 00:10:00,077
-appropriate for the users and appropriate
-for the tasks. So for example, if you have
+00:12:49,985 --> 00:12:56,013
+And, to some extent, eventually training people up on these terms will be useful for everyone.
 
 115
-00:10:00,077 --> 00:10:05,079
-an interface that somebody's only gonna
-use once, a relatively constrained wizard
+00:12:56,013 --> 00:13:02,078
+However, you’ll often want to elicit what terminology users use naturally and ensure sure that you use that consistency.
 
 116
-00:10:05,079 --> 00:10:10,074
-may actually be a good solution. However
-you may also want an, a way for users to
+00:13:02,078 --> 00:13:15,357
+This is actually a case where field work, or focus groups, or other kinds of direct user engagement can be really valuable, and you can ask people how they would describe certain things that they might want to get help with.
 
 117
-00:10:10,074 --> 00:10:15,083
-break out of that constrained wizard if
-they know what they're doing and are more
+00:13:15,357 --> 00:13:19,963
+Another thing that you can do is if you prefer a more web-based strategy,
 
 118
-00:10:15,083 --> 00:10:20,048
-expert. Or have an uncommon or unique
-activity that they need to accomplish.
+00:13:19,963 --> 00:13:25,391
+you can have a category initially that you call Other, and let people type in whatever they want.
 
 119
-00:10:21,017 --> 00:10:26,015
-Here's an example from a conference
-registration site and what you can see is
+00:13:25,391 --> 00:13:36,488
+And then you can look at the set of responses that come in for Other, and use that to generate umbrellas terms that may be more user centered in terms of the language they use.
 
 120
-00:10:26,015 --> 00:10:32,035
-that there's a continue button, but no
-back button. Here's an interface that
+00:13:36,488 --> 00:13:50,787
+Here is a screenshot of a license repair utility, and it has a warning about the fact that you will need to close all other Adobe applications before proceeding with the license repair utility. It’s a reasonable constraint,
 
 121
-00:10:32,035 --> 00:10:37,040
-provides more control and freedom in the
-context of browsing for airline tickets.
+00:13:50,787 --> 00:13:54,171
+and it says, “Do you wish to ” blank —
 
 122
-00:10:37,040 --> 00:10:43,009
-What you see here is that there are a
-number of different ways in which the user
+00:13:54,171 --> 00:13:56,256
+I have blocked it out.
 
 123
-00:10:43,009 --> 00:10:48,063
-can browse through the space of possible
-information. In particular you can see
+00:13:56,256 --> 00:13:57,495
+Yes or no.
 
 124
-00:10:48,063 --> 00:10:54,060
-this calendar widget in the top left Which
-shows you the fares for every day of that
+00:13:57,495 --> 00:14:09,594
+My guess is that a good fraction of you — maybe even most of you — would guess that “Do you wish to…” the next thing would be continue.
 
 125
-00:10:54,060 --> 00:11:00,021
-month And this ability to preview what's
-likely to be down a particular path is
+00:14:09,594 --> 00:14:11,945
+And so you might press Yes.
 
 126
-00:11:00,021 --> 00:11:05,047
-really valuable in helping people make
-decisions and know what options are
+00:14:11,945 --> 00:14:16,321
+However, what we actually have here is “Do you wish to cancel.”
 
 127
-00:11:05,047 --> 00:11:10,080
-available to them. Our fourth heuristic is
-consistency and standar ds And this
+00:14:16,321 --> 00:14:18,329
+And so, if you press Yes to continue.
 
 128
-00:11:10,080 --> 00:11:16,051
-includes things like consistent layout.
-Here's a screenshot of a very old, set of
+00:14:18,329 --> 00:14:22,557
+It’s going to drop you out of the application and you’ll wonder what happened.
 
 129
-00:11:16,051 --> 00:11:22,023
-dialogue box options from, Microsoft's
-Visual Basic. This is many years old at
+00:14:22,557 --> 00:14:26,035
+Or if you press No, with the intent to cancel,
 
 130
-00:11:22,023 --> 00:11:27,035
-this point. It's pedagogically useful,
-because there are four different options
+00:14:26,035 --> 00:14:30,010
+you’ll actually continue, and you may run into problems.
 
 131
-00:11:27,035 --> 00:11:32,037
-for where the same set of buttons could
-be. And probably, applications will be
+00:14:30,010 --> 00:14:41,384
+In this particular case, one way that you can solve this problem about what Yes or No or OK or Cancel mean is to replace Yes, No, OK and Cancel with more specific options.
 
 132
-00:11:32,037 --> 00:11:37,052
-easiest to learn if users can come to
-expect that the same buttons will always
+00:14:41,384 --> 00:14:45,726
+So here we see a dialog box where the options are very clear:
 
 133
-00:11:37,052 --> 00:11:42,059
-be in the same locations. We talked
-already about familiar language. It's also
+00:14:45,726 --> 00:14:49,230
+One button says “Keep .do” as the extension name;
 
 134
-00:11:42,059 --> 00:11:48,008
-important to be consistent in your use of
-language. And one thing that I've seen on
+00:14:49,230 --> 00:14:51,336
+the other one says “Use PDF.”
 
 135
-00:11:48,008 --> 00:11:53,030
-the forums is, in teaching this class,
-whenever we've used terms interchangeably,
+00:14:51,336 --> 00:14:55,495
+And this is much clearer then OK and Cancel, or Yes and No.
 
 136
-00:11:53,030 --> 00:11:58,059
-that's often been a source of confusion.
-And you can see that in this web site. I
+00:14:55,495 --> 00:15:05,005
+Our fifth heuristic is about preventing errors, and there are lots of errors that are easy to make, and there are lots of ways that your interface can help people prevent them.
 
 137
-00:11:58,059 --> 00:12:04,021
-arrived at this screen because I wanted to
-get help with a USB cellular modem that I
+00:15:05,005 --> 00:15:09,670
+The first kind of error to prevent people from making is data loss.
 
 138
-00:12:04,021 --> 00:12:09,063
-had, and I couldn't figure out which of
-these categories was most likely to be the
+00:15:09,670 --> 00:15:18,847
+Here we have a dialog box that says “This file already exists,” and it follows our message of having concrete button names —
 
 139
-00:12:09,063 --> 00:12:14,093
-right one. My guess is that these
-categories were generated based on
+00:15:18,847 --> 00:15:19,643
+That’s good.
 
 140
-00:12:14,093 --> 00:12:20,059
-organizational chart for the business
-rather than based on consumer's conceptual
+00:15:19,643 --> 00:15:23,225
+However, I don’t know what that file looks like.
 
 141
-00:12:20,059 --> 00:12:25,083
-model of what they care about. So, for
-example, national access and broadband
+00:15:23,225 --> 00:15:29,669
+If it offered me a preview, it’s much less likely that I would mistake what that file is.
 
 142
-00:12:25,083 --> 00:12:31,063
-access may be different parts of business
-and have different management structures
+00:15:29,669 --> 00:15:34,580
+In addition to preventing data loss, you can also prevent cluttering duplicates.
 
 143
-00:12:31,063 --> 00:12:37,036
-But from user's perspective, they may not
-know whether the mobile device they have,
+00:15:34,580 --> 00:15:41,234
+Here’s a screenshot that helpfully notifies you that this may be a duplicate paper that you’re trying to import into a library.
 
 144
-00:12:37,036 --> 00:12:42,089
-is of one category or the other. So how do
-you solve this naming problem? Because I
+00:15:41,234 --> 00:15:44,598
+So it says, “Hey, you’ve already got this on your computer.”
 
 145
-00:12:42,089 --> 00:12:47,026
-think that, once you get familiar with
-your own products and designs, it's easy
+00:15:44,598 --> 00:15:52,436
+And so far as it goes, that’s great; but what I want to know is, is what it thinks is a duplicate actually a duplicate?
 
 146
-00:12:47,026 --> 00:12:51,063
-to refer to them using the terms that
-you're familiar with And, to some extent,
+00:15:52,436 --> 00:16:08,818
+And so one button that ought to be available here and that isn’t, and that would help me prevent errors, is by having of way of previewing what it believes the duplicate file to be, and allows me to compare the two files, side by side.
 
 147
-00:12:51,063 --> 00:12:55,072
-eventually training people up on these
-terms will be useful for everyone.
+00:16:08,818 --> 00:16:12,579
+Here’s a dialog box that says “You have unsaved data.
 
 148
-00:12:56,013 --> 00:13:00,098
-However, you'll often want to elicit what
-terminology users use naturally and ensure
+00:16:12,579 --> 00:16:20,177
+Click OK to go back and save, or click Cancel to continue.” There’s a couple of problems here.
 
 149
-00:13:00,098 --> 00:13:05,053
-sure that you use that consistency. This
-is actually a case where field work, or
+00:16:20,177 --> 00:16:28,036
+For starters we’ve got the “click Cancel to continue,” which I think may confuse many people, and they’ll consequently lose their unsaved data.
 
 150
-00:13:05,053 --> 00:13:09,097
-focus groups, or other kinds of direct
-user engagement can be really valuable,
+00:16:28,036 --> 00:16:32,046
+Also, why isn’t Save one of the options on the dialog box?
 
 151
-00:13:09,097 --> 00:13:14,047
-and you can ask people how they would
-describe certain things that they might
+00:16:32,046 --> 00:16:34,363
+That would make a lot more sense.
 
 152
-00:13:14,047 --> 00:13:19,033
-want to get help with. Another thing that
-you can do is if you prefer a more, a more
+00:16:34,363 --> 00:16:37,854
+There are many ways we could redesign this dialog box.
 
 153
-00:13:19,033 --> 00:13:23,063
-web based strategy. You can have a
-category initially that you call other,
+00:16:37,854 --> 00:16:43,082
+You could think about automatically saving things, or many other more drastic solutions.
 
 154
-00:13:23,063 --> 00:13:28,023
-and let people type in whatever they want
-And then you can look at the set of
+00:16:43,082 --> 00:16:51,311
+A simple solution that we can make here is to relabel this first button to be — call this
 
 155
-00:13:28,023 --> 00:13:33,012
-responses that come in for other, and use
-that to generate umbrellas terms that may
+00:16:51,311 --> 00:16:57,467
+“Save,” and the other button we might call “Don’t Save,
 
 156
-00:13:33,012 --> 00:13:38,073
-be more user centered in terms of the
-language they use. Here is a screenshot of
+00:16:57,467 --> 00:16:59,065
+Just continue.”
 
 157
-00:13:38,073 --> 00:13:44,030
-the license repair utility and has a
-warning about the fact that you will need
+00:16:59,065 --> 00:17:08,439
+And we will probably want the “Save” button to be the default action.
 
 158
-00:13:44,030 --> 00:13:49,095
-to close all other adobe applications
-before proceeding with the license repair
+00:17:08,439 --> 00:17:21,988
+One of the great advantages of a graphical user interface is that it can leverage its visual structure to enforce that users provide well-formed input and to remind about what parameters are necessary.
 
 159
-00:13:49,095 --> 00:13:55,017
-utility to reasonable constraints. And it
-says, "Do you wish to blank." I have
+00:17:21,988 --> 00:17:31,364
+So this, for example, is the Find dialog box in Apple’s Keynote, and you can contrast that with the Find command in the terminal.
 
 160
-00:13:55,017 --> 00:14:02,042
-blocked it out. Yes or no. My guess is
-that a good fraction of you, maybe even
+00:17:31,364 --> 00:17:38,828
+In the graphical case, anything you can type into the dialog box will be a reasonable query to search for:
 
 161
-00:14:02,042 --> 00:14:10,075
-most of you would guess that do you wish
-to, the next thing would be continue And
+00:17:38,828 --> 00:17:41,175
+It’s impossible to have incorrect syntax.
 
 162
-00:14:10,075 --> 00:14:16,070
-so you might press yes. However, what we
-actually have here is do you wish to
+00:17:41,175 --> 00:17:46,794
+However in the terminal case, you have to remember every time what exactly the syntax is.
 
 163
-00:14:16,070 --> 00:14:20,093
-cancel And so, if you press yes to
-continue. It's going to drop you out of
+00:17:46,794 --> 00:17:50,925
+Now the terminal has lots of power and is great in lots of ways.
 
 164
-00:14:20,093 --> 00:14:25,033
-the application and you'll wonder what
-happened Or if you press no, with the
+00:17:50,925 --> 00:17:55,799
+But the ability to make errors in terms of your syntax is one of its drawbacks.
 
 165
-00:14:25,033 --> 00:14:29,050
-intent to cancel. You'll actually
-continue, and you may run into problems.
+00:17:55,799 --> 00:18:03,406
+But that doesn’t mean that just because you have a graphical interface, it automatically will have this property preventing errors.
 
 166
-00:14:30,010 --> 00:14:35,079
-In this particular case one way that you
-can solve this problem about what yes or
+00:18:03,406 --> 00:18:06,076
+This is an example of a scheduling system.
 
 167
-00:14:35,079 --> 00:14:41,050
-no or okay or cancel mean is to replace
-yes no okay and cancel with more specific
+00:18:06,076 --> 00:18:12,141
+And the task that we’re midstream on is trying to schedule a weekly meeting into a conference room.
 
 168
-00:14:41,050 --> 00:14:46,071
-options. So here we see a dialogue box
-where the options are very clear. One
+00:18:12,141 --> 00:18:19,401
+And there are some things that you need to fill out that it has explicit drop downs for, like time and room.
 
 169
-00:14:46,071 --> 00:14:52,041
-button says keep dot DO as the extension
-name. The other one says use PDF And this
+00:18:19,401 --> 00:18:21,405
+However, the day field is required.
 
 170
-00:14:52,041 --> 00:14:57,066
-is much clearer then okay and cancel or
-yes and no. Our fifth [inaudible] is about
+00:18:21,405 --> 00:18:24,077
+It won’t let you schedule for every day.
 
 171
-00:14:57,066 --> 00:15:02,024
-preventing errors and there are lots of
-errors that are easy to make and there are
+00:18:24,077 --> 00:18:37,240
+But it doesn’t provide much in the way of widgets to do that; and so if the user is in a hurry, they might forget to enter a day and it’ll give an error like this that says “No day is specified.”
 
 172
-00:15:02,024 --> 00:15:06,097
-lots of ways that your interface can help
-people prevent them. The first kind of
+00:18:37,240 --> 00:18:44,871
+And what’s shocking is when you get to this point, it doesn’t give you a chance to specify the day.
 
 173
-00:15:06,097 --> 00:15:12,060
-error to prevent people from making is
-data loss. Here we have a dialogue box
+00:18:44,871 --> 00:18:48,840
+So, there are several ways that we might simply revise this interface.
 
 174
-00:15:12,060 --> 00:15:18,051
-that says this file already exists, and it
-follows our message of having concrete
+00:18:48,840 --> 00:18:53,952
+One is that we might make the day selection widget clearer and more salient.
 
 175
-00:15:18,051 --> 00:15:24,021
-button names. That's good. However I don't
-know what that file looks like. If it
+00:18:53,952 --> 00:18:58,475
+And the other thing is, if somehow somebody forgets to specify a day,
 
 176
-00:15:24,021 --> 00:15:30,037
-offered me a preview it's much less likely
-that I would mistake what that file is. In
+00:18:58,475 --> 00:19:04,355
+the next thing that we show them would be an option to select which of the days that we want,
 
 177
-00:15:30,037 --> 00:15:35,003
-addition to preventing data loss, you can
-also prevent cluttering duplicates. Here's
+00:19:04,355 --> 00:19:07,837
+as opposed to just saying, “No, I’m sorry you did it wrong.”
 
 178
-00:15:35,003 --> 00:15:39,057
-a screenshot that helpfully notifies you
-that this may be a du plicate paper that
+00:19:07,837 --> 00:19:12,841
+And it’s not clear at this point how you would go back or start over to modify.
 
 179
-00:15:39,057 --> 00:15:44,038
-you're trying to import into a library. So
-it says, "Hey, you've already got this on
+00:19:12,841 --> 00:19:17,320
+Here’s an example of a search system that provides unnecessary constraints.
 
 180
-00:15:44,038 --> 00:15:49,088
-your computer." And so far as it goes,
-that's great, but what I wanna know is, is
+00:19:17,320 --> 00:19:22,603
+I was searching for my colleague Dan Olson’s book, so I typed Olson into the search field, and Enter.
 
 181
-00:15:49,088 --> 00:15:55,045
-what it thinks is a duplicate, actually a
-duplicate? And so one button that ought to
+00:19:22,603 --> 00:19:27,848
+And I was hoping that it would give me a list of books, and I could select from among them.
 
 182
-00:15:55,045 --> 00:16:00,061
-be available here, and that isn't, and
-that would help me prevent errors, is by
+00:19:27,848 --> 00:19:33,047
+However, it says, “No, I’m sorry, you must select a catalog to begin your search in.”
 
 183
-00:16:00,061 --> 00:16:05,058
-having of way of previewing what it
-believes the duplicate file to be, and
+00:19:33,047 --> 00:19:38,173
+There are a number of implementation reasons why it might be preferable to select a catalog.
 
 184
-00:16:05,058 --> 00:16:11,079
-allows me to compare the two files, side
-by side. Here's a dialogue box that says
+00:19:38,173 --> 00:19:44,325
+And in fact, once we get going, I may even want to narrow by catalog to improve the quality of my options.
 
 185
-00:16:11,079 --> 00:16:17,091
-you have unsaved data. Click okay to go
-back and save, or click cancel to continue
+00:19:44,325 --> 00:19:51,726
+But it doesn’t seem like you should need to select a catalog to get started — at least give me some results based on any input.
 
 186
-00:16:18,065 --> 00:16:23,001
-there's a couple of problems here. For
-starters we've got the click cancel to
+00:19:51,726 --> 00:20:02,001
+That’s one thing that I think search systems, when implemented well, do a fantastic job of. We’ll continue our tour of heuristics in the next video.
 
-187
-00:16:23,001 --> 00:16:27,037
-continue which I think may confuse many
-people, and they'll consequently lose
-
-188
-00:16:27,037 --> 00:16:32,046
-their unsafe data. Also, why isn't save
-one of the options on the dialogue box?
-
-189
-00:16:32,046 --> 00:16:37,024
-That would make a lot more sense. There
-are many ways we could redesign this
-
-190
-00:16:37,024 --> 00:16:42,008
-dialogue box. You could think about
-automatically saving things or many other
-
-191
-00:16:42,008 --> 00:16:47,023
-more drastic solutions. A simple solution
-that we could make here is to [sound]
-
-192
-00:16:47,023 --> 00:16:55,070
-reliable this first button to be call
-this. Save, and the other button we might
-
-193
-00:16:55,070 --> 00:17:07,068
-call "Don't Save." Just continue And we
-will probably want the safe button to be
-
-194
-00:17:07,068 --> 00:17:13,011
-the default action. One of the great
-advantages of a graphical user interface
-
-195
-00:17:13,011 --> 00:17:18,028
-is that it can leverage its visual
-structure to enforce that users provide
-
-196
-00:17:18,028 --> 00:17:23,074
-well formed input and to remind about what
-parameters are necessary. So this for
-
-197
-00:17:23,074 --> 00:17:29,005
-example is the find dialogue box in
-Apple's keynote and you can contrast that
-
-198
-00:17:29,005 --> 00:17:34,064
-with the find command in the terminal. In
-the graphical case anything you can type
-
-199
-00:17:34,064 --> 00:17:40,023
-into the dialogue box will be a reasonable
-query to search for. It's impossible to
-
-200
-00:17:40,023 --> 00:17:45,024
-have incorrect syntax. However in the
-terminal case, you have to remember every
-
-201
-00:17:45,024 --> 00:17:50,046
-time what exactly the syntax is. Now the
-terminal has lots of power and is great in
-
-202
-00:17:50,046 --> 00:17:55,035
-lots of ways But the ability to make
-errors in terms of your syntax is one of
-
-203
-00:17:55,035 --> 00:18:00,006
-its drawbacks But that doesn't mean that
-just because you have a graphical
-
-204
-00:18:00,006 --> 00:18:04,090
-interface, it automatically w ill have
-this property preventing errors. This is
-
-205
-00:18:04,090 --> 00:18:09,061
-an example of a scheduling system. And the
-task that we're mid stream on, is
-
-206
-00:18:09,061 --> 00:18:14,075
-scheduling a weekly meeting into a
-conference room And there are some things
-
-207
-00:18:14,075 --> 00:18:19,067
-that you need to fill out that it has
-explicit drop downs for like time and
-
-208
-00:18:19,067 --> 00:18:24,077
-room. However the day field is required.
-It won't let you schedule for every day
-
-209
-00:18:24,077 --> 00:18:30,014
-But it doesn't provide much in the way of
-widgets to do that and so if the user is
-
-210
-00:18:30,014 --> 00:18:35,050
-in a hurry, they might forget to enter a
-day and it'll give an error like this that
-
-211
-00:18:35,050 --> 00:18:42,072
-says no day is specified And what's
-shocking is when you get to this point; it
-
-212
-00:18:42,072 --> 00:18:47,060
-doesn't give you a chance to specify the
-day. So, there are several ways that we
-
-213
-00:18:47,060 --> 00:18:52,047
-might simply revise this interface. One is
-that we might make the day selection
-
-214
-00:18:52,047 --> 00:18:57,010
-widget clearer and more salient And the
-other thing is, if somehow somebody
-
-215
-00:18:57,010 --> 00:19:02,003
-forgets to specify a day. The next thing
-that we show them would be an option to
-
-216
-00:19:02,003 --> 00:19:07,003
-select which of the days that we want. As
-opposed to just saying, no, I'm sorry you
-
-217
-00:19:07,003 --> 00:19:12,009
-did it wrong And it's not clear at this
-point how you would go back or start over
-
-218
-00:19:12,009 --> 00:19:17,011
-to modify. Here's an example of a search
-system that provides unnecessary
-
-219
-00:19:17,011 --> 00:19:21,028
-constraints. I was searching for my
-colleague, Dan Olson's book So I typed
-
-220
-00:19:21,028 --> 00:19:25,085
-Olson into the search field, and enter And
-I was hoping that it would give me a list
-
-221
-00:19:25,085 --> 00:19:30,005
-of books, and I could select from among
-them. However, it says, no, I'm sorry; you
-
-222
-00:19:30,005 --> 00:19:35,083
-must select a catalog to begin your search
-in. There are a number of implementation
-
-223
-00:19:35,083 --> 00:19:40,040
-reasons why it might be preferable to
-select a catalog And in fact, once we get
-
-224
-00:19:40,040 --> 00:19:44,056
-going, I may even want to narrow by
-catalog to improve the quality of my
-
-225
-00:19:44,056 --> 00:19:48,096
-options But it doesn't seem like you
-should need to select a catalog to get
-
-226
-00:19:48,096 --> 00:19:53,052
-started, at least give me some results
-based on any input. That's one thing that
-
-227
-00:19:53,052 --> 00:19:59,054
-I think search systems, when implemented
-well, do a fantastic job of Will continue
-
-228
-00:19:59,054 --> 00:20:02,001
-our tour of heuristics in the next video.
