@@ -139,3 +139,20 @@ TO DO:
 - http://www.universalsubtitles.org/fr/videos/VbaciFSlgnqW/en/227447/ (NLP) (5-1)
 - http://www.universalsubtitles.org/fr/videos/MQpvCWmjNXXC/en/226619/ (NLP) (4-8)
 
+Current focus:
+=============
+
+- To get all HCI videos properly transcribed, as I am nominally enrolled;
+  though I have already given up on the studio track (primarily due to
+  disillusionment and not due to workload).
+
+- If time permits, to get at least the SaaS videos either transcribed
+  (this would mean the instructor chats) or properly QA’d.
+
+If you have the time and have good ears and good editorial intuition,
+you are welcome to join in to fix this big mess created by the machine
+transcription software “stanford-bot.” Machine transcription of lectures
+really doesn’t work, especially when the transcripts are being used as
+a basis for further translations — they simply contain too many errors,
+sometimes to the point of saying the opposite of what’s actually said.
+
