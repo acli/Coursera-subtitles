@@ -17,7 +17,8 @@ The canonical way to run this is to feed `extract-text-from-srt`
 an SRT file that you got from Amara, then pipe this to
 `reformat-extracted-text` and then redirect this to a text file.
 Then you can proofread the text file, copy-and-paste it back to
-Amara (restarting step 1), and then continue on to steps 2 through 4.
+Amara (restarting step 1), and then continue on to steps 2 through 4
+to produce a timecoded set of subtitles.
 
 Note that `reformat-extracted-text` is not a particularly
 intelligent piece of software. You *will* need to review the
@@ -30,19 +31,19 @@ Things to watch out for if you want to work on Coursera’s subtitles:
 June 12, 2012:
 
 As of June 12, 2012, subtitling support on Amara is not working.
-You have only one go to finish the whole transcript (i.e., Save
-and Exit no longer works), but even if you manage to do that,
-the system will still erroneously mark your finished subtitles
-as a draft and you will not be able to do anything about it
+After exiting the editor (whether through Save and Exit or
+Submit Your Work) the system will disable the “Modify these
+subtitles” link and erroneously mark your finished subtitles
+as a draft. You will not be able to do anything about it
 until the bot comes along and overwrite your finished work. This
 has been reported to Amara but I am not sure when this can be
 fixed.
 
 The interim workaround is that after you have finished a draft
 or a completed transcript, download the SRT file, and then
-upload the *same* SRT file back onto Amara. This will reactivate
-the “Modify these subtitles” link and allow you to continue
-with your subtitling.
+upload the *same* SRT file back onto Amara (i.e., mimic the bot’s
+behaviour). This will reactivate the “Modify these subtitles”
+link and allow you to continue with your subtitling.
 
 (updated June 13, 2012)
 
@@ -51,8 +52,12 @@ haven’t started yet, then it’d be better to know them before you
 start.
 
 1. A program called stanford-bot will attempt to automatically
-   generate a transcript, presumably with speech recognition
-   technology. This transcript is always generated.
+   generate a transcript, using speech recognition
+   technology.
+   (Note that the fact that this is indeed a speech recognition system
+   has been confirmed through official Amara and Coursera bug
+   reporting channels.)
+   This transcript is always generated.
 
 2. A corollary of the above is that if there are no subtitles
    when you start working, and still no subtitles when you
@@ -70,7 +75,7 @@ start.
    a lot of work to fix. It can get so bad that it takes as long
    to try to fix it as to throw it away and start over.
 
-4. Avoid Universal Subtitles’ “upload transcript” function,
+4. Avoid Amara’ “upload transcript” function,
    and do not use it if *anyone* has uploaded a translation.
    Otherwise you will screw up the revision history and you
    will regret it afterwards.
@@ -87,7 +92,7 @@ the scripts directory of this repo.
 List of videos:
 ==============
 
-(Needed back when Universal Subtitles didn’t provide a way to give
+(Needed back when Amara didn’t provide a way to give
 you a list of all videos you have done)
 
 Here are a collection of all the subtitles I have done or QA’d
