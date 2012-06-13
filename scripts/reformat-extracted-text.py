@@ -76,9 +76,9 @@ class Timing:
 			str(token),
 			str(chk)))
 
-    print "%d" % (self.seq + 1)
-    print "%s --> %s" % (self.time_str(t_i), self.time_str(t_f))
-    print "%s\n" % s
+    print "%d\r" % (self.seq + 1)
+    print "%s --> %s\r" % (self.time_str(t_i), self.time_str(t_f))
+    print "%s\r\n\r" % s
     self.ptr += n
     self.seq += 1
 
