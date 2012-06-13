@@ -20,9 +20,9 @@ Then you can proofread the text file, copy-and-paste it back to
 Amara (restarting step 1), and then continue on to steps 2 through 4.
 
 Note that `reformat-extracted-text` is not a particularly
-intelligent piece of software. You *will* need to check it,
-but in general what it gives you should at least be better than
-stock stanford-bot (Cogi) output.
+intelligent piece of software. You *will* need to review the
+output it gives you; but in general what it gives you should
+at least be better than stock stanford-bot (Cogi) output.
 
 Things to watch out for if you want to work on Coursera’s subtitles:
 ===================================================================
