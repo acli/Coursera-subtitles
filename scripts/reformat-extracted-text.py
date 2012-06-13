@@ -32,6 +32,10 @@ import nltk.data
 
 class Timing:
   PAT_TIMECODE_CAPTURE = re.compile(r'^(\d\d):(\d\d):(\d\d),(\d\d\d) --> (\d\d):(\d\d):(\d\d),(\d\d\d)$')
+  PAT_NARROW = re.compile(r"^(?:[\..:;!'1Iil]|‘|’)$")
+  PAT_WIDE = re.compile(r'^(?:[A-Zmw]|—)$')
+
+  THRES = 432
 
   def __init__(self):
     self.raw = []
@@ -53,6 +57,21 @@ class Timing:
     return "%02d:%02d:%02d,%03d" % (int(t/3600000), int(t/60000)%60, \
 					    int(t/1000)%60, t%1000)
 
+  def length_metric(self, s):
+    """ A very simple length metric that assumes all characters have width 4
+        except ', 1, I, i, l which have width 2
+	and m, w and uppercase letters which have width 7
+    """
+    it = 0
+    for c in s:
+      if self.PAT_NARROW.search(c):
+	it += 2
+      elif self.PAT_WIDE.search(c):
+	it += 7
+      else:
+	it += 4
+    return it
+
   def remember(self, node):
     id = int(node[0])
     t_i, t_f = self.decode_timecode(node[1])
@@ -68,6 +87,9 @@ class Timing:
     n = len(tokens)
     t_i = self.tokens[self.ptr][1]
     t_f = self.tokens[self.ptr + n][1] if self.ptr + n < len(self.tokens) else self.raw[-1][2]
+
+    if self.length_metric(s) > self.THRES:
+      sys.stderr.write('Warning: Line %d too long: %s\n' % (self.seq + 1, s))
 
     for i, token in enumerate(tokens):
       chk = self.tokens[self.ptr + i][0]
