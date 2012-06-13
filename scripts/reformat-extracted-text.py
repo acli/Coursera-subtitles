@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# -*- coding: utf8 -*-
 #
 # THIS IS AN EXPERIMENTAL REWRITE - IT IS NOT WORKING YET!
 #
@@ -15,19 +16,35 @@
 #    extract-text-from-srt. In other words it can't deal with a real
 #    SRT file. The time codes must already have been removed.
 #
-# 2. The script will not produce something that's 100% correct. For
-#    example it will treat all periods as end of segment markers,
-#    even if it is the period in "Mr." or "No.". You need to pull out
-#    vi and do some minimal post-processing before pasting the results
-#    back into Universal Subtitles.
+# 2. The script will not produce something that's 100% correct. It will
+#    attempt to split at correct sentence boundaries using the NLTK
+#    Punkt tokenizer; however, because stanford-bot's output sometimes
+#    contains missing periods and other bugs, the tokenization does not
+#    always produce correct results and so you will still need to review
+#    it.
 #
 
 import sys
+import re
 import nltk.data
 
 def reformat_input(f):
-  source = ' '.join(map(str.strip, f.readlines()))
   sent_detector = nltk.data.load('tokenizers/punkt/english.pickle')
+
+  source = ' '.join(map(str.strip, f.readlines()))
+  source = re.sub(r'\s+', r' ', source)
+  source = re.sub(r"'", r'’', source)
+  source = re.sub(r'\bcuz\b', r'’cause', source)
+  source = re.sub(r'\bgonna\b', r'going to', source)
+  source = re.sub(r'\bwanna\b', r'want to', source)
+
+  #
+  # stanford-bot's output contains numerous formatting bugs,
+  # including missing periods at the end of sentences.
+  # Try to make some guesses in an attempt to fix *that*.
+  #
+  source = re.sub(r'([^\.]) (And|But|Or)\b', r'\1. \2', source)
+
   for s in sent_detector.tokenize(source):
     print "INPUT=%s\n" % s
 
