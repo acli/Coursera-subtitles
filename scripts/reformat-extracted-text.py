@@ -35,7 +35,8 @@ class Timing:
   def __init__(self):
     self.raw = []
     self.tokens = []
-    self._tokenizer = nltk.WordPunctTokenizer()
+    self.seq = 0
+    self.ptr = 0
 
   def decode_timecode(self, timecode):
     t_i, t_f = None, None
@@ -55,16 +56,31 @@ class Timing:
     id = int(node[0])
     t_i, t_f = self.decode_timecode(node[1])
     self.raw.append([id, t_i, t_f, node[2:]])
-    print "self.raw.append([%s, %s, %s, %s])" % (id, self.time_str(t_i), self.time_str(t_f), str(node[2:]))
 
-    #tokens = self._tokenizer.tokenize(' '.join(node[2:]))
     tokens = (' '.join(node[2:])).split(' ')
     dt = (t_f - t_i)/len(tokens)
     for i, token in enumerate(tokens):
       self.tokens.append([token, t_i + dt*i])
-      print "%s %s" % (self.time_str(self.tokens[-1][1]), str(self.tokens[-1][0]))
 
-    print ""
+  def emit_segment(self, s):
+    tokens = s.split(' ')
+    n = len(tokens)
+    t_i = self.tokens[self.ptr][1]
+    t_f = self.tokens[self.ptr + n][1] if self.ptr + n < len(self.tokens) else self.raw[-1][2]
+
+    for i, token in enumerate(tokens):
+      chk = self.tokens[self.ptr + i][0]
+      if token.strip('.') != chk.strip('.'):
+	raise Exception("Near %s: looking for %s but found %s" % (
+			self.time_str(self.tokens[self.ptr + i][1]),
+			str(token),
+			str(chk)))
+
+    print "%d" % (self.seq + 1)
+    print "%s --> %s" % (self.time_str(t_i), self.time_str(t_f))
+    print "%s\n" % s
+    self.ptr += n
+    self.seq += 1
 
 
 PAT_ID = re.compile(r'^\d+$')
@@ -124,12 +140,14 @@ def reformat_input(f):
 	memory = [s]
 	state = STATE_ID_FOUND
       else:
+	source = ' '.join(memory)
 	state = STATE_TEXT
     elif state == STATE_ID_FOUND:
       if PAT_TIMECODE.search(s):
 	memory.append(s)
 	state = STATE_TIMECODE_FOUND
       else:
+	source = ' '.join(memory)
 	state = STATE_TEXT
     elif state == STATE_TIMECODE_FOUND and PAT_ID.search(s):
       memory = [s]
@@ -140,19 +158,22 @@ def reformat_input(f):
       memory = None
     else:
       if state == STATE_TIMECODE_FOUND:
-	memory.append(s)
+	memory.append(normalize_input(s))
       if source:
 	source += ' '
       source += s
 
-  if memory is not None:
+  if state == STATE_TIMECODE_FOUND and memory is not None:
     timing.remember(memory)
 
   source = normalize_input(source)
 
   for s in sent_detector.tokenize(source):
     s = re.sub(r'([\.!\?]"?)\.', r'\1', s)
-    print "INPUT=%s\n" % s
+    if state == STATE_TIMECODE_FOUND:
+      timing.emit_segment(s)
+    else:
+      print s
 
 
 def main(args):
