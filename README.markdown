@@ -107,6 +107,8 @@ for the Coursera classes I have taken.  For some of my thoughts
 on this whole exercise (of transcribing lectures), please head
 over to http://w.gniw.ca/?p=735
 
+A more recent post can be found at http://w.gniw.ca/?p=937
+
 Transcribed from scratch:
 
 - http://www.universalsubtitles.org/en/videos/vz9OvM97buqT/info/ (SaaS 5.8)
