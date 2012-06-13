@@ -28,11 +28,56 @@ import sys
 import re
 import nltk.data
 
-def reformat_input(f):
-  sent_detector = nltk.data.load('tokenizers/punkt/english.pickle')
 
-  source = ' '.join(map(str.strip, f.readlines()))
-  source = re.sub(r'\s+', r' ', source)
+class Timing:
+  PAT_TIMECODE_CAPTURE = re.compile(r'^(\d\d):(\d\d):(\d\d),(\d\d\d) --> (\d\d):(\d\d):(\d\d),(\d\d\d)$')
+
+  def __init__(self):
+    self.raw = []
+    self.tokens = []
+    self._tokenizer = nltk.WordPunctTokenizer()
+
+  def decode_timecode(self, timecode):
+    t_i, t_f = None, None
+    m = self.PAT_TIMECODE_CAPTURE.search(timecode)
+    if m:
+      t_i = 3600000*int(m.group(1)) + 60000*int(m.group(2)) \
+		  + 1000*int(m.group(3)) + int(m.group(4))
+      t_f = 3600000*int(m.group(5)) + 60000*int(m.group(6)) \
+		  + 1000*int(m.group(7)) + int(m.group(8))
+    return t_i, t_f
+
+  def time_str(self, t):
+    return "%02d:%02d:%02d,%03d" % (int(t/3600000), int(t/60000)%60, \
+					    int(t/1000)%60, t%1000)
+
+  def remember(self, node):
+    id = int(node[0])
+    t_i, t_f = self.decode_timecode(node[1])
+    self.raw.append([id, t_i, t_f, node[2:]])
+    print "self.raw.append([%s, %s, %s, %s])" % (id, self.time_str(t_i), self.time_str(t_f), str(node[2:]))
+
+    #tokens = self._tokenizer.tokenize(' '.join(node[2:]))
+    tokens = (' '.join(node[2:])).split(' ')
+    dt = (t_f - t_i)/len(tokens)
+    for i, token in enumerate(tokens):
+      self.tokens.append([token, t_i + dt*i])
+      print "%s %s" % (self.time_str(self.tokens[-1][1]), str(self.tokens[-1][0]))
+
+    print ""
+
+
+PAT_ID = re.compile(r'^\d+$')
+PAT_TIMECODE = re.compile(r'^\d\d:\d\d:\d\d,\d\d\d --> \d\d:\d\d:\d\d,\d\d\d$')
+
+STATE_INIT = 0
+STATE_TEXT = 1
+STATE_ID_FOUND = 2
+STATE_TIMECODE_FOUND = 3
+
+
+def normalize_input(source):
+  source = re.sub(r'\s+', r' ', source, re.DOTALL)
   source = re.sub(r"'", r'’', source)
 
   #
@@ -60,9 +105,55 @@ def reformat_input(f):
   #
   source = re.sub(r'([\.!\?]")(\s)', r'\1.\2', source)
 
+  return source
+
+
+def reformat_input(f):
+  sent_detector = nltk.data.load('tokenizers/punkt/english.pickle')
+  source = ''
+  memory = []
+  timing = Timing()
+  state = STATE_INIT
+
+  id = None
+  timecode = None
+
+  for s in map(str.strip, f.readlines()):
+    if state == STATE_INIT:
+      if PAT_ID.search(s):
+	memory = [s]
+	state = STATE_ID_FOUND
+      else:
+	state = STATE_TEXT
+    elif state == STATE_ID_FOUND:
+      if PAT_TIMECODE.search(s):
+	memory.append(s)
+	state = STATE_TIMECODE_FOUND
+      else:
+	state = STATE_TEXT
+    elif state == STATE_TIMECODE_FOUND and PAT_ID.search(s):
+      memory = [s]
+    elif state == STATE_TIMECODE_FOUND and PAT_TIMECODE.search(s):
+      memory.append(s)
+    elif state == STATE_TIMECODE_FOUND and len(s) == 0:
+      timing.remember(memory)
+      memory = None
+    else:
+      if state == STATE_TIMECODE_FOUND:
+	memory.append(s)
+      if source:
+	source += ' '
+      source += s
+
+  if memory is not None:
+    timing.remember(memory)
+
+  source = normalize_input(source)
+
   for s in sent_detector.tokenize(source):
     s = re.sub(r'([\.!\?]"?)\.', r'\1', s)
     print "INPUT=%s\n" % s
+
 
 def main(args):
   if len(args) == 0:
