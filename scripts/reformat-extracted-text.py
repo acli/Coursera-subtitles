@@ -48,7 +48,7 @@ def reformat_input(f):
   # including missing periods at the end of sentences.
   # Try to make some guesses in an attempt to fix *that*.
   #
-  source = re.sub(r'([^\.]) (And|But|Or)\b', r'\1. \2', source)
+  source = re.sub(r'([^\.]) (Also|And|Because|But|Here|Or)\b', r'\1. \2', source)
 
   for s in sent_detector.tokenize(source):
     print "INPUT=%s\n" % s
