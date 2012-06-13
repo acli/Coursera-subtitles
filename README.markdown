@@ -84,9 +84,10 @@ Reformatting and QA of stanford-bot’s transcripts:
 - http://www.universalsubtitles.org/fr/videos/FZdagnyVGlGX/en/329585/ (HCI 3.3)
 - http://www.universalsubtitles.org/fr/videos/wB9UdDAP8a5X/en/329502/ (HCI 3.4)
 - http://www.universalsubtitles.org/fr/videos/P4C1NvtfhveB/en/335002/ (HCI 5.1)
-- http://www.universalsubtitles.org/fr/videos/4e1VKeiCW3BD/en/325004/ (HCI 9.1)
-- http://www.universalsubtitles.org/fr/videos/J4g1fGjMz6BN/en/325002/ (HCI 9.2a)
-- http://www.universalsubtitles.org/fr/videos/GMB76WUpPRAc/en/325001/ (HCI 9.2bcd)
+- http://www.universalsubtitles.org/fr/videos/Nq8BVvfcrJMI/en/334621/ (HCI 5.2)
+- http://www.universalsubtitles.org/fr/videos/4e1VKeiCW3BD/en/325004/ (HCI 6.1)
+- http://www.universalsubtitles.org/fr/videos/J4g1fGjMz6BN/en/325002/ (HCI 6.2)
+- http://www.universalsubtitles.org/fr/videos/GMB76WUpPRAc/en/325001/ (HCI 6.3)
 
 QA of other transcriptionist’s work:
 
