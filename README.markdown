@@ -1,16 +1,24 @@
 Things to watch out for if you want to work on Coursera’s subtitles:
 ===================================================================
 
-(updated June 12, 2012)
+June 12, 2012:
 
-(As of June 12, 2012, subtitling support on Amara is not working.
+As of June 12, 2012, subtitling support on Amara is not working.
 You have only one go to finish the whole transcript (i.e., Save
 and Exit no longer works), but even if you manage to do that,
 the system will still erroneously mark your finished subtitles
 as a draft and you will not be able to do anything about it
 until the bot comes along and overwrite your finished work. This
 has been reported to Amara but I am not sure when this can be
-fixed.)
+fixed.
+
+The interim workaround is that after you have finished a draft
+or a completed transcript, download the SRT file, and then
+upload the *same* SRT file back onto Amara. This will reactivate
+the “Modify these subtitles” link and allow you to continue
+with your subtitling.
+
+(updated June 12, 2012)
 
 These are not obvious, and I found them out the hard way, If you
 haven’t started yet, then it’d be better to know them before you
