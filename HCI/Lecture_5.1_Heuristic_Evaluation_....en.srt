@@ -175,705 +175,725 @@ and the materials are all available on Jacob Nielsen’s website.
 The basic idea of heuristic evaluation is that you’re going to provide a set of people —
 
 45
-00:03:10,005 --> 00:03:17,093
-often other stakeholders on the design team or outside design experts — with a set of heuristics or principles,
+00:03:10,005 --> 00:03:15,004
+often other stakeholders on the design team or outside design experts —
 
 46
+00:03:15,004 --> 00:03:17,093
+with a set of heuristics or principles,
+
+47
 00:03:17,093 --> 00:03:22,082
 and they’re going to use those to look for problems in your design.
 
-47
+48
 00:03:23,056 --> 00:03:26,010
 Each of them is first going to do this independently
 
-48
+49
 00:03:26,010 --> 00:03:31,005
 and so they’ll walk through a variety of tasks using your design to look for these bugs.
 
-49
+50
 00:03:32,056 --> 00:03:36,084
 And you’ll see that different evaluators are going to find different problems.
 
-50
+51
 00:03:36,084 --> 00:03:41,032
 And then they’re going to communicate and talk together only at the end, afterwards.
 
-51
+52
 00:03:43,006 --> 00:03:47,026
 At the end of the process, they’re going to get back together and talk about what they found.
 
-52
+53
 00:03:47,026 --> 00:03:50,058
 And this “independent first, gather afterwards”
 
-53
+54
 00:03:50,058 --> 00:03:56,058
 is how you get a “wisdom of crowds” benefit in having multiple evaluators.
 
-54
+55
 00:03:56,058 --> 00:03:58,077
 And one of the reasons that we’re talking about this early in the class
 
-55
+56
 00:03:58,077 --> 00:04:05,006
 is that it’s a technique that you can use, either on a working user interface or on sketches of user interfaces.
 
-56
+57
 00:04:05,006 --> 00:04:10,041
 And so heuristic evaluation works really well in conjunction with paper prototypes
 
-57
+58
 00:04:10,041 --> 00:04:16,035
 and other rapid, low fidelity techniques that you may be using to get your design ideas out quick and fast.
 
-58
+59
 00:04:18,029 --> 00:04:22,037
 Here’s Neilsen’s ten heuristics, and they’re a pretty darn good set.
 
-59
+60
 00:04:22,037 --> 00:04:25,004
 That said, there’s nothing magic about these heuristics.
 
-60
+61
 00:04:25,004 --> 00:04:30,029
 They do a pretty good job of covering many of the problems that you’ll see in many user interfaces;
 
-61
+62
 00:04:30,029 --> 00:04:33,048
 but you can add on any that you want
 
-62
+63
 00:04:33,048 --> 00:04:37,060
 and get rid of any that aren’t appropriate for your system.
 
-63
+64
 00:04:37,060 --> 00:04:40,098
 We’re going to go over the content of these ten heuristics in the next couple lectures,
 
-64
+65
 00:04:40,098 --> 00:04:45,054
 and in this lecture I’d like to introduce the process that you’re going to use with these heuristics.
 
-65
+66
 00:04:46,034 --> 00:04:49,024
 So here’s what you’re going to have your evaluators do:
 
-66
+67
 00:04:49,024 --> 00:04:52,027
 Give them a couple of tasks to use your design for,
 
-67
+68
 00:04:52,027 --> 00:04:57,002
 and have them do each task, stepping through carefully several times.
 
-68
-00:04:57,002 --> 00:04:58,066
-When they’re doing this
-
 69
-00:04:58,066 --> 00:05:03,006
-they’re going to keep the list of usability principles as a reminder of things to pay attention to.
+00:04:57,002 --> 00:05:00,057
+When they’re doing this, they’re going to keep the list of usability principles
 
 70
+00:05:00,057 --> 00:05:03,006
+as a reminder of things to pay attention to.
+
+71
 00:05:03,006 --> 00:05:05,070
 Now which principles will you use?
 
-71
+72
 00:05:05,070 --> 00:05:08,075
 I think Nielsen’s ten heuristics are a fantastic start,
 
-72
+73
 00:05:08,075 --> 00:05:12,095
 and you can augment those with anything else that’s relevant for your domain.
 
-73
+74
 00:05:12,095 --> 00:05:19,003
 So, if you have particular design goals that you would like your design to achieve, include those in the list.
 
-74
-00:05:19,003 --> 00:05:25,089
-Or, if you have particular goals that you’ve set up from competitive analysis of designs that are out there already,
-
 75
+00:05:19,003 --> 00:05:21,057
+Or, if you have particular goals that you’ve set up
+
+76
+00:05:21,057 --> 00:05:25,089
+from competitive analysis of designs that are out there already,
+
+77
 00:05:25,089 --> 00:05:27,031
 that’s great too.
 
-76
+78
 00:05:27,031 --> 00:05:32,062
 Or if there are things that you’ve seen your or other designs excel at,
 
-77
+79
 00:05:32,062 --> 00:05:37,018
 those are important goals too and can be included in your list of heuristics.
 
-78
+80
 00:05:38,083 --> 00:05:42,070
 And then obviously, the important part is that you’re going to take what you learn from these evaluators
 
-79
+81
 00:05:42,070 --> 00:05:48,060
 and use those violations of the heuristics as a way of fixing problems and redesigning.
 
-80
+82
 00:05:49,036 --> 00:05:55,004
 Let’s talk a little bit more about why you might want to have multiple evaluators rather than just one.
 
-81
+83
 00:05:55,004 --> 00:05:59,089
 The graph on this slide is adapted from Jacob Neilsen’s work on heuristic evaluation
 
-82
+84
 00:05:59,089 --> 00:06:06,056
 and what you see is each black square is a bug that a particular evaluator found.
 
-83
+85
 00:06:07,078 --> 00:06:11,090
 An individual evaluator represents a row of this matrix
 
-84
+86
 00:06:11,090 --> 00:06:15,003
 and there’s about twenty evaluators in this set.
 
-85
+87
 00:06:15,003 --> 00:06:16,097
 The columns represent the problems.
 
-86
+88
 00:06:16,097 --> 00:06:21,056
-And what you can see is that there’s some problems that were fine by relatively few evaluators
+And what you can see is that there’s some problems that were found by relatively few evaluators
 
-87
+89
 00:06:21,056 --> 00:06:24,062
 and other stuff which almost everybody found.
 
-88
+90
 00:06:24,062 --> 00:06:29,005
 So we’re going to call the stuff on the right the easy problems and the stuff on the left hard problems.
 
-89
+91
 00:06:30,008 --> 00:06:35,000
 And so, in aggregate, what we can say is that no evaluator found every problem,
 
-90
+92
 00:06:35,000 --> 00:06:41,040
 and some evaluators found more than others, and so there are better and worse people to do this.
 
-91
+93
 00:06:43,000 --> 00:06:44,095
 So why not have lots of evaluators?
 
-92
+94
 00:06:44,095 --> 00:06:48,087
 Well, as you add more evaluators, they do find more problems;
 
-93
+95
 00:06:49,061 --> 00:06:53,015
 but it kind of tapers off over time — you lose that benefit eventually.
 
-94
+96
 00:06:53,054 --> 00:06:58,043
 And so from a cost-benefit perspective it’s just stops making sense after a certain point.
 
-95
+97
 00:06:59,003 --> 00:07:00,060
 So where’s the peak of this curve?
 
-96
+98
 00:07:00,060 --> 00:07:04,013
 It’s of course going to depend on the user interface that you’re working with,
 
-97
+99
 00:07:04,013 --> 00:07:08,047
 how much you’re paying people, how much time is involved — all sorts of factors.
 
-98
+100
 00:07:08,047 --> 00:07:13,045
 Jakob Nielsen’s rule of thumb for these kinds of user interfaces and heuristic evaluation
 
-99
+101
 00:07:13,045 --> 00:07:19,003
 is that three to five people tends to work pretty well; and that’s been my experience too.
 
-100
+102
 00:07:20,017 --> 00:07:24,001
 And I think that definitely one of the reasons that people use heuristic evaluation
 
-101
+103
 00:07:24,001 --> 00:07:28,004
 is because it can be an extremely cost-effective way of finding problems.
 
-102
+104
 00:07:29,011 --> 00:07:31,059
 In one study that Jacob Nielsen ran,
 
-103
+105
 00:07:31,059 --> 00:07:37,029
 he estimated that the cost of the problems found with heuristic evaluation were $500,000
 
-104
+106
 00:07:37,029 --> 00:07:41,017
 and the cost of performing it was just over $10,000,
 
-105
+107
 00:07:41,017 --> 00:07:48,098
 and so he estimates a 48-fold benefit-cost ratio for this particular user interface.
 
-106
+108
 00:07:48,098 --> 00:07:54,090
-Obviously, these numbers are back of the envelope and your mileage will vary.
+Obviously, these numbers are back of the envelope, and your mileage will vary.
 
-107
+109
 00:07:54,090 --> 00:07:58,098
 You can think about how to estimate the benefit that you get from something like this
 
-108
+110
 00:07:58,098 --> 00:08:03,030
-if you have in-house software tool using something like productivity increases —
+if you have an in-house software tool using something like productivity increases —
 
-109
+111
 00:08:03,030 --> 00:08:06,095
 that, if you are making an expense reporting system
 
-110
+112
 00:08:06,095 --> 00:08:11,067
-or other in-house system that will make people’s time efficiently used —
+or other in-house system that will make people’s time more efficiently used —
 
-111
+113
 00:08:11,067 --> 00:08:13,090
 that’s a big usability win.
 
-112
+114
 00:08:13,090 --> 00:08:17,053
 And if you’ve got software that you’re making available on the open market,
 
-113
+115
 00:08:17,053 --> 00:08:22,044
 you can think about the benefit from sales or other measures like that.
 
-114
+116
 00:08:23,060 --> 00:08:28,026
 One thing that we can get from that graph is that evaluators are more likely to find severe problems
 
-115
+117
 00:08:28,026 --> 00:08:29,061
 and that’s good news;
 
-116
+118
 00:08:29,061 --> 00:08:32,025
 and so with a relatively small number of people,
 
-117
+119
 00:08:32,025 --> 00:08:35,091
 you’re pretty likely to stumble across the most important stuff.
 
-118
+120
 00:08:35,091 --> 00:08:40,092
 However, as we saw with just one person in this particular case,
 
-119
+121
 00:08:40,092 --> 00:08:46,010
 even the best evaluator found only about a third of the problems of the system.
 
-120
+122
 00:08:46,010 --> 00:08:50,067
 And so that’s why ganging up a number of evaluators, say five,
 
-121
+123
 00:08:50,067 --> 00:08:54,097
 is going to get you most of the benefit that you’ll be going to be able to achieve.
 
-122
+124
 00:08:55,095 --> 00:09:00,001
 If we compare heuristic evaluation and user testing, one of the things that we see
 
-123
+125
 00:09:00,001 --> 00:09:06,092
 is that heuristic evaluation can often be a lot faster — It takes just an hour or two for an evaluator —
 
-124
+126
 00:09:06,092 --> 00:09:11,045
 and the mechanics of getting a user test up and running can take longer,
 
-125
+127
 00:09:11,045 --> 00:09:16,034
 not even accounting for the fact that you may have to build software.
 
-126
+128
 00:09:17,066 --> 00:09:21,046
 Also, the heuristic evaluation results come pre-interpreted
 
-127
+129
 00:09:21,046 --> 00:09:26,016
 because your evaluators are directly providing you with problems and things to fix,
 
-128
+130
 00:09:26,016 --> 00:09:34,031
 and so it saves you the time of having to infer from the usability tests what might be the problem or solution.
 
-129
+131
 00:09:35,063 --> 00:09:39,023
 Now conversely, experts walking through your system
 
-130
+132
 00:09:39,023 --> 00:09:44,009
 can generate false positives that wouldn’t actually happen in a real environment.
 
-131
-00:09:44,009 --> 00:09:45,067
-And this indeed does happen,
-
-132
-00:09:45,067 --> 00:09:50,037
-and so user testing is, sort of, by definition going to be more accurate.
-
 133
+00:09:44,010 --> 00:09:50,037
+And this indeed does happen, and so user testing is, sort of, by definition going to be more accurate.
+
+134
 00:09:52,009 --> 00:09:55,007
 At the end of the day I think it’s valuable to alternate methods:
 
-134
+135
 00:09:55,007 --> 00:10:00,030
 All of the different techniques that you’ll learn in this class for getting feedback can each be valuable,
 
-135
+136
 00:10:00,030 --> 00:10:04,084
 and that [by] cycling through them you can often get the benefits of each.
 
-136
+137
 00:10:04,084 --> 00:10:10,064
 And that can be because with user evaluation and user testing, you’ll find different problems,
 
-137
+138
 00:10:10,064 --> 00:10:15,049
 and by running HE or something like that early in the design process,
 
-138
+139
 00:10:15,049 --> 00:10:20,021
 you’ll avoid wasting real users that you may bring in later on.
 
-139
+140
 00:10:21,047 --> 00:10:24,094
 So now that we’ve seen the benefits, what are the steps?
 
-140
+141
 00:10:24,094 --> 00:10:29,063
 The first thing to do is to get all of your evaluators up to speed,
 
-141
+142
 00:10:29,063 --> 00:10:35,079
 on what the story is behind your software — any necessary domain knowledge they might need —
 
-142
+143
 00:10:35,081 --> 00:10:39,066
 and tell them about the scenario that you’re going to have them step through.
 
-143
+144
 00:10:40,087 --> 00:10:45,008
 Then obviously, you have the evaluation phase where people are working through the interface.
 
-144
+145
 00:10:45,008 --> 00:10:50,007
 Afterwards, each person is going to assign a severity rating,
 
-145
+146
 00:10:50,007 --> 00:10:52,074
 and you do this individually first,
 
-146
-00:10:52,074 --> 00:10:59,050
-and then you’re going to aggregate those into a group severity rating and produce an aggregate report out of that.
-
 147
+00:10:52,074 --> 00:10:56,012
+and then you’re going to aggregate those into a group severity rating
+
+148
+00:10:56,012 --> 00:10:59,050
+and produce an aggregate report out of that.
+
+149
 00:11:00,068 --> 00:11:06,028
 And finally, once you’ve got this aggregated report, you can share that with the design team,
 
-148
+150
 00:11:06,028 --> 00:11:09,071
 and the design team can discuss what to do with that.
 
-149
+151
 00:11:10,000 --> 00:11:12,090
 Doing this kind of expert review can be really taxing,
 
-150
+152
 00:11:12,090 --> 00:11:16,009
 and so for each of the scenarios that you lay out in your design,
 
-151
+153
 00:11:16,009 --> 00:11:22,005
 it can be valuable to have the evaluator go through that scenario twice.
 
-152
+154
 00:11:22,005 --> 00:11:28,002
 The first time, they’ll just get a sense of it; and the second time, they can focus on more specific elements.
 
-153
+155
 00:11:30,002 --> 00:11:34,070
 If you’ve got some walk-up-and-use system, like a ticket machine somewhere,
 
-154
+156
 00:11:34,070 --> 00:11:38,089
 then you may want to not give people any background information at all,
 
-155
+157
 00:11:38,089 --> 00:11:42,009
 because if you’ve got people that are just getting off the bus or the train,
 
-156
+158
 00:11:42,009 --> 00:11:45,036
 and they walk up to your machine without any prior information,
 
-157
+159
 00:11:45,036 --> 00:11:49,034
-that’s the experience you’ll want your evaluators’ to have.
+that’s the experience you’ll want your evaluators to have.
 
-158
+160
 00:11:49,034 --> 00:11:53,048
 On the other hand, if you’re going to have a genomic system or other expert user interface,
 
-159
+161
 00:11:53,048 --> 00:11:57,001
 you’ll want to to make sure that whatever training you would give to real users,
 
-160
+162
 00:11:57,001 --> 00:11:59,057
 you’re going to give to your evaluators as well.
 
-161
+163
 00:11:59,057 --> 00:12:03,055
 In other words, whatever the background is, it should be realistic.
 
-162
+164
 00:12:05,073 --> 00:12:08,064
 When your evaluators are walking through your interface,
 
-163
+165
 00:12:08,064 --> 00:12:12,057
 it’s going to be important to produce a list of very specific problems
 
-164
+166
 00:12:12,057 --> 00:12:16,098
 and explain those problems with regard to one of the design heuristics.
 
-165
+167
 00:12:16,098 --> 00:12:21,020
 You don’t want people to just to be, like, “I don’t like it.”
 
-166
+168
 00:12:21,020 --> 00:12:26,023
 And in order to maxilinearly preach you these results for the design team;
 
-167
+169
 00:12:26,023 --> 00:12:31,044
 you’ll want to list each one of these separately so that they can be dealt with efficiently.
 
-168
+170
 00:12:31,044 --> 00:12:37,015
 Separate listings can also help you avoid listing the same repeated problem over and over again.
 
-169
+171
 00:12:37,015 --> 00:12:42,048
 If there’s a repeated element on every single screen, you don’t want to list it at every single screen;
 
-170
+172
 00:12:42,048 --> 00:12:45,081
 you want to list it once so that it can be fixed once.
 
-171
+173
 00:12:46,088 --> 00:12:52,032
 And these problems can be very detailed, like “the name of something is confusing,”
 
-172
+174
 00:12:52,032 --> 00:12:55,070
 or it can be something that has to do more with the flow of the user interface,
 
-173
+175
 00:12:55,070 --> 00:13:02,010
 or the architecture of the user experience and that’s not specifically tied to an interface element.
 
-174
+176
 00:13:03,023 --> 00:13:07,004
 Your evaluators may also find that something is missing that ought to be there,
 
-175
+177
 00:13:07,004 --> 00:13:11,024
 and this can be sometime ambiguous with early prototypes, like paper prototypes.
 
-176
+178
 00:13:11,024 --> 00:13:17,036
 And so you’ll want to clarify whether the user interface is something that you believe to be complete,
 
-177
+179
 00:13:17,036 --> 00:13:21,076
 or whether there are intentional elements missing ahead of time.
 
-178
-00:13:22,017 --> 00:13:28,007
-And, of course, sometimes there are features that are going to be obviously there that are implied by the user interface.
+180
+00:13:22,017 --> 00:13:25,078
+And, of course, sometimes there are features that are going to be obviously there
 
-179
+181
+00:13:25,078 --> 00:13:28,007
+that are implied by the user interface.
+
+182
 00:13:28,007 --> 00:13:31,089
 And so, mellow out, and relax on those.
 
-180
+183
 00:13:34,050 --> 00:13:36,075
 After your evaluators have gone through the interface,
 
-181
+184
 00:13:36,075 --> 00:13:41,026
 they can each independently assign a severity rating to all of the problems that they’ve found.
 
-182
+185
 00:13:41,026 --> 00:13:45,009
 And that’s going to enable you to allocate resources to fix those problems.
 
-183
-00:13:45,009 --> 00:13:50,097
-It can also help give you feedback about how well you’re doing in terms of the usability of your system in general,
+186
+00:13:45,009 --> 00:13:48,022
+It can also help give you feedback about how well you’re doing
 
-184
+187
+00:13:48,022 --> 00:13:50,097
+in terms of the usability of your system in general,
+
+188
 00:13:50,097 --> 00:13:55,017
 and give you a kind of a benchmark of your efforts in this vein.
 
-185
+189
 00:13:56,037 --> 00:14:01,011
 The severity measure that your evaluators are going to come up with is going to combine several things:
 
-186
+190
 00:14:01,011 --> 00:14:05,003
 It’s going to combine the frequency, the impact,
 
-187
+191
 00:14:05,003 --> 00:14:08,093
 and the pervasiveness of the problem that they’re seeing on the screen.
 
-188
+192
 00:14:08,093 --> 00:14:14,005
 So, something that is only in one place may be a less big deal
 
-189
+193
 00:14:14,005 --> 00:14:18,056
 than something that shows up throughout the entire user interface.
 
-190
+194
 00:14:18,056 --> 00:14:23,002
 Similarly, there are going to be some things like misaligned text,
 
-191
+195
 00:14:23,002 --> 00:14:27,055
 which may be inelegant, but aren’t a deal killer in terms of your software.
 
-192
+196
 00:14:29,006 --> 00:14:34,044
 And here is the severity rating system that Nielsen created; you can obviously use anything that you want:
 
-193
+197
 00:14:34,044 --> 00:14:36,069
 It ranges from zero to four,
 
-194
+198
 00:14:36,069 --> 00:14:41,089
 where zero is “at the end of the day your evaluator decides it actually is not usability problem,”
 
-195
+199
 00:14:41,089 --> 00:14:47,071
 all the way up to it being something really catastrophic that has to get fixed right away.
 
-196
-00:14:48,076 --> 00:14:56,002
-And here is an example of a particular problem that our TA Robby found when he was taking CS147 as a student.
+200
+00:14:48,076 --> 00:14:51,033
+And here is an example of a particular problem
 
-197
+201
+00:14:51,033 --> 00:14:56,002
+that our TA Robby found when he was taking CS147 as a student.
+
+202
 00:14:56,002 --> 00:15:01,007
 He walked through somebody’s mobile interface that had a “weight” entry element to it;
 
-198
+203
 00:15:01,007 --> 00:15:05,091
 and he realized that once you entered your weight, there is no way to edit it after the fact.
 
-199
+204
 00:15:05,091 --> 00:15:12,025
-So, that’s kind of clunky, you wish you could fix it, [but] maybe not a disaster.
+So, that’s kind of clunky, you wish you could fix it — maybe not a disaster.
 
-200
+205
 00:15:12,025 --> 00:15:17,008
 And so what you see here is he’s listed the issue, he’s given it a severity rating,
 
-201
+206
 00:15:17,008 --> 00:15:23,015
 he’s got the heuristic that it violates, and then he describes exactly what the problem is.
 
-202
+207
 00:15:23,063 --> 00:15:26,086
 And finally, after all your evaluators have gone through the interface,
 
-203
+208
 00:15:26,086 --> 00:15:31,027
 listed their problems, and combined them in terms of the severity and importance,
 
-204
+209
 00:15:31,027 --> 00:15:34,018
 you’ll want to debrief with the design team.
 
-205
+210
 00:15:34,018 --> 00:15:39,017
 This is a nice chance to be able to discuss general issues in the user interface and qualitative feedback,
 
-206
+211
 00:15:39,017 --> 00:15:42,023
 and it gives you a chance to go through each of these items
 
-207
+212
 00:15:42,023 --> 00:15:45,068
 and suggest improvements on how you can address these problems.
 
-208
+213
 00:15:47,071 --> 00:15:51,009
 In this debrief session, it can be valuable for the development team
 
-209
+214
 00:15:51,009 --> 00:15:55,091
 to estimate the amount of effort that it would take to fix one of these problems.
 
-210
+215
 00:15:55,091 --> 00:16:01,043
 So, for example, if you’ve got something that is one on your severity scale and not too big a deal —
 
-211
+216
 00:16:01,043 --> 00:16:06,012
 it might have something to do with wording and its dirt simple to fix —
 
-212
+217
 00:16:06,012 --> 00:16:08,033
 that tells you “go ahead and fix it.”
 
-213
+218
 00:16:08,033 --> 00:16:11,014
 Conversely, you may having something which is a catastrophe
 
-214
+219
 00:16:11,014 --> 00:16:15,048
 which takes a lot more effort, but its importance will lead you to fix it.
 
-215
+220
 00:16:15,048 --> 00:16:19,060
 And there’s other things where the importance relative to the cost involved
 
-216
+221
 00:16:19,060 --> 00:16:22,081
 just don’t make sense to deal with right now.
 
-217
+222
 00:16:22,081 --> 00:16:26,086
 And this debrief session can be a great way to brainstorm future design ideas,
 
-218
+223
 00:16:26,086 --> 00:16:29,072
 especially while you’ve got all the stakeholders in the room,
 
-219
+224
 00:16:29,072 --> 00:16:34,037
 and the ideas about what the issues are with the user interface are fresh in their minds.
 
-220
+225
 00:16:34,037 --> 00:16:40,074
 In the next two videos we’ll go through Neilsons’ ten heuristics and talk more about what they mean.
