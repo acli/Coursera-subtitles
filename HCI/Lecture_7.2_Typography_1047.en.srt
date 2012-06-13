@@ -248,7 +248,7 @@ These numbers, set in Neutraface,
 
 63
 00:05:01,009 --> 00:05:06,002
-provide an example an example of something that has just small ascenders and descenders;
+provide an example of something that has just small ascenders and descenders;
 
 64
 00:05:06,002 --> 00:05:09,046
