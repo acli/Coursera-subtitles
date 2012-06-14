@@ -28,7 +28,10 @@
 import time
 import sys
 import re
+import pdb
+
 import nltk.data
+from nltk.tokenize import TreebankWordTokenizer
 
 from nltk.corpus import treebank
 from nltk import treetransforms
@@ -113,6 +116,7 @@ class Timing:
 
     if self.length_metric(s) > self.THRES:
       sys.stderr.write('Warning: Line %d too long: %s\n' % (self.seq + 1, s))
+      pdb.set_trace()
 
     for i, token in enumerate(tokens):
       chk = self.tokens[self.ptr + i][0]
@@ -129,10 +133,12 @@ class Timing:
     self.ptr += n
     self.seq += 1
 
-  def normalize_output(self, s):
+  def normalize_output(self, s0):
     """ These are not movies. Remove [cough] or [sound] but not too early. """
+    s = s0.encode('utf-8')
     s = re.sub(r'(\s*)\[(?:cough|sound)\](\s*)', r'\1\2', s)
     s = re.sub(r'\s+', r' ', s, re.DOTALL) # again
+    s = re.sub(r"'", ur'’', s)
     return s
 
 
@@ -147,13 +153,12 @@ STATE_TIMECODE_FOUND = 3
 
 def normalize_input(source):
   source = re.sub(r'\s+', r' ', source, re.DOTALL)
-  source = re.sub(r"'", r'’', source)
 
   #
   # stanford-bot favours extremely colloquial forms;
   # this is decidedly inappropriate for lectures.
   #
-  source = re.sub(r'\bcuz\b', r'’cause', source)
+  source = re.sub(r'\bcuz\b', r"'cause", source)
   source = re.sub(r'\bgonna\b', r'going to', source)
   source = re.sub(r'\bwanna\b', r'want to', source)
 
