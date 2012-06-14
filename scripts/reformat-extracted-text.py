@@ -52,6 +52,9 @@ class Timing:
     self.seq = 0
     self.ptr = 0
 
+    self.sent_tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
+    self.word_tokenizer = TreebankWordTokenizer()
+
     sys.stderr.write('Reading tree bank data...')
     t0 = time.time()
     productions = []
@@ -103,13 +106,17 @@ class Timing:
     t_i, t_f = self.decode_timecode(node[1])
     self.raw.append([id, t_i, t_f, node[2:]])
 
-    tokens = (' '.join(node[2:])).split(' ')
+    #tokens = (' '.join(node[2:])).split(' ')
+    tokens = []
+    for s in self.sent_tokenizer.tokenize(' '.join(node[2:])):
+      tokens += self.word_tokenizer.tokenize(s)
     dt = (t_f - t_i)/len(tokens)
     for i, token in enumerate(tokens):
       self.tokens.append([token, t_i + dt*i])
 
   def emit_segment(self, s):
-    tokens = s.split(' ')
+    #tokens = s.split(' ')
+    tokens = self.word_tokenizer.tokenize(s)
     n = len(tokens)
     t_i = self.tokens[self.ptr][1]
     t_f = self.tokens[self.ptr + n][1] if self.ptr + n < len(self.tokens) else self.raw[-1][2]
@@ -120,6 +127,7 @@ class Timing:
 
     for i, token in enumerate(tokens):
       chk = self.tokens[self.ptr + i][0]
+      sys.stderr.write('DEBUG: emit=%s, mem=%s\n' % (token, chk))
       if token.strip('.') != chk.strip('.'):
         raise Exception("Near %s: Expecting \"%s\" but found \"%s\"" % (
                         self.time_str(self.tokens[self.ptr + i][1]),
@@ -192,7 +200,6 @@ def normalize_input(source):
 
 
 def reformat_input(f):
-  sent_detector = nltk.data.load('tokenizers/punkt/english.pickle')
   source = ''
   memory = []
   timing = Timing()
@@ -235,7 +242,7 @@ def reformat_input(f):
 
   source = normalize_input(source)
 
-  for s in sent_detector.tokenize(source):
+  for s in timing.sent_tokenizer.tokenize(source):
     s = re.sub(r'([\.!\?]"?)\.', r'\1', s)
     if state == STATE_TIMECODE_FOUND:
       timing.emit_segment(s)
