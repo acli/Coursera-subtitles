@@ -60,13 +60,13 @@ class Timing:
       for tree in nltk.corpus.treebank.parsed_sents(fileid):
         productions += tree.productions()
     sys.stderr.write(' %d trees read in %.2fs\n' \
-	% (len(productions), time.time() - t0))
+        % (len(productions), time.time() - t0))
 
     sys.stderr.write('Training parser...')
     t0 = time.time()
     self.grammar = nltk.induce_pcfg(S, productions)
     sys.stderr.write(' %d productions inducted in %.2fs\n' \
-	% (len(self.grammar.productions()), time.time() - t0))
+        % (len(self.grammar.productions()), time.time() - t0))
 
 
   def decode_timecode(self, timecode):
@@ -74,28 +74,28 @@ class Timing:
     m = self.PAT_TIMECODE_CAPTURE.search(timecode)
     if m:
       t_i = 3600000*int(m.group(1)) + 60000*int(m.group(2)) \
-		  + 1000*int(m.group(3)) + int(m.group(4))
+                  + 1000*int(m.group(3)) + int(m.group(4))
       t_f = 3600000*int(m.group(5)) + 60000*int(m.group(6)) \
-		  + 1000*int(m.group(7)) + int(m.group(8))
+                  + 1000*int(m.group(7)) + int(m.group(8))
     return t_i, t_f
 
   def time_str(self, t):
     return "%02d:%02d:%02d,%03d" % (int(t/3600000), int(t/60000)%60, \
-					    int(t/1000)%60, t%1000)
+                                            int(t/1000)%60, t%1000)
 
   def length_metric(self, s):
     """ A very simple length metric that assumes all characters have width 4
         except ', 1, I, i, l which have width 2
-	and m, w and uppercase letters which have width 7
+        and m, w and uppercase letters which have width 7
     """
     it = 0
     for c in s:
       if self.PAT_NARROW.search(c):
-	it += 2
+        it += 2
       elif self.PAT_WIDE.search(c):
-	it += 7
+        it += 7
       else:
-	it += 4
+        it += 4
     return it
 
   def remember(self, node):
@@ -121,10 +121,10 @@ class Timing:
     for i, token in enumerate(tokens):
       chk = self.tokens[self.ptr + i][0]
       if token.strip('.') != chk.strip('.'):
-	raise Exception("Near %s: Expecting \"%s\" but found \"%s\"" % (
-			self.time_str(self.tokens[self.ptr + i][1]),
-			str(token),
-			str(chk)))
+        raise Exception("Near %s: Expecting \"%s\" but found \"%s\"" % (
+                        self.time_str(self.tokens[self.ptr + i][1]),
+                        str(token),
+                        str(chk)))
 
 
     print "%d\r" % (self.seq + 1)
@@ -172,7 +172,7 @@ def normalize_input(source):
   # But NLTK gets confused (?!) so we still have to add a period...
   #
   source = re.sub(r'([^\.]) (Also|And|Because|But|Here|Or)\b', \
-		  r'\1. \2', source)
+                  r'\1. \2', source)
   #
   # There are other random formatting bugs that from my experience
   # are caused by training on PDF files. These are too numerous
@@ -204,18 +204,18 @@ def reformat_input(f):
   for s in map(str.strip, f.readlines()):
     if state == STATE_INIT:
       if PAT_ID.search(s):
-	memory = [s]
-	state = STATE_ID_FOUND
+        memory = [s]
+        state = STATE_ID_FOUND
       else:
-	source = ' '.join(memory)
-	state = STATE_TEXT
+        source = ' '.join(memory)
+        state = STATE_TEXT
     elif state == STATE_ID_FOUND:
       if PAT_TIMECODE.search(s):
-	memory.append(s)
-	state = STATE_TIMECODE_FOUND
+        memory.append(s)
+        state = STATE_TIMECODE_FOUND
       else:
-	source = ' '.join(memory)
-	state = STATE_TEXT
+        source = ' '.join(memory)
+        state = STATE_TEXT
     elif state == STATE_TIMECODE_FOUND and PAT_ID.search(s):
       memory = [s]
     elif state == STATE_TIMECODE_FOUND and PAT_TIMECODE.search(s):
@@ -225,9 +225,9 @@ def reformat_input(f):
       memory = None
     else:
       if state == STATE_TIMECODE_FOUND:
-	memory.append(normalize_input(s))
+        memory.append(normalize_input(s))
       if source:
-	source += ' '
+        source += ' '
       source += s
 
   if state == STATE_TIMECODE_FOUND and memory is not None:
