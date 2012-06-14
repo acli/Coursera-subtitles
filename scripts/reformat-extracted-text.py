@@ -94,16 +94,23 @@ class Timing:
     for i, token in enumerate(tokens):
       chk = self.tokens[self.ptr + i][0]
       if token.strip('.') != chk.strip('.'):
-	raise Exception("Near %s: looking for %s but found %s" % (
+	raise Exception("Near %s: Expecting \"%s\" but found \"%s\"" % (
 			self.time_str(self.tokens[self.ptr + i][1]),
 			str(token),
 			str(chk)))
 
+
     print "%d\r" % (self.seq + 1)
     print "%s --> %s\r" % (self.time_str(t_i), self.time_str(t_f))
-    print "%s\r\n\r" % s
+    print "%s\r\n\r" % self.normalize_output(s)
     self.ptr += n
     self.seq += 1
+
+  def normalize_output(self, s):
+    """ These are not movies. Remove [cough] or [sound] but not too early. """
+    s = re.sub(r'(\s*)\[(?:cough|sound)\](\s*)', r'\1\2', s)
+    s = re.sub(r'\s+', r' ', s, re.DOTALL) # again
+    return s
 
 
 PAT_ID = re.compile(r'^\d+$')
@@ -138,6 +145,15 @@ def normalize_input(source):
   #
   source = re.sub(r'([^\.]) (Also|And|Because|But|Here|Or)\b', \
 		  r'\1. \2', source)
+  #
+  # There are other random formatting bugs that from my experience
+  # are caused by training on PDF files. These are too numerous
+  # to count and you really can't fix them all because you can't
+  # predict them all :-(
+  #
+  source = re.sub(r'\b([Ii]t|[Tt]here)\?([ds])\b', r"\1'\2", source)
+  source = re.sub(r'\b(softwa) (re)\b', r"\1\2", source)
+  source = re.sub(r'(stru) (ctur)', r"\1\2", source)
 
   #
   # This is for NLTK. Hard to believe. But true :P
@@ -204,7 +220,7 @@ def main(args):
     reformat_input(sys.stdin)
   else:
     for file in args:
-      reformat_input(file, 'r')
+      reformat_input(open(file, 'r'))
 
 if __name__ == '__main__':
   args = sys.argv[1:]
