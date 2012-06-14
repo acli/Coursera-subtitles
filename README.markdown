@@ -13,13 +13,6 @@ In the `scripts` directory you will find two scripts:
   sense for people who speak English; this is also sent to
   standard output.
 
-- `reformat-extracted-text.py` attempts to reformat an actual SRT
-  file (or the output of `extract-text-from-srt`) so that the
-  subtitles will make more sense for people who speak English;
-  this is also sent to standard output. This is an experimental
-  rewrite that uses NLTK in an attempt to get more accurate in
-  the splits.
-
 The canonical way to run this is to feed `extract-text-from-srt`
 an SRT file that you got from Amara, then pipe this to
 `reformat-extracted-text` and then redirect this to a text file.
@@ -31,6 +24,23 @@ Note that `reformat-extracted-text` is not a particularly
 intelligent piece of software. You *will* need to review the
 output it gives you; but in general what it gives you should
 at least be better than stock stanford-bot (Cogi) output.
+
+There is also a third:
+
+- `reformat-extracted-text.py` attempts to reformat an actual SRT
+  file (or the output of `extract-text-from-srt`) so that the
+  subtitles will make more sense for people who speak English;
+  this is also sent to standard output. This is an experimental
+  rewrite that uses NLTK in an attempt to get more accurate in
+  the splits.
+
+My goal is to have `reformat-extracted-text.py` be more intelligent
+than either of my old scripts, but it is not there yet.
+I have used lecture 5.2 of the HCI course as a test
+and found that unless I can find a way do more splits on the text,
+it will take more time to use this new script
+to fix a set of Cogi-generated transcripts
+than to use the two old scripts.
 
 Things to watch out for if you want to work on Coursera’s subtitles:
 ===================================================================
