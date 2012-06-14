@@ -99,15 +99,11 @@ the scripts directory of this repo.
 List of videos:
 ==============
 
-(Needed back when Amara didn’t provide a way to give
-you a list of all videos you have done)
-
 Here are a collection of all the subtitles I have done or QA’d
-for the Coursera classes I have taken.  For some of my thoughts
-on this whole exercise (of transcribing lectures), please head
-over to http://w.gniw.ca/?p=735
+for the Coursera classes I have taken:
 
-A more recent post can be found at http://w.gniw.ca/?p=937
+(This list is not currently exactly needed;
+but it was back when you have no way to get such a list on Amara’s interface)
 
 Transcribed from scratch:
 
@@ -170,3 +166,16 @@ really doesn’t work, especially when the transcripts are being used as
 a basis for further translations — they simply contain too many errors,
 sometimes to the point of saying the opposite of what’s actually said.
 
+See also:
+========
+
+1.  The [Video Subtitles][1] article on the Coursera wiki, where I wrote the whole [Finer Points][2] section.
+
+2.  [Some thoughts on transcribing Coursera lectures][3] on my blog.
+
+3.  [Some comments about Amara’s speech recognizer][4] on my blog.
+
+[1]: https://share.coursera.org/wiki/index.php/Video_Subtitles
+[2]: https://share.coursera.org/wiki/index.php/Video_Subtitles#Finer_Points
+[3]: http://w.gniw.ca/?p=735
+[4]: http://w.gniw.ca/?p=937
