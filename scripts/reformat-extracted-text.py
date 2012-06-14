@@ -25,9 +25,15 @@
 #    reasons you will still need to do a manual review.
 #
 
+import time
 import sys
 import re
 import nltk.data
+
+from nltk.corpus import treebank
+from nltk import treetransforms
+from nltk import induce_pcfg
+from nltk.parse import pchart
 
 
 class Timing:
@@ -42,6 +48,23 @@ class Timing:
     self.tokens = []
     self.seq = 0
     self.ptr = 0
+
+    sys.stderr.write('Reading tree bank data...')
+    t0 = time.time()
+    productions = []
+    S = nltk.Nonterminal('S')
+    for fileid in nltk.corpus.treebank.fileids():
+      for tree in nltk.corpus.treebank.parsed_sents(fileid):
+        productions += tree.productions()
+    sys.stderr.write(' %d trees read in %.2fs\n' \
+	% (len(productions), time.time() - t0))
+
+    sys.stderr.write('Training parser...')
+    t0 = time.time()
+    self.grammar = nltk.induce_pcfg(S, productions)
+    sys.stderr.write(' %d productions inducted in %.2fs\n' \
+	% (len(self.grammar.productions()), time.time() - t0))
+
 
   def decode_timecode(self, timecode):
     t_i, t_f = None, None
