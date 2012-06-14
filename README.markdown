@@ -52,8 +52,17 @@ upload the *same* SRT file back onto Amara (i.e., mimic the bot’s
 behaviour). This will reactivate the “Modify these subtitles”
 link and allow you to continue with your subtitling.
 
-(updated June 13, 2012)
+(updated June 14, 2012)
 
+If you have the time and have good ears and good editorial intuition,
+come, join in and work on the subtitles!
+A speech recognition system has left a big mess
+that can confuse and mislead students,
+sometimes to the point of telling them the exact opposite of what’s being said.
+Your mission is to slay the dragon and return peace to the land of Coursera :-)
+
+Anyway, if you do help out,
+there are some finer points that you need to be aware of.
 These are not obvious, and I found them out the hard way, If you
 haven’t started yet, then it’d be better to know them before you
 start.
@@ -93,8 +102,8 @@ start.
    in fact extremely important to get it right, because it will
    be used as the basis for non-English subtitles.
 
-Note: A couple of scripts to faciliate step 3 can be found in
-the scripts directory of this repo.
+If you are a Coursera student, you can also find these notes
+[on the Coursera wiki][2].
 
 List of videos:
 ==============
@@ -152,19 +161,10 @@ TO DO:
 Current focus:
 =============
 
-- To get all HCI videos properly transcribed, as I am nominally enrolled;
-  though I have already given up on the studio track (primarily due to
-  disillusionment and not due to workload).
+- To get all HCI videos properly transcribed.
 
 - If time permits, to get at least the SaaS videos either transcribed
   (this would mean the instructor chats) or properly QA’d.
-
-If you have the time and have good ears and good editorial intuition,
-you are welcome to join in to fix this big mess created by the machine
-transcription software “stanford-bot.” Machine transcription of lectures
-really doesn’t work, especially when the transcripts are being used as
-a basis for further translations — they simply contain too many errors,
-sometimes to the point of saying the opposite of what’s actually said.
 
 See also:
 ========
