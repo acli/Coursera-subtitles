@@ -44,7 +44,7 @@ class Timing:
   PAT_NARROW = re.compile(r"^(?:[\..:;!'1Iil]|‘|’)$")
   PAT_WIDE = re.compile(r'^(?:[A-Zmw]|—)$')
 
-  THRES = 432
+  THRES = 432 # about 108 characters
 
   def __init__(self):
     self.raw = []
@@ -251,6 +251,12 @@ def reformat_input(f):
 
 
 def main(args):
+  # FIXME - Stupid unicode workaround, thanks to Anne Lambert
+  # https://class.coursera.org/nlp/forum/thread?thread_id=1849
+  import sys
+  reload(sys)
+  sys.setdefaultencoding('utf-8')
+
   if len(args) == 0:
     reformat_input(sys.stdin)
   else:
