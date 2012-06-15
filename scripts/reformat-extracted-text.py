@@ -142,14 +142,14 @@ class Timing:
     n = 0
     for i, token in enumerate(tokens):
       chk = self.tokens[self.ptr + n][0]
-      sys.stderr.write('DEBUG: emit=%s, mem=%s\n' % (token, chk))
+      #sys.stderr.write('DEBUG: emit=%s, mem=%s\n' % (token, chk))
       if token == '.' and chk != '.':
-        sys.stderr.write('DEBUG: resync\n')
+        #sys.stderr.write('DEBUG: resync\n')
         continue
       if token != '.' and chk == '.':
         n += 1
         chk = self.tokens[self.ptr + n][0]
-        sys.stderr.write('DEBUG: resync: mem=%s\n' % (chk))
+        #sys.stderr.write('DEBUG: resync: mem=%s\n' % (chk))
       if token != chk:
         raise Exception("Near %s: Expecting \"%s\" but found \"%s\"" % (
                         str(self.tokens[self.ptr + n][1]),
