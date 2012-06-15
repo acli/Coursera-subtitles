@@ -344,6 +344,12 @@ def normalize_input(source):
   source = re.sub(r'\bwanna\b', r'want to', source)
 
   #
+  # easy terminology fixes
+  # (even in Canada we don't write "dialogue box" with the "ue")
+  #
+  source = re.sub(r'\b(dialog)ue (box)', r'\1 \2', source)
+
+  #
   # stanford-bot's output contains numerous formatting bugs,
   # including missing periods at the end of sentences.
   # Try to make some guesses in an attempt to fix *that*.
