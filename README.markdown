@@ -1,11 +1,28 @@
 What is this:
 ============
 
-In the `scripts` directory you will find two scripts:
+In the `scripts` directory you will find:
+
+- `reformat-extracted-text.py` attempts to reformat either an
+  actual SRT file or the output of `old/extract-text-from-srt`
+  so that the way the transcript is broken into subtitles will
+  make more sense for people who speak English. The result of
+  the reformatting is sent to standard output.
+
+The script might have bugs as it is still a new rewrite.
+The realigned timings are estimates only and they can be off
+but should not be too out of whack.
+However, sometimes it will still break the transcript in a sub-optimal way
+and sometimes it may fail to find suitable break points.
+As I continue using it I expect there to be some improvements.
+
+In the `old` subdirectory inside `scripts` you can find two more scripts.
+These are no longer used for my own workflow,
+but you might still find them useful:
 
 - `extract-text-from-srt` strips out time codes and outputs the
   results to standard output. This is a sed script that has been
-  written on MacOS X and I haven’t tested it on other systems
+  written on MacOS X and which has never been tested it on any other system
   (not even Linux).
 
 - `reformat-extracted-text` attempts to reformat the output of
@@ -13,7 +30,8 @@ In the `scripts` directory you will find two scripts:
   sense for people who speak English; this is also sent to
   standard output.
 
-The canonical way to run this is to feed `extract-text-from-srt`
+The canonical way to run this set of two scripts
+is to feed `extract-text-from-srt`
 an SRT file that you got from Amara, then pipe this to
 `reformat-extracted-text` and then redirect this to a text file.
 Then you can proofread the text file, copy-and-paste it back to
@@ -26,21 +44,6 @@ output it gives you; but in general what it gives you should
 at least be better than stock stanford-bot (Cogi) output.
 
 There is also a third:
-
-- `reformat-extracted-text.py` attempts to reformat an actual SRT
-  file (or the output of `extract-text-from-srt`) so that the
-  subtitles will make more sense for people who speak English;
-  this is also sent to standard output. This is an experimental
-  rewrite that uses NLTK in an attempt to get more accurate in
-  the splits.
-
-My goal is to have `reformat-extracted-text.py` be more intelligent
-than either of my old scripts, but it is not there yet.
-I have used lecture 5.2 of the HCI course as a test
-and found that unless I can find a way do more splits on the text,
-it will take more time to use this new script
-to fix a set of Cogi-generated transcripts
-than to use the two old scripts.
 
 Things to watch out for if you want to work on Coursera’s subtitles:
 ===================================================================

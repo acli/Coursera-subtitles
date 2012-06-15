@@ -1,20 +1,16 @@
 #!/usr/bin/python
 # -*- coding: utf8 -*-
 #
-# THIS IS AN EXPERIMENTAL REWRITE - IT IS NOT WORKING TOO WELL YET!
-#
-# This script takes as standard input the extracted text from a
-# stanford-bot-generated SRT file, and reformats it into something
+# This script takes as standard input either a Cogi-generated SRT file,
+# or the extracted text from such a file; and reformats it into something
 # that is more sensible (in terms of line breaks) for use as subtitles.
-#
-# Apostrophes and quotation marks are left alone since I don't want to
-# deal with them in a script at this moment.
 #
 # Notes:
 #
-# 1. This script assumes that its input has already been processed with
-#    extract-text-from-srt. In other words it can't deal with a real
-#    SRT file. The time codes must already have been removed.
+# 1. The realigned timings are only estimates. I use estimates such as
+#    the estimated number of syllables in a word to help prevent the
+#    timings from getting too out of whack, but perfect timings are
+#    impossible. You still need to check the timings.
 #
 # 2. The script will not produce something that's 100% correct. It will
 #    attempt to split at correct sentence boundaries using the NLTK
