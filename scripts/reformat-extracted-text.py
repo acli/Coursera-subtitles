@@ -53,12 +53,15 @@ class Timing:
   PAT_SEMI_CLUSTER = re.compile(r"(?:[wy]+|(?:n't|sm|thm)$)")
   PAT_W = re.compile(r'[Ww]')
 
-  PAT_POSSIBLE_FRAGMENT_BOUNDARY = re.compile(r'(?:(?:'\
+  # Possible fragment boundaries, in decreasing preference
+  PAT_POSSIBLE_FRAGMENT_BOUNDARY = (
+    re.compile(r'(?:(?:'\
       + r'(?<=, )(?:and|if|that|where|whereas|which|who|why)\b'\
       + r')|(?:'\
       + r'\b(?:and again|and,? so),'\
       + r')|(?:'\
-      + r'\b(?:and will'\
+      + r'\b(?:and as'\
+      + r'|and will'\
       + r'|because'\
       + r'|is that|is one|is to'\
       + r'|rather than'\
@@ -67,8 +70,15 @@ class Timing:
       + r'|who)\b'\
       + r')|(?:'\
       + r'(?<=[,;] ).'\
-      + r'))')
-  PAT_PREP = re.compile(r'\b(?:above|at|in|on|to|unless|until|unto|upon)\b')
+      + r'))'),
+    re.compile(r'\b(?:above|at|in|on|to|unless|until|unto|upon)\b'),
+    re.compile(r'(?:(?:'\
+      + r'\b(?:and'\
+      + r'|but)\b'\
+      + r')|(?:'\
+      + r'(?<=[,;] ).'\
+      + r'))'),
+  )
 
   THRES = 432 # about 108 characters
 
@@ -197,7 +207,7 @@ class Timing:
 
   def break_into_fragments(self, s):
     it = None
-    for pat in (self.PAT_POSSIBLE_FRAGMENT_BOUNDARY, self.PAT_PREP):
+    for pat in self.PAT_POSSIBLE_FRAGMENT_BOUNDARY:
       it = self._break_into_fragments(s, pat)
       if it:
         break
