@@ -108,7 +108,7 @@ class Timing:
     # Figure out the set of tokens comprising this input
     tokens = []
     for s in self.sent_tokenizer.tokenize(normalize_input(' '.join(node[2:]))):
-      sys.stderr.write('DEBUG: s=%s\n' % (s))
+      #sys.stderr.write('DEBUG: s=%s\n' % (s))
       tokens += self.word_tokenizer.tokenize(s)
       # Work around NLTK weirdness (, not separated into a token)
       if tokens[-1] != ',' and tokens[-1][-1] == ',':
@@ -124,7 +124,7 @@ class Timing:
     dt = (t_f - t_i)/sum(w)
     t = t_i
     for i, token in enumerate(tokens):
-      sys.stderr.write('DEBUG: %s [%d]: %s\n' % (str(t), w[i], token))
+      #sys.stderr.write('DEBUG: %s [%d]: %s\n' % (str(t), w[i], token))
       self.tokens.append([token, t])
       t += dt * w[i]
 
