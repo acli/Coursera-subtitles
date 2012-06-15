@@ -1,0 +1,434 @@
+1
+00:00:01,087 --> 00:00:06,039
+Over the next several lectures, I'd like
+to introduce you to graphic design and the
+
+2
+00:00:06,039 --> 00:00:11,033
+set of strategies for helping you
+communicate more effectively, visually. To
+
+3
+00:00:11,033 --> 00:00:17,018
+start out with, let's look at this example
+here. Some undifferentiated text. What
+
+4
+00:00:17,018 --> 00:00:23,018
+might we be able to do typographically to
+improve this and how do we decide whether
+
+5
+00:00:23,018 --> 00:00:32,049
+we did well? One thing that we could is to
+introduce some white space into design and
+
+6
+00:00:32,049 --> 00:00:37,050
+as Robert Bringhurst writes with white
+space, some space must be narrow so that
+
+7
+00:00:37,050 --> 00:00:42,077
+others space must be wide. And some space
+must be emptied so that other space maybe
+
+8
+00:00:42,077 --> 00:00:48,073
+filled. So, let's empty out some space and
+fill up some others and we, you can see
+
+9
+00:00:48,073 --> 00:00:54,023
+here is by adding a little white space, we
+are able to trunk the, the visual design
+
+10
+00:00:54,023 --> 00:00:59,039
+so that the salient bits are grouped
+together and different bits are farther
+
+11
+00:00:59,039 --> 00:01:06,021
+apart. But I bet we could do more. So,
+what else, what else might we'd be able to
+
+12
+00:01:06,021 --> 00:01:11,030
+do here? Let's explore using typographic
+variation and size contrast to give some
+
+13
+00:01:11,030 --> 00:01:16,001
+sense of individual hierarchy and as
+Edward Tufte describes it, information
+
+14
+00:01:16,001 --> 00:01:21,040
+consist of differences that make a
+difference. So here we've done some adding
+
+15
+00:01:21,040 --> 00:01:25,078
+some scale and some weight, you know this
+may or may not be the best design
+
+16
+00:01:25,078 --> 00:01:30,079
+invitation in the world but it gives you a
+sense of the kind of leverage that you can
+
+17
+00:01:30,079 --> 00:01:35,040
+get by adding some typographic variation
+to your design. Of course you don't want
+
+18
+00:01:35,040 --> 00:01:40,030
+to go overboard but I like this exercise a
+lot. I got it from Jenifer Tidwell's book
+
+19
+00:01:40,030 --> 00:01:44,079
+Designing Interfaces which I highly
+recommend and I was going to bring it to
+
+20
+00:01:44,079 --> 00:01:49,070
+show in this video. I have two copies but
+I recommend it so often that they're both
+
+21
+00:01:49,070 --> 00:01:54,077
+lent out right now so you'll have to look
+it up. Often, a good visual design, like
+
+22
+00:01:54,077 --> 00:01:59,032
+good acting or good eye glasses goes
+unnoticed because the content comes
+
+23
+00:01:59,032 --> 00:02:04,018
+through clearly and unobstructed. Of
+course sometimes we do notice good design
+
+24
+00:02:04,018 --> 00:02:09,036
+and good acting for its flavor or for its
+ability to communicate to a certain idea.
+
+25
+00:02:09,036 --> 00:02:14,022
+But we notice in a different way than bad
+designer, bad acting. About this line, we
+
+26
+00:02:14,022 --> 00:02:18,027
+noticed when we t ripped over it like
+eyeglasses that are dirty, scratched and
+
+27
+00:02:18,027 --> 00:02:22,037
+perhaps the wrong prescription. If the
+squint to make sense of things and it's
+
+28
+00:02:22,037 --> 00:02:26,069
+not always conscious, sometimes it is just
+a little bad, it would be subconsciously
+
+29
+00:02:26,069 --> 00:02:30,074
+but we're still squinting and so a lot of
+design is about trying to make the
+
+30
+00:02:30,074 --> 00:02:35,035
+information as matters pumped through
+clearly. And to do this, I think there are
+
+31
+00:02:35,035 --> 00:02:40,080
+three major goals of a lot of visual
+design. The first goal is to guide people
+
+32
+00:02:40,080 --> 00:02:47,031
+to convey the structure, the relative
+importance and relationships. The second
+
+33
+00:02:47,031 --> 00:02:52,080
+one is to set up the phase of the
+interaction to draw people in, help orient
+
+34
+00:02:52,080 --> 00:02:59,019
+and provide hoops to dive deep. And the
+third is to use the visual design to
+
+35
+00:02:59,019 --> 00:03:04,076
+express the message of the information to
+give it a meaning and style and breathe
+
+36
+00:03:04,076 --> 00:03:11,082
+life into the content. So think about
+this, I'd like to show four homepages of
+
+37
+00:03:11,082 --> 00:03:20,071
+different sites. Here's the New York
+Times. Google. Craigslist. And the Webby
+
+38
+00:03:20,071 --> 00:03:26,071
+Awards. And I think in all four cases,
+each of these is really effective as using
+
+39
+00:03:26,071 --> 00:03:31,083
+the tools of visual design. Some more
+obviously than others. Let's go through
+
+40
+00:03:31,083 --> 00:03:36,074
+them again, this time, I'm going to blur
+each page to make the hierarchy more
+
+41
+00:03:36,074 --> 00:03:41,059
+salient and by emphasizing the actual
+text. So, here's the new York Times
+
+42
+00:03:41,059 --> 00:03:46,071
+blurred out and you can see that the
+overall hierarchy of the page is still
+
+43
+00:03:46,071 --> 00:03:52,012
+pretty clear. You could see the Heather.
+The exciting image to draw you in to set
+
+44
+00:03:52,012 --> 00:03:57,068
+of articles, navigation along the left and
+another set of navigation along the top.
+
+45
+00:03:58,071 --> 00:04:03,072
+Here's the Google homepage blurred and the
+blur on that tells you something about the
+
+46
+00:04:03,072 --> 00:04:08,056
+[inaudible]. With even just a little blur,
+the highlighted search and the navigation
+
+47
+00:04:08,056 --> 00:04:14,025
+bar disappears into the background as the
+same as the rest of that bar. But that's
+
+48
+00:04:14,025 --> 00:04:19,011
+okay because when most people see the
+screen, it probably have a good idea what
+
+49
+00:04:19,011 --> 00:04:24,028
+to do. In a sense, the most important part
+of the topic of highlighting is to cue the
+
+50
+00:04:24,028 --> 00:04:29,032
+possibility of clicking on other labels to
+get to other things. The Google logo on
+
+51
+00:04:29,032 --> 00:04:34,024
+the other hand, even with the fair amount
+of blurring, stil l reads loud and clear.
+
+52
+00:04:34,024 --> 00:04:38,097
+This page is famous minimalism makes the
+complicated web seem manageable. And
+
+53
+00:04:38,097 --> 00:04:43,065
+combine with that, the primary colors
+helped to emphasize the easiness of it
+
+54
+00:04:43,065 --> 00:04:49,040
+all. As a little bit of trivia, here's the
+original Google from when Larry Page and
+
+55
+00:04:49,040 --> 00:04:54,081
+[inaudible] were PHD students at Stanford
+and about this very first hard driver, I
+
+56
+00:04:54,081 --> 00:05:00,035
+got this lego bricks and I'm pretty sure
+that that's where the colors in the Google
+
+57
+00:05:00,035 --> 00:05:08,019
+logo come from or inspired by these legos.
+Here's the Craigslist homepage. A lot of
+
+58
+00:05:08,019 --> 00:05:13,018
+people might think I'm crazy in believing
+that it has a pretty good visual design,
+
+59
+00:05:13,018 --> 00:05:17,098
+after all, it looks like it was built in
+about 1996 and in fact it probably was
+
+60
+00:05:17,098 --> 00:05:22,079
+except for a little bit of updating on the
+content. Another reason people often
+
+61
+00:05:22,079 --> 00:05:27,096
+criticize Craigslist is that there's a lot
+of abbreviations and other things on here
+
+62
+00:05:27,096 --> 00:05:33,013
+which is just in general can make you feel
+inelegant or clunky or design for experts
+
+63
+00:05:33,013 --> 00:05:38,018
+only. But a lot of Craigslist users are
+repeat users and what you see here is in
+
+64
+00:05:38,018 --> 00:05:43,031
+the blurred version there is actually a
+pretty good information hierarchy that's
+
+65
+00:05:43,031 --> 00:05:48,038
+conveyed. So again we can see the title up
+in the top left. We can see a calendar
+
+66
+00:05:48,038 --> 00:05:53,044
+widget. We can see how the administration
+part of things as separated off to the
+
+67
+00:05:53,044 --> 00:05:58,064
+left hand side also. And then we can see a
+set of categorized in the middle and we
+
+68
+00:05:58,064 --> 00:06:03,057
+can see we have a different kind of
+navigation on the right. And the unblurred
+
+69
+00:06:03,057 --> 00:06:10,034
+version we can see that, that's for
+cities. And here's the web year awards.
+
+70
+00:06:10,034 --> 00:06:15,087
+Like with all four of these pages you can
+see how color is used sparingly and very
+
+71
+00:06:15,087 --> 00:06:21,074
+effectively. Most of the page is black and
+white. The main pieces of color we see are
+
+72
+00:06:21,074 --> 00:06:26,037
+no lower left, there's a block of red
+text, that tells you to watch the latest
+
+73
+00:06:26,037 --> 00:06:30,093
+[inaudible] awards. And on the top left,
+we see a little bit of color for the
+
+74
+00:06:30,093 --> 00:06:35,092
+social media that links over the site and
+again, we see the strong navigation along
+
+75
+00:06:35,092 --> 00:06:40,049
+the left hand side, the title in the top
+left, we have the page header in the
+
+76
+00:06:40,049 --> 00:06:45,053
+center here and the content below it and
+then, we have a major naviga tion element
+
+77
+00:06:45,053 --> 00:06:51,052
+along the top. When you think about it,
+all four of these pages which include some
+
+78
+00:06:51,052 --> 00:06:56,050
+of the most highly traffic sites on the
+web, are using pretty simple visual tools
+
+79
+00:06:56,050 --> 00:07:01,043
+to be able to convey organization and
+hierarchy and where to dry our eye on the
+
+80
+00:07:01,043 --> 00:07:05,082
+page. They're using typography, they're
+using layout, and they're using color. And
+
+81
+00:07:05,082 --> 00:07:10,029
+these are in a sense, pretty simple tools.
+What continually amazes me is the power
+
+82
+00:07:10,029 --> 00:07:14,055
+that's available with these tools. Putting
+this together provides the guiding,
+
+83
+00:07:14,055 --> 00:07:19,013
+phasing and messaging that we talked about
+at the beginning. And that in turn helps
+
+84
+00:07:19,013 --> 00:07:23,054
+people read, navigate and make sense of
+the world of information. There's a board
+
+85
+00:07:23,054 --> 00:07:27,087
+game, a fellow that's advertised with the
+tag line, "A minute to learn, a lifetime
+
+86
+00:07:27,087 --> 00:07:32,031
+to master." And that applies beautifully
+to visual design. You can start making use
+
+87
+00:07:32,031 --> 00:07:36,026
+of these principles right away and
+hopefully these videos would get you
