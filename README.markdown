@@ -149,9 +149,11 @@ Reformatting and QA of stanford-bot’s transcripts:
 - http://www.universalsubtitles.org/fr/videos/wB9UdDAP8a5X/en/329502/ (HCI 3.4)
 - http://www.universalsubtitles.org/fr/videos/P4C1NvtfhveB/en/335002/ (HCI 5.1)
 - http://www.universalsubtitles.org/fr/videos/Nq8BVvfcrJMI/en/334621/ (HCI 5.2)
+- http://www.universalsubtitles.org/fr/videos/DdShqs9hOPZk/en/334563/ (HCI 5.3)
 - http://www.universalsubtitles.org/fr/videos/4e1VKeiCW3BD/en/325004/ (HCI 6.1)
 - http://www.universalsubtitles.org/fr/videos/J4g1fGjMz6BN/en/325002/ (HCI 6.2)
 - http://www.universalsubtitles.org/fr/videos/GMB76WUpPRAc/en/325001/ (HCI 6.3)
+- http://www.universalsubtitles.org/fr/videos/rlfgSzTcqzTQ/en/336161/ (HCI 7.1) (to do)
 
 QA of other transcriptionist’s work:
 
