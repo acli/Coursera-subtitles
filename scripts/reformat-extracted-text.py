@@ -221,9 +221,14 @@ class Timing:
         start = [0] + candidate[1:n]
         end = candidate[1:n] + [len(s)]
         for i in range(0, n):
-          it.append(s[start[i]:end[i]])
+          det = s[start[i]:end[i]]
+          if self.length_metric(det) <= self.THRES:
+            it.append(det)
+          else:
+            it.append(None)
           sys.stderr.write('DEBUG: s[%d:%d] = "%s"\n' % (start[i], end[i], it[-1]))
-        break
+        if None not in candidate:
+          break
     return it
 
 
