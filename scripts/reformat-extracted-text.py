@@ -54,9 +54,17 @@ class Timing:
   PAT_W = re.compile(r'[Ww]')
 
   PAT_POSSIBLE_FRAGMENT_BOUNDARY = re.compile(r'(?:(?:'\
-      + r'(?<=, )(?:and|that|which|who|why)\b'\
+      + r'(?<=, )(?:and|if|that|where|whereas|which|who|why)\b'\
       + r')|(?:'\
-      + r'\b(?:because|is that|is one|is to|rather than|that)\b'\
+      + r'\b(?:and again|and,? so),'\
+      + r')|(?:'\
+      + r'\b(?:and will'\
+      + r'|because'\
+      + r'|is that|is one|is to'\
+      + r'|rather than'\
+      + r'|so that'\
+      + r'|that'\
+      + r'|who)\b'\
       + r')|(?:'\
       + r'(?<=[,;] ).'\
       + r'))')
@@ -144,7 +152,7 @@ class Timing:
 
     # Check for overlong sentences
     if self.length_metric(s) > self.THRES:
-      sys.stderr.write('Warning: Line %d too long: %s\n' % (self.seq + 1, s))
+      #sys.stderr.write('Warning: Line %d too long: %s\n' % (self.seq + 1, s))
       segments = self.break_into_fragments(s)
       #pdb.set_trace()
     else:
@@ -193,14 +201,14 @@ class Timing:
       it = self._break_into_fragments(s, pat)
       if it:
         break
-    if not it:
+    if not it or None in it:
       raise Exception('Failed to find suitable break points: %s' % s)
     return it
 
 
   def _break_into_fragments(self, s, pat):
-    it = []
-    for n in range(2, 5):
+    for n in range(2, 10):
+      it = []
       candidate = [None] * n
       delta = len(s)/n
       for i in range(1, n):
@@ -209,25 +217,23 @@ class Timing:
           start = possible_start - delta/j
           end = possible_start + delta/j
           m = pat.search(s, start, end)
-          sys.stderr.write('DEBUG: search(s, %d, %d)=%s\n' % (start, end, m))
           if m:
             candidate[i] = m.start()
             #pdb.set_trace()
             break
         if candidate[i] is None:
           break
-      sys.stderr.write('DEBUG: candidate=%s\n' % str(candidate))
       if None not in candidate[1:n]:
         start = [0] + candidate[1:n]
         end = candidate[1:n] + [len(s)]
         for i in range(0, n):
-          det = s[start[i]:end[i]]
-          if self.length_metric(det) <= self.THRES:
-            it.append(det)
+          candidate = s[start[i]:end[i]]
+          det = self.length_metric(candidate)
+          if det <= self.THRES:
+            it.append(candidate)
           else:
             it.append(None)
-          sys.stderr.write('DEBUG: s[%d:%d] = "%s"\n' % (start[i], end[i], it[-1]))
-        if None not in candidate:
+        if None not in it:
           break
     return it
 
