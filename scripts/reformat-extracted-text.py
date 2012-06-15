@@ -40,7 +40,6 @@ from nltk.parse import pchart
 
 
 class Timing:
-  PAT_TIMECODE_CAPTURE = re.compile(r'^(\d\d):(\d\d):(\d\d),(\d\d\d) --> (\d\d):(\d\d):(\d\d),(\d\d\d)$')
   PAT_NARROW = re.compile(r"^(?:[\..:;!'1Iil]|‘|’)$")
   PAT_WIDE = re.compile(r'^(?:[A-Zmw]|—)$')
 
@@ -73,18 +72,8 @@ class Timing:
 
 
   def decode_timecode(self, timecode):
-    t_i, t_f = None, None
-    m = self.PAT_TIMECODE_CAPTURE.search(timecode)
-    if m:
-      t_i = 3600000*int(m.group(1)) + 60000*int(m.group(2)) \
-                  + 1000*int(m.group(3)) + int(m.group(4))
-      t_f = 3600000*int(m.group(5)) + 60000*int(m.group(6)) \
-                  + 1000*int(m.group(7)) + int(m.group(8))
-    return t_i, t_f
+    return map(Timecode, timecode.split(' --> '))
 
-  def time_str(self, t):
-    return "%02d:%02d:%02d,%03d" % (int(t/3600000), int(t/60000)%60, \
-                                            int(t/1000)%60, t%1000)
 
   def length_metric(self, s):
     """ A very simple length metric that assumes all characters have width 4
@@ -100,6 +89,7 @@ class Timing:
       else:
         it += 4
     return it
+
 
   def remember(self, node):
     id = int(node[0])
@@ -130,13 +120,13 @@ class Timing:
       sys.stderr.write('DEBUG: emit=%s, mem=%s\n' % (token, chk))
       if token.strip('.') != chk.strip('.'):
         raise Exception("Near %s: Expecting \"%s\" but found \"%s\"" % (
-                        self.time_str(self.tokens[self.ptr + i][1]),
+                        str(self.tokens[self.ptr + i][1]),
                         str(token),
                         str(chk)))
 
 
     print "%d\r" % (self.seq + 1)
-    print "%s --> %s\r" % (self.time_str(t_i), self.time_str(t_f))
+    print "%s --> %s\r" % (str(t_i), str(t_f))
     print "%s\r\n\r" % self.normalize_output(s)
     self.ptr += n
     self.seq += 1
@@ -148,6 +138,43 @@ class Timing:
     s = re.sub(r'\s+', r' ', s, re.DOTALL) # again
     s = re.sub(r"'", ur'’', s)
     return s
+
+
+class Timecode:
+  PAT_TIMECODE_CAPTURE = re.compile(r'^(\d\d):(\d\d):(\d\d),(\d\d\d)$')
+
+  def __init__(self, timecode):
+    if isinstance(timecode, int) or isinstance(timecode, float):
+      self.milliseconds = timecode
+    else:
+      m = self.PAT_TIMECODE_CAPTURE.search(timecode)
+      if m:
+        self.milliseconds = 3600000*int(m.group(1)) + 60000*int(m.group(2)) \
+                                    + 1000*int(m.group(3)) + int(m.group(4))
+      else:
+        raise ValueError('Malformed timecode "%s"' % timecode)
+
+  def __str__(self):
+    t = self.milliseconds
+    return "%02d:%02d:%02d,%03d" % (int(t/3600000), int(t/60000)%60, \
+                                            int(t/1000)%60, t%1000)
+
+  def __add__(self, other):
+    return Timecode(self.milliseconds + (other.milliseconds \
+                            if isinstance(other, Timecode) else float(other)))
+
+  def __sub__(self, other):
+    return Timecode(self.milliseconds - (other.milliseconds \
+                            if isinstance(other, Timecode) else float(other)))
+
+  def __mul__(self, other):
+    return Timecode(self.milliseconds * other)
+
+  def __div__(self, other):
+    return Timecode(self.milliseconds / other)
+
+  def __truediv__(self, other):
+    return Timecode(self.milliseconds / float(other))
 
 
 PAT_ID = re.compile(r'^\d+$')
