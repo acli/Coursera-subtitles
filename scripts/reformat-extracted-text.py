@@ -50,7 +50,7 @@ class Timing:
 
   PAT_VOWEL_CLUSTER = re.compile(r'(?:ing|[aeiou]+|y$|y(?=[^aeiou]))')
   PAT_CONST_CLUSTER = re.compile(r'[bcdfghjklmnpqrstvxz]+')
-  PAT_SEMI_CLUSTER = re.compile(r"(?:[wy]+|(?:n't|sm)$)")
+  PAT_SEMI_CLUSTER = re.compile(r"(?:[wy]+|(?:n't|sm|thm)$)")
   PAT_W = re.compile(r'[Ww]')
 
   PAT_POSSIBLE_FRAGMENT_BOUNDARY = re.compile(r'(?:(?:'\
