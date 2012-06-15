@@ -43,6 +43,15 @@ class Timing:
   PAT_NARROW = re.compile(r"^(?:[\..:;!'1Iil]|‘|’)$")
   PAT_WIDE = re.compile(r'^(?:[A-Zmw]|—)$')
 
+  PAT_ACRONYM = re.compile(r'^(?:[A-Z]+|[Oo]k)$')
+  PAT_SHORT = re.compile(r'^(?:[",])$')
+  PAT_LONG = re.compile(r'^(?:[-;:\.])$')
+  PAT_ZERO = re.compile(r"^(?:'[ds]?|'[rv]e)$")
+
+  PAT_VOWEL = re.compile(r'(?:ing|[aeiou]+|y$|y(?=[^aeiou]))')
+  PAT_CONST = re.compile(r'[bcdfghjklmnpqrstvxz]+')
+  PAT_SEMI = re.compile(r"(?:[wy]+|(?:n't|sm)$)")
+
   THRES = 432 # about 108 characters
 
   def __init__(self):
@@ -106,10 +115,19 @@ class Timing:
         tokens.append(tokens[-1][-1])
         tokens[-2] = tokens[-2][0:-1]
 
+    # Estimate relative timing for each token
+    w = []
+    for token in tokens:
+      w.append(self.estimate_time_units(token))
+
     # Remember the estimate timing of each token
-    dt = (t_f - t_i)/len(tokens)
+    dt = (t_f - t_i)/sum(w)
+    t = t_i
     for i, token in enumerate(tokens):
-      self.tokens.append([token, t_i + dt*i])
+      sys.stderr.write('DEBUG: %s [%d]: %s\n' % (str(t), w[i], token))
+      self.tokens.append([token, t])
+      t += dt * w[i]
+
 
   def emit_segment(self, s):
     tokens = self.word_tokenizer.tokenize(s)
@@ -119,7 +137,8 @@ class Timing:
       sys.stderr.write('Warning: Line %d too long: %s\n' % (self.seq + 1, s))
       #pdb.set_trace()
 
-    # Double-check that things look sane
+    # Double-check that things look sane,
+    # and estimate the relative time needed for each token to be spoken
     n = 0
     for i, token in enumerate(tokens):
       chk = self.tokens[self.ptr + n][0]
@@ -148,6 +167,27 @@ class Timing:
     self.ptr += n
     self.seq += 1
 
+
+  def estimate_time_units(self, s):
+    """ Given a token s, estimate how many syllables (or equivalent) it has """
+    if self.PAT_ACRONYM.search(s):
+      it = len(s)
+    elif self.PAT_SHORT.search(s):
+      it = 1
+    elif self.PAT_LONG.search(s):
+      it = 2
+    elif self.PAT_ZERO.search(s):
+      it = 0
+    else:
+      det = s.lower()
+      vowels = len(self.PAT_VOWEL.findall(det))
+      semis = len(self.PAT_SEMI.findall(det))
+      it = vowels if vowels else vowels + semis
+      if not it:
+        it = len(self.PAT_CONST.findall(det)) # FIXME
+    return it
+
+
   def normalize_output(self, s0):
     """ These are not movies. Remove [cough] or [sound] but not too early. """
     s = s0.encode('utf-8')
@@ -165,6 +205,7 @@ class Timing:
     # broken off between subtitles (!)
     #
     s = re.sub(r'\b([Ii]t|[Tt]here)\?([ds])\b', r"\1'\2", s)
+    s = re.sub(r'\b(info) (rmation)\b', r"\1\2", s)
     s = re.sub(r'\b(p) (arts)\b', r"\1\2", s)
     s = re.sub(r'\b(softwa) (re)\b', r"\1\2", s)
     s = re.sub(r'(stru) (ctur)', r"\1\2", s)
