@@ -277,6 +277,7 @@ class Timing:
     s = re.sub(r'\b([Ii]t|[Tt]here)\?([ds])\b', r"\1'\2", s)
     s = re.sub(r'\b(info) (rmation)\b', r"\1\2", s)
     s = re.sub(r'\b(p) (arts)\b', r"\1\2", s)
+    s = re.sub(r'\b(recog) (niz)', r"\1\2", s)
     s = re.sub(r'\b(softwa) (re)\b', r"\1\2", s)
     s = re.sub(r'(stru) (ctur)', r"\1\2", s)
 
@@ -339,6 +340,7 @@ def normalize_input(source):
   #
   source = re.sub(r'\bcuz\b', r"'cause", source)
   source = re.sub(r'\bgonna\b', r'going to', source)
+  source = re.sub(r'\boutta\b', r'out of', source)
   source = re.sub(r'\bwanna\b', r'want to', source)
 
   #
