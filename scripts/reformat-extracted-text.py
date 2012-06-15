@@ -274,7 +274,6 @@ class Timing:
     # the input processing, unfortunately words sometimes actually got
     # broken off between subtitles (!)
     #
-    s = re.sub(r'\b([Ii]t|[Tt]here)\?([ds])\b', r"\1'\2", s)
     s = re.sub(r'\b(info) (rmation)\b', r"\1\2", s)
     s = re.sub(r'\b(p) (arts)\b', r"\1\2", s)
     s = re.sub(r'\b(recog) (niz)', r"\1\2", s)
@@ -357,6 +356,8 @@ def normalize_input(source):
   source = re.sub(r'([^\.]) (Also|And|Because|By contrast|But|'+\
                   r'Filling out|Here|Or)\b', \
                   r'\1. \2', source)
+  source = re.sub(r'\b([Ii]t|[Tt]here)\?([ds])\b', r"\1'\2", source)
+
   #
   # If it's a period followed by a double quote,
   # theoretically we shouldn't need to do anything.
