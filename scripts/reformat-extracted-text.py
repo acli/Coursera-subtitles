@@ -48,9 +48,10 @@ class Timing:
   PAT_LONG = re.compile(r'^(?:[-;:\.])$')
   PAT_ZERO = re.compile(r"^(?:'[ds]?|'[rv]e)$")
 
-  PAT_VOWEL = re.compile(r'(?:ing|[aeiou]+|y$|y(?=[^aeiou]))')
-  PAT_CONST = re.compile(r'[bcdfghjklmnpqrstvxz]+')
-  PAT_SEMI = re.compile(r"(?:[wy]+|(?:n't|sm)$)")
+  PAT_VOWEL_CLUSTER = re.compile(r'(?:ing|[aeiou]+|y$|y(?=[^aeiou]))')
+  PAT_CONST_CLUSTER = re.compile(r'[bcdfghjklmnpqrstvxz]+')
+  PAT_SEMI_CLUSTER = re.compile(r"(?:[wy]+|(?:n't|sm)$)")
+  PAT_W = re.compile(r'[Ww]')
 
   THRES = 432 # about 108 characters
 
@@ -171,7 +172,7 @@ class Timing:
   def estimate_time_units(self, s):
     """ Given a token s, estimate how many syllables (or equivalent) it has """
     if self.PAT_ACRONYM.search(s):
-      it = len(s)
+      it = len(s) + 2*len(self.PAT_W.findall(s)) # "W" is 3 syllables
     elif self.PAT_SHORT.search(s):
       it = 1
     elif self.PAT_LONG.search(s):
@@ -180,11 +181,11 @@ class Timing:
       it = 0
     else:
       det = s.lower()
-      vowels = len(self.PAT_VOWEL.findall(det))
-      semis = len(self.PAT_SEMI.findall(det))
+      vowels = len(self.PAT_VOWEL_CLUSTER.findall(det))
+      semis = len(self.PAT_SEMI_CLUSTER.findall(det))
       it = vowels if vowels else vowels + semis
       if not it:
-        it = len(self.PAT_CONST.findall(det)) # FIXME
+        it = len(self.PAT_CONST_CLUSTER.findall(det)) # FIXME
     return it
 
 
