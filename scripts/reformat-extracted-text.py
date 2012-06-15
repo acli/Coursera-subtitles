@@ -68,7 +68,7 @@ class Timing:
       + r')|(?:'\
       + r'(?<=[,;] ).'\
       + r'))')
-  PAT_PREP = re.compile(r'\b(?:above|at|in|on|to|upon|unless|until|unto|up)\b')
+  PAT_PREP = re.compile(r'\b(?:above|at|in|on|to|unless|until|unto|upon)\b')
 
   THRES = 432 # about 108 characters
 
