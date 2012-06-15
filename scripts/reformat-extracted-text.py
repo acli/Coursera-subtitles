@@ -53,6 +53,15 @@ class Timing:
   PAT_SEMI_CLUSTER = re.compile(r"(?:[wy]+|(?:n't|sm)$)")
   PAT_W = re.compile(r'[Ww]')
 
+  PAT_POSSIBLE_FRAGMENT_BOUNDARY = re.compile(r'(?:(?:'\
+      + r'(?<=, )(?:and|that|which|who|why)\b'\
+      + r')|(?:'\
+      + r'\b(?:because|is that|is one|is to|rather than|that)\b'\
+      + r')|(?:'\
+      + r'(?<=[,;] ).'\
+      + r'))')
+  PAT_PREP = re.compile(r'\b(?:above|at|in|on|to|upon|unless|until|unto|up)\b')
+
   THRES = 432 # about 108 characters
 
   def __init__(self):
@@ -131,15 +140,24 @@ class Timing:
 
 
   def emit_segment(self, s):
-    tokens = self.word_tokenizer.tokenize(s)
+    segments = []
 
     # Check for overlong sentences
     if self.length_metric(s) > self.THRES:
       sys.stderr.write('Warning: Line %d too long: %s\n' % (self.seq + 1, s))
+      segments = self.break_into_fragments(s)
       #pdb.set_trace()
+    else:
+      segments.append(s)
+
+    for s in segments:
+      self._emit_segment(s)
+
+
+  def _emit_segment(self, s):
 
     # Double-check that things look sane,
-    # and estimate the relative time needed for each token to be spoken
+    tokens = self.word_tokenizer.tokenize(s)
     n = 0
     for i, token in enumerate(tokens):
       chk = self.tokens[self.ptr + n][0]
@@ -167,6 +185,46 @@ class Timing:
     print "%s\r\n\r" % self.normalize_output(s)
     self.ptr += n
     self.seq += 1
+
+
+  def break_into_fragments(self, s):
+    it = None
+    for pat in (self.PAT_POSSIBLE_FRAGMENT_BOUNDARY, self.PAT_PREP):
+      it = self._break_into_fragments(s, pat)
+      if it:
+        break
+    if not it:
+      raise Exception('Failed to find suitable break points: %s' % s)
+    return it
+
+
+  def _break_into_fragments(self, s, pat):
+    it = []
+    for n in range(2, 5):
+      candidate = [None] * n
+      delta = len(s)/n
+      for i in range(1, n):
+        possible_start = delta * i
+        for j in range(5, 1, -1):
+          start = possible_start - delta/j
+          end = possible_start + delta/j
+          m = pat.search(s, start, end)
+          sys.stderr.write('DEBUG: search(s, %d, %d)=%s\n' % (start, end, m))
+          if m:
+            candidate[i] = m.start()
+            #pdb.set_trace()
+            break
+        if candidate[i] is None:
+          break
+      sys.stderr.write('DEBUG: candidate=%s\n' % str(candidate))
+      if None not in candidate[1:n]:
+        start = [0] + candidate[1:n]
+        end = candidate[1:n] + [len(s)]
+        for i in range(0, n):
+          it.append(s[start[i]:end[i]])
+          sys.stderr.write('DEBUG: s[%d:%d] = "%s"\n' % (start[i], end[i], it[-1]))
+        break
+    return it
 
 
   def estimate_time_units(self, s):
