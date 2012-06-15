@@ -71,10 +71,13 @@ class Timing:
       + r')|(?:'\
       + r'(?<=[,;] ).'\
       + r'))'),
-    re.compile(r'\b(?:above|at|in|on|to|unless|until|unto|upon)\b'),
     re.compile(r'(?:(?:'\
-      + r'\b(?:and'\
-      + r'|but)\b'\
+      + r'\b(?:above|at|and'\
+      + r'|but'\
+      + r'|in'\
+      + r'|of|on'\
+      + r'|to'\
+      + r'|unless|until|unto|upon)\b'\
       + r')|(?:'\
       + r'(?<=[,;] ).'\
       + r'))'),
@@ -83,6 +86,8 @@ class Timing:
   THRES = 432 # about 108 characters
 
   def __init__(self):
+    self.MIN_DURATION = Timecode('00:00:01,500')
+
     self.raw = []
     self.tokens = []
     self.seq = 0
@@ -163,8 +168,9 @@ class Timing:
     # Check for overlong sentences
     if self.length_metric(s) > self.THRES:
       #sys.stderr.write('Warning: Line %d too long: %s\n' % (self.seq + 1, s))
-      segments = self.break_into_fragments(s)
-      #pdb.set_trace()
+      tokens = self.word_tokenizer.tokenize(s)
+      segments = self.break_into_fragments(s,
+          map(lambda x: x[1], self.tokens[self.ptr:self.ptr + len(tokens)]))
     else:
       segments.append(s)
 
@@ -173,9 +179,10 @@ class Timing:
 
 
   def _emit_segment(self, s):
+    tokens = self.word_tokenizer.tokenize(s)
 
     # Double-check that things look sane,
-    tokens = self.word_tokenizer.tokenize(s)
+    #sys.stderr.write('DEBUG: s=%s -> tokens=%s\n' % (s, tokens))
     n = 0
     for i, token in enumerate(tokens):
       chk = self.tokens[self.ptr + n][0]
@@ -205,10 +212,10 @@ class Timing:
     self.seq += 1
 
 
-  def break_into_fragments(self, s):
+  def break_into_fragments(self, s, timings):
     it = None
     for pat in self.PAT_POSSIBLE_FRAGMENT_BOUNDARY:
-      it = self._break_into_fragments(s, pat)
+      it = self._break_into_fragments(s, timings, pat)
       if it:
         break
     if not it or None in it:
@@ -216,7 +223,7 @@ class Timing:
     return it
 
 
-  def _break_into_fragments(self, s, pat):
+  def _break_into_fragments(self, s, timings, pat):
     for n in range(2, 10):
       it = []
       candidate = [None] * n
@@ -238,8 +245,10 @@ class Timing:
         end = candidate[1:n] + [len(s)]
         for i in range(0, n):
           candidate = s[start[i]:end[i]]
-          det = self.length_metric(candidate)
-          if det <= self.THRES:
+          tokens = self.word_tokenizer.tokenize(candidate)
+          width = self.length_metric(candidate)
+          duration = sum(timings[0:len(tokens)])
+          if width <= self.THRES and duration >= self.MIN_DURATION:
             it.append(candidate)
           else:
             it.append(None)
@@ -291,6 +300,11 @@ class Timing:
     s = re.sub(r'(stru) (ctur)', r"\1\2", s)
 
     s = re.sub(r"'", ur'’', s)
+
+    s = re.sub(r'(^|\s)(?:``|")', ur'\1“', s)
+    s = re.sub(r'(^|\s)"', ur'\1“', s)
+    s = re.sub(r'".', ur'.”', s)
+    s = re.sub(r'(\S)"', ur'\1”', s)
     return s
 
 
@@ -317,6 +331,10 @@ class Timecode:
     return Timecode(self.milliseconds + (other.milliseconds \
                             if isinstance(other, Timecode) else float(other)))
 
+  def __radd__(self, other): # needed for sum()
+    return Timecode(self.milliseconds + (other.milliseconds \
+                            if isinstance(other, Timecode) else float(other)))
+
   def __sub__(self, other):
     return Timecode(self.milliseconds - (other.milliseconds \
                             if isinstance(other, Timecode) else float(other)))
@@ -330,6 +348,24 @@ class Timecode:
   def __truediv__(self, other):
     return Timecode(self.milliseconds / float(other))
 
+  def __lt__(self, other):
+    return self.milliseconds < other.milliseconds
+
+  def __le__(self, other):
+    return self.milliseconds <= other.milliseconds
+
+  def __eq__(self, other):
+    return self.milliseconds == other.milliseconds
+
+  def __nq__(self, other):
+    return self.milliseconds != other.milliseconds
+
+  def __ge__(self, other):
+    return self.milliseconds >= other.milliseconds
+
+  def __gt__(self, other):
+    return self.milliseconds > other.milliseconds
+
 
 PAT_ID = re.compile(r'^\d+$')
 PAT_TIMECODE = re.compile(r'^\d\d:\d\d:\d\d,\d\d\d --> \d\d:\d\d:\d\d,\d\d\d$')
@@ -342,6 +378,13 @@ STATE_TIMECODE_FOUND = 3
 
 def normalize_input(source):
   source = re.sub(r'\s+', r' ', source, re.DOTALL)
+
+  #
+  # NLTK gets very confused by a sequence of ."
+  # so we normalize that to ". early
+  # in order to avoid other problems.
+  #
+  source = re.sub(r'(\.)(")', r'\2\1', source) # scandalous!
 
   #
   # stanford-bot favours extremely colloquial forms;
