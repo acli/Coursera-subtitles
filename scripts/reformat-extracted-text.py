@@ -54,21 +54,21 @@ class Timing:
     self.sent_tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
     self.word_tokenizer = TreebankWordTokenizer()
 
-    sys.stderr.write('Reading tree bank data...')
-    t0 = time.time()
-    productions = []
-    S = nltk.Nonterminal('S')
-    for fileid in nltk.corpus.treebank.fileids():
-      for tree in nltk.corpus.treebank.parsed_sents(fileid):
-        productions += tree.productions()
-    sys.stderr.write(' %d trees read in %.2fs\n' \
-        % (len(productions), time.time() - t0))
+#   sys.stderr.write('Reading tree bank data...')
+#   t0 = time.time()
+#   productions = []
+#   S = nltk.Nonterminal('S')
+#   for fileid in nltk.corpus.treebank.fileids():
+#     for tree in nltk.corpus.treebank.parsed_sents(fileid):
+#       productions += tree.productions()
+#   sys.stderr.write(' %d trees read in %.2fs\n' \
+#       % (len(productions), time.time() - t0))
 
-    sys.stderr.write('Training parser...')
-    t0 = time.time()
-    self.grammar = nltk.induce_pcfg(S, productions)
-    sys.stderr.write(' %d productions inducted in %.2fs\n' \
-        % (len(self.grammar.productions()), time.time() - t0))
+#   sys.stderr.write('Training parser...')
+#   t0 = time.time()
+#   self.grammar = nltk.induce_pcfg(S, productions)
+#   sys.stderr.write(' %d productions inducted in %.2fs\n' \
+#       % (len(self.grammar.productions()), time.time() - t0))
 
 
   def decode_timecode(self, timecode):
@@ -96,35 +96,52 @@ class Timing:
     t_i, t_f = self.decode_timecode(node[1])
     self.raw.append([id, t_i, t_f, node[2:]])
 
-    #tokens = (' '.join(node[2:])).split(' ')
+    # Figure out the set of tokens comprising this input
     tokens = []
-    for s in self.sent_tokenizer.tokenize(' '.join(node[2:])):
+    for s in self.sent_tokenizer.tokenize(normalize_input(' '.join(node[2:]))):
+      sys.stderr.write('DEBUG: s=%s\n' % (s))
       tokens += self.word_tokenizer.tokenize(s)
+      # Work around NLTK weirdness (, not separated into a token)
+      if tokens[-1] != ',' and tokens[-1][-1] == ',':
+        tokens.append(tokens[-1][-1])
+        tokens[-2] = tokens[-2][0:-1]
+
+    # Remember the estimate timing of each token
     dt = (t_f - t_i)/len(tokens)
     for i, token in enumerate(tokens):
       self.tokens.append([token, t_i + dt*i])
 
   def emit_segment(self, s):
-    #tokens = s.split(' ')
     tokens = self.word_tokenizer.tokenize(s)
-    n = len(tokens)
-    t_i = self.tokens[self.ptr][1]
-    t_f = self.tokens[self.ptr + n][1] if self.ptr + n < len(self.tokens) else self.raw[-1][2]
 
+    # Check for overlong sentences
     if self.length_metric(s) > self.THRES:
       sys.stderr.write('Warning: Line %d too long: %s\n' % (self.seq + 1, s))
-      pdb.set_trace()
+      #pdb.set_trace()
 
+    # Double-check that things look sane
+    n = 0
     for i, token in enumerate(tokens):
-      chk = self.tokens[self.ptr + i][0]
+      chk = self.tokens[self.ptr + n][0]
       sys.stderr.write('DEBUG: emit=%s, mem=%s\n' % (token, chk))
-      if token.strip('.') != chk.strip('.'):
+      if token == '.' and chk != '.':
+        sys.stderr.write('DEBUG: resync\n')
+        continue
+      if token != '.' and chk == '.':
+        n += 1
+        chk = self.tokens[self.ptr + n][0]
+        sys.stderr.write('DEBUG: resync: mem=%s\n' % (chk))
+      if token != chk:
         raise Exception("Near %s: Expecting \"%s\" but found \"%s\"" % (
-                        str(self.tokens[self.ptr + i][1]),
+                        str(self.tokens[self.ptr + n][1]),
                         str(token),
                         str(chk)))
+      n += 1
 
-
+    # Output the segment in SRT format
+    t_i = self.tokens[self.ptr][1]
+    t_f = self.tokens[self.ptr + n][1] if self.ptr + n < len(self.tokens) \
+          else self.raw[-1][2]
     print "%d\r" % (self.seq + 1)
     print "%s --> %s\r" % (str(t_i), str(t_f))
     print "%s\r\n\r" % self.normalize_output(s)
@@ -136,6 +153,22 @@ class Timing:
     s = s0.encode('utf-8')
     s = re.sub(r'(\s*)\[(?:cough|sound)\](\s*)', r'\1\2', s)
     s = re.sub(r'\s+', r' ', s, re.DOTALL) # again
+
+    #
+    # There are other random formatting bugs that from my experience
+    # are caused by training on PDF files. These are too numerous
+    # to count and you really can't fix them all because you can't
+    # predict them all :-(
+    #
+    # Ideally these should have been already normalized when we did
+    # the input processing, unfortunately words sometimes actually got
+    # broken off between subtitles (!)
+    #
+    s = re.sub(r'\b([Ii]t|[Tt]here)\?([ds])\b', r"\1'\2", s)
+    s = re.sub(r'\b(p) (arts)\b', r"\1\2", s)
+    s = re.sub(r'\b(softwa) (re)\b', r"\1\2", s)
+    s = re.sub(r'(stru) (ctur)', r"\1\2", s)
+
     s = re.sub(r"'", ur'’', s)
     return s
 
@@ -202,24 +235,12 @@ def normalize_input(source):
   # including missing periods at the end of sentences.
   # Try to make some guesses in an attempt to fix *that*.
   #
-  # If it's a period followed by a double quote,
-  # theoretically we shouldn't need to do anything.
-  # But NLTK gets confused (?!) so we still have to add a period...
-  #
   source = re.sub(r'([^\.]) (Also|And|Because|But|Here|Or)\b', \
                   r'\1. \2', source)
   #
-  # There are other random formatting bugs that from my experience
-  # are caused by training on PDF files. These are too numerous
-  # to count and you really can't fix them all because you can't
-  # predict them all :-(
-  #
-  source = re.sub(r'\b([Ii]t|[Tt]here)\?([ds])\b', r"\1'\2", source)
-  source = re.sub(r'\b(softwa) (re)\b', r"\1\2", source)
-  source = re.sub(r'(stru) (ctur)', r"\1\2", source)
-
-  #
-  # This is for NLTK. Hard to believe. But true :P
+  # If it's a period followed by a double quote,
+  # theoretically we shouldn't need to do anything.
+  # But NLTK gets confused (?!) so we still have to add a period...
   #
   source = re.sub(r'([\.!\?]")(\s)', r'\1.\2', source)
 
