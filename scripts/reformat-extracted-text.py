@@ -44,10 +44,16 @@ class Timing:
   PAT_LONG = re.compile(r'^(?:[-;:\.])$')
   PAT_ZERO = re.compile(r"^(?:'[ds]?|'[rv]e)$")
 
+  PAT_NUMBER_RAW = r"(?:(?:\d+|\d{1,3}(?:,\d{3})*)(?:\.\d+)?)"
+  PAT_MONETARY_RAW = r"(?:\$\s*%s)" % PAT_NUMBER_RAW
+  PAT_NUMERIC = re.compile(r"^(?:%s|%s)$" % (PAT_NUMBER_RAW, PAT_MONETARY_RAW))
+
   PAT_VOWEL_CLUSTER = re.compile(r'(?:ing|[aeiou]+|y$|y(?=[^aeiou]))')
   PAT_CONST_CLUSTER = re.compile(r'[bcdfghjklmnpqrstvxz]+')
   PAT_SEMI_CLUSTER = re.compile(r"(?:[wy]+|(?:n't|sm|thm)$)")
   PAT_W = re.compile(r'[Ww]')
+
+  PAT_COMMA = re.compile(r',')
 
   # Possible fragment boundaries, in decreasing preference
   PAT_POSSIBLE_FRAGMENT_BOUNDARY = (
@@ -264,12 +270,20 @@ class Timing:
     elif self.PAT_ZERO.search(s):
       it = 0
     else:
+      if self.PAT_NUMERIC.search(s):
+        s = self.number_in_words(s)
       det = s.lower()
       vowels = len(self.PAT_VOWEL_CLUSTER.findall(det))
       semis = len(self.PAT_SEMI_CLUSTER.findall(det))
       it = vowels if vowels else vowels + semis
       if not it:
         it = len(self.PAT_CONST_CLUSTER.findall(det)) # FIXME
+    return it
+
+
+  def number_in_words(self, s):
+    self.PAT_COMMA.sub('', s)
+    it = s
     return it
 
 
