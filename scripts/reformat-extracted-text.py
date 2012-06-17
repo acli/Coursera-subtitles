@@ -67,7 +67,7 @@ class Timing:
       + r')|(?:'\
       + r'\b(?:and as'\
       + r'|and will'\
-      + r'|because'\
+      + r'|because|but'\
       + r'|is that|is one|is to'\
       + r'|rather than'\
       + r'|so that'\
@@ -79,16 +79,17 @@ class Timing:
       + r'(?<=[,;] ).'\
       + r'))'),
     re.compile(r'(?:(?:'\
-      + r'\b(?:above|at|and'\
+      + r'\b(?:about|above|at|and'\
       + r'|but'\
       + r'|depending on'\
       + r'|in'\
-      + r'|of|on|or'\
+      + r'|of|on|or|over'\
       + r'|to'\
       + r'|unless|until|unto|upon)\b'\
       + r')|(?:'\
       + r'(?<=[,;] ).'\
       + r'))'),
+    re.compile(r'(?<= ).'), # when all else fails, just break on a space
   )
 
   THRES = 432 # about 108 characters
@@ -155,7 +156,9 @@ class Timing:
 
     # Figure out the set of tokens comprising this input
     tokens = []
-    for s in self.sent_tokenizer.tokenize(normalize_input(' '.join(node[2:]))):
+    temp = self.sent_tokenizer.tokenize(normalize_input(' '.join(node[2:])) + '.')
+    temp = temp[0:len(temp)]
+    for s in temp:
       #sys.stderr.write('DEBUG: s=%s\n' % (s))
       tokens += self.word_tokenizer.tokenize(s)
       # Work around NLTK weirdness (, not separated into a token)
