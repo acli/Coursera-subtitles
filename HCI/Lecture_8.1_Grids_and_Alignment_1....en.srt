@@ -1,0 +1,879 @@
+1
+00:00:01,058 --> 00:00:04,010
+In this video we’re going to talk about designing with grids
+
+2
+00:00:04,010 --> 00:00:09,068
+and using grouping and alignment to convey structure.
+
+3
+00:00:09,068 --> 00:00:15,019
+Here’s an example of a grid: This comes from Java Look and Feel Design Guidelines,
+
+4
+00:00:15,019 --> 00:00:19,008
+and it’s annotated by Sun and it’s [a] web resource.
+
+5
+00:00:19,008 --> 00:00:22,040
+This is a Find dialog box, and what you can see is that
+
+6
+00:00:22,040 --> 00:00:28,017
+all of the elements in the dialog box have been arranged using a grid.
+
+7
+00:00:28,017 --> 00:00:31,038
+And what we mean by a grid is that there’s a set of invisible lines
+
+8
+00:00:31,038 --> 00:00:34,021
+that all of the elements on the screen snap to.
+
+9
+00:00:34,021 --> 00:00:38,038
+So you can that the top of the dialog box is the Find and then the search area,
+
+10
+00:00:38,038 --> 00:00:41,038
+and then below that are all of the parameters,
+
+11
+00:00:41,038 --> 00:00:45,097
+and below that still are the Find and Close buttons.
+
+12
+00:00:45,097 --> 00:00:49,059
+You’ll notice that the left edge of the parameters lines up with the left edge of the search box,
+
+13
+00:00:49,059 --> 00:00:54,010
+and the right edge of the buttons lines up with the right edge of the search box.
+
+14
+00:00:54,010 --> 00:00:57,078
+You’ll also notice that the Find, which is the title of the dialog box,
+
+15
+00:00:57,078 --> 00:01:03,044
+is hanging off to the left, so that it’s easy to identify the title.
+
+16
+00:01:03,044 --> 00:01:06,033
+You can see that the most important information is near the top,
+
+17
+00:01:06,033 --> 00:01:08,081
+and how things that are conceptually more related —
+
+18
+00:01:08,081 --> 00:01:15,040
+like the parameters that parametrizes the search system — are closer to each other than the buttons —
+
+19
+00:01:15,040 --> 00:01:22,056
+still part of the same dialog box but a little further apart — and so they get more space.
+
+20
+00:01:22,056 --> 00:01:25,071
+It was at the Bauhaus in Germany in the 1920’s
+
+21
+00:01:25,071 --> 00:01:33,056
+that the strategies for designing with grids really came into their own.
+
+22
+00:01:33,056 --> 00:01:36,052
+The Bauhaus, at the time, was a revolutionary design school,
+
+23
+00:01:36,052 --> 00:01:41,050
+and their graphic designer, Jan Tschichold, wrote this book, called « The New Typography »
+
+24
+00:01:41,050 --> 00:01:46,045
+to outlay his vision for modern graphic design.
+
+25
+00:01:46,045 --> 00:01:50,058
+It espouses asymmetric typography, sans serif typefaces,
+
+26
+00:01:50,058 --> 00:01:54,091
+and a lot of other things that we’ve come to think of as Modernism.
+
+27
+00:01:54,091 --> 00:01:57,066
+One thing that’s notable about Tschichold’s book on typography
+
+28
+00:01:57,066 --> 00:01:59,074
+is that it reads like a political manifesto:
+
+29
+00:01:59,074 --> 00:02:04,066
+He really had this belief that he was changing what design meant for the world,
+
+30
+00:02:04,066 --> 00:02:09,068
+stripping it of all of its excess and distilling it down to its bare elements.
+
+31
+00:02:09,068 --> 00:02:13,049
+You may or may not elect to follow its principles;
+
+32
+00:02:13,049 --> 00:02:19,057
+some of these ideas now seem a little bit reductive, or overly didactic, or too moralizing;
+
+33
+00:02:19,057 --> 00:02:22,078
+but there’s a lot in here that’s tremendously useful.
+
+34
+00:02:22,078 --> 00:02:29,047
+And this picture is me at the Bauhaus a couple of summers ago.
+
+35
+00:02:29,047 --> 00:02:33,098
+So there’s a number of parts that compose a grid system. The main one is a set of columns —
+
+36
+00:02:33,098 --> 00:02:37,043
+in this case they’re of equal width, but they don’t necessarily need to be.
+
+37
+00:02:37,043 --> 00:02:43,067
+And the second piece is a set of gutters, which is the whitespace in between the columns.
+
+38
+00:02:43,067 --> 00:02:50,011
+In addition to that, things are generally horizontally aligned using a baseline.
+
+39
+00:02:50,011 --> 00:02:53,083
+You can add text hierarchically — So here we see a title, and a subtitle,
+
+40
+00:02:53,083 --> 00:02:59,086
+or maybe a byline or something like that.
+
+41
+00:02:59,086 --> 00:03:02,081
+And there’s no need for the grids to all be of equal width.
+
+42
+00:03:02,081 --> 00:03:08,060
+So here’s a mockup, for example, of a narrow left-hand column that you might use for navigation,
+
+43
+00:03:08,060 --> 00:03:19,005
+and then a wide central column that may have the body article or main content of a page.
+
+44
+00:03:19,005 --> 00:03:24,064
+Grids are used widely in newspapers, in books, and on the web.
+
+45
+00:03:24,064 --> 00:03:30,085
+Here’s an example of Myspace, which the home page right now is a strongly-gridded design,
+
+46
+00:03:30,085 --> 00:03:37,033
+and you can see a nice combination of pictures and text on its home page.
+
+47
+00:03:37,033 --> 00:03:42,062
+Here you can see the Stanford homepage, and the invisible grid undergirds this whole structure.
+
+48
+00:03:43,045 --> 00:03:47,034
+But that doesn’t mean that everything is one-column wide all the way down.
+
+49
+00:03:47,034 --> 00:03:53,013
+One thing that I like about this page is that different elements punch across multiple columns.
+
+50
+00:03:53,013 --> 00:03:58,006
+And you can also see how this five-column grid goes across *almost* the entire page:
+
+51
+00:03:58,006 --> 00:04:01,034
+You can see how the navigation at the top has five columns;
+
+52
+00:04:01,034 --> 00:04:05,016
+the Stanford logo is centred on the first two of those columns;
+
+53
+00:04:05,016 --> 00:04:11,074
+and those five columns travel down throughout the major whitespace part of the page.
+
+54
+00:04:11,074 --> 00:04:15,085
+The grid is broken somewhat at the bottom, with the footer.
+
+55
+00:04:19,001 --> 00:04:23,041
+Here is the New York Times homepage where, again, you can see a five-column grid for the content,
+
+56
+00:04:23,041 --> 00:04:31,066
+with a sixth column for navigation on the left-hand side.
+
+57
+00:04:31,066 --> 00:04:35,043
+You can see how those five columns invisibly travel the entire page,
+
+58
+00:04:35,043 --> 00:04:39,000
+and that some of the content in the middle, for example, is two columns wide,
+
+59
+00:04:39,000 --> 00:04:42,030
+and which parts are two columns wide vary across the page,
+
+60
+00:04:42,030 --> 00:04:52,090
+and so that makes it a little bit more dynamic, so it doesn’t feel too rote and too boring.
+
+61
+00:04:52,090 --> 00:04:57,064
+Newspapers have benefitted from grid systems and really pushed the envelope on it for a long time
+
+62
+00:04:57,064 --> 00:05:02,081
+so [we] saw a couple of the New York Times to give you a sense of the different ways that they use grids.
+
+63
+00:05:02,081 --> 00:05:08,088
+Here’s an example that combines both text and pictures.
+
+64
+00:05:08,090 --> 00:05:15,078
+Here you can see a “focus plus context” view, where the most recent article at the top is biggest,
+
+65
+00:05:15,078 --> 00:05:20,078
+and the lower articles down are smaller.
+
+66
+00:05:20,078 --> 00:05:25,040
+Here’s an example of a grid on the New York Times homepage that’s far below the fold,
+
+67
+00:05:25,040 --> 00:05:28,053
+showing sections and then articles within each section,
+
+68
+00:05:28,053 --> 00:05:33,075
+with a small thumbnail picture for each of the sections.
+
+69
+00:05:33,075 --> 00:05:36,048
+A grid doesn’t have to be non-overlapping:
+
+70
+00:05:36,048 --> 00:05:42,026
+You can have different rows of content on a page adhere to different grids —
+
+71
+00:05:42,026 --> 00:05:44,074
+often they’ll have some relationship to each other.
+
+72
+00:05:44,074 --> 00:05:48,085
+So I made a quick mockup here, where we have six elements in two rows,
+
+73
+00:05:48,085 --> 00:05:54,085
+and the grid is staggered.
+
+74
+00:05:54,085 --> 00:05:56,083
+When you’ve content that comes in multiple pieces —
+
+75
+00:05:56,083 --> 00:05:59,054
+for example titles of classes and course numbers —
+
+76
+00:05:59,054 --> 00:06:04,029
+how should you organize them so that they work well together and are easy to read?
+
+77
+00:06:04,029 --> 00:06:08,077
+I’m surprised by how frequently books will take some content like this
+
+78
+00:06:08,077 --> 00:06:14,032
+and put these dots — or somehow they’ll separate the two pieces.
+
+79
+00:06:14,032 --> 00:06:19,034
+It’s obviously not impossible to read, but I think we can do better.
+
+80
+00:06:19,034 --> 00:06:24,018
+Here’s an example where we have right-aligned the smaller element —
+
+81
+00:06:24,018 --> 00:06:29,040
+which could be page numbers, or course numbers, or date, or something like that —
+
+82
+00:06:29,040 --> 00:06:36,037
+and then we’ve left-aligned the larger element — which is the title or some other larger piece of text.
+
+83
+00:06:36,037 --> 00:06:40,012
+The other thing that we’ve done here is we’ve changed the weight of the typeface
+
+84
+00:06:40,012 --> 00:06:44,047
+so that the number is a different weight from the text.
+
+85
+00:06:44,047 --> 00:06:50,018
+Now, which one is heavy and which one is light? It depends on which one you want to emphasize.
+
+86
+00:06:50,018 --> 00:06:54,065
+Here, the course name is probably more important — that’s what you’re going to scan first —
+
+87
+00:06:54,065 --> 00:06:57,063
+and then when you want to sign up, you may need to find the course number,
+
+88
+00:06:57,063 --> 00:07:02,091
+and so that’s a lighter weight because that’s what you’ll use second.
+
+89
+00:07:02,091 --> 00:07:06,025
+If you have three pieces of text — for example if you add an instructor name —,
+
+90
+00:07:06,025 --> 00:07:08,087
+you can offset that typographically.
+
+91
+00:07:08,087 --> 00:07:12,041
+Here’s just an example of adding it over to the right.
+
+92
+00:07:12,041 --> 00:07:15,052
+Adding a third column can make things a little bit confusing;
+
+93
+00:07:15,052 --> 00:07:20,022
+[but] depending on your content, that can work too.
+
+94
+00:07:20,022 --> 00:07:23,039
+Another strategy, of course, is you could put that third element on a separate line.
+
+95
+00:07:23,039 --> 00:07:27,050
+Here we see the instructors listed below the course number.
+
+96
+00:07:27,050 --> 00:07:31,026
+And if you’re going to do this, have the stuff that chunks together be closer together,
+
+97
+00:07:31,026 --> 00:07:33,064
+and the separate chunks be further apart.
+
+98
+00:07:33,064 --> 00:07:36,058
+So, what we’re looking at right now is that the leading —
+
+99
+00:07:36,058 --> 00:07:39,056
+the inter-line spacing between every line — is identical,
+
+100
+00:07:39,056 --> 00:07:46,085
+and that’s sub-optimal, because that’s less clear which element the instructor name goes with.
+
+101
+00:07:46,085 --> 00:07:49,037
+If we add a little bit of space in between our elements,
+
+102
+00:07:49,037 --> 00:07:53,076
+it becomes clear which instructor groups with which course.
+
+103
+00:07:53,076 --> 00:07:59,076
+You can also see a tradeoff here, where, by having two lines per course, it reads very clearly,
+
+104
+00:07:59,076 --> 00:08:05,038
+but we’re using up more vertical space — maybe less horizontal space.
+
+105
+00:08:05,038 --> 00:08:08,097
+Depending on which screen space or print space you’re laying out into,
+
+106
+00:08:08,097 --> 00:08:13,044
+that will change your design decisions.
+
+107
+00:08:13,044 --> 00:08:16,059
+Another thing that we might do if we really want to de-emphasize course numbers
+
+108
+00:08:16,059 --> 00:08:29,067
+is scale back the grey value of that number, to make them recede further.
+
+109
+00:08:29,067 --> 00:08:32,086
+One quick tip is: when you’re creating systems like this,
+
+110
+00:08:32,086 --> 00:08:36,042
+make sure to work with the longest block of text first.
+
+111
+00:08:36,042 --> 00:08:38,056
+It can be easy to design for a short title
+
+112
+00:08:38,056 --> 00:08:43,033
+and then have a grid or alignment system that breaks down when you get to something longer.
+
+113
+00:08:43,033 --> 00:08:47,011
+This is especially true if you’re designing for multiple different languages.
+
+114
+00:08:47,011 --> 00:08:51,006
+For example, German text often consumes a lot more real estate
+
+115
+00:08:51,006 --> 00:09:01,037
+than English or Spanish or French text does.
+
+116
+00:09:01,037 --> 00:09:03,074
+We’re going to see examples of different alignment styles
+
+117
+00:09:03,074 --> 00:09:07,028
+and when they work in different circumstances in this lecture.
+
+118
+00:09:07,028 --> 00:09:12,051
+In general, a high-order rule of thumb is that for left-to-right–reading languages,
+
+119
+00:09:12,051 --> 00:09:18,006
+left-aligned text is the fastest for skimming.
+
+120
+00:09:18,006 --> 00:09:22,010
+And you can see that here: I’m taken the same content and centred it,
+
+121
+00:09:22,010 --> 00:09:25,039
+and I’ve left all the tabs in, so that’s why you get the crazy ragging.
+
+122
+00:09:25,039 --> 00:09:29,083
+It looks kind of cool, actually, and if you’re going for dynamism, this might work pretty well.
+
+123
+00:09:29,083 --> 00:09:32,055
+However, if you wanted to be able to quickly scan things,
+
+124
+00:09:32,055 --> 00:09:39,097
+this will be a little bit slower than if everything is aligned.
+
+125
+00:09:39,097 --> 00:09:47,098
+Here’s an example of one common design strategy, where “everything is centred.”
+
+126
+00:09:47,098 --> 00:09:52,094
+And you can, of course, get the information off of this page [when] you need to;
+
+127
+00:09:52,094 --> 00:09:56,067
+but the centring makes it hard to scan for the things that you need.
+
+128
+00:09:56,067 --> 00:09:58,095
+Also, there’s a lot of chart junk on this page —
+
+129
+00:09:58,095 --> 00:10:04,027
+so the boxes around the overview and the publications are pretty unnecessary
+
+130
+00:10:04,027 --> 00:10:08,020
+and makes it slower for your eye to get to the things that you need to.
+
+131
+00:10:08,020 --> 00:10:12,014
+If this page were designed using a grid, and the chart junk eliminated,
+
+132
+00:10:12,014 --> 00:10:19,053
+then the content itself would move to the fore more strongly.
+
+133
+00:10:19,053 --> 00:10:25,042
+So, to sum up, using alignment well helps guide your eye and reduce clutter.
+
+134
+00:10:25,042 --> 00:10:31,046
+Avoid slight misalignments, because they undermine your ability to beacon the organization.
+
+135
+00:10:31,046 --> 00:10:36,019
+We automatically notice patterns and also deviations from them,
+
+136
+00:10:36,019 --> 00:10:40,039
+and so use patterns when you want to convey consistency,
+
+137
+00:10:40,039 --> 00:10:46,092
+and deviate from them only when you intentionally want to distinguish that content.
+
+138
+00:10:46,092 --> 00:10:50,022
+If your deviation from the pattern is accidental or laziness,
+
+139
+00:10:50,022 --> 00:10:57,068
+it will leap out to the eye and distract from the message that you’re trying to get across.
+
+140
+00:10:57,068 --> 00:11:02,088
+And you use visual proximity — keeping chunks close together and self-contained,
+
+141
+00:11:02,088 --> 00:11:07,081
+and separating chunks further apart — to distinguish what the elements are.
+
+142
+00:11:07,081 --> 00:11:11,062
+And you can use scale and hierarchy — making the important things bigger
+
+143
+00:11:11,062 --> 00:11:15,093
+and the less important things smaller or scaled back in colour —
+
+144
+00:11:15,093 --> 00:11:28,053
+as a way of emphasizing what the more and less important parts of the page are.
+
+145
+00:11:28,053 --> 00:11:33,052
+So, when are some examples of when you might use different alignments for different purposes?
+
+146
+00:11:33,052 --> 00:11:38,033
+We have a nice example on Amazon’s web site.
+
+147
+00:11:38,033 --> 00:11:43,002
+Amazon actually has different parts of their site that they use different kinds of alignment for.
+
+148
+00:11:43,002 --> 00:11:47,019
+And you can see the first example here, where in the “Add an address” dialog box,
+
+149
+00:11:47,019 --> 00:11:54,020
+the form is aligned so that all of the labels are right-aligned and that the entry fields are left-aligned to that,
+
+150
+00:11:54,020 --> 00:12:01,042
+so you get this clear gutter, like what we saw in our courses and titles example.
+
+151
+00:12:01,042 --> 00:12:07,037
+This makes what you need to fill out extremely clear.
+
+152
+00:12:07,037 --> 00:12:11,025
+Here, on the Account page, you can see all of the labels are left-aligned.
+
+153
+00:12:11,025 --> 00:12:14,033
+This page also offers a nice exampleof visual hierarcy,
+
+154
+00:12:14,033 --> 00:12:17,070
+where the key piece of the label is very large,
+
+155
+00:12:17,070 --> 00:12:22,035
+and the sub-header — which explains in a little more detail — is much smaller
+
+156
+00:12:22,035 --> 00:12:26,037
+and is also scaled back in grey value.
+
+157
+00:12:26,037 --> 00:12:31,008
+And finally, on the right-hand side of this very same page, we can see an example of top alignment,
+
+158
+00:12:31,008 --> 00:12:36,059
+where the headers for the form are above the form cell.
+
+159
+00:12:41,061 --> 00:12:45,087
+And this diversity is not because three different Amazon designers made three different parts
+
+160
+00:12:45,087 --> 00:12:49,020
+and they never coordinated — or at least I assumed that’s not the case.
+
+161
+00:12:49,020 --> 00:12:55,053
+My hunch is that Amazon decided strategically what the most important part of each element was,
+
+162
+00:12:55,053 --> 00:12:59,084
+and how to make clear to the viewer what they should pay attention to:
+
+163
+00:12:59,084 --> 00:13:01,051
+For things that we’re familiar with,
+
+164
+00:13:01,051 --> 00:13:05,027
+the headers may be less important than for things that we’re unfamiliar with.
+
+165
+00:13:05,027 --> 00:13:11,024
+So, for sign-in, the headers need to stick out less, whereas for the aspects for our account,
+
+166
+00:13:11,024 --> 00:13:18,010
+which we may go to less frequently as a page element, we need to have that stick out more.
+
+167
+00:13:18,010 --> 00:13:21,069
+In this introductory course, we won’t have a chance to talk much about colour,
+
+168
+00:13:21,069 --> 00:13:24,062
+but I’d want to say a little bit here.
+
+169
+00:13:24,062 --> 00:13:30,006
+The first and most important thing to say about colour is: Pay attention to it!
+
+170
+00:13:30,006 --> 00:13:36,039
+And if I can give you one strategy for using colour effectively, it’s to design in greyscale first.
+
+171
+00:13:36,039 --> 00:13:41,051
+Often people rely on colour as a crutch for making visual distinctions in designs,
+
+172
+00:13:41,051 --> 00:13:47,095
+and, really, you’ll want to use the other tools first:
+
+173
+00:13:47,095 --> 00:13:56,006
+Start up by working with scale and layout as ways of distinguishing elements on the page.
+
+174
+00:13:56,006 --> 00:13:59,042
+Then, once you’ve used scale and layout as much as you can,
+
+175
+00:13:59,042 --> 00:14:03,086
+you can use luminence as a way of indicating what’s more and less imortant —
+
+176
+00:14:03,086 --> 00:14:07,063
+luminence is just a fancy word for grey value, so if you’re designing in greyscale,
+
+177
+00:14:07,063 --> 00:14:14,048
+that means some stuff is black, some stuff is grey, some stuff is white.
+
+178
+00:14:14,048 --> 00:14:19,009
+And once you’ve got the best design that you can in greyscale — in black and white —,
+
+179
+00:14:19,009 --> 00:14:26,061
+then add colour as a way of giving it an additional redundant coding for salience.
+
+180
+00:14:26,061 --> 00:14:31,061
+To use Amazon as an example again, here’s one of their search results pages in greyscale.
+
+181
+00:14:31,061 --> 00:14:33,075
+And you can see that all of the information that you need
+
+182
+00:14:33,075 --> 00:14:36,057
+is clearly set up in terms of the visual order of the page —
+
+183
+00:14:36,057 --> 00:14:43,041
+what elements are larger, what elements are smaller.
+
+184
+00:14:43,041 --> 00:14:49,081
+So the whole thing works in greyscale — in black-and-white —, but if you add colour, it gets even better.
+
+185
+00:14:49,081 --> 00:14:53,020
+And that, I think, is the most effective way to use colour.
+
+186
+00:14:53,020 --> 00:14:59,090
+The other thing to say about colour that I think is useful is: By and large, don’t overdo it!
+
+187
+00:14:59,090 --> 00:15:07,016
+All things equal, fewer colours is generally more powerful and less overwhelming than more.
+
+188
+00:15:07,016 --> 00:15:08,085
+This is obviously going to depend on your taste,
+
+189
+00:15:08,085 --> 00:15:13,057
+and this is obviously going to depend on what you’re trying to convey.
+
+190
+00:15:13,057 --> 00:15:16,028
+Again from the Java Look and Feel Guidelines,
+
+191
+00:15:16,028 --> 00:15:21,076
+here’s an example of how this version of Java used six colours —
+
+192
+00:15:21,076 --> 00:15:24,033
+three shades of grey, three shades of purple —
+
+193
+00:15:24,033 --> 00:15:31,011
+as a way of organizing all of the elements in their widget library.
+
+194
+00:15:31,011 --> 00:15:37,046
+One way that they used colour is that anything that you could click on was some shade of purple,
+
+195
+00:15:37,046 --> 00:15:41,051
+and anything that you couldn’t click on was some shade of grey.
+
+196
+00:15:41,051 --> 00:15:44,047
+And that provides a nice organizing characteristic,
+
+197
+00:15:44,047 --> 00:15:49,005
+and gives a sense to the user of what they can do when they see a particular screen.
+
+198
+00:15:49,005 --> 00:15:53,051
+And because colour is used so consistently — colour means clickable —
+
+199
+00:15:53,051 --> 00:15:58,096
+it’s really easy to learn, even if subconsciously.
+
+200
+00:15:58,096 --> 00:16:04,057
+And I’d like to close with this example of a book. Here’s the first page of Umberto Eco’s book,
+
+201
+00:16:04,057 --> 00:16:08,072
+« The Island of the Day Before », and it’s a beautifully typeset book.
+
+202
+00:16:08,072 --> 00:16:11,022
+I’d like to point out a couple of things about this book.
+
+203
+00:16:11,022 --> 00:16:16,001
+For starters, there’s a quotation from a diary that’s at the beginning of the page
+
+204
+00:16:16,001 --> 00:16:20,025
+that’s set off in italic to show that it’s different.
+
+205
+00:16:20,025 --> 00:16:25,091
+Then, each chapter begins with a couple of words of text in small caps,
+
+206
+00:16:25,091 --> 00:16:30,010
+and there’s a good amount of space above that line of text.
+
+207
+00:16:30,010 --> 00:16:34,038
+And finally, there’s a lot of whitespace around the text in general,
+
+208
+00:16:34,038 --> 00:16:38,071
+and providing whitespace is important.
+
+209
+00:16:38,071 --> 00:16:43,010
+Books and texts that have a little bit of room around them are easier to read
+
+210
+00:16:43,010 --> 00:16:46,009
+than ones that are jam-packed out to the edges of the margins.
+
+211
+00:16:46,009 --> 00:16:51,073
+That’s one reason why you’ll see hard covers have more whitespace than cheaper paperbacks.
+
+212
+00:16:51,073 --> 00:16:55,064
+In the paperback case, they’re trying to save pulp to make it a lower price;
+
+213
+00:16:55,064 --> 00:16:59,088
+but the hard covers, which they can charge a little more for, offer more room
+
+214
+00:16:59,088 --> 00:17:05,033
+and are easier on the eyes to read.
+
+215
+00:17:05,033 --> 00:17:07,066
+If you’re interested in learning more about grids and alignment,
+
+216
+00:17:07,066 --> 00:17:11,003
+there’s a lot of great books out there; [but] there’s a couple that I recommend:
+
+217
+00:17:11,004 --> 00:17:16,049
+One is Jan Tschichold’s classic, « The New Typography ».
+
+218
+00:17:16,049 --> 00:17:21,088
+Another is Kevin Mullet and Darrel Sano’s « Designing Visual Interfaces ».
+
+219
+00:17:21,088 --> 00:17:26,024
+And a third is Luke Wroblewski’s « Web Form Design »;
+
+220
+00:17:26,024 --> 00:17:34,084
+this is one of the Rosenfeld books, and this whole series is excellent in terms of its HCI.

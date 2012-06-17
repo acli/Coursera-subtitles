@@ -139,6 +139,7 @@ Transcribed from scratch:
 - http://www.universalsubtitles.org/fr/videos/KK3G5CfxEMkK/en/330023/ (HCI 4.1)
 - http://www.universalsubtitles.org/fr/videos/N3TqLfUnlrAg/en/330224/ (HCI 4.2)
 - http://www.universalsubtitles.org/fr/videos/cCinMZkk8IfM/en/335507/ (HCI 7.2)
+- http://www.universalsubtitles.org/fr/videos/bMF01JVrNxmV/en/337489/ (HCI 8.1)
 
 
 Reformatting and QA of stanford-bot’s transcripts:
