@@ -44,10 +44,19 @@ class Timing:
   PAT_LONG = re.compile(r'^(?:[-;:\.])$')
   PAT_ZERO = re.compile(r"^(?:'[ds]?|'[rv]e)$")
 
+  PAT_NUMBER_RAW = r"(?:(?:\d+|\d{1,3}(?:,\d{3})*)(?:\.\d+)?)"
+  PAT_MONETARY_RAW = r"(?:\$\s*%s)" % PAT_NUMBER_RAW
+  PAT_MONETARY_CAPTURE = re.compile(r"(?:\$\s*(%s))" % PAT_NUMBER_RAW)
+  PAT_NUMERIC = re.compile(r"^(?:%s|%s)$" % (PAT_NUMBER_RAW, PAT_MONETARY_RAW))
+
+  PAT_DECIMAL_CAPTURE = re.compile(r'^(\d+)?\.(\d+)$')
+
   PAT_VOWEL_CLUSTER = re.compile(r'(?:ing|[aeiou]+|y$|y(?=[^aeiou]))')
   PAT_CONST_CLUSTER = re.compile(r'[bcdfghjklmnpqrstvxz]+')
   PAT_SEMI_CLUSTER = re.compile(r"(?:[wy]+|(?:n't|sm|thm)$)")
   PAT_W = re.compile(r'[Ww]')
+
+  PAT_COMMA = re.compile(r',')
 
   # Possible fragment boundaries, in decreasing preference
   PAT_POSSIBLE_FRAGMENT_BOUNDARY = (
@@ -80,6 +89,13 @@ class Timing:
   )
 
   THRES = 432 # about 108 characters
+
+  Units = ('zero', 'one', 'two', 'three', 'four', 'five', 
+      'six', 'seven', 'eight', 'nine', 'ten', 
+      'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 
+      'sixteen', 'seventeen', 'eighteen', 'nineteen')
+  Tens = (None, None, 'twenty', 'thirty', 'forty', 'fifty', 
+      'sixty', 'seventy', 'eighty', 'ninty')
 
   def __init__(self):
     self.MIN_DURATION = Timecode('00:00:01,500')
@@ -264,12 +280,106 @@ class Timing:
     elif self.PAT_ZERO.search(s):
       it = 0
     else:
+      if self.PAT_NUMERIC.search(s):
+        s = self.number_in_words(s)
       det = s.lower()
       vowels = len(self.PAT_VOWEL_CLUSTER.findall(det))
       semis = len(self.PAT_SEMI_CLUSTER.findall(det))
       it = vowels if vowels else vowels + semis
       if not it:
         it = len(self.PAT_CONST_CLUSTER.findall(det)) # FIXME
+    return it
+
+
+  def number_in_words(self, s):
+    m = self.PAT_MONETARY_CAPTURE.search(s)
+    if m:
+      it = self.number_in_words(m.group(1))
+      it += ' dollar' if it == 'one' else ' dollars'
+    else:
+      s = self.PAT_COMMA.sub('', s)
+      m = self.PAT_DECIMAL_CAPTURE.search(s)
+      if m:
+        decimals = m.group(2)
+        if m.group(1):
+          it = self.number_in_words(m.group(1)) + ' point'
+        else:
+          it = 'point'
+        for digit in decimals:
+          it += ' '
+          it += self.Units[int(digit)]
+      else:
+        x = int(s)
+        if x < len(self.Units):
+          it = self.Units[x]
+        elif x < 100:
+          tens = int(x/10)
+          units = x%10
+          it = self.Tens[tens]
+          if units:
+            it += ' ' + self.number_in_words(str(units))
+        elif x < 1000:
+          hundreds = int(x/100)
+          remainder = x%100
+          it = self.number_in_words(str(hundreds)) + ' hundred'
+          if remainder:
+            if remainder < 10:
+              it += ' and'
+            it += ' '
+            it += self.number_in_words(str(remainder))
+        elif x < 10000:
+          thousands = int(x/1000)
+          remainder = x%1000
+          it = self.number_in_words(str(thousands)) + ' thousand'
+          if remainder:
+            if remainder < 10:
+              it += ' and'
+            it += ' '
+            it += self.number_in_words(str(remainder))
+        elif x < 1000000:
+          thousands = int(x/1000)
+          remainder = x%1000
+          it = self.number_in_words(str(thousands)) + ' thousand'
+          if remainder and remainder < 10:
+            it += ' and'
+          it += ' '
+          it += self.number_in_words(str(remainder))
+        elif x < 10000000:
+          millions = int(x/1000000)
+          remainder = x%1000000
+          it = self.number_in_words(str(millions)) + ' million'
+          if remainder:
+            if remainder < 10:
+              it += ' and'
+            it += ' '
+            it += self.number_in_words(str(remainder))
+        elif x < 1000000000:
+          millions = int(x/1000000)
+          remainder = x%1000000
+          it = self.number_in_words(str(millions)) + ' million'
+          if remainder and remainder < 10:
+            it += ' and'
+          it += ' '
+          it += self.number_in_words(str(remainder))
+        elif x < 10000000000:
+          billions = int(x/1000000000)
+          remainder = x%1000000000
+          it = self.number_in_words(str(billions)) + ' billion'
+          if remainder:
+            if remainder < 10:
+              it += ' and'
+            it += ' '
+            it += self.number_in_words(str(remainder))
+        elif x < 1000000000000:
+          billions = int(x/1000000000)
+          remainder = x%1000000000
+          it = self.number_in_words(str(billions)) + ' billion'
+          if remainder and remainder < 10:
+            it += ' and'
+          it += ' '
+          it += self.number_in_words(str(remainder))
+        else:
+          it = s
     return it
 
 
