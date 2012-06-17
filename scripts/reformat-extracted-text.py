@@ -110,7 +110,7 @@ class Timing:
     self.ptr = 0
 
     self.sent_tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
-    self.word_tokenizer = TreebankWordTokenizer()
+    self.word_tokenizer = TreebankWordTokenizerWrapper()
 
 #   sys.stderr.write('Reading tree bank data...')
 #   t0 = time.time()
@@ -156,15 +156,9 @@ class Timing:
 
     # Figure out the set of tokens comprising this input
     tokens = []
-    temp = self.sent_tokenizer.tokenize(normalize_input(' '.join(node[2:])) + '.')
-    temp = temp[0:len(temp)]
-    for s in temp:
+    for s in self.sent_tokenizer.tokenize(normalize_input(' '.join(node[2:]))):
       #sys.stderr.write('DEBUG: s=%s\n' % (s))
       tokens += self.word_tokenizer.tokenize(s)
-      # Work around NLTK weirdness (, not separated into a token)
-      if tokens[-1] != ',' and tokens[-1][-1] == ',':
-        tokens.append(tokens[-1][-1])
-        tokens[-2] = tokens[-2][0:-1]
 
     # Estimate relative timing for each token
     w = []
@@ -200,18 +194,18 @@ class Timing:
     tokens = self.word_tokenizer.tokenize(s)
 
     # Double-check that things look sane,
-    sys.stderr.write('DEBUG: s=%s -> tokens=%s\n' % (s, tokens))
+    #sys.stderr.write('DEBUG: s=%s -> tokens=%s\n' % (s, tokens))
     n = 0
     for i, token in enumerate(tokens):
       chk = self.tokens[self.ptr + n][0]
-      sys.stderr.write('DEBUG: emit=%s, mem=%s\n' % (token, chk))
+      #sys.stderr.write('DEBUG: emit=%s, mem=%s\n' % (token, chk))
       if token == '.' and chk != '.':
-        sys.stderr.write('DEBUG: resync\n')
+        #sys.stderr.write('DEBUG: resync\n')
         continue
       if token != '.' and chk == '.':
         n += 1
         chk = self.tokens[self.ptr + n][0]
-        sys.stderr.write('DEBUG: resync: mem=%s\n' % (chk))
+        #sys.stderr.write('DEBUG: resync: mem=%s\n' % (chk))
       if token != chk:
         raise Exception("Near %s: Expecting \"%s\" but found \"%s\"" % (
                         str(self.tokens[self.ptr + n][1]),
@@ -410,6 +404,7 @@ class Timing:
     s = re.sub(r'\b(recog) (niz)', r"\1\2", s)
     s = re.sub(r'\b(softwa) (re)\b', r"\1\2", s)
     s = re.sub(r'(stru) (ctur)', r"\1\2", s)
+    s = re.sub(r'\b([Ww]h) (en)\b', r"\1\2", s)
 
     s = re.sub(r"'", ur'’', s)
 
@@ -418,6 +413,34 @@ class Timing:
     s = re.sub(r'".', ur'.”', s)
     s = re.sub(r'(\S)"', ur'\1”', s)
     return s
+
+
+class TreebankWordTokenizerWrapper:
+  """ Seriously I don't know why we need this class - this makes no sense """
+
+  PAT_NLTK_BUG = re.compile(r"^(?:(.+)(,|'s))$")
+
+  def __init__(self):
+    self.word_tokenizer = TreebankWordTokenizer()
+
+  def tokenize(self, s):
+    temp = self.word_tokenizer.tokenize(s)
+    if temp:
+      it = []
+      for t0 in temp:
+        t = [t0]
+        while True:
+          m = self.PAT_NLTK_BUG.search(t[0])
+          if m:
+            t.insert(0, m.group(1))
+            t[1] = m.group(2)
+          else:
+            break
+        it += t
+        #sys.stderr.write('DEBUG: t=%s => %s\n' % (t0, t))
+    else:
+      it = temp
+    return it
 
 
 class Timecode:
