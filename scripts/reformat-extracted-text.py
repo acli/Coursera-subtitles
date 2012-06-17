@@ -407,6 +407,7 @@ class Timing:
     s = re.sub(r'\b([Ww]h) (en)\b', r"\1\2", s)
 
     s = re.sub(r"'", ur'’', s)
+    s = re.sub(r"\s*\.\.\.", ur'…', s)
 
     s = re.sub(r'(^|\s)(?:``|")', ur'\1“', s)
     s = re.sub(r'(^|\s)"', ur'\1“', s)
