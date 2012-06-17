@@ -109,7 +109,7 @@ class Timing:
     self.seq = 0
     self.ptr = 0
 
-    self.sent_tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
+    self.sent_tokenizer = PunktTokenizerWrapper()
     self.word_tokenizer = TreebankWordTokenizerWrapper()
 
 #   sys.stderr.write('Reading tree bank data...')
@@ -413,6 +413,21 @@ class Timing:
     s = re.sub(r'".', ur'.”', s)
     s = re.sub(r'(\S)"', ur'\1”', s)
     return s
+
+
+class PunktTokenizerWrapper:
+
+  # This regexp should not work, but in fact it does
+  PAT_COGI_HACK = re.compile(r'((?:^|>> )(?:(?!>> ).)*)')
+
+  def __init__(self):
+    self.sent_tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
+
+  def tokenize(self, s):
+    it = []
+    for t in self.sent_tokenizer.tokenize(s):
+      it += filter(lambda x: x, self.PAT_COGI_HACK.split(t))
+    return it
 
 
 class TreebankWordTokenizerWrapper:
