@@ -65,8 +65,11 @@ class Timing:
       + r')|(?:'\
       + r'\b(?:and again|and,? so),'\
       + r')|(?:'\
-      + r'\b(?:and as'\
+      + r'\b(?:although'\
+      + r'|and as'\
       + r'|and will'\
+      + r'|as \w+ as'\
+      + r'|as though'\
       + r'|because|but'\
       + r'|is that|is one|is to'\
       + r'|rather than'\
@@ -79,7 +82,7 @@ class Timing:
       + r'(?<=[,;] ).'\
       + r'))'),
     re.compile(r'(?:(?:'\
-      + r'\b(?:about|above|at|and'\
+      + r'\b(?:about|above|as|at|and'\
       + r'|but'\
       + r'|depending on'\
       + r'|in'\
