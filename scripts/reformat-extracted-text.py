@@ -46,7 +46,7 @@ class Timing:
 
   PAT_NUMBER_RAW = r"(?:(?:\d+|\d{1,3}(?:,\d{3})*)(?:\.\d+)?)"
   PAT_MONETARY_RAW = r"(?:\$\s*%s)" % PAT_NUMBER_RAW
-  PAT_MONETARY_CAPTURE = re.compile(r"(?:\$\s*(%s))" % PAT_NUMBER_RAW)
+  PAT_MONETARY_CAPTURE = re.compile(r"^(?:\$\s*(%s))$" % PAT_NUMBER_RAW)
   PAT_NUMERIC = re.compile(r"^(?:%s|%s)$" % (PAT_NUMBER_RAW, PAT_MONETARY_RAW))
 
   PAT_DECIMAL_CAPTURE = re.compile(r'^(\d+)?\.(\d+)$')
@@ -343,10 +343,11 @@ class Timing:
           thousands = int(x/1000)
           remainder = x%1000
           it = self.number_in_words(str(thousands)) + ' thousand'
-          if remainder and remainder < 10:
-            it += ' and'
-          it += ' '
-          it += self.number_in_words(str(remainder))
+          if remainder:
+            if remainder < 10:
+              it += ' and'
+            it += ' '
+            it += self.number_in_words(str(remainder))
         elif x < 10000000:
           millions = int(x/1000000)
           remainder = x%1000000
@@ -360,10 +361,11 @@ class Timing:
           millions = int(x/1000000)
           remainder = x%1000000
           it = self.number_in_words(str(millions)) + ' million'
-          if remainder and remainder < 10:
-            it += ' and'
-          it += ' '
-          it += self.number_in_words(str(remainder))
+          if remainder:
+            if remainder < 10:
+              it += ' and'
+            it += ' '
+            it += self.number_in_words(str(remainder))
         elif x < 10000000000:
           billions = int(x/1000000000)
           remainder = x%1000000000
@@ -377,10 +379,11 @@ class Timing:
           billions = int(x/1000000000)
           remainder = x%1000000000
           it = self.number_in_words(str(billions)) + ' billion'
-          if remainder and remainder < 10:
-            it += ' and'
-          it += ' '
-          it += self.number_in_words(str(remainder))
+          if remainder:
+            if remainder < 10:
+              it += ' and'
+            it += ' '
+            it += self.number_in_words(str(remainder))
         else:
           it = s
     return it
