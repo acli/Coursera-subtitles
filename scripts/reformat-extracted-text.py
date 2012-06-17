@@ -61,7 +61,7 @@ class Timing:
   # Possible fragment boundaries, in decreasing preference
   PAT_POSSIBLE_FRAGMENT_BOUNDARY = (
     re.compile(r'(?:(?:'\
-      + r'(?<=, )(?:and|if|that|where|whereas|which|who|why)\b'\
+      + r'(?<=, )(?:and|if|that|where|whereas|whether|which|who|why)\b'\
       + r')|(?:'\
       + r'\b(?:and again|and,? so),'\
       + r')|(?:'\
@@ -79,8 +79,9 @@ class Timing:
     re.compile(r'(?:(?:'\
       + r'\b(?:above|at|and'\
       + r'|but'\
+      + r'|depending on'\
       + r'|in'\
-      + r'|of|on'\
+      + r'|of|on|or'\
       + r'|to'\
       + r'|unless|until|unto|upon)\b'\
       + r')|(?:'\
