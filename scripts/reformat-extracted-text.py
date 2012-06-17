@@ -574,7 +574,7 @@ def reformat_input(f):
   source = normalize_input(source)
 
   for s in timing.sent_tokenizer.tokenize(source):
-    s = re.sub(r'([\.!\?]"?)\.', r'\1', s)
+    s = re.sub(r'((?!\.\.)[\.!\?]"?)\.', r'\1', s)
     if state == STATE_TIMECODE_FOUND:
       timing.emit_segment(s)
     else:
