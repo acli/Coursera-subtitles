@@ -1,18 +1,18 @@
 1
-00:00:00,000 --> 00:00:07,044
+00:00:00,000 --> 00:00:08,027
 Greetings everyone and welcome to the first session, our first live session of Introduction to Sociology.
 
 2
-00:00:07,044 --> 00:00:14,026
+00:00:08,027 --> 00:00:13,042
 The last few days have been simply extraordinary in terms of the response and the discussion
 
 3
-00:00:14,026 --> 00:00:17,092
+00:00:13,042 --> 00:00:17,057
 on the course website which I’ve been following.
 
 4
-00:00:17,092 --> 00:00:22,054
-Although I have not been able to respond to each and everyone of your postings,
+00:00:17,057 --> 00:00:22,054
+Although I have not been able to respond to each and every one of your postings,
 
 5
 00:00:22,054 --> 00:00:27,064
@@ -31,12 +31,12 @@ in which you are all helping one another along to develop a better understanding
 This is peer learning at its best and this a very impressive group of students from all over the world.
 
 9
-00:00:46,048 --> 00:00:52,024
-I want to begin today by thanking my own administration.
+00:00:46,048 --> 00:00:51,090
+I want to begin today by thanking my own administration —
 
 10
-00:00:52,024 --> 00:00:57,011
-The President and the provost, and the Dean of the faculty and the Dean of the college,
+00:00:51,090 --> 00:00:57,011
+the President and the Provost, and the Dean of the faculty and the Dean of the college,
 
 11
 00:00:57,011 --> 00:01:01,052
@@ -67,11 +67,11 @@ makes me feel wonderful as a member of the Princeton faculty and I know that my 
 on the Princeton faculty feel as though very similarly to me that this is a very special moment
 
 18
-00:01:39,070 --> 00:01:46,069
+00:01:39,070 --> 00:01:46,041
 in the history of higher education that we are a part of, that we have the privilege of being a part of.
 
 19
-00:01:46,069 --> 00:01:49,027
+00:01:46,041 --> 00:01:49,027
 And, I want to say also that, you know,
 
 20
@@ -83,19 +83,19 @@ this is really part of a pretty long standing tradition here at Princeton:
 In our university we have a very generous financial aid package to students
 
 22
-00:02:00,037 --> 00:02:04,000
-who come here from a very wide variety of backgrounds.
+00:02:00,037 --> 00:02:03,044
+who’ve come here from a very wide variety of backgrounds.
 
 23
-00:02:04,000 --> 00:02:11,038
-And one of the things that I think didn’t come across in the article by Malcolm Gladwell is the extent
+00:02:03,044 --> 00:02:10,009
+And one of the things that I think didn’t come across in the article by Malcolm Gladwell
 
 24
-00:02:11,038 --> 00:02:17,019
-to which that is significant in the ongoing life of Princeton.
+00:02:10,009 --> 00:02:16,088
+is the extent to which that is significant in the ongoing life of Princeton.
 
 25
-00:02:17,019 --> 00:02:26,021
+00:02:16,088 --> 00:02:26,021
 We have certainly the best financial aid package in the world and it is something that we are very proud of.
 
 26
@@ -111,27 +111,27 @@ Our students are not required to take out loans to come here.
 The financial aid is available to students not only from the United States but from all over the world,
 
 29
-00:02:41,000 --> 00:02:47,032
-and it extends from $5,000 to $50,000 depending on the needs of an individual family
+00:02:41,000 --> 00:02:49,009
+and it extends from $5,000 to $50,000 depending on the needs of an individual family in a given year
 
 30
-00:02:47,032 --> 00:02:53,023
-in a given year and I have received questions over e-mail for students around the world asking whether
+00:02:49,009 --> 00:02:52,084
+and I have received questions over e-mail from students around the world asking
 
 31
-00:02:53,023 --> 00:02:58,051
-or not it’s possible for people from outside the United States to apply for financially aid.
+00:02:52,084 --> 00:02:57,098
+whether or not it’s possible for people from outside the United States to apply for financially aid.
 
 32
-00:02:58,051 --> 00:03:00,097
-And the answer is yes, there are no limitations on
+00:02:57,098 --> 00:03:00,097
+And the answer is yes, there are no limitations on that,
 
 33
-00:03:00,097 --> 00:03:08,017
-that and financial need is not taking into consideration when admissions decisions are made.
+00:03:00,097 --> 00:03:07,097
+and financial need is not taken into consideration when admissions decisions are made.
 
 34
-00:03:08,017 --> 00:03:11,050
+00:03:07,097 --> 00:03:11,050
 Over ten percent of our student body comes from outside the United States
 
 35
@@ -171,23 +171,23 @@ But for the time being, we are going to speak with the people that are there.
 I’d like them to introduce themselves to us beginning with the person on the far left, Dipendra.
 
 44
-00:03:59,086 --> 00:04:03,028
-And then let’s go to each person and I’d like the each of you
+00:03:59,086 --> 00:04:03,055
+And then let’s go through each person.
 
 45
-00:04:03,028 --> 00:04:08,050
-to say something about what you thought was most interesting, something brief
+00:04:03,055 --> 00:04:07,099
+And I’d like the each of you to say something about what you thought was most interesting,
 
 46
-00:04:08,050 --> 00:04:13,076
-about what you thought was most interesting about Mills’s essay, The Promise.
+00:04:07,099 --> 00:04:13,076
+something brief about what you thought was most interesting about Mills’s essay, “The Promise.”
 
 47
-00:04:13,076 --> 00:04:14,080
+00:04:13,076 --> 00:04:15,053
 Dipendra.
 
 48
-00:04:14,080 --> 00:04:17,024
+00:04:15,053 --> 00:04:17,024
 >> Hi, this is Di, Nepal.
 
 49
@@ -200,7 +200,7 @@ I come from [inaudible]. My bachelors in rural development and I have a major in
 
 51
 00:04:35,006 --> 00:04:41,035
-Particular interested in, in this, today’s lecture by C. Wright Mills.
+Particular interested in this, today’s text by C. Wright Mills.
 
 52
 00:04:41,035 --> 00:04:48,065
@@ -223,1995 +223,1959 @@ Another thing we tried, at the last time, the text which is
 that if you want to develop your socialism then you should plays very mean.
 
 57
-00:05:12,038 --> 00:05:16,060
+00:05:12,038 --> 00:05:17,045
 So, that, about the thing that have been striking…
 
 58
-00:05:16,060 --> 00:05:17,090
->> Okay.
+00:05:17,045 --> 00:05:22,089
+>> Okay. Dipendra unfortunately the connection to you was not great
 
 59
-00:05:17,090 --> 00:05:22,089
-Dipendra unfortunately the connection to you was not great
+00:05:22,089 --> 00:05:29,020
+but I will summarize though that you thought that one of the most interesting things
 
 60
-00:05:22,089 --> 00:05:29,020
-but I will summarize though that you thought that one of the most interesting things has
+00:05:29,020 --> 00:05:35,032
+has to do with the connection of the sociological imagination to marriage and divorce.
 
 61
-00:05:29,020 --> 00:05:35,032
-to do with the connection of the sociological imagination to marriage and divorce.
-
-62
-00:05:35,032 --> 00:05:42,005
+00:05:35,032 --> 00:05:40,072
 And, we will look forward to hearing more from you later, hopefully with a better connection.
 
-63
-00:05:42,005 --> 00:05:42,028
+62
+00:05:40,072 --> 00:05:42,053
 Doug?
 
+63
+00:05:42,056 --> 00:05:46,050
+>> Yeah, hi, I’m Doug, I’m from Philadelphia.
+
 64
-00:05:42,028 --> 00:05:43,044
->> Yeah, hi.
+00:05:46,050 --> 00:05:52,089
+I don’t know. “The Promise,” — I believe is the name of the paper —
 
 65
-00:05:43,044 --> 00:05:46,046
-I’m Doug, I’m from Philadelphia.
+00:05:52,089 --> 00:05:56,039
+my impression, it was really hard to understand — you know,
 
 66
-00:05:46,046 --> 00:05:48,033
-I, I don’t know.
-
-67
-00:05:48,033 --> 00:05:52,089
-The Promise, I believe is the name of the paper.
-
-68
-00:05:52,089 --> 00:05:56,039
-I… My impression, it was really hard to understand — you know,
-
-69
 00:05:56,039 --> 00:06:01,084
 trying to put myself back in 1959 and trying to understand where it was coming from.
 
-70
+67
 00:06:01,084 --> 00:06:08,093
-It seemed almost like you’re just trying to focus on the psychology, I guess, of being trapped.
+It seemed almost like he was just trying to focus on the psychology, I guess, of being trapped.
 
-71
+68
 00:06:08,093 --> 00:06:15,003
-But I also want, I, I did understand the basic thing of where I was going with it.
+But I also want… I did understand the basic thing of where I was going with it.
 
-72
+69
 00:06:15,003 --> 00:06:19,007
 >> Doug, could you tell us a little bit about yourself in Philadelphia.
 
-73
+70
 00:06:19,007 --> 00:06:21,083
 >> Yeah, I’m a firefighter in Philadelphia.
 
-74
+71
 00:06:21,083 --> 00:06:27,063
 34 years old which I think makes me the oldest member of the panel.
 
-75
+72
 00:06:27,063 --> 00:06:32,012
-I you know, I took a little bit of college.
+You know, I took a little bit of college.
 
-76
+73
 00:06:32,012 --> 00:06:35,091
 After high school I was in the Navy most of the time.
 
-77
+74
 00:06:35,091 --> 00:06:38,028
 And now I’m trying to get back in college.
 
-78
-00:06:38,028 --> 00:06:38,056
->>.
+75
+00:06:38,030 --> 00:06:41,056
+>> And are you, are you talking to us from the firehouse right now?
 
-79
-00:06:38,056 --> 00:06:41,056
-And are you, are you talking to us from the firehouse right now?
+76
+00:06:41,058 --> 00:06:44,003
+>> No. No, I can’t.
 
-80
-00:06:41,056 --> 00:06:42,030
->> No.
-
-81
-00:06:42,030 --> 00:06:44,003
-No, I can’t.
-
-82
+77
 00:06:44,003 --> 00:06:44,028
 >> [laugh]
 
-83
+78
 00:06:44,028 --> 00:06:46,001
 >> I can’t do that.
 
-84
+79
 00:06:46,001 --> 00:06:46,075
 [laugh] .
 
-85
+80
 00:06:46,075 --> 00:06:47,000
 >> [laugh]
 
-86
+81
 00:06:47,000 --> 00:06:50,078
 >> Everything that I say is — what — my opinion; it has nothing to do with the Fire Department.
 
-87
-00:06:50,078 --> 00:06:54,006
-But no, I’m at my house and yeah, I’m excited to [be] here.
+82
+00:06:50,078 --> 00:06:54,093
+But no, I’m at my house and yeah, I’m excited to be here.
 
-88
-00:06:54,006 --> 00:06:54,083
->> Okay.
+83
+00:06:54,093 --> 00:06:58,016
+>> Okay. Thank you, Doug.
 
-89
-00:06:54,083 --> 00:06:56,025
-Thank you, Doug.
-
-90
-00:06:56,025 --> 00:06:58,075
+84
+00:06:58,016 --> 00:07:00,040
 >> My name is Estela Diaz.
 
-91
-00:06:58,075 --> 00:07:04,022
+85
+00:07:00,040 --> 00:07:04,022
 I’m a Princeton University student majoring in Sociology.
 
-92
+86
 00:07:04,022 --> 00:07:12,039
 I’m originally from Los Angeles, California and currently living in Spanish Harlem in New York City.
 
-93
+87
 00:07:12,039 --> 00:07:19,032
 One of the things I thought was most interesting is considering the sociological imagination
 
-94
+88
 00:07:19,032 --> 00:07:27,060
 in context of the United States 2012 political campaign and the presidential election.
 
-95
+89
 00:07:27,060 --> 00:07:32,017
 I’m just kind of considering how issues are framed —
 
-96
+90
 00:07:32,017 --> 00:07:41,077
-Whether they are framed as personal issues or public issues, specially the economic downturn.
+Whether they are framed as personal issues or public issues, especially the economic downturn.
 
-97
-00:07:41,077 --> 00:07:43,056
->> Fascinating.
+91
+00:07:41,077 --> 00:07:45,037
+>> Fascinating. Is it Nana who’s next?
 
-98
-00:07:43,056 --> 00:07:45,037
-Is it Nana who’s next?
+92
+00:07:45,037 --> 00:07:49,028
+>> I’m Nana. I’m from Georgia.
 
-99
-00:07:45,037 --> 00:07:47,017
->> I’m Nana.
-
-100
-00:07:47,017 --> 00:07:49,027
-I’m from Georgia.
-
-101
-00:07:49,027 --> 00:07:53,017
+93
+00:07:49,028 --> 00:07:53,017
 It’s Caucasus not Georgia in USA.
 
-102
+94
 00:07:53,017 --> 00:07:54,009
 >> [laugh].
 
-103
+95
 00:07:54,009 --> 00:08:03,099
 >> I am working as a representative of Israeli delegation here in Georgia and Ukraine and in Belarus.
 
-104
-00:08:03,099 --> 00:08:08,070
-Also I have a travel company with my friend.
+96
+00:08:03,099 --> 00:08:11,023
+Also I have a travel company with my friend; we’re dealing only with incoming tourists,
 
-105
-00:08:08,070 --> 00:08:17,022
-We’re dealing with the incoming tourists and for me the most I pay attention
+97
+00:08:11,023 --> 00:08:22,065
+And for me the most… I pay attention on the sociological imagination in the chapter one:
 
-106
-00:08:17,022 --> 00:08:22,065
-on the sociological imagination in the chapter one,:
-
-107
+98
 00:08:22,065 --> 00:08:29,073
-it was quite interesting for me how people can imagine the scenes in the world,
+it was quite interesting for me how people can imagine the things in the world,
 
-108
+99
 00:08:29,073 --> 00:08:37,083
 and also marriage and divorce, because in Georgia it’s quite complicated.
 
-109
+100
 00:08:37,083 --> 00:08:40,022
 >> Thank you, Nana.
 
-110
+101
 00:08:40,022 --> 00:08:42,062
 And then finally.
 
-111
+102
 00:08:42,062 --> 00:08:48,017
 >> Hello, my name is Pavel [inaudible] University School of [inaudible]
 
-112
+103
 00:08:48,017 --> 00:08:54,004
 and National Relations which is the case in Southwestern Russia.
 
-113
+104
 00:08:54,004 --> 00:09:00,090
 I found this article very interesting because it’s referring to the effect
 
-114
+105
 00:09:00,090 --> 00:09:11,097
 that our lives are just a moment in terms of historical change and even the…
 
-115
+106
 00:09:11,097 --> 00:09:18,078
 so we have to think more, to think wider in this case.
 
-116
+107
 00:09:18,078 --> 00:09:22,033
 >> That’s very interesting.
 
-117
+108
 00:09:22,033 --> 00:09:26,032
 Okay, well, these are some very interesting ways of beginning our thinking
 
-118
+109
 00:09:26,032 --> 00:09:30,078
 about what Mills was trying to say and what I’d like to do now with you guys is
 
-119
+110
 00:09:30,078 --> 00:09:34,082
 to try to go through the essay in a little bit of detail —
 
-120
+111
 00:09:34,082 --> 00:09:40,096
 from Kathmandu, to Siberia, to Georgia, to Spanish Harlem, to Philadelphia —
 
-121
+112
 00:09:40,096 --> 00:09:46,060
 and talk about the meaning of some of these lines and how we should interpret them.
 
-122
+113
 00:09:46,060 --> 00:09:52,053
 I want to begin with the first paragraph, the second line where Mills says,
 
-123
+114
 00:09:52,053 --> 00:09:56,084
 “they sensed that within their everyday world, they cannot overcome their troubles
 
-124
+115
 00:09:56,084 --> 00:10:02,018
 and this feel, and this feeling they are quite often correct.”
 
-125
+116
 00:10:02,018 --> 00:10:04,088
-One question that I want to ask you is this, is,
+One question that I want to ask you is this:
 
-126
+117
 00:10:04,088 --> 00:10:13,020
 is there some sense in which that line and the essay as a whole gives an impression to people
 
-127
+118
 00:10:13,020 --> 00:10:22,069
 that if only they can develop a sociological imagination, that they can overcome their troubles.
 
-128
+119
 00:10:22,069 --> 00:10:26,012
 And is that really realistic?
 
-129
+120
 00:10:26,012 --> 00:10:36,004
 What are some of the dilemmas involved in thinking about this in such a way?
 
-130
+121
 00:10:36,004 --> 00:10:38,083
->> Yeah. I believe that was something that had
+>> Yeah. I believe that was something that
 
-131
+122
 00:10:38,083 --> 00:10:41,091
-something to do a little bit more with this psychology of it, you know,
+had something to do a little bit more with this psychology of it, you know,
 
-132
+123
 00:10:41,091 --> 00:10:47,010
 somebody kinda trapped in their own sometimes made-up shell.
 
-133
+124
 00:10:47,010 --> 00:10:51,068
 It’s because they feel — I mean it’s almost like looking at this minute, you know, I was never able…
 
-134
+125
 00:10:51,068 --> 00:10:57,015
 I wasn’t much of a person that was very smart coming out of high school, I guess,
 
-135
+126
 00:10:57,015 --> 00:11:01,003
 so I didn’t take the college route.
 
-136
+127
 00:11:01,003 --> 00:11:06,079
 And as I got older, I wanted to go to college but now this is a forwarding opportunity.
 
-137
+128
 00:11:06,079 --> 00:11:10,065
 I feel like I’m widening now a little bit like from personal experience .
 
-138
+129
 00:11:10,065 --> 00:11:12,049
 So that’s kinda like the way I look at it — like
 
-139
+130
 00:11:12,049 --> 00:11:18,035
 instead of me sentencing that within my own shell, now I feel like I’m just through this course.
 
-140
+131
 00:11:18,035 --> 00:11:21,069
 I’m feeling like I’m kind of getting over it.
 
-141
+132
 00:11:21,070 --> 00:11:26,077
 >> And, is there a sense though — I’m curious to know — in which…
 
-142
+133
 00:11:26,077 --> 00:11:31,069
 Does having a sociological imagination give us any legitimate reason to believe
 
-143
+134
 00:11:31,069 --> 00:11:36,086
 that we are in a better position to overcome our personal troubles?
 
-144
+135
 00:11:36,086 --> 00:11:45,092
 Or is that an unrealistic kind of thing to begin the essay with?
 
-145
+136
 00:11:45,092 --> 00:11:54,039
 >> I didn’t personally interpret it as such. Instead I interpreted this repeated notion
 
-146
+137
 00:11:54,039 --> 00:12:00,027
 of not being able to overcome one’s personal troubles —
 
-147
+138
 00:12:00,027 --> 00:12:08,078
 I interpreted that as Mills arguing for a larger perspective, not necessarily saying
 
-148
+139
 00:12:08,078 --> 00:12:15,030
 that having a sociological imagination will allow you to overcome troubles
 
-149
+140
 00:12:15,030 --> 00:12:25,022
 but instead emphasizing that our troubles are not strictly derived from the individual.
 
-150
+141
 00:12:25,022 --> 00:12:33,043
 So Mills is arguing that having that sociological imagination will give you a different perspective on your troubles
 
-151
+142
 00:12:33,043 --> 00:12:37,087
 but it will not necessarily solve your troubles.
 
-152
+143
 00:12:37,087 --> 00:12:42,073
 >> Very interesting. Would anyone else like to comment on this?
 
-153
+144
 00:12:42,073 --> 00:12:51,050
 >> I think almost the same because I, I think it’s not depend to overcome the troubles,
 
-154
+145
 00:12:51,050 --> 00:12:56,057
 it’s not coming from the sociological imagination.
 
-155
+146
 00:12:56,057 --> 00:13:07,005
 You can you can solve your troubles and solve your problems without knowing it but it helps you quite a lot.
 
-156
+147
 00:13:07,005 --> 00:13:09,078
 >> But are you sure about that, Nana?
 
-157
+148
 00:13:09,078 --> 00:13:17,002
 Are you really sure that having a sociological imagination would help you in solving the personal troubles?
 
-158
+149
 00:13:17,002 --> 00:13:20,005
 >> Eh. Like in Georgia [inaudible].
 
-159
+150
 00:13:20,005 --> 00:13:23,094
 >> Oh, really? Could you say more about that?
 
-160
+151
 00:13:23,094 --> 00:13:31,035
 >> Let’s say, in Georgia if you’re…
 
-161
+152
 00:13:31,035 --> 00:13:40,060
 like, for people who are coming from abroad, it’s not easy to find some jobs.
 
-162
+153
 00:13:40,060 --> 00:13:44,020
 If you are not an investor it’s not easy to find it.
 
-163
+154
 00:13:44,020 --> 00:13:50,079
 If you know the sociological imagination, like to help
 
-164
+155
 00:13:50,079 --> 00:13:56,091
 how people think about it, you will not come in Georgia and start your work here.
 
-165
+156
 00:13:56,091 --> 00:14:00,075
 You will go to another country to find some job.
 
-166
+157
 00:14:00,075 --> 00:14:03,084
 Let’s say, let’s say this example.
 
-167
+158
 00:14:03,084 --> 00:14:06,031
 >> So, in other words, having the socio… that’s a really good answer.
 
-168
+159
 00:14:06,031 --> 00:14:12,072
 Having the sociological imagination is going to perhaps one way of having a sociological imagination
 
-169
+160
 00:14:12,072 --> 00:14:17,075
 is to know our probabilities, and understanding the probabilities means
 
-170
+161
 00:14:17,075 --> 00:14:23,037
 that we can assess our chances and decide what we should try and what we shouldn’t try, right?
 
-171
+162
 00:14:23,037 --> 00:14:25,052
 >> Yeah.
 
-172
+163
 00:14:25,052 --> 00:14:27,078
 >> Okay. But let me ask you a question, Estela.
 
-173
+164
 00:14:27,078 --> 00:14:32,009
 You’re a Princeton student, okay?
 
-174
+165
 00:14:32,009 --> 00:14:35,075
 >> If you knew (>> Mhm.) the probabilities when you applied to Princeton of being accepted,
 
-175
+166
 00:14:35,075 --> 00:14:39,076
 would you have ever tried?
 
-176
+167
 00:14:39,076 --> 00:14:47,074
 >> I mean, I think I kind of did know the probabilities was less than ten percent acceptance rate.
 
-177
+168
 00:14:47,074 --> 00:14:55,069
 And over, I think it’s, it was about 30,000 people who applied my year,
 
-178
+169
 00:14:55,069 --> 00:15:04,045
 with only… with less than 2,000 of us being accepted, the probability was extremely low.
 
-179
+170
 00:15:04,045 --> 00:15:11,053
 But you have to, in the case of applying to Princeton University,
 
-180
+171
 00:15:11,053 --> 00:15:19,004
 I think there was something worth a lot more than… I think it was worth taking my chances.
 
-181
+172
 00:15:19,004 --> 00:15:24,042
 >> But the thing is just: did having a sociological imagination and knowing the odds,
 
-182
+173
 00:15:24,042 --> 00:15:27,099
 did that increase the chances of you applying? Or don’t you think
 
-183
+174
 00:15:27,099 --> 00:15:33,082
 that there are some people who are having that knowledge might have said, “It’s not worth it to try at all”?
 
-184
+175
 00:15:33,082 --> 00:15:38,048
 I mean, if somebody finds out that the chances of doing,
 
-185
+176
 00:15:38,048 --> 00:15:44,016
 of succeeding in any field are small, does that knowledge necessarily help them in the end?
 
-186
+177
 00:15:44,016 --> 00:15:49,004
 We’re assuming that it’s empowering to have that knowledge,
 
-187
+178
 00:15:49,004 --> 00:15:53,094
 but I wonder if it could also be disempowering.
 
-188
+179
 00:15:53,094 --> 00:15:56,037
 What do you… (>> I think it could…) Go ahead.
 
-189
+180
 00:15:56,037 --> 00:16:04,039
 >> it could certainly be discouraging, especially if you consider Mills’ article in general,
 
-190
+181
 00:16:04,039 --> 00:16:12,010
 he’s kind of taking away from the notion of individual agency and individual power.
 
-191
+182
 00:16:12,010 --> 00:16:22,054
 So when you take that away, it does and can seem very discouraging.
 
-192
+183
 00:16:22,054 --> 00:16:25,061
 >> Doug, what do you think about this?
 
-193
+184
 00:16:25,061 --> 00:16:30,007
 >> Well, basically I think that Estela hit the nail right on the head.
 
-194
+185
 00:16:30,007 --> 00:16:34,067
 That — you know — that sense of, you know, when like things are hopeless,
 
-195
+186
 00:16:34,067 --> 00:16:38,006
 people are going to say, “Why am I going to put the effort in?”
 
-196
+187
 00:16:38,006 --> 00:16:44,061
 But, if you realize, like Estela did, that you know, that doesn’t just define who you are,
 
-197
+188
 00:16:44,061 --> 00:16:48,065
 that, you know, that 10%, if you’re going to part of that 10%,
 
-198
+189
 00:16:48,065 --> 00:16:51,000
 you’re part of that ten percent like what are you going to do about it?
 
-199
+190
 00:16:51,000 --> 00:16:55,088
 It is what it is, and that really, I think that could really be freeing for somebody
 
-200
+191
 00:16:55,088 --> 00:17:00,008
 because that’s not going to really upset them if they turn around and get rejected.
 
-201
+192
 00:17:00,008 --> 00:17:04,006
 They’ll say, okay, whatever, you know, although I was ready for that.
 
-202
+193
 00:17:04,006 --> 00:17:08,072
 It’s kinda like a you know, “expect the”… “expect the worst,”
 
-203
+194
 00:17:08,072 --> 00:17:12,000
 or “hope for the best and expect the worst” kind of thing, I guess.
 
-204
+195
 00:17:12,000 --> 00:17:14,027
 And I don’t know if I am missing that point.
 
-205
+196
 00:17:14,027 --> 00:17:19,019
 >> Let’s move on to the next part of the paper.
 
-206
+197
 00:17:19,019 --> 00:17:25,057
 At the very beginning of the second paragraph, Mills says, “Underlying this sense of being trapped
 
-207
+198
 00:17:25,057 --> 00:17:31,077
 are seemingly impersonal changes in the very structure of continent wide societies.”
 
-208
+199
 00:17:31,077 --> 00:17:36,070
 There were some discussion on the discussion boards
 
-209
+200
 00:17:36,070 --> 00:17:41,011
 over the last few days about what Mills meant by impersonal changes.
 
-210
+201
 00:17:41,011 --> 00:17:44,099
 And I thought that you guys did a very good job
 
-211
+202
 00:17:44,099 --> 00:17:49,043
 of clarifying the issue for those who were confused, but what does this mean to you?
 
-212
+203
 00:17:49,043 --> 00:17:52,032
 What are some of the kinds of impersonal changes
 
-213
+204
 00:17:52,032 --> 00:18:00,041
 that affect you in the society in which you live as a way of conceiving of what Mills is talking about?
 
-214
+205
 00:18:00,041 --> 00:18:02,038
 Dipendra, could you start?
 
-215
+206
 00:18:02,038 --> 00:18:09,015
 >> I was very much interested in the previous paragraph
 
-216
+207
 00:18:09,015 --> 00:18:12,035
 so I was about to speak but I lost my connection.
 
-217
+208
 00:18:12,035 --> 00:18:17,068
 So, maybe I would rather go back to that paragraph and I’ll jump to this paragraph at the end.
 
-218
+209
 00:18:17,068 --> 00:18:22,059
 >> Sure, why don’t you do that. (>> So, in the previous thing.) Go ahead, please do.
 
-219
+210
 00:18:22,059 --> 00:18:27,077
 >> So, I have a different I have a, I have a different perspective on
 
-220
+211
 00:18:27,077 --> 00:18:36,044
 that it does say, it is said that within the everyday works they cannot overcome the troubles.
 
-221
+212
 00:18:36,044 --> 00:18:39,070
 I want to keep myself in this example.
 
-222
+213
 00:18:39,070 --> 00:18:42,037
 I have my parents divorced.
 
-223
+214
 00:18:42,037 --> 00:18:51,025
 So in this actually when my parents, then was suddenly, the problem that I’m facing in the world.
 
-224
+215
 00:18:51,025 --> 00:18:55,093
 So, I, believe is facing this kind of problem and I was so… I have a small sister
 
-225
+216
 00:18:55,093 --> 00:19:01,066
 and I have my mom crying in front of me every day and my dad was with another woman.
 
-226
+217
 00:19:01,066 --> 00:19:09,005
 So, how I felt, it was like I felt that this was only me. This is only “I’m the guy” problem.
 
-227
+218
 00:19:09,005 --> 00:19:14,084
 But sociological imagination, I think that in a broader perspective,
 
-228
+219
 00:19:14,084 --> 00:19:25,025
 when I look at my society then I see a lot of people who get who get divorced so then, then I do is,
 
-229
+220
 00:19:25,025 --> 00:19:33,026
 I simply hiding myself and say that, okay boy, this is, this is not only the way you move ahead.
 
-230
+221
 00:19:33,026 --> 00:19:39,001
 It’s not, spend your whole life regretting because your dad married to another woman or something.
 
-231
+222
 00:19:39,001 --> 00:19:46,055
 So, when I look at only… when I think that is my problem only, I feel I’m trapped in that problem.
 
-232
+223
 00:19:46,055 --> 00:19:53,044
 But when I come out of my family, when I come out, when I look at my society then I feel a lot,
 
-233
+224
 00:19:53,044 --> 00:19:59,046
 this is the broader perspective that I should look into and that really motivated me.
 
-234
+225
 00:19:59,046 --> 00:20:04,018
 >> Well, I think that, that is a really wonderful statement because what you’re saying
 
-235
+226
 00:20:04,018 --> 00:20:11,053
 is that you feel as though the understanding that your experience was not a personal problem
 
-236
+227
 00:20:11,053 --> 00:20:18,055
 but was part of a larger trend and a larger public issue inspired you to feel empowered.
 
-237
+228
 00:20:18,055 --> 00:20:22,076
 And that you decided that you are going to rise above your social circumstances
 
-238
+229
 00:20:22,076 --> 00:20:26,005
 with that knowledge knowing that was not your fault
 
-239
+230
 00:20:26,005 --> 00:20:30,049
 or knowing that this was not the fault of your family —
 
-240
+231
 00:20:30,049 --> 00:20:36,028
 and I actually, I think that’s a really excellent response to my concern
 
-241
+232
 00:20:36,028 --> 00:20:40,071
 and it’s really a nice response because I think that in the case of divorce,
 
-242
+233
 00:20:40,071 --> 00:20:46,028
 it’s true that many children feel as though they are themselves the cause of their parents’ divorce
 
-243
+234
 00:20:46,028 --> 00:20:50,021
 so they feel as though they are responsible for it and certainly it’s true
 
-244
+235
 00:20:50,021 --> 00:20:56,009
 that their family members blame themselves, and I think it is the case that
 
-245
+236
 00:20:56,009 --> 00:21:02,005
 if you know that you’re part of something larger and wider, perhaps that is actually empowering
 
-246
+237
 00:21:02,005 --> 00:21:06,001
 to be able to get beyond it and move beyond it.
 
-247
+238
 00:21:06,001 --> 00:21:13,046
 And yet I must tell you that I feel still nevertheless a certain concern over these lines
 
-248
+239
 00:21:13,046 --> 00:21:20,074
 and what they imply in the essay because for many people, you know, their lives are just really hard.
 
-249
+240
 00:21:20,074 --> 00:21:28,020
 And, it is going to be hard for them whether they know that they’re part of a larger social trend or not.
 
-250
+241
 00:21:28,020 --> 00:21:33,050
 And the ability to rise beyond their social circumstances,
 
-251
+242
 00:21:33,050 --> 00:21:40,015
 I worry, takes a lot more obviously than any kind of knowledge or understanding of this kind,
 
-252
+243
 00:21:40,015 --> 00:21:53,056
 but perhaps that’s just obvious and not worth being overly concerned with.
 
-253
+244
 00:21:53,056 --> 00:22:01,004
 By the way, in our Princeton Seminars, there are moments, as Estela will tell you, of complete silence.
 
-254
+245
 00:22:01,004 --> 00:22:04,045
 And I encourage those moments in my seminar. I believe in silence.
 
-255
+246
 00:22:04,045 --> 00:22:07,080
 I think it’s great for people to be able to sit and think for a second.
 
-256
+247
 00:22:07,080 --> 00:22:13,039
 Sometimes we’ll have silence for 30 seconds in the room before somebody talks.
 
-257
+248
 00:22:13,039 --> 00:22:18,050
 We shouldn’t always feel pressured to fill in every gap at every moment,
 
-258
+249
 00:22:18,050 --> 00:22:25,033
 and no more so just because we happen to be on the Internet for 30,000 other students right now.
 
-259
+250
 00:22:25,033 --> 00:22:30,071
 Does anybody else have anything they wanted to add to that before we move on there, then?
 
-260
+251
 00:22:30,071 --> 00:22:34,097
 >> Yes. May I add something? It will be kind of question.
 
-261
+252
 00:22:34,097 --> 00:22:40,058
 When you were talking in your lecture about sociological imagination,
 
-262
+253
 00:22:40,058 --> 00:22:46,000
 what we find was mortgage and divorce — situations and issues.
 
-263
+254
 00:22:46,000 --> 00:22:55,053
 I remember the words of Soviet secretary-general Joseph Stalin ’cause he once said to Averill Harriman.
 
-264
+255
 00:22:55,053 --> 00:23:01,085
 He said, “The death of one man is a tragedy, the death of million is statistic.”
 
-265
+256
 00:23:01,085 --> 00:23:08,059
 I’d like to know that I am not a fan of Joseph Stalin, and my opinion, he was a dictator.
 
-266
+257
 00:23:08,059 --> 00:23:12,034
 That was just the first thing that came to my mind,
 
-267
+258
 00:23:12,034 --> 00:23:17,047
 whether there is an argument, whether he said it or not.
 
-268
+259
 00:23:17,047 --> 00:23:24,042
 So I wanted to ask a bit political question.
 
-269
+260
 00:23:24,042 --> 00:23:32,008
 I understand that in terms of historical change, as also Mills noted,
 
-270
+261
 00:23:32,008 --> 00:23:42,014
 our lives are only a moment so today anything around us could be revealed as a statistic —
 
-271
+262
 00:23:42,014 --> 00:23:48,033
 even our lives can be a statistic within this scope
 
-272
+263
 00:23:48,033 --> 00:23:56,017
 of the population size, and then the scope of many other issues.
 
-273
+264
 00:23:56,017 --> 00:24:01,024
 So our president tells about wages.
 
-274
+265
 00:24:01,024 --> 00:24:07,018
 When he tells about wages, he cites average wages data.
 
-275
+266
 00:24:07,018 --> 00:24:13,020
 Why doesn’t he cite the lowest [inaudible], for example Tatiana
 
-276
+267
 00:24:13,020 --> 00:24:25,036
 who is which a school teacher in Siberia in who has four children and tries to survive with four kids.
 
-277
+268
 00:24:25,037 --> 00:24:31,078
 How do you think, professor? Can the government treat its people just as a statistic?
 
-278
+269
 00:24:31,078 --> 00:24:38,094
 And where is the border of statistic and the real life?
 
-279
+270
 00:24:38,094 --> 00:24:43,006
 >> Well, I think that it’s very tempting to use a single statistic,
 
-280
+271
 00:24:43,006 --> 00:24:48,069
 and of course what a sociological imagination is going to do,
 
-281
+272
 00:24:48,069 --> 00:24:52,097
 is going to try to encourage people to look at the variation,
 
-282
+273
 00:24:52,097 --> 00:24:57,071
 and to try to explain the variation in a society.
 
-283
+274
 00:24:57,071 --> 00:25:04,040
 And, I think that there’s always a tendency to try to put the focus in one place or the other
 
-284
+275
 00:25:04,040 --> 00:25:10,040
 but your job is as a sociologist is to move toward an understanding and grasping
 
-285
+276
 00:25:10,040 --> 00:25:14,090
 of that variation in which you just did in your wonderful comment
 
-286
+277
 00:25:14,090 --> 00:25:22,043
 and that’s a great quote which I’m sure that I’ll be using in the future when I give this lecture again.
 
-287
+278
 00:25:22,043 --> 00:25:27,030
 I want to ask you guys to take a peek though at the notion of
 
-288
+279
 00:25:27,030 --> 00:25:34,042
 that first line in the essay, and I want to get back to this issue of impersonal changes.
 
-289
+280
 00:25:34,042 --> 00:25:40,053
 Could you guys try to think about what that means,
 
-290
+281
 00:25:40,053 --> 00:25:47,038
 and try to help the students who were concerned about that all on the website to reflect on that a little bit more?
 
-291
+282
 00:25:47,038 --> 00:25:51,087
 What are some of the impersonal changes in your society?
 
-292
+283
 00:25:51,087 --> 00:25:55,017
 Nana has gone off, why don’t we go to Doug?
 
-293
+284
 00:25:55,017 --> 00:25:59,049
 >> When I look at this line, as far as impersonal changes,
 
-294
+285
 00:25:59,049 --> 00:26:02,043
 I felt like that was something that, you know,
 
-295
+286
 00:26:02,043 --> 00:26:07,069
 in a time, I mean, it was brought up before about what’s going on with the housing crisis,
 
-296
+287
 00:26:07,069 --> 00:26:10,005
 with the job crisis and everything else.
 
-297
+288
 00:26:10,005 --> 00:26:14,037
 And in a time when jobs are, you know, so few and far between,
 
-298
+289
 00:26:14,037 --> 00:26:19,037
 somebody can very easily think of themselves “Well there’s something wrong with me that’s why I’m not working,”
 
-299
+290
 00:26:19,037 --> 00:26:24,002
 when, if they look at the, you know, the way that everything is in society,
 
-300
+291
 00:26:24,002 --> 00:26:26,097
 it’s not a personal change that you need to make,
 
-301
+292
 00:26:26,097 --> 00:26:29,089
 it’s the way that the society is that, you know, the…
 
-302
+293
 00:26:29,089 --> 00:26:34,098
 the structure and, as it goes, the very structure of the continent-wide society
 
-303
+294
 00:26:34,098 --> 00:26:39,011
 that if there’s, there’s change made to the system,
 
-304
+295
 00:26:39,011 --> 00:26:42,025
 not something that has to do with this one person —
 
-305
+296
 00:26:42,025 --> 00:26:46,006
 like I feel like that line is trying to give somebody a little bit of hope you know,
 
-306
+297
 00:26:46,006 --> 00:26:49,009
 like “Look, it’s not you! You have the ability, you just need to understand
 
-307
+298
 00:26:49,009 --> 00:26:52,012
 that there’s a problem out there right now.” I think we’re just going
 
-308
+299
 00:26:52,012 --> 00:26:57,004
 to need to try a little bit harder and don’t let yourself down and don’t feel like you’re trapped.
 
-309
+300
 00:26:57,004 --> 00:26:59,053
 >> Okay. Estela?
 
-310
+301
 00:26:59,053 --> 00:27:06,025
 >> No, I think he saw that very well.
 
-311
+302
 00:27:06,025 --> 00:27:07,095
 I’m trying to think.
 
-312
+303
 00:27:07,095 --> 00:27:16,036
 I’m looking at what he says the structure of continent-wide societies and just contextualizing this
 
-313
+304
 00:27:16,036 --> 00:27:24,041
 in nineteen…, I mean, if we consider the effect of the Internet now in our very discussion here today,
 
-314
+305
 00:27:24,041 --> 00:27:31,023
 where we were discussing this with people on various continents, various countries.
 
-315
+306
 00:27:31,023 --> 00:27:44,026
 So looking at impersonal changes, that’s something far beyond our what he says as personal troubles,…
 
-316
+307
 00:27:44,026 --> 00:27:51,020
 >> Yeah. I think that one of the things that concerns me about this point as well is that, you know,
 
-317
+308
 00:27:51,020 --> 00:27:58,019
 the emphasis on, obviously, the impersonal changes and that as if they are always trapping us.
 
-318
+309
 00:27:58,019 --> 00:28:03,082
 And I think that we have to have more a nuanced view of it — at least I would propose that —
 
-319
+310
 00:28:03,082 --> 00:28:09,068
 and the, you know, the impersonal change of today of the Internet
 
-320
+311
 00:28:09,068 --> 00:28:15,070
 obviously is also leading to possibilities like the one that we have before us right now.
 
-321
+312
 00:28:15,070 --> 00:28:18,055
 And, I think that our job as sociologists
 
-322
+313
 00:28:18,055 --> 00:28:23,033
 is to look at the ways in which impersonal changes not only trap us,
 
-323
+314
 00:28:23,033 --> 00:28:28,024
 but also liberate us and potentially make us more free.
 
-324
+315
 00:28:28,024 --> 00:28:33,081
 And I wonder whether or not anybody could present an example other than the Internet
 
-325
+316
 00:28:33,081 --> 00:28:37,030
 of any kind of impersonal change in their own society.
 
-326
+317
 00:28:37,030 --> 00:28:41,092
 Or perhaps the internet is the best one for your society right now that you’d like to refer to,
 
-327
+318
 00:28:41,092 --> 00:29:13,002
 but in which the actual impersonal change has been liberating rather than simply constraining.
 
-328
+319
 00:29:13,002 --> 00:29:17,055
 Remember silence is fine. Silence is good in the seminar.
 
-329
+320
 00:29:17,055 --> 00:29:22,086
 Everyone can think.
 
-330
+321
 00:29:22,086 --> 00:29:31,088
 >> I think that was a good example, try to recover other issues.
 
-331
+322
 00:29:31,088 --> 00:29:37,014
 >> Okay. Well maybe we can ask our online viewers,
 
-332
+323
 00:29:37,014 --> 00:29:42,083
 the other members of the class, to think about that issue a little bit as we move forward in the class.
 
-333
+324
 00:29:42,083 --> 00:29:48,093
 I want to move on now to a discussion of the New Yorker article
 
-334
+325
 00:29:48,093 --> 00:29:55,040
 that was written by the great writer, the great non-fiction writer, Malcolm Gladwell.
 
-335
+326
 00:29:55,040 --> 00:30:00,006
 And I saw some questions on the discussion boards
 
-336
+327
 00:30:00,006 --> 00:30:05,054
 about why I would have assigned this article for the first class.
 
-337
+328
 00:30:05,054 --> 00:30:10,076
 And in fact, the article was assigned
 
-338
+329
 00:30:10,076 --> 00:30:15,075
 for exactly the reason that many of you proposed in your answers to the person who asked that question:
 
-339
+330
 00:30:15,075 --> 00:30:20,073
 because I believe it exemplifies the sociological imagination.
 
-340
+331
 00:30:20,073 --> 00:30:24,002
 Can you guys hear me right now?
 
-341
+332
 00:30:24,002 --> 00:30:26,089
 Yes? Okay, good.
 
-342
+333
 00:30:26,089 --> 00:30:32,053
 So, let’s begin now by talking a little bit about Gladwell’s article.
 
-343
+334
 00:30:32,053 --> 00:30:35,068
 Gladwell being a Canadian who came to the United States
 
-344
+335
 00:30:35,068 --> 00:30:39,064
 and was kind of intrigued by the culture of New York City
 
-345
+336
 00:30:39,064 --> 00:30:44,042
 in which he found that there were many people who were obsessed with Harvard in particular,
 
-346
+337
 00:30:44,042 --> 00:30:49,046
 and who seemed to think that if they had gone there
 
-347
+338
 00:30:49,046 --> 00:30:56,008
 that there was nothing of greater importance that could have happened to them in their lives.
 
-348
+339
 00:30:56,008 --> 00:31:00,006
 And he wrote this essay based on, as we know,
 
-349
+340
 00:31:00,006 --> 00:31:04,045
 based on the research of sociologist Jerome Karabel largely,
 
-350
+341
 00:31:04,045 --> 00:31:15,040
 about the nature of admissions at Harvard, Princeton and Yale,
 
-351
+342
 00:31:15,040 --> 00:31:19,033
 and the way in which it moved in the direction that it is in today.
 
-352
+343
 00:31:19,033 --> 00:31:26,010
 And, one of the things that I found very interesting about the responses on the Internet to this
 
-353
+344
 00:31:26,010 --> 00:31:31,078
 was that, there were many people who saw the decision
 
-354
+345
 00:31:31,078 --> 00:31:37,075
 of the Ivy League Schools to look at the “whole person” rather than a single dimension
 
-355
+346
 00:31:37,075 --> 00:31:43,033
 as meaning — as implying — that, that was somehow a false promise,
 
-356
+347
 00:31:43,033 --> 00:31:47,066
 or that people have been excluded
 
-357
+348
 00:31:47,066 --> 00:31:53,097
 that people, that they themselves were being promised something that wasn’t really fair or obtainable
 
-358
+349
 00:31:53,097 --> 00:32:01,035
 when they were given the hope that they one day could achieve or go to an Ivy League School.
 
-359
+350
 00:32:01,035 --> 00:32:07,021
 And I’m just curious about that response because my own feeling about it in looking at the way
 
-360
+351
 00:32:07,021 --> 00:32:10,062
 that the system of college admissions emerged is that,
 
-361
+352
 00:32:10,062 --> 00:32:15,022
 while I think it’s good that the largest group of students in the university
 
-362
+353
 00:32:15,022 --> 00:32:18,036
 has gotten there because of their academic achievement,
 
-363
+354
 00:32:18,036 --> 00:32:23,042
 I think that it is also true that there are so many other qualities in life
 
-364
+355
 00:32:23,042 --> 00:32:27,020
 that make for a deserving and an interesting human being.
 
-365
+356
 00:32:27,020 --> 00:32:33,060
 And, would we really want a college to only include the people who have the highest scores
 
-366
+357
 00:32:33,060 --> 00:32:37,096
 rather than a system like the one  that has been designed
 
-367
+358
 00:32:37,096 --> 00:32:42,096
 which actually looks at a much wider variety of personal characteristics?
 
-368
+359
 00:32:42,096 --> 00:32:47,042
 And I’m just curious about what your response was to some of those comments
 
-369
+360
 00:32:47,042 --> 00:32:53,065
 and how you would design a system like this if it was up to you.
 
-370
+361
 00:32:53,065 --> 00:32:55,046
 Dipendra.
 
-371
+362
 00:32:55,046 --> 00:32:59,032
 >> Actually when I was going through this text,
 
-372
+363
 00:32:59,032 --> 00:33:03,006
 what I’ve felt was the education system the admission system
 
-373
+364
 00:33:03,006 --> 00:33:09,047
 that was there and unfortunately, in Nepal, I’ve been practicing that now.
 
-374
+365
 00:33:09,047 --> 00:33:13,064
 So, we have the, actually a brief background of
 
-375
+366
 00:33:13,064 --> 00:33:19,048
 the admission system that we have here and then I’ll get back to my point.
 
-376
+367
 00:33:19,048 --> 00:33:26,016
 So, here at Nepal, what [we have] there are typically two different kinds of colleges or universities.
 
-377
+368
 00:33:26,016 --> 00:33:32,094
 The primary targets of all the university and all the college here in Nepal is you should get at least good marks —
 
-378
+369
 00:33:32,094 --> 00:33:37,096
 at least, [inaudible] more than 60 percent or more than three GPA —
 
-379
+370
 00:33:37,096 --> 00:33:41,011
 so that you can get into good college or something like that.
 
-380
+371
 00:33:41,011 --> 00:33:47,012
 And very few, very few colleges and universities — we count in hands or fingers —
 
-381
+372
 00:33:47,012 --> 00:33:53,074
 that they’ll look overall student or they look at overall characteristics of students.
 
-382
+373
 00:33:53,074 --> 00:33:59,014
 So it would depend, but I would like to say seeing, to look at examples
 
-383
+374
 00:33:59,014 --> 00:34:05,004
 that I have seen here in Nepal, what I have come to conclude is typically,
 
-384
+375
 00:34:05,004 --> 00:34:09,099
 there are two different university here that I would like to mention in Nepal.
 
-385
+376
 00:34:09,099 --> 00:34:15,022
 The Tribhuvan University which is government owned university and Kathmandu University
 
-386
+377
 00:34:15,022 --> 00:34:17,054
 that is privately owned university.
 
-387
+378
 00:34:17,054 --> 00:34:20,016
 So, why does Tribhuvan University does it?
 
-388
+379
 00:34:20,016 --> 00:34:24,065
 They don’t have a proper definite system of taking in students.
 
-389
+380
 00:34:24,065 --> 00:34:28,073
 So, every time they can have a ticket of admission in that college.
 
-390
+381
 00:34:28,073 --> 00:34:35,037
 They have let’s say you have crossed 50 percent then you’ll get into that university — and where I am now.
 
-391
+382
 00:34:35,037 --> 00:34:41,045
 And before coming to this university, I actually dropped the Kathmandu University
 
-392
+383
 00:34:41,045 --> 00:34:46,044
 because private university and which required rigorous competition.
 
-393
+384
 00:34:46,044 --> 00:34:50,096
 They had added a baseline for academics.
 
-394
+385
 00:34:50,096 --> 00:34:55,046
 We need to get at least 60 percent in your high school, then
 
-395
+386
 00:34:55,046 --> 00:34:59,058
 you should be astounding in extra curricular activities,
 
-396
+387
 00:34:59,058 --> 00:35:04,073
 you should be astounding in sports, you should be social, and so many characteristics.
 
-397
+388
 00:35:04,073 --> 00:35:11,085
 And where the products that come out after from the universities after four years,
 
-398
+389
 00:35:11,085 --> 00:35:15,023
 we can see a clear distinction here in Nepal:
 
-399
+390
 00:35:15,023 --> 00:35:22,081
 Kathmandu University, which has a system of looking a student from all dimension,
 
-400
+391
 00:35:22,081 --> 00:35:29,052
 the students are… they are very practical, they know a lot of things, you know, they are outgoing.
 
-401
+392
 00:35:29,052 --> 00:35:33,048
 And while we look at the students of Tribhuvan University,
 
-402
+393
 00:35:33,048 --> 00:35:38,076
 what I see is students are very much confined to books —
 
-403
+394
 00:35:38,076 --> 00:35:45,081
 not even in textbooks: we have these papers here that means the questions that, the exams.
 
-404
+395
 00:35:45,081 --> 00:35:53,036
 So there are some predicted questions and you go through that question and you will get questions out of that.
 
-405
+396
 00:35:53,036 --> 00:36:02,050
 It is sometimes… that’s really a very difficult task at Tribhuvan University.
 
-406
+397
 00:36:02,050 --> 00:36:10,059
 So, what I feel is, for a college student to get admission, academics should be one of the primary criteria,
 
-407
+398
 00:36:10,059 --> 00:36:14,021
 but we should have also look at the students in overall —
 
-408
+399
 00:36:14,021 --> 00:36:18,031
 how good they [inaudible] in society, how good they [inaudible] in sports.
 
-409
+400
 00:36:18,031 --> 00:36:19,085
 That’s what I [think].
 >> Thank you.
 
-410
+401
 00:36:19,085 --> 00:36:23,001
 Thank you for that interesting comment, Dipendra.
 
-411
+402
 00:36:23,001 --> 00:36:25,004
 Would anyone else like to comment on this?
 
-412
+403
 00:36:25,004 --> 00:36:27,021
 >> Yes, may I comment?
 >> Yes.
 
-413
+404
 00:36:27,021 --> 00:36:30,042
 >> Because getting in is a very pressing problem for me.
 
-414
+405
 00:36:30,042 --> 00:36:39,011
 Now I’m graduating in a few days, and then I’ll be… I have to find an advocate’s masters program.
 
-415
+406
 00:36:39,011 --> 00:36:46,048
 And while I was reading “Getting In” article, I have a feeling you know,
 
-416
+407
 00:36:46,048 --> 00:36:56,059
 well, the situation that existed in the beginning of the twentieth Century in Harvard University and Yale etc.
 
-417
+408
 00:36:56,059 --> 00:37:02,017
 With standardized tests now exists in Russia,
 
-418
+409
 00:37:02,017 --> 00:37:07,038
 in the twenty-first century, in the beginning of the twenty-first century.
 
-419
+410
 00:37:07,038 --> 00:37:18,078
 So, I think it’s not a good way to admit students just on the basis of standardized tests.
 
-420
+411
 00:37:18,078 --> 00:37:28,039
 Academic records is a very is a very… is an important problem
 
-421
+412
 00:37:28,039 --> 00:37:35,032
 but while admitting they should see…
 
-422
+413
 00:37:35,032 --> 00:37:45,081
 they should see the person[’s] hope — hope as in hope —, his background, his experience,
 
-423
+414
 00:37:45,081 --> 00:37:56,035
 what he can do, maybe… just not only his studies.
 
-424
+415
 00:37:56,035 --> 00:38:01,068
 >> So, it’s interesting to hear your perspectives on this, and it is true that outside the United States,
 
-425
+416
 00:38:01,068 --> 00:38:06,065
 that the standards are usually much more narrow for admissions decisions.
 
-426
+417
 00:38:06,065 --> 00:38:12,051
 And I think that, that is what accounted for some of the surprise
 
-427
+418
 00:38:12,051 --> 00:38:18,058
 that initially came on to the site about the way that it’s done here in the United States.
 
-428
+419
 00:38:18,058 --> 00:38:22,074
 I want to, oh, I see we have another person that just joined us.
 
-429
+420
 00:38:22,074 --> 00:38:25,075
 Another Princeton student named Dixon Lee.
 
-430
+421
 00:38:25,075 --> 00:38:27,013
 Hi, Dixon.
 
-431
+422
 00:38:27,013 --> 00:38:28,028
 >> Hi, Mitch.
 
-432
+423
 00:38:28,028 --> 00:38:32,082
 >> So, we’re talking right now about the Malcolm Gladwell essay
 
-433
+424
 00:38:32,082 --> 00:38:39,011
 and one of the interesting points that I want to sort of end by thinking about,
 
-434
+425
 00:38:39,011 --> 00:38:43,007
 is something that came up a lot on the discussion boards
 
-435
+426
 00:38:43,007 --> 00:38:47,051
 which was the study that was cited — and this is for everybody, not just for Dixon —
 
-436
+427
 00:38:47,051 --> 00:38:56,070
 the study that was cited by Gladwell, by my colleague Alan Krueger, who did a study of the people
 
-437
+428
 00:38:56,070 --> 00:39:01,034
 who were — let’s say “hypothetically,” as it’s described in the article —
 
-438
+429
 00:39:01,034 --> 00:39:09,039
 accepted into a state university like Penn State, at a private university like the University of Pennsylvania.
 
-439
+430
 00:39:09,039 --> 00:39:14,088
 And what was his point in making that comparison and what did he find?
 
-440
+431
 00:39:14,088 --> 00:39:17,037
 Does anybody remember?
 
-441
+432
 00:39:17,037 --> 00:39:22,052
 It certainly elicited a lot of response on the discussion boards.
 
-442
+433
 00:39:22,052 --> 00:39:28,010
 >> Um. So they referred to it as comparing apples to apples.
 
-443
+434
 00:39:28,010 --> 00:39:37,062
 And what they discovered is that both the person who decides to go to the more elite university —
 
-444
+435
 00:39:37,062 --> 00:39:45,051
 “elites” — and the person who decides to go to the state school, both do well in the future.
 
-445
+436
 00:39:45,051 --> 00:39:53,068
 With the finding of one exception, which is those from the lowest economic strata.
 
-446
+437
 00:39:53,068 --> 00:40:01,000
 Those from this strata were seen as benefiting from the elite’s education.
 
-447
+438
 00:40:01,000 --> 00:40:07,088
 And it didn’t say… it didn’t explain this in any way but that was the finding.
 
-448
+439
 00:40:07,088 --> 00:40:13,062
 >> Can anybody explain — thank you Estela — Can anybody explain to us what was the logic of the article?
 
-449
+440
 00:40:13,062 --> 00:40:18,095
 He used the words “selection” and “treatment”, and what was the exact way
 
-450
+441
 00:40:18,095 --> 00:40:28,024
 in which he went about in doing his study, in which those words became so important?
 
-451
+442
 00:40:28,024 --> 00:40:30,090
 What was he measuring? What was he comparing?
 
-452
+443
 00:40:30,090 --> 00:40:36,020
 Does anybody have any memory of that aspect of the article?
 
-453
+444
 00:40:36,020 --> 00:40:42,057
 What was Krueger doing there?
 
-454
+445
 00:40:42,057 --> 00:40:46,016
 In the traditional — it’s just to jog your memory —
 
-455
+446
 00:40:46,016 --> 00:40:51,078
 in the traditional measures of the impact of an Ivy League education,
 
-456
+447
 00:40:51,078 --> 00:40:56,017
 comparisons have been made between the salaries of people
 
-457
+448
 00:40:56,017 --> 00:41:01,026
 who graduated from Ivy League Schools and the salaries of people
 
-458
+449
 00:41:01,026 --> 00:41:08,033
 who graduated from other schools, and what Kruger said was, “Let’s change the comparison.”
 
-459
+450
 00:41:08,033 --> 00:41:16,023
 Instead of comparing it in that way, how did we do it?
 
-460
+451
 00:41:16,023 --> 00:41:22,029
 He compared the people who were the same person.
 
-461
+452
 00:41:22,029 --> 00:41:25,067
 He only took people who were graduated, who were admitted
 
-462
+453
 00:41:25,067 --> 00:41:28,086
 both to private schools — to Ivy League Schools — and to other schools
 
-463
+454
 00:41:28,086 --> 00:41:32,004
 and who chose, for some reason, to go to the other school instead.
 
-464
+455
 00:41:32,004 --> 00:41:38,054
 And he compared those same people against the average people who came out of Ivy League Schools
 
-465
+456
 00:41:38,054 --> 00:41:44,076
 and he found out that those people actually did just as well as the people who went to Ivy League Schools.
 
-466
+457
 00:41:44,076 --> 00:41:49,002
 And so his point was, that it was not necessarily the treatment
 
-467
+458
 00:41:49,002 --> 00:41:53,090
 of going to an Ivy League School that mattered — in terms of the success of people —
 
-468
+459
 00:41:53,090 --> 00:42:01,061
 but it was instead the selection into the system from the very beginning
 
-469
+460
 00:42:01,061 --> 00:42:05,093
 of certain kinds of people that were destined to be successful.
 
-470
+461
 00:42:05,093 --> 00:42:10,065
 And he basically, despite the fact that he’s a Princeton professor
 
-471
+462
 00:42:10,065 --> 00:42:14,056
 and has every reason to be biased in favor of the Ivy League,
 
-472
+463
 00:42:14,056 --> 00:42:20,017
 he concluded that the impact of the Ivy League is not nearly as great
 
-473
+464
 00:42:20,017 --> 00:42:24,041
 as it’s taken to be by the wider society and the wider world.
 
-474
+465
 00:42:24,041 --> 00:42:28,041
 Now it seems to me that that kind of analysis that Krueger did,
 
-475
+466
 00:42:28,041 --> 00:42:32,028
 is in the best tradition of the sociological imagination.
 
-476
+467
 00:42:32,028 --> 00:42:37,079
 And it seems to me that, that kind of information should be empowering to many people,
 
-477
+468
 00:42:37,079 --> 00:42:46,010
 regardless of whether or not they would even want to come to Princeton or some other Ivy League School.
 
-478
+469
 00:42:46,010 --> 00:42:50,072
 Did you guys… did that information make a similar impression on you guys?
 
-479
+470
 00:42:50,072 --> 00:42:58,024
 What effect did it have on you to read that part of the article?
 
-480
+471
 00:42:58,024 --> 00:43:02,060
 >> Yeah, I understood. Yeah, I understand what you’re saying.
 
-481
+472
 00:43:02,060 --> 00:43:08,096
 The one quote that he has here is “having Penn on your resume opens doors.”
 
-482
+473
 00:43:08,096 --> 00:43:15,068
 And I do notice that there is that sort of the meanest attitude when it comes to society in general.
 
-483
+474
 00:43:15,068 --> 00:43:20,025
 People turn and maybe look at certain people a certain kind of way — they put them up on a pedestal —
 
-484
+475
 00:43:20,025 --> 00:43:24,056
 and you know, it can sometimes be a little unfortunate that they would do something like that
 
-485
+476
 00:43:24,056 --> 00:43:28,036
 but you know, I understand; and
 
-486
+477
 00:43:28,036 --> 00:43:34,072
 because there’s such an emphasis that’s been put on for so long about who’s coming out of where —
 
-487
+478
 00:43:34,073 --> 00:43:38,024
 just, you know, how, also like what he said earlier in the article,
 
-488
+479
 00:43:38,024 --> 00:43:41,075
 you know, when he… when somebody said they were from Harvard it was like everybody
 
-489
+480
 00:43:41,075 --> 00:43:44,094
 in the room got quiet you know and they were like, “Oh, this guy is from Harvard!”
 
-490
+481
 00:43:44,094 --> 00:43:49,096
 Just like I understand that’s what he was explaining.
 
-491
+482
 00:43:49,096 --> 00:43:55,078
 And it kind of seems to me like — I’m not sure if I got [it] right,
 
-492
+483
 00:43:55,078 --> 00:43:59,094
 but what he was saying was that some of the [students]
 
-493
+484
 00:43:59,094 --> 00:44:06,048
 well, did really well in the lower-tiered school — like the state school — that they only did
 
-494
+485
 00:44:06,048 --> 00:44:10,077
 as good as the people who were like average students in the Ivy League School.
 
-495
+486
 00:44:10,077 --> 00:44:13,090
 >> No, no, no, no, no, no. It was exactly the opposite of that.
 
-496
+487
 00:44:13,090 --> 00:44:18,084
 He is basically saying that if you took the same person who is admitted to both,
 
-497
+488
 00:44:18,084 --> 00:44:24,091
 then it’s really ultimately the individual who mattered more than (>> Okay.) the social context.
 
-498
+489
 00:44:24,091 --> 00:44:29,069
 >> Okay, so, yes. I, I just, I understood that what he was talking about with that, you know,
 
-499
+490
 00:44:29,069 --> 00:44:36,005
 having Penn on your resume, that’s basically, you know, the whole, the general thing basically.
 
-500
+491
 00:44:36,005 --> 00:44:37,079
 Your dream is what you’re looking at.
 
-501
+492
 00:44:37,079 --> 00:44:41,004
 You know, when you’re coming out of that school, you’re grand and people look at
 
-502
+493
 00:44:41,004 --> 00:44:46,001
 that and they think that when you’re coming out of Penn or Harvard, you’re like a Mercedes.
 
-503
+494
 00:44:46,001 --> 00:44:49,013
 >> Right. But his… >> When you’re coming out of Penn State,…
 
-504
+495
 00:44:49,013 --> 00:44:52,016
 >> But his point though is — and it’s important to clarify this
 
-505
+496
 00:44:52,016 --> 00:44:55,016
 and make sure that we get on the same page on this point —
 
-506
+497
 00:44:55,016 --> 00:45:00,057
 is that his point is that when you look at the statistical data for large numbers of people,
 
-507
+498
 00:45:00,057 --> 00:45:07,013
 then those anecdotal stories actually don’t have as much explanatory value
 
-508
+499
 00:45:07,013 --> 00:45:13,019
 as the analysis that he did would have.
 
-509
+500
 00:45:13,019 --> 00:45:15,047
 Dixon, what do you think about this?
 
-510
+501
 00:45:15,047 --> 00:45:20,021
 >> So, when I was reading over it, I was interested to see that he says that
 
-511
+502
 00:45:20,021 --> 00:45:25,027
 the person who is accepted to Penn and the person who’s accepted to Penn State would do the same thing
 
-512
+503
 00:45:25,027 --> 00:45:32,064
 but then I was wondering, so admissions factors don’t always account for everything that person is capable of.
 
-513
+504
 00:45:32,064 --> 00:45:38,032
 So, I think it might have been just outside of the scope for his project.
 
-514
+505
 00:45:38,032 --> 00:45:45,033
 But I think that I would have been interested at this project have continued and then look at —
 
-515
+506
 00:45:45,033 --> 00:45:51,020
 so — what are the things that the [inaudible] students for and how did those affect people in the upper strata
 
-516
+507
 00:45:51,020 --> 00:45:56,001
 that normally wouldn’t be affected by the treatment
 
-517
+508
 00:45:56,001 --> 00:46:03,076
 that Princeton gives the, like the, really lower, lower strata that [inaudible] was talking about earlier.
 
-518
+509
 00:46:03,076 --> 00:46:06,030
 >> Good. That’s very interesting.
 
-519
+510
 00:46:06,030 --> 00:46:09,007
 So, basically, I hope that we can use Alan Krueger’s study
 
-520
+511
 00:46:09,007 --> 00:46:13,086
 as a way of getting and thinking more about the questions that I raised
 
-521
+512
 00:46:13,086 --> 00:46:19,027
 at the end of the first lecture of how it is that the individual makes a difference.
 
-522
+513
 00:46:19,027 --> 00:46:26,016
 And the extent to which we are truly trapped by certain social circumstances.
 
-523
+514
 00:46:26,016 --> 00:46:31,065
 Sometimes, we imagine that the social circumstances that are surrounding us
 
-524
+515
 00:46:31,065 --> 00:46:39,009
 are trapping us in ways that they actually are not, and it takes constant sociological investigation
 
-525
+516
 00:46:39,009 --> 00:46:45,034
 to know the difference between a real trap and an illusion of one.
 
-526
+517
 00:46:45,034 --> 00:46:53,049
 So, I want to end today’s discussion by just saying a little bit about where we’re going next.
 
-527
+518
 00:46:53,049 --> 00:46:57,090
 I want to say, first of all, that this was an experiment today.
 
-528
+519
 00:46:57,090 --> 00:47:01,062
 I know that the discussion was by no means perfect
 
-529
+520
 00:47:01,062 --> 00:47:06,055
 although it was as good as I could have ever hoped from a group of students around the world
 
-530
+521
 00:47:06,055 --> 00:47:15,032
 and I thought that your comments in the seminar today were really great and interesting and a wonderful beginning.
 
-531
+522
 00:47:15,032 --> 00:47:22,010
 But technically it could be improved and we will certainly work on that in the weeks to come.
 
-532
+523
 00:47:22,010 --> 00:47:25,060
 I really appreciate the patience of everybody who’s watching
 
-533
+524
 00:47:25,060 --> 00:47:29,064
 as well as your interest and I appreciate your support
 
-534
+525
 00:47:29,064 --> 00:47:33,019
 and your understanding that we are part now of a really big experiment.
 
-535
+526
 00:47:33,019 --> 00:47:37,092
 We’re trying to do something new and I suspect that we’re going to learn a lot along the way.
 
-536
+527
 00:47:37,092 --> 00:47:41,088
 When we meet the next time in the online forum,
 
-537
+528
 00:47:41,088 --> 00:47:46,053
 we’re going to include some new people that were not here today; we’ll also have some familiar faces.
 
-538
+529
 00:47:46,053 --> 00:47:53,002
 We’ll try to substitute some new people in, to keep the conversation representing different parts of the world.
 
-539
+530
 00:47:53,002 --> 00:47:57,019
 And, we will try to do some things to improve it each time
 
-540
+531
 00:47:57,019 --> 00:48:02,097
 until we really get it to a point where it is something that is working really well and we are really happy with it.
 
-541
+532
 00:48:02,097 --> 00:48:07,063
 But I must say that for a first time today, for a first effort, I’m really pleased with this.
 
-542
+533
 00:48:07,063 --> 00:48:13,020
 I also, I wanted to say that I was really excited to see the large number of study groups
 
-543
+534
 00:48:13,020 --> 00:48:21,027
 that had formed from around the world and I wanted to also give a special welcome to the people
 
-544
+535
 00:48:21,027 --> 00:48:27,079
 that are clearly participating in the class from Iran and from Afghanistan —
 
-545
+536
 00:48:27,079 --> 00:48:35,063
 two countries which do not have the greatest relationship officially with the United States today
 
-546
+537
 00:48:35,063 --> 00:48:43,094
 but that is certainly not due to any ill feeling on the part of Americans
 
-547
+538
 00:48:43,094 --> 00:48:50,048
 and we certainly all believe that these kinds of contacts are the ones that we should be having
 
-548
+539
 00:48:50,048 --> 00:48:53,053
 and I hope that in our future online seminars
 
-549
+540
 00:48:53,053 --> 00:48:59,009
 that we can have representatives from Iran and from Afghanistan with us as well.
 
-550
+541
 00:48:59,009 --> 00:49:02,024
 So, I ’m going to say goodbye to you all now.
 
-551
+542
 00:49:02,024 --> 00:49:06,073
 So, thank all of you online for participating in this wonderful experiment
 
-552
+543
 00:49:06,073 --> 00:49:12,005
 and I look forward to seeing you this Monday with the second lecture,
 
-553
+544
 00:49:12,005 --> 00:49:16,007
 in the discussion boards which I will be monitoring very carefully,
 
-554
+545
 00:49:16,007 --> 00:49:26,000
 and of course, in our second online seminar next Wednesday.
