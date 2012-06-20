@@ -1,0 +1,131 @@
+1
+99:59:59,000 --> 99:59:59,000
+I’d like to talk [about] an amazing creature: people.
+
+2
+99:59:59,000 --> 99:59:59,000
+In life, people are often seeking information.
+
+3
+99:59:59,000 --> 99:59:59,000
+That led to psychologist George Miller to describe people as “informovores”.
+
+4
+99:59:59,000 --> 99:59:59,000
+Informovores try to find and devour information, much like foragers seek and devour food.
+
+5
+99:59:59,000 --> 99:59:59,000
+And both informovores and foragers are trying to get lots of it quickly.
+
+6
+99:59:59,000 --> 99:59:59,000
+Pete Pirolli, a research scientist at PARC — and colleagues — has spent more than a decade
+
+7
+99:59:59,000 --> 99:59:59,000
+trying to figure out what features of information resources help or hinder
+
+8
+99:59:59,000 --> 99:59:59,000
+people’s ability to find out what they want.
+
+9
+99:59:59,000 --> 99:59:59,000
+One of the major attributes that informovores use to guide their searching
+
+10
+99:59:59,000 --> 99:59:59,000
+is what we call the “scent” of information:
+
+11
+99:59:59,000 --> 99:59:59,000
+As we browse the web, we are using cues of the pages that we look at
+
+12
+99:59:59,000 --> 99:59:59,000
+to try to figure out whether we can get to the information we want from where we are,
+
+13
+99:59:59,000 --> 99:59:59,000
+whether it’s trustworthy, whether it’s solving a problem.
+
+14
+99:59:59,000 --> 99:59:59,000
+And we’re also looking at these cues to figure out what options are available to us.
+
+15
+99:59:59,000 --> 99:59:59,000
+If you have a web page and you’d like to know whether the “scent” on the page is poor
+
+16
+99:59:59,000 --> 99:59:59,000
+for the people that come to that page or site, there are several telltale signs:
+
+17
+99:59:59,000 --> 99:59:59,000
+If you watch people  use your site, you can see them flail around when they get to a particular page;
+
+18
+99:59:59,000 --> 99:59:59,000
+they don’t know where to go.
+
+19
+99:59:59,000 --> 99:59:59,000
+Another technique — and one that Jared Spool and colleagues
+
+20
+99:59:59,000 --> 99:59:59,000
+have used successfully in user interface engineering — is to look at people’s confidence
+
+21
+99:59:59,000 --> 99:59:59,000
+as to whether they are on the right track, right before and right after they click a link.
+
+22
+99:59:59,000 --> 99:59:59,000
+Before tells you whether the link that you’re looking at is a good one — whether it has high “scent”.
+
+23
+99:59:59,000 --> 99:59:59,000
+And people’s confidence after tells you whether the page that you land on
+
+24
+99:59:59,000 --> 99:59:59,000
+beacons the informations that you’re trying to get to.
+
+25
+99:59:59,000 --> 99:59:59,000
+Another great way to tell when people are having trouble
+
+26
+99:59:59,000 --> 99:59:59,000
+with the scent  of information in how to follow the trail is the use of the Back button.
+
+27
+99:59:59,000 --> 99:59:59,000
+Lots of use of the Back button — major problems for your navigation.
+
+28
+99:59:59,000 --> 99:59:59,000
+Here’s an example of a menu bar of a web page that I think exhibits particular low scent.
+
+29
+99:59:59,000 --> 99:59:59,000
+This is the menu bar for the Stanford Federal Credit Union — a bank.
+
+30
+99:59:59,000 --> 99:59:59,000
+To give you a feel of what it looks like [interactively],
+
+31
+99:59:59,000 --> 99:59:59,000
+if you mouse over  any of these navigational elements, you’ll get a second level of navigation.
+
+32
+99:59:59,000 --> 99:59:59,000
+However, even with that second layer, this page exhibits many of the scent problems
+
+33
+99:59:59,000 --> 99:59:59,000
+that I think are common for low-scent pages.
