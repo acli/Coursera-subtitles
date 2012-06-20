@@ -1,131 +1,619 @@
 1
-99:59:59,000 --> 99:59:59,000
+00:00:00,085 --> 00:00:04,073
 I’d like to talk [about] an amazing creature: people.
 
 2
-99:59:59,000 --> 99:59:59,000
+00:00:04,073 --> 00:00:07,075
 In life, people are often seeking information.
 
 3
-99:59:59,000 --> 99:59:59,000
+00:00:07,075 --> 00:00:12,095
 That led to psychologist George Miller to describe people as “informovores”.
 
 4
-99:59:59,000 --> 99:59:59,000
+00:00:12,095 --> 00:00:19,078
 Informovores try to find and devour information, much like foragers seek and devour food.
 
 5
-99:59:59,000 --> 99:59:59,000
-And both informovores and foragers are trying to get lots of it quickly.
+00:00:19,078 --> 00:00:25,039
+And both informovores and foragers are trying figure out how to get lots of it quickly.
 
 6
-99:59:59,000 --> 99:59:59,000
-Pete Pirolli, a research scientist at PARC — and colleagues — has spent more than a decade
+00:00:25,039 --> 00:00:30,079
+Pete Pirolli, a research scientist at PARC — and his colleagues — has spent more than a decade
 
 7
-99:59:59,000 --> 99:59:59,000
+00:00:30,079 --> 00:00:35,030
 trying to figure out what features of information resources help or hinder
 
 8
-99:59:59,000 --> 99:59:59,000
+00:00:35,030 --> 00:00:39,003
 people’s ability to find out what they want.
 
 9
-99:59:59,000 --> 99:59:59,000
+00:00:39,003 --> 00:00:43,010
 One of the major attributes that informovores use to guide their searching
 
 10
-99:59:59,000 --> 99:59:59,000
+00:00:43,010 --> 00:00:49,009
 is what we call the “scent” of information:
 
 11
-99:59:59,000 --> 99:59:59,000
-As we browse the web, we are using cues of the pages that we look at
+00:00:49,009 --> 00:00:52,095
+As we browse the web, we’re using cues of the pages that we look at
 
 12
-99:59:59,000 --> 99:59:59,000
-to try to figure out whether we can get to the information we want from where we are,
+00:00:52,095 --> 00:00:57,034
+to try and figure out whether we can get to the information we want from where we are,
 
 13
-99:59:59,000 --> 99:59:59,000
+00:00:57,034 --> 00:00:59,087
 whether it’s trustworthy, whether it’s solving a problem.
 
 14
-99:59:59,000 --> 99:59:59,000
+00:00:59,087 --> 00:01:05,079
 And we’re also looking at these cues to figure out what options are available to us.
 
 15
-99:59:59,000 --> 99:59:59,000
+00:01:05,079 --> 00:01:10,070
 If you have a web page and you’d like to know whether the “scent” on the page is poor
 
 16
-99:59:59,000 --> 99:59:59,000
+00:01:10,070 --> 00:01:15,051
 for the people that come to that page or site, there are several telltale signs:
 
 17
-99:59:59,000 --> 99:59:59,000
+00:01:15,051 --> 00:01:21,034
 If you watch people  use your site, you can see them flail around when they get to a particular page;
 
 18
-99:59:59,000 --> 99:59:59,000
+00:01:21,034 --> 00:01:24,013
 they don’t know where to go.
 
 19
-99:59:59,000 --> 99:59:59,000
+00:01:24,013 --> 00:01:26,038
 Another technique — and one that Jared Spool and colleagues
 
 20
-99:59:59,000 --> 99:59:59,000
+00:01:26,038 --> 00:01:31,014
 have used successfully in user interface engineering — is to look at people’s confidence
 
 21
-99:59:59,000 --> 99:59:59,000
+00:01:31,014 --> 00:01:37,022
 as to whether they are on the right track, right before and right after they click a link.
 
 22
-99:59:59,000 --> 99:59:59,000
+00:01:37,022 --> 00:01:43,052
 Before tells you whether the link that you’re looking at is a good one — whether it has high “scent”.
 
 23
-99:59:59,000 --> 99:59:59,000
+00:01:43,052 --> 00:01:47,031
 And people’s confidence after tells you whether the page that you land on
 
 24
-99:59:59,000 --> 99:59:59,000
-beacons the informations that you’re trying to get to.
+00:01:47,031 --> 00:01:52,030
+beacons the information that you’re trying to get to.
 
 25
-99:59:59,000 --> 99:59:59,000
+00:01:52,030 --> 00:01:55,041
 Another great way to tell when people are having trouble
 
 26
-99:59:59,000 --> 99:59:59,000
+00:01:55,041 --> 00:02:00,051
 with the scent  of information in how to follow the trail is the use of the Back button.
 
 27
-99:59:59,000 --> 99:59:59,000
+00:02:00,051 --> 00:02:05,031
 Lots of use of the Back button — major problems for your navigation.
 
 28
-99:59:59,000 --> 99:59:59,000
-Here’s an example of a menu bar of a web page that I think exhibits particular low scent.
+00:02:05,031 --> 00:02:12,033
+Here’s an example of a menu bar of a web page that I think exhibits particularly low scent.
 
 29
-99:59:59,000 --> 99:59:59,000
+00:02:12,033 --> 00:02:17,063
 This is the menu bar for the Stanford Federal Credit Union — a bank.
 
 30
-99:59:59,000 --> 99:59:59,000
+00:02:17,063 --> 00:02:19,086
 To give you a feel of what it looks like [interactively],
 
 31
-99:59:59,000 --> 99:59:59,000
+00:02:19,086 --> 00:02:24,079
 if you mouse over  any of these navigational elements, you’ll get a second level of navigation.
 
 32
-99:59:59,000 --> 99:59:59,000
+00:02:24,079 --> 00:02:30,059
 However, even with that second layer, this page exhibits many of the scent problems
 
 33
-99:59:59,000 --> 99:59:59,000
+00:02:30,059 --> 00:02:33,067
 that I think are common for low-scent pages.
+
+34
+00:02:33,067 --> 00:02:37,029
+For starters, the categories aren’t written in terms
+
+35
+00:02:37,029 --> 00:02:41,036
+that I think most of the people that come to the site are familiar with.
+
+36
+00:02:41,036 --> 00:02:48,031
+It’s hard to figure out what’s behind “LoanClick” or “Transact”.
+
+37
+00:02:48,031 --> 00:02:51,002
+This is my bank, and often when I go to the site,
+
+38
+00:02:51,002 --> 00:02:59,030
+I’ve to try several different options before I figure out which one has the particular page I’m looking for.
+
+39
+00:02:59,030 --> 00:03:04,067
+Also, the navigational links on this page are short — there’s only a couple of words.
+
+40
+00:03:04,067 --> 00:03:15,000
+And this combination of jargon by the designers as opposed to user-centred terms and the brevity of the links
+
+41
+00:03:15,000 --> 00:03:20,019
+makes it very difficult to see behind those links.
+
+42
+00:03:20,019 --> 00:03:26,032
+Also, as we see, a lot of the cues that would help me figure out what’s behind “Transact”
+
+43
+00:03:26,032 --> 00:03:33,073
+or “LoanClick” or “Account View”, those are hidden in a secondary layer of navigation.
+
+44
+00:03:33,073 --> 00:03:40,047
+You [of] course can mouse over one at a time and get to them, but it’s relatively slow.
+
+45
+00:03:40,047 --> 00:03:46,066
+And finally, the designers of the site presumably offered icons for each of the menu elements
+
+46
+00:03:46,066 --> 00:03:51,099
+with the intuition that icons make things better — they provide a picture and pictures are good, right?
+
+47
+00:03:51,099 --> 00:03:57,006
+But these icons don’t provide much additional information.
+
+48
+00:03:57,006 --> 00:04:03,012
+While good icons can often improve the usability of a site, generic icons rarely help.
+
+49
+00:04:03,012 --> 00:04:10,034
+Another example of generic icons are the web page icons that you see along the left-hand side of this page here,
+
+50
+00:04:10,034 --> 00:04:14,083
+which is the web site for the HCI class online.
+
+51
+00:04:14,083 --> 00:04:21,026
+The generic globe [icon] doesn’t tell me much about the link, so it doesn’t add any information;
+
+52
+00:04:21,026 --> 00:04:29,074
+those pixels could be better put to use with a more specific icon, or with additional words.
+
+53
+00:04:29,074 --> 00:04:34,037
+Icons do help when they facilitate repeat recognition —
+
+54
+00:04:34,037 --> 00:04:38,071
+If either the first time I come to it, it shows me something that I expect;
+
+55
+00:04:38,071 --> 00:04:43,022
+or if it’s a good reminder for when I return.
+
+56
+00:04:43,022 --> 00:04:48,036
+Icons are also really helpful when you know what something looks like, but not what it’s called —
+
+57
+00:04:48,036 --> 00:04:51,037
+and that could be because it’s a language you’re not familiar with,
+
+58
+00:04:51,037 --> 00:05:00,068
+or it could be because there are multiple different terms, and you may not understand which one is being used in this case.
+
+59
+00:05:00,068 --> 00:05:04,006
+And good icons can also help with redundant coding,
+
+60
+00:05:04,006 --> 00:05:09,008
+because if you can recognize either the picture or the word that goes with the icon,
+
+61
+00:05:09,008 --> 00:05:12,066
+then you’re in business and you can get going,
+
+62
+00:05:12,066 --> 00:05:15,013
+and they can teach you about each other —
+
+63
+00:05:15,013 --> 00:05:19,065
+so I’ll learn what the word means from the “Permit” picture that I might be familiar with,
+
+64
+00:05:19,065 --> 00:05:26,042
+or vice-versa — if I’m familiar with the word, I can learn what the picture is.
+
+65
+00:05:26,042 --> 00:05:29,058
+So how can we improve the scent of links?
+
+66
+00:05:29,058 --> 00:05:33,098
+One of the most effective strategies for improving the scent of your web site
+
+67
+00:05:33,098 --> 00:05:37,075
+is to lengthen the links that you have on the site —
+
+68
+00:05:37,075 --> 00:05:44,021
+As opposed having one short word, add a longer explanation.
+
+69
+00:05:44,021 --> 00:05:52,008
+And when you do this, add specific, recognizable terms — what Jared Spool calls “trigger words” —
+
+70
+00:05:52,008 --> 00:06:00,083
+and not stuff that’s funny, or clever, or is the terminology favoured by the design team but not the users.
+
+71
+00:06:00,083 --> 00:06:07,022
+Long, specific links titles — like 7 or 8 words — not only can help improve the scent of the website,
+
+72
+00:06:07,022 --> 00:06:10,000
+it can help improve the accessibility,
+
+73
+00:06:10,000 --> 00:06:13,044
+because many of your users who’re accessing your site through a screen reader
+
+74
+00:06:13,044 --> 00:06:20,064
+will really value the specificity of those links to be able to understand what’s going on.
+
+75
+00:06:20,064 --> 00:06:28,043
+One example of that is that when the HCI course began, we had a link that I think was called “Grading Policy.”
+
+76
+00:06:28,043 --> 00:06:36,000
+Few people realized that behind that link was where we explained the different tracks of the course:
+
+77
+00:06:36,000 --> 00:06:41,086
+And for good reason: the word “track” was nowhere in the link.
+
+78
+00:06:41,086 --> 00:06:45,019
+After a week of confusion on the forum, we realized this
+
+79
+00:06:45,019 --> 00:06:49,004
+and we’re able to redesign the link to be longer and more specific,
+
+80
+00:06:49,004 --> 00:06:54,033
+and includes multiple different trigger words that might bring people to that page.
+
+81
+00:06:57,022 --> 00:07:00,099
+Another example from the [intranet] HCI class that I teach at Stanford
+
+82
+00:07:00,099 --> 00:07:09,074
+is we had a video where the link had a really short “here” as the only word in the link.
+
+83
+00:07:09,074 --> 00:07:15,008
+After somebody emailed me asking where the video was — and I knew it was on that page —
+
+84
+00:07:15,008 --> 00:07:20,010
+I realized that I could redesign that link, to expand it out to be multiple words;
+
+85
+00:07:20,010 --> 00:07:26,076
+and since redesigning that link to be longer, nobody’s emailed me saying they had any trouble.
+
+86
+00:07:26,076 --> 00:07:32,076
+One of the biggest impediments to improving the scent of navigational elements on a site
+
+87
+00:07:32,076 --> 00:07:36,044
+is that we have a really good general-purpose impulse
+
+88
+00:07:36,044 --> 00:07:41,018
+to try and not put too much cruft on things and make it too long.
+
+89
+00:07:41,018 --> 00:07:44,056
+However, with navigation, often more is better,
+
+90
+00:07:44,056 --> 00:07:52,027
+and a great strategy for effective navigation is what’s called “speaking block navigation.”
+
+91
+00:07:52,027 --> 00:07:54,097
+And this set of examples, collected by Smashing Magazine,
+
+92
+00:07:54,097 --> 00:07:59,019
+provides a good intuition as to what speaking block navigation is.
+
+93
+00:07:59,019 --> 00:08:03,081
+By adding multiple different words — perhaps subheadings that are underneath the structure,
+
+94
+00:08:03,081 --> 00:08:07,084
+or an explanation of what the main word or catchphrase is —
+
+95
+00:08:07,084 --> 00:08:14,051
+that can help users get to the place that they want to go.
+
+96
+00:08:14,051 --> 00:08:21,019
+When you provide links or content on a page, does it matter where on the page you put them?
+
+97
+00:08:21,019 --> 00:08:22,075
+Absolutely!
+
+98
+00:08:22,075 --> 00:08:27,042
+And one way that you can see this is with a number of eye-tracking studies
+
+99
+00:08:27,042 --> 00:08:30,003
+that have been done over the last decade or so.
+
+100
+00:08:30,003 --> 00:08:36,085
+This one is compliments of Ed Cutrell from his research group at Microsoft.
+
+101
+00:08:36,085 --> 00:08:43,024
+And what you can see here is that the places on a page where a user looks most
+
+102
+00:08:43,024 --> 00:08:47,036
+are visualized here in red as a “hot spot,”
+
+103
+00:08:47,036 --> 00:08:53,049
+and places where people look less frequently are in blue colours.
+
+104
+00:08:53,049 --> 00:08:55,063
+The distribution of gaze is remarkable:
+
+105
+00:08:55,063 --> 00:09:03,037
+A huge fraction of people’s time is spent looking at a relatively small portion of the real estate on the screen,
+
+106
+00:09:03,037 --> 00:09:09,048
+and these are habits that we build up and carry across to multiple different websites.
+
+107
+00:09:09,048 --> 00:09:14,031
+Very cleverly, we’d built up a sense of where the good stuff often is,
+
+108
+00:09:14,031 --> 00:09:18,085
+and we ignore where the bad stuff often is.
+
+109
+00:09:18,085 --> 00:09:25,032
+And you can then use this to design for “glanceability.”
+
+110
+00:09:25,032 --> 00:09:32,017
+The Poynter Institute has produced this diagram which shows where, in general, people mostly look,
+
+111
+00:09:32,017 --> 00:09:35,009
+and these results are for English-language web pages —
+
+112
+00:09:35,009 --> 00:09:40,089
+presumably they generalize to most pages that have a left-to-right reading order.
+
+113
+00:09:40,089 --> 00:09:46,031
+A lot of the key stuff  is in the top-left — that’s the red area.
+
+114
+00:09:46,031 --> 00:09:51,008
+Then there’s a secondary ring around that.
+
+115
+00:09:51,008 --> 00:09:57,078
+And finally, below the fold and off to the far right is where the lowest priority stuff is.
+
+116
+00:09:57,078 --> 00:10:02,050
+Now these priority areas are obviously going to be genre-dependant
+
+117
+00:10:02,050 --> 00:10:05,037
+and based on an individual user’s expectations;
+
+118
+00:10:05,037 --> 00:10:14,082
+but, as a good heuristic, “top left, more important; as you get lower or further to the right, less important.”
+
+119
+00:10:14,082 --> 00:10:22,077
+So, in short, our prime real estate is above the fold, and it’s in places where people expect to find stuff.
+
+120
+00:10:22,077 --> 00:10:26,045
+So this is going to be where other pages put similar content:
+
+121
+00:10:26,045 --> 00:10:29,035
+If you have pages that your users are familiar with,
+
+122
+00:10:29,035 --> 00:10:35,094
+following the location on screen where they have their navigational elements or prime real estate
+
+123
+00:10:35,094 --> 00:10:41,056
+will help people get used to your site as well.
+
+124
+00:10:41,056 --> 00:10:45,081
+And definitely don’t put the navigational stuff where people expect to see ads,
+
+125
+00:10:45,081 --> 00:10:54,020
+because, by now, many people mostly ignore whatever locations they think is going to be advertising.
+
+126
+00:10:54,020 --> 00:10:56,067
+While your prime real estate is above the fold,
+
+127
+00:10:56,067 --> 00:11:03,092
+people are more than happy to scroll if they think that they’re going to see something that’s worthwhile.
+
+128
+00:11:03,092 --> 00:11:07,098
+Often, when there’s valuable information below the fold that people don’t see,
+
+129
+00:11:07,098 --> 00:11:14,068
+it’s because the stuff above the fold didn’t look very good; People assume you’re putting your best stuff there.
+
+130
+00:11:14,068 --> 00:11:20,076
+So, if that’s your best stuff, whatever is got to be below that, that can’t be so good.
+
+131
+00:11:20,076 --> 00:11:26,027
+But if you have lots of great content up top, people will infer that there’s even more further down.
+
+132
+00:11:26,027 --> 00:11:33,027
+And many of the most popular sites on the web see users scroll pretty significantly.
+
+133
+00:11:33,027 --> 00:11:38,053
+Usability expert Jakob Nielsen conducted a study of how people read online,
+
+134
+00:11:38,053 --> 00:11:45,071
+and I can share with you the summary of his results: “They don’t.”
+
+135
+00:11:45,071 --> 00:11:50,029
+Of course there are times where we sit down and read a lengthy article online —
+
+136
+00:11:50,029 --> 00:11:52,069
+that’s not exactly what we’re talking about here.
+
+137
+00:11:52,069 --> 00:11:57,003
+We’re talking about general-purpose web browsing, when we’re fishing around for information,
+
+138
+00:11:57,003 --> 00:12:04,047
+and in these cases, it’s extremely rare to find that people will spend a significant amount of time on one site.
+
+139
+00:12:04,047 --> 00:12:08,064
+Often what you’ll see is that people have a number of tabs open simultaneously,
+
+140
+00:12:08,064 --> 00:12:12,048
+and they’re even doing totally unrelated tasks simultaneously:
+
+141
+00:12:12,048 --> 00:12:14,051
+So they may search for a while.
+
+142
+00:12:14,051 --> 00:12:18,023
+After a minute or two, email gets exciting; go to that.
+
+143
+00:12:18,023 --> 00:12:26,048
+Come back, look across multiple different sites at once, and all of this time they’re trying to find relevant information.
+
+144
+00:12:26,048 --> 00:12:32,038
+So what this means is that the successful sites are the ones that support this interlaced browsing
+
+145
+00:12:32,038 --> 00:12:40,074
+as effectively as is possible by bubbling up the most important stuff.
+
+146
+00:12:40,074 --> 00:12:44,040
+And Jakob Nielsen was able to demonstrate the effects of taking this into account
+
+147
+00:12:44,040 --> 00:12:49,075
+by changing the writing strategy and then measuring the impact on usability.
+
+148
+00:12:49,075 --> 00:12:56,060
+Jakob Nielsen tried three separate techniques to improve the usability of these websites —
+
+149
+00:12:56,060 --> 00:12:59,046
+making the text more concise;
+
+150
+00:12:59,046 --> 00:13:05,095
+making it more scannable by using subheadings, bulleted lists, and short paragraphs;
+
+151
+00:13:05,095 --> 00:13:11,049
+and using more objective language as opposed to what Nielsen calls “marketese.”
+
+152
+00:13:11,049 --> 00:13:17,035
+And what he found was that the effects on the user experience were really significant.
+
+153
+00:13:17,035 --> 00:13:22,061
+The good news is that all of these strategies are really straightforward.
+
+154
+00:13:22,061 --> 00:13:26,017
+And if you’d like to learn more about improving the navigation of websites,
+
+155
+00:13:26,017 --> 00:13:31,050
+I highly recommend these three resources shown here.
