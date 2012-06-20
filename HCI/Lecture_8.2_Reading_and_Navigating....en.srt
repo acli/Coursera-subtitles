@@ -511,109 +511,113 @@ people are more than happy to scroll if they think that they’re going to see s
 Often, when there’s valuable information below the fold that people don’t see,
 
 129
-00:11:07,098 --> 00:11:14,068
-it’s because the stuff above the fold didn’t look very good; People assume you’re putting your best stuff there.
+00:11:07,098 --> 00:11:11,033
+it’s because the stuff above the fold didn’t look very good;
 
 130
+00:11:11,033 --> 00:11:14,068
+People assume you’re putting your best stuff there.
+
+131
 00:11:14,068 --> 00:11:20,076
 So, if that’s your best stuff, whatever is got to be below that, that can’t be so good.
 
-131
+132
 00:11:20,076 --> 00:11:26,027
 But if you have lots of great content up top, people will infer that there’s even more further down.
 
-132
+133
 00:11:26,027 --> 00:11:33,027
 And many of the most popular sites on the web see users scroll pretty significantly.
 
-133
+134
 00:11:33,027 --> 00:11:38,053
 Usability expert Jakob Nielsen conducted a study of how people read online,
 
-134
+135
 00:11:38,053 --> 00:11:45,071
 and I can share with you the summary of his results: “They don’t.”
 
-135
+136
 00:11:45,071 --> 00:11:50,029
 Of course there are times where we sit down and read a lengthy article online —
 
-136
+137
 00:11:50,029 --> 00:11:52,069
 that’s not exactly what we’re talking about here.
 
-137
+138
 00:11:52,069 --> 00:11:57,003
 We’re talking about general-purpose web browsing, when we’re fishing around for information,
 
-138
+139
 00:11:57,003 --> 00:12:04,047
 and in these cases, it’s extremely rare to find that people will spend a significant amount of time on one site.
 
-139
+140
 00:12:04,047 --> 00:12:08,064
 Often what you’ll see is that people have a number of tabs open simultaneously,
 
-140
+141
 00:12:08,064 --> 00:12:12,048
 and they’re even doing totally unrelated tasks simultaneously:
 
-141
+142
 00:12:12,048 --> 00:12:14,051
 So they may search for a while.
 
-142
+143
 00:12:14,051 --> 00:12:18,023
 After a minute or two, email gets exciting; go to that.
 
-143
+144
 00:12:18,023 --> 00:12:26,048
 Come back, look across multiple different sites at once, and all of this time they’re trying to find relevant information.
 
-144
+145
 00:12:26,048 --> 00:12:32,038
 So what this means is that the successful sites are the ones that support this interlaced browsing
 
-145
+146
 00:12:32,038 --> 00:12:40,074
 as effectively as is possible by bubbling up the most important stuff.
 
-146
+147
 00:12:40,074 --> 00:12:44,040
 And Jakob Nielsen was able to demonstrate the effects of taking this into account
 
-147
+148
 00:12:44,040 --> 00:12:49,075
 by changing the writing strategy and then measuring the impact on usability.
 
-148
+149
 00:12:49,075 --> 00:12:56,060
 Jakob Nielsen tried three separate techniques to improve the usability of these websites —
 
-149
+150
 00:12:56,060 --> 00:12:59,046
 making the text more concise;
 
-150
+151
 00:12:59,046 --> 00:13:05,095
 making it more scannable by using subheadings, bulleted lists, and short paragraphs;
 
-151
+152
 00:13:05,095 --> 00:13:11,049
 and using more objective language as opposed to what Nielsen calls “marketese.”
 
-152
+153
 00:13:11,049 --> 00:13:17,035
 And what he found was that the effects on the user experience were really significant.
 
-153
+154
 00:13:17,035 --> 00:13:22,061
 The good news is that all of these strategies are really straightforward.
 
-154
+155
 00:13:22,061 --> 00:13:26,017
 And if you’d like to learn more about improving the navigation of websites,
 
-155
+156
 00:13:26,017 --> 00:13:31,050
 I highly recommend these three resources shown here.
