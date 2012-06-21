@@ -160,6 +160,7 @@ Reformatting and QA of stanford-bot’s transcripts:
 - http://www.universalsubtitles.org/fr/videos/GMB76WUpPRAc/en/325001/ (HCI 6.3)
 - http://www.universalsubtitles.org/fr/videos/rlfgSzTcqzTQ/en/336161/ (HCI 7.1)
 - http://www.universalsubtitles.org/fr/videos/iNKD8Lv04vAM/en/336567/ (Soc 1-5)
+- http://www.universalsubtitles.org/fr/videos/VFvUZx3I0xcd/en/335098/ (Soc 2-1)
 
 QA of other transcriptionist’s work:
 
