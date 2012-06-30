@@ -116,3 +116,22 @@ but any time that you have online media,
 you can get this kind of feedback.
 And it also shows how you don’t need to make drastic changes;
 you can make relatively small changes and still see significant results.
+
+In 2008, Stanford alumni Dan Siroker left his job at Google
+to join the Obama campaign.
+And what Dan worked on with the Obama campaign
+was improving the effectiveness of their online materials.
+After the campaign,
+we invited Dan to come back and speak to Stanford students
+about the techniques that they were using.
+In this video Dan describes a couple of experiments that they did.
+Think about of the multiple different versions that you’re going to see:
+Which one *you* think would be the most effective —
+if you were in the driver’s seat, which one would you pick?
+
+([Voice of Dan Siroker] And here’s an experiment that we did:
+This is sort of the layout.
+We did a multivariate test,
+which is actually just a big complicated word to describe
+“trying variations of two different variations of the page.”
+
