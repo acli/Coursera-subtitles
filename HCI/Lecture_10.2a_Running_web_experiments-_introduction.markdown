@@ -133,5 +133,13 @@ if you were in the driver’s seat, which one would you pick?
 This is sort of the layout.
 We did a multivariate test,
 which is actually just a big complicated word to describe
-“trying variations of two different variations of the page.”
+“trying variations of two different parts of the page.”
+We did different kinds of media —
+so the top part of the page.
+And we tried different kinds of buttons.
+A baseline signup rate was 8.26%.
+So these are the different buttons we used and the different media.
+We had four different buttons:
+“Sign Up,” “Learn More,” “Join Us Now,” “Sign Up Now,”
+and six different media — three images and three videos.
 
