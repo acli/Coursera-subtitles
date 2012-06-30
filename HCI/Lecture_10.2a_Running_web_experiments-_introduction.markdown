@@ -229,3 +229,5 @@ Third is “You should follow me on Twitter.”
 And finally, “You should follow me on Twitter here.”
 Give some thought to which of these four perform best,
 and you can try out the quiz.
+
+(1744 words in 9:48)

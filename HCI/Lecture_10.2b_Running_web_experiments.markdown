@@ -81,4 +81,53 @@ where, by simply adding a field with “company name,”
 that had a dramatic decrease in the conversions on their website.
 
 And these changes may seem trivial;
-but, again, at scale, they can have dramatic impact.
+but, again, at scale, they can have a dramatic impact.
+
+And then these underscore the point that small distractions —
+like extra fields — can have a big impact of your site’s performance;
+and, conversely, if you get the small things right,
+you can have a dramatic *positive* impact.
+Here’s a nice example from Ron Kohavi again.
+
+These are two versions of Feedback from Microsoft Office.
+The difference between the two is that
+the first one shows both the qualitative and quantitative on the same screen —
+stars and reason —;
+the second one, subtlely but importantly, separates them in time,
+so that what you first see is just a number of stars,
+and you next see is the qualitative feedback.
+And shifting to this two-staged feedback doubles the response rate.
+
+But Microsoft designers weren’t done yet.
+They wondered whether they can increase things even more.
+So here’s a version — we’ll call this version C —
+and what it does is,
+as opposed to having five stars, we have three buttons,
+“Yes,” “No,” and “I don’t know.”
+And then we have the same two-stage feedback strategy as before
+except the prompt, in this case, is customized to the button that you clicked.
+So, we have simplified the number of options for the feedback,
+and we’ve customized the prompt.
+Making these small changes
+increases the rate of feedback by a three-and-a-half-fold.
+
+This feedback example illustrates two important points:
+The first of them is a psychological principle called “commitment escalation,”
+that, if you are [to] get somebody to do a bit
+and then add a little bit more later on,
+they’re much more likely than if you made the big ask up front.
+And interfaces that get this right can reap the rewards.
+
+The second that we’re seeing is that
+phenomena like commitment escalation are subtle,
+and fine-tuning it to exactly your circumstances will take some work.
+And so what we’re seeing is that
+by combining iterative design and controlled experimentation,
+you can dial in these phenomena
+to make your site work most effectively.
+By now I bet you’re really excited
+about the opportunity for running experiments online.
+And so, in the next video,
+we’ll talk about general techniques for being able to do this effect[ively].
+
+(1031 words in 6:18)
