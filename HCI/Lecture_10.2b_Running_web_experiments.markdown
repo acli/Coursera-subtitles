@@ -69,3 +69,16 @@ Since a number of variables changed at once,
 it took a little bit of work to figure out
 which of these five design changes
 was the one which actually made the difference.
+Turns out that the killer difference that decreased conversion
+was adding a box for the coupon code,
+because many people, when they see a coupon code,
+will then search on the web [and] try to find coupons for that.
+A lot of those folks will not return
+to buy what they were just about to [buy] a moment ago.
+
+Here’s an article reporting how Expedia ran into a similar problem
+where, by simply adding a field with “company name,”
+that had a dramatic decrease in the conversions on their website.
+
+And these changes may seem trivial;
+but, again, at scale, they can have dramatic impact.
