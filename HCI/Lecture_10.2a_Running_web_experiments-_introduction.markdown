@@ -145,4 +145,26 @@ and six different media — three image[s] and three videos.
 I’ll show you all of them, and then we’ll do a vote.
 And [we’ll] start off and do a bunch and see what wins amongst you guys.
 
+Ok, so this is the first one: The button is “Sign Up.”
+“Learn More.”
+“Join Us Now.”
+And “Sign Up Now.”)
+
+So for these buttons the *only* thing that is changing is the text.
+And what they’re going to use as a dependent variable
+is how many people clicked that button.
+
+Dan found a pretty significant difference in the signup rates
+for these four different small changes in the language of the text.
+The baseline rate of the original choice was — for “Sign Up” — was 7.51%.
+For “Learn More,” it jumped to 8.91%,
+which may not sound like a giant difference,
+but that’s an 18.6% increase.
+And, over the giant numbers of visitors to a site like this,
+that translates into a huge difference
+in the amount of revenue you’ve brought in.
+“Sign Up Now” performed basically the same as “Sign Up,” 7.52%.
+And “Join Us Now” did slightly worse — not meaningfully but slightly.
+
+Dan and his team also explored
 
