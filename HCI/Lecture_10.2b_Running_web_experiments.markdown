@@ -93,7 +93,7 @@ These are two versions of Feedback from Microsoft Office.
 The difference between the two is that
 the first one shows both the qualitative and quantitative on the same screen —
 stars and reason —;
-the second one, subtlely but importantly, separates them in time,
+the second one, subtly but importantly, separates them in time,
 so that what you first see is just a number of stars,
 and you next see is the qualitative feedback.
 And shifting to this two-staged feedback doubles the response rate.
