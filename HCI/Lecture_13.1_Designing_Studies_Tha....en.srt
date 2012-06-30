@@ -1,66 +1,66 @@
 1
 00:00:02,008 --> 00:00:07,295
-In this lecture, we’re going to talk about trying out new interface with people and doing this on the way 
+In this lecture, we’re going to talk about trying out your interface with people 
 
 2
 00:00:07,295 --> 00:00:12,050
-that you can improve your designs based on what you learned.
+and doing so in a way that you can improve your designs based on what you learned.
 
 3
 00:00:12,050 --> 00:00:15,356
-One of the most common things the people asks when running studies is, 
+One of the most common things that people ask when running studies is: 
 
 4
 00:00:15,356 --> 00:00:20,990
-do you like my interface and it’s a really natural thing to ask but on some levels what we all want to know.
+“Do you like my interface?” and it’s a really natural thing to ask, because on some level it’s what we all want to know.
 
 5
 00:00:20,990 --> 00:00:23,916
-But this is really problematic on a whole lot of level.
+But this is really problematic on a whole lot of levels.
 
 6
 00:00:23,916 --> 00:00:28,822
-For one it’s not very specific and so some people are trying to make this better 
+For one it’s not very specific, and so sometimes people are trying to make this better 
 
 7
 00:00:28,822 --> 00:00:34,359
-and so they’ll improve it by doing something like how much do you like my interface on one to five scale.
+and so they’ll improve it by doing something like: “How much do you like my interface on one to five scale?”
 
 8
 00:00:34,359 --> 00:00:35,637
-Or this useful interface?
+Or: “‘This is a useful interface’ —
 
 9
 00:00:35,637 --> 00:00:38,186
-Agree or disagree on one to five scale.
+Agree or disagree on one to five scale.”
 
 10
 00:00:38,186 --> 00:00:41,498
-And this adds some kind of a patina of scientific-ness to it 
+And this adds some kind of a patina of scientificness to it 
 
 11
 00:00:41,498 --> 00:00:45,595
-but really it’s just the same thing you’re asking somebody do you like my interface?
+but really it’s just the same thing — you’re asking somebody “Do you like my interface?”
 
 12
 00:00:45,595 --> 00:00:50,464
-And people are nice so they’re going to say sure I like your interface.
+And people are nice, so they’re going to say “Sure I like your interface.”
 
 13
 00:00:50,464 --> 00:00:52,703
-This, the please the experiment bias.
+This is the “please the experimenter” bias.
 
 14
 00:00:52,703 --> 00:00:55,822
-And this can be especially strong when our social or cultural 
+And this can be especially strong when there are social or cultural 
 
 15
 00:00:55,822 --> 00:01:02,621
-or power differences between the experimenter and the people that you’re trying at your interface with.
+or power differences between the experimenter and the people that you’re trying out your interface with:
 
 16
 00:01:02,621 --> 00:01:05,061
-For example, in [inaudible] effecting India 
+For example, [inaudible] and colleague show this effect in India 
 
 17
 00:01:05,061 --> 00:01:09,316
@@ -68,7 +68,7 @@ where this effect was exacerbated when the experimenter was white.
 
 18
 00:01:09,316 --> 00:01:15,908
-Now, you should not take this to mean that you shouldn’t have your developers try out stuff with users.
+Now, you should not take this to mean that you shouldn’t have your developers try out stuff with users —
 
 19
 00:01:15,908 --> 00:01:21,800
