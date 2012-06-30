@@ -104,8 +104,9 @@ So here’s a version — we’ll call this version C —
 and what it does is,
 as opposed to having five stars, we have three buttons,
 “Yes,” “No,” and “I don’t know.”
-And then we have the same two-stage feedback strategy as before
-except the prompt, in this case, is customized to the button that you clicked.
+And then we have the same two-stage feedback strategy as before,
+except [that] the prompt, in this case, is customized
+to the button that you clicked.
 So, we have simplified the number of options for the feedback,
 and we’ve customized the prompt.
 Making these small changes
