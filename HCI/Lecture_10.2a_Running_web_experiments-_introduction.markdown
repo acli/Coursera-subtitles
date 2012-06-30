@@ -201,4 +201,29 @@ you can see ’em —
 “Learn More” did better than the baseline by 18% in terms of actual improvement.
 And so this test really validated that, you know, 
 in general, these assumptions that you — you know, your gut reaction —
-may actually be off 
+may actually be off [inaudible] in what you’re doing the best.)
+
+So this example from Dan Siroker underscores two important points
+about designing in the online world.
+The first is that seemingly insignificant changes —
+like just the wording on a button — can have huge impacts.
+The second one is that our expectations are often wrong —
+I think many people would assume that a video might be more compelling,
+maybe even if you’re watching this one.
+However, in the case of this banner video,
+it caused a number of problems
+and led to a less compelling experience —
+or at least a less compelling clickthrough rate overall —
+and that’s one reason why it’s important to check your assumptions.
+
+Dustin Curtis is a user interface designer with a blog.
+And he wrote a blog post about his experience
+trying out different alternatives for text on his blog
+that send people to his Twitter feed.
+You can see the four options here.
+The first one is “I’m on Twitter.”
+Next is “Follow me on Twitter.”
+Third is “You should follow me on Twitter.”
+And finally, “You should follow me on Twitter here.”
+Give some thought to which of these four perform best,
+and you can try out the quiz.
