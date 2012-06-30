@@ -166,5 +166,39 @@ in the amount of revenue you’ve brought in.
 “Sign Up Now” performed basically the same as “Sign Up,” 7.52%.
 And “Join Us Now” did slightly worse — not meaningfully but slightly.
 
-Dan and his team also explored
+Dan and his team also explored six different variations
+of what the home page might look like —
+three different images and three different videos.
+Let’s see these six options.
 
+(Ok, [here’s] the baseline images:
+“Get Involved,”
+“Family,”
+“Change.”
+And now I’ll show you three of the videos.)
+
+([Media: “Barack’s Video”] Hi, I’m Barack Obama.
+Welcome to barackobama.com,
+the official website of my campaign for president.)
+
+([Media: “Springfield Video”] Obama! Obama! Obama!
+It’s been a long time since I wanted to hear what a politician has to say.
+You came here because you believe in what this country can [inaudible].)
+
+([Media: “Sam’s Video”] Well, I say to them tonight:
+There is is not a Liberal America
+and a Conservative America —
+There is the United States of America.)
+
+(The reality is every video did worse than every image on the media.
+And you can see actually,
+this Springfield Video that actually won amongst you guys
+did the worst of all the media.
+In terms of the buttons,
+“Learn More” did the best by a huge margin.
+So if you looked at the specific numbers —
+you can see ’em —
+“Learn More” did better than the baseline by 18% in terms of actual improvement.
+And so this test really validated that, you know, 
+in general, these assumptions that you — you know, your gut reaction —
+may actually be off 
