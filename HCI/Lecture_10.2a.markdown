@@ -52,4 +52,67 @@ is make it easy to try out something new
 to get real feedback from real people
 about whether that has become [an] effective change or not.
 
+One thing that you’ll notice is that
+each of three versions got the same amount of traffic.
+So why does this redesigned version do so much worse?
 
+I think there are a couple of theories that you can draw.
+One of them is on the top of the screen there is a big “Free.”
+And so if our metric is going to be sales,
+a screen that has a “Free” up top may dissuade people from buying something.
+Another one is, by creating two columns, there may be less of a clear flow,
+and so people see a menu of possible options,
+when what they really want — if your goal is to have increased checkouts —
+is a stronger funnel to push people through the process.
+
+By contrast, version B which does best
+doesn’t have this “Free” up top
+and it has a much stronger call to action.
+
+So what we see in this simple example from A List Apart
+is a number of important ways that small changes in design
+can make a significant difference in the effectiveness of a site.
+
+As A List Apart writes, these can include things like:
+The position and colour of the primary call to action —
+what are you conveying to users that they should do on this page?
+Where are testimonials used?
+And how are links and images conveyed on the page?
+How much whitespace does a page have?
+Where is the main heading and how prominent is it?
+How many columns does a page use?
+What are the visual elements that are competiting for somebody’s attention?
+And what’s going on in the photos?
+In our visual design lectures
+we talked about strategies for using these tools more effectively;
+In this lecture we’re going to look at techniques
+for being able to measure whether whether the outcome is the outcome you like.
+
+Here’s another example;
+this one’s from Forrest Glick at the Stanford Technology Ventures Program.
+They have a regular email list
+where they send out links to videos about entrepreneurship that they record.
+It’s a great mailing list,
+and Forrest was interested in increasing the number of people
+who click through this email to see the content that they have on offer.
+
+This is the original version of their email,
+and here’s a revised version.
+In this case the change is pretty subtle:
+The goal is to provide more real estate and emphasis
+to the Quick Shots at the top of the email.
+This email was sent to a little more than 12,000 people,
+about half to each.
+And what you see is modest changes
+in the number of people who look at the full content —
+that is, the email client loaded the external resources —,
+the number of people who clicked through one of these links to web content,
+and a reasonable significant increase
+in the number of people who forwarded this email to somebody else.
+What I like about this email example
+is it show how you can use these techniques
+not just for things that are literally web sites,
+but any time that you have online media,
+you can get this kind of feedback.
+And it also shows how you don’t need to make drastic changes;
+you can make relatively small changes and still see significant results.
