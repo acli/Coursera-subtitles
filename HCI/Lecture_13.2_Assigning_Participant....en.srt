@@ -1,0 +1,978 @@
+1
+00:00:03,037 --> 00:00:08,060
+In this video, we're going to talk about
+assigning participants to conditions And
+
+2
+00:00:08,060 --> 00:00:12,058
+one of the most basic questions you can
+ask about this is, should every
+
+3
+00:00:12,058 --> 00:00:16,051
+participant use every alternative. To
+illustrate this, we're going to walk
+
+4
+00:00:16,051 --> 00:00:21,006
+through an example. We're going to see the
+trade off that are intrinsic to different
+
+5
+00:00:21,006 --> 00:00:25,060
+approaches that you can take here. In this
+study we're going to compare smart vacuum
+
+6
+00:00:25,060 --> 00:00:37,061
+cleaner With more traditional vacuum
+cleaner. As you remember from last time,
+
+7
+00:00:37,061 --> 00:00:43,005
+one of the first questions we should ask
+about this are, what are the measures do
+
+8
+00:00:43,005 --> 00:00:47,068
+we want something that is faster, or
+cleaner, or less fatigue that are
+
+9
+00:00:47,068 --> 00:00:52,077
+ergonomics, lower environmental impact,
+affordability, easy views, fewer errors.
+
+10
+00:00:52,077 --> 00:00:58,034
+Any of these are valid measures you might
+keep track of them all. For our example
+
+11
+00:00:58,034 --> 00:01:03,059
+here though, we're, we're going to pick
+two. We're going to go with the faster and
+
+12
+00:01:03,059 --> 00:01:08,053
+we're going to go with cleaner. So our
+manipulation is going to be back in type
+
+13
+00:01:08,053 --> 00:01:14,005
+and our measure is going to be speed and
+cleanliness. To help illustrate this
+
+14
+00:01:14,005 --> 00:01:20,019
+example, I'm going to recruit the help of
+my graduate students and TA's. And so here
+
+15
+00:01:20,019 --> 00:01:25,074
+they are. One thing you can imagine is
+that you assign half of them to each
+
+16
+00:01:25,074 --> 00:01:31,029
+condition. That's called the between
+subjects design and so we could assign
+
+17
+00:01:31,029 --> 00:01:39,009
+half of them to the robot interface And we
+can assign half of them to the traditional
+
+18
+00:01:39,009 --> 00:01:45,094
+interface. So, Chinma, Nicholas and Alex
+get the robot And Dan, Ronjita and Jesse
+
+19
+00:01:45,094 --> 00:01:52,070
+get the traditional one. And let's say for
+example, that the robotic interface
+
+20
+00:01:52,070 --> 00:01:58,083
+performs better, faster and cleaner. With
+only six people, it's hard to say whether
+
+21
+00:01:58,083 --> 00:02:04,048
+it's because the, the vacuum cleaner there
+is better or whether the three people that
+
+22
+00:02:04,048 --> 00:02:09,040
+we have been assigned to it Chinma,
+Nicholas and Alex were better cleaners
+
+23
+00:02:09,040 --> 00:02:14,052
+than Dan, Jesse and Ronjita. So, the
+strategy is within subject design where we
+
+24
+00:02:14,052 --> 00:02:19,084
+could have everybody use both interfaces.
+Wonder what they're going to use first, if
+
+25
+00:02:19,084 --> 00:02:25,022
+they use the old interface face or gotten
+practice and maybe extra good or maybe
+
+26
+00:02:25,022 --> 00:02:30,099
+tired when they get to use the new one And
+vice versa. So between subje ct's designs,
+
+27
+00:02:30,099 --> 00:02:36,027
+have to worry about individual differences
+within subject's designs have a worry
+
+28
+00:02:36,027 --> 00:02:41,056
+about ordering effects. Is there some way
+that we can get the best of both worlds?
+
+29
+00:02:42,097 --> 00:02:47,025
+Well, how might we address these ordering
+effects? Well, one thing that we could do
+
+30
+00:02:47,025 --> 00:02:52,029
+is we could take half of the people and
+have them try one interface first. In the
+
+31
+00:02:52,029 --> 00:02:58,087
+other path and try the, try the other
+interface first. Counter balancing has a
+
+32
+00:02:58,087 --> 00:03:03,052
+couple of nice properties. For starters,
+you can treat it as completely a between
+
+33
+00:03:03,052 --> 00:03:09,009
+subject's design if you look at only the
+first task that people do. And hopefully,
+
+34
+00:03:09,009 --> 00:03:14,083
+the benefit that you get from practicing
+or the discriminative fatigue is roughly
+
+35
+00:03:14,083 --> 00:03:20,036
+the same in both condition and both even
+itself about and so kind of balancing
+
+36
+00:03:20,036 --> 00:03:26,024
+watches out some of those concerns. There
+are times where this is isn't the case and
+
+37
+00:03:26,024 --> 00:03:31,003
+that's a great time to use between
+subjects design. To minimize the learning
+
+38
+00:03:31,003 --> 00:03:34,093
+effects is probably best to make the first
+and second task different. So in this
+
+39
+00:03:34,093 --> 00:03:38,080
+case, we might have people clean the D
+School as their first task and clean the
+
+40
+00:03:38,080 --> 00:03:42,075
+Gates building as their second. This also
+has the added benefit of giving us some
+
+41
+00:03:42,075 --> 00:03:46,086
+more ecological validity by trying out a
+couple of different environment so we know
+
+42
+00:03:46,086 --> 00:03:50,082
+it's not just the Gates building that's
+better cleaned by robots. It also has the
+
+43
+00:03:50,082 --> 00:03:54,060
+benefit to build the D School and the
+Gates building are clean. How about
+
+44
+00:03:54,060 --> 00:03:59,097
+individual differences? Should we try to
+balance for shirt color, hair length,
+
+45
+00:03:59,097 --> 00:04:05,037
+gender, or whether the picture in the icon
+is square-ish or more rectangular? It
+
+46
+00:04:05,037 --> 00:04:10,007
+depends on whether you think it's going to
+make a difference in the study or whether
+
+47
+00:04:10,007 --> 00:04:14,073
+one might possibly believe that it would
+make a difference in the study. Simple
+
+48
+00:04:14,073 --> 00:04:18,013
+thing to do is choose the random
+assignment. We'll talk about more
+
+49
+00:04:18,013 --> 00:04:22,022
+sophisticated techniques in a couple of
+slides. Okay. So now we know a couple of
+
+50
+00:04:22,022 --> 00:04:26,006
+ways of dealing with two different
+alternatives. But what if we have three?
+
+51
+00:04:26,006 --> 00:04:30,001
+With three alternatives you can use
+something called the Latin Square. I'll
+
+52
+00:04:30,001 --> 00:04:34,064
+explain how this works with thr ee
+conditions that generalizes more. In a
+
+53
+00:04:34,064 --> 00:04:39,038
+classic Latin square design, each person
+is going to use all three conditions.
+
+54
+00:04:39,038 --> 00:04:44,059
+You'll randomly divide your participants
+up in three different groups. The first
+
+55
+00:04:44,059 --> 00:04:49,074
+group is going to get the first one first,
+the second one second and the third one
+
+56
+00:04:49,074 --> 00:04:54,043
+third. The second group two, three, one
+And the third one three, one, two, So
+
+57
+00:04:54,043 --> 00:04:59,096
+again, everybody gets all there conditions
+But their order changes and if you look at
+
+58
+00:04:59,096 --> 00:05:05,004
+any particular order segment so like what
+people see first or what people see
+
+59
+00:05:05,004 --> 00:05:10,032
+second, what people see third. You can see
+that is also evenly balanced across the
+
+60
+00:05:10,032 --> 00:05:15,008
+three conditions. Maybe choose between
+subject approaches or within subject's
+
+61
+00:05:15,008 --> 00:05:20,006
+approach. The most important thing to do
+is to make sure that the odds that any
+
+62
+00:05:20,006 --> 00:05:24,053
+particular participant ends up in a
+particular condition or particular
+
+63
+00:05:24,053 --> 00:05:29,070
+condition ordering is completely random as
+even. We can illustrate this as with an
+
+64
+00:05:29,070 --> 00:05:34,049
+example. Say you wanted to find out
+whether people were faster typing in the
+
+65
+00:05:34,049 --> 00:05:39,078
+morning or typing in the afternoon and you
+allow to people to come in whenever they
+
+66
+00:05:39,078 --> 00:05:43,083
+want. What if you will ever have
+preference for the morning, morning people
+
+67
+00:05:43,083 --> 00:05:47,047
+or faster typers and people who have a
+preference for the afternoon? Your
+
+68
+00:05:47,047 --> 00:05:51,031
+conclusion is that morning, maybe the
+morning was faster but that's not right
+
+69
+00:05:51,031 --> 00:05:55,004
+because it's just the morning people who
+are faster not that there's something
+
+70
+00:05:55,004 --> 00:05:59,008
+about the, the morning or maybe not, you
+can't say confound. It's possible that the
+
+71
+00:05:59,008 --> 00:06:03,001
+causal reason was population difference
+and not experimental manipulation This
+
+72
+00:06:03,001 --> 00:06:07,000
+confounds, as well rather than economic is
+so hard and computing correlations but
+
+73
+00:06:07,000 --> 00:06:11,052
+there is no manipulations. Random
+assignment as tool number one in achieving
+
+74
+00:06:11,052 --> 00:06:17,001
+a effective manipulation. So in our typing
+case you would want to assign people to be
+
+75
+00:06:17,001 --> 00:06:21,071
+in either the morning condition or the
+afternoon condition. The morning and
+
+76
+00:06:21,071 --> 00:06:25,090
+afternoon example can seem kind of
+stylized but it shows a lot of real world.
+
+77
+00:06:25,090 --> 00:06:30,043
+For example, if you're running a website,
+one easy thing that you might do is show
+
+78
+00:06:30,043 --> 00:06:34,090
+everybody one alternativ e on one day and
+one alternative on the next. Well there
+
+79
+00:06:34,090 --> 00:06:39,038
+may be a difference between those days.
+We'll talk more about running experiments
+
+80
+00:06:39,038 --> 00:06:43,074
+later on but for now I wanted to point out
+that the key is, if you're going to do
+
+81
+00:06:43,074 --> 00:06:48,094
+something like this make sure that people
+are randomly assigned. Easiest way in most
+
+82
+00:06:48,094 --> 00:06:55,064
+cases is, is between subjects design where
+you assign people as they come in to see
+
+83
+00:06:55,064 --> 00:07:01,050
+either one interface or the other. Here's
+another example of the importance of
+
+84
+00:07:01,050 --> 00:07:06,083
+random assignment. In the 1930s, some
+studies were run at the Western Electric
+
+85
+00:07:06,083 --> 00:07:12,044
+factory outside Chicago called Hawthorne
+and the plan was pretty simple. Find out
+
+86
+00:07:12,044 --> 00:07:17,050
+whether changes in lightning levels
+affected productivity. So, experiments
+
+87
+00:07:17,050 --> 00:07:22,075
+came in. Raise the lightning levels,
+productivity goes up. Then they tried
+
+88
+00:07:22,075 --> 00:07:26,088
+lowering the light levels, productivity
+went up Tried a whole bunch of
+
+89
+00:07:26,088 --> 00:07:31,041
+combinations. After each intervention,
+productivity went up. The conclusion of
+
+90
+00:07:31,041 --> 00:07:36,042
+course is that it's the active intervening
+rather than the light levels itself which
+
+91
+00:07:36,042 --> 00:07:40,072
+was the major course behind the
+productivity change presumably other the
+
+92
+00:07:40,072 --> 00:07:45,050
+workers felt like people cared about them
+or the excitement of the experiment or
+
+93
+00:07:45,050 --> 00:07:50,013
+whatever. That was the driving factor. In
+recent years some economist, have
+
+94
+00:07:50,013 --> 00:07:55,004
+questioned whether in fact there was a
+Hawthorne effect at the Hawthorne plan. If
+
+95
+00:07:55,004 --> 00:08:00,006
+you're curious you can Google more about
+that. In either case the name is stuck and
+
+96
+00:08:00,006 --> 00:08:04,073
+it means a case where what you're seeing
+is your effect is the result of the
+
+97
+00:08:04,073 --> 00:08:09,063
+intervention rather than the thing that
+you're trying to study and you can avoid
+
+98
+00:08:09,063 --> 00:08:14,017
+this with random assignment. We talked
+about counter balancing the order of
+
+99
+00:08:14,017 --> 00:08:18,062
+conditions that participants experience.
+You can also counter balance how you
+
+100
+00:08:18,062 --> 00:08:22,090
+assign people the conditions. Say for
+example you're worried that typing speed
+
+101
+00:08:22,090 --> 00:08:27,012
+will differentially affect something in
+your interface; you're building a new
+
+102
+00:08:27,012 --> 00:08:31,090
+spread sheet or something like that. You
+could use a pretest to establish typing
+
+103
+00:08:31,090 --> 00:08:37,003
+speed ahead of time and use that to assign
+people to conditions. There's many
+
+104
+00:08:37,003 --> 00:08:42,011
+techniques for doing this. Simplest way to
+do it is just look at high speed typers
+
+105
+00:08:42,011 --> 00:08:47,019
+versus low speed typers. The key no matter
+what is that each participant has an equal
+
+106
+00:08:47,019 --> 00:08:52,030
+chance of ending up in either condition.
+Let's walk through an example. If you can
+
+107
+00:08:52,030 --> 00:08:56,061
+pretest everyone ahead of time, most
+likely that you can do is form match
+
+108
+00:08:56,061 --> 00:09:01,074
+pairs. So say we get the typing speed that
+we see here, after ordering they look like
+
+109
+00:09:01,074 --> 00:09:07,087
+this. We can group them into pairs and
+then for each pair, we can conceptually
+
+110
+00:09:07,087 --> 00:09:12,088
+flip a coin about which of them is going
+to land in which of the two conditions. I
+
+111
+00:09:12,088 --> 00:09:18,002
+got one of these dollar coins to the take
+out machine the other day and it'll do
+
+112
+00:09:18,002 --> 00:09:28,038
+well for flipping, So for 35 and 37 Heads
+so we'll put 35 down here. First
+
+113
+00:09:28,038 --> 00:09:42,096
+condition, 37 goes in the second And for
+57 versus 59. It's tails so 59 goes here.
+
+114
+00:09:44,046 --> 00:09:57,003
+[sound]. There is the heads so that gives
+us 61, 68 Entails And, that gives us 99
+
+115
+00:09:57,003 --> 00:10:02,095
+goes here and 70 goes here. By doing this
+match pairs, you're balancing out the
+
+116
+00:10:02,095 --> 00:10:09,002
+performance of people approximately in
+each condition. And, by having some random
+
+117
+00:10:09,002 --> 00:10:14,087
+list in there, you're ensuring that you
+don't get some accidental statistical
+
+118
+00:10:14,087 --> 00:10:21,016
+artifacts that creep in by saying sign all
+your odds here and all your evens there.
+
+119
+00:10:21,016 --> 00:10:25,023
+The type of people are coming in online so
+you can't pretest people for the
+
+120
+00:10:25,023 --> 00:10:29,067
+experiment. But what you can do is you can
+pick some threshold that you think is in
+
+121
+00:10:29,067 --> 00:10:33,095
+about the middle. So, if for typing, you
+might say 65 words a minute and as people
+
+122
+00:10:33,095 --> 00:10:41,034
+come in. You can check whether they're
+above or below that threshold and label
+
+123
+00:10:41,034 --> 00:10:49,001
+are high, high or low, fast or slow typers
+based on that. So 35 we would say is low.
+
+124
+00:10:49,001 --> 00:10:56,030
+40 is low. 90 is high. 68 is high and so
+on and you can assign them to your two
+
+125
+00:10:56,030 --> 00:11:11,010
+different conditions. We call them A, B
+High and low, So our first low person to
+
+126
+00:11:11,010 --> 00:11:20,044
+come in 35, Tails, so that will go to B
+And then the balance that out 40 will go
+
+127
+00:11:20,044 --> 00:11:26,016
+heads. Next time we got a pair of lows,
+we're going to flip the coin again and
+
+128
+00:11:26,016 --> 00:11:32,035
+we're going to do that for the highs also.
+So the highs come in and, heads. So our
+
+129
+00:11:32,035 --> 00:11:39,057
+first high will go to A and our secon d
+high will go to B. You don't need to make
+
+130
+00:11:39,057 --> 00:11:43,092
+sure that you had even numbers of high and
+low typers unless you worry about that
+
+131
+00:11:43,092 --> 00:11:47,084
+making the material difference on in the
+outcome. In fact, you have many
+
+132
+00:11:47,084 --> 00:11:52,018
+participants; you can look at this, two by
+two grid and compare the outcomes of the
+
+133
+00:11:52,018 --> 00:11:56,091
+four cells. What you do need to make sure
+is that there are the same number of fast
+
+134
+00:11:56,091 --> 00:12:01,074
+typers of high in a and in b and the same
+number or slow typers are low in a and in
+
+135
+00:12:01,074 --> 00:12:06,011
+b. There's a lot of ways that you can do
+these kinds of counter-balancing. In
+
+136
+00:12:06,011 --> 00:12:10,042
+general, all of them much are giving the
+same thing which is trying to help
+
+137
+00:12:10,042 --> 00:12:15,014
+[inaudible] enlarge numbers that you get
+in a between subject study work a little
+
+138
+00:12:15,014 --> 00:12:20,056
+bit faster. Now, there's a danger of
+assigning people based on a pretest that I
+
+139
+00:12:20,056 --> 00:12:25,099
+like to warn you about. Say, we want to
+pretest for coins that are more like to
+
+140
+00:12:25,099 --> 00:12:32,013
+come up ahead. So, I have some coins here.
+I can flip each of these a couple of times
+
+141
+00:12:32,013 --> 00:13:30,036
+and. Okay. That one's heads more. So it
+was really heads more. Tails. Tails. That
+
+142
+00:13:30,036 --> 00:13:51,069
+was tails. Heads And what else, [sound]
+So, we have three coins that had a heavy
+
+143
+00:13:51,069 --> 00:13:59,006
+tendency and three coins that have a
+tailey tendency. Now, we can feed them a
+
+144
+00:13:59,006 --> 00:14:06,030
+the snack so we can a bagel. In fact, this
+is the same bagel in the last lecture. So
+
+145
+00:14:06,055 --> 00:14:12,078
+with bagels, so it's not such a fresh
+bagel anymore. But nonetheless it will
+
+146
+00:14:12,078 --> 00:14:19,067
+give our coins some sustenance so we can
+give them each, each sound of bagel and we
+
+147
+00:14:19,067 --> 00:14:26,088
+want to see whether our [sound] Heady
+coins become more or so and whether tailey
+
+148
+00:14:26,088 --> 00:14:31,064
+coins become more or so. So, we think by
+the natural tendencies of this coins is
+
+149
+00:14:31,064 --> 00:14:36,028
+one direction by feeding them. I, I think
+that may make them more or so. So, the
+
+150
+00:14:36,028 --> 00:14:40,062
+questions we're going to ask is whether
+the snacking increases the natural
+
+151
+00:14:40,062 --> 00:14:45,044
+tendencies of coins. And we can re-flip
+all of these and I wouldn't inflict that
+
+152
+00:14:45,044 --> 00:14:50,026
+on you right now. But you can try yourself
+and what you'll see, of course, is that
+
+153
+00:14:50,026 --> 00:14:54,078
+none of these coins really had a, a
+tendency towards head or tail, it's just
+
+154
+00:14:54,078 --> 00:14:58,086
+that on a small number of samples. You
+know if you came out with a little b it
+
+155
+00:14:58,086 --> 00:15:02,070
+more heads, if you came out a little bit
+of more tails and if you flip them again
+
+156
+00:15:02,070 --> 00:15:06,064
+there will be no co-relation between their
+heads in tendency in the first half and
+
+157
+00:15:06,064 --> 00:15:11,012
+their heads in tendency in the second
+half. To make it a little more exciting
+
+158
+00:15:11,012 --> 00:15:17,031
+than just the six coins that I have in my
+pocket, I decided to generate 30 coins in
+
+159
+00:15:17,031 --> 00:15:23,014
+excel and I flip them each 21 times and
+you can see the results here of how many
+
+160
+00:15:23,014 --> 00:15:28,097
+heads each got out of 21 toss. I picked an
+odd number so that it would have to be
+
+161
+00:15:28,097 --> 00:15:35,055
+either heady or taily on the hole. And
+what we can see if we rank them by number
+
+162
+00:15:35,055 --> 00:15:42,073
+is it turns out actually fifteen of them
+had a head tendency. Fifteen had a tail
+
+163
+00:15:42,073 --> 00:15:50,000
+and the average of the heads is 12.9 and
+the average of our tail tendency is 8.3.
+
+164
+00:15:50,000 --> 00:15:56,075
+Now, after I flip in the snack, I can flip
+that again. And I have highlighted in
+
+165
+00:15:56,075 --> 00:16:03,024
+yellow and bold it again that the, the
+numbers that have a, a head tendency and
+
+166
+00:16:03,024 --> 00:16:10,074
+there's essentially no correlation between
+here. It does turn out that our heads our
+
+167
+00:16:10,074 --> 00:16:16,051
+initial heads. Have an average of 10.7
+after eating the bagel and our initial
+
+168
+00:16:16,051 --> 00:16:22,009
+tails have an average of 9.6. So we can
+see that both of these regressed towards
+
+169
+00:16:22,009 --> 00:16:28,040
+the mean, both of these are closer towards
+the expected value of ten and a half. We
+
+170
+00:16:28,040 --> 00:16:33,031
+may see a perceived different here between
+the 9.6 and the 10.7. In the future
+
+171
+00:16:33,031 --> 00:16:38,053
+lecture we'll learn how to test whether
+that's a real difference or whether that's
+
+172
+00:16:38,053 --> 00:16:43,063
+a statistical mirage. So this danger is
+actually is very real and it shows up all
+
+173
+00:16:43,063 --> 00:16:49,003
+the time in statistical analysis of things
+like low performing schools increasing the
+
+174
+00:16:49,003 --> 00:16:53,071
+next year or high performing schools
+decreasing. The assignment problem that
+
+175
+00:16:53,071 --> 00:16:58,056
+results in regression to the mean is when
+you're making something like a dividing
+
+176
+00:16:58,056 --> 00:17:02,094
+line and you're using the assignment so
+everybody who scores high goes up,
+
+177
+00:17:02,094 --> 00:17:07,031
+everybody who scores low goes down and
+then you measure their performance
+
+178
+00:17:07,031 --> 00:17:11,075
+subsequently. If in steady you use a
+pretest to counter balance like we did
+
+179
+00:17:11,075 --> 00:17:16,054
+with the typist, so we put high and low
+speed typists in both conditions, then you
+
+180
+00:17:16,054 --> 00:17:20,085
+no longer have that worr y about
+regression to the mean. So, the major
+
+181
+00:17:20,085 --> 00:17:27,032
+question that we tackled here is should
+every participant use every alternative?
+
+182
+00:17:27,032 --> 00:17:33,060
+And whether emerged was three nature
+strategies. And in within subject design,
+
+183
+00:17:33,060 --> 00:17:37,067
+everybody tries all the options. This has
+big benefits in terms of recruiting
+
+184
+00:17:37,067 --> 00:17:42,000
+participants. You get more, more work out
+of its coercion and it works really well
+
+185
+00:17:42,000 --> 00:17:46,011
+if you are not working about learning or
+practice or exposures and trying one
+
+186
+00:17:46,011 --> 00:17:52,022
+version to pollute the other one And in
+between subject study, each person tries
+
+187
+00:17:52,022 --> 00:17:56,020
+one condition. This requires more people
+and you may want to consider
+
+188
+00:17:56,020 --> 00:18:00,071
+counterbalancing for fair assignment. It
+has the benefit of course that each
+
+189
+00:18:00,071 --> 00:18:05,058
+participant is uncorrupted and for this
+reason is the most common techniques that
+
+190
+00:18:05,058 --> 00:18:10,075
+we see in things like web studies And if
+you use it between subject's design, you
+
+191
+00:18:10,075 --> 00:18:15,065
+can use counter balancing to help even
+things out. What I offered today is just a
+
+192
+00:18:15,065 --> 00:18:20,036
+really high level over view and I'm
+necessarily glossed over a whole bunch of
+
+193
+00:18:20,036 --> 00:18:25,007
+important details but I wanted to give you
+an initial lay or land for running
+
+194
+00:18:25,007 --> 00:18:31,020
+studies. If you're interested in more,
+more reading in this area. My favorite
+
+195
+00:18:31,020 --> 00:18:37,090
+book in this area is David Martin's book
+Doing Psychology Experiments. I'll see you
+
+196
+00:18:37,090 --> 00:18:38,066
+next time.
