@@ -22,5 +22,14 @@ you may not even notice the difference at all.
 However, this difference, which is below your conscious level,
 increases the number of query per user by 0.9%
 and the number of ad clicks per user increases 3%.
-At the scale that Microsoft and the other large search carriers operate,
+At the scale that Microsoft and the other large search [carriers] operate,
 this is a *huge* change.
+And I think this is a nice example of how, in general,
+the giant scale of experiments that you can conduct on the web
+makes small but consequential differences detectable —
+things which we’d never see in the lab
+you can now investigate.
+Also, it’s an example of how changes which are too small to matter
+for a couple of people —
+if you are building search results for 10 users,
+a 0.9% change might not be something you’d
