@@ -141,5 +141,8 @@ A baseline signup rate was 8.26%.
 So these are the different buttons we used and the different media.
 We had four different buttons:
 “Sign Up,” “Learn More,” “Join Us Now,” “Sign Up Now,”
-and six different media — three images and three videos.
+and six different media — three image[s] and three videos.
+I’ll show you all of them, and then we’ll do a vote.
+And [we’ll] start off and do a bunch and see what wins amongst you guys.
+
 
