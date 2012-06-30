@@ -182,7 +182,9 @@ Welcome to barackobama.com,
 the official website of my campaign for president.)
 
 ([Media: “Springfield Video”] Obama! Obama! Obama!
+
 It’s been a long time since I wanted to hear what a politician has to say.
+
 You came here because you believe in what this country can [inaudible].)
 
 ([Media: “Sam’s Video”] Well, I say to them tonight:
