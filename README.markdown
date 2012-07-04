@@ -141,6 +141,7 @@ Transcribed from scratch:
 - http://www.universalsubtitles.org/fr/videos/cCinMZkk8IfM/en/335507/ (HCI 7.2)
 - http://www.universalsubtitles.org/fr/videos/bMF01JVrNxmV/en/337489/ (HCI 8.1)
 - http://www.universalsubtitles.org/fr/videos/WBCHIQgmVtYu/en/337942/ (HCI 8.2)
+- http://www.universalsubtitles.org/fr/videos/yPBoprhssxol/en/347192/ (Soc Midterm remarks)
 
 
 Reformatting and QA of stanford-bot’s transcripts:
