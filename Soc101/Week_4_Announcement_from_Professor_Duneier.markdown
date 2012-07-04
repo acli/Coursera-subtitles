@@ -14,7 +14,8 @@ But now that you have done it,
 you can see that you have what it takes to formulate your thoughts
 on sociological themes and concepts and theories in a coherent way.
 Now we are about to begin a new process, called “peer assessment,”
-in which you will be asked to evaluate five exams from your fellow students.
+in which you will be asked to evaluate
+up to five exams from your fellow students.
 You’ll be using a rubric that we’ve designed here at Princeton.
 You should know that this rubric
 is not only based on my initial opinion about the correct answers,
@@ -51,7 +52,7 @@ I also want to say something to people who did *not* take the midterm.
 There are many ways of getting something out of this class.
 And even if you did not take the exam,
 I know from your participation in the forums
-that you too are learning a great deal from this class.
+that you too are learning a great deal.
 Although you cannot officially complete the class without taking the midterm,
 you are welcome to take the final and to see how you do.
 
