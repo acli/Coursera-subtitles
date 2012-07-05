@@ -1,0 +1,953 @@
+1
+00:00:02,000 --> 00:00:06,007
+In this lecture, we're gonna talk about
+trying out your interface with people, and
+
+2
+00:00:06,007 --> 00:00:11,002
+doing so in a way that you can improve
+your designs based on what you learned.
+
+3
+00:00:12,005 --> 00:00:15,091
+One of the most common things that people
+ask when running studies is, do you like
+
+4
+00:00:15,091 --> 00:00:19,067
+my interface? And it's a really natural
+thing to ask because on some level it's
+
+5
+00:00:19,067 --> 00:00:23,048
+what we all want to know. But this is
+really problematic on a whole lot of
+
+6
+00:00:23,048 --> 00:00:28,004
+levels. For one it's not very specific and
+so sometimes people will try and make this
+
+7
+00:00:28,004 --> 00:00:32,006
+better and so they'll, they'll improve it
+by doing something like how much do you
+
+8
+00:00:32,006 --> 00:00:37,000
+like my interface on a one to five scale?
+Or this is a useful interface. Agree or
+
+9
+00:00:37,000 --> 00:00:41,005
+disagree on a one to five scale? And this
+adds some kind of patina of scientificness
+
+10
+00:00:41,005 --> 00:00:45,046
+to it but really its just the same thing
+you're asking somebody. Do you like my
+
+11
+00:00:45,046 --> 00:00:49,066
+interface? And people are nice so they're
+going to say, sure I like your interface.
+
+12
+00:00:49,066 --> 00:00:54,042
+This is the please the experimenter bias.
+And this can be especially strong when
+
+13
+00:00:54,042 --> 00:00:58,052
+there are social or cultural or power
+differences between the experimenter and
+
+14
+00:00:58,052 --> 00:01:02,086
+the people that you are trying out your
+interface with. For example [inaudible]
+
+15
+00:01:02,086 --> 00:01:08,001
+and colleagues showed these in effect in
+India, where this effect was exacerbated
+
+16
+00:01:08,001 --> 00:01:12,005
+when the examiner was white. Now you
+should not take this to mean that you
+
+17
+00:01:12,005 --> 00:01:17,002
+shouldn't have your developers try out
+stuff with users. Being the person who is
+
+18
+00:01:17,002 --> 00:01:22,000
+both the developer and the person who is
+trying stuff out is incredibly valuable.
+
+19
+00:01:22,000 --> 00:01:25,065
+And one example I like a lot of this is by
+Mike Krieger, one of the Instagram
+
+20
+00:01:25,065 --> 00:01:30,009
+founders is also a former master student
+and TA of mine. And Mike, when he left
+
+21
+00:01:30,009 --> 00:01:35,003
+Stanford and joined Silicon Valley, every
+Friday afternoon he would bring people
+
+22
+00:01:35,003 --> 00:01:39,009
+into the lab into his office and have them
+try out whatever they were working on that
+
+23
+00:01:39,009 --> 00:01:44,003
+week. And so that way they were able to
+get this regular feedback each week and
+
+24
+00:01:44,003 --> 00:01:48,009
+the people who were building those systems
+got to see real people trying them out.
+
+25
+00:01:48,009 --> 00:01:53,006
+This can be nails on a chalkboard painful
+but you'll also learn a ton. So how do we
+
+26
+00:01:53,006 --> 00:01:57,073
+get beyond do you like my interface? The
+basic strategy that we're going to talk
+
+27
+00:01:57,073 --> 00:02:03,008
+about today is being able to use specific
+measures and concrete questions to be able
+
+28
+00:02:03,008 --> 00:02:09,000
+to deliver meaningful results. One of the
+problems of do you like my interface is
+
+29
+00:02:09,000 --> 00:02:13,008
+compared to what? And I think one of the
+reasons people say, yeah sure is that
+
+30
+00:02:13,008 --> 00:02:18,006
+there's no comparison point and so one
+thing that's really important is when
+
+31
+00:02:18,006 --> 00:02:23,008
+you're measuring the effectiveness of your
+interface, even informally, it's really
+
+32
+00:02:23,008 --> 00:02:28,006
+nice to have some kind of comparison. It's
+also important think about well, what's
+
+33
+00:02:28,006 --> 00:02:33,000
+the yard stick? What constitutes good in
+this arena? What are the measures that
+
+34
+00:02:33,000 --> 00:02:38,008
+you're gonna use? So how can we get beyond
+do you like my interface? One of the ways
+
+35
+00:02:38,008 --> 00:02:44,000
+that we can start out is by asking a base
+rate question like, what fraction of
+
+36
+00:02:44,000 --> 00:02:49,066
+people click on the first link in a search
+results page? Or what fraction of students
+
+37
+00:02:49,066 --> 00:02:55,000
+come to class? Once we start to measure
+correlations things get even more
+
+38
+00:02:55,000 --> 00:02:59,009
+interesting like, is there a relationship
+between the time of day a class is
+
+39
+00:02:59,009 --> 00:03:04,009
+offered? And how many students attend it?
+Or is there a relationship between the
+
+40
+00:03:04,009 --> 00:03:09,005
+order of a search result and the
+click-through rate? For both students and
+
+41
+00:03:09,005 --> 00:03:14,001
+click-through, there can be multiple
+explanations. For example, if there are
+
+42
+00:03:14,001 --> 00:03:19,000
+fewer students that attend early morning
+classes, is that a function of when
+
+43
+00:03:19,000 --> 00:03:24,003
+students want to show up? Or is that a
+good function of when good professors want
+
+44
+00:03:24,003 --> 00:03:29,004
+to teach? With the click-through example,
+there are also two kinds of explanations.
+
+45
+00:03:29,004 --> 00:03:34,005
+If lower placed links yield fewer clicks.
+Is that because the links are of
+
+46
+00:03:34,005 --> 00:03:39,005
+intrinsically poor quality or is it
+because people just click on the first
+
+47
+00:03:39,005 --> 00:03:44,006
+link? They don't, they don't bother
+getting to the second one even if it might
+
+48
+00:03:44,006 --> 00:03:48,009
+be better. To isolate the effect of
+placement and identifying it as playing a
+
+49
+00:03:48,009 --> 00:03:53,003
+casual role, you'd need to isolate that as
+a variable by say, randomizing the order
+
+50
+00:03:53,003 --> 00:03:58,008
+or search results. As we start to talk
+about these experiments, let's introduce a
+
+51
+00:03:58,008 --> 00:04:03,074
+few terms that are gonna help us. The
+multiple different conditio ns that we
+
+52
+00:04:03,074 --> 00:04:09,001
+try, that's the thing we are manipulating.
+For example, the time of the class or the
+
+53
+00:04:09,001 --> 00:04:14,013
+location of a particular link on a search
+result page. These manipulations are
+
+54
+00:04:14,013 --> 00:04:19,020
+independent variables because they are
+independent of what the user does. They
+
+55
+00:04:19,020 --> 00:04:25,060
+are in the control of the experimenter.
+Then we are going to measure what the user
+
+56
+00:04:25,060 --> 00:04:30,068
+does and those measures are called
+dependent variables because they depend on
+
+57
+00:04:30,068 --> 00:04:36,007
+what the user does. Common measures in HCI
+include things like task completion time.
+
+58
+00:04:36,007 --> 00:04:41,040
+How long does it take somebody to complete
+a task? For example, find something I want
+
+59
+00:04:41,040 --> 00:04:45,072
+to buy, create a new account, order an
+item. Accuracy. How many mistakes did
+
+60
+00:04:45,072 --> 00:04:50,003
+people make? And were those fatal errors
+or were those things that they were able
+
+61
+00:04:50,003 --> 00:04:55,003
+to quickly recover from? Recall. How much
+does a person remember afterward, or after
+
+62
+00:04:55,003 --> 00:04:58,097
+periods of non-use? And emotional
+response. How does the person feel about
+
+63
+00:04:58,097 --> 00:05:02,099
+the tasks being completed? Were they
+confident, were they stressed? Would the
+
+64
+00:05:02,099 --> 00:05:07,032
+user recommend this system to a friend?
+So, your independent variables are this
+
+65
+00:05:07,032 --> 00:05:12,028
+things that you manipulate, your dependent
+variables are this things that you
+
+66
+00:05:12,028 --> 00:05:17,013
+measure. How reliable is your experiment?
+If you ran this again, would you see the
+
+67
+00:05:17,013 --> 00:05:21,080
+same results? That's the internal validity
+of an experiment. So, have a precise
+
+68
+00:05:21,080 --> 00:05:26,017
+experiment, you need to better remove the
+confounding factors. Also, it's important
+
+69
+00:05:26,017 --> 00:05:30,077
+to study enough people so that the result
+is unlikely to have been by chance. You
+
+70
+00:05:30,077 --> 00:05:35,091
+may be able to run the same study over and
+over and get the same results but it may
+
+71
+00:05:35,091 --> 00:05:39,077
+not matter in some real world sense and
+the external validity is the
+
+72
+00:05:39,077 --> 00:05:43,063
+generalizability of your results. Does
+this apply only to eighteen year olds in a
+
+73
+00:05:43,063 --> 00:05:47,092
+college classroom? Or does this apply to
+everybody in the world? Let's bring this
+
+74
+00:05:47,092 --> 00:05:51,083
+back to HCI and talk about one of the
+problems you're likely to face as, as a
+
+75
+00:05:51,083 --> 00:05:56,065
+designer. I think one of the things that
+we commonly want to be able to do is to be
+
+76
+00:05:56,065 --> 00:06:00,056
+able to ask something like, is my cool new
+approach better than the industry
+
+77
+00:06:00,056 --> 00:06:04,079
+standard? Because aft er all, that's why
+you're making the new thing. Now, one of
+
+78
+00:06:04,079 --> 00:06:09,085
+the challenges with this, especially early
+on in the design process is that you may
+
+79
+00:06:09,085 --> 00:06:14,035
+have something which is very much in its
+prototype stages and something that is the
+
+80
+00:06:14,035 --> 00:06:18,096
+industry standard is likely to benefit
+from years and years of refinement. And at
+
+81
+00:06:18,096 --> 00:06:23,080
+the same time, it may be stuck with years
+and years of cruft which may or may not be
+
+82
+00:06:23,080 --> 00:06:28,070
+intrinsic to its approach. So if you
+compare your cool new tool to some
+
+83
+00:06:28,070 --> 00:06:32,085
+industry standard, there is two things
+varying here. One is the fidelity of the
+
+84
+00:06:32,085 --> 00:06:37,017
+implementation and the other one of course
+is the approach. Consequently, when you
+
+85
+00:06:37,017 --> 00:06:41,049
+get the results, you can't know whether to
+attribute the results to fidelity or
+
+86
+00:06:41,049 --> 00:06:46,000
+approach or some combination of the two.
+So we're going to talk about ways of
+
+87
+00:06:46,000 --> 00:06:50,012
+teasing apart those different causal
+factors. Now, one thing I should say right
+
+88
+00:06:50,012 --> 00:06:55,014
+off the bat is there are some times where
+it may be more or less relevant whether
+
+89
+00:06:55,014 --> 00:06:59,097
+you have a good handle on what the causal
+factors are. So for example, if you're
+
+90
+00:06:59,097 --> 00:07:04,028
+trying to decide between two different
+digital cameras, at the end of the day,
+
+91
+00:07:04,028 --> 00:07:09,012
+maybe all you care about is image quality
+or usability or some other factor and
+
+92
+00:07:09,012 --> 00:07:14,006
+exactly what the, makes that image quality
+better or worse or any other element along
+
+93
+00:07:14,006 --> 00:07:19,050
+the way may be less relevant to you. If
+you don't have control over the variables
+
+94
+00:07:19,050 --> 00:07:23,081
+then identifying cause may not always be
+what you want. But when you are a
+
+95
+00:07:23,081 --> 00:07:28,078
+designer, you do have control over the
+variables and that's when it is really
+
+96
+00:07:28,078 --> 00:07:34,031
+important to as you retain cause. Here's
+an example of a study that came out right
+
+97
+00:07:34,031 --> 00:07:39,025
+when the iPhone was released, done by a
+research firm User Centric, and I'm going
+
+98
+00:07:39,025 --> 00:07:43,078
+to read from this news article here.
+Research firm User Centric has released a
+
+99
+00:07:43,078 --> 00:07:48,098
+study that tries to gauge how effective
+the iPhone's unusual on screen keyboard
+
+100
+00:07:48,098 --> 00:07:54,038
+is. The goal is certainly a noble one but
+I cannot say the survey's approach results
+
+101
+00:07:54,038 --> 00:07:59,057
+in data that makes much sense. User
+Centric brought in twenty owners of other
+
+102
+00:07:59,057 --> 00:08:04,058
+phones. Half had qwerty keyboards, half
+had ordin ary numeric phones, with
+
+103
+00:08:04,058 --> 00:08:10,013
+keypads. None were familiar with the
+iPhone. The research involved having the
+
+104
+00:08:10,013 --> 00:08:15,069
+test subjects enter six sample test
+messages with the phones that they already
+
+105
+00:08:15,069 --> 00:08:20,013
+had, and six with the iPhone. The end
+result was that the iPhone newbies took
+
+106
+00:08:20,013 --> 00:08:25,042
+twice as long to enter text with an iPhone
+as they did with their own phones and made
+
+107
+00:08:25,042 --> 00:08:31,025
+lots more typos. So let's critique this
+study and talk about it's benefits and
+
+108
+00:08:31,025 --> 00:08:35,091
+drawbacks. Here's the webpage directly
+from User Centric. What's our manipulation
+
+109
+00:08:35,091 --> 00:08:43,006
+in this study? Well the manipulation is
+going to be the input style. How about the
+
+110
+00:08:43,006 --> 00:08:51,006
+measure in the study? It's going to be the
+words per minute. And there's absolutely
+
+111
+00:08:51,006 --> 00:08:56,058
+value in being able to measure the initial
+usability of the iPhone. For several
+
+112
+00:08:56,058 --> 00:09:01,091
+reasons, one is if you're introducing new
+technology it's beneficial if people are
+
+113
+00:09:01,091 --> 00:09:06,075
+able to get up to speed pretty quickly.
+However it's important to realize that
+
+114
+00:09:06,075 --> 00:09:11,029
+this comparison is intrinsically unfair
+because the users of the, the previous
+
+115
+00:09:11,029 --> 00:09:16,072
+cell phones were experts at that input
+modality and the people who are using the
+
+116
+00:09:16,072 --> 00:09:21,010
+iphone are novices in that modality. And
+so it seems quite likely that the iPhone
+
+117
+00:09:21,010 --> 00:09:26,004
+users, once they become actual users are
+gonna get better over time and so if
+
+118
+00:09:26,004 --> 00:09:31,007
+you're not used to something the first
+time you try it, that may not be a deal
+
+119
+00:09:31,007 --> 00:09:36,046
+killer, and it's certainly not an apples
+to apples comparison. Another thing that
+
+120
+00:09:36,046 --> 00:09:43,000
+we don't get out of this article is, is
+this difference significant? So we read
+
+121
+00:09:43,000 --> 00:09:50,032
+that each person who typed six messages in
+each of two conditions and so they did
+
+122
+00:09:50,032 --> 00:09:56,049
+their own device in the iPhone or vice
+versa. Six messages each and that the
+
+123
+00:09:56,049 --> 00:10:03,049
+iPhone users were half the speed of the,
+or rather the people typing with the
+
+124
+00:10:03,049 --> 00:10:09,053
+iPhone were half as fast as when they got
+to type with a mini qwerty and the device
+
+125
+00:10:09,053 --> 00:10:14,070
+that they were accustomed to. So while
+this may tell us something about the
+
+126
+00:10:14,070 --> 00:10:19,058
+initial usability of the iPhone in terms
+of the long usability, long-term
+
+127
+00:10:19,058 --> 00:10:24,048
+usability, you know I don't think we get
+so much out of this here. If you weren't s
+
+128
+00:10:24,048 --> 00:10:29,014
+atisfied by that initial data, you're in
+good company, neither were the authors of
+
+129
+00:10:29,014 --> 00:10:33,050
+that study. So they went back a month
+later and they ran another study where
+
+130
+00:10:33,050 --> 00:10:38,055
+they brought in 40 new people to the lab
+who were either iPhone users or Qwerty
+
+131
+00:10:38,055 --> 00:10:43,064
+users or nine key users. And now it's more
+of an apples to apples comparison in that
+
+132
+00:10:43,064 --> 00:10:48,052
+they are going to test people that are
+relatively experts in these different
+
+133
+00:10:48,052 --> 00:10:54,002
+modalities. After about a month on the
+iPhone you're probably starting to ask in
+
+134
+00:10:54,002 --> 00:10:58,062
+terms of your performance. Definitely it
+gets better over time, even past a month
+
+135
+00:10:58,062 --> 00:11:05,004
+but you know a month starts to get more
+reasonable. And what they found was that
+
+136
+00:11:05,004 --> 00:11:12,044
+iPhone users and Qwerty users were about
+the same. And in terms of speed and that
+
+137
+00:11:12,044 --> 00:11:18,068
+the numeric keypad users were much slower.
+So once again our manipulation is going to
+
+138
+00:11:18,068 --> 00:11:24,006
+be input style and we're going to measure
+speed. This time we're also going to
+
+139
+00:11:24,006 --> 00:11:30,005
+measure error rate. And what we see is
+that iPhone users and Qwerty users are
+
+140
+00:11:30,005 --> 00:11:37,004
+essentially the same speed. However, the
+iPhone users make many more errors. Now,
+
+141
+00:11:37,004 --> 00:11:43,001
+one thing I should point out about the
+study is that each of the different
+
+142
+00:11:43,001 --> 00:11:49,006
+devices was used by a different group of
+people. And it was done this way so that
+
+143
+00:11:49,006 --> 00:11:54,009
+each, each device was used by somebody who
+is comfortable and had experience with
+
+144
+00:11:54,009 --> 00:11:59,008
+working with that device. And so, we
+removed the worry that you had newbies
+
+145
+00:11:59,008 --> 00:12:04,004
+working on these devices. However,
+especially in 2007, there may have been
+
+146
+00:12:04,004 --> 00:12:10,000
+significant differences in who the people
+were who were using the early adopters of
+
+147
+00:12:10,000 --> 00:12:14,061
+the 2007 iPhone or maybe business users
+were particularly drawn to the Qwerty
+
+148
+00:12:14,061 --> 00:12:20,059
+devices or people who had better things to
+do with their time than send e-mail on
+
+149
+00:12:20,059 --> 00:12:25,001
+their telephone or using the nine key
+devices. And so, while this comparison is
+
+150
+00:12:25,001 --> 00:12:29,005
+better than the previous one, the
+potential for variation between the user
+
+151
+00:12:29,005 --> 00:12:34,000
+populations is still problematic. If what
+you'd like to be able to claim is
+
+152
+00:12:34,000 --> 00:12:38,007
+something about the intrinsic properties
+of the device and may at least in part
+
+153
+00:12:38,007 --> 00:12:45,047
+have to do with the users. So, what are
+some st rategies for fairer comparison? To
+
+154
+00:12:45,047 --> 00:12:50,068
+brainstorm a couple of options one thing
+you could do is insert your approach in to
+
+155
+00:12:50,068 --> 00:12:55,025
+your production setting and this may seem
+like a lot of work, sometimes it is but in
+
+156
+00:12:55,025 --> 00:12:59,065
+the age of the web this is a lot easier
+than it used to be. And it's possible even
+
+157
+00:12:59,065 --> 00:13:03,024
+if you don't have access to these server
+of the service that you're comparing
+
+158
+00:13:03,024 --> 00:13:08,001
+against. You can use things like a proxy
+server or client type scripting to be able
+
+159
+00:13:08,001 --> 00:13:12,034
+to put your own technique in and have an
+apples to apples comparison. A second
+
+160
+00:13:12,034 --> 00:13:18,007
+strategy for neutralizing the environment
+difference between a production version
+
+161
+00:13:18,007 --> 00:13:24,040
+and your new approach is to make a version
+of the production thing in the same style
+
+162
+00:13:24,040 --> 00:13:29,005
+as your new approach. That also makes them
+equivalent in terms of their
+
+163
+00:13:29,005 --> 00:13:34,003
+implementation fidelity. A third strategy
+and one that's used commonly in research,
+
+164
+00:13:34,003 --> 00:13:38,003
+is to scale things down so you're looking
+at just a piece of the system at a
+
+165
+00:13:38,003 --> 00:13:42,004
+particular point in time. That way you
+don't have to worry about implementing a
+
+166
+00:13:42,004 --> 00:13:46,002
+whole big, giant thing. You can just focus
+on one small piece and have that
+
+167
+00:13:46,002 --> 00:13:52,009
+comparison be fair. And the fourth
+strategy is that when expertise is
+
+168
+00:13:52,009 --> 00:13:57,007
+relevant, train people up. Give them the
+practice that they need so that they can
+
+169
+00:13:57,007 --> 00:14:02,005
+start at least hitting that asymptote in
+terms of performance and you can get a
+
+170
+00:14:02,005 --> 00:14:07,004
+better read than, what they would be as
+newbies. So now to close out this lecture
+
+171
+00:14:07,004 --> 00:14:12,004
+if somebody asks you the question, is
+interface x better than interface y? You
+
+172
+00:14:12,004 --> 00:14:16,048
+know that we're off to a good start
+because we have a comparison. However, you
+
+173
+00:14:16,048 --> 00:14:21,007
+also know to be worried. What does better
+mean? And often, in a complex system,
+
+174
+00:14:21,007 --> 00:14:26,000
+you're going to have several measures.
+That's totally cool. There's a lot of
+
+175
+00:14:26,000 --> 00:14:30,053
+value in being explicit though about what
+it is you mean by better. What are you
+
+176
+00:14:30,053 --> 00:14:36,001
+trying to accomplish? What are you trying
+to approve? And if anybody ever tells you
+
+177
+00:14:36,001 --> 00:14:40,008
+that their interface is always better,
+don't believe them because nearly all of
+
+178
+00:14:40,008 --> 00:14:47,001
+the time the answer is going to be, it
+depends. And the interesting question is,
+
+179
+00:14:47,001 --> 00:14:53,004
+what does it depend on? Most interfaces
+are good for something and not for others.
+
+180
+00:14:53,004 --> 00:14:57,072
+For example if you have a tablet computer
+where all of the screen is devoted to
+
+181
+00:14:57,072 --> 00:15:02,034
+display, that is going to be great for
+reading, for web browsing, for that kind
+
+182
+00:15:02,034 --> 00:15:07,007
+of activity, looking at pictures. Not so
+good if you want to type a novel. So here,
+
+183
+00:15:07,007 --> 00:15:12,009
+we've introduced controlled comparison as
+a way of finding the smoking gun, as a way
+
+184
+00:15:12,009 --> 00:15:18,000
+of inferring cause. And often for, when
+you have only two conditions, we're gonna
+
+185
+00:15:18,000 --> 00:15:23,000
+talk about that as being a minimal pairs
+design. As a practicing designer, the
+
+186
+00:15:23,000 --> 00:15:28,005
+reason to care about what's causal is that
+it gives you the material to make a better
+
+187
+00:15:28,005 --> 00:15:33,024
+decision going forward. A lot of studies
+violate this constraint. And, that gets
+
+188
+00:15:33,024 --> 00:15:37,035
+dangerous because it doesn't, it prevents
+you from being able to make sound
+
+189
+00:15:37,035 --> 00:15:42,060
+decisions. I hope that the tools that
+we've talked about today and in the next
+
+190
+00:15:42,060 --> 00:15:50,011
+several lectures will help you become a
+wise skeptic like our friend in this XKCD
+
+191
+00:15:50,011 --> 00:15:53,001
+Comic. I'll see you next time.
